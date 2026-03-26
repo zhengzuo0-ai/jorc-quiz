@@ -14,6 +14,14 @@ interface Props {
 
 export default function QuestionCard({ question, index, total, onAnswer, onNext }: Props) {
   const [selected, setSelected] = useState<OptionKey | null>(null);
+  const [trackedId, setTrackedId] = useState(question.id);
+
+  // React 19 pattern: reset state when key prop changes via state tracking
+  if (trackedId !== question.id) {
+    setTrackedId(question.id);
+    setSelected(null);
+  }
+
   const answered = selected !== null;
   const isCorrect = selected === question.correct;
 
@@ -25,11 +33,6 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
     },
     [answered, question, onAnswer]
   );
-
-  // Reset when question changes
-  useEffect(() => {
-    setSelected(null);
-  }, [question.id]);
 
   // Keyboard shortcuts
   useEffect(() => {
