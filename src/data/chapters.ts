@@ -34,6 +34,7 @@ export const chapters: Chapter[] = [
 // Industry knowledge chapters (no quiz questions, concept-only)
 export const industryChapters: Chapter[] = [
   { id: 'gold-industry-01', domain: 'gold', name: '顶级金矿公司', nameEn: 'Top Gold Companies & Country Analysis', description: 'Newmont, Barrick, B2Gold, Endeavour + 马里/老挝深度分析', questionCount: 0 },
+  { id: 'gold-industry-02', domain: 'gold', name: '矿业估值与收购', nameEn: 'Mining Valuation & M&A', description: 'DCF, NAV, EV/oz, Due Diligence, M&A策略', questionCount: 0 },
 ];
 
 export const jorcChapters = chapters.filter(c => c.domain === 'jorc');
