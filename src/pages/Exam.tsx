@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo, useEffect } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { chapters } from '../data/chapters';
 import { useMultiChapterQuestions } from '../hooks/useQuestions';
 import { useProgress } from '../hooks/useProgress';
@@ -45,13 +45,7 @@ export default function Exam() {
     setTimerRunning(true);
   }, [chapterIds]);
 
-  // Transition to exam phase once questions load
-  useEffect(() => {
-    if (phase === 'exam' && questions.length === 0 && !loading && startedChapterIds.length > 0) {
-      // No questions available
-      setPhase('config');
-    }
-  }, [phase, questions.length, loading, startedChapterIds]);
+  // Check for empty questions after loading — handled in render below
 
   const finishExam = useCallback(() => {
     setTimerRunning(false);
@@ -155,7 +149,21 @@ export default function Exam() {
   }
 
   // Loading
-  if (loading || (phase === 'exam' && questions.length === 0)) {
+  if (phase === 'exam' && (loading || questions.length === 0)) {
+    if (!loading && questions.length === 0 && startedChapterIds.length > 0) {
+      // No questions available — show fallback
+      return (
+        <div className="text-center mt-12">
+          <p className="text-gray-500 mb-4">暂无题目</p>
+          <button
+            onClick={() => { setPhase('config'); setStartedChapterIds([]); }}
+            className="px-4 py-2 text-sm bg-blue-600 text-white rounded hover:bg-blue-700"
+          >
+            返回设置
+          </button>
+        </div>
+      );
+    }
     return <div className="text-center text-gray-500 mt-12">加载题目中...</div>;
   }
 
