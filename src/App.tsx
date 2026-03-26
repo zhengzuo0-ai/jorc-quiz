@@ -6,6 +6,7 @@ const Home = lazy(() => import('./pages/Home'));
 const Practice = lazy(() => import('./pages/Practice'));
 const Review = lazy(() => import('./pages/Review'));
 const Exam = lazy(() => import('./pages/Exam'));
+const Concepts = lazy(() => import('./pages/Concepts'));
 
 const Loading = () => (
   <div className="text-center text-gray-500 mt-12">加载中...</div>
@@ -21,6 +22,8 @@ export default function App() {
           <Route path="practice/:chapterId" element={<Practice />} />
           <Route path="review" element={<Review />} />
           <Route path="exam" element={<Exam />} />
+          <Route path="concepts" element={<Concepts />} />
+          <Route path="concepts/:chapterId" element={<Concepts />} />
         </Route>
       </Routes>
     </Suspense>
