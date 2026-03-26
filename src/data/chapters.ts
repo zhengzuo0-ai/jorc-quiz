@@ -36,6 +36,7 @@ export const industryChapters: Chapter[] = [
   { id: 'gold-industry-01', domain: 'gold', name: '顶级金矿公司', nameEn: 'Top Gold Companies & Country Analysis', description: 'Newmont, Barrick, B2Gold, Endeavour + 马里/老挝深度分析', questionCount: 0 },
   { id: 'gold-industry-02', domain: 'gold', name: '矿业估值与收购', nameEn: 'Mining Valuation & M&A', description: 'DCF, NAV, EV/oz, Due Diligence, M&A策略', questionCount: 0 },
   { id: 'gold-industry-03', domain: 'gold', name: '矿山组织与团队', nameEn: 'Mining Organization & Key Roles', description: '组织架构、关键岗位、团队建设建议', questionCount: 0 },
+  { id: 'gold-industry-04', domain: 'gold', name: '马里矿业法详解', nameEn: 'Mali Mining Code Deep Dive', description: '2023新法、政府持股、税收、本地化要求', questionCount: 0 },
   { id: 'glossary', domain: 'gold', name: '矿业术语表', nameEn: 'Mining Glossary', description: '200+中英文对照矿业术语', questionCount: 0 },
 ];
 
