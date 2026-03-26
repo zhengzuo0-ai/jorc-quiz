@@ -1,13 +1,26 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { chapters, jorcChapters, goldChapters } from '../data/chapters';
+import { storage } from '../lib/storage';
 
 export default function Concepts() {
   const { chapterId } = useParams<{ chapterId: string }>();
   const [content, setContent] = useState('');
   const [loading, setLoading] = useState(false);
+  const [readChapters, setReadChapters] = useState<string[]>(() =>
+    storage.get<string[]>('read_concepts', [])
+  );
+
+  const markAsRead = useCallback((id: string) => {
+    setReadChapters(prev => {
+      if (prev.includes(id)) return prev;
+      const next = [...prev, id];
+      storage.set('read_concepts', next);
+      return next;
+    });
+  }, []);
   const [error, setError] = useState(false);
 
   useEffect(() => {
@@ -23,6 +36,7 @@ export default function Concepts() {
           setContent(text);
           setError(false);
           setLoading(false);
+          markAsRead(chapterId);
         }
       } catch {
         if (!cancelled) {
@@ -36,14 +50,15 @@ export default function Concepts() {
     setLoading(true);
     load();
     return () => { cancelled = true; };
-  }, [chapterId]);
+  }, [chapterId, markAsRead]);
 
   // Chapter list view
   if (!chapterId) {
     return (
       <div className="max-w-2xl mx-auto">
         <h1 className="text-xl font-semibold text-gray-800 mb-2">知识学习 Concepts</h1>
-        <p className="text-sm text-gray-500 mb-6">中英文对照的矿业知识讲解，配合练习使用效果更佳</p>
+        <p className="text-sm text-gray-500 mb-1">中英文对照的矿业知识讲解，配合练习使用效果更佳</p>
+        <p className="text-xs text-gray-400 mb-6">已阅读 {readChapters.length}/{chapters.length} 章</p>
 
         <div className="mb-6">
           <h2 className="text-sm font-medium text-gray-600 mb-2">JORC Code</h2>
@@ -58,7 +73,7 @@ export default function Concepts() {
                   <div className="text-sm text-gray-800">{ch.name}</div>
                   <div className="text-xs text-gray-500">{ch.nameEn}</div>
                 </div>
-                <span className="text-gray-400 text-xs">→</span>
+                <span className="text-xs">{readChapters.includes(ch.id) ? <span className="text-green-500">已读</span> : <span className="text-gray-400">→</span>}</span>
               </Link>
             ))}
           </div>
@@ -77,7 +92,7 @@ export default function Concepts() {
                   <div className="text-sm text-gray-800">{ch.name}</div>
                   <div className="text-xs text-gray-500">{ch.nameEn}</div>
                 </div>
-                <span className="text-gray-400 text-xs">→</span>
+                <span className="text-xs">{readChapters.includes(ch.id) ? <span className="text-green-500">已读</span> : <span className="text-gray-400">→</span>}</span>
               </Link>
             ))}
           </div>
