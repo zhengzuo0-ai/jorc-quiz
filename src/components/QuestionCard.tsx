@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import type { Question } from '../types';
 
 const optionKeys = ['A', 'B', 'C', 'D'] as const;
@@ -74,9 +75,18 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
   return (
     <div className="bg-white rounded-lg border border-gray-200 p-6 max-w-2xl mx-auto">
       {/* Header */}
-      <div className="flex justify-between text-sm text-gray-500 mb-4">
+      <div className="flex justify-between items-center text-sm text-gray-500 mb-4">
         <span>Q{index + 1}/{total}</span>
-        <span>{question.chapterId}</span>
+        <div className="flex items-center gap-2">
+          <span className={`text-xs px-1.5 py-0.5 rounded ${
+            question.difficulty === 1 ? 'bg-green-100 text-green-700' :
+            question.difficulty === 2 ? 'bg-yellow-100 text-yellow-700' :
+            'bg-red-100 text-red-700'
+          }`}>
+            {question.difficulty === 1 ? '基础' : question.difficulty === 2 ? '应用' : '综合'}
+          </span>
+          <span>{question.chapterId}</span>
+        </div>
       </div>
 
       {/* Question stem */}
@@ -108,6 +118,12 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
           </div>
           <div className="text-xs text-gray-500 mb-4">
             <span className="font-medium">关键概念:</span> {question.key_concept}
+            <Link
+              to={`/concepts/${question.chapterId}`}
+              className="ml-2 text-blue-500 hover:underline"
+            >
+              查看知识点 →
+            </Link>
           </div>
           <div className="flex justify-end">
             <button
