@@ -100,6 +100,10 @@
 
 ## 化探方法 Geochemical Methods
 
+*参考资料: [Geology Hub - Pathfinders for Gold](https://geology-hub.com/pathfinders-for-gold-deposits), [Rangefront - Soil Sampling](https://rangefront.com/blog/role-of-geochemical-soil-sampling/), [ESRI - Prospecting for Gold](https://www.esri.com/news/arcuser/0612/prospecting-for-gold.html)*
+
+> **通俗理解**: 化探就像"闻气味找厨房"。矿体就像一个埋在地下的厨房，它"做菜"时（风化侵蚀）释放出的"气味"（化学元素）会飘散到周围的土壤和水中。化探工作者就是那个"闻气味的人"——在地面系统采集土壤样品，化验里面的元素含量，哪里"味道"最浓，哪里就可能有矿。
+
 ### 基本原理 Fundamental Principle
 
 矿体经风化作用释放的元素沿地表水系和土壤扩散，形成**地球化学异常 (geochemical anomaly)**。
