@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import type { Question } from '../types';
 
 const optionKeys = ['A', 'B', 'C', 'D'] as const;
@@ -14,6 +14,14 @@ interface Props {
 
 export default function QuestionCard({ question, index, total, onAnswer, onNext }: Props) {
   const [selected, setSelected] = useState<OptionKey | null>(null);
+  const prevQuestionId = useRef(question.id);
+
+  // Reset when question changes — avoid setState in effect
+  if (prevQuestionId.current !== question.id) {
+    prevQuestionId.current = question.id;
+    setSelected(null);
+  }
+
   const answered = selected !== null;
   const isCorrect = selected === question.correct;
 
@@ -25,11 +33,6 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
     },
     [answered, question, onAnswer]
   );
-
-  // Reset when question changes
-  useEffect(() => {
-    setSelected(null);
-  }, [question.id]);
 
   // Keyboard shortcuts
   useEffect(() => {
