@@ -27,17 +27,24 @@
 - 2019年收购 Goldcorp ($10B) → 成为全球最大
 - 2023年收购 Newcrest Mining ($19.5B) → 巩固第一
 
-**关键数据 Key Figures (2024):**
-- 市值: ~$50B
-- 年产量: ~6.0 Moz Au
-- 储量: ~96 Moz Au (Proved + Probable)
-- 资源量: ~130 Moz Au
-- 运营矿山: 全球 17 座
-- AISC: ~$1,275/oz
+**关键数据 Key Figures (2024年报):**
+
+*数据来源: [Newmont Q4 2024 Results](https://www.newmont.com/investors/news-release/news-details/2025/Newmont-Reports-Fourth-Quarter-and-Full-Year-2024-Results-Provides-Full-Year-2025-Guidance/default.aspx)*
+
+- 年产量: **6.8 Moz Au** + 153kt Cu + 1.9M GEOs
+- 收入: **$18.68B** (+58% YoY)
+- 净利润: **$3.4B** (2023年亏损$2.5B → 大翻转)
+- 经营现金流: **$6.3B** | 自由现金流: **$2.9B**
+- 储量: **134.1 Moz Au** (P&P) + 13.5Mt Cu
+- AISC: ~$1,439-1,611/oz (Tier 1 portfolio ~$1,378)
+- 员工: ~22,200人 + ~20,400承包商
+- 2024年剥离资产获$4.3B现金
+- 2025年指导: **5.9 Moz Au**, AISC $1,620/oz
 
 **CEO**: Tom Palmer (2019-present)
 - 工程师背景，在 Rio Tinto 工作多年
 - 推动数字化转型和ESG战略
+- 完成了$19.5B收购Newcrest的整合
 
 **PMH可学习的:**
 - Newmont的并购整合能力 — 如何整合不同矿山运营体系
