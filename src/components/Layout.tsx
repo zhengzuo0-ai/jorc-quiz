@@ -6,6 +6,7 @@ const navItems = [
   { to: '/practice', label: '练习' },
   { to: '/review', label: '错题本' },
   { to: '/exam', label: '模考' },
+  { to: '/notes', label: '笔记' },
 ];
 
 function NavLinkItem({ to, label }: { to: string; label: string }) {
