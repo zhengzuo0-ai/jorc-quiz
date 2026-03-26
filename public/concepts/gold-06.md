@@ -1,5 +1,9 @@
 # 金矿开采方法 Gold Mining Methods
 
+*参考资料: [Wikipedia - Heap Leaching](https://en.wikipedia.org/wiki/Heap_leaching), [Mining Pedia - Heap Leach Guide](https://www.miningpedia.cn/cyanidation/complete-guide-for-gold-heap-leaching-process.html), [Farmonaut - Heap Leaching 2025](https://farmonaut.com/mining/heap-leaching-for-gold-extraction-7-key-advantages-2025)*
+
+> **通俗理解**: 开采金矿就像挖宝——首先要找到"宝箱"（矿体），然后选择最经济的方式把它挖出来。如果宝箱埋得浅，就从上面挖个大坑（露天开采）；如果埋得深，就打一条隧道进去（地下开采）；如果金子分布得很散、品位很低，那就把矿石堆起来慢慢"泡"出金子（堆浸）。
+
 ## 开采方法分类 Classification
 
 | 方法 Method | 适用条件 | 品位要求 | 产能 |
@@ -73,20 +77,44 @@
 
 ## 堆浸 Heap Leaching
 
+> **通俗理解**: 堆浸就像"泡咖啡"——把咖啡粉（碎矿石）堆在一个过滤纸（防渗膜）上，然后慢慢淋上热水（氰化钠溶液），咖啡的味道（金）会溶入水中，从底部流出来被收集。只不过这"咖啡"要泡60-120天。
+
 ### 原理 Principle
 将低品位矿石堆放在防渗垫层上，喷淋稀氰化钠溶液，金被溶解后从底部收集含金贵液。
 
-### 流程 Process
+### 流程图 Process Diagram
+
 ```
-矿石破碎 → 堆筑 → 喷淋氰化溶液 → 贵液收集 → 金回收 (炭吸附/锌粉置换)
-Crush ore → Stack on pad → Spray NaCN solution → Collect pregnant solution → Gold recovery
+  💧 氰化钠溶液 (喷淋/滴灌)
+        ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
+   ┌─────────────────────────┐
+   │   碎矿石堆 ORE HEAP     │  ← 金随溶液向下溶解
+   │   (高5-10米)             │     Gold dissolves as
+   │                         │     solution percolates
+   └─────────────────────────┘
+   ═══════════════════════════  ← 防渗膜 HDPE Liner
+        ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
+   ┌─────────────────────────┐
+   │  含金贵液 (PLS)          │  ← 在此收集
+   │  Pregnant Leach Solution │
+   └───────────┬─────────────┘
+               ⬇️
+   ┌─────────────────────────┐
+   │  加工厂 Processing       │  ← 活性炭吸附 或
+   │  (Carbon / Zinc)        │     锌粉置换回收金
+   └───────────┬─────────────┘
+        ⬇️              ⬇️
+   纯金 Gold         贫液循环利用 🔄
+   (熔炼)           Barren solution recycled
 ```
 
 ### 关键参数
 - 氰化钠浓度: 0.3-1.0 kg/t NaCN
 - 喷淋速率: 5-10 L/h/m²
-- 浸出周期: 60-120 天
-- 金回收率: 60-80% (低于CIL/CIP)
+- 浸出周期: **60-120 天** (氧化矿石较快，硫化矿石更慢)
+- 金回收率: **60-80%** (低于CIL/CIP的90%+，但成本低得多)
+- 可处理品位低至 **0.2 g/t** 的矿石
+- 比传统选矿厂节能 **40-55%**，节水约 **30%**
 
 ### 优势与局限
 | 优势 Advantages | 局限 Limitations |

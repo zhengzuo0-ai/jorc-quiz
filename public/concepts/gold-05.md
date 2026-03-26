@@ -52,9 +52,13 @@
 - **视电阻率 Apparent Resistivity (ρₐ)**: 单位 Ω·m
 
 **为什么IP对金矿特别有效？**
+
+> **通俗理解**: IP就像是给地下做"心电图"。你往地下通电，然后断电后观察岩石"放电"的速度。含硫化物的岩石就像一个小电池，会慢慢放电——衰减越慢，说明硫化物越多。而金常常和硫化物长在一起，所以IP高异常区就是钻探的好靶子。IP测量是金矿勘探中**性价比最高的物探方法之一**。
+
 - 金常与硫化物 (黄铁矿 pyrite、毒砂 arsenopyrite) 伴生
 - 硫化物产生强IP异常
 - "**黄铁矿是金矿最好的朋友**" — IP异常 = 潜在金矿化
+- 但注意: 石墨和粘土也会产生IP异常（"假阳性"），需要结合其他方法综合判断
 
 #### 电阻率法 Resistivity
 
@@ -147,6 +151,10 @@ Ore body → Weathering → Element release → Enrichment in media → Anomaly
 
 ## 遥感方法 Remote Sensing Methods
 
+*参考资料: [MDPI - Twenty Years of ASTER](https://www.mdpi.com/2072-4292/11/11/1394), [QGIS in Mineral Exploration - ASTER Data](https://qgis-in-mineral-exploration.readthedocs.io/en/latest/source/remote_sensing/aster_data.html), [Farmonaut - Satellite Band Ratio](https://farmonaut.com/mining/satellite-band-ratio-mineral-exploration-top-5-techniques)*
+
+> **通俗理解**: 遥感就像用"超级相机"从太空拍照。不同矿物在不同波长的光线下会呈现不同的"颜色"——就像你用紫外灯照邮票能看到肉眼看不到的防伪标记一样。科学家用卫星的"特殊波段相机"拍摄地面，就能在电脑上"看到"哪些地方有蚀变矿物，从而推断哪里可能有矿。
+
 ### 原理 Principle
 利用不同物质对**电磁波的反射、吸收和辐射特征**进行识别。
 
@@ -166,7 +174,7 @@ Ore body → Weathering → Element release → Enrichment in media → Anomaly
 |---|---|---|---|
 | Landsat 8/9 | 11 | 30m | 免费，全球覆盖 |
 | Sentinel-2 | 13 | 10-60m | 免费，5天重访 |
-| ASTER | 14 | 15-90m | SWIR+TIR组合最佳 |
+| ASTER | 14 | 15-90m | SWIR+TIR组合最佳 (注: SWIR传感器2008年后失效，现用档案数据) |
 | WorldView-3 | 29 | 1.24m | 商业高分辨率 |
 | Hyperion | 242 | 30m | 高光谱 (已退役) |
 
