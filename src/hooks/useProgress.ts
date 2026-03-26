@@ -34,5 +34,46 @@ export function useProgress() {
   const totalCorrect = answers.filter(a => a.correct).length;
   const overallAccuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
 
-  return { answers, recordAnswer, getChapterStats, totalAnswered, totalCorrect, overallAccuracy };
+  // Daily streak: count consecutive days with at least 1 answer
+  const getDailyStreak = useCallback((): number => {
+    if (answers.length === 0) return 0;
+    const daySet = new Set(
+      answers.map(a => new Date(a.answeredAt).toDateString())
+    );
+    let streak = 0;
+    const today = new Date();
+    for (let i = 0; i < 365; i++) {
+      const d = new Date(today);
+      d.setDate(d.getDate() - i);
+      if (daySet.has(d.toDateString())) {
+        streak++;
+      } else {
+        break;
+      }
+    }
+    return streak;
+  }, [answers]);
+
+  // Weak chapters: chapters with >5 answers and <60% accuracy
+  const getWeakChapters = useCallback(
+    (chapterIds: string[]): string[] => {
+      return chapterIds.filter(id => {
+        const stats = getChapterStats(id);
+        return stats.total >= 5 && stats.accuracy < 60;
+      });
+    },
+    [getChapterStats]
+  );
+
+  // Today's progress
+  const getTodayCount = useCallback((): number => {
+    const todayStr = new Date().toDateString();
+    return answers.filter(a => new Date(a.answeredAt).toDateString() === todayStr).length;
+  }, [answers]);
+
+  return {
+    answers, recordAnswer, getChapterStats,
+    totalAnswered, totalCorrect, overallAccuracy,
+    getDailyStreak, getWeakChapters, getTodayCount,
+  };
 }

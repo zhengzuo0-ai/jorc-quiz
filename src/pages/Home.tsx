@@ -4,8 +4,12 @@ import { useProgress } from '../hooks/useProgress';
 import { useErrorBook } from '../hooks/useErrorBook';
 
 export default function Home() {
-  const { getChapterStats, totalAnswered, overallAccuracy } = useProgress();
+  const { getChapterStats, totalAnswered, overallAccuracy, getDailyStreak, getWeakChapters, getTodayCount } = useProgress();
   const { dueEntries } = useErrorBook();
+  const streak = getDailyStreak();
+  const todayCount = getTodayCount();
+  const allChapterIds = [...jorcChapters, ...goldChapters].map(c => c.id);
+  const weakChapters = getWeakChapters(allChapterIds);
 
   const jorcStats = jorcChapters.reduce(
     (acc, ch) => {
@@ -47,15 +51,55 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Overall stats */}
-      <div className="text-sm text-gray-600 mb-2">
-        总进度: {totalAnswered} 题 · 正确率 {overallAccuracy}%
+      {/* Today's progress & streak */}
+      <div className="bg-white rounded-lg border border-gray-200 p-4 mb-4">
+        <div className="flex items-center justify-between">
+          <div>
+            <div className="text-sm text-gray-600">
+              今日已做 <span className="font-medium text-gray-800">{todayCount}</span> 题
+            </div>
+            <div className="text-sm text-gray-600">
+              总进度: {totalAnswered} 题 · 正确率 {overallAccuracy}%
+            </div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold text-orange-500">{streak}</div>
+            <div className="text-xs text-gray-500">连续天数</div>
+          </div>
+        </div>
       </div>
 
+      {/* Action items */}
       {dueEntries.length > 0 && (
-        <Link to="/review" className="text-sm text-blue-600 hover:underline mb-4 block">
-          待复习错题: {dueEntries.length} 道 →
+        <Link to="/review" className="block bg-yellow-50 border border-yellow-200 rounded-lg px-4 py-3 mb-3 hover:bg-yellow-100">
+          <div className="text-sm text-yellow-800 font-medium">
+            待复习错题: {dueEntries.length} 道 →
+          </div>
+          <div className="text-xs text-yellow-600 mt-0.5">及时复习能有效巩固记忆</div>
         </Link>
+      )}
+
+      {weakChapters.length > 0 && (
+        <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 mb-4">
+          <div className="text-sm text-red-800 font-medium mb-1">
+            薄弱章节 ({weakChapters.length})
+          </div>
+          <div className="flex flex-wrap gap-1">
+            {weakChapters.map(id => {
+              const ch = [...jorcChapters, ...goldChapters].find(c => c.id === id);
+              const stats = getChapterStats(id);
+              return (
+                <Link
+                  key={id}
+                  to={`/practice/${id}`}
+                  className="text-xs bg-red-100 text-red-700 px-2 py-0.5 rounded hover:bg-red-200"
+                >
+                  {ch?.name} ({stats.accuracy}%)
+                </Link>
+              );
+            })}
+          </div>
+        </div>
       )}
 
       {/* Per-chapter accuracy */}
