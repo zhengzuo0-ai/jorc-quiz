@@ -1,8 +1,29 @@
 # 黄金交易与市场 Gold Trading & Markets
 
+*数据来源: [World Gold Council - Gold Demand Trends 2025](https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025), [J.P. Morgan - Gold Price Forecast](https://www.jpmorgan.com/insights/global-research/commodities/gold-prices), [BullionVault](https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-2025-record-price-123120251)*
+
 ## 黄金市场概述 Gold Market Overview
 
-全球黄金市场是世界上最大的商品市场之一，日均交易量超过 **$100 billion**。
+> **为什么你需要了解金价?** 作为矿业CEO，金价直接决定你的矿山是否盈利。金价涨10%，利润可能涨50%以上（因为成本是固定的）。这就是矿业的"杠杆效应"。
+
+全球黄金市场是世界上最大的商品市场之一。
+
+### 金价最新走势 (截至2026年初)
+- **2025年表现**: 金价从$2,624涨至$4,325/oz，全年涨幅 **+65%** — 创1979年以来最大年涨幅
+- **历史新高**: **$5,589/oz** (2026年1月28日)
+- **2025年均价**: $3,431/oz (比2024年高44%)
+- **J.P. Morgan预测**: 2026年Q4均价 $5,055/oz, 2027年底达 $5,400/oz
+
+### 驱动金价的六大因素 Six Key Price Drivers
+
+| 因素 Factor | 如何影响金价 | 2024-2025实例 |
+|---|---|---|
+| **通胀预期** Inflation | 通胀↑ → 金价↑ (保值需求) | 全球持续通胀推高金价 |
+| **美元强弱** USD | 美元↓ → 金价↑ (反向关系) | 美元走弱支撑金价 |
+| **实际利率** Real Yields | 利率↓ → 金价↑ (PIMCO认为这是最重要因素) | 降息预期推动金价 |
+| **央行购金** Central Banks | 央行买↑ → 金价↑ | 去美元化趋势,各国央行大量增持 |
+| **地缘政治** Geopolitics | 风险↑ → 金价↑ (避险需求) | 俄乌、中东局势+贸易战 |
+| **ETF资金流** Investment | 资金流入↑ → 金价↑ | 2025年Q4 ETF流入175吨,金条金币购买12年新高 |
 
 ### 主要市场 Major Markets
 
