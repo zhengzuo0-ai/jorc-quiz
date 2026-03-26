@@ -63,7 +63,7 @@ export function useMultiChapterQuestions(chapterIds: string[], count: number) {
   const keyRef = useRef('');
 
   useEffect(() => {
-    const key = chapterIds.join(',');
+    const key = `${chapterIds.join(',')}_${count}`;
     if (chapterIds.length === 0 || key === keyRef.current) return;
     keyRef.current = key;
 

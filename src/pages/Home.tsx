@@ -1,31 +1,22 @@
 import { Link } from 'react-router-dom';
-import { jorcChapters, goldChapters } from '../data/chapters';
-import { useProgress } from '../hooks/useProgress';
+import { chapters, jorcChapters, goldChapters } from '../data/chapters';
+import { useProgress, calcAccuracy } from '../hooks/useProgress';
 import { useErrorBook } from '../hooks/useErrorBook';
 
+function aggregateStats(chs: typeof jorcChapters, getStats: (id: string) => { total: number; correct: number }) {
+  let total = 0, correct = 0;
+  for (const ch of chs) { const s = getStats(ch.id); total += s.total; correct += s.correct; }
+  return { total, correct };
+}
+
 export default function Home() {
-  const { getChapterStats, totalAnswered, overallAccuracy, getDailyStreak, getWeakChapters, getTodayCount } = useProgress();
+  const { getChapterStats, totalAnswered, overallAccuracy, dailyStreak, getWeakChapters, todayCount } = useProgress();
   const { dueEntries } = useErrorBook();
-  const streak = getDailyStreak();
-  const todayCount = getTodayCount();
-  const allChapterIds = [...jorcChapters, ...goldChapters].map(c => c.id);
+  const allChapterIds = chapters.map(c => c.id);
   const weakChapters = getWeakChapters(allChapterIds);
 
-  const jorcStats = jorcChapters.reduce(
-    (acc, ch) => {
-      const s = getChapterStats(ch.id);
-      return { total: acc.total + s.total, correct: acc.correct + s.correct };
-    },
-    { total: 0, correct: 0 }
-  );
-
-  const goldStats = goldChapters.reduce(
-    (acc, ch) => {
-      const s = getChapterStats(ch.id);
-      return { total: acc.total + s.total, correct: acc.correct + s.correct };
-    },
-    { total: 0, correct: 0 }
-  );
+  const jorcStats = aggregateStats(jorcChapters, getChapterStats);
+  const goldStats = aggregateStats(goldChapters, getChapterStats);
 
   return (
     <div className="max-w-2xl mx-auto">
@@ -38,7 +29,7 @@ export default function Home() {
           <div className="text-sm text-gray-500">{jorcChapters.length} 章</div>
           <div className="text-sm text-gray-500">
             已做 {jorcStats.total} 题
-            {jorcStats.total > 0 && ` · ${Math.round((jorcStats.correct / jorcStats.total) * 100)}%`}
+            {jorcStats.total > 0 && ` · ${calcAccuracy(jorcStats.correct, jorcStats.total)}%`}
           </div>
         </div>
         <div className="bg-white rounded-lg border border-gray-200 p-4">
@@ -46,7 +37,7 @@ export default function Home() {
           <div className="text-sm text-gray-500">{goldChapters.length} 章</div>
           <div className="text-sm text-gray-500">
             已做 {goldStats.total} 题
-            {goldStats.total > 0 && ` · ${Math.round((goldStats.correct / goldStats.total) * 100)}%`}
+            {goldStats.total > 0 && ` · ${calcAccuracy(goldStats.correct, goldStats.total)}%`}
           </div>
         </div>
       </div>
@@ -63,7 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-orange-500">{streak}</div>
+            <div className="text-2xl font-bold text-orange-500">{dailyStreak}</div>
             <div className="text-xs text-gray-500">连续天数</div>
           </div>
         </div>
@@ -86,7 +77,7 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap gap-1">
             {weakChapters.map(id => {
-              const ch = [...jorcChapters, ...goldChapters].find(c => c.id === id);
+              const ch = chapters.find(c => c.id === id);
               const stats = getChapterStats(id);
               return (
                 <Link

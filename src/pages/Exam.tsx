@@ -45,7 +45,8 @@ export default function Exam() {
     setTimerRunning(true);
   }, [chapterIds]);
 
-  // Check for empty questions after loading — handled in render below
+  const questionMap = useMemo(() => new Map(questions.map(q => [q.id, q])), [questions]);
+  const answerMap = useMemo(() => new Map(examAnswers.map(a => [a.questionId, a])), [examAnswers]);
 
   const finishExam = useCallback(() => {
     setTimerRunning(false);
@@ -55,7 +56,7 @@ export default function Exam() {
   const handleAnswer = useCallback(
     (questionId: string, selected: 'A' | 'B' | 'C' | 'D', correct: boolean) => {
       setExamAnswers(prev => [...prev, { questionId, selected, correct }]);
-      const q = questions.find(q => q.id === questionId);
+      const q = questionMap.get(questionId);
       if (q) {
         recordAnswer({
           questionId,
@@ -67,7 +68,7 @@ export default function Exam() {
         if (!correct) addError(questionId, q.chapterId);
       }
     },
-    [questions, recordAnswer, addError]
+    [questionMap, recordAnswer, addError]
   );
 
   const handleNext = useCallback(() => {
@@ -182,7 +183,7 @@ export default function Exam() {
         {/* Question navigator */}
         <div className="flex flex-wrap gap-1 mb-4">
           {questions.map((q, i) => {
-            const ans = examAnswers.find(a => a.questionId === q.id);
+            const ans = answerMap.get(q.id);
             let cls = 'w-7 h-7 text-xs rounded border ';
             if (i === currentIndex) cls += 'border-blue-600 bg-blue-50 text-blue-600 font-medium';
             else if (ans?.correct) cls += 'border-green-400 bg-green-50 text-green-700';
@@ -211,7 +212,7 @@ export default function Exam() {
   const correctCount = examAnswers.filter(a => a.correct).length;
   const accuracy = questions.length > 0 ? Math.round((correctCount / questions.length) * 100) : 0;
   const wrongQuestions = questions.filter(q => {
-    const ans = examAnswers.find(a => a.questionId === q.id);
+    const ans = answerMap.get(q.id);
     return ans && !ans.correct;
   });
 
@@ -231,7 +232,7 @@ export default function Exam() {
           <h3 className="text-sm font-medium text-gray-700 mb-2">错题 ({wrongQuestions.length})</h3>
           <div className="flex flex-col gap-2">
             {wrongQuestions.map(q => {
-              const ans = examAnswers.find(a => a.questionId === q.id);
+              const ans = answerMap.get(q.id);
               return (
                 <div key={q.id} className="bg-white rounded border border-gray-200 px-4 py-3 text-sm">
                   <div className="text-gray-700 mb-1">{q.question}</div>

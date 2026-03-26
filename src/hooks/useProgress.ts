@@ -1,6 +1,13 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import type { AnswerRecord, ChapterStats } from '../types';
 import { storage } from '../lib/storage';
+
+const WEAK_MIN_ANSWERS = 5;
+const WEAK_ACCURACY_THRESHOLD = 60;
+
+export function calcAccuracy(correct: number, total: number): number {
+  return total > 0 ? Math.round((correct / total) * 100) : 0;
+}
 
 export function useProgress() {
   const [answers, setAnswers] = useState<AnswerRecord[]>(() =>
@@ -15,27 +22,38 @@ export function useProgress() {
     });
   }, []);
 
+  // Single-pass stats map — avoids repeated filtering per chapter
+  const statsMap = useMemo(() => {
+    const map = new Map<string, { total: number; correct: number }>();
+    for (const a of answers) {
+      const entry = map.get(a.chapterId) ?? { total: 0, correct: 0 };
+      entry.total++;
+      if (a.correct) entry.correct++;
+      map.set(a.chapterId, entry);
+    }
+    return map;
+  }, [answers]);
+
   const getChapterStats = useCallback(
     (chapterId: string): ChapterStats => {
-      const chapterAnswers = answers.filter(a => a.chapterId === chapterId);
-      const correct = chapterAnswers.filter(a => a.correct).length;
-      const total = chapterAnswers.length;
+      const entry = statsMap.get(chapterId) ?? { total: 0, correct: 0 };
       return {
         chapterId,
-        total,
-        correct,
-        accuracy: total > 0 ? Math.round((correct / total) * 100) : 0,
+        total: entry.total,
+        correct: entry.correct,
+        accuracy: calcAccuracy(entry.correct, entry.total),
       };
     },
-    [answers]
+    [statsMap]
   );
 
-  const totalAnswered = answers.length;
-  const totalCorrect = answers.filter(a => a.correct).length;
-  const overallAccuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+  const { totalAnswered, totalCorrect, overallAccuracy } = useMemo(() => {
+    const total = answers.length;
+    const correct = answers.filter(a => a.correct).length;
+    return { totalAnswered: total, totalCorrect: correct, overallAccuracy: calcAccuracy(correct, total) };
+  }, [answers]);
 
-  // Daily streak: count consecutive days with at least 1 answer
-  const getDailyStreak = useCallback((): number => {
+  const dailyStreak = useMemo((): number => {
     if (answers.length === 0) return 0;
     const daySet = new Set(
       answers.map(a => new Date(a.answeredAt).toDateString())
@@ -54,19 +72,17 @@ export function useProgress() {
     return streak;
   }, [answers]);
 
-  // Weak chapters: chapters with >5 answers and <60% accuracy
   const getWeakChapters = useCallback(
     (chapterIds: string[]): string[] => {
       return chapterIds.filter(id => {
         const stats = getChapterStats(id);
-        return stats.total >= 5 && stats.accuracy < 60;
+        return stats.total >= WEAK_MIN_ANSWERS && stats.accuracy < WEAK_ACCURACY_THRESHOLD;
       });
     },
     [getChapterStats]
   );
 
-  // Today's progress
-  const getTodayCount = useCallback((): number => {
+  const todayCount = useMemo((): number => {
     const todayStr = new Date().toDateString();
     return answers.filter(a => new Date(a.answeredAt).toDateString() === todayStr).length;
   }, [answers]);
@@ -74,6 +90,6 @@ export function useProgress() {
   return {
     answers, recordAnswer, getChapterStats,
     totalAnswered, totalCorrect, overallAccuracy,
-    getDailyStreak, getWeakChapters, getTodayCount,
+    dailyStreak, getWeakChapters, todayCount,
   };
 }
