@@ -216,6 +216,22 @@ export default function Exam() {
     return ans && !ans.correct;
   });
 
+  // Per-chapter breakdown
+  const chapterBreakdown = (() => {
+    const map = new Map<string, { total: number; correct: number }>();
+    for (const q of questions) {
+      const ans = answerMap.get(q.id);
+      if (!ans) continue;
+      const entry = map.get(q.chapterId) ?? { total: 0, correct: 0 };
+      entry.total++;
+      if (ans.correct) entry.correct++;
+      map.set(q.chapterId, entry);
+    }
+    return Array.from(map.entries())
+      .map(([id, s]) => ({ id, ...s, accuracy: Math.round((s.correct / s.total) * 100) }))
+      .sort((a, b) => a.accuracy - b.accuracy);
+  })();
+
   return (
     <div className="max-w-2xl mx-auto">
       <h2 className="text-lg font-semibold text-gray-800 mb-4">模考结果</h2>
@@ -225,6 +241,26 @@ export default function Exam() {
           <div>正确: {correctCount} · 正确率: {accuracy}%</div>
           <div>已答: {examAnswers.length}/{questions.length}</div>
         </div>
+        {chapterBreakdown.length > 1 && (
+          <div className="mt-3 pt-3 border-t border-gray-100">
+            <div className="text-xs text-gray-500 font-medium mb-2">各章表现</div>
+            {chapterBreakdown.map(ch => {
+              const chapter = chapters.find(c => c.id === ch.id);
+              return (
+                <div key={ch.id} className="flex items-center gap-2 text-xs py-0.5">
+                  <span className="w-20 truncate text-gray-600">{chapter?.name ?? ch.id}</span>
+                  <div className="flex-1 bg-gray-100 rounded-full h-1.5">
+                    <div
+                      className={`h-1.5 rounded-full ${ch.accuracy >= 80 ? 'bg-green-500' : ch.accuracy >= 60 ? 'bg-yellow-500' : 'bg-red-500'}`}
+                      style={{ width: `${ch.accuracy}%` }}
+                    />
+                  </div>
+                  <span className="text-gray-500 w-16 text-right">{ch.accuracy}% ({ch.correct}/{ch.total})</span>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
 
       {wrongQuestions.length > 0 && (
