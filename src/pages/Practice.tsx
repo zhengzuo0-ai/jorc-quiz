@@ -67,8 +67,15 @@ export default function Practice() {
   if (!chapterId) {
     return (
       <div className="max-w-2xl mx-auto">
-        <h1 className="text-xl font-semibold text-gray-800 mb-4">练习</h1>
-        <p className="text-sm text-gray-500 mb-4">选择一个章节开始练习</p>
+        <h1 className="text-xl font-semibold text-gray-800 mb-2">练习</h1>
+        <p className="text-sm text-gray-500 mb-4">选择一个章节开始练习 · 建议从上到下依次学习</p>
+        <div className="bg-blue-50 border border-blue-100 rounded-lg px-4 py-3 mb-5 text-xs text-blue-700">
+          <span className="font-medium">学习路径建议:</span> 先阅读
+          <Link to="/concepts" className="underline mx-0.5">知识点</Link>
+          理解概念，再做对应章节的练习题巩固。做错的题目会自动进入
+          <Link to="/review" className="underline mx-0.5">错题本</Link>
+          ，系统会按遗忘曲线安排复习。
+        </div>
         <div className="mb-6">
           <h2 className="text-sm font-medium text-gray-600 mb-2">JORC Code</h2>
           <ChapterList chapters={jorcChapters} getStats={getChapterStats} />
