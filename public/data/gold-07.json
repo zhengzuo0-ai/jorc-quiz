@@ -1,0 +1,461 @@
+[
+  {
+    "id": "gold-07-001",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the typical bench height range for open pit gold mining?",
+    "options": {
+      "A": "1-3 m",
+      "B": "5-15 m",
+      "C": "25-40 m",
+      "D": "50-100 m"
+    },
+    "correct": "B",
+    "explanation": "Open pit gold mines typically use bench heights of 5 to 15 meters, depending on equipment size, rock characteristics, and safety requirements. Smaller operations and those in softer oxide material may use 5-meter benches, while large-scale operations with bigger equipment use 10-15 meter benches. Bench height affects blast design, excavator reach, face stability, and grade control precision. In West African oxide deposits, 5-meter benches are common due to softer ground conditions and the need for tighter grade control in variable alluvial and laterite material.",
+    "key_concept": "Open pit bench heights of 5-15 m balance equipment efficiency, safety, and grade control needs.",
+    "source": "Mining methods practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-002",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the strip ratio in open pit mining?",
+    "options": {
+      "A": "The ratio of gold grade to copper grade",
+      "B": "The ratio of waste material to ore that must be removed to access the ore",
+      "C": "The ratio of trucks to excavators on site",
+      "D": "The ratio of mining shifts per day"
+    },
+    "correct": "B",
+    "explanation": "The strip ratio expresses how many tonnes (or cubic meters) of waste must be removed for every tonne of ore mined. Typical strip ratios for gold open pits range from 3:1 to 10:1 or higher. A strip ratio of 6:1 means six tonnes of waste must be moved for every tonne of ore. Higher strip ratios increase mining costs and may render low-grade deposits uneconomic. The strip ratio is a critical economic parameter in pit optimization and directly impacts the cut-off grade. In shallow alluvial deposits, strip ratios can be very favorable at 1:1 to 3:1.",
+    "key_concept": "Strip ratio is waste-to-ore ratio, typically 3:1 to 10:1 for gold open pits.",
+    "source": "Mining methods practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-003",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the correct sequence of the open pit mining operations cycle?",
+    "options": {
+      "A": "Haul → Load → Blast → Drill → Dewater",
+      "B": "Drill → Blast → Load → Haul → Dewater",
+      "C": "Blast → Drill → Dewater → Load → Haul",
+      "D": "Dewater → Haul → Load → Drill → Blast"
+    },
+    "correct": "B",
+    "explanation": "The standard open pit mining cycle follows the sequence: drill blast holes in a pattern, blast the rock to fragment it, load the broken material with excavators or loaders into haul trucks, haul the material to either the processing plant (ore) or waste dump (waste), and dewater as needed to manage groundwater inflow. Dewatering is an ongoing activity that may precede mining in some areas. Each step depends on the previous one being completed correctly. In West African operations, dewatering is particularly critical during the rainy season when pit flooding can halt production entirely.",
+    "key_concept": "The open pit cycle is drill, blast, load, haul, and dewater in sequence.",
+    "source": "Mining methods practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-004",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the typical overall slope angle range for open pit walls in gold mines?",
+    "options": {
+      "A": "5-15 degrees",
+      "B": "35-60 degrees",
+      "C": "70-85 degrees",
+      "D": "85-90 degrees (near vertical)"
+    },
+    "correct": "B",
+    "explanation": "Open pit overall slope angles typically range from 35 to 60 degrees, depending on rock mass quality, structural geology, groundwater conditions, and pit depth. Steeper slopes reduce the amount of waste to be mined but increase geotechnical risk. Weaker rock masses such as heavily weathered laterite require flatter slopes (35-45 degrees), while competent fresh rock may allow slopes of 50-60 degrees. Geotechnical studies including structural mapping, rock mass classification, and slope stability analysis are essential for optimizing slope design. In West Africa, the deep laterite weathering profile often necessitates flatter slopes in the upper benches.",
+    "key_concept": "Open pit slope angles of 35-60 degrees balance waste minimization with geotechnical stability.",
+    "source": "Mining methods practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-005",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is grade control in open pit gold mining?",
+    "options": {
+      "A": "A quality control program for laboratory assays",
+      "B": "The process of delineating ore from waste at the mining face using close-spaced sampling to direct material to the correct destination",
+      "C": "Setting the gold price for the mine's product",
+      "D": "Controlling the speed of haul trucks on ramps"
+    },
+    "correct": "B",
+    "explanation": "Grade control is the operational process of sampling the mining face or blast pattern at close spacing (typically 5-10 meters) using RC or blasthole drilling to delineate ore boundaries and direct material to the correct destination (plant feed or waste dump). It bridges the gap between the resource model's predicted grades and actual mining. Effective grade control minimizes ore loss (target less than 5%) and dilution (target less than 10%). The grade control model is built at a finer resolution than the resource model and is critical for maximizing gold recovery and mine revenue.",
+    "key_concept": "Grade control uses close-spaced sampling to delineate ore from waste at the mining face.",
+    "source": "Mining methods practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-006",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the impact of the West African rainy season on open pit mining operations?",
+    "options": {
+      "A": "No impact; mining continues normally year-round",
+      "B": "Production losses of 20-40% from June to October due to pit flooding, haul road deterioration, and reduced equipment availability",
+      "C": "Mining is legally prohibited during the rainy season",
+      "D": "Gold grades increase during the rainy season"
+    },
+    "correct": "B",
+    "explanation": "The West African rainy season (typically June to October) causes significant production disruptions, with losses commonly ranging from 20% to 40%. Heavy rainfall leads to pit flooding requiring increased dewatering, haul road deterioration reducing truck speeds and increasing maintenance, reduced blasting efficiency due to wet blast holes, slope stability concerns, and decreased overall equipment availability. Mine plans must account for seasonal production variability, and operations invest heavily in drainage infrastructure, road maintenance, and dewatering capacity to mitigate these impacts.",
+    "key_concept": "West African rainy season (June-October) typically causes 20-40% production losses from flooding and road deterioration.",
+    "source": "Mining methods practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-007",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What does OEE stand for in mining operations, and what does it measure?",
+    "options": {
+      "A": "Ore Extraction Efficiency; the percentage of ore recovered from the ground",
+      "B": "Overall Equipment Effectiveness; the combined measure of availability, utilization, and performance of mining equipment",
+      "C": "Open-pit Expansion Evaluation; the rate of pit boundary expansion",
+      "D": "Operational Environmental Expenditure; spending on environmental compliance"
+    },
+    "correct": "B",
+    "explanation": "Overall Equipment Effectiveness (OEE) is a composite metric that combines three factors: mechanical availability (percentage of scheduled time the equipment is mechanically available), utilization (percentage of available time the equipment is actually used), and performance (actual output versus rated capacity). OEE = Availability x Utilization x Performance. A well-run mine targets equipment availability above 85% and utilization above 80%. OEE is a key performance indicator for fleet management and identifies whether production losses are due to maintenance, operational delays, or underperformance.",
+    "key_concept": "OEE combines availability, utilization, and performance to measure overall equipment productivity.",
+    "source": "Mining methods practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-008",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the target ore loss percentage in a well-managed open pit gold mine?",
+    "options": {
+      "A": "Less than 5%",
+      "B": "10-20%",
+      "C": "25-30%",
+      "D": "Greater than 40%"
+    },
+    "correct": "A",
+    "explanation": "A well-managed open pit gold operation targets ore loss below 5%. Ore loss occurs when ore-grade material is misclassified as waste and sent to the waste dump, typically due to inadequate grade control, incorrect dig line placement, or excavator operator error. Similarly, dilution (waste material mixed into ore) should be kept below 10%. Both ore loss and dilution directly impact revenue and processing efficiency. Tight grade control drilling at 5-10 meter spacing, accurate survey pickup of dig lines, and GPS-equipped excavators all help minimize ore loss.",
+    "key_concept": "Well-managed mines target less than 5% ore loss and less than 10% dilution.",
+    "source": "Mining methods practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-009",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "Which underground mining method is most commonly used for narrow, steeply dipping gold veins?",
+    "options": {
+      "A": "Block caving",
+      "B": "Room and pillar",
+      "C": "Cut-and-fill",
+      "D": "Open stoping with longhole drilling"
+    },
+    "correct": "C",
+    "explanation": "Cut-and-fill is the preferred method for narrow, steeply dipping gold veins because it provides excellent selectivity and ground control. Mining proceeds by excavating a horizontal slice, then backfilling the mined void with waste rock or cemented fill before mining the next slice above. This method minimizes dilution in narrow veins, supports weak hanging walls, and allows the miner to follow irregular vein geometries. While more costly per tonne than bulk methods, the ability to selectively mine high-grade material makes it economically superior for narrow high-grade gold deposits.",
+    "key_concept": "Cut-and-fill offers high selectivity and ground support, ideal for narrow steeply dipping gold veins.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-010",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is sub-level stoping and when is it appropriate for gold mining?",
+    "options": {
+      "A": "A surface mining method using draglines",
+      "B": "A bulk underground method using longholes drilled between sub-levels, suitable for steeply dipping orebodies with competent rock",
+      "C": "A placer mining method for river gravels",
+      "D": "A grade control method using sub-level drill holes"
+    },
+    "correct": "B",
+    "explanation": "Sub-level stoping is a bulk underground mining method where ore is drilled with longholes from sub-level drives and blasted into an open void (stope) below. Broken ore is extracted from drawpoints at the bottom of the stope. It requires steeply dipping orebodies (generally greater than 50 degrees), competent hanging wall and footwall rock to maintain open stopes, and regular orebody geometry. It offers high productivity and lower cost per tonne than cut-and-fill but with less selectivity and more dilution. It is widely used in large gold deposits such as those in the Ashanti Belt of Ghana.",
+    "key_concept": "Sub-level stoping is a productive bulk method for steep orebodies with competent rock masses.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-011",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the role of blasthole sampling in grade control?",
+    "options": {
+      "A": "To determine the explosive charge weight for each hole",
+      "B": "To collect grade data from production blast patterns at 5-10 m spacing for ore/waste delineation before mucking",
+      "C": "To test the rock strength for geotechnical analysis",
+      "D": "To measure the depth of the water table"
+    },
+    "correct": "B",
+    "explanation": "Blasthole sampling collects cuttings from production blast holes (typically drilled on 5-10 meter patterns) and assays them for gold to create a detailed grade control model. This model delineates ore blocks from waste blocks before the material is excavated, allowing the dig plan to maximize ore recovery and minimize dilution. Blasthole samples are faster and cheaper than dedicated RC grade control holes but may have lower sample quality due to contamination between holes and cuttings loss. In West African operations, blasthole sampling is the primary grade control method for large open pits.",
+    "key_concept": "Blasthole sampling at 5-10 m spacing provides grade data for ore/waste delineation before excavation.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-012",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is block caving and what type of deposit is it suited for?",
+    "options": {
+      "A": "A surface mining technique for flat-lying deposits",
+      "B": "A mass underground mining method where a large block of ore is undercut, causing it to cave under its own weight, suited for large low-grade deposits",
+      "C": "A method of cutting blocks of stone for construction",
+      "D": "A grade control technique using block models"
+    },
+    "correct": "B",
+    "explanation": "Block caving is a mass underground mining method where the base of a large orebody is undercut, causing the overlying rock mass to progressively cave under gravity. Broken ore is drawn from drawpoints beneath the cave zone. It is the lowest cost underground method but requires a very large orebody (typically millions of tonnes), high vertical extent, and rock mass conditions favorable for caving. It is more commonly used for porphyry copper deposits than gold, but some large low-grade gold-copper deposits can employ this method. The high capital cost and long lead time make it unsuitable for smaller gold deposits.",
+    "key_concept": "Block caving is a low-cost mass method using gravity to break large orebodies, rare in pure gold deposits.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-013",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What are the three levels of mine planning hierarchy?",
+    "options": {
+      "A": "Geological, geotechnical, and metallurgical planning",
+      "B": "Life-of-mine (LOM) strategic plan, medium-term tactical plan, and short-term operational plan",
+      "C": "Exploration, development, and closure planning",
+      "D": "Federal, regional, and local planning"
+    },
+    "correct": "B",
+    "explanation": "Mine planning operates at three hierarchical levels. The life-of-mine (LOM) plan spans the entire mine life (10-20+ years) and defines the overall pit shell, mining sequence, production targets, and capital investment schedule. The medium-term plan covers 1-5 years with more detail on pushback sequencing, waste dump progression, and equipment requirements. The short-term plan covers weeks to months with detailed dig plans, blast designs, haul routes, and grade control schedules. Each level informs the next, and deviations at the short-term level must be reconciled against the LOM plan.",
+    "key_concept": "Mine planning hierarchy: LOM (strategic), medium-term (tactical), and short-term (operational).",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-014",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is artisanal and small-scale mining (ASM) and why is it significant in West Africa?",
+    "options": {
+      "A": "A modern automated mining technique used by large companies",
+      "B": "Labor-intensive mining using basic tools and techniques, employing millions of people across West Africa and producing a significant share of the region's gold output",
+      "C": "A term for mining operations with fewer than 10 employees",
+      "D": "An obsolete historical mining practice no longer in use"
+    },
+    "correct": "B",
+    "explanation": "Artisanal and small-scale mining (ASM) involves manual or semi-mechanized extraction using basic tools such as picks, shovels, sluice boxes, and sometimes small excavators. In West Africa, ASM employs an estimated 5-10 million people and produces 15-25% of the region's gold output. ASM is economically vital for rural communities but raises challenges including mercury use, environmental damage, safety hazards, and conflict with industrial mining licenses. Many industrial mines in Guinea, Mali, and Burkina Faso must develop coexistence strategies with ASM operators on or near their concessions.",
+    "key_concept": "ASM is labor-intensive gold mining employing millions in West Africa, producing significant output with environmental challenges.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-015",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is dilution in open pit mining and how is it controlled?",
+    "options": {
+      "A": "The addition of water to the ore for processing",
+      "B": "The inclusion of waste material into the ore stream, controlled through tight grade control, accurate dig lines, and skilled excavator operation",
+      "C": "The reduction of gold grade during smelting",
+      "D": "The mixing of different ore types for blending"
+    },
+    "correct": "B",
+    "explanation": "Dilution occurs when sub-grade waste material is mixed with ore during mining, reducing the overall head grade delivered to the processing plant. Sources include overbreak at ore/waste contacts, contamination from interburden layers, and inaccurate dig line placement. Target dilution in well-managed operations is below 10%. Control measures include close-spaced grade control drilling, GPS-guided excavators, trained operators, clear dig plan communication, and appropriate bench height selection. In alluvial gold mining in West Africa, dilution control is especially critical because ore/waste boundaries are often gradational rather than sharp.",
+    "key_concept": "Dilution mixes waste into ore, targeted below 10%, controlled through grade control and precise excavation.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-016",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What equipment is typically used for loading in open pit gold mines?",
+    "options": {
+      "A": "Continuous miners and longwall shearers",
+      "B": "Hydraulic excavators and front-end wheel loaders",
+      "C": "Dredges and suction pumps",
+      "D": "Conveyor belts and stackers"
+    },
+    "correct": "B",
+    "explanation": "Open pit gold mines primarily use hydraulic excavators (backhoe or face-shovel configuration) and front-end wheel loaders for loading blasted material into haul trucks. Excavators are preferred for hard rock due to their superior breakout force and precision, while wheel loaders offer greater mobility and are common in softer materials. Equipment selection depends on production rate, material hardness, bench geometry, and capital/operating cost trade-offs. Large-scale West African mines like Kibali and Loulo typically use 200-400 tonne class excavators matched with 100-220 tonne haul trucks.",
+    "key_concept": "Hydraulic excavators and wheel loaders are the primary loading equipment in open pit gold mines.",
+    "source": "Mining methods practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-017",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "A mine reports total material moved (TMM) of 30 million tonnes per year with a strip ratio of 5:1. How many tonnes of ore are mined annually?",
+    "options": {
+      "A": "6 million tonnes",
+      "B": "5 million tonnes",
+      "C": "25 million tonnes",
+      "D": "150 million tonnes"
+    },
+    "correct": "B",
+    "explanation": "With a strip ratio of 5:1 (5 tonnes of waste per 1 tonne of ore), the total material moved equals ore plus waste, which is ore + 5 x ore = 6 x ore. Therefore, ore tonnes = TMM / (strip ratio + 1) = 30 million / 6 = 5 million tonnes of ore per year. The remaining 25 million tonnes is waste. Understanding this calculation is essential for mine planning and economic analysis. TMM is a key production KPI because it represents the total mining effort required, regardless of how much is ore versus waste.",
+    "key_concept": "Ore tonnes = TMM / (strip ratio + 1); TMM includes both ore and waste.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-018",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the room-and-pillar underground mining method?",
+    "options": {
+      "A": "A method where rooms are excavated and pillars of ore are left to support the roof, suited for flat-lying tabular orebodies",
+      "B": "A surface mining method using rooms for equipment storage",
+      "C": "A method where all ore is extracted leaving no pillars",
+      "D": "A ventilation design approach for underground mines"
+    },
+    "correct": "A",
+    "explanation": "Room-and-pillar mining excavates a series of rooms (openings) separated by pillars of unmined ore that support the overlying rock. It is best suited for flat-lying or gently dipping tabular orebodies in competent rock. Pillar dimensions are designed based on rock mass strength and the depth below surface. The method has moderate recovery (60-75% of the ore) because the pillars represent unrecovered material, though pillar robbing on retreat can increase recovery. It is less common for gold than for coal or potash but can be applied to flat-lying reef-style gold deposits.",
+    "key_concept": "Room-and-pillar leaves ore pillars for roof support in flat-lying deposits, with 60-75% recovery.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-019",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "A gold mine in Burkina Faso plans to maintain production through the rainy season. Which combination of measures is most effective?",
+    "options": {
+      "A": "Suspend all operations from June to October and resume when conditions improve",
+      "B": "Install pre-drainage systems, build all-weather haul roads with proper drainage, stockpile ore during the dry season, and increase dewatering pump capacity",
+      "C": "Switch to underground mining during the rainy season",
+      "D": "Reduce the gold price assumption to account for lower production"
+    },
+    "correct": "B",
+    "explanation": "Maintaining production during West Africa's rainy season requires integrated water management. Pre-drainage systems (perimeter wells, in-pit sumps) lower the water table before the rains arrive. All-weather haul roads with proper drainage, compaction, and gravel surfacing maintain truck speeds. Ore stockpiling during the dry season provides a buffer for plant feed. Increased dewatering pump capacity handles the surge in groundwater and surface water inflow. Some mines also pre-strip waste during the dry season to expose ore for easier wet-season access. Complete shutdown is economically devastating and rarely the optimal strategy.",
+    "key_concept": "Rainy season management requires pre-drainage, all-weather roads, ore stockpiling, and increased dewatering capacity.",
+    "source": "Mining methods practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-07-020",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the bench width (berm) in open pit design, and why is it important?",
+    "options": {
+      "A": "The width of the haul road at the pit bottom",
+      "B": "A horizontal ledge left between benches for safety catch purposes and to control rockfall, typically 5-10 m wide",
+      "C": "The width of the blast pattern",
+      "D": "The distance between adjacent drill holes"
+    },
+    "correct": "B",
+    "explanation": "Bench widths (berms or catch benches) are horizontal ledges left at regular intervals on the pit wall between working benches. Their primary purpose is to catch rockfall from upper benches, preventing rocks from cascading into the working areas below. Typical widths are 5-10 meters depending on bench height and geotechnical conditions. Wider berms improve safety but reduce the overall slope angle, increasing the strip ratio and total waste. The trade-off between safety and economics is a key geotechnical design consideration. Berms also provide access for monitoring equipment and drainage infrastructure.",
+    "key_concept": "Bench widths are safety catch berms between benches, typically 5-10 m, balancing safety with slope angle.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-021",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "A mine has truck mechanical availability of 88%, utilization of 82%, and the trucks achieve 95% of their rated payload. What is the fleet OEE?",
+    "options": {
+      "A": "88%",
+      "B": "68.5%",
+      "C": "82%",
+      "D": "55.2%"
+    },
+    "correct": "B",
+    "explanation": "OEE is calculated as Availability x Utilization x Performance = 0.88 x 0.82 x 0.95 = 0.685, or 68.5%. This means the truck fleet achieves only 68.5% of its theoretical maximum output. The largest loss factor in this case is utilization at 82%, which could indicate operational delays such as queuing at the loader, waiting for blasts, or shift change downtime. An OEE of 68.5% is reasonable for a gold mine, but there is room for improvement through better scheduling, queue management, and maintenance practices. World-class operations target OEE above 75%.",
+    "key_concept": "OEE = Availability x Utilization x Performance; 68.5% indicates room for operational improvement.",
+    "source": "Mining methods practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-07-022",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "Why is selective mining more challenging in alluvial gold deposits compared to hard-rock lode deposits?",
+    "options": {
+      "A": "Alluvial deposits always have lower gold grades",
+      "B": "Alluvial ore/waste boundaries are typically gradational and irregular, gold distribution is erratic, and the soft unconsolidated material makes precise excavation difficult",
+      "C": "Alluvial deposits are always too deep for open pit mining",
+      "D": "Hard-rock deposits do not require grade control"
+    },
+    "correct": "B",
+    "explanation": "Alluvial gold deposits present unique grade control challenges. The gold distribution within gravels is highly erratic, with nuggets and pay streaks creating extreme short-range grade variability. Unlike hard-rock deposits where geological contacts provide sharp ore/waste boundaries, alluvial boundaries are gradational and irregular. The soft, unconsolidated material makes precise excavation to dig lines difficult as material slumps and flows. These factors combine to make ore loss and dilution harder to control. Close-spaced grade control drilling (5 m or less) and careful excavator operation are essential in West African alluvial operations.",
+    "key_concept": "Alluvial deposits have gradational boundaries and erratic gold distribution, making selective mining difficult.",
+    "source": "Mining methods practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-07-023",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What factors determine the choice between open pit and underground mining for a gold deposit?",
+    "options": {
+      "A": "Only the gold price determines the mining method",
+      "B": "Deposit depth, geometry, grade, strip ratio economics, geotechnical conditions, and comparative cost-benefit analysis",
+      "C": "Whichever method the mine manager personally prefers",
+      "D": "Underground is always chosen for deposits deeper than 50 meters"
+    },
+    "correct": "B",
+    "explanation": "The open pit versus underground decision depends on multiple interrelated factors. Shallow, large, lower-grade deposits favor open pit where the strip ratio remains economic. Deep, narrow, high-grade deposits favor underground methods. The transition point is determined by comparing the costs of increasing strip ratio (open pit) versus the higher per-tonne cost of underground mining. Other factors include orebody geometry (tabular vs. irregular), rock mass quality, surface constraints, and environmental considerations. Many mines, such as Obuasi in Ghana and Kibali in DRC, operate both open pit and underground concurrently or transition from open pit to underground as depth increases.",
+    "key_concept": "Open pit vs. underground depends on depth, geometry, grade, strip ratio, geotechnical conditions, and economics.",
+    "source": "Mining methods practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-07-024",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the primary KPI for measuring total mining productivity in an open pit?",
+    "options": {
+      "A": "Gold recovery percentage",
+      "B": "Total material moved (TMM) measured in tonnes or bank cubic meters per period",
+      "C": "Number of employees on site",
+      "D": "Length of haul roads constructed"
+    },
+    "correct": "B",
+    "explanation": "Total material moved (TMM), expressed in tonnes or bank cubic meters (BCM) per period (day, month, year), is the primary productivity KPI for open pit mining. It captures all material excavated including both ore and waste. TMM must meet the mine plan target to maintain the correct mining sequence and strip ratio. If TMM falls behind plan, waste stripping may be deferred, creating a waste deficit that constrains future ore access. Other important KPIs include ore tonnes mined, head grade, cost per tonne moved, and truck cycle times. TMM is typically reported as a dashboard metric in daily, weekly, and monthly mining reports.",
+    "key_concept": "TMM (total material moved) is the primary open pit productivity measure capturing all excavation output.",
+    "source": "Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-025",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "A mine in Guinea is evaluating whether to use dedicated RC grade control drilling or blasthole sampling. Which factors favor RC grade control?",
+    "options": {
+      "A": "Lower cost per sample and faster turnaround time",
+      "B": "Better sample quality, ability to sample below the blast pattern, and more reliable assay results at the cost of higher expense and additional drill program logistics",
+      "C": "RC drilling requires no assaying",
+      "D": "Blasthole sampling is never used in West Africa"
+    },
+    "correct": "B",
+    "explanation": "Dedicated RC grade control drilling provides superior sample quality compared to blasthole sampling because samples are collected through a cyclone with controlled air velocity, reducing contamination between samples. RC holes can be drilled on custom patterns independent of blast design and can sample below the bench floor for look-ahead grade information. However, RC grade control costs more per meter and requires a dedicated drilling program that must be scheduled around blast and mining activities. In Guinea's alluvial and oxide deposits, where gold distribution is erratic and accurate grade control is critical, many operations justify the added cost of RC grade control.",
+    "key_concept": "RC grade control offers better sample quality than blasthole sampling but at higher cost and logistical complexity.",
+    "source": "Mining methods practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-07-026",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is truck availability in mining operations?",
+    "options": {
+      "A": "The number of trucks that can be purchased on the market",
+      "B": "The percentage of scheduled operating time that a truck is mechanically fit for service",
+      "C": "The percentage of time a truck is actually hauling material",
+      "D": "The maximum speed a truck can achieve on a haul road"
+    },
+    "correct": "B",
+    "explanation": "Truck mechanical availability is the percentage of scheduled operating time that a haul truck is mechanically available for work, not undergoing maintenance or repair. It is calculated as: Availability = (Scheduled hours - Maintenance hours) / Scheduled hours x 100%. Well-maintained fleets target 85-90% availability. Low availability indicates maintenance issues, aging equipment, or inadequate spare parts inventory. Availability is distinct from utilization, which measures the proportion of available time the truck is actually being used productively. Both metrics feed into the OEE calculation that drives fleet sizing decisions.",
+    "key_concept": "Truck availability is the percentage of scheduled time the truck is mechanically ready for operation.",
+    "source": "Mining methods practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-07-027",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "In medium-term mine planning (1-5 years), what is the primary purpose of pushback sequencing?",
+    "options": {
+      "A": "To determine which employees to relocate",
+      "B": "To schedule the progressive expansion of the pit in phases that maintain safe working conditions, equipment access, and a consistent ore feed to the plant",
+      "C": "To push waste rock back into the mined-out pit areas",
+      "D": "To sequence equipment maintenance schedules"
+    },
+    "correct": "B",
+    "explanation": "Pushback sequencing divides the ultimate pit into a series of nested phases (pushbacks or cutbacks) that are mined in sequence. Each pushback must maintain safe slope angles, provide adequate operating width for equipment, and deliver a consistent blend of ore tonnage and grade to the processing plant. Good pushback design balances waste stripping with ore exposure to avoid production gaps. The sequence also considers the time value of money, typically prioritizing higher-grade, lower-strip-ratio areas in early pushbacks to maximize NPV. Pushback design is a core component of the medium-term mine plan.",
+    "key_concept": "Pushback sequencing phases pit expansion to maintain safety, equipment access, and consistent ore supply.",
+    "source": "Mining methods practice",
+    "difficulty": 3
+  }
+]

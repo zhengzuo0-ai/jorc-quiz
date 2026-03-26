@@ -1,0 +1,20 @@
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Practice from './pages/Practice';
+import Review from './pages/Review';
+import Exam from './pages/Exam';
+
+export default function App() {
+  return (
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="practice" element={<Practice />} />
+        <Route path="practice/:chapterId" element={<Practice />} />
+        <Route path="review" element={<Review />} />
+        <Route path="exam" element={<Exam />} />
+      </Route>
+    </Routes>
+  );
+}

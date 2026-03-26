@@ -1,0 +1,478 @@
+[
+  {
+    "id": "jorc-04-001",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "Under the JORC Code, an Exploration Target is:",
+    "options": {
+      "A": "A type of Mineral Resource with low confidence",
+      "B": "A statement of potential quantity and grade of a target that is NOT a Mineral Resource or Ore Reserve",
+      "C": "A preliminary Ore Reserve estimate",
+      "D": "An Inferred Resource awaiting CP sign-off"
+    },
+    "correct": "B",
+    "explanation": "Clause 17 defines an Exploration Target as a statement or estimate of the exploration potential of a mineral deposit. It is explicitly NOT a Mineral Resource — it represents conceptual potential that has not yet been sufficiently tested. The JORC Code requires clear cautionary statements whenever an Exploration Target is reported, to prevent investors from confusing it with the higher-confidence categories of Mineral Resources.",
+    "key_concept": "Exploration Target is NOT a Resource — it represents untested potential",
+    "source": "JORC Code 2012, Clause 17",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-04-002",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "When reporting an Exploration Target, JORC requires the tonnage and grade to be expressed as:",
+    "options": {
+      "A": "A single best-estimate figure",
+      "B": "A range (e.g., 10-20 Mt at 1.0-1.5 g/t Au)",
+      "C": "A minimum figure with no upper bound",
+      "D": "A probabilistic distribution (P10, P50, P90)"
+    },
+    "correct": "B",
+    "explanation": "Clause 17 requires that Exploration Targets be expressed as ranges of tonnage and grade to reflect the inherent uncertainty. A single-point estimate would imply false precision for something that is, by definition, not yet adequately tested. The range format communicates uncertainty directly to investors. Using narrow ranges may also be inappropriate if they imply a level of confidence inconsistent with the available data.",
+    "key_concept": "Exploration Targets must use tonnage and grade ranges — never single-point estimates",
+    "source": "JORC Code 2012, Clause 17",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-04-003",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company's ASX announcement includes an Exploration Target but omits the required cautionary statement. This omission:",
+    "options": {
+      "A": "Is acceptable if the target is mentioned only briefly",
+      "B": "Violates Clause 17, which mandates a cautionary statement clarifying that the target is conceptual and not a Mineral Resource",
+      "C": "Is acceptable if the CP has signed off on the announcement",
+      "D": "Only matters if the Exploration Target exceeds 100 Mt"
+    },
+    "correct": "B",
+    "explanation": "Clause 17 requires that any public disclosure of an Exploration Target must include a cautionary statement that the potential quantity and grade is conceptual in nature, that there has been insufficient exploration to estimate a Mineral Resource, and that it is uncertain if further exploration will result in the estimation of a Mineral Resource. This statement is mandatory regardless of the target's size or how briefly it is mentioned. Its purpose is to prevent investor confusion between Targets and Resources.",
+    "key_concept": "Cautionary statement is mandatory for all Exploration Target disclosures",
+    "source": "JORC Code 2012, Clause 17",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-004",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "Under Clause 19, when reporting Exploration Results, a company must report:",
+    "options": {
+      "A": "Only the best drill hole results to attract investor interest",
+      "B": "All drill hole results, including those that are not significant",
+      "C": "Only results that exceed the project's cut-off grade",
+      "D": "Only holes that returned mineralisation above 1 g/t Au equivalent"
+    },
+    "correct": "B",
+    "explanation": "Clause 19 requires that Exploration Results include all relevant results and specifically warns against cherry-picking. Reporting only high-grade intercepts while omitting barren or low-grade holes creates a misleading picture of the deposit. All drill holes must be reported to provide proper context. This requirement is a direct expression of the Transparency and Materiality principles — investors need the complete picture to make informed judgements.",
+    "key_concept": "All drill results must be reported — cherry-picking is explicitly prohibited",
+    "source": "JORC Code 2012, Clause 19",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-04-005",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "JORC requires Exploration Results to be reported with appropriate context. Which of the following provides the LEAST useful context?",
+    "options": {
+      "A": "A plan map showing all drill hole locations and the deposit outline",
+      "B": "Cross-sections through the mineralised zone showing drill intercepts",
+      "C": "A photograph of the CEO holding a drill core sample",
+      "D": "A table showing all drill hole intercepts with coordinates, azimuths, dips, and downhole depths"
+    },
+    "correct": "C",
+    "explanation": "Clause 19 requires that Exploration Results be presented with sufficient context for the reader to understand the significance of the results. Plan maps, cross-sections, and comprehensive drill hole tables with coordinates all provide critical spatial and technical context. A photograph of a CEO holding core is promotional imagery that provides no technical context and could be misleading by implying personal endorsement. JORC emphasises data over imagery.",
+    "key_concept": "Context means technical data (maps, sections, tables) — not promotional imagery",
+    "source": "JORC Code 2012, Clause 19, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-04-006",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "When reporting drill intercepts, JORC requires disclosure of whether reported widths are:",
+    "options": {
+      "A": "True width, apparent width, or downhole width",
+      "B": "Always true width — no other measurement is permitted",
+      "C": "Estimated by the CP or measured by survey",
+      "D": "Greater or less than the average for the deposit"
+    },
+    "correct": "A",
+    "explanation": "Table 1 Section 1 requires clear disclosure of the relationship between intercept width and true width. Downhole width, apparent width, and true width can differ significantly depending on the drill hole angle relative to the mineralised body. A steeply dipping hole through a flat-lying body may intersect a much longer downhole interval than the true thickness. Misrepresenting downhole widths as true widths can dramatically overstate deposit dimensions and mislead investors.",
+    "key_concept": "Reports must specify if widths are true, apparent, or downhole — never mislead",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-007",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "Table 1 of the JORC Code is divided into sections. Which sections apply when reporting Exploration Results?",
+    "options": {
+      "A": "Sections 1 and 2 only",
+      "B": "Sections 1, 2, and 3",
+      "C": "All five sections (1-5)",
+      "D": "Section 1 only"
+    },
+    "correct": "A",
+    "explanation": "Table 1 is structured progressively: Sections 1 and 2 apply to Exploration Results, Sections 1-3 apply to Mineral Resources, and Sections 1-5 apply to Ore Reserves. For Exploration Results, Section 1 covers sampling techniques, data quality, and verification, while Section 2 covers reporting of results including maps, plans, and context. This progressive structure reflects the increasing level of detail required as projects advance from exploration through to reserves.",
+    "key_concept": "Exploration Results require Table 1 Sections 1 and 2",
+    "source": "JORC Code 2012, Table 1",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-04-008",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company reports a weighted average grade across multiple drill intercepts in a headline. Under JORC, this is:",
+    "options": {
+      "A": "Always acceptable as it summarises the data efficiently",
+      "B": "Potentially misleading if it obscures the variability of individual results and is not accompanied by all individual intercept data",
+      "C": "Required by JORC for all multi-hole announcements",
+      "D": "Only acceptable for deposits with a coefficient of variation below 50%"
+    },
+    "correct": "B",
+    "explanation": "Clause 19 requires that individual results be reported rather than only summary statistics. Weighted averages can mask significant variability — a few high-grade intercepts mixed with many barren holes could produce an impressive average that misrepresents the deposit. While averages may be useful as supplementary information, they must be accompanied by all individual results so investors can assess the distribution and variability. Headlines using averages alone may violate Transparency.",
+    "key_concept": "Weighted averages can mislead — individual results must always be provided",
+    "source": "JORC Code 2012, Clause 19",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-009",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "When reporting Exploration Results, JORC requires the inclusion of diagrams and maps. The PRIMARY purpose of this requirement is to:",
+    "options": {
+      "A": "Make the report visually appealing for investor presentations",
+      "B": "Allow the reader to assess the spatial distribution, geological context, and significance of results",
+      "C": "Satisfy ASX formatting requirements",
+      "D": "Demonstrate that the CP visited the site"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 2 requires maps, plans, and sections to provide spatial context for Exploration Results. The purpose is Transparency — readers need to understand where drill holes are located relative to each other and to the geological setting to assess whether results are significant. A cluster of high-grade holes in one corner of a tenement has very different implications than evenly distributed high-grade results. Visual context prevents misinterpretation of tabular data.",
+    "key_concept": "Maps and diagrams provide essential spatial context for interpreting results",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-010",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company's headline reads: '50m at 5.0 g/t Au from surface — including 2m at 80.0 g/t Au.' The potential concern under JORC is that:",
+    "options": {
+      "A": "Gold grades above 50 g/t cannot be reported",
+      "B": "The high-grade sub-interval may be dominating the composite grade, and the reader could be misled about the distribution of mineralisation within the 50m interval",
+      "C": "Headline intercepts must always be less than 10m",
+      "D": "Sub-intervals cannot be reported alongside composites"
+    },
+    "correct": "B",
+    "explanation": "This type of reporting is technically permitted but must be handled carefully. The 2m at 80 g/t sub-interval contributes 160 gram-metres to the total 250 gram-metres across 50m, meaning this 4% of the intercept length accounts for 64% of the contained metal. The broader 50m at 5 g/t figure could mislead readers into thinking the grade is evenly distributed. JORC (Clause 19) requires that results be reported in a manner that is not misleading, which means the composite/sub-interval relationship should be clearly explained.",
+    "key_concept": "High-grade sub-intervals dominating composites can create misleading impressions",
+    "source": "JORC Code 2012, Clause 19, Table 1 Section 2",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-04-011",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "Table 1 Section 1 requires disclosure of which of the following?",
+    "options": {
+      "A": "Only the drill type (RC, diamond, RAB)",
+      "B": "Sampling techniques, drill type, sample recovery, logging methods, sub-sampling, quality of assay data, and verification procedures",
+      "C": "Only assay laboratory certification and results",
+      "D": "The CP's interpretation of geological continuity"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 1 is comprehensive — it covers sampling techniques and data quality across the full chain from drilling through to assay results. This includes drill type and methods, sample recovery and representativeness, logging procedures, sub-sampling and sample preparation, quality of assay data (QA/QC including standards, blanks, duplicates), verification of sampling and assaying, and data management. Each element must be addressed to demonstrate data integrity.",
+    "key_concept": "Section 1 covers the entire sampling-to-assay chain of data quality",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-012",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company reports diamond drill results but does not disclose core recovery data. Under JORC, this omission is:",
+    "options": {
+      "A": "Acceptable if the CP believes recovery was adequate",
+      "B": "Non-compliant — Table 1 Section 1 requires disclosure of sample recovery and its potential impact on results",
+      "C": "Acceptable for exploration-stage projects",
+      "D": "Only required for metallurgical test holes"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 1 explicitly requires reporting of core recovery data, including whether it is related to grade distribution. Poor core recovery can introduce sample bias — for example, if soft high-grade material is preferentially lost during drilling, the reported grades may underestimate the true grade (or vice versa). Disclosing recovery data allows investors and other professionals to assess data reliability. This requirement applies at all stages, from first-pass exploration onwards.",
+    "key_concept": "Core recovery data is mandatory — poor recovery can bias reported grades",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-013",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company announces '10m at 15.0 g/t Au' in a headline. The footnotes reveal this is downhole width in a hole drilled at 45 degrees to a vertically dipping vein. The true width is approximately:",
+    "options": {
+      "A": "15.0 metres",
+      "B": "10.0 metres",
+      "C": "7.1 metres (10m x sin 45 degrees)",
+      "D": "5.0 metres"
+    },
+    "correct": "C",
+    "explanation": "When a drill hole intersects a planar body at an angle, the true width is calculated as the downhole width multiplied by the sine of the angle between the hole and the body. For a 45-degree hole through a vertical vein: 10m x sin(45 degrees) = approximately 7.1m. The headline figure of 10m overstates the true thickness by about 40%. This is precisely why JORC requires clear disclosure of the relationship between downhole and true widths — readers need to assess the actual dimensions of mineralisation.",
+    "key_concept": "True width = downhole width x sine of intersection angle with the mineralised body",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-04-014",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "Which of the following can appropriately appear in the headline of an Exploration Results announcement?",
+    "options": {
+      "A": "'Company discovers new ore body'",
+      "B": "'Drill results confirm 10 Mt at 2.0 g/t Au resource'",
+      "C": "'Significant gold intercepts returned from initial drilling at Target X'",
+      "D": "'New deposit proves up 500,000 oz gold reserve'"
+    },
+    "correct": "C",
+    "explanation": "Option C is the only appropriate headline for Exploration Results. Option A uses the restricted word 'ore' (Clause 28). Option B claims a resource that presumably has not been formally declared. Option D claims a reserve from exploration. Headlines for Exploration Results must describe results without implying resource or reserve status. Using terms like 'significant intercepts' is appropriate because it reports factual outcomes without overstating the project's status.",
+    "key_concept": "Headlines must not imply Resource/Reserve status for Exploration Results",
+    "source": "JORC Code 2012, Clauses 17-19, 28",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-015",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company reports Exploration Results using only Reverse Circulation (RC) drilling. The CP notes that RC chips were wet and contaminated. Under JORC, the report should:",
+    "options": {
+      "A": "Exclude all wet samples from the reported results",
+      "B": "Disclose the wet sampling issue and assess its potential impact on result reliability",
+      "C": "Report the results as normal since RC drilling is an accepted technique",
+      "D": "Wait until diamond core confirmatory holes are completed before reporting"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 1 requires disclosure of factors that could affect data quality. Wet RC samples can cause cross-contamination between sample intervals, leading to grade smearing — high-grade intervals may be diluted and low-grade intervals may be falsely enriched. The CP must disclose this issue and assess its potential impact on the reliability of results. Simply excluding wet samples or ignoring the issue would violate Transparency. Investors need to understand data quality limitations.",
+    "key_concept": "Data quality issues (wet RC chips, contamination) must be disclosed and assessed",
+    "source": "JORC Code 2012, Table 1 Section 1; Clause 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-04-016",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "The Exploration Target cautionary statement required by Clause 17 must include which key elements?",
+    "options": {
+      "A": "The CP's name and RPO membership only",
+      "B": "That the target is conceptual, that insufficient exploration has been done to estimate a Resource, and that it is uncertain if further exploration will result in a Resource",
+      "C": "The estimated cost of further exploration to upgrade the target",
+      "D": "A comparison with similar deposits globally"
+    },
+    "correct": "B",
+    "explanation": "Clause 17 mandates three specific elements in the cautionary statement: (1) the potential quantity and grade is conceptual in nature, (2) there has been insufficient exploration to estimate a Mineral Resource, and (3) it is uncertain if further exploration will result in the estimation of a Mineral Resource. All three elements must be present. This triple caveat is designed to clearly differentiate an Exploration Target from the more rigorous categories of Mineral Resources.",
+    "key_concept": "Three mandatory elements: conceptual nature, insufficient exploration, uncertain outcome",
+    "source": "JORC Code 2012, Clause 17",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-017",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company reports results from 20 drill holes at a gold prospect. Eighteen holes returned no significant mineralisation, while two holes returned exceptional grades. The company's announcement leads with the two high-grade holes. This reporting approach:",
+    "options": {
+      "A": "Is acceptable because high-grade results are the most newsworthy",
+      "B": "Violates JORC's requirement to report all results and present them in a balanced manner that does not mislead",
+      "C": "Is acceptable if the 18 barren holes are mentioned in a footnote",
+      "D": "Is acceptable because the company is only required to report significant results"
+    },
+    "correct": "B",
+    "explanation": "Clause 19 requires balanced reporting of all drill results. Leading with 2 exceptional holes while downplaying 18 barren holes (90% of the program) creates a misleading impression of the prospect's potential. While companies may structure announcements to highlight significant results, the barren holes must be given appropriate prominence — not buried in footnotes. The overall presentation must allow investors to assess the full picture, including the hit rate and spatial distribution of results.",
+    "key_concept": "Balanced reporting means all results, including barren holes, are given appropriate prominence",
+    "source": "JORC Code 2012, Clauses 4-5, 19",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-04-018",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A junior explorer reports its first 5 drill holes at a new prospect. Under JORC, the minimum acceptable report should include:",
+    "options": {
+      "A": "A verbal summary from the CP to the board",
+      "B": "Drill hole locations, orientations, intercept details, assay methods, and Table 1 Sections 1-2 checklist items",
+      "C": "Only the highest-grade intercept with a location map",
+      "D": "A resource estimate based on the 5 holes"
+    },
+    "correct": "B",
+    "explanation": "Even for the earliest exploration drilling, JORC requires comprehensive reporting under Table 1 Sections 1 and 2. This includes drill hole collar coordinates, azimuths, dips, depths, all intercepts (including non-significant results), sampling and assay methodology, QA/QC information, and appropriate maps and plans. Five holes are far too few for a resource estimate. The Table 1 checklist ensures that even early-stage results are reported with sufficient rigour for investors to assess data quality.",
+    "key_concept": "Even first-pass drill results require full Table 1 Sections 1-2 compliance",
+    "source": "JORC Code 2012, Clause 19, Table 1 Sections 1-2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-019",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company announces an Exploration Target of '500-700 Mt at 0.3-0.5% Cu.' A CEO states in a media interview that 'we have about 600 Mt of copper.' This statement is problematic because:",
+    "options": {
+      "A": "The CEO is not a Competent Person and cannot make technical statements",
+      "B": "The CEO has converted a conceptual range into a single-point estimate, dropped the grade range, and implied resource-level confidence for an Exploration Target",
+      "C": "CEOs are prohibited from discussing mineral potential publicly",
+      "D": "The copper grade is too low to be discussed publicly"
+    },
+    "correct": "B",
+    "explanation": "The CEO's statement violates JORC requirements in three ways: (1) converting the mandated range to a single point (600 Mt), (2) omitting the grade range entirely, and (3) dropping the cautionary language that distinguishes Exploration Targets from Resources. Even in informal media settings, statements about mineral potential by company officers must comply with the JORC Code if they reach investors. The statement could constitute misleading and deceptive conduct under securities law.",
+    "key_concept": "Simplifying Target ranges to single-point estimates is misleading — even in media",
+    "source": "JORC Code 2012, Clauses 9, 17",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-04-020",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "Under Table 1 Section 1, QA/QC reporting for Exploration Results should include information about:",
+    "options": {
+      "A": "Only the name of the assay laboratory",
+      "B": "Standards, blanks, field duplicates, laboratory duplicates, and umpire laboratory checks where appropriate",
+      "C": "Only certified reference material (CRM) results",
+      "D": "QA/QC is only required for resource estimation, not exploration results"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 1 requires comprehensive QA/QC disclosure for all reporting levels, including Exploration Results. This encompasses certified reference materials (standards) to check accuracy, blank samples to detect contamination, field duplicates to assess field sampling precision, laboratory duplicates to assess analytical precision, and umpire laboratory checks to verify inter-laboratory consistency. Each element addresses a different potential source of error in the assay chain.",
+    "key_concept": "QA/QC covers standards, blanks, duplicates, and umpire checks — all are needed",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-021",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company reports exploration drill results using 'metal equivalent' grades (e.g., gold equivalent). Under JORC, this practice requires:",
+    "options": {
+      "A": "No special requirements — equivalents are standard practice",
+      "B": "Disclosure of the individual metal grades, metal prices, recoveries used in the calculation, and the formula applied",
+      "C": "Only the CP's approval",
+      "D": "Metal equivalents are prohibited under JORC"
+    },
+    "correct": "B",
+    "explanation": "JORC permits metal equivalent reporting but requires full transparency about the calculation. The individual grades for each metal must be disclosed alongside the equivalent, the commodity prices and assumed metallurgical recoveries used in the conversion must be stated, and the formula must be provided. Without this disclosure, investors cannot independently verify the equivalent calculation or assess its sensitivity to price and recovery assumptions. Metal equivalents without these disclosures are misleading.",
+    "key_concept": "Metal equivalents require disclosure of individual grades, prices, recoveries, and formula",
+    "source": "JORC Code 2012, Clause 19, Table 1 Section 2",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-04-022",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "Clause 18 distinguishes Exploration Results from Mineral Resources. The key distinction is that Exploration Results:",
+    "options": {
+      "A": "Use lower-quality assay data than Resource estimates",
+      "B": "Are raw data and interpretations that do not yet support formal estimation of tonnage and grade with defined confidence categories",
+      "C": "Are always from surface samples only, never from drilling",
+      "D": "Cannot include any grade or thickness information"
+    },
+    "correct": "B",
+    "explanation": "Clause 18 defines Exploration Results as data and information generated by mineral exploration programmes that are not part of a formal Mineral Resource or Ore Reserve. They represent the raw outcomes of exploration — drill intercepts, geochemical anomalies, geophysical targets — before sufficient data exists to apply the confidence categories of Inferred, Indicated, or Measured. Exploration Results can include drill grades, but these individual data points do not constitute a resource estimate.",
+    "key_concept": "Exploration Results are pre-resource data — not yet supporting formal estimation",
+    "source": "JORC Code 2012, Clause 18",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-04-023",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company reports that it has applied a 'top-cut' to high-grade assay values before calculating composite intercepts. Under JORC, this:",
+    "options": {
+      "A": "Is always prohibited because it changes the actual assay results",
+      "B": "Must be disclosed with justification — reporting should note both the raw and cut values and explain the basis for the cut",
+      "C": "Is mandatory for all gold exploration results",
+      "D": "Is only applicable to Mineral Resource estimation, not Exploration Results"
+    },
+    "correct": "B",
+    "explanation": "Top-cutting (capping) is a legitimate statistical technique to manage the influence of extreme outlier grades, but Transparency requires full disclosure. The company should report both raw (uncut) and cut values, explain the statistical basis for the chosen cut level, and assess the impact on the reported results. Without this disclosure, investors cannot assess whether the cutting is reasonable or whether it materially changes the picture. Applying undisclosed top-cuts could understate or appropriately state grades — either way, the reader needs to know.",
+    "key_concept": "Top-cuts must be disclosed and justified — report both raw and cut values",
+    "source": "JORC Code 2012, Clause 19, Table 1 Section 1",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-04-024",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "When reporting exploration drill intercepts, the JORC Code considers which of the following to be essential information?",
+    "options": {
+      "A": "Drill hole ID, collar coordinates, azimuth, dip, depth of intercept, intercept width, grade, and analytical method",
+      "B": "Only drill hole ID and grade",
+      "C": "Collar coordinates and total depth only",
+      "D": "Grade and commodity price at the time of reporting"
+    },
+    "correct": "A",
+    "explanation": "Table 1 Section 2 requires comprehensive intercept reporting including hole identification, collar coordinates (easting, northing, elevation), hole azimuth and dip, downhole depth of the intercept, intercept width (with relationship to true width noted), grade, and the analytical method used. This complete dataset allows other professionals and investors to independently assess the significance and spatial context of results. Omitting any element reduces the reader's ability to evaluate the data.",
+    "key_concept": "Full intercept data (ID, location, orientation, depth, width, grade, method) is essential",
+    "source": "JORC Code 2012, Table 1 Sections 1-2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-04-025",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company drills 10 holes on a 200m x 200m grid pattern and all return significant mineralisation. The company announces this as 'confirming continuity of mineralisation across 400m of strike.' This claim is:",
+    "options": {
+      "A": "Fully supported by the drill data",
+      "B": "Potentially overstated — 200m-spaced holes demonstrate point results, and continuity between holes is inferred, not confirmed",
+      "C": "Understated — 10 holes on this grid would confirm at least 600m of strike",
+      "D": "Acceptable if the CP agrees with the interpretation"
+    },
+    "correct": "B",
+    "explanation": "Claiming 'confirmation' of continuity from 200m-spaced drilling overstates the certainty. At 200m spacing, each drill hole confirms mineralisation at that specific point. Continuity between holes is interpreted or inferred based on geological models, but is not confirmed until closer-spaced drilling demonstrates it. The Transparency principle requires that language match the actual level of confidence. More cautious wording such as 'mineralisation intersected across 400m of strike at 200m spacing' would be appropriate.",
+    "key_concept": "Drill spacing limits certainty — point results do not 'confirm' continuity between holes",
+    "source": "JORC Code 2012, Clauses 4, 19",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-04-026",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "Under JORC, Exploration Results can be reported for which types of sampling?",
+    "options": {
+      "A": "Only diamond drilling and RC drilling",
+      "B": "Any mineral exploration programme including drilling, trenching, pitting, rock chip sampling, and soil geochemistry, provided Table 1 requirements are met",
+      "C": "Only drilling methods that produce NQ or larger core",
+      "D": "Only methods certified by the CP's RPO"
+    },
+    "correct": "B",
+    "explanation": "Clause 18 defines Exploration Results broadly as data generated by mineral exploration programmes. This encompasses all sampling methods: diamond and RC drilling, air core drilling, RAB drilling, trenching, pitting, channel sampling, rock chip sampling, soil geochemistry, and stream sediment sampling. The key requirement is that the Table 1 Section 1 disclosures are provided for whatever method is used, including an assessment of sample quality and representativeness appropriate to the technique.",
+    "key_concept": "Any exploration sampling method can generate Exploration Results if properly disclosed",
+    "source": "JORC Code 2012, Clauses 18-19, Table 1 Section 1",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-04-027",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company is preparing an ASX announcement for exploration drill results. The announcement includes a Table 1 checklist but marks many items as 'Not applicable' without explanation. Under JORC, this is:",
+    "options": {
+      "A": "Acceptable because Table 1 is a guide, not mandatory",
+      "B": "Non-compliant — if items are marked 'Not applicable,' the CP should explain why they are not relevant to the specific report",
+      "C": "Acceptable if the announcement is under 5 pages",
+      "D": "Only a problem if the ASX queries the announcement"
+    },
+    "correct": "B",
+    "explanation": "Table 1 is not optional — it is required for all JORC-compliant reports. While not every item in Table 1 will be applicable to every report, marking items as 'Not applicable' without explanation fails the Transparency test. The CP should explain why specific items are not relevant — for example, if metallurgical recovery is not applicable because no metallurgical test work has been conducted, this should be stated. Blanket 'N/A' entries suggest inadequate consideration of the checklist requirements.",
+    "key_concept": "Table 1 items marked 'N/A' require explanation — blanket dismissals are non-compliant",
+    "source": "JORC Code 2012, Table 1; Clause 5",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-04-028",
+    "chapterId": "jorc-04",
+    "domain": "jorc",
+    "question": "A company's exploration announcement shows excellent drill results but provides no information about the assay laboratory, sample preparation method, or analytical technique used. This omission:",
+    "options": {
+      "A": "Is acceptable for early-stage exploration results",
+      "B": "Violates Table 1 Section 1, which requires disclosure of sub-sampling, sample preparation, and quality of assay data",
+      "C": "Is only a concern if the laboratory is not NATA-accredited",
+      "D": "Is acceptable if the CP verbally confirms the methods were appropriate"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 1 explicitly requires disclosure of sub-sampling techniques and sample preparation, the nature, quality, and appropriateness of the assaying and laboratory procedures, and quality control measures. These details allow investors and other professionals to assess the reliability of the reported grades. Without knowing the laboratory, preparation method, and analytical technique, the assay results cannot be independently evaluated. This disclosure requirement applies regardless of project stage.",
+    "key_concept": "Laboratory, preparation, and analytical method disclosure is mandatory at all stages",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  }
+]

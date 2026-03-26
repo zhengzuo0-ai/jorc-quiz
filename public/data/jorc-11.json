@@ -1,0 +1,461 @@
+[
+  {
+    "id": "jorc-11-001",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Table 1 Section 4 of the JORC Code addresses the reporting requirements for:",
+    "options": {
+      "A": "Exploration Results",
+      "B": "Mineral Resources",
+      "C": "Ore Reserves",
+      "D": "Production targets"
+    },
+    "correct": "C",
+    "explanation": "Table 1 Section 4 covers the estimation and reporting of Ore Reserves. It requires disclosure of the Modifying Factors that have been applied to convert Mineral Resources into Ore Reserves, including mining, metallurgical, economic, marketing, legal, environmental, social, and governmental factors. Ore Reserves represent the economically mineable part of a Measured or Indicated Mineral Resource, and Section 4 ensures all assumptions underlying this conversion are transparent to the reader.",
+    "key_concept": "Table 1 Section 4 governs Ore Reserve estimation and reporting, including all Modifying Factors",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-11-002",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Under JORC, 'Modifying Factors' refer to:",
+    "options": {
+      "A": "Geological adjustments made to drill hole data before resource estimation",
+      "B": "The considerations used to convert Mineral Resources into Ore Reserves, including mining, processing, metallurgical, infrastructure, economic, marketing, legal, environmental, social, and governmental factors",
+      "C": "Statistical modifications applied to grade data during kriging",
+      "D": "Corrections applied to survey coordinates of drill holes"
+    },
+    "correct": "B",
+    "explanation": "Modifying Factors (Clause 28) are the full range of considerations that must be assessed to convert a Mineral Resource to an Ore Reserve. They encompass mining method and design, ore loss and dilution, metallurgical recovery, processing plant design, infrastructure requirements, capital and operating costs, commodity prices, discount rates, environmental compliance, social licence, legal tenure, and government approvals. The application of Modifying Factors is what transforms a geological inventory (Resource) into an economic mining proposition (Reserve). All Modifying Factor assumptions must be disclosed under Table 1 Section 4.",
+    "key_concept": "Modifying Factors transform geological Resources into economic Reserves across all relevant disciplines",
+    "source": "JORC Code 2012, Clause 28, Table 1 Section 4",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-11-003",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "An Ore Reserve can only be derived from which Mineral Resource classification categories?",
+    "options": {
+      "A": "Inferred and Indicated Resources only",
+      "B": "Measured and Indicated Resources only",
+      "C": "Any Resource classification category",
+      "D": "Measured Resources only"
+    },
+    "correct": "B",
+    "explanation": "Under JORC (Clauses 28-29), Proved Reserves can only be derived from Measured Resources, and Probable Reserves can be derived from either Measured or Indicated Resources. Inferred Resources cannot be converted to any Reserve category because they lack sufficient geological confidence for the meaningful application of Modifying Factors. This is a fundamental principle: the economic viability assessment underpinning a Reserve requires a reliable geological estimate as its starting point. Including Inferred material in Reserves would introduce unacceptable uncertainty into mine plans and financial projections.",
+    "key_concept": "Reserves derive from Measured (Proved) and Indicated (Probable) Resources only — never Inferred",
+    "source": "JORC Code 2012, Clauses 28-29",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-11-004",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "The strip ratio in an open pit mine is defined as:",
+    "options": {
+      "A": "The ratio of ore tonnes to total tonnes mined",
+      "B": "The ratio of waste tonnes to ore tonnes that must be removed to access the ore",
+      "C": "The ratio of mining cost to processing cost",
+      "D": "The ratio of surface area disturbed to ore volume extracted"
+    },
+    "correct": "B",
+    "explanation": "Strip ratio is the tonnes of waste that must be removed for every tonne of ore extracted. For example, a strip ratio of 8:1 means 8 tonnes of waste must be mined for every 1 tonne of ore. This is a critical economic parameter because waste removal is a major cost component — a higher strip ratio increases the overall cost per tonne of ore and raises the break-even grade. Table 1 Section 4 requires disclosure of strip ratios (life-of-mine and by period) as they directly impact the economic viability and hence the Reserve estimate. Pit optimisation software is used to find the pit shell that maximises NPV for a given strip ratio profile.",
+    "key_concept": "Strip ratio = waste:ore tonnes; higher ratios increase costs and break-even grade",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-11-005",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Which factor is MOST critical in choosing between open pit and underground mining for an Ore Reserve?",
+    "options": {
+      "A": "The colour of the host rock",
+      "B": "The depth, geometry, and grade distribution of the orebody relative to the strip ratio economics",
+      "C": "The proximity to the nearest airport",
+      "D": "The nationality of the mining company"
+    },
+    "correct": "B",
+    "explanation": "The open pit vs underground decision is primarily driven by the depth and geometry of the orebody, the grade distribution, and the resulting strip ratio economics. Shallow, large, disseminated deposits with low strip ratios favour open pit mining. Deep, narrow, high-grade deposits favour underground methods because the strip ratio for open pit extraction would be prohibitive. The transition point occurs where the cost of waste removal exceeds the value of the ore accessed. Table 1 Section 4 requires that the mining method selection be justified, including the economic analysis supporting the choice and any scenarios where the method might change.",
+    "key_concept": "Open pit vs underground depends on depth, geometry, grade, and strip ratio economics",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-006",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Metallurgical recovery in the context of Ore Reserve estimation refers to:",
+    "options": {
+      "A": "The percentage of mined ore that is delivered to the processing plant",
+      "B": "The percentage of the contained metal in the ore that is extracted by the processing plant and recovered as saleable product",
+      "C": "The percentage of drill core samples that produced assay results",
+      "D": "The percentage of the deposit that has been mined"
+    },
+    "correct": "B",
+    "explanation": "Metallurgical recovery is the proportion of the valuable metal in the mill feed that is actually recovered into a saleable product (concentrate, dore bar, cathode copper, etc.). For example, a gold processing plant with 92% recovery means that for every 100 ounces of gold in the ore fed to the plant, 92 ounces are recovered and 8 ounces are lost to tailings. Table 1 Section 4 requires disclosure of metallurgical test work results, the assumed recovery rates, and how recovery varies with ore type, grade, and depth. Overstating metallurgical recovery directly inflates Reserve metal content and economic returns.",
+    "key_concept": "Metallurgical recovery = percentage of metal in ore recovered as saleable product",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-11-007",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "A company assumes a gold price of US$2,500/oz for its Ore Reserve estimate when the current spot price is US$2,000/oz. Under JORC, what is required?",
+    "options": {
+      "A": "The spot price must always be used",
+      "B": "Any price can be used without justification",
+      "C": "The assumed price must be disclosed and justified, typically using long-term consensus forecasts rather than spot prices",
+      "D": "The price must be approved by ASIC"
+    },
+    "correct": "C",
+    "explanation": "Table 1 Section 4 requires disclosure of the commodity price assumptions used in the Reserve estimate and the basis for these assumptions. Using a price significantly above current spot requires strong justification, typically referencing long-term analyst consensus forecasts. Reserve estimates are intended to represent what can be economically extracted — if the assumed price never materialises, the Reserve will prove illusory. Most Competent Persons use conservative prices below or near the current long-term consensus. Sensitivity analysis showing the Reserve at different price levels is also expected. ASIC does not approve commodity price assumptions directly.",
+    "key_concept": "Commodity price assumptions must be disclosed, justified, and typically based on conservative long-term forecasts",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-008",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Mining dilution in an Ore Reserve estimate accounts for:",
+    "options": {
+      "A": "The reduction in grade when water is added during processing",
+      "B": "The inclusion of waste material that is unavoidably mined with the ore, reducing the overall head grade",
+      "C": "The loss of metal during smelting",
+      "D": "The difference between measured and indicated resource grades"
+    },
+    "correct": "B",
+    "explanation": "Mining dilution occurs when waste rock is unavoidably included with ore during the mining process, reducing the delivered head grade below the in-situ resource grade. In open pit mining, dilution arises from blast movement, equipment selectivity (the minimum mining unit), and ore boundary uncertainty. In underground mining, dilution comes from overbreak, minimum stope dimensions, and backfill inclusion. Table 1 Section 4 requires disclosure of assumed dilution factors, their basis (benchmarked against similar operations or geotechnical studies), and their impact on the Reserve grade. Typical dilution factors range from 5-15% for open pit and 10-30% for underground operations.",
+    "key_concept": "Mining dilution = waste inadvertently included with ore, reducing head grade below resource grade",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-009",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Ore loss in the Reserve estimation context refers to:",
+    "options": {
+      "A": "Metal lost during processing",
+      "B": "Mineralised material within the mine design that cannot be recovered during mining and is left in-situ or sent to waste",
+      "C": "Resource material outside the mine design",
+      "D": "The difference between measured and actual grades"
+    },
+    "correct": "B",
+    "explanation": "Ore loss refers to mineralised material within the Reserve mine design that cannot be physically recovered during mining operations. Causes include material left in pillars (underground), material lost to blast damage, material misidentified as waste by grade control, and material below the minimum mining width. Table 1 Section 4 requires disclosure of assumed ore loss factors. Ore loss directly reduces the tonnage of the Reserve compared to the in-situ Resource within the mine design. Combined with dilution, ore loss means the Reserve always contains fewer metal units than the equivalent Resource volume, even before processing losses.",
+    "key_concept": "Ore loss = mineable resource material left unrecovered or misallocated during mining",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-010",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Break-even grade is the minimum grade that covers all costs and allows economic extraction. Which costs must be included in a break-even grade calculation?",
+    "options": {
+      "A": "Only mining costs",
+      "B": "Mining costs, processing costs, general and administrative costs, royalties, and selling costs — the full cost chain",
+      "C": "Only processing costs and royalties",
+      "D": "Only capital costs"
+    },
+    "correct": "B",
+    "explanation": "Break-even grade must account for the complete cost chain from ore in the ground to metal sold: mining costs (drilling, blasting, loading, hauling), processing costs (crushing, grinding, flotation/leaching, refining), general and administrative costs, royalties (government and NSR), selling costs (refining charges, transport, marketing), and in some cases, sustaining capital. The formula is: Break-even grade = Total costs per tonne / (Commodity price x Recovery x Payability). Table 1 Section 4 requires disclosure of all cost assumptions used in determining the Reserve cut-off grade. Excluding any cost component understates the break-even grade and may include uneconomic material in the Reserve.",
+    "key_concept": "Break-even grade must include the full cost chain from mining to sale",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-011",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "A sensitivity analysis on an Ore Reserve typically examines the impact of varying:",
+    "options": {
+      "A": "Only the gold price",
+      "B": "Commodity price, operating costs, capital costs, grade, recovery, and exchange rates",
+      "C": "Only the discount rate",
+      "D": "Only the mining method"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 4 requires sensitivity analysis that tests the robustness of the Reserve to changes in key assumptions. This typically includes commodity price (the most common variable), operating costs (mining, processing, G&A), capital costs, head grade (which may change with revised resource models), metallurgical recovery, exchange rates (for projects with costs in one currency and revenue in another), and sometimes discount rates. A robust Reserve should remain positive across a reasonable range of each variable. If the Reserve is highly sensitive to one parameter (e.g., it disappears at a 10% gold price decrease), this is a material risk that must be disclosed.",
+    "key_concept": "Sensitivity analysis must test Reserve robustness across all key economic and technical parameters",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-012",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "A discount rate is used in Reserve estimation primarily for:",
+    "options": {
+      "A": "Reducing the reported grade of the Reserve",
+      "B": "Calculating the Net Present Value (NPV) of future cash flows to determine economic viability and optimise mine scheduling",
+      "C": "Discounting the Resource tonnage to account for uncertainty",
+      "D": "Determining the metallurgical recovery rate"
+    },
+    "correct": "B",
+    "explanation": "The discount rate is used to convert future cash flows into present value (NPV). It reflects the time value of money and the project's risk profile. In Reserve estimation, the discount rate is used in pit optimisation (Lerchs-Grossmann algorithm) and mine scheduling to maximise NPV rather than just total profit. A higher discount rate favours extracting high-grade material early and may result in a smaller, higher-grade Reserve that is extracted more quickly. Table 1 Section 4 requires disclosure of the discount rate used and its basis. Typical mining project discount rates range from 5-12% real, depending on jurisdiction risk and project stage.",
+    "key_concept": "Discount rate converts future cash flows to NPV and influences optimal mine scheduling and pit design",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-11-013",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Processing plant design assumptions in a Reserve estimate must include consideration of:",
+    "options": {
+      "A": "Only the throughput rate",
+      "B": "Throughput rate, processing route, recovery by ore type, grind size, reagent consumption, and water/power requirements",
+      "C": "Only the recovery rate and grind size",
+      "D": "Only the capital cost of the plant"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 4 requires comprehensive disclosure of processing plant assumptions. These include: throughput rate (tonnes per annum or per day), the processing route (CIL, flotation, heap leach, etc.), recovery rates by ore type (oxide, transitional, fresh), grind size and its relationship to liberation and recovery, reagent consumption and costs, water supply and balance, power requirements and source, and waste/tailings management. Each parameter affects the economic viability of the Reserve. For example, a change in recovery from 92% to 85% due to transitioning from oxide to sulphide ore could make marginal blocks uneconomic.",
+    "key_concept": "Processing assumptions span the entire plant flowsheet and vary by ore type",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-014",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "When reconciling an Ore Reserve with actual mining production data, a systematic underperformance in grade may indicate:",
+    "options": {
+      "A": "The gold price has decreased",
+      "B": "The resource model may have overestimated in-situ grades, mining dilution may be higher than assumed, or grade control processes may be inadequate",
+      "C": "The processing plant is performing better than expected",
+      "D": "The drill spacing was too close"
+    },
+    "correct": "B",
+    "explanation": "Systematic grade underperformance (mined grade lower than model grade) can stem from multiple causes: the resource model may contain grade estimation bias (e.g., from conditional bias in kriging or inadequate top-cutting), mining dilution may exceed the assumed percentage, ore/waste boundary classification in grade control may be inaccurate, or the support effect between sample volume and mining volume may not have been adequately modelled. Table 1 Section 4 requires disclosure of reconciliation results and investigation of discrepancies. Chronic underperformance demands a review of both the resource model and the Reserve assumptions.",
+    "key_concept": "Grade reconciliation failures may indicate model bias, excess dilution, or grade control issues",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-11-015",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Social and environmental Modifying Factors that must be considered in an Ore Reserve include:",
+    "options": {
+      "A": "Only the environmental impact assessment",
+      "B": "Environmental permitting status, community agreements, resettlement requirements, water rights, rehabilitation obligations, and closure costs",
+      "C": "Only the rehabilitation bond required by regulators",
+      "D": "Only whether the project has community support"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 4 requires consideration of a comprehensive set of social and environmental factors: the status of environmental permits and approvals, any community agreements or social licence requirements, resettlement needs and costs, water rights and allocations, mine closure and rehabilitation plans and their estimated costs, and any legal or regulatory constraints. If any of these factors could prevent or significantly delay mining, they affect the viability of the Reserve. A deposit with excellent geology but unresolvable environmental or social impediments may not support a Reserve declaration, regardless of its grade and tonnage.",
+    "key_concept": "Social and environmental factors can prevent Reserve declaration regardless of geological merit",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-016",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "A company converts a Measured Resource to a Probable Reserve instead of a Proved Reserve. Under JORC, when is this acceptable?",
+    "options": {
+      "A": "Never — Measured must always convert to Proved",
+      "B": "When uncertainties in any of the Modifying Factors applied to the Measured Resource are sufficient to downgrade the Reserve classification",
+      "C": "When the company wants to be conservative for investor relations",
+      "D": "Only when the mining method is underground"
+    },
+    "correct": "B",
+    "explanation": "JORC (Clause 30) permits a Measured Resource to be converted to a Probable Reserve (rather than Proved) when uncertainties in the Modifying Factors are significant enough to downgrade the confidence. For example, a geologically well-defined deposit (Measured) in a jurisdiction with uncertain permitting, untested metallurgy, or preliminary mining studies may not warrant the highest Reserve classification. The geological confidence justifies Measured, but the overall project confidence (including non-geological factors) only supports Probable. This is an important nuance that prevents over-classification of Reserves based solely on geological confidence.",
+    "key_concept": "Measured Resources can become Probable Reserves if Modifying Factor uncertainties reduce overall confidence",
+    "source": "JORC Code 2012, Clause 30",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-11-017",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Mine scheduling in the context of Ore Reserve estimation refers to:",
+    "options": {
+      "A": "The shift roster for mine workers",
+      "B": "The sequencing of ore and waste extraction over time to optimise NPV while satisfying operational and physical constraints",
+      "C": "The schedule for environmental monitoring",
+      "D": "The timeline for completing the feasibility study"
+    },
+    "correct": "B",
+    "explanation": "Mine scheduling determines when each block of ore and waste will be mined over the life of the operation. The objective is typically to maximise NPV by extracting higher-value material earlier while respecting constraints such as pit wall stability, haul road access, plant capacity, waste dump capacity, and blending requirements. Table 1 Section 4 requires disclosure of the mine plan and schedule, including the basis for the extraction sequence. The schedule directly determines the Reserve's economic value — the same tonnage and grade mined in a different sequence can produce dramatically different NPVs due to the time value of money.",
+    "key_concept": "Mine scheduling optimises extraction sequence for NPV while respecting physical constraints",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-018",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "An underground gold mine uses a sub-level open stoping method. Minimum stope dimensions are 3m wide x 25m high x 15m along strike. What is the primary implication for the Reserve estimate?",
+    "options": {
+      "A": "None — stope dimensions do not affect the Reserve",
+      "B": "Mineralisation narrower than 3m or shorter than the minimum stope dimensions may not be economically extractable, and dilution from stope walls must be included",
+      "C": "Only the grade implications matter, not the dimensions",
+      "D": "The stope dimensions determine the Resource classification"
+    },
+    "correct": "B",
+    "explanation": "The minimum mining unit (stope dimensions) sets a physical constraint on what can be economically extracted underground. Mineralisation narrower than the 3m minimum stope width will incur significant dilution from waste on the stope walls, potentially reducing the grade below break-even. Similarly, isolated pods of mineralisation too small to form a stope are not recoverable. Table 1 Section 4 requires that mine design parameters including minimum stope dimensions, planned dilution, and ore loss from pillars be disclosed. The interaction between stope geometry and ore geometry is fundamental to underground Reserve estimation.",
+    "key_concept": "Minimum stope dimensions constrain what mineralisation is economically recoverable underground",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-11-019",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Infrastructure considerations in an Ore Reserve estimate include all of the following EXCEPT:",
+    "options": {
+      "A": "Road and port access for product transport",
+      "B": "Power supply availability and cost",
+      "C": "Water supply for processing",
+      "D": "The historical share price performance of the company"
+    },
+    "correct": "D",
+    "explanation": "Table 1 Section 4 requires assessment of infrastructure Modifying Factors including: transport (roads, rail, port facilities for product shipment), power (grid connection, on-site generation, cost), water (supply source, licences, treatment requirements), accommodation (camp or local housing), communications, and other essential services. Each of these has capital and operating cost implications that affect the Reserve economics. Historical share price performance is entirely irrelevant to the physical and economic assessment of whether mineralisation can be profitably mined and is never a Modifying Factor.",
+    "key_concept": "Infrastructure Modifying Factors cover transport, power, water, and all essential services",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-11-020",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "An open pit Reserve estimate assumes a pit wall angle of 55 degrees in fresh rock. What is the consequence if geotechnical studies later indicate the safe angle is only 45 degrees?",
+    "options": {
+      "A": "No impact on the Reserve",
+      "B": "More waste must be removed to access the same ore, increasing the strip ratio and potentially reducing the economically mineable Reserve",
+      "C": "The gold grade increases",
+      "D": "The processing recovery improves"
+    },
+    "correct": "B",
+    "explanation": "Flatter pit walls mean the pit must be wider at the surface to reach the same depth, substantially increasing the volume of waste that must be removed. A change from 55 to 45 degrees can increase waste volumes by 30-50% or more depending on pit geometry. This increases the strip ratio, raises operating costs, and may push the break-even grade above the grade of marginal blocks, shrinking the economic pit and reducing the Reserve. Table 1 Section 4 requires disclosure of geotechnical assumptions including pit slope angles and their basis. Geotechnical risk is one of the most significant uncertainties in open pit Reserve estimation.",
+    "key_concept": "Flatter pit slopes increase waste volumes, raise strip ratios, and can significantly reduce Reserves",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-11-021",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "A feasibility study is a prerequisite for declaring an Ore Reserve under JORC. At what level must the study be completed?",
+    "options": {
+      "A": "A scoping study is sufficient",
+      "B": "At least a Pre-Feasibility Study, with the level of study required to support the Reserve classification clearly stated",
+      "C": "A Definitive Feasibility Study is always required",
+      "D": "No study is required if the Competent Person is satisfied"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code (Clause 28) requires that Ore Reserves be supported by at least a Pre-Feasibility Study (PFS) that demonstrates the technical and economic viability of extraction. A Definitive Feasibility Study (DFS/BFS) provides higher confidence but is not always mandatory. The level of study must be appropriate for the Reserve classification — Proved Reserves generally require DFS-level confidence in Modifying Factors, while Probable Reserves may be supported by PFS-level work. A scoping study alone is insufficient as it lacks the engineering detail to reliably define the Modifying Factors. The study level must be disclosed.",
+    "key_concept": "Ore Reserves require at minimum a Pre-Feasibility Study demonstrating technical and economic viability",
+    "source": "JORC Code 2012, Clause 28",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-022",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Royalties must be included in which part of the Ore Reserve assessment?",
+    "options": {
+      "A": "They are excluded from all Reserve calculations",
+      "B": "In the economic assessment as an operating cost that affects the break-even grade and NPV",
+      "C": "Only in the Mineral Resource estimate",
+      "D": "Only if the royalty exceeds 5%"
+    },
+    "correct": "B",
+    "explanation": "Royalties (government royalties, NSR royalties, third-party royalties) are a cost of production that directly affects the economic viability of the Reserve. They must be included in the cash flow model as an operating cost, as they increase the break-even grade and reduce the NPV. Table 1 Section 4 requires disclosure of all economic assumptions including royalties, taxes, and other government charges. Omitting royalties from the economic assessment would overstate the Reserve's profitability and potentially include blocks that are actually uneconomic when all costs are considered. All royalties apply, regardless of their size.",
+    "key_concept": "Royalties are operating costs that affect break-even grade and must be included in Reserve economics",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-11-023",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "A gold mine reports a Reserve with 95% metallurgical recovery based entirely on laboratory bottle-roll tests. What concern should a CEO have?",
+    "options": {
+      "A": "No concern — laboratory tests are the gold standard",
+      "B": "Laboratory tests often overstate recovery achievable at plant scale due to differences in grind size, residence time, particle size distribution, and ore variability in continuous processing",
+      "C": "95% recovery is too low for gold",
+      "D": "Bottle-roll tests are not permitted under JORC"
+    },
+    "correct": "B",
+    "explanation": "Laboratory bottle-roll tests are conducted under ideal conditions — fine grind, long contact time, small sample size — that rarely replicate full-scale plant performance. Plant-scale recovery is typically 2-8% lower due to coarser grind, shorter residence time, ore variability, and continuous processing inefficiencies. A Reserve based solely on laboratory recovery without pilot plant or comparable plant data carries significant risk. Table 1 Section 4 requires disclosure of the basis for metallurgical recovery assumptions and the level of test work supporting them. A CEO should question whether a scale-up factor has been applied and whether the test work is representative of the full ore body variability.",
+    "key_concept": "Laboratory recovery typically overstates plant-scale performance — scale-up factors are essential",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-11-024",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Legal Modifying Factors in a Reserve estimate include consideration of:",
+    "options": {
+      "A": "Only the mining lease status",
+      "B": "Mining and mineral rights, surface rights, water rights, native title/indigenous rights, and any legal disputes or encumbrances",
+      "C": "Only environmental permits",
+      "D": "Only the company's corporate structure"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 4 requires a comprehensive assessment of legal Modifying Factors. These include: the status and security of mining and mineral rights (granted vs pending), surface access rights, water extraction licences, native title or indigenous land rights determinations, any ongoing legal disputes or encumbrances, and the regulatory framework including changes that might affect the project. If any legal factor could prevent mining or impose significant delays/costs, it is material to the Reserve. A deposit with all geological and economic prerequisites but unresolved legal impediments may not support a Reserve declaration.",
+    "key_concept": "Legal Modifying Factors encompass all rights, permits, and legal impediments affecting mining viability",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-11-025",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "A company's Reserve estimate shows an NPV of $50 million at a 10% discount rate. The sensitivity analysis shows the NPV turns negative at a gold price of $1,750/oz while the current gold price is $2,000/oz. What should this tell a CEO?",
+    "options": {
+      "A": "The project is extremely robust",
+      "B": "The Reserve is marginally economic with limited downside protection — a 12.5% decrease in gold price eliminates all value",
+      "C": "The discount rate should be increased to improve the NPV",
+      "D": "The sensitivity analysis is irrelevant since the current price is above $1,750"
+    },
+    "correct": "B",
+    "explanation": "A project that becomes NPV-negative with only a 12.5% gold price decrease is highly sensitive and marginally economic. Gold prices are volatile and have historically experienced 20-30% declines over short periods. Table 1 Section 4 requires sensitivity analysis to be disclosed precisely so that readers can assess this risk. A robust Reserve should typically withstand a 15-20% price decline before turning negative. The CEO should understand that this Reserve is effectively a bet on gold prices remaining above $1,750/oz for the mine life. This sensitivity should be prominently disclosed and may warrant a more conservative Reserve declaration.",
+    "key_concept": "Sensitivity analysis reveals Reserve vulnerability — marginal projects with thin price buffers carry high risk",
+    "source": "JORC Code 2012, Table 1 Section 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-11-026",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "In the context of Reserve estimation, what is the relationship between the cut-off grade used for the Resource and the cut-off grade used for the Reserve?",
+    "options": {
+      "A": "They must be identical",
+      "B": "The Reserve cut-off grade is typically higher because it incorporates all Modifying Factors (mining costs, dilution, processing, overhead, royalties) not considered in the Resource cut-off",
+      "C": "The Resource cut-off is always higher than the Reserve cut-off",
+      "D": "Cut-off grades are not used for Reserve estimation"
+    },
+    "correct": "B",
+    "explanation": "The Resource cut-off grade reflects 'reasonable prospects for eventual economic extraction' at a conceptual level and is typically set conservatively low. The Reserve cut-off grade incorporates the full cost structure determined through the feasibility study — specific mining costs (including dilution), actual processing costs, G&A, royalties, and all other Modifying Factors. Because the Reserve cut-off reflects all real costs, it is typically higher than the Resource cut-off. This means some Resource material above the Resource cut-off will fall below the Reserve cut-off and be excluded from the Reserve. This difference is normal and expected.",
+    "key_concept": "Reserve cut-off exceeds Resource cut-off because it includes all Modifying Factor costs",
+    "source": "JORC Code 2012, Table 1 Sections 3-4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-11-027",
+    "chapterId": "jorc-11",
+    "domain": "jorc",
+    "question": "Which of the following is the correct hierarchy from geological model to Ore Reserve?",
+    "options": {
+      "A": "Ore Reserve → Mineral Resource → Geological Model",
+      "B": "Geological Model → Mineral Resource (applying estimation and classification) → Ore Reserve (applying Modifying Factors)",
+      "C": "Mineral Resource → Geological Model → Ore Reserve",
+      "D": "Feasibility Study → Geological Model → Mineral Resource → Ore Reserve"
+    },
+    "correct": "B",
+    "explanation": "The JORC framework follows a logical progression: First, a geological model is constructed from exploration data. Second, grade estimation and classification criteria are applied to produce a Mineral Resource (Inferred, Indicated, Measured). Third, Modifying Factors (mining, metallurgical, economic, legal, environmental, social) are applied to Measured and Indicated Resources through a feasibility study to produce Ore Reserves (Proved and Probable). Each step adds confidence and narrows the material from all mineralisation to only the economically extractable portion. This hierarchy ensures that Reserves are supported by both geological confidence and demonstrated economic viability.",
+    "key_concept": "JORC hierarchy: Geological Model → Resource (estimation) → Reserve (Modifying Factors)",
+    "source": "JORC Code 2012, Figure 1",
+    "difficulty": 1
+  }
+]

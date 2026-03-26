@@ -1,0 +1,478 @@
+[
+  {
+    "id": "gold-01-001",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What is the standard unit for reporting gold grade in hard-rock deposits?",
+    "options": {
+      "A": "Parts per billion (ppb)",
+      "B": "Grams per tonne (g/t)",
+      "C": "Troy ounces per ton (oz/t)",
+      "D": "Percentage (%)"
+    },
+    "correct": "B",
+    "explanation": "Grams per tonne (g/t) is the international standard for reporting gold grades in hard-rock deposits, equivalent to parts per million (ppm). Troy ounces per ton is sometimes used in North America but g/t is the JORC/CRIRSCO standard. Parts per billion (ppb) is used for soil geochemistry samples, not resource grades. Percentage is used for base metals like copper, not gold.",
+    "key_concept": "Gold grade standard unit: g/t (= ppm). 1 g/t gold = 1 ppm",
+    "source": "Industry standard, JORC reporting convention",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-002",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A gold deposit has a grade of 5 g/t. How many troy ounces of gold does 1 tonne of ore contain?",
+    "options": {
+      "A": "0.05 oz",
+      "B": "0.16 oz",
+      "C": "0.50 oz",
+      "D": "1.61 oz"
+    },
+    "correct": "B",
+    "explanation": "1 troy ounce = 31.1035 grams. So 5 grams / 31.1035 = 0.1607 troy ounces per tonne. The conversion factor is: g/t ÷ 31.1035 = oz/t. This is a fundamental conversion every mining professional should know by heart. A 5 g/t deposit is considered high-grade for open pit and very good for underground.",
+    "key_concept": "g/t to oz/t conversion: divide by 31.1035",
+    "source": "Fundamental gold industry conversion",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-003",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "Which property of gold makes it particularly amenable to gravity separation in mineral processing?",
+    "options": {
+      "A": "Its yellow color",
+      "B": "Its high specific gravity (19.3)",
+      "C": "Its resistance to oxidation",
+      "D": "Its malleability"
+    },
+    "correct": "B",
+    "explanation": "Gold's extremely high specific gravity of 19.3 (compared to most rock minerals at 2.5-3.0) creates a large density differential that makes gravity separation highly effective. This is why panning works and why gravity circuits are often the first step in gold processing plants. Free gold particles settle much faster than waste minerals in water-based separation.",
+    "key_concept": "Gold SG = 19.3, enabling gravity separation from gangue (SG 2.5-3.0)",
+    "source": "Gold metallurgy fundamentals",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-004",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "In exploration geochemistry, a soil sample returning 150 ppb Au would be considered:",
+    "options": {
+      "A": "Background level, not anomalous",
+      "B": "A strong anomaly warranting follow-up",
+      "C": "Ore grade material ready for mining",
+      "D": "Impossible — gold cannot be detected at ppb levels"
+    },
+    "correct": "B",
+    "explanation": "150 ppb (0.15 ppm or 0.15 g/t) in a soil sample is typically a strong geochemical anomaly. Background gold in soil is usually 1-5 ppb. Anything above 50-100 ppb is generally considered anomalous and warrants follow-up sampling or trenching. Note: soil grades are NOT ore grades — the underlying bedrock needs drilling to determine if economic mineralization exists. Modern labs can detect gold down to 1 ppb using fire assay or BLEG methods.",
+    "key_concept": "Soil Au >50-100 ppb = anomalous; background is 1-5 ppb; soil grade ≠ ore grade",
+    "source": "Exploration geochemistry practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-005",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What is the 'nugget effect' in gold geostatistics, and why does it matter?",
+    "options": {
+      "A": "The tendency for gold nuggets to increase resource estimates",
+      "B": "High short-range grade variability due to coarse gold particles, making estimation difficult",
+      "C": "The premium price commanded by visible gold specimens",
+      "D": "A legal requirement to report nuggets separately in JORC Table 1"
+    },
+    "correct": "B",
+    "explanation": "The nugget effect refers to high grade variability at very short distances, caused by the erratic distribution of coarse gold particles. This is a fundamental geostatistical challenge: two samples taken 1 meter apart can show wildly different grades. It makes resource estimation difficult because standard interpolation methods assume some spatial continuity. Deposits with strong nugget effects require larger sample volumes, closer drill spacing, or screen fire assay to improve grade reliability.",
+    "key_concept": "Nugget effect = erratic short-range grade variability from coarse gold; requires larger samples",
+    "source": "Geostatistics, resource estimation fundamentals",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-006",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What is the atomic number of gold?",
+    "options": {
+      "A": "47 (silver)",
+      "B": "78 (platinum)",
+      "C": "79",
+      "D": "82 (lead)"
+    },
+    "correct": "C",
+    "explanation": "Gold has atomic number 79 and the chemical symbol Au, derived from the Latin 'aurum' meaning 'shining dawn.' It sits in Group 11 of the periodic table alongside silver (47) and copper (29). Gold's position among the heavy transition metals explains its high density and chemical stability. Its electron configuration gives rise to relativistic effects that produce gold's characteristic yellow color.",
+    "key_concept": "Gold: atomic number 79, symbol Au (from Latin 'aurum')",
+    "source": "Gold chemistry fundamentals",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-007",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What is the melting point of gold?",
+    "options": {
+      "A": "660°C",
+      "B": "1064°C",
+      "C": "1538°C",
+      "D": "1768°C"
+    },
+    "correct": "B",
+    "explanation": "Gold melts at 1064°C (1947°F), which is significantly lower than iron (1538°C) or platinum (1768°C), but higher than aluminium (660°C). This relatively moderate melting point made gold one of the earliest metals smelted by humans, dating back over 5,000 years. Modern gold refineries use induction furnaces to melt and pour gold dore bars at temperatures slightly above 1064°C before further purification.",
+    "key_concept": "Gold melting point = 1064°C; lower than iron or platinum",
+    "source": "Gold physical properties",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-008",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What is the average crustal abundance of gold in the Earth's crust?",
+    "options": {
+      "A": "0.004 ppm (4 ppb)",
+      "B": "0.04 ppm (40 ppb)",
+      "C": "0.4 ppm (400 ppb)",
+      "D": "4 ppm (4000 ppb)"
+    },
+    "correct": "A",
+    "explanation": "Gold's average crustal abundance is approximately 0.004 ppm (4 ppb), making it one of the rarest elements in Earth's crust. To form a mineable deposit at even 1 g/t requires an enrichment factor of roughly 250 times above crustal average. This extreme rarity is why gold deposits require specific geological processes — such as hydrothermal fluid concentration — to accumulate gold to economic grades. By comparison, copper averages about 50 ppm in the crust.",
+    "key_concept": "Crustal Au abundance = 0.004 ppm (4 ppb); gold is extremely rare",
+    "source": "Geochemistry fundamentals",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-009",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "Gold's crystal structure is described as:",
+    "options": {
+      "A": "Body-centered cubic (BCC)",
+      "B": "Hexagonal close-packed (HCP)",
+      "C": "Face-centered cubic (FCC)",
+      "D": "Orthorhombic"
+    },
+    "correct": "C",
+    "explanation": "Gold crystallizes in the face-centered cubic (FCC) structure, which has atoms at each corner and the center of each face of the unit cube. The FCC structure provides the maximum atomic packing efficiency (74%) and is responsible for gold's exceptional malleability and ductility. This crystal structure allows slip along multiple planes, meaning gold can be hammered into sheets as thin as 0.1 micrometers (gold leaf) without fracturing. Silver and copper share the same FCC structure.",
+    "key_concept": "Gold has FCC crystal structure, giving it extreme malleability and ductility",
+    "source": "Crystallography, gold physical properties",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-010",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "Which acid or acid combination can dissolve gold?",
+    "options": {
+      "A": "Concentrated hydrochloric acid alone",
+      "B": "Concentrated sulfuric acid alone",
+      "C": "Aqua regia (3:1 HCl:HNO₃ mixture)",
+      "D": "Concentrated nitric acid alone"
+    },
+    "correct": "C",
+    "explanation": "Gold is one of the most chemically inert metals and resists attack by individual acids. Aqua regia — a mixture of 3 parts hydrochloric acid to 1 part nitric acid — dissolves gold by forming soluble chloroauric acid (HAuCl₄). The nitric acid oxidizes the gold while the hydrochloric acid provides chloride ions to form a stable complex. This chemical inertness is why gold survives weathering and accumulates in placer deposits. Gold can also be dissolved by cyanide solutions and chlorine water.",
+    "key_concept": "Gold resists most acids; aqua regia (3:1 HCl:HNO₃) dissolves it",
+    "source": "Gold chemistry fundamentals",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-011",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What is the Mohs hardness of gold?",
+    "options": {
+      "A": "1.0-1.5 (softer than gypsum)",
+      "B": "2.5-3.0 (similar to calcite)",
+      "C": "5.0-5.5 (similar to glass)",
+      "D": "6.0-6.5 (similar to feldspar)"
+    },
+    "correct": "B",
+    "explanation": "Gold has a Mohs hardness of 2.5-3, making it a relatively soft metal that can be scratched with a copper coin. This softness is why pure gold is rarely used in jewelry without alloying — 18K gold (75% Au) is alloyed with harder metals like silver and copper for durability. In exploration, this softness means gold particles become progressively flattened and rounded during transport in alluvial systems. Prospectors historically used bite tests because teeth (Mohs ~5) easily indent pure gold.",
+    "key_concept": "Gold Mohs hardness = 2.5-3; soft enough to be scratched by a copper coin",
+    "source": "Gold physical properties",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-012",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A gold deposit grading 12 g/t would be classified as:",
+    "options": {
+      "A": "Low grade (0.5-1 g/t)",
+      "B": "Medium grade (1-5 g/t)",
+      "C": "High grade (5-20 g/t)",
+      "D": "Bonanza grade (>20 g/t)"
+    },
+    "correct": "C",
+    "explanation": "Industry convention classifies gold grades as: low grade (0.5-1 g/t, typical large open pits), medium grade (1-5 g/t, bread-and-butter of the industry), high grade (5-20 g/t, premium deposits often mined underground), and bonanza grade (>20 g/t, exceptional intercepts). At 12 g/t, a deposit sits firmly in the high-grade category. Such grades typically justify underground mining methods and command premium valuations. West African deposits like Obuasi historically produced at high grades above 5 g/t.",
+    "key_concept": "Grade classification: low 0.5-1, medium 1-5, high 5-20, bonanza >20 g/t",
+    "source": "Gold mining industry standards",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-013",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "How many troy ounces are in 1 kilogram of gold?",
+    "options": {
+      "A": "28.35 troy ounces",
+      "B": "31.10 troy ounces",
+      "C": "32.15 troy ounces",
+      "D": "35.27 troy ounces"
+    },
+    "correct": "C",
+    "explanation": "1 kilogram = 32.1507 troy ounces (since 1 troy ounce = 31.1035 grams, and 1000 / 31.1035 = 32.15). This is different from the avoirdupois system where 1 kg = 35.27 regular ounces. The troy ounce system is used exclusively for precious metals trading worldwide. At a gold price of US$2,000/oz, one kilogram of gold is worth approximately US$64,300. Mining companies report production in troy ounces but metal content in resource estimates uses both grams and ounces.",
+    "key_concept": "1 kg gold = 32.15 troy ounces; troy ounce (31.1035 g) differs from avoirdupois ounce (28.35 g)",
+    "source": "Precious metals measurement standards",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-014",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What fineness standard does the London Bullion Market Association (LBMA) require for Good Delivery gold bars?",
+    "options": {
+      "A": "750 fineness (18 karat)",
+      "B": "916.7 fineness (22 karat)",
+      "C": "995 fineness minimum",
+      "D": "999.9 fineness (four nines)"
+    },
+    "correct": "C",
+    "explanation": "The LBMA Good Delivery standard requires a minimum fineness of 995 parts per thousand (99.5% pure gold). Good Delivery bars weigh 350-430 troy ounces (approximately 11-13 kg) and form the basis of the London gold market. While many refineries produce 999.9 (four nines) fine gold, the minimum LBMA threshold is 995. Gold dore bars from mine sites typically contain 70-90% gold and must be refined to meet the 995 minimum before entering the bullion market.",
+    "key_concept": "LBMA Good Delivery minimum = 995 fineness; most refined bars are 999.9",
+    "source": "LBMA Good Delivery Rules",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-015",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A gold bar stamped '750' fineness corresponds to what karat rating?",
+    "options": {
+      "A": "14 karat (58.3% gold)",
+      "B": "18 karat (75% gold)",
+      "C": "22 karat (91.7% gold)",
+      "D": "24 karat (99.9% gold)"
+    },
+    "correct": "B",
+    "explanation": "Fineness of 750 means 750 parts per thousand, or 75% pure gold, which equals 18 karat. The karat system divides pure gold into 24 parts: 18/24 = 0.75 = 750 fineness. Common standards include 24K (999.9), 22K (916.7), 18K (750), 14K (585), and 10K (417). The 18K standard is widely used in jewelry because the gold-alloy blend provides superior hardness and scratch resistance while maintaining the warm color associated with gold.",
+    "key_concept": "750 fineness = 18K = 75% Au; karat = (fineness/1000) x 24",
+    "source": "Precious metals purity standards",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-016",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What enrichment factor above average crustal abundance is required to form a 1 g/t gold deposit?",
+    "options": {
+      "A": "25 times",
+      "B": "100 times",
+      "C": "250 times",
+      "D": "1,000 times"
+    },
+    "correct": "C",
+    "explanation": "Average crustal gold abundance is 0.004 ppm (0.004 g/t). A deposit grading 1 g/t requires enrichment by a factor of 1/0.004 = 250 times. For a bonanza-grade deposit at 20 g/t, the enrichment factor is 5,000x. This enormous concentration requires powerful geological focusing mechanisms such as crustal-scale shear zones channeling hydrothermal fluids, chemical traps causing gold precipitation, or millions of years of weathering and mechanical concentration in placer systems.",
+    "key_concept": "1 g/t deposit = 250x enrichment over 0.004 ppm crustal average",
+    "source": "Economic geology fundamentals",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-017",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "An open-pit mine in West Africa processes 5 million tonnes per year at a head grade of 1.2 g/t with 92% recovery. What is the approximate annual gold production in troy ounces?",
+    "options": {
+      "A": "88,000 oz",
+      "B": "177,000 oz",
+      "C": "236,000 oz",
+      "D": "354,000 oz"
+    },
+    "correct": "B",
+    "explanation": "Annual production = Tonnes x Grade x Recovery / 31.1035. So: 5,000,000 x 1.2 x 0.92 = 5,520,000 grams recovered, divided by 31.1035 = 177,476 troy ounces. This calculation is fundamental for evaluating mine economics. At US$2,000/oz gold price, this mine would generate approximately US$355 million in annual revenue. This throughput and grade profile is typical of a medium-scale West African open-pit operation like Fekola or Sabodala.",
+    "key_concept": "Annual oz = (tonnes x grade x recovery) / 31.1035",
+    "source": "Mine production calculations",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-018",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What does 'four nines fine' (999.9) gold mean?",
+    "options": {
+      "A": "Gold that has been assayed four separate times",
+      "B": "Gold containing 99.99% pure gold with only 0.01% impurities",
+      "C": "Gold recovered from the ninth stage of refining",
+      "D": "Gold extracted from a deposit grading exactly 9.999 g/t"
+    },
+    "correct": "B",
+    "explanation": "Four nines fine (999.9) means the gold is 99.99% pure, containing no more than 0.01% impurities (typically trace silver, copper, or iron). This is the highest commercial purity standard, achieved through electrolytic refining (Wohlwill process) or chlorination (Miller process followed by electrolysis). Investment-grade gold bars and coins (e.g., Canadian Maple Leaf) are typically 999.9 fine. Most gold dore from mines is only 70-90% gold and requires refining to reach this purity.",
+    "key_concept": "999.9 fineness = 99.99% pure gold = highest commercial purity",
+    "source": "Gold refining and purity standards",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-019",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A deposit is described as having 2 million ounces of gold in a Measured and Indicated Resource at an average grade of 1.5 g/t. What is the approximate tonnage of the resource?",
+    "options": {
+      "A": "10.4 million tonnes",
+      "B": "21.5 million tonnes",
+      "C": "41.5 million tonnes",
+      "D": "62.2 million tonnes"
+    },
+    "correct": "C",
+    "explanation": "Tonnage = (Ounces x 31.1035) / Grade. So: (2,000,000 x 31.1035) / 1.5 = 62,207,000 / 1.5 = 41,471,333 tonnes, approximately 41.5 Mt. This reverse calculation is essential for a CEO evaluating resource announcements — understanding that 2 Moz at 1.5 g/t implies a large 41.5 Mt resource body. This tonnage would typically require an open-pit mining scenario, as underground operations rarely handle such large volumes economically.",
+    "key_concept": "Resource tonnage = (ounces x 31.1035) / grade in g/t",
+    "source": "Resource estimation fundamentals",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-020",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "Why does gold remain native (uncombined with other elements) in most geological environments?",
+    "options": {
+      "A": "Gold is too heavy to react with lighter elements",
+      "B": "Gold has a very high electronegativity preventing compound formation",
+      "C": "Gold's filled d-electron shell and relativistic effects give it exceptional chemical inertness",
+      "D": "Gold only exists in volcanic environments where temperatures are too high for reactions"
+    },
+    "correct": "C",
+    "explanation": "Gold's exceptional chemical inertness arises from its electronic structure — specifically its filled 5d orbital shell and the relativistic contraction of its 6s orbital. These effects raise the ionization energy and reduce gold's tendency to lose electrons and form compounds. Unlike most metals that oxidize readily (iron, copper), gold remains in its native metallic state through weathering, transport, and deposition. This is why gold persists in placer deposits and why ancient gold artifacts survive thousands of years without tarnishing.",
+    "key_concept": "Gold's chemical inertness stems from relativistic effects and filled d-orbitals",
+    "source": "Gold chemistry, relativistic quantum chemistry",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-021",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "In West African alluvial mining, why is gold typically found concentrated on or near bedrock rather than distributed evenly through gravel?",
+    "options": {
+      "A": "Gold chemically bonds to bedrock surfaces",
+      "B": "Gold's high density (19.3 g/cm³) causes it to sink through lighter sediments to the bedrock interface",
+      "C": "Alluvial gold only forms at the bedrock contact through chemical precipitation",
+      "D": "Artisanal miners remove gold from upper layers, leaving it only at bedrock"
+    },
+    "correct": "B",
+    "explanation": "Gold's extreme density of 19.3 g/cm³ — roughly 7 times heavier than surrounding gravel and sand (SG 2.5-2.7) — causes gold particles to work their way downward through sediment during flood events and reworking. Gold concentrates at the bedrock interface, particularly in bedrock irregularities, fractures, and depressions that trap the dense particles. This is why alluvial miners in West Africa and elsewhere target the basal gravel layer and bedrock contact. Understanding this principle is critical for planning alluvial resource evaluation programs.",
+    "key_concept": "Gold concentrates at bedrock due to density sorting; SG 19.3 vs gravel SG 2.5-2.7",
+    "source": "Alluvial gold geology, placer mining fundamentals",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-022",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What is the density of gold in grams per cubic centimeter?",
+    "options": {
+      "A": "10.5 g/cm³",
+      "B": "14.0 g/cm³",
+      "C": "19.3 g/cm³",
+      "D": "21.5 g/cm³"
+    },
+    "correct": "C",
+    "explanation": "Gold has a density of 19.3 g/cm³, making it one of the densest naturally occurring elements. For comparison, silver is 10.5, lead is 11.3, and platinum is 21.5 g/cm³. A standard LBMA Good Delivery gold bar (~400 oz or 12.4 kg) is remarkably compact, measuring roughly 25 x 8 x 4.5 cm. Gold's high density is its most exploitable physical property in mineral processing, enabling gravity separation techniques from panning to centrifugal concentrators.",
+    "key_concept": "Gold density = 19.3 g/cm³; among the densest natural elements",
+    "source": "Gold physical properties",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-023",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A 1 troy ounce gold coin weighs how many grams?",
+    "options": {
+      "A": "28.35 grams",
+      "B": "30.00 grams",
+      "C": "31.10 grams",
+      "D": "33.33 grams"
+    },
+    "correct": "C",
+    "explanation": "One troy ounce equals exactly 31.1035 grams. This is heavier than the avoirdupois ounce (28.35 g) used for everyday weight measurements. The troy system originated in medieval Troyes, France, and remains the standard for precious metals globally. When gold prices are quoted as 'dollars per ounce,' they always mean troy ounces. This distinction matters when converting between metric and imperial systems in resource reporting — confusing the two would introduce a 9.7% error.",
+    "key_concept": "1 troy ounce = 31.1035 grams; different from avoirdupois ounce (28.35 g)",
+    "source": "Precious metals measurement standards",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-01-024",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A junior explorer reports drill results of '3 meters at 45 g/t Au including 0.5 meters at 220 g/t.' As a CEO evaluating this result, what is the most important concern?",
+    "options": {
+      "A": "The gold price is too volatile to evaluate the result",
+      "B": "The high-grade sub-interval may dominate the composite, and true width, sample size, and top-cutting must be assessed",
+      "C": "3 meters is always too narrow for economic mining",
+      "D": "Grades above 100 g/t are always unreliable and should be discarded"
+    },
+    "correct": "B",
+    "explanation": "This result shows a classic grade-distribution concern: the 0.5m at 220 g/t contributes 110 gram-meters of the total 135 gram-meters (81% of the gold in 17% of the width). Key questions include: Is the true width close to drilled width? Was the sample size adequate for coarse visible gold? Should top-cutting or grade capping be applied? Is the high grade from a single nugget? What is the surrounding context — is this an isolated hit or part of a broader mineralized zone? Sophisticated evaluation requires understanding of the nugget effect and compositing methodology.",
+    "key_concept": "High-grade sub-intervals need scrutiny for true width, top-cutting, and nugget effect",
+    "source": "Resource evaluation, drill result interpretation",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-025",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "What minimum grade (cut-off) is typically required for a gold deposit to be economic as an open-pit mine in West Africa?",
+    "options": {
+      "A": "0.01 g/t",
+      "B": "0.3-0.5 g/t",
+      "C": "5.0 g/t",
+      "D": "15 g/t"
+    },
+    "correct": "B",
+    "explanation": "Open-pit gold mines in West Africa typically operate with cut-off grades of 0.3-0.5 g/t, depending on gold price, mining costs, and metallurgical recovery. The low stripping ratios often available in laterite-covered terrains and relatively low labor costs in the region support these cut-offs. Underground mines require higher cut-offs, typically 2-3 g/t minimum. Cut-off grade is not a fixed number — it changes with gold price, operating costs, and recovery. At US$2,000/oz gold, many West African open pits can justify processing material as low as 0.3 g/t.",
+    "key_concept": "Typical West African open-pit Au cut-off: 0.3-0.5 g/t; underground 2-3 g/t",
+    "source": "Mining economics, West African gold operations",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-026",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "Gold's characteristic yellow color is caused by:",
+    "options": {
+      "A": "Impurities of iron and copper in natural gold",
+      "B": "Surface oxidation forming a thin yellow oxide film",
+      "C": "Relativistic effects on electron energy levels that cause absorption of blue light",
+      "D": "Reflection of light from the FCC crystal lattice planes"
+    },
+    "correct": "C",
+    "explanation": "Gold's yellow color is a direct consequence of Einstein's special relativity applied at the atomic scale. The innermost electrons in gold's heavy atom (Z=79) travel at speeds approaching the speed of light, causing the 6s orbital to contract and 5d orbitals to expand. This shifts the absorption threshold from the ultraviolet into the blue portion of the visible spectrum, meaning gold absorbs blue light and reflects the remaining yellow-orange wavelengths. Without relativistic effects, gold would appear silvery-white like silver.",
+    "key_concept": "Gold's yellow color arises from relativistic effects absorbing blue light",
+    "source": "Relativistic quantum chemistry, gold physics",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-027",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "How many grams of gold are contained in exactly 1 million tonnes of average Earth's crust?",
+    "options": {
+      "A": "400 grams (about 13 troy ounces)",
+      "B": "4,000 grams (about 129 troy ounces)",
+      "C": "40,000 grams (about 1,286 troy ounces)",
+      "D": "400,000 grams (about 12,860 troy ounces)"
+    },
+    "correct": "B",
+    "explanation": "Average crustal abundance of gold is 0.004 g/t. Therefore 1 million tonnes of crust contains 1,000,000 x 0.004 = 4,000 grams = approximately 129 troy ounces of gold. At US$2,000/oz, that is only about US$258,000 worth of gold distributed through 1 million tonnes of rock — clearly not economic to extract at such low concentration. This calculation viscerally illustrates why geological concentration processes must enrich gold by hundreds of times above background before mining becomes viable.",
+    "key_concept": "1 Mt average crust = 4,000 g Au (129 oz); illustrates need for geological enrichment",
+    "source": "Geochemistry, economic geology fundamentals",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-028",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "Which classification of gold deposit would a CEO find most attractive for a low-cost, high-margin operation?",
+    "options": {
+      "A": "50 Mt at 0.4 g/t (low grade, large tonnage open pit)",
+      "B": "2 Mt at 12 g/t (high grade, moderate tonnage underground)",
+      "C": "500 Mt at 0.2 g/t (sub-economic bulk deposit)",
+      "D": "0.1 Mt at 50 g/t (bonanza grade, very small tonnage)"
+    },
+    "correct": "B",
+    "explanation": "At 2 Mt and 12 g/t, this deposit contains approximately 24,000 kg or 771,000 troy ounces of gold — a meaningful resource. The high grade of 12 g/t provides excellent margins because mining and processing costs are spread over fewer tonnes to extract each ounce. Option A at 0.4 g/t may be below cut-off in many jurisdictions. Option C at 0.2 g/t is sub-economic. Option D at 50 g/t sounds spectacular but 0.1 Mt contains only about 160,000 ounces, which may not justify the capital expenditure for an underground mine. The ideal combination is sufficient tonnage with high grade.",
+    "key_concept": "Optimal deposit = sufficient tonnage at high grade; grade drives margins, tonnage drives mine life",
+    "source": "Mining economics, deposit evaluation",
+    "difficulty": 3
+  }
+]

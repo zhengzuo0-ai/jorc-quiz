@@ -1,0 +1,444 @@
+[
+  {
+    "id": "gold-03-001",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "How old is the West African Craton?",
+    "options": {
+      "A": "Less than 500 million years (Phanerozoic)",
+      "B": "500 million to 1 billion years (Neoproterozoic)",
+      "C": "Greater than 2.0 billion years (Paleoproterozoic-Archean)",
+      "D": "4.5 billion years (same age as Earth)"
+    },
+    "correct": "C",
+    "explanation": "The West African Craton (WAC) is one of Earth's ancient continental nuclei, with rocks exceeding 2.0 billion years in age. The craton comprises Archean basement (>2.5 Ga) overlain by Paleoproterozoic Birimian supracrustal rocks (2.0-2.2 Ga). The WAC has remained tectonically stable since the Eburnean Orogeny (2.15-2.07 Ga), making it a classic Precambrian shield. This antiquity and stability are directly linked to its gold endowment — the Birimian greenstone belts formed during a period of intense volcanic and tectonic activity that created ideal conditions for orogenic gold deposit formation.",
+    "key_concept": "West African Craton >2.0 Ga; ancient Precambrian shield, stable since Eburnean Orogeny",
+    "source": "West African Craton geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-03-002",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What are the Birimian greenstone belts?",
+    "options": {
+      "A": "Cenozoic volcanic island chains off the West African coast",
+      "B": "Paleoproterozoic (2.0-2.2 Ga) belts of metavolcanic and metasedimentary rocks that host most of West Africa's gold",
+      "C": "Mesozoic sedimentary basins containing oil and gas",
+      "D": "Quaternary alluvial plains formed by the Niger River"
+    },
+    "correct": "B",
+    "explanation": "The Birimian greenstone belts are Paleoproterozoic (2.0-2.2 Ga) volcano-sedimentary sequences comprising metavolcanic rocks (basalt, andesite, rhyolite), metasedimentary rocks (greywacke, shale, chemical sediments), and associated granitoid intrusions. These belts host the overwhelming majority of West Africa's gold deposits. The name 'Birimian' comes from the Birim River in Ghana. The belts stretch across Ghana, Burkina Faso, Mali, Guinea, Ivory Coast, Senegal, and other countries, forming narrow NE-SW trending corridors separated by large granitoid batholiths — the classic granite-greenstone architecture.",
+    "key_concept": "Birimian: 2.0-2.2 Ga metavolcanic-metasedimentary belts; host most West African gold",
+    "source": "Birimian geology, West African gold metallogeny",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-03-003",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "The Eburnean Orogeny is significant for West African gold because:",
+    "options": {
+      "A": "It created the modern topography and river systems",
+      "B": "It was the main tectonic event (2.15-2.07 Ga) that generated the shear zones, metamorphic fluids, and structural traps that formed gold deposits",
+      "C": "It deposited gold-bearing alluvial sediments across the craton",
+      "D": "It caused volcanic eruptions that brought gold from the mantle"
+    },
+    "correct": "B",
+    "explanation": "The Eburnean Orogeny (2.15-2.07 Ga) was the key gold-forming event in West Africa. This major tectonic event involved the collision and accretion of Birimian volcanic arcs, creating crustal-scale shear zones that became conduits for gold-bearing metamorphic fluids. The orogeny produced the regional deformation, metamorphism (greenschist to amphibolite facies), and granitoid intrusions that characterize the Birimian terrain. Virtually all major orogenic gold deposits in West Africa — Obuasi, Loulo, Siguiri, Fekola — formed during or shortly after the Eburnean Orogeny. Understanding this timing is critical for exploration targeting.",
+    "key_concept": "Eburnean Orogeny (2.15-2.07 Ga) = key gold-forming event; created shear zones and metamorphic fluids",
+    "source": "West African tectonic history, orogenic gold timing",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-004",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "Which gold belt in West Africa contains the Obuasi deposit with over 30 million ounces of gold?",
+    "options": {
+      "A": "Siguiri Basin, Guinea",
+      "B": "Senegalo-Malian Shear Zone",
+      "C": "Ashanti Belt, Ghana",
+      "D": "Ity-Bondoukou Belt, Ivory Coast"
+    },
+    "correct": "C",
+    "explanation": "The Ashanti Belt in Ghana hosts the legendary Obuasi deposit, which has produced and contains over 30 million ounces of gold, making it one of the largest gold deposits in the world. The Ashanti Belt is defined by the Ashanti Fault — a major crustal-scale shear zone that extends over 200 km through southern Ghana. Obuasi is operated by AngloGold Ashanti and features high-grade underground mining of sulfide ore at depths exceeding 1.5 km. Other significant deposits along the Ashanti Belt include Bogoso/Prestea and Iduapriem. The belt is the type example of Birimian orogenic gold.",
+    "key_concept": "Ashanti Belt (Ghana): Obuasi >30 Moz; defined by Ashanti Fault crustal-scale shear zone",
+    "source": "Ghana gold geology, Ashanti Belt",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-03-005",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What is the typical thickness of laterite cover in West African gold exploration terrains?",
+    "options": {
+      "A": "Less than 1 meter",
+      "B": "10-60 meters",
+      "C": "100-200 meters",
+      "D": "Over 500 meters"
+    },
+    "correct": "B",
+    "explanation": "Laterite cover in West African gold terrains typically ranges from 10 to 60 meters thick, formed through millions of years of tropical chemical weathering. This cover presents both challenges and opportunities for exploration. Challenges include obscuring bedrock geology and geochemical signatures, increasing drilling costs, and complicating geophysical interpretation. Opportunities include the concentration of gold in laterite and saprolite through supergene enrichment, and the use of laterite geochemistry as a surface sampling medium. Many West African operations mine the oxide/laterite zone first as a low-cost, free-milling ore before transitioning to harder sulfide ore at depth.",
+    "key_concept": "West African laterite: 10-60m thick; obscures bedrock but can host supergene gold",
+    "source": "West African regolith geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-03-006",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "The Leo-Man Shield refers to:",
+    "options": {
+      "A": "A modern military installation in Liberia",
+      "B": "The exposed Archean-Paleoproterozoic basement of the West African Craton in the south",
+      "C": "A mining shield used in underground operations in West Africa",
+      "D": "A Cenozoic volcanic field in Sierra Leone"
+    },
+    "correct": "B",
+    "explanation": "The Leo-Man Shield (also called Kenema-Man domain) is the southern exposed portion of the West African Craton, primarily comprising Archean basement rocks (>2.5 Ga) in Guinea, Sierra Leone, Liberia, and western Ivory Coast. It is overlain and flanked by the younger Birimian supracrustal rocks (2.0-2.2 Ga). The shield's name derives from Sierra Leone ('Leo') and the Man region of Ivory Coast. The shield is important for gold because it provides the stable cratonic basement through which Birimian greenstone belts were accreted during the Eburnean Orogeny, and some Archean gold occurrences exist within the shield itself.",
+    "key_concept": "Leo-Man Shield: Archean basement of southern West African Craton (Guinea, Sierra Leone, Liberia)",
+    "source": "West African Craton structure",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-007",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "Which deposits are located along the Senegalo-Malian Shear Zone?",
+    "options": {
+      "A": "Obuasi and Tarkwa (Ghana)",
+      "B": "Loulo-Gounkoto (15+ Moz) and Fekola (10+ Moz) in Mali",
+      "C": "Siguiri and Lero in Guinea",
+      "D": "Ity and Agbaou in Ivory Coast"
+    },
+    "correct": "B",
+    "explanation": "The Senegalo-Malian Shear Zone (SMSZ) is a major NNE-trending crustal-scale structure extending from Senegal through western Mali. It hosts Barrick/B2Gold's world-class deposits: Loulo-Gounkoto complex (15+ Moz combined resource) and Fekola (10+ Moz). These deposits demonstrate how crustal-scale shear zones in Birimian terrains focus enormous volumes of gold-bearing fluid, creating multi-million-ounce deposits along structural corridors extending hundreds of kilometers. The SMSZ remains one of the most prospective gold exploration corridors in West Africa, with additional discovery potential along underexplored segments.",
+    "key_concept": "Senegalo-Malian Shear Zone: Loulo-Gounkoto 15+ Moz, Fekola 10+ Moz in Mali",
+    "source": "Mali gold geology, major gold belts",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-008",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What is the 'granite-greenstone' architecture that characterizes the Birimian terrain?",
+    "options": {
+      "A": "A processing method using granite as a grinding medium for greenstone ore",
+      "B": "Narrow greenstone belts of volcanic-sedimentary rocks separated by large granitoid batholiths",
+      "C": "Green-colored granite formations unique to West Africa",
+      "D": "An alternating sequence of granite sills and green mudstone layers"
+    },
+    "correct": "B",
+    "explanation": "The granite-greenstone architecture describes the fundamental structural pattern of the Birimian terrain: narrow, elongate greenstone belts (5-30 km wide, 100-300 km long) comprising metavolcanic and metasedimentary rocks, separated by large oval to elongate granitoid batholiths (50-100 km across). The greenstone belts host most gold deposits, particularly along their margins where they contact the granites, and along internal shear zones. The granites play multiple roles: as heat engines driving fluid circulation, as rheological contrasts focusing deformation, and occasionally as host rocks for gold mineralization in their marginal zones.",
+    "key_concept": "Granite-greenstone: narrow metavolcanic-metasedimentary belts flanked by large granite batholiths",
+    "source": "Birimian greenstone belt architecture",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-009",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What role do crustal-scale shear zones play in West African gold deposits?",
+    "options": {
+      "A": "They destroy gold deposits through tectonic grinding",
+      "B": "They act as conduits channeling deep metamorphic fluids carrying dissolved gold to deposition sites",
+      "C": "They are only important for alluvial gold, not hard-rock deposits",
+      "D": "They post-date gold mineralization and have no genetic relationship"
+    },
+    "correct": "B",
+    "explanation": "Crustal-scale shear zones are the fundamental architectural control on orogenic gold in West Africa. These regional structures — extending tens to hundreds of kilometers and penetrating deep into the crust — act as pipelines that channel metamorphic fluids from depth to shallower depositional sites. Gold precipitates where these fluid conduits encounter chemical or structural traps: dilational jogs, competency contrasts, reactive host rocks, or secondary fault intersections. Every major West African gold deposit is spatially associated with a crustal-scale shear zone: Ashanti Fault (Obuasi), SMSZ (Loulo, Fekola), Siguiri Shear Zone (Siguiri).",
+    "key_concept": "Crustal-scale shear zones = fluid conduits from depth; all major deposits spatially linked to them",
+    "source": "Structural controls on orogenic gold",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-03-010",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "The Siguiri Basin in Guinea hosts over 10 million ounces of gold. What Birimian rock type predominates in this basin?",
+    "options": {
+      "A": "Birimian metasediments (turbiditic greywackes and shales)",
+      "B": "Birimian metavolcanics (basalt and andesite)",
+      "C": "Tarkwaian conglomerates",
+      "D": "Post-Birimian dolerite intrusions"
+    },
+    "correct": "A",
+    "explanation": "The Siguiri Basin is a Birimian metasedimentary basin dominated by turbiditic greywackes, siltstones, and shales that have been metamorphosed to greenschist facies. Gold mineralization at Siguiri (operated by AngloGold Ashanti) is hosted in quartz veins and disseminations within these metasedimentary rocks, controlled by structural corridors related to the Siguiri Shear Zone. This demonstrates that both Birimian metavolcanic and metasedimentary sequences can host major gold deposits. The metasedimentary-hosted deposits often show more disseminated mineralization styles compared to the discrete vein-hosted deposits in metavolcanic belts.",
+    "key_concept": "Siguiri Basin: metasediment-hosted gold >10 Moz; Birimian turbidites, Siguiri Shear Zone",
+    "source": "Guinea gold geology, Siguiri Basin",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-011",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What is the correct weathering profile sequence from surface to fresh bedrock in West African laterite terrain?",
+    "options": {
+      "A": "Fresh rock → saprolite → laterite → soil",
+      "B": "Laterite cap → mottled zone → saprolite → saprock → fresh bedrock",
+      "C": "Alluvium → granite → greenstone → mantle",
+      "D": "Topsoil → sand → clay → bedrock"
+    },
+    "correct": "B",
+    "explanation": "The classic West African weathering profile from surface downward is: (1) laterite duricrust/ferricrete cap (iron-cemented), (2) mottled zone (iron oxide mottles in clay matrix), (3) saprolite (completely weathered rock retaining original texture), (4) saprock (partially weathered rock), (5) fresh bedrock. This profile can be 10-60 m thick and profoundly affects exploration and mining. Gold can be redistributed and concentrated within saprolite through supergene processes. Oxide ore in saprolite is typically free-milling (simple gravity/CIL processing), while deeper sulfide ore requires more complex metallurgy.",
+    "key_concept": "Profile: laterite cap → mottled zone → saprolite → saprock → fresh rock; 10-60m thick",
+    "source": "West African regolith geology, laterite profiles",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-012",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "Which country is currently the largest gold producer in West Africa?",
+    "options": {
+      "A": "Mali",
+      "B": "Burkina Faso",
+      "C": "Ghana",
+      "D": "Guinea"
+    },
+    "correct": "C",
+    "explanation": "Ghana is the largest gold producer in West Africa and typically ranks among the top 7-8 globally, producing approximately 4+ million ounces annually (including artisanal mining). Ghana's gold industry is the most mature in the region, with large-scale mining dating back over a century. Major operations include Obuasi (AngloGold Ashanti), Tarkwa and Damang (Gold Fields), Ahafo and Akyem (Newmont), and Chirano (Kinross). Mali is the second-largest producer at approximately 2.5+ Moz, followed by Burkina Faso and Guinea. The West African region collectively produces 10-15% of global gold output.",
+    "key_concept": "Ghana: largest West African gold producer (~4+ Moz/yr); most mature mining jurisdiction",
+    "source": "West African gold production data",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-03-013",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "The Ity-Bondoukou Belt in Ivory Coast is notable because:",
+    "options": {
+      "A": "It is a Carlin-type gold province, unusual for West Africa",
+      "B": "It hosts significant gold deposits in a Birimian greenstone belt including the Ity gold mine, demonstrating Ivory Coast's gold potential",
+      "C": "It contains only alluvial gold with no bedrock mineralization",
+      "D": "It has been completely exhausted and no resources remain"
+    },
+    "correct": "B",
+    "explanation": "The Ity-Bondoukou Belt in western Ivory Coast hosts significant orogenic gold mineralization within Birimian greenstone belt rocks. The Ity gold mine (operated by Endeavour Mining) has become a major producer following development of the CIL heap leach operation and subsequent expansion. Ivory Coast has emerged as one of West Africa's fastest-growing gold producers, with total production exceeding 1.5 Moz annually. The Ity discovery and development demonstrate that significant gold deposits remain to be found in less-explored segments of the Birimian belts across West Africa.",
+    "key_concept": "Ity-Bondoukou Belt (Ivory Coast): Birimian greenstone gold; Ivory Coast an emerging producer",
+    "source": "Ivory Coast gold geology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-014",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "Why does deep oxidation (20-60 m) develop in West African laterite terrains?",
+    "options": {
+      "A": "Acid mine drainage from historical mining operations",
+      "B": "Millions of years of tropical chemical weathering with high rainfall and warm temperatures driving intense leaching",
+      "C": "Recent volcanic activity producing sulfuric acid",
+      "D": "Sea level changes flooding the terrain with salt water"
+    },
+    "correct": "B",
+    "explanation": "Deep oxidation profiles in West Africa result from prolonged tropical chemical weathering over tens of millions of years. High rainfall (1000-2500 mm/yr), warm temperatures (25-35°C), abundant organic acids, and long-term tectonic stability combine to drive deep leaching and oxidation of bedrock. Iron is mobilized and concentrated as laterite/ferricrete at the surface. Sulfide minerals are progressively oxidized to depths of 20-60 m or more. This creates a deep oxide zone where gold is free-milling, overlying unweathered sulfide ore that may be refractory. The transition from oxide to sulfide ore has major implications for mine planning and metallurgy.",
+    "key_concept": "Deep oxidation from millions of years of tropical weathering; 20-60m oxide zones",
+    "source": "Tropical weathering, West African regolith",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-015",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What are the three main Birimian rock types relevant to gold exploration in West Africa?",
+    "options": {
+      "A": "Limestone, sandstone, and shale",
+      "B": "Metavolcanics, metasediments, and granitoids",
+      "C": "Gneiss, migmatite, and granulite",
+      "D": "Conglomerate, quartzite, and dolomite"
+    },
+    "correct": "B",
+    "explanation": "The three main Birimian rock types are: (1) Metavolcanics — metamorphosed basalts, andesites, and rhyolites that form the volcanic components of greenstone belts, often hosting vein-style gold; (2) Metasediments — metamorphosed greywackes, siltstones, shales, and chemical sediments (chert, manganese, BIF) forming sedimentary basins, hosting disseminated and vein gold; (3) Granitoids — syn- to post-tectonic granitic intrusions that form the large batholiths between greenstone belts. Gold occurs in all three, but is most commonly associated with metavolcanic-metasedimentary contacts and shear zones within the greenstone belts.",
+    "key_concept": "Birimian: metavolcanics, metasediments, granitoids; gold in all three, especially belt contacts",
+    "source": "Birimian stratigraphy, West African geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-03-016",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "A CEO is told that a West African project has '60% oxide ore and 40% sulfide ore.' Why does this ratio matter for project economics?",
+    "options": {
+      "A": "Oxide ore is always higher grade than sulfide ore",
+      "B": "Oxide ore is typically free-milling with lower processing costs and faster gold recovery, while sulfide ore may be refractory and require more expensive treatment",
+      "C": "Sulfide ore contains more gold but oxide ore is easier to drill",
+      "D": "The ratio determines the environmental permit category"
+    },
+    "correct": "B",
+    "explanation": "The oxide-to-sulfide ratio is one of the most important economic parameters for West African gold projects. Oxide ore (from the laterite/saprolite weathering zone) is typically free-milling: gold can be recovered by simple gravity concentration and carbon-in-leach (CIL) cyanidation at recoveries of 90-95%. Sulfide ore (fresh bedrock) may contain refractory gold locked in sulfide minerals, requiring expensive pre-treatment (roasting, POX, or BIOX) to achieve similar recoveries. Many projects are initially developed mining oxide ore first (lower capex, simpler processing) to generate cash flow before investing in sulfide processing infrastructure.",
+    "key_concept": "Oxide = free-milling, low cost, high recovery; Sulfide = potentially refractory, higher cost",
+    "source": "West African gold metallurgy, mine planning",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-017",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What is supergene gold enrichment in a West African weathering profile?",
+    "options": {
+      "A": "Gold introduced by recent volcanic activity",
+      "B": "Dissolution of gold from sulfide ore by weathering fluids and re-precipitation at or below the water table, locally increasing grades",
+      "C": "Enrichment caused by artisanal miners adding gold to samples",
+      "D": "Concentration of gold by wind erosion removing lighter particles"
+    },
+    "correct": "B",
+    "explanation": "Supergene gold enrichment occurs when descending oxidizing groundwater dissolves gold from sulfide minerals in the primary ore zone and re-deposits it lower in the weathering profile, typically at or near the water table. This process can locally double or triple gold grades in the saprolite zone. In West Africa, supergene enrichment creates economic oxide resources that can be mined profitably even at relatively low primary grades. However, supergene-enriched zones can mislead resource estimates if the transition zone between oxide and sulfide is not properly modeled — grade drops at the oxide-sulfide boundary can be abrupt and significant.",
+    "key_concept": "Supergene enrichment: weathering dissolves and re-concentrates gold near water table",
+    "source": "Supergene gold processes, weathering geochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-03-018",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "The Tarkwaian Group in Ghana is significant because:",
+    "options": {
+      "A": "It is a post-Birimian sedimentary sequence hosting paleoplacer gold deposits (e.g., Tarkwa mine)",
+      "B": "It is the oldest rock unit in West Africa at 3.5 Ga",
+      "C": "It is an active volcanic sequence producing epithermal gold",
+      "D": "It contains the only diamond deposits in West Africa"
+    },
+    "correct": "A",
+    "explanation": "The Tarkwaian Group is a late Paleoproterozoic (~2.1 Ga) clastic sedimentary sequence deposited after the main Birimian volcanic-sedimentary phase. It hosts paleoplacer gold deposits — ancient alluvial gold concentrated in conglomerate reefs, analogous to (but much smaller than) South Africa's Witwatersrand. The Tarkwa mine (Gold Fields) exploits these paleoplacer conglomerates, producing approximately 500,000 oz/yr. The Tarkwaian gold was originally eroded from Birimian orogenic deposits and concentrated in river systems, then lithified into gold-bearing conglomerates. This is the only significant paleoplacer gold province in West Africa.",
+    "key_concept": "Tarkwaian: post-Birimian clastic sediments with paleoplacer gold in conglomerates (Tarkwa mine)",
+    "source": "Ghana geology, Tarkwaian paleoplacer deposits",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-03-019",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "Which geological event must postdate the Birimian volcanic-sedimentary sequences for gold deposits to form?",
+    "options": {
+      "A": "The Pan-African Orogeny (~600 Ma)",
+      "B": "The Eburnean Orogeny (2.15-2.07 Ga)",
+      "C": "The breakup of Pangaea (~200 Ma)",
+      "D": "The Quaternary Ice Ages (~2 Ma)"
+    },
+    "correct": "B",
+    "explanation": "The Eburnean Orogeny (2.15-2.07 Ga) postdates and deforms the Birimian volcanic-sedimentary sequences (2.0-2.2 Ga), and is the critical gold-forming event. This orogeny involved accretion and collision of volcanic arc terranes, producing regional folding, metamorphism, and crustal-scale shear zones. Metamorphic fluids generated during the orogeny were channeled along these structures, carrying dissolved gold that was deposited in structural and chemical traps. The timing relationship is essential: the rocks had to form first (2.0-2.2 Ga), then be deformed and mineralized during the orogeny (2.15-2.07 Ga). All subsequent events had minimal effect on gold.",
+    "key_concept": "Gold formation sequence: Birimian rocks (2.0-2.2 Ga) → Eburnean Orogeny deformation and mineralization (2.15-2.07 Ga)",
+    "source": "West African tectonic chronology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-020",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "Artisanal and small-scale mining (ASM) in West Africa is significant because:",
+    "options": {
+      "A": "It produces less than 1% of regional gold output",
+      "B": "It employs millions of people, produces 20-40% of regional gold, and historical workings are valuable exploration pathfinders",
+      "C": "It has been entirely eliminated by government regulation",
+      "D": "It only occurs in Ghana and nowhere else in West Africa"
+    },
+    "correct": "B",
+    "explanation": "Artisanal and small-scale mining (ASM) is a massive socioeconomic and geological phenomenon in West Africa. Millions of people depend on ASM for their livelihoods across Ghana, Mali, Burkina Faso, Guinea, and other countries. ASM contributes an estimated 20-40% of regional gold production. For exploration companies, historical artisanal workings are among the most valuable pathfinders — ancient and modern ASM sites pinpoint surface expressions of gold mineralization. Many world-class deposits were first identified by the presence of artisanal miners. However, ASM also creates permitting, social license, and environmental challenges that CEOs must navigate.",
+    "key_concept": "ASM: millions employed, 20-40% of regional gold; historical workings = exploration pathfinders",
+    "source": "West African artisanal mining, social license",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-03-021",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "A West African exploration target lies under 40 meters of laterite. What drilling method is most appropriate for initial exploration through this cover?",
+    "options": {
+      "A": "Diamond core drilling only (HQ or NQ) from surface to target",
+      "B": "Reverse circulation (RC) drilling through the laterite, with diamond tails in fresh rock if needed",
+      "C": "Hand augering to 40 meters depth",
+      "D": "Open-pit mining to remove the laterite before any drilling"
+    },
+    "correct": "B",
+    "explanation": "RC drilling is the standard method for penetrating laterite cover in West African exploration. RC rigs can efficiently drill through soft laterite and saprolite at 50-100 m/day, providing representative 1-meter chip samples for assay. RC is faster and cheaper than diamond drilling in weathered material. For deeper targets or where core is needed for geological logging, a common approach is RC pre-collar through the laterite followed by diamond core ('RC-DD tail') in fresh rock. Hand augering is limited to <10 m in soft laterite for geochemical sampling. The 40 m laterite cover is well within RC capability but makes shallow geochemical methods less effective.",
+    "key_concept": "RC drilling: standard for penetrating 10-60m laterite; RC pre-collar + DD tail for deep targets",
+    "source": "West African drilling practice, exploration methods",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-03-022",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What total gold endowment has been discovered across the West African Birimian greenstone belts?",
+    "options": {
+      "A": "Less than 10 million ounces",
+      "B": "10-50 million ounces",
+      "C": "Greater than 200 million ounces (resources plus past production)",
+      "D": "Over 1 billion ounces"
+    },
+    "correct": "C",
+    "explanation": "The West African Birimian province has a total gold endowment exceeding 200 million ounces when combining historical production, current reserves, and resources across all countries. Major deposits include Obuasi (>30 Moz, Ghana), Loulo-Gounkoto (15+ Moz, Mali), Fekola (10+ Moz, Mali), Siguiri (>10 Moz, Guinea), Tarkwa (>20 Moz, Ghana), Ahafo (>20 Moz, Ghana), and dozens of deposits in the 1-10 Moz range. The province is considered under-explored relative to comparably endowed terrains in Australia and Canada, suggesting significant additional discoveries remain to be made.",
+    "key_concept": "West African Birimian gold endowment >200 Moz total; still considered under-explored",
+    "source": "West African gold province statistics",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-03-023",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "In Birimian terrains, gold mineralization is most commonly found at:",
+    "options": {
+      "A": "The centers of large granite batholiths far from greenstone contacts",
+      "B": "Contacts between greenstone belts and granites, and along shear zones within greenstone belts",
+      "C": "In undeformed horizontal sedimentary layers",
+      "D": "Exclusively in alluvial deposits with no bedrock source"
+    },
+    "correct": "B",
+    "explanation": "Gold in Birimian terrains preferentially occurs at two structural settings: (1) contacts between greenstone belts and bounding granite batholiths, where rheological (competency) contrast focuses deformation and creates permeable fluid pathways; and (2) along shear zones within greenstone belts, where fluid conduits intersect reactive host rocks. The granite-greenstone contact is particularly prospective because the change in rock competency creates strain partitioning — deformation is concentrated at the contact, producing dilational sites for vein formation. Many of West Africa's largest deposits (Obuasi, Siguiri) occur at or near these structural settings.",
+    "key_concept": "Gold at granite-greenstone contacts and along shear zones; rheological contrast focuses deformation",
+    "source": "Birimian gold structural controls",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-03-024",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What metamorphic grade are most gold-hosting Birimian rocks in West Africa?",
+    "options": {
+      "A": "Unmetamorphosed (diagenetic only)",
+      "B": "Greenschist facies (chlorite-sericite-carbonate assemblages)",
+      "C": "Granulite facies (high-grade, partially melted)",
+      "D": "Blueschist facies (high-pressure, low-temperature)"
+    },
+    "correct": "B",
+    "explanation": "The majority of gold-hosting Birimian rocks in West Africa have been metamorphosed to greenschist facies during the Eburnean Orogeny. This metamorphic grade (300-500°C, 2-8 kbar) produces characteristic mineral assemblages of chlorite, sericite (white mica), epidote, and carbonate in mafic volcanic rocks, and sericite-chlorite-quartz in sedimentary rocks. Greenschist facies is the 'Goldilocks zone' for orogenic gold — metamorphic temperatures are sufficient to generate and mobilize gold-bearing fluids, but not so high that gold deposits are destroyed or overprinted. Higher metamorphic grades locally occur near major intrusions.",
+    "key_concept": "Birimian gold rocks: greenschist facies (chlorite-sericite-carbonate); optimal for orogenic gold",
+    "source": "Metamorphic petrology, orogenic gold conditions",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-03-025",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "Mali's gold production primarily comes from which geological setting?",
+    "options": {
+      "A": "Cenozoic volcanic fields in the Sahara",
+      "B": "Birimian greenstone belts in the western and southern parts of the country",
+      "C": "Paleozoic sedimentary basins in central Mali",
+      "D": "Modern alluvial deposits along the Niger River only"
+    },
+    "correct": "B",
+    "explanation": "Mali's gold production comes overwhelmingly from orogenic deposits hosted in Birimian greenstone belts in the western (Kayes Region — Loulo, Fekola, Sadiola) and southern (Sikasso Region — Syama, Kalana) parts of the country. These Birimian belts are the southwestern extension of the same greenstone terrane that hosts Ghana's gold deposits. Mali has consistently been the second- or third-largest gold producer in Africa, producing approximately 2.5+ Moz per year. The country's Birimian greenstone belts remain significantly under-explored compared to Ghana's, representing continued discovery opportunity.",
+    "key_concept": "Mali gold: Birimian greenstone belts in west and south; 2.5+ Moz/yr production",
+    "source": "Mali gold geology and production",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-03-026",
+    "chapterId": "gold-03",
+    "domain": "gold",
+    "question": "What is the significance of termite mounds for gold exploration in laterite-covered West African terrain?",
+    "options": {
+      "A": "Termites are attracted to gold and build mounds directly on deposits",
+      "B": "Termites excavate material from 10-50 m depth, bringing sub-surface geochemical signatures to the surface for sampling",
+      "C": "Termite mounds block drill access and must be removed before exploration",
+      "D": "Gold dissolves in termite mound acid, making the mounds assay-grade material"
+    },
+    "correct": "B",
+    "explanation": "In laterite-covered terrain where thick cover obscures bedrock geochemistry, termite mound sampling is an innovative and effective exploration technique. Termites excavate soil and clay from depths of 10-50 meters, building mounds that contain material from below the laterite cap. Sampling and assaying termite mound material can detect gold anomalies associated with buried mineralization that would be invisible to conventional surface soil sampling. This technique has been used successfully across West Africa, particularly in areas with deep laterite cover. It is significantly cheaper than drilling for first-pass geochemical reconnaissance.",
+    "key_concept": "Termite mounds: bring deep material (10-50 m) to surface; cheap reconnaissance through laterite",
+    "source": "West African exploration geochemistry techniques",
+    "difficulty": 3
+  }
+]

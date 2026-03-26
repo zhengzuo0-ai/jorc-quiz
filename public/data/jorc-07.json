@@ -1,0 +1,478 @@
+[
+  {
+    "id": "jorc-07-001",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "Under Clause 38 of the JORC Code, a Scoping Study is characterised by which level of accuracy?",
+    "options": {
+      "A": "±10-15%",
+      "B": "±25-30%",
+      "C": "±35-50% (order of magnitude)",
+      "D": "±5-10%"
+    },
+    "correct": "C",
+    "explanation": "A Scoping Study (also called a Conceptual Study or order-of-magnitude study) typically has an accuracy of ±35-50%. This reflects the early-stage nature of the study where many parameters are estimated rather than measured. Clause 38 recognises that a Scoping Study provides an initial assessment of project viability but carries insufficient accuracy to serve as the basis for an Ore Reserve. The wide accuracy range means a project appearing viable at Scoping level may prove uneconomic at higher study levels.",
+    "key_concept": "Scoping Study accuracy: ±35-50% (order of magnitude)",
+    "source": "JORC Code 2012, Clause 38",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-07-002",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "Under the JORC Code, can a Scoping Study form the basis for an Ore Reserve?",
+    "options": {
+      "A": "Yes, if the CP approves",
+      "B": "Yes, for Probable Reserves only",
+      "C": "No — a Scoping Study cannot be the basis for an Ore Reserve, and a cautionary statement to this effect is required",
+      "D": "Yes, for projects under 10 Mt"
+    },
+    "correct": "C",
+    "explanation": "Clause 38 explicitly states that a Scoping Study is NOT an appropriate basis for declaring an Ore Reserve. The study's order-of-magnitude accuracy (±35-50%) is insufficient to support the economic viability determination required for Reserve status. Furthermore, Clause 38 requires that any public report referencing a Scoping Study must include a cautionary statement that the study is preliminary and insufficient to support Reserve estimation. This is a mandatory warning, not discretionary.",
+    "key_concept": "Scoping Studies cannot support Ore Reserves — cautionary statement is mandatory",
+    "source": "JORC Code 2012, Clause 38",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-07-003",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "What level of accuracy is typically associated with a Pre-Feasibility Study (PFS)?",
+    "options": {
+      "A": "±35-50%",
+      "B": "±25-30%",
+      "C": "±10-15%",
+      "D": "±5%"
+    },
+    "correct": "B",
+    "explanation": "A Pre-Feasibility Study typically achieves an accuracy of ±25-30%. Under Clause 39, a PFS provides a more detailed assessment than a Scoping Study, with preferred mining methods established and financial analysis based on reasonable assumptions. This improved accuracy allows a CP to determine whether conversion to Ore Reserves is justified. However, it is less detailed than a full Feasibility Study (±10-15%) and does not typically serve as the basis for a final investment decision.",
+    "key_concept": "PFS accuracy: ±25-30%, sufficient for Reserve conversion assessment",
+    "source": "JORC Code 2012, Clause 39",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-07-004",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "According to Clause 40, a Definitive Feasibility Study (DFS) typically achieves what level of accuracy?",
+    "options": {
+      "A": "±35-50%",
+      "B": "±25-30%",
+      "C": "±10-15%",
+      "D": "±1-5%"
+    },
+    "correct": "C",
+    "explanation": "A DFS (also called a Feasibility Study or Bankable Feasibility Study) typically achieves ±10-15% accuracy. Clause 40 describes it as a comprehensive technical and economic study that includes detailed assessments of all Modifying Factors and serves as a reasonable basis for a final investment decision by a project proponent or financial institution. The higher accuracy reflects detailed engineering, firm equipment quotes, and well-defined operating cost estimates.",
+    "key_concept": "DFS accuracy: ±10-15%, basis for final investment decision",
+    "source": "JORC Code 2012, Clause 40",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-07-005",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "Which Mineral Resource categories can be included in a Scoping Study's economic assessment?",
+    "options": {
+      "A": "Measured and Indicated only",
+      "B": "Indicated and Inferred only",
+      "C": "All categories including Inferred, with appropriate caveats",
+      "D": "Measured only"
+    },
+    "correct": "C",
+    "explanation": "Clause 38 allows Scoping Studies to include all Mineral Resource categories, including Inferred, in the economic assessment. However, this must be accompanied by a cautionary statement that the Scoping Study is insufficient to support Reserve estimation and that Inferred Resources are too speculative geologically to have economic considerations applied to them. The inclusion of Inferred material at the Scoping level helps assess whether a project warrants further investment in drilling and higher-level studies.",
+    "key_concept": "Scoping Studies can use Inferred Resources but must include mandatory caveats",
+    "source": "JORC Code 2012, Clause 38",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-07-006",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "Under Clause 39, what minimum Mineral Resource category is generally required to support a Pre-Feasibility Study?",
+    "options": {
+      "A": "Inferred Mineral Resources",
+      "B": "Indicated Mineral Resources",
+      "C": "Measured Mineral Resources",
+      "D": "Any category with a CP sign-off"
+    },
+    "correct": "B",
+    "explanation": "Clause 39 indicates that a PFS should be supported by at least Indicated Mineral Resources. This is because the PFS involves financial analysis on reasonable assumptions and establishes the preferred mining method — these require the 'reasonable' geological and grade continuity confidence that Indicated provides (Clause 22). Inferred Resources should not be the determining factor in PFS-level economic assessments. Measured Resources are preferred but not mandatory at the PFS level.",
+    "key_concept": "PFS requires minimum Indicated Resources — Inferred insufficient as primary basis",
+    "source": "JORC Code 2012, Clauses 22, 39",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-07-007",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS under Clause 40 serves as a reasonable basis for which decision?",
+    "options": {
+      "A": "Listing on a stock exchange",
+      "B": "Initial exploration expenditure",
+      "C": "Final investment decision by the project proponent or project financing by a financial institution",
+      "D": "Declaration of Exploration Targets"
+    },
+    "correct": "C",
+    "explanation": "Clause 40 explicitly states that a DFS serves as the reasonable basis for a final investment decision by a project proponent or for project financing by a financial institution. This is the highest level of technical study recognised by JORC and provides the detailed engineering, costing, and economic analysis needed for construction approval and bank lending. A Scoping Study or PFS, while valuable, do not provide sufficient confidence for these decisions.",
+    "key_concept": "DFS is the basis for final investment decision and project financing",
+    "source": "JORC Code 2012, Clause 40",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-07-008",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "What is the correct order of technical studies from lowest to highest confidence?",
+    "options": {
+      "A": "PFS → Scoping Study → DFS",
+      "B": "DFS → PFS → Scoping Study",
+      "C": "Scoping Study → PFS → DFS",
+      "D": "Scoping Study → DFS → PFS"
+    },
+    "correct": "C",
+    "explanation": "The hierarchy of technical studies progresses: Scoping Study (±35-50%, order of magnitude) → Pre-Feasibility Study (±25-30%, preferred mining method, reasonable assumptions) → Definitive Feasibility Study (±10-15%, detailed assessments, basis for investment decision). Each level increases the accuracy, detail, and cost of the study, and provides progressively greater confidence in the project's economic viability. This matches Clauses 38-40 of the JORC Code.",
+    "key_concept": "Study hierarchy: Scoping (lowest) → PFS → DFS (highest confidence)",
+    "source": "JORC Code 2012, Clauses 38-40",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-07-009",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A company publicly reports a Scoping Study NPV of $500 million but omits the cautionary statement required by Clause 38. This omission is:",
+    "options": {
+      "A": "Minor — the NPV speaks for itself",
+      "B": "A significant compliance breach that may mislead investors by presenting early-stage economics without the mandatory warning about the study's preliminary nature",
+      "C": "Acceptable if the company also discloses the discount rate",
+      "D": "Only a concern if the company is ASX-listed"
+    },
+    "correct": "B",
+    "explanation": "Clause 38 mandates a cautionary statement when reporting Scoping Study results, warning that the study is preliminary, that an Ore Reserve has not been determined, and that there is no certainty the results will be realised. Omitting this statement is a significant compliance breach because it presents order-of-magnitude economics (±35-50% accuracy) without context, potentially misleading investors into treating the NPV as reliable. The obligation applies regardless of listing venue.",
+    "key_concept": "Missing Scoping Study cautionary statement is a significant JORC compliance breach",
+    "source": "JORC Code 2012, Clause 38",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-010",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A PFS uses Inferred Mineral Resources as 35% of the mine plan feed tonnage. Under JORC, this is problematic because:",
+    "options": {
+      "A": "PFS cannot reference any Inferred Resources",
+      "B": "Inferred Resources carry too much geological uncertainty to reliably support mine planning and financial analysis at PFS level, and should not be the determining factor in project viability",
+      "C": "35% is acceptable — the threshold is 50%",
+      "D": "Inferred Resources are acceptable in a PFS if the grade is high"
+    },
+    "correct": "B",
+    "explanation": "While the JORC Code does not prescribe a maximum percentage of Inferred Resources in a PFS, Clause 21 states that Inferred Resources should not be the basis for economic assessment at PFS or DFS level. At 35% of mine plan feed, the Inferred material is likely a determining factor in the project's economics. If this Inferred material fails to upgrade upon further drilling, the project may become unviable. The PFS should primarily rely on Indicated and Measured Resources, with Inferred treated as potential upside rather than base case.",
+    "key_concept": "Inferred Resources must not be the determining factor in PFS economics",
+    "source": "JORC Code 2012, Clauses 21, 39",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-011",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "Under Clause 39, a PFS should establish which key technical parameter?",
+    "options": {
+      "A": "The final equipment procurement list",
+      "B": "The preferred mining method and processing route",
+      "C": "Detailed construction scheduling",
+      "D": "Final tailings dam design"
+    },
+    "correct": "B",
+    "explanation": "Clause 39 states that at PFS level, the preferred mining method should be established and the processing route determined. This means the study has progressed beyond conceptual alternatives (Scoping level) to identify the most suitable extraction approach. However, it has not yet reached the detailed engineering level of a DFS, where final equipment selection, construction scheduling, and detailed facility designs would be completed. The PFS answers 'how will we mine it?' while the DFS answers 'exactly how much will it cost?'",
+    "key_concept": "PFS establishes the preferred mining method and processing route",
+    "source": "JORC Code 2012, Clause 39",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-012",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A company completes a DFS and declares an Ore Reserve. Which Mineral Resource categories should have primarily underpinned the DFS?",
+    "options": {
+      "A": "Inferred Resources with some Indicated",
+      "B": "Any category available at the site",
+      "C": "Measured and Indicated Resources, as these provide sufficient confidence for detailed economic and technical assessment",
+      "D": "Only Measured Resources"
+    },
+    "correct": "C",
+    "explanation": "A DFS supporting an Ore Reserve declaration must be underpinned by Measured and/or Indicated Resources (Clauses 29-31, 40). Measured Resources can convert to Proved or Probable Reserves, and Indicated Resources can convert to Probable Reserves. Inferred Resources cannot contribute to the Reserve and should not be a material component of the DFS mine plan. While only Measured is needed for Proved Reserves, Indicated is sufficient for Probable Reserves, so both categories appropriately support a DFS.",
+    "key_concept": "DFS must be underpinned by Measured and/or Indicated Resources for Reserve declaration",
+    "source": "JORC Code 2012, Clauses 29-31, 40",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-013",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A Scoping Study shows marginal economics (IRR of 12% vs. a hurdle rate of 15%). The company's press release states 'the project is economically viable.' Under JORC, the issue is:",
+    "options": {
+      "A": "12% IRR is always sufficient for mining projects",
+      "B": "The statement overstates the outcome — a Scoping Study with ±35-50% accuracy and marginal returns cannot claim economic viability, and the mandatory cautionary statement must be included",
+      "C": "Press releases are not covered by JORC",
+      "D": "The hurdle rate should be lowered to match the IRR"
+    },
+    "correct": "B",
+    "explanation": "A Scoping Study with ±35-50% accuracy showing a 12% IRR against a 15% hurdle rate is actually showing that the project may not be viable. The accuracy range means the true IRR could be significantly lower (or higher). Claiming 'economic viability' on this basis violates the Transparency principle (Clause 4) and the cautionary statement requirement (Clause 38). JORC applies to all Public Reports, including press releases by listed companies. The study result actually suggests the project needs significant improvement to clear the hurdle rate.",
+    "key_concept": "Marginal Scoping Study returns with ±35-50% accuracy cannot claim economic viability",
+    "source": "JORC Code 2012, Clauses 4, 38",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-014",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "At the PFS level, the financial analysis must be based on:",
+    "options": {
+      "A": "Optimistic assumptions to attract investor interest",
+      "B": "Reasonable assumptions, as defined by Clause 39",
+      "C": "Worst-case scenario only",
+      "D": "No financial analysis is required at PFS level"
+    },
+    "correct": "B",
+    "explanation": "Clause 39 specifies that the PFS financial analysis must be based on 'reasonable assumptions.' This means using defensible commodity prices, realistic operating costs, achievable metallurgical recoveries, and plausible capital estimates. Neither optimistic nor worst-case assumptions are appropriate — the assessment should reflect a realistic base case. The CP must be able to defend every material assumption as reasonable. This is a higher bar than a Scoping Study's order-of-magnitude approach but less rigorous than a DFS's detailed costing.",
+    "key_concept": "PFS financial analysis requires 'reasonable assumptions' — defensible, not optimistic",
+    "source": "JORC Code 2012, Clause 39",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-015",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS includes Inferred Resources representing 15% of the mine plan's total feed tonnes in years 8-12 of a 15-year mine life. A peer reviewer's MOST likely concern is:",
+    "options": {
+      "A": "DFS mine plans must exclude all Inferred material entirely",
+      "B": "The Inferred material is concentrated in later years, and if it fails to upgrade, the project's tail-end economics deteriorate — the DFS should demonstrate viability without the Inferred contribution",
+      "C": "15% is within acceptable limits for all DFS studies",
+      "D": "Inferred material can only appear in the first 3 years of a mine plan"
+    },
+    "correct": "B",
+    "explanation": "While Inferred Resources should not be included in the mine plan that underpins an Ore Reserve, they sometimes appear in broader project economics. A peer reviewer would note that 15% Inferred material in years 8-12 means the project's later cash flows are speculative. The DFS should demonstrate that the project is economically robust without the Inferred contribution — if the Inferred material fails to upgrade upon further drilling, the project must still generate acceptable returns from the Measured and Indicated portions alone.",
+    "key_concept": "DFS viability must be demonstrated without reliance on Inferred Resources",
+    "source": "JORC Code 2012, Clauses 21, 40",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-016",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "Which of the following correctly matches the study level to its appropriate use in Reserve determination?",
+    "options": {
+      "A": "Scoping Study → basis for Proved Reserve; PFS → basis for Probable Reserve",
+      "B": "Scoping Study → no Reserve; PFS → CP determines if conversion warranted; DFS → full basis for Reserve and investment decision",
+      "C": "All three study levels can support any Reserve category",
+      "D": "DFS → Probable Reserve only; PFS → Proved Reserve only"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code creates a clear hierarchy: Scoping Studies cannot support any Reserve (Clause 38). PFS provides sufficient confidence for the CP to determine whether Reserve conversion is warranted (Clause 39). DFS provides the detailed basis for Reserve declaration and final investment decision (Clause 40). This progression ensures that Reserve declarations are backed by appropriate study rigour, with increasing accuracy and detail at each stage.",
+    "key_concept": "Scoping=no Reserve; PFS=CP assesses conversion; DFS=basis for Reserve and investment",
+    "source": "JORC Code 2012, Clauses 38-40",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-017",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A junior company completes a Scoping Study and announces 'Ore Reserves of 10 Mt at 2.0 g/t Au based on Scoping Study results.' How many JORC violations does this contain?",
+    "options": {
+      "A": "One — missing cautionary statement",
+      "B": "Two — declaring Reserves based on a Scoping Study (Clause 38), and likely including Inferred Resources in a Reserve (Clause 21)",
+      "C": "Three — declaring Reserves from Scoping (Clause 38), using 'Ore Reserves' terminology prematurely (Clause 29), and missing the required cautionary statement (Clause 38)",
+      "D": "None — the CP has discretion"
+    },
+    "correct": "C",
+    "explanation": "This announcement contains at least three violations: (1) Clause 38 explicitly states a Scoping Study cannot be the basis for an Ore Reserve; (2) Using the term 'Ore Reserves' requires the rigour of Clauses 29-31, which demand Modifying Factors applied through at least a PFS-level study — a Scoping Study cannot deliver this; (3) The mandatory cautionary statement about the preliminary nature of the Scoping Study is absent. This type of announcement is a serious compliance failure that misleads investors about the project's maturity.",
+    "key_concept": "Declaring Reserves from a Scoping Study is a multi-layered JORC violation",
+    "source": "JORC Code 2012, Clauses 29, 38",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-018",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A PFS capital cost estimate is $200 million ±25%. What does this accuracy range mean for project decision-making?",
+    "options": {
+      "A": "The actual capital cost will be between $150-250 million with certainty",
+      "B": "The actual capital cost is expected to fall between $150-250 million, but this range reflects PFS-level confidence and further engineering (DFS) is needed to narrow the range before a final investment decision",
+      "C": "The project should proceed to construction immediately",
+      "D": "The accuracy range is irrelevant to investment decisions"
+    },
+    "correct": "B",
+    "explanation": "A PFS accuracy of ±25% means the capital cost could reasonably range from $150-250 million. This is sufficient for the CP to assess Reserve conversion and for the company to decide whether to invest in a DFS, but it is NOT sufficient for a final investment decision or project financing. Banks and project financiers typically require DFS-level accuracy (±10-15%) before committing funds. The PFS serves as a critical go/no-go gate for further study investment, not for construction commitment.",
+    "key_concept": "PFS accuracy (±25-30%) supports study progression decisions, not final investment",
+    "source": "JORC Code 2012, Clauses 39, 40",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-019",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "Under Clause 40, which of the following is a characteristic that distinguishes a DFS from a PFS?",
+    "options": {
+      "A": "The DFS uses Inferred Resources while the PFS does not",
+      "B": "The DFS includes detailed assessments of all Modifying Factors and serves as a basis for project financing",
+      "C": "The DFS is completed before the PFS",
+      "D": "The DFS requires fewer drill holes than the PFS"
+    },
+    "correct": "B",
+    "explanation": "Clause 40 distinguishes the DFS by its comprehensive, detailed assessment of all Modifying Factors and its role as a reasonable basis for a final investment decision or project financing by a financial institution. The PFS (Clause 39) establishes the preferred mining method and uses reasonable assumptions, but the DFS takes this further with detailed engineering, firm contractor quotes, finalised process design, and thorough financial modelling. The DFS follows the PFS in sequence and requires more (not fewer) data.",
+    "key_concept": "DFS provides detailed Modifying Factor assessment and supports project financing",
+    "source": "JORC Code 2012, Clauses 39, 40",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-020",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A company uses Inferred Resources to show 'potential upside' in a Scoping Study presentation. Under JORC, the company must:",
+    "options": {
+      "A": "Exclude all Inferred material from any presentation",
+      "B": "Include the mandatory cautionary statement that Inferred Resources are too speculative geologically to have economic considerations applied with confidence, and that no Ore Reserve has been determined",
+      "C": "Only show Inferred Resources in appendices",
+      "D": "Obtain investor consent before including Inferred Resources"
+    },
+    "correct": "B",
+    "explanation": "Clause 38 requires that when Inferred Resources are included in Scoping Study economics, a cautionary statement must warn that: (1) the Scoping Study is preliminary and insufficient to support Reserve estimation; (2) Inferred Resources are too speculative geologically to have economic considerations applied to them that would enable classification as Ore Reserves; and (3) there is no certainty that the Scoping Study results will be realised. This statement must be prominent, not buried in fine print.",
+    "key_concept": "Inferred Resources in Scoping Studies require mandatory cautionary language",
+    "source": "JORC Code 2012, Clause 38",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-021",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A company completes a PFS showing strong economics. The board wants to proceed directly to construction, skipping the DFS. From a JORC compliance perspective, what is the risk?",
+    "options": {
+      "A": "No risk — the PFS is sufficient for all purposes",
+      "B": "The Ore Reserve declared at PFS level may lack the detailed Modifying Factor assessment needed for construction confidence, and project financing institutions typically require DFS-level rigour",
+      "C": "JORC prohibits construction without a DFS",
+      "D": "The company will lose its ASX listing"
+    },
+    "correct": "B",
+    "explanation": "While JORC does not explicitly prohibit construction without a DFS, Clause 40 makes clear that the DFS is the appropriate basis for a final investment decision and project financing. Skipping the DFS means the project proceeds with ±25-30% cost accuracy rather than ±10-15%, significantly increasing the risk of cost overruns and schedule delays. Banks are unlikely to finance a project without a DFS. The CP should document the risk of proceeding without DFS-level detail in any Reserve statement.",
+    "key_concept": "Skipping DFS means proceeding with ±25-30% accuracy instead of ±10-15% — high risk",
+    "source": "JORC Code 2012, Clauses 39, 40",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-022",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A Scoping Study uses a commodity price 50% above current spot for its base case economics. Under JORC, the CP should:",
+    "options": {
+      "A": "Accept the price as management's strategic view",
+      "B": "Use any price provided by the company's marketing department",
+      "C": "Ensure the price assumption is disclosed, present sensitivity analysis showing impact of lower prices, and include the Clause 38 cautionary statement about preliminary nature of the study",
+      "D": "No price disclosure is required at Scoping level"
+    },
+    "correct": "C",
+    "explanation": "Even at the Scoping level, the Transparency principle (Clause 4) requires disclosure of key assumptions including commodity prices. Using a price 50% above spot should be accompanied by sensitivity analysis showing how the project performs at lower (including current) prices. Combined with the mandatory Clause 38 cautionary statement, this provides investors with the context to assess the preliminary economics critically. Without this disclosure, a bullish price assumption combined with ±35-50% accuracy creates a highly misleading picture.",
+    "key_concept": "Scoping Study price assumptions need disclosure, sensitivity analysis, and cautionary statement",
+    "source": "JORC Code 2012, Clauses 4, 38",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-023",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "At which study level is the CP first able to determine whether Mineral Resources can be converted to Ore Reserves?",
+    "options": {
+      "A": "Scoping Study",
+      "B": "Pre-Feasibility Study",
+      "C": "Definitive Feasibility Study",
+      "D": "Only after production commences"
+    },
+    "correct": "B",
+    "explanation": "Clause 39 states that a PFS provides sufficient confidence for the CP to determine whether conversion of Mineral Resources to Ore Reserves is warranted. The Scoping Study (Clause 38) explicitly cannot support Reserve conversion. While a DFS provides even greater confidence, the initial determination can occur at PFS level. This is why PFS completion is often the trigger for companies to first report Ore Reserves, with the DFS providing confirmation and the basis for final investment decisions.",
+    "key_concept": "PFS is the first study level where CP can determine Reserve conversion",
+    "source": "JORC Code 2012, Clause 39",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-024",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A company reports Scoping Study results including: NPV of $800M, IRR of 35%, payback of 2.5 years. The presentation includes no sensitivity analysis or cautionary statement, and the mine plan includes 40% Inferred Resources. How many compliance issues can you identify?",
+    "options": {
+      "A": "One — missing cautionary statement only",
+      "B": "Two — missing cautionary statement and no sensitivity analysis",
+      "C": "Three — missing cautionary statement, no sensitivity analysis, and heavy reliance on Inferred Resources without appropriate caveats",
+      "D": "Four — all of the above plus the economics are presented as definitive rather than preliminary"
+    },
+    "correct": "D",
+    "explanation": "This report has at least four compliance issues: (1) The mandatory Clause 38 cautionary statement is missing; (2) No sensitivity analysis is provided to show how results change with different assumptions; (3) 40% Inferred Resources in the mine plan requires specific caveats about their speculative nature; and (4) Presenting headline NPV/IRR/payback figures without qualifying them as preliminary (±35-50% accuracy) creates a misleading impression of project maturity. Together, these violations present early-stage results as if they were bankable conclusions.",
+    "key_concept": "Scoping Study reporting requires cautionary statement, sensitivity analysis, and Inferred caveats",
+    "source": "JORC Code 2012, Clauses 4, 38",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-025",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "What is the primary purpose of a Scoping Study in the project development pipeline?",
+    "options": {
+      "A": "To declare Ore Reserves for the first time",
+      "B": "To determine whether the project warrants further, more detailed and costly study (i.e., a PFS)",
+      "C": "To satisfy bank financing requirements",
+      "D": "To finalise the mine plan and processing route"
+    },
+    "correct": "B",
+    "explanation": "The Scoping Study serves as an initial screening tool to determine whether a project has sufficient merit to justify the significant investment required for a PFS. It provides order-of-magnitude economics (±35-50%) based on preliminary geological data and broad assumptions. If the Scoping Study shows clearly negative economics, the project can be shelved before expensive PFS-level work. It does not declare Reserves, satisfy financing requirements, or finalise technical details.",
+    "key_concept": "Scoping Study is a screening tool to decide whether PFS investment is warranted",
+    "source": "JORC Code 2012, Clause 38",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-026",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS for a gold project shows an IRR of 18% using a gold price of US$2,500/oz, with capex of $150M ±12%. A sensitivity analysis shows IRR drops to 8% at US$2,000/oz. The CP should ensure the Reserve statement:",
+    "options": {
+      "A": "Only uses the base case IRR since the DFS is the definitive study",
+      "B": "Includes the sensitivity analysis, discloses the price assumption, and notes the Reserve may be reduced if lower prices persist",
+      "C": "Ignores the sensitivity analysis since DFS accuracy is ±10-15%",
+      "D": "Uses the lowest gold price to be conservative"
+    },
+    "correct": "B",
+    "explanation": "Transparency (Clause 4) requires that key assumptions and sensitivities be disclosed. A Reserve that is strongly sensitive to commodity price (IRR dropping from 18% to 8% with a 20% price decrease) represents material information for investors. The CP should disclose the base case price assumption, present sensitivity analysis results, and note that the Reserve estimate may require revision if lower prices persist. This allows investors to make informed assessments of the Reserve's robustness. Hiding sensitivity is a Materiality violation.",
+    "key_concept": "DFS Reserve statements must include price sensitivity analysis and key assumption disclosure",
+    "source": "JORC Code 2012, Clauses 4, 5, 40",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-027",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "Which statement correctly describes the role of metallurgical testwork across study levels?",
+    "options": {
+      "A": "Metallurgical testwork is only required at DFS level",
+      "B": "Scoping uses preliminary bench-scale tests; PFS uses more detailed piloting or variability tests; DFS uses comprehensive locked-cycle or pilot plant results",
+      "C": "All study levels use the same level of metallurgical testwork",
+      "D": "Metallurgical testwork is optional at all levels"
+    },
+    "correct": "B",
+    "explanation": "Metallurgical testwork progresses in detail with each study level. Scoping Studies typically rely on preliminary bench-scale tests or analogy with similar deposits. PFS requires more rigorous testwork including variability testing across different ore types and domains. DFS demands comprehensive results — often locked-cycle tests or pilot plant campaigns — sufficient to confirm design parameters, recovery rates, reagent consumption, and product specifications with confidence appropriate for project financing and construction.",
+    "key_concept": "Metallurgical testwork progressively increases in rigour from Scoping to PFS to DFS",
+    "source": "JORC Code 2012, Clauses 38-40",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-028",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A company progresses from PFS to DFS, and the capital cost estimate increases from $200M (±25%) to $280M (±12%). What does this change most likely reflect?",
+    "options": {
+      "A": "An error in the PFS",
+      "B": "The DFS's higher accuracy revealed costs that were underestimated at PFS level — a common and expected occurrence as engineering detail increases",
+      "C": "Inflation between the two studies",
+      "D": "The DFS deliberately inflates costs"
+    },
+    "correct": "B",
+    "explanation": "Cost escalation from PFS to DFS is common and expected. The PFS uses factored estimates and preliminary designs, while the DFS uses detailed engineering, firm vendor quotes, and comprehensive scope definition. Items frequently underestimated at PFS include: owner's costs, indirects, contingency, infrastructure scope, and water management. The $200M ±25% PFS range was $150-250M, and the DFS result of $280M ±12% ($246-314M) shows the upper end of the PFS range was too low. This underscores why DFS is needed before investment decisions.",
+    "key_concept": "PFS-to-DFS cost increases are common as engineering detail reveals underestimated items",
+    "source": "JORC Code 2012, Clauses 39, 40",
+    "difficulty": 3
+  }
+]

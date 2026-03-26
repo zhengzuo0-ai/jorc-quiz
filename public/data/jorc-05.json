@@ -1,0 +1,478 @@
+[
+  {
+    "id": "jorc-05-001",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "Under Clause 20 of the JORC Code 2012, a Mineral Resource must have which fundamental characteristic?",
+    "options": {
+      "A": "A completed Feasibility Study demonstrating economic viability",
+      "B": "Reasonable prospects for eventual economic extraction",
+      "C": "A minimum Indicated confidence level",
+      "D": "An assigned Ore Reserve derived from modifying factors"
+    },
+    "correct": "B",
+    "explanation": "Clause 20 defines a Mineral Resource as a concentration of material of economic interest in such form, quality, and quantity that there are reasonable prospects for eventual economic extraction. This is the threshold test — it does not require a completed study, nor does it require a specific confidence category. The word 'eventual' is deliberately broad, allowing for future changes in technology or economics, but it must still be a realistic possibility, not purely speculative.",
+    "key_concept": "Mineral Resource requires 'reasonable prospects for eventual economic extraction'",
+    "source": "JORC Code 2012, Clause 20",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-05-002",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "Which of the following is NOT a recognised Mineral Resource category under the JORC Code 2012?",
+    "options": {
+      "A": "Inferred Mineral Resource",
+      "B": "Indicated Mineral Resource",
+      "C": "Probable Mineral Resource",
+      "D": "Measured Mineral Resource"
+    },
+    "correct": "C",
+    "explanation": "The JORC Code defines three Mineral Resource categories: Inferred, Indicated, and Measured (Clauses 21-23). 'Probable' is an Ore Reserve category, not a Mineral Resource category. This is a fundamental distinction — Mineral Resources describe geological confidence, while Ore Reserves reflect economic viability after application of Modifying Factors. Confusing the two is a common error in public reporting.",
+    "key_concept": "Three Resource categories: Inferred, Indicated, Measured; Probable is a Reserve category",
+    "source": "JORC Code 2012, Clauses 20-23",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-05-003",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "According to Clause 21, what level of geological evidence and confidence characterises an Inferred Mineral Resource?",
+    "options": {
+      "A": "High level of confidence in geological and grade continuity",
+      "B": "Sufficient confidence to allow Modifying Factors to be applied",
+      "C": "Limited geological evidence and sampling, with implied but not verified geological and grade continuity",
+      "D": "Detailed geological knowledge supported by closely spaced drilling"
+    },
+    "correct": "C",
+    "explanation": "Clause 21 defines an Inferred Mineral Resource as having geological evidence that is limited and geological and grade/quality continuity that is implied but not verified. The confidence level is lower than for Indicated or Measured. Crucially, this means Inferred Resources carry too much uncertainty for direct conversion to Ore Reserves and should not form the basis of Pre-Feasibility or Feasibility studies.",
+    "key_concept": "Inferred = limited evidence, implied but not verified continuity",
+    "source": "JORC Code 2012, Clause 21",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-05-004",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "Under the JORC Code, Inferred Mineral Resources may be directly converted to which Ore Reserve category?",
+    "options": {
+      "A": "Probable Ore Reserve only",
+      "B": "Proved Ore Reserve only",
+      "C": "Either Probable or Proved, depending on Modifying Factors",
+      "D": "None — Inferred Resources cannot be directly converted to any Ore Reserve"
+    },
+    "correct": "D",
+    "explanation": "Clause 21 explicitly states that an Inferred Mineral Resource is not permitted to be converted to an Ore Reserve. The confidence level is insufficient for the application of Modifying Factors that underpin Reserve estimation. Inferred Resources must first be upgraded to at least Indicated through additional geological work before any Reserve conversion pathway exists. This is a hard rule with no exceptions.",
+    "key_concept": "Inferred Resources CANNOT convert to Ore Reserves under any circumstance",
+    "source": "JORC Code 2012, Clause 21",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-05-005",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "According to Clause 22, an Indicated Mineral Resource has sufficient confidence to permit:",
+    "options": {
+      "A": "Direct conversion to a Proved Ore Reserve",
+      "B": "Application of Modifying Factors to support mine planning and evaluation of economic viability",
+      "C": "Reporting without a Competent Person's sign-off",
+      "D": "Inclusion in a Scoping Study only"
+    },
+    "correct": "B",
+    "explanation": "Clause 22 states that an Indicated Mineral Resource is estimated with sufficient confidence to allow the application of Modifying Factors in sufficient detail to support mine planning and evaluation of the economic viability of the deposit. This level of confidence allows conversion to a Probable Ore Reserve (not Proved). It still requires a Competent Person and can be used in Pre-Feasibility and Feasibility studies.",
+    "key_concept": "Indicated has sufficient confidence for Modifying Factors and economic evaluation",
+    "source": "JORC Code 2012, Clause 22",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-05-006",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "Which Mineral Resource category requires geological and grade continuity to be 'known' rather than merely 'estimated' or 'implied'?",
+    "options": {
+      "A": "Inferred Mineral Resource",
+      "B": "Indicated Mineral Resource",
+      "C": "Measured Mineral Resource",
+      "D": "All Resource categories require continuity to be 'known'"
+    },
+    "correct": "C",
+    "explanation": "Clause 23 defines a Measured Mineral Resource as one where geological evidence is detailed and reliable, and where grade/quality and geological continuity are confirmed. In practice, Measured implies the highest confidence level — tonnage, densities, shape, physical characteristics, grade, and quality are estimated with a high level of confidence. Indicated uses 'reasonable' confidence while Inferred merely 'implies' continuity.",
+    "key_concept": "Measured = geological and grade continuity confirmed with high confidence",
+    "source": "JORC Code 2012, Clause 23",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-05-007",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "Under Clause 28, which term must NOT be used when reporting Mineral Resources?",
+    "options": {
+      "A": "Tonnes and grade",
+      "B": "In situ metal content",
+      "C": "Ore or Reserves",
+      "D": "Cut-off grade"
+    },
+    "correct": "C",
+    "explanation": "Clause 28 explicitly prohibits the use of the terms 'ore' or 'reserves' in connection with Mineral Resources. The term 'ore' implies economic viability, which has not been demonstrated for Resources. Similarly, 'reserves' is exclusively tied to Ore Reserves derived from application of Modifying Factors. Using these terms for Resources misleads investors about the project's maturity and economic status.",
+    "key_concept": "Never use 'ore' or 'reserves' when referring to Mineral Resources",
+    "source": "JORC Code 2012, Clause 28",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-05-008",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "According to Clause 25, when reporting Inferred Mineral Resources, tonnages should be rounded to:",
+    "options": {
+      "A": "The nearest whole number",
+      "B": "The second significant figure",
+      "C": "The third significant figure",
+      "D": "No rounding is required for Inferred Resources"
+    },
+    "correct": "B",
+    "explanation": "Clause 25 states that Mineral Resources and Ore Reserves should be reported to appropriate significant figures reflecting the order of accuracy of the estimate. For Inferred Resources, which carry the greatest uncertainty, rounding to the second significant figure (e.g., 12 Mt, not 12.3 Mt) is generally appropriate. Reporting Inferred Resources to excessive precision creates a false impression of accuracy that is inconsistent with the underlying confidence level.",
+    "key_concept": "Inferred Resources should be rounded to the 2nd significant figure",
+    "source": "JORC Code 2012, Clause 25",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-05-009",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A junior explorer reports a Measured Mineral Resource of 2.347 Mt at 3.87 g/t Au. A peer reviewer challenges the precision. Under Clause 25, what is the most likely basis for the challenge?",
+    "options": {
+      "A": "The grade should be reported in oz/t, not g/t",
+      "B": "Resources should never be reported with decimal places",
+      "C": "The number of significant figures implies more confidence than may be warranted, particularly if data density is limited",
+      "D": "Measured Resources should be rounded to 1 significant figure"
+    },
+    "correct": "C",
+    "explanation": "Clause 25 requires that resources be reported to appropriate significant figures reflecting the order of accuracy of the estimate. Reporting 2.347 Mt (four significant figures) implies a precision that even Measured Resources rarely justify. A peer reviewer would question whether the drill spacing, assay quality, and geological modelling truly support that level of precision. The key principle is that reported precision must match actual confidence.",
+    "key_concept": "Reported precision must reflect actual confidence level of the estimate",
+    "source": "JORC Code 2012, Clause 25",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-010",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A Competent Person classifies a deposit with 50m drill spacing as Indicated in the oxide zone and Inferred in the fresh rock zone. Under Clause 24, which factor is MOST important in supporting this classification difference?",
+    "options": {
+      "A": "The oxide zone is always more economically valuable",
+      "B": "The geological and grade continuity differs between the two zones based on the CP's skilled judgement",
+      "C": "JORC mandates specific drill spacings for each classification",
+      "D": "Indicated can only be assigned to zones above the water table"
+    },
+    "correct": "B",
+    "explanation": "Clause 24 explicitly states that there are no prescribed quantitative criteria for Resource classification — it relies on the Competent Person's skilled judgement of geological and grade continuity. The same drill spacing may support different classifications in different geological domains. In this case, the CP judged that the oxide zone's geology is more predictable and continuous at 50m spacing, while the fresh rock zone has more structural complexity requiring closer spacing to confirm continuity.",
+    "key_concept": "No hard drill-spacing rules — classification relies on CP's skilled judgement of continuity",
+    "source": "JORC Code 2012, Clause 24",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-011",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company wants to include Inferred Mineral Resources in the economic analysis of a Pre-Feasibility Study. Under the JORC Code, this is:",
+    "options": {
+      "A": "Permitted without restriction since the PFS is not a final investment decision",
+      "B": "Permitted only if Inferred Resources represent less than 10% of total Resources",
+      "C": "Not permitted — Inferred Resources should not be the determining factor in project viability at PFS level",
+      "D": "Permitted only if disclosed in a footnote"
+    },
+    "correct": "C",
+    "explanation": "Clause 21 cautions that Inferred Resources carry insufficient confidence for application in Pre-Feasibility or Feasibility Studies. While Inferred Resources may be acknowledged in a PFS, they must not be the determining factor in assessing project viability. The JORC Code's concern is that Inferred material could evaporate upon further drilling, making any economic assessment relying on it unreliable. A PFS should be primarily supported by Indicated and/or Measured Resources.",
+    "key_concept": "Inferred Resources must not be the basis of PFS or DFS economic assessments",
+    "source": "JORC Code 2012, Clause 21, 38-39",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-012",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "An Indicated Mineral Resource may be converted to which Ore Reserve category?",
+    "options": {
+      "A": "Proved Ore Reserve",
+      "B": "Probable Ore Reserve",
+      "C": "Either Proved or Probable, at the CP's discretion",
+      "D": "Neither — only Measured can convert to Reserves"
+    },
+    "correct": "B",
+    "explanation": "Under Clause 30, an Indicated Mineral Resource may only be converted to a Probable Ore Reserve after application of Modifying Factors. It cannot be converted to a Proved Reserve — that pathway is reserved exclusively for Measured Resources (Clause 31). This is a strict one-way classification boundary. Even the highest-quality Indicated Resource cannot skip to Proved; it must first be upgraded to Measured through additional geological work.",
+    "key_concept": "Indicated converts only to Probable; never to Proved",
+    "source": "JORC Code 2012, Clauses 22, 30, 32",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-013",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A Measured Mineral Resource can be converted to which Ore Reserve category(ies)?",
+    "options": {
+      "A": "Proved Ore Reserve only",
+      "B": "Probable Ore Reserve only",
+      "C": "Either Proved or Probable Ore Reserve",
+      "D": "It cannot be converted — Measured is the highest classification"
+    },
+    "correct": "C",
+    "explanation": "Clause 31 states that Measured Resources may convert to Proved Reserves, and Clause 32 explicitly allows Measured Resources to convert to Probable Reserves where Modifying Factor uncertainties reduce confidence. This downgrade pathway is important — a Measured Resource in a complex metallurgical or mining environment may only justify Probable status once economic and technical realities are considered. The geological confidence is high, but other factors may introduce uncertainty.",
+    "key_concept": "Measured can convert to either Proved or Probable Reserves",
+    "source": "JORC Code 2012, Clauses 23, 31, 32",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-014",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "Under Clause 24, which of the following BEST describes how Resource classification boundaries should be determined?",
+    "options": {
+      "A": "By applying quantitative criteria such as kriging variance or drill hole spacing tables",
+      "B": "By automated geostatistical algorithms in the block model",
+      "C": "By the Competent Person's skilled judgement, considering geological complexity, data quality, and peer defensibility",
+      "D": "By the ASX Listing Rules which prescribe specific criteria"
+    },
+    "correct": "C",
+    "explanation": "Clause 24 emphasises that Resource classification is fundamentally a matter of the Competent Person's skilled judgement. There are no prescribed quantitative criteria in the JORC Code. While geostatistical tools (kriging variance, slope of regression, etc.) can inform the decision, they are aids, not determinants. The classification must be peer-defensible, meaning another CP with similar experience would reach a broadly similar conclusion given the same data.",
+    "key_concept": "Classification is CP's skilled judgement — no hard rules, must be peer-defensible",
+    "source": "JORC Code 2012, Clause 24",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-015",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company reports 'the ore body contains 5 Mt of Indicated Mineral Resource at 2.1% Cu.' Under JORC, what is wrong with this statement?",
+    "options": {
+      "A": "The tonnage should be rounded further",
+      "B": "The grade is too precise for Indicated",
+      "C": "The term 'ore body' implies economic viability, violating Clause 28",
+      "D": "Indicated Resources cannot include copper grades"
+    },
+    "correct": "C",
+    "explanation": "Clause 28 prohibits the use of the term 'ore' (and by extension 'ore body') in connection with Mineral Resources, because 'ore' implies that economic extraction has been established. Until Modifying Factors have been applied and Ore Reserves declared, the correct terminology would be 'deposit,' 'mineralisation,' or 'mineral occurrence.' This is not a trivial semantic issue — it can mislead investors about the project's stage of development.",
+    "key_concept": "Using 'ore' or 'ore body' for Resources violates Clause 28's terminology rules",
+    "source": "JORC Code 2012, Clause 28",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-016",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company first reported a Mineral Resource estimate in 2018 and has not updated it. Under Clause 27, which obligation applies when the company issues a new Public Report in 2024?",
+    "options": {
+      "A": "The 2018 estimate automatically expires and cannot be referenced",
+      "B": "The company must report any material changes or confirm the estimate remains valid, with the date of the original estimate clearly stated",
+      "C": "The company must re-estimate the Resource from scratch every 3 years",
+      "D": "The estimate can be re-published without any additional commentary"
+    },
+    "correct": "B",
+    "explanation": "Clause 27 requires that when reporting previously declared Resources, the company must disclose any material changes from the last report or confirm that the estimate remains materially unchanged. The date of the original estimate must be clearly stated. There is no automatic expiry under JORC, but failing to update or reconfirm estimates creates a stale reporting risk. The ASX may separately require annual review, but the JORC obligation is about material change disclosure.",
+    "key_concept": "Must report material changes or confirm validity when re-reporting estimates",
+    "source": "JORC Code 2012, Clause 27",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-017",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "When a Mineral Resource is first reported under Clause 27, which of the following is required?",
+    "options": {
+      "A": "A simultaneous Ore Reserve estimate must also be reported",
+      "B": "The report must include a summary of the Table 1 checklist criteria relevant to the estimate",
+      "C": "The CP must hold shares in the reporting company",
+      "D": "Independent verification by a second CP is mandatory"
+    },
+    "correct": "B",
+    "explanation": "Clause 27 requires that when a Mineral Resource or Ore Reserve is first reported, a summary of all material assessment and reporting criteria (Table 1) must be included. This ensures transparency about the data quality, geological interpretation, and estimation methodology. A simultaneous Reserve estimate is not required, CP share ownership would create a conflict of interest, and while independent review is good practice, it is not mandatory under the Code.",
+    "key_concept": "First-time Resource reports must include a Table 1 checklist summary",
+    "source": "JORC Code 2012, Clause 27",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-018",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A CP assigns Measured status to a gold deposit based solely on a kriging variance threshold of <20%. A peer reviewer challenges this. Under Clause 24, the reviewer's strongest argument is:",
+    "options": {
+      "A": "Kriging variance must be <10% for Measured classification",
+      "B": "JORC prescribes conditional simulation, not kriging variance, for classification",
+      "C": "No single quantitative criterion should be the sole basis for classification — skilled judgement considering multiple factors is required",
+      "D": "Measured classification requires a completed Feasibility Study"
+    },
+    "correct": "C",
+    "explanation": "Clause 24 emphasises that classification requires the CP's skilled judgement considering all relevant factors — geological complexity, data density, data quality, grade variability, and geostatistical measures collectively. Relying on a single metric like kriging variance is insufficient because it may not capture geological uncertainty, nugget effect, or domain boundary issues. The JORC Code deliberately avoids prescribing quantitative thresholds to prevent mechanical, unjustified classification.",
+    "key_concept": "Classification cannot rely on a single quantitative criterion — holistic judgement required",
+    "source": "JORC Code 2012, Clause 24",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-019",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A greenfields explorer has 12 widely spaced RC drill holes across a 3km strike with gold intercepts averaging 1.2 g/t over 8m. The CP reports an Indicated Mineral Resource. What is the most significant compliance concern?",
+    "options": {
+      "A": "RC drilling cannot support any Resource estimate",
+      "B": "12 holes over 3km provides insufficient data density for Indicated — geological and grade continuity is implied, not reasonably estimated, suggesting Inferred is more appropriate",
+      "C": "Gold deposits cannot be classified as Indicated",
+      "D": "The average grade is too low for a Resource"
+    },
+    "correct": "B",
+    "explanation": "With only 12 holes over 3km, the drill spacing is approximately 250m — far too wide for most geological settings to demonstrate the 'reasonable' geological and grade continuity required for Indicated (Clause 22). At this data density, continuity can only be implied, which is the definition of Inferred (Clause 21). The CP has over-classified the Resource. Peer review under Clause 24's defensibility test would likely downgrade this to Inferred.",
+    "key_concept": "Wide drill spacing typically supports only Inferred, not Indicated classification",
+    "source": "JORC Code 2012, Clauses 21, 22, 24",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-020",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company's Mineral Resource estimate shows: Measured 5 Mt @ 1.5% Cu, Indicated 12 Mt @ 1.2% Cu, Inferred 25 Mt @ 0.9% Cu. A peer notes that Inferred represents 60% of total tonnage. Under JORC, this is:",
+    "options": {
+      "A": "A violation because Inferred cannot exceed 50% of total Resources",
+      "B": "Acceptable but the dominance of Inferred should be prominently disclosed and appropriately caveated",
+      "C": "A violation because Inferred tonnage must be less than Indicated tonnage",
+      "D": "Irrelevant because each category is independent"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code does not prescribe maximum proportions for any Resource category. However, when Inferred Resources dominate a total Resource statement, Clause 20's 'reasonable prospects' test and Clause 5's Materiality principle require prominent disclosure of the low-confidence nature of the majority of the estimate. Investors must understand that Inferred material may not be confirmed upon further drilling. The CP should ensure the report does not create a misleading impression of overall project robustness.",
+    "key_concept": "No cap on Inferred proportion, but dominance must be clearly disclosed and caveated",
+    "source": "JORC Code 2012, Clauses 5, 20, 21",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-021",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A deep underground gold deposit at 1,500m depth is reported as a Mineral Resource with 'reasonable prospects for eventual economic extraction.' Critics argue the depth makes extraction uneconomic. Under Clause 20, which consideration is MOST relevant?",
+    "options": {
+      "A": "Resources cannot be declared below 1,000m depth",
+      "B": "The CP must consider whether known mining methods and likely future technology could allow extraction at that depth, even if not currently economic",
+      "C": "Only open-pit deposits can have 'reasonable prospects'",
+      "D": "The depth is irrelevant — only grade determines reasonable prospects"
+    },
+    "correct": "B",
+    "explanation": "Clause 20's 'reasonable prospects for eventual economic extraction' test requires the CP to consider realistic mining scenarios, including depth, known mining methods, and foreseeable technological developments. 'Eventually' allows for future economic or technological changes, but the prospects must still be reasonable, not speculative. Deep deposits can qualify if analogous operations exist (e.g., South African gold mines at 3,500m+), but the CP must document the rationale.",
+    "key_concept": "Reasonable prospects considers known mining methods and foreseeable technology, not just current economics",
+    "source": "JORC Code 2012, Clause 20",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-022",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "An exploration company drills additional infill holes that increase confidence in a previously Inferred zone. The new data supports Indicated classification. Under JORC, when reporting this upgrade, the company must:",
+    "options": {
+      "A": "Re-report the entire Resource estimate as Indicated",
+      "B": "Report the upgraded portions separately, explain the basis for reclassification, and include a revised Table 1 summary",
+      "C": "Obtain ASX pre-approval before upgrading any classification",
+      "D": "Wait for a Feasibility Study before upgrading from Inferred"
+    },
+    "correct": "B",
+    "explanation": "When upgrading Resource classification, Clause 27 requires material changes to be reported with appropriate explanation. The CP must explain the basis for reclassification (additional data, improved geological understanding), report the categories separately (not lump everything as Indicated), and provide an updated Table 1 summary addressing the new data. There is no requirement for ASX pre-approval of classification changes or for a Feasibility Study — classification is a geological confidence matter, not an economic one.",
+    "key_concept": "Upgrades require explanation, separate category reporting, and updated Table 1",
+    "source": "JORC Code 2012, Clauses 24, 27",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-023",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A nickel laterite deposit has highly variable grades over short distances. Two CPs disagree on whether the resource is Indicated or Inferred. Under Clause 24, which principle should resolve the dispute?",
+    "options": {
+      "A": "The higher classification should be used to maximise reported tonnes",
+      "B": "An average of the two opinions should be applied",
+      "C": "The classification must be defensible to a peer of similar experience — if skilled peers would reasonably disagree, the more conservative classification is prudent",
+      "D": "The company's board should make the final classification decision"
+    },
+    "correct": "C",
+    "explanation": "Clause 24 establishes peer defensibility as the test for classification. Where two qualified CPs disagree, the fact of disagreement itself suggests the higher classification may not be defensible. The conservative approach (Inferred in this case) would be more appropriate until additional data resolves the uncertainty. Board members are not qualified to make geological classification decisions. Averaging classifications is not a JORC concept. The CP must exercise honest, independent judgement.",
+    "key_concept": "Peer defensibility test — if experts disagree, conservative classification is prudent",
+    "source": "JORC Code 2012, Clause 24",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-024",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company reports a combined 'Total Mineral Resource' of 50 Mt at 1.0 g/t Au without breaking out individual categories. Under Clause 27 and general JORC reporting principles, this is:",
+    "options": {
+      "A": "Acceptable if the total is accurate",
+      "B": "A violation — Resources must be reported by individual category (Measured, Indicated, Inferred) and cannot be combined without also showing the breakdown",
+      "C": "Acceptable only for Scoping Studies",
+      "D": "Permitted if the CP provides written consent"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code requires that Mineral Resources be reported by category (Measured, Indicated, Inferred) so that the reader can assess the confidence level of the estimate. Reporting only a combined total obscures the fact that much of the resource may be low-confidence Inferred material. While a combined total can be reported, it must always be accompanied by the individual category breakdown. This is a Transparency principle (Clause 4) and reporting requirement under Clause 27.",
+    "key_concept": "Resources must always show individual category breakdown, not just totals",
+    "source": "JORC Code 2012, Clauses 4, 25, 27",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-025",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A CP is classifying a complex orogenic gold deposit where high-grade shoots are separated by lower-grade halos. The CP uses 25m x 25m drill spacing for the shoots and 50m x 50m for the halos. Under Clause 24, assigning Measured to the shoots and Indicated to the halos is BEST justified by:",
+    "options": {
+      "A": "The drill spacing numbers alone — 25m is always Measured, 50m is always Indicated",
+      "B": "The higher grade of the shoots, which automatically means higher confidence",
+      "C": "The CP's assessment that grade and geological continuity is demonstrably confirmed in the shoots at 25m spacing, and reasonably estimated in the halos at 50m spacing, supported by variography and geological mapping",
+      "D": "Standard industry lookup tables that define classification by drill spacing"
+    },
+    "correct": "C",
+    "explanation": "Clause 24 requires that classification reflect demonstrated confidence in geological and grade continuity, not simply drill spacing. The CP must show that at 25m spacing, the shoot geometry and grade distribution are confirmed (Measured), and at 50m in the halos, continuity is reasonable but not confirmed (Indicated). Supporting evidence should include variography showing ranges relative to spacing, geological mapping of structural controls, and reconciliation data if available. No lookup tables exist in JORC.",
+    "key_concept": "Classification must be justified by demonstrated continuity evidence, not drill spacing alone",
+    "source": "JORC Code 2012, Clauses 23, 24",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-026",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "Under the JORC Code, when assessing 'reasonable prospects for eventual economic extraction' (Clause 20), which of the following factors should the CP consider?",
+    "options": {
+      "A": "Only the current commodity price",
+      "B": "Grade, likely mining method, metallurgical recovery, and foreseeable economic conditions",
+      "C": "Only the geological merit of the deposit",
+      "D": "The company's share price performance"
+    },
+    "correct": "B",
+    "explanation": "Clause 20 requires a holistic assessment including grade and quality, likely mining dimensions and methods, potential metallurgical recovery, proximity to infrastructure, and foreseeable economic conditions. The assessment is not limited to current prices (since 'eventual' allows for price cycles) nor to geology alone. Share price is irrelevant to the geological and technical assessment. The CP must form a reasonable view that extraction could occur under plausible future scenarios.",
+    "key_concept": "Reasonable prospects assessment is holistic: grade, mining method, recovery, economics",
+    "source": "JORC Code 2012, Clause 20",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-027",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company reports an Inferred Mineral Resource based entirely on geophysical targets with no drill holes. Under JORC, this is:",
+    "options": {
+      "A": "Acceptable if the geophysical anomaly is strong",
+      "B": "Acceptable if the CP has experience with similar geophysical signatures",
+      "C": "Not acceptable — even an Inferred Resource requires some geological evidence and sampling, not just geophysical inference",
+      "D": "Acceptable for early-stage exploration companies"
+    },
+    "correct": "C",
+    "explanation": "Clause 21 requires that an Inferred Mineral Resource be based on geological evidence and sampling, albeit limited. A geophysical target alone, no matter how compelling, does not constitute geological evidence of mineralisation — it is an Exploration Target, not a Mineral Resource. The JORC framework is clear: you cannot declare a Resource without some direct evidence of mineralisation (drill holes, trenching, or outcrop sampling). Geophysics may inform exploration targeting but cannot substitute for physical samples.",
+    "key_concept": "Even Inferred Resources require actual geological evidence — geophysics alone is insufficient",
+    "source": "JORC Code 2012, Clauses 20, 21",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-028",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "In the JORC classification framework, increasing geological knowledge and confidence proceeds in which order?",
+    "options": {
+      "A": "Measured → Indicated → Inferred",
+      "B": "Inferred → Measured → Indicated",
+      "C": "Inferred → Indicated → Measured",
+      "D": "Indicated → Inferred → Measured"
+    },
+    "correct": "C",
+    "explanation": "The JORC classification hierarchy progresses from lowest to highest confidence: Inferred (limited evidence, implied continuity), to Indicated (sufficient evidence, reasonable continuity), to Measured (detailed evidence, confirmed continuity). This reflects increasing geological knowledge and data density. Each step up requires additional drilling, sampling, and geological work that progressively reduces uncertainty about the deposit's tonnage, grade, shape, and quality.",
+    "key_concept": "Confidence hierarchy: Inferred (lowest) → Indicated → Measured (highest)",
+    "source": "JORC Code 2012, Clauses 21-23",
+    "difficulty": 1
+  }
+]

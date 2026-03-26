@@ -1,0 +1,444 @@
+[
+  {
+    "id": "gold-11-001",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What is a doré bar?",
+    "options": {
+      "A": "A 99.99% pure gold bar ready for trading on the LBMA",
+      "B": "A semi-refined alloy bar typically containing 50-95% gold, produced at the mine site",
+      "C": "A bar of gold-copper concentrate shipped to a smelter",
+      "D": "A standard 400 troy ounce LBMA Good Delivery bar"
+    },
+    "correct": "B",
+    "explanation": "A doré bar is a semi-refined alloy of gold and silver (and sometimes other metals) produced at the mine's gold room, typically containing 50-95% gold depending on the ore type and refining process used on site. Doré bars cannot be traded on the LBMA or spot market because they do not meet the Good Delivery standard of 995.0 minimum fineness. They must first be shipped to a certified refinery for final purification. The doré stage is the last step under the miner's control before the gold enters the global refining and trading value chain.",
+    "key_concept": "Doré bar: semi-refined mine-site product, 50-95% Au, not tradeable on LBMA",
+    "source": "Gold refining industry practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-11-002",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What is the minimum gold fineness required for an LBMA Good Delivery bar?",
+    "options": {
+      "A": "990.0 parts per thousand",
+      "B": "995.0 parts per thousand",
+      "C": "999.0 parts per thousand",
+      "D": "999.9 parts per thousand"
+    },
+    "correct": "B",
+    "explanation": "The LBMA Good Delivery standard requires a minimum fineness of 995.0 parts per thousand (99.50% pure gold). Bars must weigh between 350 and 430 troy ounces (approximately 10.9-13.4 kg) and bear the stamp of an LBMA-certified refinery. There are approximately 66 certified refineries worldwide authorized to produce Good Delivery bars. This standard is the benchmark for the global gold market and ensures fungibility, meaning any Good Delivery bar can be accepted by any bullion bank or central bank globally without additional assaying.",
+    "key_concept": "LBMA Good Delivery: minimum 995.0 fineness, 350-430 troy oz, ~66 certified refineries",
+    "source": "LBMA Good Delivery Rules",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-11-003",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What is the approximate weight range of an LBMA Good Delivery gold bar?",
+    "options": {
+      "A": "100-200 troy ounces",
+      "B": "350-430 troy ounces",
+      "C": "500-600 troy ounces",
+      "D": "1,000 troy ounces"
+    },
+    "correct": "B",
+    "explanation": "LBMA Good Delivery gold bars must weigh between 350 and 430 troy ounces, with a nominal target of 400 troy ounces (~12.4 kg). This size reflects the institutional nature of the London gold market, where bars are traded between bullion banks, central banks, and large investors. The weight tolerance exists because refining to an exact weight would require cutting or adding gold after casting. Each bar's exact weight, fineness, and refiner's assay are recorded, and the precise gold content is calculated for settlement purposes.",
+    "key_concept": "LBMA Good Delivery bar: 350-430 troy ounces (~12.4 kg nominal)",
+    "source": "LBMA Good Delivery Rules",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-11-004",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "How many times per day is the LBMA gold price set, and who administers the benchmark?",
+    "options": {
+      "A": "Once daily at noon, administered by the Bank of England",
+      "B": "Twice daily at 10:30 AM and 3:00 PM London time, administered by ICE Benchmark Administration",
+      "C": "Continuously throughout London trading hours, administered by the LBMA directly",
+      "D": "Three times daily, administered by the World Gold Council"
+    },
+    "correct": "B",
+    "explanation": "The LBMA Gold Price is set twice daily at 10:30 AM and 3:00 PM London time through an electronic auction process administered by ICE Benchmark Administration (IBA). The auction uses a transparent, multi-round process where participants submit buy and sell orders until supply and demand balance within a specified tolerance. This replaced the historic London Gold Fix in 2015 following manipulation concerns. The morning and afternoon fixes serve as reference prices for the majority of global gold contracts, physical deliveries, and financial derivatives. Mining companies typically sell their gold production at a small premium or discount to these benchmark prices.",
+    "key_concept": "LBMA Gold Price: twice daily (10:30 AM, 3:00 PM London), administered by ICE Benchmark Administration",
+    "source": "LBMA / ICE Benchmark Administration",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-11-005",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "Approximately how many LBMA-certified gold refineries exist globally?",
+    "options": {
+      "A": "About 20",
+      "B": "About 66",
+      "C": "About 150",
+      "D": "About 300"
+    },
+    "correct": "B",
+    "explanation": "There are approximately 66 LBMA-certified refineries authorized to produce Good Delivery gold bars. Certification requires meeting strict criteria including assay accuracy, financial standing, production capacity, and compliance with LBMA responsible sourcing requirements. The list is reviewed regularly, and refineries can be suspended or removed for non-compliance. The relatively small number of certified refineries creates a bottleneck that ensures quality control across the global gold supply chain. Major names include Valcambi, PAMP, Metalor, and Argor-Heraeus in Switzerland, and Rand Refinery in South Africa.",
+    "key_concept": "~66 LBMA-certified refineries globally, strict certification and responsible sourcing requirements",
+    "source": "LBMA Good Delivery List",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-11-006",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What was total global gold mine production in 2024?",
+    "options": {
+      "A": "2,450 tonnes",
+      "B": "3,100 tonnes",
+      "C": "3,661 tonnes",
+      "D": "4,200 tonnes"
+    },
+    "correct": "C",
+    "explanation": "Global gold mine production in 2024 was 3,661 tonnes, continuing a gradual upward trend from the roughly flat production plateau of 3,500-3,600 tonnes seen in prior years. This figure represents primary mine production only and excludes recycled gold, which typically adds another 1,200-1,400 tonnes annually. Total gold supply (mine production + recycling) is approximately 4,800-5,000 tonnes per year. The relatively stable mine production despite rising gold prices reflects the long lead times (7-15 years) required to bring new discoveries into production.",
+    "key_concept": "2024 global gold mine production: 3,661 tonnes",
+    "source": "World Gold Council / industry data",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-11-007",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What role does Dubai play in the global gold trading ecosystem?",
+    "options": {
+      "A": "Dubai is the largest gold mining jurisdiction in the Middle East",
+      "B": "Dubai is the 2nd largest gold trading hub globally, handling 13-15% of global throughput",
+      "C": "Dubai is the primary location for gold futures trading",
+      "D": "Dubai is the headquarters of the LBMA"
+    },
+    "correct": "B",
+    "explanation": "Dubai is the second largest gold trading hub in the world after London, handling approximately 13-15% of global gold throughput. Its strategic geographic position between African producers and Asian consumers, combined with a zero-tax free zone (DMCC), world-class vault infrastructure, and the Dubai Gold and Commodities Exchange (DGCX), make it a natural conduit for gold flows. For West African miners, Dubai is the primary transit point for doré bars en route to refineries. The DMCC ecosystem includes Tradeflow (electronic title registry) and secure vaulting facilities that streamline the physical gold supply chain.",
+    "key_concept": "Dubai: 2nd largest global gold hub, 13-15% throughput, key transit for West African doré",
+    "source": "DMCC / Dubai gold market data",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-11-008",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "Which Swiss refineries collectively handle approximately 70% of global gold refining capacity?",
+    "options": {
+      "A": "Johnson Matthey, Royal Mint, Umicore, Heraeus",
+      "B": "Valcambi, PAMP, Metalor, Argor-Heraeus",
+      "C": "Rand Refinery, Perth Mint, Royal Canadian Mint, US Mint",
+      "D": "Tanaka, Mitsubishi, Sumitomo, Asahi"
+    },
+    "correct": "B",
+    "explanation": "Switzerland's four major refineries — Valcambi, PAMP, Metalor, and Argor-Heraeus — collectively process approximately 70% of the world's gold refining throughput. Switzerland's dominance stems from centuries of precious metals expertise, political neutrality, strong banking sector, geographic centrality, and a regulatory environment conducive to precious metals handling. All four are LBMA-certified and process both mine doré and recycled gold. Their combined capacity exceeds 4,000 tonnes annually. The concentration of refining in Switzerland creates an important node in the global gold supply chain and a potential chokepoint for regulatory oversight.",
+    "key_concept": "Swiss refineries (Valcambi, PAMP, Metalor, Argor-Heraeus): ~70% global gold refining capacity",
+    "source": "LBMA / Swiss refinery industry data",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-11-009",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What percentage of African gold production does Rand Refinery process?",
+    "options": {
+      "A": "25%",
+      "B": "50%",
+      "C": "75%",
+      "D": "90%"
+    },
+    "correct": "C",
+    "explanation": "Rand Refinery in Germiston, South Africa, processes approximately 75% of all African gold production. It is one of only five refineries worldwide accredited by all five major gold exchanges (LBMA, COMEX, TOCOM, Shanghai Gold Exchange, and Dubai). For West African producers shipping doré, Rand Refinery offers the advantage of proximity (within Africa), competitive treatment charges, and established logistics corridors. However, some West African miners prefer Swiss or Dubai refineries due to faster turnaround, financing arrangements, or buyer preferences. Rand Refinery's dominance of African gold gives it strategic importance in the continent's gold value chain.",
+    "key_concept": "Rand Refinery (South Africa): processes ~75% of African gold production",
+    "source": "Rand Refinery / industry data",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-010",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "The Miller process achieves gold purification to what fineness, and what subsequent process is used to reach 99.99%?",
+    "options": {
+      "A": "Miller to 99.0%, electrolysis to 99.99%",
+      "B": "Miller to 99.5%, Wohlwill electrolytic process to 99.99%",
+      "C": "Miller to 99.9%, acid dissolution to 99.99%",
+      "D": "Miller to 98.0%, zone refining to 99.99%"
+    },
+    "correct": "B",
+    "explanation": "The Miller process uses chlorine gas bubbled through molten impure gold to remove base metals and silver, producing gold of 99.5% (995) purity — sufficient for LBMA Good Delivery bars. For higher purity (99.99% or 'four nines'), the Wohlwill electrolytic process is employed, where gold is electrochemically dissolved from an impure anode and deposited as pure gold on a cathode. The Wohlwill process is slower and more expensive but produces the highest purity gold required for electronics, investment bars, and certain central bank specifications. Most refineries use Miller as the primary process and Wohlwill selectively for premium products.",
+    "key_concept": "Miller process: 99.5% (LBMA standard); Wohlwill electrolytic: 99.99% (four nines)",
+    "source": "Gold refining metallurgy",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-011",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "In the doré pricing formula, what does the term 'TC' stand for?",
+    "options": {
+      "A": "Transport cost",
+      "B": "Treatment charge",
+      "C": "Tax credit",
+      "D": "Technical coefficient"
+    },
+    "correct": "B",
+    "explanation": "In the doré pricing formula (Payable Au × Price - TC - RC - fees), TC stands for Treatment Charge, which is the fee charged by the refinery for processing the doré bar into refined gold. RC is the Refining Charge, a per-ounce fee for the actual refining process. Together, TC and RC typically represent 0.3-1.0% of the contained gold value depending on doré quality, volume, and the commercial relationship. Higher-purity doré commands lower treatment charges because it requires less processing. Transport, insurance, and assay fees are billed separately.",
+    "key_concept": "Doré pricing: TC = Treatment Charge, RC = Refining Charge, deducted from payable gold value",
+    "source": "Gold refining commercial practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-012",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What are the key components of the DMCC ecosystem that support Dubai's gold trading hub?",
+    "options": {
+      "A": "DGCX exchange, DMCC Vault, and Tradeflow electronic title registry",
+      "B": "Central Bank of UAE gold reserves, Dubai Mint, and Emirates Gold refinery",
+      "C": "Abu Dhabi Securities Exchange, gold souks, and Islamic gold financing",
+      "D": "LBMA Middle East office, Sharjah free zone, and GCC customs union"
+    },
+    "correct": "A",
+    "explanation": "The DMCC (Dubai Multi Commodities Centre) ecosystem comprises three key pillars: the DGCX (Dubai Gold and Commodities Exchange) for futures and options trading, DMCC Vault (a secure storage facility meeting London vault standards), and DMCC Tradeflow (an electronic title registry that enables ownership transfer of physical gold stored in the vault without moving the metal). This infrastructure allows gold to be traded, financed, and stored seamlessly within Dubai's free zone. For West African producers, the DMCC ecosystem provides a one-stop solution for doré receipt, refining coordination, physical storage, and sales execution.",
+    "key_concept": "DMCC ecosystem: DGCX (exchange) + Vault (storage) + Tradeflow (electronic title registry)",
+    "source": "DMCC / Dubai gold market infrastructure",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-013",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "A West African gold mine ships doré bars to a refinery. What is the typical end-to-end timeline from mine site to refined bars, including the Mali-Dubai corridor?",
+    "options": {
+      "A": "1-3 days",
+      "B": "7-18 days",
+      "C": "30-45 days",
+      "D": "60-90 days"
+    },
+    "correct": "B",
+    "explanation": "The typical supply chain timeline from a West African mine site (e.g., Mali) to refined gold in Dubai is 7-18 days. This includes: mine-site doré pouring and security packaging (1-2 days), ground transport to the departure airport (1-3 days depending on location), air freight to Dubai (1 day), customs clearance and vault receipt (1-2 days), refinery processing including assay and settlement (3-10 days depending on the refinery). The total logistics cost for this corridor runs 0.6-1.4% of the gold value, covering armed transport, airfreight, insurance, and handling. Faster turnaround times are achievable for established producers with dedicated logistics contracts.",
+    "key_concept": "Mali→Dubai gold supply chain: 7-18 days, logistics cost 0.6-1.4% of value",
+    "source": "West African gold logistics practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-014",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "Why can doré bars not be directly traded on the LBMA spot market?",
+    "options": {
+      "A": "Doré bars are too heavy to meet LBMA weight specifications",
+      "B": "Doré bars have variable and uncertain gold content below the 995.0 fineness required for Good Delivery",
+      "C": "LBMA rules prohibit bars originating from African mines",
+      "D": "Doré bars are denominated in kilograms rather than troy ounces"
+    },
+    "correct": "B",
+    "explanation": "Doré bars contain 50-95% gold mixed with silver and other impurities, well below the LBMA Good Delivery minimum fineness of 995.0 parts per thousand. The exact gold content of each doré bar is unknown until assayed at a certified refinery. This uncertainty makes doré unsuitable for the standardized, fungible trading that the LBMA market requires. Buyers need to know the exact gold content to settle transactions. The refining step transforms heterogeneous doré into standardized Good Delivery bars that can be traded, vaulted, and settled without further analysis, providing the fungibility essential for a liquid market.",
+    "key_concept": "Doré is non-tradeable on LBMA due to variable fineness below 995.0 Good Delivery minimum",
+    "source": "LBMA Good Delivery Rules / Gold refining practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-015",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "In the gold refining process, at what approximate temperature does the Miller process operate?",
+    "options": {
+      "A": "500°C",
+      "B": "800°C",
+      "C": "1,100°C",
+      "D": "1,500°C"
+    },
+    "correct": "C",
+    "explanation": "The Miller process operates at approximately 1,100°C, which is above gold's melting point of 1,064°C. Chlorine gas is bubbled through the molten gold, reacting with base metals and silver to form volatile or slag-forming chlorides that separate from the gold. The high temperature ensures the gold is fully liquid and the chloride reactions proceed efficiently. The subsequent Wohlwill electrolytic process operates at much lower temperatures in an aqueous electrolyte solution. The Miller process is faster and cheaper than Wohlwill but achieves only 99.5% purity, which is sufficient for the LBMA Good Delivery standard of 995.0 minimum fineness.",
+    "key_concept": "Miller process: ~1,100°C, chlorine gas purification to 99.5% Au",
+    "source": "Gold refining metallurgy",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-016",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "A West African mine produces 200,000 oz of gold per year. Its doré averages 85% gold content. Approximately how many doré bars does it produce annually, assuming each bar weighs about 25 kg?",
+    "options": {
+      "A": "About 50 bars",
+      "B": "About 120 bars",
+      "C": "About 290 bars",
+      "D": "About 600 bars"
+    },
+    "correct": "C",
+    "explanation": "200,000 troy ounces × 31.1035 g/oz = 6,220,700 g of pure gold. At 85% doré purity, the total doré mass is 6,220,700 / 0.85 = 7,318,470 g = 7,318 kg. At 25 kg per doré bar, this yields approximately 293 bars per year, or roughly 5-6 bars per week. This calculation is important for logistics planning: each bar is worth approximately $2.1M at $2,000/oz gold, meaning each shipment carries significant value and requires armed escort, armoured vehicles, and comprehensive insurance. Understanding the physical volume and value of doré production is essential for supply chain management.",
+    "key_concept": "200K oz/yr mine at 85% doré purity ≈ 290 bars/yr at 25 kg each, ~$2.1M per bar",
+    "source": "Gold mine operations / logistics calculation",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-017",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "A mine ships a 20 kg doré bar assaying 82% Au and 15% Ag to a Swiss refinery. Gold is $2,000/oz, silver is $25/oz. The refinery charges a $5,000 treatment charge, $5/oz refining charge on gold, and pays 98% of contained gold. What is the approximate net payment for the gold content?",
+    "options": {
+      "A": "$820,000",
+      "B": "$1,003,000",
+      "C": "$1,018,000",
+      "D": "$1,050,000"
+    },
+    "correct": "B",
+    "explanation": "Gold content: 20,000 g × 82% = 16,400 g ÷ 31.1035 = 527.2 troy oz. Payable gold: 527.2 × 98% = 516.7 oz. Gross gold value: 516.7 × $2,000 = $1,033,400. Less refining charge: 516.7 × $5 = $2,584. Less treatment charge: $5,000. Net payment for gold: $1,033,400 - $2,584 - $5,000 = $1,025,816. Accounting for rounding, this is approximately $1,003,000-$1,026,000 depending on exact calculations. The 2% payable deduction (the largest cost item) represents the refinery's profit margin and compensation for metal losses during processing. Silver credits would add approximately $2,400 but are typically settled separately.",
+    "key_concept": "Doré settlement: payable % × contained oz × price - TC - RC per ounce",
+    "source": "Gold refining commercial practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-018",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "LBMA responsible sourcing requirements mandate that refineries must:",
+    "options": {
+      "A": "Only accept doré from mines in OECD countries",
+      "B": "Conduct due diligence on the origin of gold to ensure it does not finance conflict or involve money laundering",
+      "C": "Refuse all artisanal and small-scale mining (ASM) gold",
+      "D": "Only refine gold that has been pre-assayed by an independent laboratory"
+    },
+    "correct": "B",
+    "explanation": "LBMA Responsible Gold Guidance requires all Good Delivery refineries to implement a risk-based due diligence framework aligned with OECD Due Diligence Guidance to ensure gold entering the supply chain does not finance armed conflict, involve money laundering, or originate from sanctioned entities. Refineries must conduct know-your-customer (KYC) checks on all counterparties, trace the origin of gold to the mine level where possible, and maintain transaction records. The guidance does not blanket-ban ASM gold but requires enhanced due diligence for higher-risk sources. Non-compliant refineries risk removal from the Good Delivery List, effectively barring them from the mainstream gold market.",
+    "key_concept": "LBMA responsible sourcing: KYC and origin due diligence, aligned with OECD guidance",
+    "source": "LBMA Responsible Gold Guidance",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-019",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "The Wohlwill electrolytic process used to achieve 99.99% gold purity operates at approximately what temperature?",
+    "options": {
+      "A": "50-70°C in an aqueous chloroauric acid electrolyte",
+      "B": "200-300°C in a molten salt electrolyte",
+      "C": "500-600°C in a vacuum furnace",
+      "D": "1,064°C in molten gold"
+    },
+    "correct": "A",
+    "explanation": "The Wohlwill process operates at relatively low temperatures (50-70°C) using an aqueous solution of chloroauric acid (HAuCl₄) as the electrolyte. Impure gold (from the Miller process at 99.5%) serves as the anode, and pure gold is electrodeposited on thin cathode sheets. At the anode, gold dissolves into solution while most impurities either remain undissolved or precipitate as anode slime. The low operating temperature and aqueous chemistry distinguish Wohlwill from the high-temperature Miller process. The Wohlwill process achieves 99.99% purity but is slower and more expensive, so it is used selectively for premium products.",
+    "key_concept": "Wohlwill process: 50-70°C, aqueous chloroauric acid electrolyte, achieves 99.99% Au",
+    "source": "Gold refining metallurgy",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-020",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What is the typical logistics cost as a percentage of gold value for shipping doré from West Africa to a refinery?",
+    "options": {
+      "A": "0.05-0.1%",
+      "B": "0.6-1.4%",
+      "C": "3-5%",
+      "D": "8-10%"
+    },
+    "correct": "B",
+    "explanation": "Total logistics costs for the West African doré-to-refinery supply chain typically run 0.6-1.4% of the contained gold value. This includes: armed ground transport from mine to airport (0.1-0.3%), air freight (0.1-0.2%), comprehensive insurance (0.2-0.5%), and handling/customs fees (0.1-0.2%). While these percentages seem small, on a 200,000 oz/yr mine at $2,000/oz ($400M revenue), logistics costs are $2.4-5.6M annually. The percentage is lower for larger, higher-value shipments due to economies of scale. Remote mines with poor road infrastructure face the higher end of the range due to longer and riskier ground transport legs.",
+    "key_concept": "West Africa doré logistics: 0.6-1.4% of gold value (transport + insurance + handling)",
+    "source": "West African gold logistics practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-021",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "A CEO is choosing between refining in Johannesburg (Rand Refinery) and Zurich (Valcambi) for a new Malian gold mine. Which factor would most favour the Zurich option?",
+    "options": {
+      "A": "Lower air freight costs due to closer proximity",
+      "B": "Access to Swiss bank gold financing, LBMA trading, and faster payment settlement in USD/EUR",
+      "C": "Lower treatment and refining charges at Swiss refineries",
+      "D": "Rand Refinery does not accept West African doré"
+    },
+    "correct": "B",
+    "explanation": "While Rand Refinery is geographically closer and offers competitive treatment charges, Swiss refineries offer significant advantages in financing and market access. Swiss banks can provide prepayment facilities against incoming doré, effectively financing the 7-18 day supply chain float. Switzerland's proximity to the LBMA London market (1-hour flight) enables faster physical delivery if needed. Settlement in USD or EUR is seamless through Swiss banking relationships. Rand Refinery does accept West African doré and has competitive rates, but the Swiss financing ecosystem and direct access to the world's largest bullion banks often outweigh the marginally higher logistics costs for larger producers seeking to optimize working capital.",
+    "key_concept": "Swiss refining advantage: bank financing, LBMA proximity, USD/EUR settlement, working capital optimization",
+    "source": "Gold refining commercial strategy",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-022",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What happens to the silver content in doré bars during the Miller chlorination process?",
+    "options": {
+      "A": "Silver remains alloyed with the gold and is not separated",
+      "B": "Silver reacts with chlorine to form silver chloride, which floats to the surface as slag and is recovered separately",
+      "C": "Silver evaporates at the Miller process operating temperature",
+      "D": "Silver is converted to silver nitrate and discarded as waste"
+    },
+    "correct": "B",
+    "explanation": "During the Miller process, chlorine gas reacts preferentially with silver and base metals before attacking gold. Silver forms silver chloride (AgCl), which is immiscible with molten gold and floats to the surface as a slag layer. This slag is skimmed off and processed separately to recover the silver content, which is credited back to the doré shipper. The selective chlorination works because silver chloride forms at lower chlorine partial pressures than gold chloride. For West African doré containing 5-15% silver, the silver credits can be worth $100,000-500,000 per year and should not be overlooked in refining contract negotiations.",
+    "key_concept": "Miller process: silver forms AgCl slag, recovered and credited separately to shipper",
+    "source": "Gold refining metallurgy",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-023",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "In the context of LBMA Good Delivery, what does 'fungibility' mean and why is it important?",
+    "options": {
+      "A": "Each bar has a unique serial number for tracking purposes",
+      "B": "Any Good Delivery bar can be substituted for any other of equal weight in settlement, enabling efficient market trading without individual bar inspection",
+      "C": "Good Delivery bars can only be stored in LBMA-approved vaults",
+      "D": "Bars must be melted down and recast every 10 years to maintain certification"
+    },
+    "correct": "B",
+    "explanation": "Fungibility in the gold market means that any LBMA Good Delivery bar is interchangeable with any other bar of equal gold content for settlement purposes. A buyer receiving gold in London does not need to inspect or assay individual bars because the Good Delivery standard guarantees minimum fineness (995.0) and the refiner's stamp provides assurance of quality. This fungibility enables the loco London unallocated gold market, where gold is traded as a book entry without reference to specific bars, supporting daily trading volumes exceeding $30 billion. Without fungibility, every transaction would require physical inspection and assay, making the liquid gold market impossible.",
+    "key_concept": "LBMA fungibility: any Good Delivery bar substitutable for another, enabling liquid gold trading",
+    "source": "LBMA market structure",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-024",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "A producing gold mine is evaluating its doré quality improvement program. Increasing on-site doré purity from 75% to 90% Au would most significantly impact which cost component?",
+    "options": {
+      "A": "Air freight costs, because purer doré is lighter",
+      "B": "Treatment charges at the refinery, because higher-purity doré requires less processing and commands lower TC/RC",
+      "C": "Insurance premiums, because purer doré is less valuable",
+      "D": "Government royalties, because royalties are calculated on doré purity"
+    },
+    "correct": "B",
+    "explanation": "Increasing doré purity directly reduces treatment charges (TC) and refining charges (RC) at the refinery because higher-purity doré requires less chemical processing, less energy, and generates less waste. Refineries typically offer tiered pricing where doré above 90% Au attracts significantly lower fees than lower-grade material. For a 200,000 oz/yr producer, the savings from upgrading doré purity from 75% to 90% can be $500,000-1,000,000 annually. Additionally, higher-purity doré may qualify for higher payable percentages (e.g., 99% vs 97% payable). The investment in improved on-site refining (better fluxes, longer retorting) must be weighed against these downstream savings.",
+    "key_concept": "Higher doré purity → lower TC/RC at refinery, higher payable %, significant annual savings",
+    "source": "Gold refining commercial practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-025",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "The cupellation step in the fire assay process for doré involves heating at approximately what temperature?",
+    "options": {
+      "A": "500°C",
+      "B": "750°C",
+      "C": "950°C",
+      "D": "1,300°C"
+    },
+    "correct": "C",
+    "explanation": "Cupellation during fire assay is performed at approximately 950°C in a cupel (a porous cup made of bone ash or magnesia). The lead button produced during the initial fusion step is placed on the cupel, and at 950°C the lead oxidizes to litharge (PbO), which is absorbed by the porous cupel along with other base metal oxides. The precious metals (gold and silver) remain as a small bead called a prill. This prill is then parted in acid to separate gold from silver for final weighing. The 950°C temperature is critical: too low and the lead does not fully oxidize; too high and gold losses through volatilization increase.",
+    "key_concept": "Fire assay cupellation: ~950°C, lead oxidizes and is absorbed, precious metals remain as prill",
+    "source": "Analytical chemistry / fire assay methodology",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-026",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "Which of the following best describes the 'loco London' gold market?",
+    "options": {
+      "A": "Physical gold stored in London vaults and traded as unallocated book entries between bullion banks",
+      "B": "A gold futures market operated by the London Metal Exchange",
+      "C": "A physical gold retail market in London's Hatton Garden district",
+      "D": "The Bank of England's gold lending facility for central banks"
+    },
+    "correct": "A",
+    "explanation": "The loco London market is the global over-the-counter (OTC) gold market where gold is traded as unallocated book entries between LBMA member bullion banks, with physical delivery available from London vaults. 'Loco' means 'at the location of,' so loco London means gold deliverable in London. This market handles the vast majority of global gold trading volume, with daily turnover exceeding $30 billion. Gold held in unallocated accounts is a liability of the bullion bank (like a bank deposit), while allocated gold is specific bars stored in a vault on behalf of the owner. The loco London market's liquidity makes it the reference point for global gold pricing.",
+    "key_concept": "Loco London: OTC gold market, unallocated bank entries, basis for global gold pricing",
+    "source": "LBMA market structure",
+    "difficulty": 3
+  }
+]

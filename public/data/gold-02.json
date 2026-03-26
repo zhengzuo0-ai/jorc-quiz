@@ -1,0 +1,461 @@
+[
+  {
+    "id": "gold-02-001",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Which gold deposit type is the most important in West Africa?",
+    "options": {
+      "A": "Epithermal (shallow volcanic-hosted)",
+      "B": "Carlin-type (sediment-hosted invisible gold)",
+      "C": "Orogenic/lode gold (structurally controlled quartz veins)",
+      "D": "Porphyry (low grade, large tonnage)"
+    },
+    "correct": "C",
+    "explanation": "Orogenic (lode) gold deposits dominate West Africa's gold endowment. These deposits form at 300-600°C from metamorphic fluids channeled along crustal-scale shear zones during orogenic events like the Eburnean Orogeny. They are characterized by quartz-carbonate veins, strong structural control, and grades typically ranging from 1-20 g/t. Major West African deposits like Obuasi, Loulo, and Siguiri are all orogenic in origin. The Birimian greenstone belts provide the ideal host rocks and structural architecture for these deposits.",
+    "key_concept": "Orogenic gold = most important type in West Africa; quartz veins, shear zones, 300-600°C",
+    "source": "Economic geology, West African gold metallogeny",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-002",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "At what temperature range do orogenic gold deposits typically form?",
+    "options": {
+      "A": "50-150°C",
+      "B": "150-300°C",
+      "C": "300-600°C",
+      "D": "800-1200°C"
+    },
+    "correct": "C",
+    "explanation": "Orogenic gold deposits form at temperatures of 300-600°C, corresponding to mesothermal to hypothermal conditions in the upper to mid-crust. These temperatures reflect formation depths of 5-20 km, where metamorphic fluids carrying dissolved gold are channeled along major fault and shear zone systems. The relatively high formation temperature distinguishes orogenic deposits from epithermal systems (150-300°C) and explains the characteristic quartz-carbonate-sulfide vein mineralogy and metamorphic alteration assemblages found at Obuasi, Loulo, and other West African orogenic deposits.",
+    "key_concept": "Orogenic gold forms at 300-600°C (mesothermal); deeper and hotter than epithermal",
+    "source": "Orogenic gold deposit model",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-003",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What distinguishes low-sulfidation from high-sulfidation epithermal gold deposits?",
+    "options": {
+      "A": "Low-sulfidation deposits are deeper (>5 km) while high-sulfidation are shallow (<1 km)",
+      "B": "Low-sulfidation has adularia-calcite alteration and near-neutral pH fluids; high-sulfidation has alunite-kaolinite alteration and acidic fluids",
+      "C": "Low-sulfidation deposits contain no sulfide minerals while high-sulfidation contains >50% sulfides",
+      "D": "Low-sulfidation deposits are always sub-economic while high-sulfidation deposits are always economic"
+    },
+    "correct": "B",
+    "explanation": "Low-sulfidation (LS) epithermal deposits form from near-neutral pH, reduced fluids producing adularia-sericite-calcite alteration with characteristic crustiform-colloform banded quartz veins. High-sulfidation (HS) deposits form from acidic, oxidized fluids (pH <3) producing advanced argillic alteration dominated by alunite, kaolinite, and dickite. Both form at shallow depths (<1.5 km) and temperatures of 150-300°C. HS deposits are often associated with porphyry copper systems at depth, while LS deposits occur in rift or back-arc settings. Examples include Hishikari (LS) and Yanacocha (HS).",
+    "key_concept": "LS = adularia-calcite, neutral pH; HS = alunite-kaolinite, acidic pH; both shallow <1.5 km",
+    "source": "Epithermal deposit classification",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-004",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What is the typical grade range for porphyry gold-copper deposits?",
+    "options": {
+      "A": "0.3-1.5 g/t Au (with Cu byproduct), very large tonnage",
+      "B": "5-20 g/t Au, moderate tonnage",
+      "C": "20-100 g/t Au, small tonnage",
+      "D": "0.001-0.01 g/t Au, unrecoverable"
+    },
+    "correct": "A",
+    "explanation": "Porphyry deposits are defined by low grades (typically 0.3-1.5 g/t Au and 0.2-0.6% Cu) but enormous tonnages often exceeding 500 Mt to several billion tonnes. Economic viability comes from massive scale and multi-metal credits. The characteristic alteration zoning from core outward is potassic (K-feldspar, biotite) to phyllic (sericite, quartz) to argillic (clay minerals) to propylitic (chlorite, epidote). Major examples include Grasberg (Indonesia), Cadia (Australia), and Pueblo Viejo (Dominican Republic). Gold-rich porphyries are less common than copper-dominant types.",
+    "key_concept": "Porphyry Au: 0.3-1.5 g/t, huge tonnage; zoning potassic→phyllic→argillic→propylitic",
+    "source": "Porphyry deposit model",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-005",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What makes Carlin-type gold deposits metallurgically challenging?",
+    "options": {
+      "A": "Gold occurs as visible nuggets too large for conventional milling",
+      "B": "Gold is 'invisible' — submicron particles (<1 μm) locked in sulfide minerals like arsenian pyrite, making it refractory",
+      "C": "Gold is alloyed with platinum, requiring separate PGE circuits",
+      "D": "Gold is dissolved in formation water and cannot be recovered"
+    },
+    "correct": "B",
+    "explanation": "Carlin-type deposits contain 'invisible' gold — submicron particles (<1 μm) locked within the crystal lattice of arsenian pyrite and arsenopyrite. The gold cannot be liberated by conventional grinding and cyanide leaching, making these ores 'refractory.' Processing requires oxidation (roasting at 450-650°C, pressure oxidation, or bio-oxidation) to destroy the sulfide host before cyanide can access the gold. Carlin-type deposits are primarily found in Nevada's Great Basin. Grades are typically 1-10 g/t but the refractory nature increases processing costs significantly.",
+    "key_concept": "Carlin gold: invisible <1 μm in arsenian pyrite; refractory, needs pre-oxidation",
+    "source": "Carlin-type deposit model, refractory gold processing",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-006",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "In an alluvial gold system, what is the correct classification for gold found 50-500 meters from its bedrock source?",
+    "options": {
+      "A": "Eluvial gold",
+      "B": "Colluvial gold",
+      "C": "Alluvial gold",
+      "D": "Aeolian gold"
+    },
+    "correct": "B",
+    "explanation": "The placer gold classification by transport distance is: eluvial (0-50 m, in situ weathered residual), colluvial (50-500 m, slope-transported by gravity and sheet wash), and alluvial (>500 m, water-transported in streams and rivers). Gold particle shape changes systematically with transport: angular and rough near source (eluvial), becoming progressively flattened and rounded (alluvial). Understanding this classification helps exploration geologists vector back to bedrock sources. In West African laterite terrains, eluvial and colluvial gold in saprolite is often the first exploration target.",
+    "key_concept": "Eluvial 0-50m, colluvial 50-500m, alluvial >500m; shape changes with distance",
+    "source": "Placer gold classification, alluvial geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-007",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Which gold transport mechanism dominates in typical orogenic hydrothermal fluids?",
+    "options": {
+      "A": "Gold-chloride complexes (AuCl₂⁻) in acidic, oxidized fluids",
+      "B": "Gold-bisulfide complexes (Au(HS)₂⁻) in near-neutral, reduced fluids",
+      "C": "Native gold particles suspended as colloids",
+      "D": "Gold-cyanide complexes formed naturally underground"
+    },
+    "correct": "B",
+    "explanation": "In orogenic gold systems, gold is predominantly transported as bisulfide complexes — Au(HS)₂⁻ — in near-neutral pH, reduced, low-salinity metamorphic fluids at temperatures of 300-600°C. Gold-chloride transport (AuCl₂⁻) dominates only in highly saline, oxidized, acidic fluids above 400°C, typical of some magmatic-hydrothermal systems. Understanding the transport mechanism is critical because it determines what causes gold to precipitate: any process that destroys the bisulfide complex (sulfidation, oxidation, pH change) will dump gold from solution.",
+    "key_concept": "Orogenic gold transported as Au(HS)₂⁻ in reduced, near-neutral fluids",
+    "source": "Gold transport geochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-008",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Which deposition mechanism causes gold to precipitate when a hydrothermal fluid encounters iron-rich wall rocks?",
+    "options": {
+      "A": "Boiling",
+      "B": "Pressure drop",
+      "C": "Sulfidation (reaction with iron in wall rock)",
+      "D": "Fluid cooling by conduction"
+    },
+    "correct": "C",
+    "explanation": "Sulfidation occurs when a gold-bearing bisulfide fluid reacts with iron in wall rocks (e.g., iron-rich basalt, BIF, or Fe-bearing sediments). The reaction Fe²⁺ + H₂S → FeS₂ + 2H⁺ removes sulfur from solution, destabilizing gold-bisulfide complexes and forcing gold precipitation. This is a critical ore-forming mechanism in many West African orogenic deposits where Birimian mafic volcanic rocks provide the iron. It explains why gold grades are often highest where veins cut iron-rich host rocks — a key targeting criterion for exploration.",
+    "key_concept": "Sulfidation: Fe wall rock + H₂S → pyrite, destabilizing Au(HS)₂⁻ and precipitating gold",
+    "source": "Gold precipitation mechanisms, hydrothermal geochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-02-009",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What alteration zone in a porphyry system typically hosts the highest gold grades?",
+    "options": {
+      "A": "Propylitic (outermost, chlorite-epidote)",
+      "B": "Argillic (clay-rich, intermediate zone)",
+      "C": "Potassic (innermost, K-feldspar-biotite)",
+      "D": "Advanced argillic (alunite-pyrophyllite)"
+    },
+    "correct": "C",
+    "explanation": "In gold-rich porphyry systems, the highest gold grades typically coincide with the potassic alteration zone at the core of the system. This zone is characterized by secondary K-feldspar, biotite, and magnetite, formed at the highest temperatures (>450°C) closest to the intrusive source. Copper-gold mineralization occurs as chalcopyrite and bornite in stockwork veins and disseminations. The alteration zoning from core outward — potassic → phyllic → argillic → propylitic — reflects decreasing temperature and changing fluid chemistry. Recognizing this zoning pattern is critical for vectoring toward the ore center.",
+    "key_concept": "Potassic zone (K-spar, biotite) = highest Au-Cu grades in porphyry systems",
+    "source": "Porphyry deposit model, alteration zoning",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-010",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "VMS (volcanogenic massive sulfide) deposits typically produce gold as:",
+    "options": {
+      "A": "The primary commodity with >10 g/t average grades",
+      "B": "A byproduct alongside copper, zinc, and lead in multi-metal ore",
+      "C": "A separate oxide ore zone above the sulfide body",
+      "D": "Placer gold derived from weathering of sulfide lenses"
+    },
+    "correct": "B",
+    "explanation": "In VMS deposits, gold is typically a byproduct of multi-metal mining (Cu, Zn, Pb, Ag, Au) rather than the primary target. VMS deposits form on the seafloor from volcanic-associated hydrothermal venting, creating massive sulfide lenses. Gold grades are usually modest (0.5-3 g/t) but contribute significant value alongside base metals. Some VMS deposits are gold-rich (>3 g/t), such as the Horne deposit in Canada or Boliden in Sweden. The gold occurs within pyrite and chalcopyrite, often requiring complex flotation circuits to recover all metals.",
+    "key_concept": "VMS gold: byproduct of Cu-Zn-Pb mining; seafloor volcanic origin",
+    "source": "VMS deposit model",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-011",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What metal association is characteristic of intrusion-related gold systems (IRGS)?",
+    "options": {
+      "A": "Au-Cu-Mo (oxidized alkaline intrusions)",
+      "B": "Au-Bi-Te-W-Mo (reduced granitic intrusions)",
+      "C": "Au-Ag-Hg (epithermal hot springs)",
+      "D": "Au-Pt-Pd (mafic-ultramafic intrusions)"
+    },
+    "correct": "B",
+    "explanation": "Intrusion-related gold systems (IRGS) are associated with reduced (ilmenite-series) granitic intrusions and display a distinctive Au-Bi-Te-W-Mo-As metal association. Unlike porphyry systems associated with oxidized (magnetite-series) intrusions, IRGS form from reduced magmas with low sulfur content. Gold occurs in sheeted veins, skarns, and disseminations proximal to the intrusion. Classic examples include Fort Knox (Alaska) and Dublin Gulch (Yukon). The Bi-Te association is a pathfinder for this deposit type — anomalous bismuth and tellurium in soils or drill core should alert geologists to IRGS potential.",
+    "key_concept": "IRGS: Au-Bi-Te-W-Mo association, reduced granites, low sulfur magmas",
+    "source": "Intrusion-related gold deposit model",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-02-012",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What is the maximum depth of formation for epithermal gold deposits?",
+    "options": {
+      "A": "Less than 500 meters",
+      "B": "Less than 1.5 kilometers",
+      "C": "5-10 kilometers",
+      "D": "Greater than 15 kilometers"
+    },
+    "correct": "B",
+    "explanation": "Epithermal gold deposits form at shallow depths, typically less than 1.5 km from the paleosurface, at temperatures of 150-300°C. The name 'epithermal' literally means 'above hot' — referring to the shallow, low-temperature nature relative to deeper hypothermal and mesothermal deposits. Boiling is a critical ore deposition mechanism in epithermal systems, and it occurs when ascending fluids reach depths where hydrostatic pressure can no longer keep water in liquid state. The characteristic textures of epithermal veins — crustiform banding, colloform silica, and bladed calcite (replaced by quartz) — are all indicators of shallow formation.",
+    "key_concept": "Epithermal: <1.5 km depth, 150-300°C, boiling-driven gold deposition",
+    "source": "Epithermal deposit model",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-013",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Boiling of hydrothermal fluid causes gold deposition because:",
+    "options": {
+      "A": "Steam dissolves gold more readily than liquid water",
+      "B": "Loss of H₂S to the vapor phase destabilizes gold-bisulfide complexes, causing gold to precipitate",
+      "C": "Boiling increases fluid pH, dissolving host rock and replacing it with gold",
+      "D": "Boiling creates physical pressure that forces gold particles out of solution"
+    },
+    "correct": "B",
+    "explanation": "When a gold-bearing hydrothermal fluid boils, H₂S (hydrogen sulfide) preferentially partitions into the vapor phase because it is a volatile species. This removes the sulfide ligand that was keeping gold in solution as Au(HS)₂⁻, causing rapid gold precipitation. Boiling also increases pH (as CO₂ escapes) and causes fluid cooling — both of which further promote gold deposition. This mechanism is particularly important in epithermal systems where boiling is triggered by pressure release as fluids ascend. Bladed calcite (pseudomorphed by quartz) is a textural indicator of paleo-boiling zones.",
+    "key_concept": "Boiling removes H₂S to vapor, destabilizing Au(HS)₂⁻ and precipitating gold",
+    "source": "Hydrothermal gold deposition mechanisms",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-02-014",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "In West African orogenic gold deposits, what geological structure most commonly controls gold mineralization?",
+    "options": {
+      "A": "Volcanic calderas",
+      "B": "Crustal-scale shear zones and associated secondary structures",
+      "C": "Unconformity surfaces between sedimentary formations",
+      "D": "Salt dome diapirs"
+    },
+    "correct": "B",
+    "explanation": "West African orogenic gold deposits are overwhelmingly controlled by crustal-scale shear zones — regional structures extending tens to hundreds of kilometers that acted as conduits for deep metamorphic fluids during the Eburnean Orogeny. Gold is deposited in the shear zones themselves, in secondary splays and dilational jogs, and in competency contrasts along the structures. The Ashanti Fault (Ghana), Senegal-Mali Shear Zone, and Siguiri Shear Zone are major examples. Understanding structural controls is essential for targeting — gold occurs where structures create dilation, permeability, and chemical traps.",
+    "key_concept": "Crustal-scale shear zones control West African gold; fluid conduits during Eburnean Orogeny",
+    "source": "West African gold structural geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-015",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "How does gold particle shape change with increasing transport distance in an alluvial system?",
+    "options": {
+      "A": "Particles become more angular and jagged with distance",
+      "B": "Particles remain unchanged regardless of transport distance",
+      "C": "Particles become progressively flattened, rounded, and smoother with distance",
+      "D": "Particles dissolve completely after 1 km of transport"
+    },
+    "correct": "C",
+    "explanation": "Gold particles undergo systematic morphological changes during alluvial transport. Near source (eluvial, 0-50 m), particles are angular, rough, and may preserve crystal faces or vein quartz attachments. With increasing distance (colluvial, 50-500 m), particles become sub-rounded with some flattening. In mature alluvial systems (>500 m), gold becomes flattened into thin discs or flakes with smooth, polished surfaces from abrasion. Experienced prospectors use particle shape to estimate distance to the bedrock source — a critical exploration vectoring tool. Extremely flat, well-rounded gold indicates long transport and a potentially distant source.",
+    "key_concept": "Gold morphology changes: angular (near source) → flattened/rounded (far-traveled)",
+    "source": "Placer gold morphology, alluvial exploration",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-016",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Which of the following is NOT a recognized mechanism for gold deposition from hydrothermal fluids?",
+    "options": {
+      "A": "Sulfidation (reaction with iron-bearing wall rock)",
+      "B": "Fluid mixing (two chemically different fluids meet)",
+      "C": "Gravitational settling of dissolved gold ions",
+      "D": "Pressure drop causing fluid boiling"
+    },
+    "correct": "C",
+    "explanation": "Gold in hydrothermal fluids is dissolved at the ionic/molecular level as complexes — individual gold atoms bonded to sulfide or chloride ligands. Dissolved ions do not settle gravitationally; gravity separation only applies to solid particles. The four main gold deposition mechanisms are: (1) sulfidation — reaction with Fe in wall rock removing sulfur from fluid; (2) fluid mixing — different fluid chemistries destabilizing gold complexes; (3) boiling — H₂S loss to vapor phase; and (4) pressure drop — causing fluid expansion and cooling. All work by destabilizing the gold-carrying complex.",
+    "key_concept": "Gold deposition: sulfidation, fluid mixing, boiling, pressure drop; NOT gravitational settling of ions",
+    "source": "Hydrothermal gold transport and deposition",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-017",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "A CEO is evaluating a deposit described as '200 Mt at 0.8 g/t Au with 0.3% Cu in a porphyry system with potassic alteration.' What is the contained gold?",
+    "options": {
+      "A": "About 1.6 million ounces",
+      "B": "About 5.1 million ounces",
+      "C": "About 16 million ounces",
+      "D": "About 51 million ounces"
+    },
+    "correct": "B",
+    "explanation": "Contained gold = Tonnes x Grade / 31.1035 = 200,000,000 x 0.8 / 31.1035 = 5,144,572 troy ounces, approximately 5.1 Moz. Additionally, 200 Mt at 0.3% Cu = 600,000 tonnes of contained copper, adding substantial value. This is a typical gold-rich porphyry profile — large tonnage, low gold grade, with significant copper credits. The potassic alteration confirms the mineralization is centered in the high-grade core. Such deposits are developed as large open pits with 20-30 year mine lives, and the multi-metal revenue stream supports the low per-ounce gold grade.",
+    "key_concept": "Porphyry evaluation: large tonnage x low grade + Cu credits = viable; contained Au = t x g / 31.1",
+    "source": "Porphyry deposit economics, resource calculation",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-018",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What type of gold deposit forms from the weathering and mechanical concentration of primary gold-bearing rocks?",
+    "options": {
+      "A": "Epithermal deposit",
+      "B": "Orogenic deposit",
+      "C": "Placer/alluvial deposit",
+      "D": "Carlin-type deposit"
+    },
+    "correct": "C",
+    "explanation": "Placer (alluvial) deposits form through the weathering, erosion, and mechanical concentration of gold from primary hard-rock sources. Gold's high density (19.3 g/cm³), chemical inertness, and malleability allow it to survive transport and concentrate in river gravels, beach sands, and paleochannels. Placer deposits have been humanity's primary gold source for millennia — from ancient Egypt to the California Gold Rush. In West Africa, artisanal miners have been exploiting alluvial gold in Birimian river systems for centuries, and these workings often serve as pathfinders for underlying orogenic gold deposits.",
+    "key_concept": "Placer gold: weathering + mechanical concentration; density and inertness drive accumulation",
+    "source": "Placer deposit formation",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-019",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Gold-chloride complex transport (AuCl₂⁻) dominates over bisulfide transport under which conditions?",
+    "options": {
+      "A": "Low temperature (<200°C), reduced, low salinity",
+      "B": "High temperature (>400°C), oxidized, high salinity, acidic",
+      "C": "Surface conditions in river water",
+      "D": "Room temperature in cyanide solutions"
+    },
+    "correct": "B",
+    "explanation": "Gold-chloride complexes (AuCl₂⁻) are stable and dominate gold transport in high-temperature (>400°C), oxidized, acidic, high-salinity fluids. These conditions occur in magmatic-hydrothermal systems such as those associated with porphyry copper-gold deposits. Below approximately 400°C, gold-bisulfide complexes (Au(HS)₂⁻) become the dominant transport mechanism in most geological fluids. Understanding which complex dominates helps predict where gold will precipitate — chloride-transported gold drops out during cooling and dilution, while bisulfide-transported gold precipitates during sulfide destruction or oxidation.",
+    "key_concept": "AuCl₂⁻ dominant: >400°C, oxidized, saline, acidic; Au(HS)₂⁻ dominant: lower T, reduced, neutral",
+    "source": "Gold transport geochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-02-020",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What is a 'dilational jog' and why is it important for orogenic gold?",
+    "options": {
+      "A": "A type of drilling technique used to intersect flat-lying veins",
+      "B": "A step-over in a fault zone that creates an opening (dilation) where fluids accumulate and gold precipitates",
+      "C": "A jogging motion used in panning to separate gold from sand",
+      "D": "A regulatory requirement to jog GPS coordinates for data security"
+    },
+    "correct": "B",
+    "explanation": "A dilational jog is a geometric step-over or bend in a fault or shear zone where movement creates an opening (dilation) in the rock. These zones of enhanced permeability become preferred sites for fluid flow, pressure drop, and mineral precipitation. In orogenic gold systems, dilational jogs host some of the highest gold grades because they are sites of maximum fluid flux and rapid pressure release — both of which promote gold deposition. Recognizing dilational jogs in structural interpretation is one of the most powerful targeting tools for orogenic gold in West Africa and globally.",
+    "key_concept": "Dilational jog = fault step-over creating opening for fluid flow and gold precipitation",
+    "source": "Structural geology, orogenic gold targeting",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-021",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Which statement correctly describes the relationship between epithermal and porphyry gold systems?",
+    "options": {
+      "A": "They are completely unrelated deposit types that never occur together",
+      "B": "High-sulfidation epithermal deposits can form above porphyry systems as part of the same magmatic-hydrothermal system",
+      "C": "Porphyry deposits always form above epithermal deposits",
+      "D": "Epithermal deposits are simply weathered porphyry deposits"
+    },
+    "correct": "B",
+    "explanation": "High-sulfidation epithermal deposits can form in the shallow (<1.5 km) parts of the same magmatic-hydrothermal system that produces a porphyry deposit at depth (1-4 km). The acidic, oxidized fluids that create advanced argillic alteration in HS epithermal zones originate from the same magmatic source as the porphyry mineralization. This spatial relationship is exploited in exploration — discovering an HS epithermal system should prompt investigation for a potential porphyry target at depth. Classic examples include the Lepanto HS epithermal above the FSE porphyry in the Philippines, and Yanacocha in Peru.",
+    "key_concept": "HS epithermal can cap porphyry systems; same magmatic-hydrothermal plumbing",
+    "source": "Porphyry-epithermal model",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-02-022",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "In a Carlin-type deposit, where geographically are most of the world's known examples located?",
+    "options": {
+      "A": "West Africa (Ghana, Mali, Guinea)",
+      "B": "The Andes (Peru, Chile, Argentina)",
+      "C": "Nevada, USA (Great Basin)",
+      "D": "Western Australia (Yilgarn Craton)"
+    },
+    "correct": "C",
+    "explanation": "The vast majority of recognized Carlin-type gold deposits are concentrated in Nevada's Great Basin, along major structural trends including the Carlin Trend and Battle Mountain-Eureka Trend. Nevada hosts over 200 Moz of Carlin-type gold in deposits like Goldstrike, Cortez, and Turquoise Ridge. While Carlin-like deposits have been reported in China (Guizhou, Yunnan) and Indonesia, Nevada remains the type locality and dominant province. The specific combination of carbonate host rocks, basin architecture, and deep crustal fluid pathways makes Nevada unique. This deposit type is essentially absent from West Africa.",
+    "key_concept": "Carlin-type gold concentrated in Nevada; carbonate-hosted, invisible gold",
+    "source": "Carlin-type gold metallogeny",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-023",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "A geologist finds angular, rough-surfaced gold particles in laterite 20 meters from a quartz vein outcrop. This gold is best classified as:",
+    "options": {
+      "A": "Alluvial gold (stream-transported)",
+      "B": "Eluvial gold (residual, near-source)",
+      "C": "Aeolian gold (wind-transported)",
+      "D": "Supergene gold (chemically precipitated)"
+    },
+    "correct": "B",
+    "explanation": "Gold found within 0-50 meters of its bedrock source is classified as eluvial — residual material that has been released by weathering but not significantly transported. The angular, rough surface texture confirms minimal transport. In West African laterite terrains, eluvial gold in saprolite and laterite directly above orogenic veins is common and can be an important exploration indicator. The close proximity to the quartz vein outcrop (20 m) and the angular morphology both point to eluvial origin. If this gold were alluvial, it would be flattened and rounded from extended water transport.",
+    "key_concept": "Eluvial gold: angular, 0-50m from source, residual in weathered material",
+    "source": "Placer gold classification, exploration geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-024",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What role does fluid mixing play in gold deposition at the Carlin-type deposit scale?",
+    "options": {
+      "A": "It has no role — Carlin deposits form exclusively by magmatic intrusion",
+      "B": "Mixing of deep, gold-bearing reduced fluid with shallow, oxidized groundwater destabilizes gold complexes and causes precipitation",
+      "C": "Two gold-bearing fluids combine to create higher gold concentrations without precipitation",
+      "D": "Fluid mixing only creates alteration halos, not gold ore"
+    },
+    "correct": "B",
+    "explanation": "In Carlin-type systems, gold deposition is triggered when deep, hot, reduced, gold-bearing fluids ascending along faults encounter and mix with shallow, cool, oxidized meteoric or formation waters. This mixing changes the redox state and sulfur speciation of the combined fluid, destabilizing gold-bisulfide complexes and causing submicron gold to precipitate within reactive carbonate host rocks. The gold replaces carbonate and is incorporated into newly formed arsenian pyrite. Fluid mixing is evidenced by stable isotope studies showing both deep magmatic/metamorphic and shallow meteoric water signatures in the ore zone.",
+    "key_concept": "Carlin gold: mixing of deep reduced fluid with shallow oxidized water triggers precipitation",
+    "source": "Carlin-type ore formation, fluid mixing model",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-02-025",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Which deposit type would you most expect to find in a 2.1 Ga Birimian greenstone belt in Mali?",
+    "options": {
+      "A": "Epithermal low-sulfidation (requires young volcanic arc)",
+      "B": "Carlin-type (requires Paleozoic carbonate platform)",
+      "C": "Orogenic lode gold (quartz veins in shear zones)",
+      "D": "Porphyry copper-gold (requires subduction-related arc)"
+    },
+    "correct": "C",
+    "explanation": "Birimian greenstone belts (2.0-2.2 Ga) in West Africa are the type setting for orogenic lode gold deposits. The Eburnean Orogeny (2.15-2.07 Ga) created the crustal-scale shear zones, metamorphic fluids, and structural traps that localized gold mineralization. Epithermal and porphyry deposits require active volcanic arc settings not present in Precambrian terrains. Carlin-type deposits are associated with Paleozoic carbonate platforms. Mali's Birimian belts host world-class orogenic deposits including Loulo-Gounkoto (15+ Moz) and Fekola (10+ Moz), all controlled by major shear zone structures.",
+    "key_concept": "Birimian greenstone belts = orogenic gold terrain; Eburnean Orogeny created deposits",
+    "source": "West African gold metallogeny, deposit type-tectonic setting relationships",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-026",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What is the significance of the propylitic alteration zone in a porphyry system for an exploration geologist?",
+    "options": {
+      "A": "It contains the highest gold grades and should be the primary drill target",
+      "B": "It is the outermost alteration halo (chlorite-epidote-carbonate) and indicates proximity to a porphyry system, serving as a vectoring tool",
+      "C": "It indicates the deposit has been completely eroded and no ore remains",
+      "D": "It is unrelated to porphyry systems and forms only in epithermal settings"
+    },
+    "correct": "B",
+    "explanation": "The propylitic zone is the outermost and most areally extensive alteration halo in a porphyry system, characterized by chlorite, epidote, and carbonate replacing mafic minerals in the host rock. While it contains little or no ore, its recognition is critically important because it signals proximity to a porphyry center. The propylitic halo can extend 1-3 km beyond the ore zone, making it a large and detectable target. Exploration geologists use it as a vectoring tool — moving inward from propylitic through argillic and phyllic to the potassic core where gold-copper grades are highest.",
+    "key_concept": "Propylitic = outermost porphyry halo (chlorite-epidote); vectoring tool, not ore zone",
+    "source": "Porphyry alteration model, exploration vectoring",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-02-027",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What distinguishes orogenic gold from epithermal gold at the most fundamental level?",
+    "options": {
+      "A": "Orogenic gold is always higher grade than epithermal gold",
+      "B": "Orogenic gold forms at greater depth (5-20 km) and higher temperature (300-600°C) from metamorphic fluids, while epithermal forms shallow (<1.5 km) at lower temperature (150-300°C) from meteoric/magmatic fluids",
+      "C": "Orogenic gold only contains visible gold while epithermal contains invisible gold",
+      "D": "Orogenic gold forms only in Archean rocks while epithermal forms only in Cenozoic rocks"
+    },
+    "correct": "B",
+    "explanation": "The fundamental distinction is depth and temperature of formation, and fluid source. Orogenic gold forms at 5-20 km depth, 300-600°C, from metamorphic fluids generated during orogenic events — these deposits are found in rocks of all ages from Archean to Tertiary. Epithermal gold forms at <1.5 km depth, 150-300°C, from circulating meteoric and/or magmatic fluids in active volcanic settings. Orogenic deposits display higher-temperature alteration assemblages and tend to have more consistent grades at depth, while epithermal deposits show strong vertical grade zonation and boiling textures.",
+    "key_concept": "Orogenic: deep (5-20 km), hot (300-600°C), metamorphic fluids; Epithermal: shallow (<1.5 km), cool (150-300°C)",
+    "source": "Gold deposit classification fundamentals",
+    "difficulty": 2
+  }
+]

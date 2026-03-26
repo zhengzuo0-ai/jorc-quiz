@@ -1,0 +1,444 @@
+[
+  {
+    "id": "gold-12-001",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "How is a 'junior' gold mining company typically classified?",
+    "options": {
+      "A": "Production >1M oz/yr and market cap >$10B",
+      "B": "Production 300K-1M oz/yr and market cap $2-10B",
+      "C": "Production <300K oz/yr and market cap <$500M",
+      "D": "Any company that has been operating for less than 5 years"
+    },
+    "correct": "C",
+    "explanation": "Junior gold mining companies are generally defined as producing fewer than 300,000 ounces per year with market capitalizations below $500 million. Many juniors are pre-production, surviving entirely on equity financing while exploring and developing their assets. Mid-tier producers operate in the 300K-1M oz/yr range with $2-10B market caps, while majors exceed 1M oz/yr with market caps above $10B. The distinction matters because each tier has fundamentally different access to capital, risk profiles, and strategic options. Juniors carry the highest risk but offer the greatest leverage to discovery and gold price upside.",
+    "key_concept": "Junior miner: <300K oz/yr production, <$500M market cap, highest risk/reward",
+    "source": "Mining industry classification",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-12-002",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What is the typical seed-stage funding range for a junior gold exploration company?",
+    "options": {
+      "A": "$50,000-$500,000",
+      "B": "$0.5 million-$5 million",
+      "C": "$5 million-$50 million",
+      "D": "$50 million-$500 million"
+    },
+    "correct": "B",
+    "explanation": "Seed-stage funding for junior gold explorers typically ranges from $0.5 million to $5 million, sourced from founders, angels, and private placements. This capital funds initial geological work including data compilation, target generation, mapping, soil sampling, and perhaps initial reconnaissance drilling. The seed stage is pre-IPO and represents the highest-risk phase, as the company has no defined resource and the probability of any individual property becoming a mine is statistically low (approximately 1 in 1,000 exploration projects). Seed investors are compensated for this risk through low entry prices that provide massive leverage if a discovery is made.",
+    "key_concept": "Seed-stage junior funding: $0.5-5M from founders/angels/private placements",
+    "source": "Junior mining finance practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-12-003",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "Which stock exchange is the most common listing venue for junior gold mining companies?",
+    "options": {
+      "A": "New York Stock Exchange (NYSE)",
+      "B": "Toronto Venture Exchange (TSX-V)",
+      "C": "Shanghai Stock Exchange",
+      "D": "Johannesburg Stock Exchange (JSE)"
+    },
+    "correct": "B",
+    "explanation": "The TSX Venture Exchange (TSX-V) in Toronto is the world's preeminent listing venue for junior mining companies. Canada's deep pool of mining-focused retail and institutional investors, combined with the TSX-V's lower listing requirements compared to the senior TSX, make it the natural home for early-stage explorers. The ASX (Australian Securities Exchange) is the second major hub, particularly for companies operating in the Asia-Pacific and increasingly in Africa. LSE AIM attracts Africa-focused juniors seeking European capital. The NYSE is primarily for majors and large mid-tiers due to its higher listing and compliance costs.",
+    "key_concept": "TSX-V: primary listing venue for junior miners; ASX second; LSE AIM for Africa-focused",
+    "source": "Mining capital markets",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-12-004",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What is a gold streaming agreement?",
+    "options": {
+      "A": "A contract to deliver gold via pipeline from the mine to a refinery",
+      "B": "An upfront cash payment to a mining company in exchange for the right to purchase a fixed percentage of future gold production at a pre-agreed discount to market price",
+      "C": "A government-mandated allocation of gold production to the national reserve",
+      "D": "A hedging arrangement where gold is sold forward at a fixed price"
+    },
+    "correct": "B",
+    "explanation": "A streaming agreement provides a mining company with a large upfront payment in exchange for the streamer's right to purchase a percentage of future gold production at a fixed, below-market price (typically $400-600/oz). This structure allows miners to raise capital without equity dilution or debt covenants, while the streaming company (e.g., Franco-Nevada, Wheaton Precious Metals, Royal Gold) gains exposure to gold production at a significant discount. Streams are particularly attractive for juniors because they can be structured around by-product metals and do not require principal repayment. The trade-off is that the miner permanently gives up upside on the streamed portion of production.",
+    "key_concept": "Streaming: upfront cash for right to buy future production at fixed discount, no dilution",
+    "source": "Mining finance / streaming company practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-005",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What does NSR stand for in the context of mining royalty financing?",
+    "options": {
+      "A": "National Security Review",
+      "B": "Net Smelter Return",
+      "C": "Non-Standard Recovery",
+      "D": "Net Sales Revenue"
+    },
+    "correct": "B",
+    "explanation": "NSR stands for Net Smelter Return, which is a royalty calculated as a percentage of gross revenue from mineral sales minus allowable deductions for smelting, refining, and transportation costs. An NSR royalty is the most common royalty structure in gold mining because it is simple to calculate, hard to manipulate, and aligns the royalty holder's interests with production. Typical NSR royalties on gold projects range from 1-3%. Royalty financing (selling an NSR to a royalty company for upfront cash) is an alternative to streaming that provides non-dilutive capital. Unlike streams, NSR royalties do not require the miner to deliver physical metal.",
+    "key_concept": "NSR: Net Smelter Return royalty, % of gross revenue less smelting/refining/transport costs",
+    "source": "Mining royalty finance practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-006",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "In 2025, total global exploration and development funding for mining reached $12.8 billion. What share was allocated to gold, and how did this compare to the prior year?",
+    "options": {
+      "A": "$2.1B, +15% YoY",
+      "B": "$4.5B, +50% YoY",
+      "C": "$6.7B, +136% YoY",
+      "D": "$10.2B, +200% YoY"
+    },
+    "correct": "C",
+    "explanation": "Gold captured $6.7 billion of the $12.8 billion total mining exploration and development funding in 2025, representing a remarkable 136% year-over-year increase. This surge was driven by record gold prices exceeding $2,500/oz, the discovery deficit (zero major new gold discoveries in 2023-2024), and majors' acute need to replenish declining reserve bases. Gold's 52% share of total mining funding underscores its dominance in the exploration sector. The funding boom created a window of opportunity for juniors to raise capital through IPOs, secondary offerings, and private placements at attractive valuations.",
+    "key_concept": "2025 gold exploration funding: $6.7B of $12.8B total, +136% YoY, driven by high prices and discovery deficit",
+    "source": "Mining industry funding data",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-007",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What is the 'discovery deficit' in the context of junior gold mining?",
+    "options": {
+      "A": "The gap between gold recycling supply and industrial demand",
+      "B": "The shortfall in government funding for geological surveys",
+      "C": "The absence of major new gold discoveries (zero in 2023-2024) relative to declining reserves being depleted by ongoing production",
+      "D": "The difference between reported Measured and Inferred Resources"
+    },
+    "correct": "C",
+    "explanation": "The discovery deficit refers to the alarming trend that no major new gold deposits were discovered in 2023 or 2024, while existing mines continue depleting reserves at over 3,600 tonnes per year. This deficit means the industry is consuming reserves faster than replacing them, creating a structural supply problem that will worsen over the next decade. The average time from discovery to first production is 10-15 years, so even if major discoveries were made today, they would not add supply until the mid-2030s. This deficit is the single most important driver of M&A activity, as majors must acquire juniors with advanced deposits to maintain production profiles.",
+    "key_concept": "Discovery deficit: zero major gold finds 2023-2024, reserves being depleted faster than replaced",
+    "source": "Mining industry analysis",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-12-008",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What is the typical funding range for the advanced exploration stage of a junior gold company?",
+    "options": {
+      "A": "$500K-$2M",
+      "B": "$5M-$50M",
+      "C": "$50M-$500M",
+      "D": "$500M-$2B"
+    },
+    "correct": "B",
+    "explanation": "Advanced exploration typically requires $5 million to $50 million, funded through IPO proceeds (usually on TSX-V or ASX), follow-on equity placements, and strategic investments from larger mining companies. This stage encompasses systematic drilling programs to define a resource (Inferred to Indicated categories), preliminary economic assessments (PEA), and pre-feasibility studies. The wide range reflects project-specific factors: a shallow open-pit target in West Africa may require only $10M of drilling, while a deep underground deposit could consume $40M+ before reaching a decision point. Successful advancement through this stage is the primary catalyst for junior share price appreciation.",
+    "key_concept": "Advanced exploration: $5-50M via IPO/placements, systematic drilling to define resources",
+    "source": "Junior mining finance lifecycle",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-12-009",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What is the typical development-stage funding range for a junior gold project approaching construction?",
+    "options": {
+      "A": "$5M-$25M",
+      "B": "$25M-$100M",
+      "C": "$50M-$500M",
+      "D": "$1B-$5B"
+    },
+    "correct": "C",
+    "explanation": "Development-stage funding for junior gold projects typically ranges from $50 million to $500 million, sourced through project finance (bank debt), streaming and royalty deals, equity raises, and offtake agreements. This stage covers definitive feasibility studies, environmental permitting, detailed engineering, and construction. The capital intensity at this stage is the primary reason most juniors either partner with a major, get acquired, or structure creative financing packages. A standalone junior building a 200,000 oz/yr gold mine in West Africa might need $300-400M in total capital, which is often several multiples of its pre-development market capitalization.",
+    "key_concept": "Development funding: $50-500M via project finance, streams, equity, often exceeds junior market cap",
+    "source": "Junior mining finance lifecycle",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-12-010",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "In the 2025 M&A environment, what premium range are acquirers typically paying for junior gold companies with advanced-stage assets?",
+    "options": {
+      "A": "5-15%",
+      "B": "29-67%",
+      "C": "100-200%",
+      "D": "250-500%"
+    },
+    "correct": "B",
+    "explanation": "In the 2025 M&A cycle, acquirers have been paying premiums of 29-67% over the pre-announcement share price for junior gold companies with advanced-stage assets. This premium range reflects the acute reserve replacement crisis facing majors, the discovery deficit, and the time-value of buying a defined resource versus the 10-15 year timeline to make and develop a greenfield discovery. Premiums vary based on asset quality, jurisdiction, permitting status, and competitive tension (whether multiple bidders are involved). Boards of junior companies must carefully evaluate whether the premium adequately compensates shareholders for the full risk-adjusted value of the asset, including optionality from exploration upside.",
+    "key_concept": "2025 M&A premiums: 29-67% for advanced juniors, driven by reserve replacement crisis",
+    "source": "Mining M&A market data",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-011",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "Which ESG reporting framework is most commonly used by mining companies to disclose sustainability performance?",
+    "options": {
+      "A": "ISO 14001 only",
+      "B": "GRI (Global Reporting Initiative), often supplemented by SASB, TCFD, and ICMM principles",
+      "C": "UN Sustainable Development Goals reporting only",
+      "D": "National environmental impact assessment reports"
+    },
+    "correct": "B",
+    "explanation": "The GRI (Global Reporting Initiative) is the most widely adopted sustainability reporting framework in the mining industry, providing comprehensive disclosure standards across environmental, social, and governance dimensions. Mining companies typically supplement GRI with SASB (industry-specific material topics), TCFD (climate risk disclosure), and adherence to ICMM (International Council on Mining and Metals) principles. For juniors seeking to attract ESG-conscious institutional investors or prepare for acquisition by a major, early adoption of these frameworks signals governance maturity. The proliferation of frameworks can be confusing, but GRI serves as the foundational standard upon which others build.",
+    "key_concept": "ESG frameworks: GRI (foundational) + SASB + TCFD + ICMM for comprehensive mining disclosure",
+    "source": "Mining ESG reporting practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-012",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "The FCPA and UK Bribery Act are particularly relevant to junior miners operating in West Africa because:",
+    "options": {
+      "A": "Juniors must register with the SEC and SFO before commencing exploration",
+      "B": "Juniors frequently interact with government officials for permits, licences, and approvals, creating bribery risk that can result in criminal prosecution",
+      "C": "These laws require juniors to use only local contractors",
+      "D": "These laws mandate a minimum community development spend of 5% of revenue"
+    },
+    "correct": "B",
+    "explanation": "Junior miners in West Africa are particularly exposed to corruption risk because their business model requires extensive interaction with government officials for exploration permits, environmental approvals, land access, customs clearances, and tax matters. The FCPA (for US-connected entities) and UK Bribery Act (for UK-connected entities) impose strict liability for corrupt payments, including those made by local agents. Juniors often lack the compliance infrastructure of majors, making them more vulnerable to inadvertent violations. A single FCPA investigation can cost a junior $5-20M in legal fees, devastating a company with a $50M market cap. Robust compliance programs are essential from inception.",
+    "key_concept": "Juniors face high corruption risk in West Africa; FCPA/Bribery Act violations can be existential",
+    "source": "FCPA / UK Bribery Act / mining compliance",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-013",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What defines a 'major' gold mining company?",
+    "options": {
+      "A": "Any company listed on the NYSE or LSE",
+      "B": "Production exceeding 1 million ounces per year with market capitalization above $10 billion",
+      "C": "A company with more than 10 operating mines globally",
+      "D": "A company that has been in operation for more than 50 years"
+    },
+    "correct": "B",
+    "explanation": "Major gold mining companies are defined by annual production exceeding 1 million ounces and market capitalizations above $10 billion. Current majors include Newmont, Barrick Gold, Agnico Eagle, and Gold Fields. Majors benefit from diversified production portfolios, investment-grade credit ratings, and access to low-cost debt capital. However, their size creates a perpetual challenge: they must replace 1M+ oz/yr of reserve depletion just to maintain production, which increasingly requires acquiring juniors with large, development-ready deposits. The majors' reserve replacement crisis is the fundamental driver of the M&A cycle that creates value for successful juniors.",
+    "key_concept": "Major gold miner: >1M oz/yr, >$10B market cap, perpetual reserve replacement challenge",
+    "source": "Mining industry classification",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-12-014",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A mid-tier gold producer is defined as having what approximate production range and market capitalization?",
+    "options": {
+      "A": "100K-300K oz/yr, $500M-$2B",
+      "B": "300K-1M oz/yr, $2B-$10B",
+      "C": "500K-2M oz/yr, $5B-$20B",
+      "D": "50K-200K oz/yr, $200M-$1B"
+    },
+    "correct": "B",
+    "explanation": "Mid-tier gold producers occupy the 300,000 to 1 million ounce per year production range with market capitalizations between $2 billion and $10 billion. Companies like B2Gold, Kinross, and Endeavour Mining exemplify this tier. Mid-tiers often operate 2-5 mines and face a strategic dilemma: grow into a major through M&A (risking overpayment and integration challenges) or optimize existing assets for shareholder returns. Many successful mid-tiers in West Africa were once juniors that transitioned through the development stage. For a CEO, the mid-tier sweet spot offers sufficient scale for institutional ownership while retaining the operational agility that majors often lack.",
+    "key_concept": "Mid-tier: 300K-1M oz/yr, $2-10B market cap, strategic growth vs returns dilemma",
+    "source": "Mining industry classification",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-12-015",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold explorer listed on the TSX-V has defined a 2Moz Indicated Resource and completed a positive PFS. What is the most likely next financing step?",
+    "options": {
+      "A": "Seed round from angel investors at $1M",
+      "B": "Graduate to the senior TSX and raise $100-300M through a combination of project finance, streaming, and equity to fund the DFS and construction",
+      "C": "Apply for a government grant to fund mine construction",
+      "D": "Issue bonds on the high-yield market"
+    },
+    "correct": "B",
+    "explanation": "With a 2Moz Indicated Resource and positive PFS, the junior is at an inflection point where it needs $100-300M for a definitive feasibility study (DFS) and mine construction. The typical path is to graduate from TSX-V to the senior TSX (which provides access to larger institutional investors), and then raise capital through a blended approach: 40-50% project finance (bank debt secured against the project), 20-30% equity raise, and potentially 10-20% from a streaming or royalty deal. This blended approach minimizes dilution while maintaining financial flexibility. Alternatively, this is the stage where M&A interest from majors is highest, and the board must evaluate build-vs-sell options.",
+    "key_concept": "Post-PFS financing: graduate to senior TSX, raise $100-300M via project finance + equity + streaming",
+    "source": "Junior mining finance lifecycle",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-016",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What is the typical time from initial discovery to first gold production for a greenfield gold project?",
+    "options": {
+      "A": "2-4 years",
+      "B": "5-7 years",
+      "C": "10-15 years",
+      "D": "20-25 years"
+    },
+    "correct": "C",
+    "explanation": "The development timeline from initial discovery to first gold production typically spans 10-15 years. This includes: initial discovery and delineation drilling (2-4 years), resource definition and PEA (1-2 years), PFS and DFS (2-3 years), environmental permitting and approvals (1-3 years, often overlapping), and construction (2-3 years). In West Africa, the timeline can stretch to 15+ years due to permitting delays, community negotiations, and infrastructure development requirements. This long lead time is the fundamental reason for the discovery deficit: even at record gold prices, new supply cannot respond quickly. Juniors that can compress this timeline through parallel workstreams create significant competitive advantage.",
+    "key_concept": "Discovery to production: 10-15 years, explains why supply cannot respond quickly to high prices",
+    "source": "Mining project development timelines",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-017",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "The ASX (Australian Securities Exchange) is a major listing venue for gold juniors. What makes it particularly attractive for companies operating in Africa?",
+    "options": {
+      "A": "Australia has bilateral investment treaties with all African nations",
+      "B": "ASX has a deep pool of mining-literate investors, strong geological talent pipeline, and JORC is the native reporting code",
+      "C": "ASX-listed companies pay no tax on African mining income",
+      "D": "The ASX provides government-backed exploration grants for African projects"
+    },
+    "correct": "B",
+    "explanation": "The ASX is the second largest mining-focused exchange after the TSX/TSX-V, with a deep pool of institutional and retail investors who understand mining risk. Australia's world-class geological training produces a talent pipeline that many Africa-focused explorers draw upon. JORC is the native resource reporting code for ASX-listed companies, and its rigorous standards provide investor confidence. Several successful West African gold producers, including Perseus Mining and Resolute Mining, are ASX-listed. The ASX's time zone also provides complementary trading hours to North American markets, enabling dual-listed companies to access capital across multiple geographies.",
+    "key_concept": "ASX: mining-literate investors, JORC native code, strong talent pipeline, Africa-focused juniors welcome",
+    "source": "ASX mining market",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-018",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What is the 'growth vs returns' trade-off that mid-tier and junior gold companies face?",
+    "options": {
+      "A": "Choosing between open-pit and underground mining methods",
+      "B": "Deciding whether to reinvest cash flows into growth (new mines, acquisitions) or return capital to shareholders (dividends, buybacks), knowing that aggressive growth can destroy value if projects underperform",
+      "C": "Selecting between equity and debt financing",
+      "D": "Choosing between JORC and NI 43-101 reporting standards"
+    },
+    "correct": "B",
+    "explanation": "The growth versus returns trade-off is a central strategic question for gold companies: reinvest cash flows to grow production (through exploration, development, or M&A) or return capital to shareholders via dividends and share buybacks. Historical evidence shows that many gold companies destroyed value through poorly timed acquisitions (overpaying at cycle peaks) or building marginal projects. Barrick Gold's $7.3B Pascua-Lama writedown is a cautionary example. Conversely, companies that underinvest face declining reserves and eventual production collapse. The optimal strategy depends on the gold price cycle, available opportunities, and the company's cost of capital. Disciplined capital allocation is the hallmark of well-managed gold companies.",
+    "key_concept": "Growth vs returns: reinvest for growth or return capital; poor discipline destroys value",
+    "source": "Gold mining corporate strategy",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-019",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "Best practice for a junior mining company's board composition includes:",
+    "options": {
+      "A": "A board composed entirely of geologists to maximize technical expertise",
+      "B": "A balanced board with independent directors, mining technical expertise, financial/capital markets experience, legal/regulatory knowledge, and ideally in-country expertise for the operating jurisdiction",
+      "C": "A small 3-person board to minimize costs and maximize speed of decision-making",
+      "D": "A board that mirrors the composition of the company's largest shareholder"
+    },
+    "correct": "B",
+    "explanation": "A well-composed junior mining board should balance multiple competencies: mining technical expertise (geology, engineering), capital markets and finance, legal and regulatory (especially for the host country), and ESG/community relations. Independent directors (not affiliated with management or major shareholders) provide governance oversight and credibility with institutional investors. In-country expertise is particularly valuable for West African operations, where understanding local politics, community dynamics, and regulatory nuances can prevent costly missteps. TSX and ASX listing rules mandate minimum independent director requirements. For a CDI-focused junior, having a director with Francophone West African experience is a significant competitive advantage.",
+    "key_concept": "Board best practice: balanced skills (technical + finance + legal + in-country), majority independent",
+    "source": "Mining corporate governance best practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-020",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold company holds a 3Moz resource in CDI at the PFS stage. It receives a takeover offer at a 35% premium. The board should evaluate this offer primarily by:",
+    "options": {
+      "A": "Accepting immediately because any premium is good for shareholders",
+      "B": "Rejecting because the resource may grow with more drilling",
+      "C": "Comparing the offer price to a risk-adjusted NPV of the project including exploration upside, optionality value, and alternative financing paths, while considering shareholder interests and fiduciary duties",
+      "D": "Referring the decision entirely to the company's largest shareholder"
+    },
+    "correct": "C",
+    "explanation": "The board has a fiduciary duty to evaluate the offer against the full risk-adjusted value of the company's assets. This includes: the base-case NPV from the PFS, the value of exploration upside (additional ounces from ongoing drilling), optionality value at different gold prices, the feasibility of standalone development, and the probability-weighted outcomes of alternative paths (build, JV, or wait for a higher offer). A 35% premium sounds attractive but may significantly undervalue a 3Moz deposit if the base-case NPV implies a higher per-ounce valuation. The board should engage an independent financial advisor, establish a special committee, and potentially solicit competing bids to ensure value maximization.",
+    "key_concept": "Takeover evaluation: compare offer to risk-adjusted NPV, exploration upside, and alternative paths",
+    "source": "Mining M&A / corporate governance",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-021",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "At what stage in a junior gold company's lifecycle does the share price typically experience the largest percentage gains?",
+    "options": {
+      "A": "Seed stage when the property is first acquired",
+      "B": "During the initial discovery drill holes that establish a significant new gold deposit",
+      "C": "At the DFS completion stage",
+      "D": "During the first year of commercial production"
+    },
+    "correct": "B",
+    "explanation": "The initial discovery stage offers the greatest share price leverage in the junior mining lifecycle. A company trading at $0.10/share on a $10M market cap that drills a significant discovery (e.g., 10m @ 10 g/t in a new greenfield setting) can see its share price increase 500-2,000% as the market rapidly revalues the company from 'explorer with a property' to 'company with a potential deposit.' This is the Lassonde Curve in action: the speculative premium peaks during the discovery and delineation phase. Subsequent stages (PEA, PFS, DFS, construction) add value incrementally but rarely match the explosive returns of the initial discovery. This asymmetric return profile is what attracts risk-tolerant capital to junior mining.",
+    "key_concept": "Discovery stage: greatest share price leverage (Lassonde Curve), 500-2,000%+ potential gains",
+    "source": "Lassonde Curve / junior mining valuation",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-022",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "The LSE AIM market is primarily attractive for which type of junior gold company?",
+    "options": {
+      "A": "Companies focused on North American exploration",
+      "B": "Africa-focused juniors seeking European institutional capital and London's mining finance ecosystem",
+      "C": "Companies seeking the highest listing standards and regulatory oversight",
+      "D": "Companies that want to avoid JORC or NI 43-101 reporting requirements"
+    },
+    "correct": "B",
+    "explanation": "LSE AIM (Alternative Investment Market) is London's growth market for smaller companies and has become a natural home for Africa-focused junior miners. London's deep mining finance ecosystem, including specialist mining banks, brokers, and institutional funds, provides capital access. Many Africa-focused companies choose AIM because of the UK's historical ties to African mining jurisdictions, a Nominated Adviser (Nomad) system that provides flexible listing requirements, and access to European ESG-focused investors. AIM-listed companies must still comply with recognized reporting codes (JORC or NI 43-101) for mineral resources and reserves. Companies like Hummingbird Resources and Shanta Gold exemplify AIM's Africa-gold niche.",
+    "key_concept": "LSE AIM: Africa-focused juniors, London mining finance ecosystem, European institutional capital",
+    "source": "LSE AIM mining market",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-023",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold company is negotiating a streaming deal for its CDI development project. The streamer offers $75M upfront for 15% of gold production at a fixed purchase price of $450/oz. With gold at $2,200/oz and projected LOM production of 1.5Moz, what is the approximate total cost to the mining company over the life of mine?",
+    "options": {
+      "A": "$75M (just the upfront payment received)",
+      "B": "$168M in foregone revenue",
+      "C": "$394M in foregone revenue",
+      "D": "$525M in foregone revenue"
+    },
+    "correct": "C",
+    "explanation": "Streamed ounces: 1,500,000 × 15% = 225,000 oz. Revenue foregone per ounce: $2,200 - $450 = $1,750. Total revenue foregone: 225,000 × $1,750 = $393,750,000, approximately $394M. In exchange, the company receives $75M upfront. This means the effective cost of the streaming capital is $394M / $75M = a 5.25x multiple, or equivalently, the company is 'selling' gold at an 80% discount to market price on the streamed portion. However, streams have no principal repayment, no interest, and no financial covenants, making them far more flexible than debt. The board must weigh this high implicit cost against the alternative (equity dilution at low share prices or project finance with restrictive covenants) to determine if the stream creates net value.",
+    "key_concept": "Stream cost analysis: $75M upfront vs ~$394M foregone revenue; high implicit cost but no debt risk",
+    "source": "Mining finance / streaming valuation",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-024",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "Why did the 2025 gold funding boom ($12.8B total, $6.7B gold) create a particularly favorable window for junior miners to raise capital?",
+    "options": {
+      "A": "Central banks mandated increased gold holdings, forcing capital into mining equities",
+      "B": "Record gold prices improved project economics, the discovery deficit created urgency for new supply, and generalist investors rotated into gold equities, compressing the cost of equity capital for juniors",
+      "C": "Tax incentives for gold mining investments were introduced globally",
+      "D": "The TSX-V waived listing fees for gold companies in 2025"
+    },
+    "correct": "B",
+    "explanation": "The 2025 funding boom was driven by a confluence of factors that specifically benefited juniors: record gold prices above $2,500/oz improved project NPVs and IRRs, making previously marginal projects attractive. The discovery deficit (zero major finds in 2023-2024) created urgency among majors to acquire or invest in juniors. Generalist investors who had avoided mining rotated into gold equities seeking inflation hedges, increasing demand for junior shares and compressing the cost of equity capital. For a junior that might have struggled to raise $10M at $0.15/share in 2023, the 2025 environment could support a $30M raise at $0.60/share, dramatically reducing dilution. Timing capital raises to these windows is a critical CEO skill.",
+    "key_concept": "2025 funding boom: high gold price + discovery deficit + generalist rotation = low-cost equity for juniors",
+    "source": "Mining capital markets analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-025",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "What is the primary reason majors acquire junior gold companies rather than exploring greenfield targets themselves?",
+    "options": {
+      "A": "Majors do not have geologists on staff",
+      "B": "The 10-15 year discovery-to-production timeline and low probability of grassroots discovery success make acquiring juniors with defined deposits a faster and more predictable path to reserve replacement",
+      "C": "Securities regulations prohibit majors from conducting exploration",
+      "D": "Juniors have exclusive access to the best exploration ground in West Africa"
+    },
+    "correct": "B",
+    "explanation": "Majors face a structural challenge: they deplete 1M+ oz/yr of reserves through production and need to replace them to maintain their production profiles and market capitalizations. Grassroots exploration has a success rate of approximately 1 in 1,000 and takes 10-15 years from discovery to production. Acquiring a junior with a defined 3-5Moz deposit at the PFS or DFS stage allows a major to add reserves immediately, often bringing the project into production within 3-5 years. The acquisition premium (29-67% in 2025) is the price of certainty and time compression. This dynamic creates the fundamental value proposition for junior mining investors: the discovery-to-acquisition pipeline.",
+    "key_concept": "Majors buy juniors for speed and certainty of reserve replacement vs 10-15yr grassroots risk",
+    "source": "Mining M&A strategy",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-026",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "ICMM (International Council on Mining and Metals) membership signals what to investors evaluating a gold mining company?",
+    "options": {
+      "A": "The company has the largest gold reserves in its peer group",
+      "B": "The company has committed to 10 principles covering ethics, governance, environment, social performance, and stakeholder engagement, verified through third-party assurance",
+      "C": "The company is guaranteed to receive MIGA political risk insurance",
+      "D": "The company's resource estimates have been independently audited"
+    },
+    "correct": "B",
+    "explanation": "ICMM membership commits a company to 10 principles and 8 position statements covering responsible environmental stewardship, social performance, human rights, stakeholder engagement, and ethical governance. Members must undergo independent third-party assurance of their sustainability reporting. ICMM membership is generally limited to larger, more established companies (majors and large mid-tiers) because the compliance costs are significant. For investors, ICMM membership provides assurance that the company has robust ESG systems and is subject to external accountability. Juniors aspiring to ICMM-level standards can adopt the principles as a framework even before formal membership, which strengthens their acquisition attractiveness.",
+    "key_concept": "ICMM: 10 principles, third-party assurance, signals robust ESG commitment to investors",
+    "source": "ICMM principles and governance",
+    "difficulty": 3
+  }
+]

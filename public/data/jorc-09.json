@@ -1,0 +1,461 @@
+[
+  {
+    "id": "jorc-09-001",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "Table 1 Section 2 of the JORC Code primarily addresses the reporting requirements for which category?",
+    "options": {
+      "A": "Ore Reserves",
+      "B": "Mineral Resources",
+      "C": "Exploration Results",
+      "D": "Production Data"
+    },
+    "correct": "C",
+    "explanation": "Table 1 Section 2 specifically covers the reporting of Exploration Results. It sets out the criteria that must be addressed when publicly reporting exploration outcomes, before a Mineral Resource has been estimated. This includes requirements for sampling techniques, drilling results, data aggregation methods, and contextual information. Sections 3 and 4 of Table 1 address Mineral Resources and Ore Reserves respectively.",
+    "key_concept": "Table 1 Section 2 governs Exploration Results reporting",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-09-002",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "When reporting Exploration Results, the JORC Code requires the report to include information about the type of mineralisation. What is the primary reason for this requirement?",
+    "options": {
+      "A": "To help investors estimate the commodity price",
+      "B": "To allow the reader to assess the appropriateness of the sampling and drilling methods used",
+      "C": "To satisfy environmental permitting requirements",
+      "D": "To determine the Competent Person's qualifications"
+    },
+    "correct": "B",
+    "explanation": "Reporting the mineralisation type, style, and geological setting allows the reader to assess whether the sampling and drilling techniques used are appropriate for that deposit type. For example, narrow vein gold mineralisation requires different drilling approaches than disseminated copper porphyry mineralisation. Without understanding the mineralisation style, the reader cannot judge the reliability of the reported intercepts. This is a core Transparency requirement under Table 1 Section 2.",
+    "key_concept": "Mineralisation type/style determines whether sampling methods are appropriate",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-09-003",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A company drills a vertical hole through a flat-lying tabular orebody and reports an intersection of 15m @ 3.2 g/t Au. What is this 15m measurement referred to as?",
+    "options": {
+      "A": "True width",
+      "B": "Apparent width",
+      "C": "Downhole length (intersection length)",
+      "D": "Horizontal width"
+    },
+    "correct": "C",
+    "explanation": "The 15m measurement is the downhole length or intersection length — it is the distance measured along the drill hole. In this specific case of a vertical hole through a flat-lying body, the downhole length happens to approximate the true width, but it is still correctly described as a downhole intersection. The JORC Code requires clear distinction between downhole length, true width, and apparent width, with true width being the most geologically meaningful measurement.",
+    "key_concept": "Downhole length is measured along the drill hole, not necessarily the true orebody width",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-09-004",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "Which of the following MUST be included in a public report of Exploration Results under JORC?",
+    "options": {
+      "A": "A preliminary economic assessment",
+      "B": "The data aggregation method used for reporting intersections",
+      "C": "A Mineral Resource estimate",
+      "D": "A definitive feasibility study timeline"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 2 explicitly requires disclosure of the data aggregation methods used when reporting intersections, including the length-weighted averaging technique, maximum compositing length, and any top-cuts applied. This allows the reader to assess whether the reported grades are representative. Neither a preliminary economic assessment, Mineral Resource estimate, nor feasibility study is required at the Exploration Results stage — indeed, the JORC Code warns against implying economic viability at this stage.",
+    "key_concept": "Data aggregation methods must be disclosed when reporting exploration intersections",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-09-005",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "True width of an intersection is calculated from downhole length by applying which geometric correction?",
+    "options": {
+      "A": "Multiplying by the cosine of the angle between the drill hole and the orebody",
+      "B": "Multiplying by the sine of the angle between the drill hole and the orebody normal",
+      "C": "Dividing by the tangent of the dip angle",
+      "D": "Multiplying by the sine of the angle between the drill hole and the orebody plane"
+    },
+    "correct": "D",
+    "explanation": "True width = downhole length x sin(α), where α is the angle between the drill hole azimuth/dip and the plane of the orebody. When a drill hole intersects the orebody at an oblique angle, the downhole intersection overstates the true thickness. This trigonometric correction is fundamental to honest reporting. The JORC Code requires that where true width cannot be determined, this must be clearly stated and only downhole lengths reported. Failure to distinguish true width from downhole length is a common compliance issue.",
+    "key_concept": "True width = downhole length x sin(angle between hole and orebody plane)",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-006",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A company reports '5m @ 12.4 g/t Au from 87m including 0.5m @ 98.2 g/t Au from 89m.' What is the significance of reporting the included high-grade interval separately?",
+    "options": {
+      "A": "It is required to inflate the overall grade for investor presentations",
+      "B": "It allows the reader to assess whether the composite is dominated by a single high-grade sample (nugget effect)",
+      "C": "It demonstrates that top-cutting was not applied",
+      "D": "It confirms the intersection meets the minimum economic threshold"
+    },
+    "correct": "B",
+    "explanation": "Reporting the included high-grade interval is a Transparency requirement that allows the reader to assess whether the overall intersection grade is dominated by a single high-grade sample. In this case, the 0.5m @ 98.2 g/t interval contributes approximately 49.1 gram-metres of the total 62 gram-metres (79%) across just 10% of the width. This is critical for understanding the nugget effect and whether the mineralisation is genuinely continuous or driven by isolated bonanza values. The JORC Code requires such disclosure to prevent misleading impressions.",
+    "key_concept": "Included high-grade intervals reveal whether composite grades are driven by isolated bonanza values",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-007",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "Under JORC, when can a company legitimately omit low-grade or barren drill results from an Exploration Results report?",
+    "options": {
+      "A": "When they would negatively impact the company's share price",
+      "B": "When the results are from a different tenement to the main prospect",
+      "C": "They cannot — all results must be reported regardless of grade",
+      "D": "When all results are presented in proper context with a table or map showing all drill hole locations and results"
+    },
+    "correct": "D",
+    "explanation": "The JORC Code does not prohibit focusing on significant results, but it requires that all results be available in context. If a company highlights significant intersections, it must present a complete table or map showing all drill hole locations and their results (including barren holes) so readers can form a balanced view. Simply omitting barren holes without this context constitutes selective reporting and violates the Materiality principle (Clause 19). The key test is whether a reasonable investor would be misled by the omission.",
+    "key_concept": "Low-grade results may be de-emphasised but must be available in context with all drill data",
+    "source": "JORC Code 2012, Clause 19, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-008",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A geologist identifies visible gold in drill core and immediately reports it to the ASX. Under JORC, what is the primary concern with reporting visual estimates of mineralisation?",
+    "options": {
+      "A": "Visual estimates are always prohibited under JORC",
+      "B": "Visual estimates may be unreliable and must be clearly identified as such, distinct from assay results",
+      "C": "Visual estimates are acceptable as long as the geologist is a Competent Person",
+      "D": "Visual estimates can only be reported after laboratory confirmation"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code does not prohibit visual estimates but requires they be clearly identified as visual estimates and reported separately from laboratory assay results. Visual estimates of mineralisation (e.g., visible gold, sulphide percentages) are inherently unreliable and can be highly misleading — visible gold observations famously have poor correlation with actual assay grades. If visual estimates are reported, the report must include a prominent caveat that they are not a substitute for laboratory analysis and may not be representative. This is covered in Table 1 Section 2 under reporting requirements.",
+    "key_concept": "Visual estimates must be clearly labelled and distinguished from assay results",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-009",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "What is a length-weighted average and why is it the standard method for calculating composite intersection grades?",
+    "options": {
+      "A": "An arithmetic mean of all sample grades, used because it is the simplest calculation",
+      "B": "A grade calculation where each sample's contribution is proportional to its sample length, used because drill samples may have different lengths",
+      "C": "A geometric mean of sample grades, used to reduce the effect of outliers",
+      "D": "A median-based calculation, used because it is resistant to high-grade bias"
+    },
+    "correct": "B",
+    "explanation": "A length-weighted average calculates the composite grade by weighting each sample's grade by its sample length (sum of grade x length divided by total length). This is necessary because individual samples within an intersection may have different lengths — for example, core recovery issues or selective sampling may produce 0.3m, 0.5m, and 1.0m samples. A simple arithmetic average would give equal weight to a 0.3m sample and a 1.0m sample, distorting the true grade. The JORC Code requires disclosure of the compositing method, including maximum compositing length and how short intervals are handled.",
+    "key_concept": "Length-weighted average accounts for variable sample lengths in composite grade calculations",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-010",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "The JORC Code requires the relationship between drilling orientation and mineralisation orientation to be reported because:",
+    "options": {
+      "A": "It affects the cost of drilling",
+      "B": "It determines whether downhole intersections are representative of true mineralisation widths",
+      "C": "It influences the choice of assay laboratory",
+      "D": "It affects the environmental impact assessment"
+    },
+    "correct": "B",
+    "explanation": "The angle at which a drill hole intersects mineralisation directly determines how representative the downhole intersection length is of the true width. If drilling is oriented parallel or sub-parallel to mineralisation, downhole lengths can vastly overstate true widths or even miss narrow bodies entirely. Conversely, holes drilled perpendicular to mineralisation give downhole lengths close to true width. Table 1 Section 2 requires disclosure of this relationship, and if the intersection angle is unknown, this must be stated. This is one of the most critical factors in evaluating exploration results.",
+    "key_concept": "Drill hole orientation relative to mineralisation determines reliability of reported widths",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-09-011",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "Which type of drilling would be MOST appropriate for testing a steeply-dipping vein system?",
+    "options": {
+      "A": "Vertical diamond core drilling",
+      "B": "Angled diamond core drilling oriented perpendicular to the vein strike",
+      "C": "Reverse circulation drilling parallel to the vein",
+      "D": "Vertical air-core drilling"
+    },
+    "correct": "B",
+    "explanation": "For steeply-dipping vein systems, angled holes drilled perpendicular to the vein strike provide the most representative intersections by crossing the full width of the mineralisation at a high angle. Vertical holes through steeply-dipping veins would produce very short intersections (if they intersect at all) and give a biased view of grade continuity. Drilling parallel to the vein would produce artificially long intersections that overstate the width. The JORC Code (Table 1 Section 2) requires that the relationship between drill hole orientation and mineralisation orientation be reported, specifically to allow assessment of this kind of sampling bias.",
+    "key_concept": "Drill orientation must be perpendicular to mineralisation to obtain representative intersections",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-012",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A company reports a single high-grade drill intersection without any surrounding context of nearby holes. Under JORC, this is problematic because:",
+    "options": {
+      "A": "Single intersections are prohibited from being reported",
+      "B": "Isolated high-grade results without context can create a misleading impression of the deposit's potential",
+      "C": "Only intersections confirmed by twin holes can be reported",
+      "D": "The JORC Code requires a minimum of 10 drill holes before any results can be reported"
+    },
+    "correct": "B",
+    "explanation": "Reporting isolated high-grade assays or intersections without the context of surrounding drilling creates a materially misleading impression. The JORC Code (Clause 19 and Table 1 Section 2) requires that exploration results be reported in context, including the spatial distribution of all drilling, so readers can assess the significance of individual results. A single spectacular hole surrounded by barren results tells a very different story than the same hole in a field of consistent mineralisation. There is no minimum number of holes required, but context is mandatory.",
+    "key_concept": "Isolated high-grade results without spatial context are misleading under JORC",
+    "source": "JORC Code 2012, Clause 19, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-013",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "What information about land tenure must be included when reporting Exploration Results?",
+    "options": {
+      "A": "Only the tenement number",
+      "B": "The type and status of tenements, any known impediments, and security of tenure",
+      "C": "Only whether the tenement is granted or pending",
+      "D": "Land tenure information is not required for Exploration Results"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 2 requires disclosure of the type and status of tenements (exploration licence, mining lease, etc.), any known impediments to obtaining the right to mine, and an assessment of the security of tenure. This is material because exploration results on a tenement that is about to expire, is subject to native title claims, or has unresolved ownership disputes may have very different investment implications. The reader needs this context to assess the likelihood that the exploration results can be progressed to resource definition and ultimately mining.",
+    "key_concept": "Land tenure status, impediments, and security must be disclosed with exploration results",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-09-014",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A top-cut is applied to exploration intersection calculations when:",
+    "options": {
+      "A": "The total intersection exceeds 100 metres downhole",
+      "B": "Extremely high-grade samples would otherwise distort the composite grade and are not considered representative of the broader mineralisation",
+      "C": "The assay laboratory reports grades above its detection limit",
+      "D": "The drill core recovery is below 80%"
+    },
+    "correct": "B",
+    "explanation": "A top-cut (or high-grade cap) is applied when individual sample grades are so high that they would dominate the composite intersection grade and create a misleading impression. This is particularly relevant in gold deposits where the nugget effect can produce isolated bonanza grades. For example, a single 0.5m sample at 500 g/t Au within a 10m intersection would produce a length-weighted average of ~25 g/t even if all other samples are 0.1 g/t. Table 1 Section 2 requires that the application and level of any top-cuts be disclosed, along with justification for the cut-off level chosen.",
+    "key_concept": "Top-cuts prevent unrepresentative high-grade samples from distorting composite grades",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-015",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "When reporting Exploration Results, what is the distinction between 'significant' and 'non-significant' intercepts?",
+    "options": {
+      "A": "Significant intercepts are those above the minimum economic grade; non-significant are below",
+      "B": "Significant intercepts are those the Competent Person considers material to the report; the criteria used to define significance must be disclosed",
+      "C": "Significant intercepts are from diamond drilling; non-significant are from RC drilling",
+      "D": "All intercepts are significant under JORC — there is no such distinction"
+    },
+    "correct": "B",
+    "explanation": "The distinction between significant and non-significant intercepts is determined by the Competent Person based on factors including grade, width, continuity, and geological context. Table 1 Section 2 requires that the criteria used to define 'significant' intercepts be clearly stated — for example, minimum grade, minimum width, maximum internal dilution. This is critical because it directly influences which results are highlighted. Without disclosure of these parameters, a company could manipulate the impression of results by setting thresholds that cherry-pick favourable intersections.",
+    "key_concept": "Significance criteria for intercepts must be disclosed — determined by CP, not arbitrary",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-016",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A company drills a 60-degree inclined hole through a mineralised zone that dips at 45 degrees. The downhole intersection is 20m. Approximately what is the true width?",
+    "options": {
+      "A": "20m",
+      "B": "17.3m",
+      "C": "14.1m",
+      "D": "10.0m"
+    },
+    "correct": "C",
+    "explanation": "True width depends on the angle between the drill hole and the mineralisation plane. When the hole is at 60 degrees from horizontal and the zone dips at 45 degrees, and the hole is drilled optimally to intersect the zone, the acute angle between the hole direction and the mineralisation plane can be approximately 45 degrees. True width = 20m x sin(45°) = 20 x 0.707 ≈ 14.1m. The exact calculation depends on the relative orientations in 3D, but this illustrates why JORC requires reporting of both downhole length and estimated true width. The distinction can represent a 30% or greater difference.",
+    "key_concept": "True width calculation requires understanding the 3D geometry of hole and mineralisation",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-09-017",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A junior explorer reports: '12m @ 4.5 g/t Au from surface.' Which critical piece of context is missing from this intersection report under JORC?",
+    "options": {
+      "A": "The drill hole collar coordinates and the relationship between drill orientation and mineralisation orientation",
+      "B": "The name of the Competent Person's university",
+      "C": "The estimated Mineral Resource tonnage",
+      "D": "The forecast gold price used in the economic assessment"
+    },
+    "correct": "A",
+    "explanation": "Table 1 Section 2 requires that exploration results include drill hole collar locations (easting, northing, elevation), hole orientation (azimuth and dip), and critically, the relationship between drilling orientation and mineralisation orientation. Without knowing where the hole is, what direction it was drilled, and how the mineralisation sits relative to the hole, the reader cannot assess whether 12m is close to the true width or a gross overstatement. No Resource estimate or economic assessment is required at the Exploration Results stage.",
+    "key_concept": "Drill hole location, orientation, and relationship to mineralisation are mandatory context",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-09-018",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "Apparent width differs from true width in that apparent width:",
+    "options": {
+      "A": "Is always larger than true width",
+      "B": "Is the width as seen in a cross-section that may not be perpendicular to the orebody",
+      "C": "Is always smaller than true width",
+      "D": "Is the same as downhole length"
+    },
+    "correct": "B",
+    "explanation": "Apparent width is the thickness of the mineralised zone as measured in a plane (such as a drill section or outcrop face) that is not perpendicular to the mineralisation. It is typically greater than or equal to the true width, but its relationship depends on the viewing angle. True width is the orthogonal distance across the mineralised zone, measured perpendicular to its boundaries. Downhole length is a third distinct measurement taken along the drill hole axis. The JORC Code requires clear identification of which measurement is being reported, as confusion between these three measurements is a frequent source of misleading reporting.",
+    "key_concept": "Apparent width is measured in an oblique plane; true width is the perpendicular thickness",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-09-019",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A company has 30 drill holes over a prospect. Twenty-five returned insignificant mineralisation and five returned significant gold intercepts. The company reports only the five significant holes in its ASX announcement. Is this JORC-compliant?",
+    "options": {
+      "A": "Yes, only significant results need to be reported",
+      "B": "Yes, as long as the Competent Person approved the release",
+      "C": "No, all 30 holes must be reported with equal prominence",
+      "D": "No, unless a summary table or map showing all 30 holes and their results is included"
+    },
+    "correct": "D",
+    "explanation": "The JORC Code (Clause 19) explicitly states that reporting must not be misleading through selective reporting. While it is acceptable to highlight significant results, the context of all drilling must be provided — typically through a summary table of all drill holes and a plan map showing their locations. Reporting 5 out of 30 holes without this context would create a misleading impression of widespread mineralisation when in reality 83% of holes were barren. The Competent Person's sign-off does not exempt the requirement for balanced reporting.",
+    "key_concept": "Highlighting significant results is permitted only when full drill context is provided",
+    "source": "JORC Code 2012, Clause 19, Table 1 Section 2",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-09-020",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "When compositing drill intervals for an exploration report, an internal dilution zone of 2m @ 0.1 g/t Au is included within a broader 15m intersection reported at 3.8 g/t Au. The JORC Code requires which of the following?",
+    "options": {
+      "A": "The internal dilution zone must be excluded from all calculations",
+      "B": "The maximum internal dilution allowed and the method of inclusion must be disclosed",
+      "C": "Internal dilution zones are never permitted in composites",
+      "D": "Internal dilution must be reported separately and not included in any composite"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 2 requires disclosure of the compositing parameters, including the maximum internal dilution (waste) permitted within a reported intersection. For example, a company might use a rule of 'maximum 2m consecutive internal waste' or 'maximum 3m below cut-off.' These parameters directly affect the reported grade and width — looser dilution rules produce wider, lower-grade composites while stricter rules produce narrower, higher-grade composites. Without this disclosure, the reader cannot assess whether the reported intersections are genuinely continuous or artificially inflated by including waste intervals.",
+    "key_concept": "Internal dilution parameters in compositing must be explicitly disclosed",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-09-021",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "Which of the following assay-related information is NOT specifically required by Table 1 Section 2 when reporting Exploration Results?",
+    "options": {
+      "A": "Assay method and laboratory used",
+      "B": "Nature and quality of the assay technique",
+      "C": "The laboratory's annual profit margin",
+      "D": "Quality control procedures and results"
+    },
+    "correct": "C",
+    "explanation": "Table 1 Section 2 requires disclosure of the assay method, the nature and quality of the assay technique (e.g., fire assay, ICP-MS), the laboratory used, and the quality control procedures including blanks, standards, and duplicates. The laboratory's financial performance is entirely irrelevant to the quality of analytical results. These requirements ensure readers can assess whether the assay results are reliable and whether appropriate QA/QC was applied. Poor assay quality can invalidate otherwise promising exploration results.",
+    "key_concept": "Assay method, laboratory, technique quality, and QA/QC must be disclosed",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-09-022",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A company uses RC (reverse circulation) drilling to test a narrow, steeply-dipping gold vein system. What concern should the Competent Person address in the report?",
+    "options": {
+      "A": "RC drilling always produces higher grades than diamond drilling",
+      "B": "RC drilling may produce sample smearing across narrow structures, and the larger sample interval may not adequately resolve the vein boundaries",
+      "C": "RC drilling is prohibited for gold exploration under JORC",
+      "D": "RC drilling can only be used for deposits wider than 10 metres"
+    },
+    "correct": "B",
+    "explanation": "RC drilling typically produces samples over fixed intervals (commonly 1m) and the percussive drilling process can cause sample contamination or smearing across narrow structures. For a narrow vein system (e.g., 0.5m wide), a 1m RC sample would inherently dilute the vein material with waste, understating the true vein grade while overstating the width. Table 1 Section 2 requires discussion of the relationship between drilling type and mineralisation style. Diamond core drilling with selective sampling would be more appropriate for precisely delineating narrow veins. RC drilling is not prohibited but its limitations must be disclosed.",
+    "key_concept": "RC drilling limitations for narrow vein systems must be disclosed — sample smearing and interval resolution",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-09-023",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "Under JORC, when a company reports the 'distribution' of Exploration Results, this refers to:",
+    "options": {
+      "A": "How the results were distributed to shareholders",
+      "B": "The spatial arrangement and coverage of sampling across the prospect area",
+      "C": "The statistical distribution (e.g., log-normal) of grade values",
+      "D": "The distribution of shares among institutional investors"
+    },
+    "correct": "B",
+    "explanation": "In the context of Table 1 Section 2, 'distribution' refers to the spatial arrangement and coverage of drill holes, trenches, or other samples across the prospect. This includes the drill hole spacing, grid pattern (if any), and the overall geographic extent of sampling. Understanding the spatial distribution allows the reader to assess whether the prospect has been adequately tested and whether reported results are representative of the entire area or just a small portion. A cluster of holes in one area with no testing elsewhere gives a very different impression than an even grid.",
+    "key_concept": "Distribution refers to the spatial coverage and arrangement of sampling across a prospect",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-09-024",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A company reports exploration results using 'gram-metres' (e.g., '60 gram-metres'). Under what circumstances is this an acceptable reporting practice?",
+    "options": {
+      "A": "It is always acceptable as it combines grade and width into one number",
+      "B": "It is never acceptable under JORC — grade and width must always be reported separately",
+      "C": "It may be used as a supplementary measure but the underlying grade and width must also be reported",
+      "D": "It is only acceptable for gold deposits"
+    },
+    "correct": "C",
+    "explanation": "Gram-metres (grade x width) can be a useful supplementary comparison metric, but the JORC Code requires that the underlying data — both the intersection width and the weighted average grade — be reported. Reporting only gram-metres obscures whether the result represents, for example, 1m @ 60 g/t (a very narrow, very high-grade vein) or 60m @ 1 g/t (a wide, low-grade zone). These have fundamentally different mining and economic implications. Table 1 Section 2 requires transparent reporting that allows the reader to understand the geometry of mineralisation.",
+    "key_concept": "Gram-metres supplement but cannot replace separate reporting of grade and width",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-09-025",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A Competent Person applies a 0.5 g/t Au lower cut-off and a maximum 3m internal dilution rule when compositing drill intersections. Under JORC, these parameters must be:",
+    "options": {
+      "A": "Kept confidential as proprietary methodology",
+      "B": "Disclosed in the report along with the rationale for their selection",
+      "C": "Approved by ASIC before publication",
+      "D": "Consistent with parameters used by all other companies in the same district"
+    },
+    "correct": "B",
+    "explanation": "Table 1 Section 2 requires that all data aggregation parameters be disclosed, including cut-off grades, maximum internal dilution, minimum intersection widths, and the rationale for their selection. Different compositing parameters applied to the same raw data can produce dramatically different reported intersections. For example, using 0.3 g/t vs 1.0 g/t lower cut-off could double or halve reported widths. Transparency about these choices allows readers to make their own judgements about the reasonableness of reported results. There is no requirement for ASIC approval or district-wide consistency.",
+    "key_concept": "All compositing parameters and their rationale must be transparently disclosed",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-09-026",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "A company reports exploration trenching results from a copper prospect. Under Table 1 Section 2, which of the following sets of information must be included?",
+    "options": {
+      "A": "Trench locations, orientations, sample method, sample intervals, assay results, and relationship to mineralisation geometry",
+      "B": "Only the highest-grade trench result and a location map",
+      "C": "Trench results and a preliminary mine plan",
+      "D": "Only a summary statement of average grade across all trenches"
+    },
+    "correct": "A",
+    "explanation": "Table 1 Section 2 applies equally to all sampling methods, not just drilling. For trenching, the Competent Person must report trench locations (coordinates), orientations, the sampling method used (channel, chip, grab), sample intervals and lengths, assay results and method, and critically, the relationship between trench orientation and mineralisation geometry. As with drilling, a trench cut parallel to mineralisation will give an unrepresentative impression of width. All individual trench results must be available, not just averages or cherry-picked highlights.",
+    "key_concept": "Table 1 Section 2 reporting requirements apply to all sampling methods including trenching",
+    "source": "JORC Code 2012, Table 1 Section 2",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-09-027",
+    "chapterId": "jorc-09",
+    "domain": "jorc",
+    "question": "Which of the following statements about reporting Exploration Results under JORC is correct?",
+    "options": {
+      "A": "Exploration Results may only be reported after a Mineral Resource has been estimated",
+      "B": "Exploration Results reporting must not include any reference to potential economic significance",
+      "C": "Exploration Results are reported when insufficient data exists for a reasonable Mineral Resource estimate, and care must be taken not to imply that a Resource has been defined",
+      "D": "Exploration Results are only valid for a period of 12 months after reporting"
+    },
+    "correct": "C",
+    "explanation": "Exploration Results (Clause 18-19) are reported when the data is insufficient to support a Mineral Resource estimate. The JORC Code permits reporting of Exploration Results at any stage of a project but requires care that the report does not unreasonably imply that economically mineable mineralisation has been delineated. The report must clearly state the early-stage nature of the data and not present results in a way that could be interpreted as a resource estimate. There is no expiry period for reported results, though material changes must be disclosed.",
+    "key_concept": "Exploration Results must not be presented in ways that imply a Resource has been defined",
+    "source": "JORC Code 2012, Clauses 18-19",
+    "difficulty": 1
+  }
+]

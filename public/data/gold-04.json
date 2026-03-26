@@ -1,0 +1,461 @@
+[
+  {
+    "id": "gold-04-001",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the approximate success rate for grassroots gold exploration from initial prospect to economic discovery?",
+    "options": {
+      "A": "1 in 10 (10%)",
+      "B": "1 in 50 (2%)",
+      "C": "1 in 500 to 1 in 1,000 (0.1-0.2%)",
+      "D": "1 in 10,000 (0.01%)"
+    },
+    "correct": "C",
+    "explanation": "The historical success rate for grassroots gold exploration is approximately 1 in 500 to 1 in 1,000 — meaning for every 500-1,000 prospects initially identified, only one becomes a commercially viable mine. This extremely low success rate underpins the high-risk nature of exploration investment and explains why portfolio diversification is essential for exploration companies. The odds improve significantly with brownfield exploration (near existing mines) or with strong geological targeting. Understanding these success rates is critical for CEO-level capital allocation decisions across an exploration portfolio.",
+    "key_concept": "Grassroots exploration success: 1 in 500-1,000; extremely high risk requiring portfolio approach",
+    "source": "Exploration industry statistics",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-002",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the typical budget range for the Desktop/Literature Review stage of exploration?",
+    "options": {
+      "A": "$5,000-$10,000",
+      "B": "$50,000-$500,000",
+      "C": "$5-$10 million",
+      "D": "$50-$100 million"
+    },
+    "correct": "B",
+    "explanation": "The Desktop/Literature Review stage typically costs $50,000-$500,000 and involves compiling existing geological data, satellite imagery, historical exploration reports, academic research, and government survey data before committing to fieldwork. This is the most cost-effective stage of exploration because it leverages existing information to rank targets and reject unsuitable areas without expensive field programs. A thorough desktop study can eliminate 80-90% of potential targets before spending a dollar in the field. For West Africa, this stage would include reviewing Birimian belt maps, BRGM data, artisanal mining records, and tenure availability.",
+    "key_concept": "Desktop review: $50K-$500K; most cost-effective stage, eliminates 80-90% of poor targets",
+    "source": "Exploration pipeline economics",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-003",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the correct sequence of the 8-stage exploration pipeline from earliest to most advanced?",
+    "options": {
+      "A": "Drilling → Geochemistry → Mapping → Desktop → Geophysics → Remote Sensing → Resource → Feasibility",
+      "B": "Desktop → Remote Sensing → Geological Mapping → Geochemistry → Ground Geophysics → Initial Drilling → Resource Drilling → Feasibility",
+      "C": "Feasibility → Drilling → Mapping → Desktop",
+      "D": "Geochemistry → Desktop → Drilling → Feasibility → Mapping → Remote Sensing → Geophysics → Resource"
+    },
+    "correct": "B",
+    "explanation": "The systematic 8-stage exploration pipeline follows a logical derisking sequence: (1) Desktop Study ($50-500K), (2) Remote Sensing ($100K-2M), (3) Geological Mapping ($200K-1M), (4) Geochemistry ($500K-5M), (5) Ground Geophysics ($500K-3M), (6) Initial Drilling ($2-10M), (7) Resource Drilling ($10-50M), (8) Feasibility ($2-30M). Each stage reduces risk and narrows the target area before committing to the more expensive next stage. This funnel approach is how professional exploration companies maximize the information-to-cost ratio and avoid premature, expensive drilling on poorly understood targets.",
+    "key_concept": "8-stage pipeline: Desktop→Remote Sensing→Mapping→Geochem→Geophysics→Drill→Resource→Feasibility",
+    "source": "Exploration pipeline best practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-004",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "At what stage does the exploration budget typically exceed $10 million for the first time?",
+    "options": {
+      "A": "Desktop study",
+      "B": "Geological mapping",
+      "C": "Resource drilling (infill drilling to define a resource)",
+      "D": "Remote sensing"
+    },
+    "correct": "C",
+    "explanation": "Resource drilling ($10-50M) is typically the first stage where cumulative spending exceeds $10 million. This stage involves systematic infill drilling (tightening drill spacing from 100-200 m to 25-50 m) to convert exploration targets into JORC-compliant Mineral Resources. The high cost reflects the volume of drilling required: a typical resource definition program might involve 30,000-100,000 meters of RC and diamond drilling. Prior stages (desktop through initial drilling) collectively spend $3-12 million. The jump to resource drilling represents a major capital commitment and should only proceed after initial drilling confirms significant mineralization.",
+    "key_concept": "Resource drilling: $10-50M, first stage >$10M; infill drilling to define JORC resources",
+    "source": "Exploration budgeting, resource definition",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-005",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What are the key derisking milestones in the exploration-to-mine journey?",
+    "options": {
+      "A": "Permit application → Environmental study → Community consultation → Mine closure",
+      "B": "Discovery → Resource definition → PEA → PFS/DFS → First gold pour",
+      "C": "IPO → Share placement → Dividend payment → Delisting",
+      "D": "Staking → Drilling → Abandonment → Reclamation"
+    },
+    "correct": "B",
+    "explanation": "The derisking milestones mark critical value inflection points: (1) Discovery — first significant drill intercepts confirming gold mineralization; (2) Resource Definition — maiden JORC Mineral Resource estimate; (3) PEA (Preliminary Economic Assessment) — first economic evaluation showing potential viability; (4) PFS/DFS (Pre-Feasibility/Definitive Feasibility Study) — bankable engineering studies confirming economic viability; (5) First Pour — commencement of gold production. Each milestone substantially reduces project risk and increases value. Share prices typically see the largest percentage increases at Discovery and Resource Definition stages.",
+    "key_concept": "Value milestones: Discovery → Resource → PEA → PFS/DFS → First Pour; each derisks the project",
+    "source": "Mining project development stages",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-006",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "In a typical West Africa exploration sequence, what comes after regional geological mapping?",
+    "options": {
+      "A": "Feasibility study",
+      "B": "Soil geochemistry sampling",
+      "C": "Underground mine development",
+      "D": "Desktop literature review"
+    },
+    "correct": "B",
+    "explanation": "The typical West African exploration sequence is: regional mapping → soil sampling (geochemistry) → airborne geophysics → wide-spaced RC drilling → infill RC drilling → diamond core drilling → grade control diamond drilling. After regional mapping identifies prospective geological settings (favorable structure, lithology, alteration), soil geochemistry sampling is deployed on grids to detect gold anomalies at the surface. In laterite terrain, B/C horizon soil samples or auger samples at 1-3 m depth are collected on lines spaced 100-200 m apart with stations every 25-50 m. Anomalies above threshold (typically >50-100 ppb Au) are prioritized for follow-up.",
+    "key_concept": "West Africa sequence: mapping → soil sampling → airborne geophysics → RC → DD",
+    "source": "West African exploration practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-007",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is a 'value inflection point' in the context of gold exploration?",
+    "options": {
+      "A": "The point where a company's share price reaches its all-time high",
+      "B": "A milestone event that causes a step-change increase in project value, such as a discovery or maiden resource",
+      "C": "The gold price at which a project becomes uneconomic",
+      "D": "The point where exploration spending equals revenue"
+    },
+    "correct": "B",
+    "explanation": "Value inflection points are milestone events that cause disproportionate increases in project (and company) value relative to the incremental dollars spent. The most powerful inflection points are: (1) Discovery hole — often doubles or triples a junior explorer's market capitalization; (2) Maiden Resource — transforms exploration upside into quantified value; (3) Positive PEA/PFS — confirms economic viability and attracts institutional investment. Smart CEO capital allocation targets these inflection points, spending the minimum necessary to reach each milestone. The biggest percentage returns come from investing just before or during these inflection points.",
+    "key_concept": "Value inflection = milestone causing step-change in value; discovery and resource are most impactful",
+    "source": "Mining finance, exploration economics",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-008",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the typical cost range for initial (scout) drilling on a gold exploration target?",
+    "options": {
+      "A": "$10,000-$50,000",
+      "B": "$2-$10 million",
+      "C": "$50-$100 million",
+      "D": "$500 million+"
+    },
+    "correct": "B",
+    "explanation": "Initial (scout) drilling on a gold target typically costs $2-10 million, depending on the number of holes, drilling method (RC vs diamond), depth, and logistics. A typical first-pass drill program might consist of 20-50 RC holes at 100-200 m depth on 100-200 m spaced sections, totaling 5,000-10,000 meters. In West Africa, RC drilling costs approximately $30-60 per meter including mobilization, and diamond core drilling costs $80-200 per meter. This stage is designed to test whether the geochemical and geophysical anomalies defined in earlier stages correspond to gold mineralization at depth.",
+    "key_concept": "Initial drilling: $2-10M; 20-50 RC holes testing anomalies; RC ~$30-60/m in West Africa",
+    "source": "Exploration drilling costs and planning",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-009",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the correct permitting sequence for mineral exploration in most West African countries?",
+    "options": {
+      "A": "Mining permit → exploration permit → reconnaissance permit",
+      "B": "Reconnaissance permit → exploration permit → mining permit",
+      "C": "No permits required — exploration is unregulated",
+      "D": "Environmental permit → social permit → mining permit only"
+    },
+    "correct": "B",
+    "explanation": "Most West African countries follow a three-stage permitting sequence: (1) Reconnaissance permit — allows regional, non-invasive exploration (mapping, remote sensing, sampling) over a large area for a limited period; (2) Exploration permit — grants exclusive rights to conduct detailed exploration (drilling, trenching, sampling) on a defined area, typically for 3-5 years with renewal options; (3) Mining permit — authorizes extraction and production, requiring feasibility studies, environmental impact assessments, and community agreements. Understanding this sequence is critical for CEOs because permit progression directly determines the project timeline and the legal right to explore and develop.",
+    "key_concept": "Permit sequence: reconnaissance → exploration → mining; each more rights and obligations",
+    "source": "West African mining law and regulations",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-010",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "An exploration company has spent $15 million over 4 years and delineated a 2 Moz gold resource at 1.8 g/t. What is the discovery cost per ounce?",
+    "options": {
+      "A": "$3.75/oz",
+      "B": "$7.50/oz",
+      "C": "$30.00/oz",
+      "D": "$75.00/oz"
+    },
+    "correct": "B",
+    "explanation": "Discovery cost = Total exploration expenditure / Ounces discovered = $15,000,000 / 2,000,000 oz = $7.50/oz. This is a very competitive discovery cost — the industry average for greenfield discoveries has risen to $30-80/oz in recent years. Low discovery costs indicate efficient exploration and strong geological targeting. For a CEO, discovery cost is a key metric for evaluating exploration team performance and comparing acquisition alternatives. At $7.50/oz discovery cost versus a gold price of $2,000/oz, the exploration has created enormous value — though significant additional investment (development capex) is required to realize it.",
+    "key_concept": "Discovery cost = total exploration spend / ounces found; industry average $30-80/oz",
+    "source": "Exploration economics, discovery cost metrics",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-011",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is a PEA (Preliminary Economic Assessment) in the mine development pipeline?",
+    "options": {
+      "A": "A legally binding contract with the government to develop a mine",
+      "B": "A preliminary study evaluating potential economic viability, including conceptual mine plan, processing, and financial analysis at scoping level",
+      "C": "A detailed engineering design for mine construction",
+      "D": "An environmental permit application"
+    },
+    "correct": "B",
+    "explanation": "A PEA (also called Scoping Study) is the first economic evaluation of a mineral project, typically completed at the Inferred-to-Indicated Resource stage. It includes conceptual mine design, processing flowsheet, capital and operating cost estimates (±35-50% accuracy), and preliminary financial analysis (NPV, IRR). A PEA can include Inferred Resources (unlike PFS/DFS) but must carry appropriate disclaimers. For a CEO, the PEA provides the first quantified answer to 'Is this deposit potentially economic?' and guides the decision to invest further in a Pre-Feasibility Study. PEAs typically cost $500K-$2M.",
+    "key_concept": "PEA = first economic evaluation; scoping-level ±35-50% accuracy; can use Inferred Resources",
+    "source": "NI 43-101, JORC project evaluation stages",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-012",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the typical total cost to take a gold deposit from grassroots discovery to first gold production?",
+    "options": {
+      "A": "$1-5 million",
+      "B": "$10-50 million",
+      "C": "$100-500 million",
+      "D": "$5-10 billion"
+    },
+    "correct": "C",
+    "explanation": "Taking a gold deposit from grassroots discovery to production typically costs $100-500 million in total, encompassing: exploration ($15-50M), feasibility studies ($5-30M), permitting and environmental ($5-20M), mine construction ($75-300M+), and working capital. Timeline is typically 10-20 years from discovery to first pour. Larger operations (>250,000 oz/yr) can exceed $500M in development capex alone. In West Africa, moderate-scale open-pit CIL operations (150,000-250,000 oz/yr) typically require $200-400M in total development capital. This enormous capital requirement is why many juniors seek partners or sell to majors at the feasibility stage.",
+    "key_concept": "Discovery to production: $100-500M total; 10-20 years; juniors often sell at feasibility stage",
+    "source": "Mine development economics",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-013",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "Which stage of exploration typically generates the largest percentage increase in a junior gold company's share price?",
+    "options": {
+      "A": "Desktop study completion",
+      "B": "Discovery hole announcement",
+      "C": "Feasibility study completion",
+      "D": "Mine closure planning"
+    },
+    "correct": "B",
+    "explanation": "The discovery hole announcement typically produces the largest percentage share price increase for junior explorers — often 100-500% or more in a single day. This is because the market rapidly reprices the company from 'speculative grassroots explorer' to 'company with a confirmed gold discovery.' Pre-discovery, the market assigns minimal value to undrilled targets. A high-grade discovery intercept (e.g., '50 m at 5 g/t Au') instantly creates perceived value. Subsequent milestones (resource, PEA, feasibility) produce smaller percentage gains because the base market capitalization is already elevated. This dynamic is why early-stage exploration carries the highest risk but also the highest potential reward.",
+    "key_concept": "Discovery hole = biggest % share price gain; market reprices from speculation to confirmed value",
+    "source": "Mining finance, junior explorer valuations",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-014",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What does 'brownfield exploration' mean compared to 'greenfield exploration'?",
+    "options": {
+      "A": "Brownfield explores contaminated industrial sites; greenfield explores agricultural land",
+      "B": "Brownfield explores near existing mines or known deposits; greenfield explores previously unexplored terrain",
+      "C": "Brownfield uses brown-colored maps; greenfield uses green-colored maps",
+      "D": "Brownfield is indoor laboratory work; greenfield is outdoor field work"
+    },
+    "correct": "B",
+    "explanation": "Brownfield exploration targets areas near existing mines, known deposits, or previously explored terrain where geological data already exists. Greenfield (grassroots) exploration investigates previously unexplored or poorly explored terrain with minimal existing data. Brownfield exploration has significantly higher success rates (1 in 10-50 vs 1 in 500-1,000 for greenfield) and lower discovery costs because geological context is already established. In West Africa, brownfield exploration along known gold belts (e.g., extensions of Ashanti Belt, SMSZ) is lower risk, while greenfield exploration under deep laterite cover in less-explored countries offers higher potential but lower probability of success.",
+    "key_concept": "Brownfield = near known deposits, higher success rate; Greenfield = unexplored, higher risk/reward",
+    "source": "Exploration strategy terminology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-015",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "A West African exploration program plans soil sampling on a grid. What is the typical line spacing and station interval for detailed follow-up sampling?",
+    "options": {
+      "A": "1 km lines, 500 m stations",
+      "B": "100-200 m lines, 25-50 m stations",
+      "C": "10 m lines, 1 m stations",
+      "D": "5 km lines, 1 km stations"
+    },
+    "correct": "B",
+    "explanation": "Detailed soil geochemistry sampling in West Africa typically uses lines spaced 100-200 meters apart with sampling stations every 25-50 meters along lines. This spacing is designed to detect anomalies associated with gold-bearing structures while maintaining cost-effectiveness. Orientation surveys may use tighter spacing (50 m lines, 10-25 m stations) to calibrate the technique. Regional reconnaissance may use wider spacing (400 m lines, 100 m stations). Samples are collected from the B or C soil horizon (typically 30-100 cm depth) and analyzed for gold by fire assay or BLEG methods. Lines are oriented perpendicular to the expected strike of mineralization.",
+    "key_concept": "Detailed soil sampling: 100-200m line spacing, 25-50m stations; perpendicular to strike",
+    "source": "Exploration geochemistry field practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-016",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "How should a CEO allocate an exploration budget across a portfolio of gold projects?",
+    "options": {
+      "A": "100% to the single most promising project",
+      "B": "Equal allocation across all projects regardless of stage or merit",
+      "C": "Weighted toward advanced projects near value inflection points, with smaller allocations to earlier-stage pipeline projects",
+      "D": "All budget to desktop studies; never spend money on drilling"
+    },
+    "correct": "C",
+    "explanation": "Optimal exploration budget allocation follows a portfolio approach weighted toward projects nearest to value inflection points. Advanced projects close to milestones (resource definition, PEA) receive the largest allocation because incremental spending has the highest probability of creating value. Earlier-stage projects receive smaller, stage-appropriate budgets to advance them through the pipeline. A typical allocation might be: 50-60% to advanced projects, 25-30% to intermediate projects, 10-20% to early-stage/greenfield. This ensures a pipeline of future projects while maximizing near-term value creation. Putting 100% into one project creates unacceptable concentration risk.",
+    "key_concept": "Portfolio approach: weight spending toward value inflection points; maintain project pipeline",
+    "source": "Exploration strategy, portfolio management",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-017",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What distinguishes a PFS (Pre-Feasibility Study) from a DFS (Definitive Feasibility Study)?",
+    "options": {
+      "A": "PFS is done before exploration; DFS is done after mine closure",
+      "B": "PFS has ±25% cost accuracy and uses Indicated Resources; DFS has ±15% cost accuracy and uses Measured + Indicated Resources for mine planning",
+      "C": "PFS takes 1 week; DFS takes 1 day",
+      "D": "There is no difference; the terms are interchangeable"
+    },
+    "correct": "B",
+    "explanation": "A PFS provides ±25% accuracy on capital and operating cost estimates and can base mine plans on Indicated Resources. A DFS (also called Bankable Feasibility Study) provides ±10-15% accuracy and must use Measured and Indicated Resources for mine planning (Inferred excluded from mine plan economics). The DFS is the document banks and investors require for project financing decisions. DFS typically costs $5-30M and takes 12-24 months. It includes detailed engineering, environmental and social impact assessment, water and power studies, and comprehensive financial modeling. For a CEO, the DFS is the 'go/no-go' decision point for mine construction.",
+    "key_concept": "PFS: ±25% accuracy, Indicated Resources; DFS: ±10-15% accuracy, Measured+Indicated, bankable",
+    "source": "JORC/NI 43-101 study stages",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-018",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the approximate budget for a remote sensing program in gold exploration?",
+    "options": {
+      "A": "$1,000-$5,000",
+      "B": "$100,000-$2 million",
+      "C": "$50-$100 million",
+      "D": "$500 million+"
+    },
+    "correct": "B",
+    "explanation": "Remote sensing programs in gold exploration typically cost $100,000 to $2 million, depending on the area coverage, resolution, and data types acquired. This includes satellite imagery acquisition (Sentinel-2 free, WorldView-3 commercial), processing and interpretation, structural lineament analysis, and alteration mineral mapping. Some programs also include airborne geophysics (magnetics, radiometrics), which pushes costs toward the upper end. Remote sensing is conducted early in the pipeline (Stage 2) because it covers large areas rapidly and cost-effectively, identifying structural corridors, alteration zones, and lithological contacts that guide subsequent field programs.",
+    "key_concept": "Remote sensing: $100K-$2M; large-area coverage for structure, alteration, lithology",
+    "source": "Exploration budget planning",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-019",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "In a West African exploration program, why is airborne magnetics typically conducted before ground-based soil sampling?",
+    "options": {
+      "A": "It is cheaper than soil sampling so always done first",
+      "B": "Airborne magnetics rapidly maps geological structure and lithology over large areas, allowing targeted placement of soil sampling lines over the most prospective zones",
+      "C": "Soil sampling cannot be done before magnetics due to regulatory requirements",
+      "D": "Airborne magnetics directly detects gold anomalies"
+    },
+    "correct": "B",
+    "explanation": "Airborne magnetics is typically flown early in West African exploration because it rapidly and cost-effectively maps the subsurface geology beneath thick laterite cover. The magnetic data reveals: lithological boundaries (mafic volcanics = magnetic, granites/sediments = less magnetic), structural corridors (faults show as magnetic lineament breaks or offsets), and intrusion contacts. This structural-lithological framework allows soil sampling grids to be intelligently positioned over the most prospective zones rather than blanket-sampling the entire tenement. Airborne magnetics does not detect gold directly, but maps the geological architecture that controls gold distribution.",
+    "key_concept": "Airborne magnetics maps geology under laterite; guides targeted soil sampling placement",
+    "source": "West African exploration methodology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-020",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "A CEO receives a proposal to spend $25 million on resource definition drilling. What key information should be confirmed before approving this expenditure?",
+    "options": {
+      "A": "Only the current gold price",
+      "B": "Initial drilling results confirming significant mineralization, geological model, proposed drill plan with target resource category, and comparison with peer deposits",
+      "C": "The color of the drill rigs",
+      "D": "Only the number of drill holes planned"
+    },
+    "correct": "B",
+    "explanation": "Before approving $25M in resource drilling, a CEO should verify: (1) Initial drilling results — do they confirm grades and widths sufficient for economic mining? (2) Geological model — is the mineralization well-understood, with clear structural and grade controls? (3) Drill plan — does the proposed spacing support the target JORC resource category (e.g., 25 m for Indicated)? (4) Target resource — what tonnage and grade range is expected, and is the potential discovery large enough to justify a mine? (5) Peer comparison — how does the target compare with known economic deposits? This due diligence prevents expensive drilling on sub-economic targets.",
+    "key_concept": "Pre-drill approval: confirm initial results, geological model, drill plan, target resource, peer comparison",
+    "source": "Exploration investment decision-making",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-021",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the typical timeline from grassroots gold discovery to first gold production?",
+    "options": {
+      "A": "6-12 months",
+      "B": "2-3 years",
+      "C": "10-20 years",
+      "D": "50-100 years"
+    },
+    "correct": "C",
+    "explanation": "The typical timeline from grassroots discovery to first gold pour is 10-20 years, encompassing: exploration and resource definition (3-7 years), feasibility studies (2-4 years), permitting and environmental approvals (2-5 years), financing (1-2 years), and construction (2-3 years). Many stages overlap. In West Africa, this timeline can be shortened for oxide-only projects with simpler processing requirements, but complex sulfide projects or those facing permitting challenges can take 15-20+ years. Notable fast-tracks include Fekola (Mali), which went from discovery to production in approximately 7 years, but this is exceptional rather than typical.",
+    "key_concept": "Discovery to production: typically 10-20 years; Fekola ~7 years was exceptionally fast",
+    "source": "Mining project development timelines",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-022",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "In the exploration pipeline, what is the geological mapping stage ($200K-$1M) primarily designed to achieve?",
+    "options": {
+      "A": "Create tourist maps of the exploration area",
+      "B": "Establish the geological framework including rock types, structure, and alteration to identify favorable settings for gold mineralization",
+      "C": "Complete the environmental impact assessment",
+      "D": "Determine the exact gold resource in troy ounces"
+    },
+    "correct": "B",
+    "explanation": "Geological mapping ($200K-$1M) establishes the fundamental geological framework of the exploration area by identifying and documenting rock types, structural features (faults, folds, shear zones), alteration assemblages, and mineralization indicators. In West African Birimian terrains, this involves mapping through laterite cover using available outcrops, road cuts, artisanal workings, and hand-augered samples. The resulting geological map is the foundation for all subsequent exploration decisions — it determines where geochemistry grids are placed, what geophysical methods are appropriate, and where the first drill holes are sited. Without good mapping, expensive programs can target the wrong geology.",
+    "key_concept": "Geological mapping: $200K-$1M; establishes framework for all subsequent exploration decisions",
+    "source": "Exploration methodology, geological mapping",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-023",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the approximate budget range for a feasibility study (PFS + DFS combined) on a West African gold project?",
+    "options": {
+      "A": "$50,000-$100,000",
+      "B": "$500,000-$2 million",
+      "C": "$2-$30 million",
+      "D": "$500 million-$1 billion"
+    },
+    "correct": "C",
+    "explanation": "Combined feasibility studies (PFS + DFS) typically cost $2-30 million for a West African gold project. A PFS usually costs $1-5 million and takes 6-12 months. A DFS costs $5-25 million and takes 12-24 months, including detailed engineering design, environmental and social impact assessment (ESIA), metallurgical test work, geotechnical studies, water balance, power supply design, tailings storage facility design, and comprehensive financial modeling. The wide range reflects project complexity — a simple open pit oxide operation might cost $3-5M for combined studies, while a complex underground sulfide project could require $25-30M. The DFS must be robust enough to support project financing.",
+    "key_concept": "Feasibility studies: $2-30M total (PFS + DFS); must support financing decisions",
+    "source": "Mine feasibility study costs",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-024",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "Why do exploration companies typically use RC (Reverse Circulation) drilling before diamond core drilling in West Africa?",
+    "options": {
+      "A": "RC drilling provides better core recovery than diamond drilling",
+      "B": "RC drilling is faster and cheaper per meter, ideal for wide-spaced initial testing, while diamond core provides geological detail for later resource definition",
+      "C": "Diamond drilling is illegal in West Africa",
+      "D": "RC drilling provides oriented core for structural measurements"
+    },
+    "correct": "B",
+    "explanation": "RC drilling is preferred for initial exploration because it is 2-3 times cheaper per meter than diamond drilling ($30-60/m vs $80-200/m in West Africa) and drills faster (50-100 m/day vs 20-40 m/day for DD). RC provides representative chip samples adequate for grade determination in the initial screening stage. Diamond core drilling is reserved for later stages when oriented core is needed for structural analysis, metallurgical samples, geotechnical data, and detailed geological logging required for resource estimation. The typical West African sequence is: wide-spaced RC → infill RC → selective diamond core in key areas → grade control diamond core.",
+    "key_concept": "RC first (cheap, fast, grade testing); DD later (geological detail, metallurgy, geotech)",
+    "source": "Drilling methodology, West African practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-025",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "A junior explorer's share price doubles on announcing a 'discovery hole' of '25 m at 8 g/t Au from 45 m depth.' What additional information should a CEO require before committing further capital?",
+    "options": {
+      "A": "No further information needed — one good hole proves a mine",
+      "B": "True width vs drilled width, structural context, whether the result is from one sample or composited, metallurgical character (oxide or sulfide), and results from adjacent holes confirming continuity",
+      "C": "Only the current gold price",
+      "D": "Only whether the company has a good website"
+    },
+    "correct": "B",
+    "explanation": "A single discovery hole, no matter how impressive, does not prove an economic deposit. Critical follow-up questions include: (1) True width — is the 25 m intercept close to true width, or was the hole drilled sub-parallel to mineralization (inflating apparent width)? (2) Structural context — what geological model explains the mineralization? (3) Grade compositing — does the 8 g/t come from consistently mineralized material or is it dominated by a single high-grade sample (nugget effect)? (4) Metallurgy — oxide (free-milling) or sulfide (potentially refractory)? (5) Continuity — do holes 50-100 m on either side confirm the mineralization extends along strike and down dip? Only with these answers can further investment be justified.",
+    "key_concept": "One hole ≠ a deposit; verify true width, structure, grade distribution, metallurgy, and continuity",
+    "source": "Drill result interpretation, exploration risk management",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-026",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the typical cost range for ground geophysics in gold exploration?",
+    "options": {
+      "A": "$5,000-$10,000",
+      "B": "$500,000-$3 million",
+      "C": "$50-$100 million",
+      "D": "$1-$5 billion"
+    },
+    "correct": "B",
+    "explanation": "Ground geophysics programs in gold exploration typically cost $500,000 to $3 million, depending on the survey type, area coverage, and terrain conditions. Common methods include induced polarization (IP) for detecting sulfide-associated gold ($200-500 per station), ground magnetics for structural mapping ($50-150 per station), and electromagnetic (EM) surveys for conductors. In West Africa, IP surveys are particularly valuable for detecting sulfide-associated gold mineralization beneath laterite cover. Ground geophysics provides higher resolution than airborne data and is typically used to refine drill targets defined by earlier geochemistry and airborne surveys.",
+    "key_concept": "Ground geophysics: $500K-$3M; IP for sulfides, ground magnetics for structure",
+    "source": "Exploration geophysics costs",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-04-027",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the concept of 'stage-gating' in exploration portfolio management?",
+    "options": {
+      "A": "Building physical gates around each exploration stage",
+      "B": "Requiring projects to meet defined technical and economic criteria at each stage before advancing to the next, more expensive stage",
+      "C": "Staggering drill crew shift changes at different times",
+      "D": "Limiting the number of projects to exactly eight"
+    },
+    "correct": "B",
+    "explanation": "Stage-gating is a disciplined portfolio management approach where each exploration project must pass through defined 'gates' — criteria assessments — before advancing to the next, more expensive stage. At each gate, projects are evaluated on technical merit (geological prospectivity, drill results, resource potential), economic viability (grades, tonnage, metallurgy), and strategic fit (jurisdiction, size, timeline). Projects failing to meet gate criteria are terminated or shelved, freeing capital for more promising opportunities. This prevents the common trap of 'throwing good money after bad' on underperforming projects, which is one of the biggest value destroyers in exploration.",
+    "key_concept": "Stage-gating: projects must pass criteria at each stage before advancing; prevents wasteful spending",
+    "source": "Exploration portfolio management best practice",
+    "difficulty": 3
+  }
+]

@@ -1,0 +1,478 @@
+[
+  {
+    "id": "jorc-06-001",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Under Clause 29 of the JORC Code 2012, an Ore Reserve is defined as:",
+    "options": {
+      "A": "Any Mineral Resource that has been drilled to Measured confidence",
+      "B": "The economically mineable part of a Measured and/or Indicated Mineral Resource after application of Modifying Factors",
+      "C": "The total mineral endowment of a deposit including all Resource categories",
+      "D": "A geological estimate of in-situ tonnes and grade"
+    },
+    "correct": "B",
+    "explanation": "Clause 29 defines an Ore Reserve as the economically mineable part of a Measured and/or Indicated Mineral Resource. The critical distinction is that Reserves require application of Modifying Factors — mining, processing, metallurgical, infrastructure, economic, marketing, legal, environmental, social, and governmental factors. An Ore Reserve is not just a geological confidence statement; it is an economic and technical statement that extraction is viable. Inferred Resources are explicitly excluded from Reserve conversion.",
+    "key_concept": "Ore Reserve = economically mineable part of Measured/Indicated after Modifying Factors",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-06-002",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Which two categories of Ore Reserves are defined by the JORC Code?",
+    "options": {
+      "A": "Definite and Possible",
+      "B": "Proved and Probable",
+      "C": "Measured and Indicated",
+      "D": "Primary and Secondary"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code defines two Ore Reserve categories: Proved and Probable (Clauses 30-31). Proved represents the highest confidence level (derived from Measured Resources), while Probable has lower confidence (derived from Indicated or, in some cases, Measured Resources). Measured and Indicated are Mineral Resource categories, not Reserve categories. There is no 'Possible' Reserve category in JORC — this term appears in the Russian classification system but not JORC.",
+    "key_concept": "Two Ore Reserve categories: Proved (highest) and Probable",
+    "source": "JORC Code 2012, Clauses 29-31",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-06-003",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Under Clause 30, a Probable Ore Reserve may be derived from which Mineral Resource category(ies)?",
+    "options": {
+      "A": "Indicated Mineral Resources only",
+      "B": "Measured Mineral Resources only",
+      "C": "Both Indicated and Measured Mineral Resources",
+      "D": "Any Mineral Resource category including Inferred"
+    },
+    "correct": "C",
+    "explanation": "Clause 30 states that a Probable Ore Reserve is the economically mineable part of an Indicated, and in some circumstances, a Measured Mineral Resource. Measured Resources may be downgraded to Probable (rather than Proved) when Modifying Factor uncertainties reduce confidence in the economic extraction (Clause 32). Inferred Resources can never convert to any Reserve category. This dual source pathway for Probable is an important but commonly misunderstood aspect of JORC.",
+    "key_concept": "Probable Reserve can come from Indicated OR Measured Resources",
+    "source": "JORC Code 2012, Clauses 30, 32",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-06-004",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Under Clause 31, a Proved Ore Reserve can ONLY be derived from:",
+    "options": {
+      "A": "Indicated Mineral Resources",
+      "B": "Measured Mineral Resources",
+      "C": "A combination of Indicated and Measured",
+      "D": "Any Resource category with a completed Feasibility Study"
+    },
+    "correct": "B",
+    "explanation": "Clause 31 is explicit: a Proved Ore Reserve can only be derived from a Measured Mineral Resource. This is the strictest conversion pathway in the JORC framework. No amount of economic study or Modifying Factor analysis can promote an Indicated Resource to Proved — the geological confidence must first meet the Measured threshold. This ensures that the highest Reserve category reflects the highest geological confidence combined with demonstrated economic viability.",
+    "key_concept": "Proved Reserve requires Measured Resource — no exceptions",
+    "source": "JORC Code 2012, Clause 31",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-06-005",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Under Clause 32, an Indicated Mineral Resource can be converted to a Proved Ore Reserve when:",
+    "options": {
+      "A": "The Feasibility Study demonstrates strong economics",
+      "B": "The CP has high confidence in the Modifying Factors",
+      "C": "Never — Indicated cannot convert to Proved under any circumstances",
+      "D": "The deposit has been in production for more than 5 years"
+    },
+    "correct": "C",
+    "explanation": "Clause 32 establishes an absolute rule: an Indicated Mineral Resource may only be converted to a Probable Ore Reserve, never to a Proved Ore Reserve. This is one of the few hard classification boundaries in the JORC Code. Regardless of how strong the economics are or how confident the CP is in Modifying Factors, the geological confidence inherent in Indicated classification is insufficient for Proved status. Only Measured Resources have the pathway to Proved.",
+    "key_concept": "Indicated to Proved is FORBIDDEN — one of JORC's hard classification rules",
+    "source": "JORC Code 2012, Clause 32",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-06-006",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Which of the following is NOT one of the Modifying Factors that must be considered when converting Resources to Reserves?",
+    "options": {
+      "A": "Mining, processing, metallurgical, and infrastructure factors",
+      "B": "Economic, marketing, legal, and environmental factors",
+      "C": "Social and governmental factors",
+      "D": "Share price and investor sentiment factors"
+    },
+    "correct": "D",
+    "explanation": "The JORC Code's Modifying Factors include: mining, processing, metallurgical, infrastructure, economic, marketing, legal, environmental, social, and governmental factors. These are real-world technical and commercial considerations that determine whether extraction is viable. Share price and investor sentiment are market-driven metrics that fluctuate independently of a deposit's extractability and are not Modifying Factors. The economic factor relates to commodity prices, operating costs, and capital requirements — not equity market conditions.",
+    "key_concept": "Modifying Factors: mining, processing, metallurgical, infrastructure, economic, marketing, legal, environmental, social, governmental",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-06-007",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Under Clause 33, when reporting Ore Reserves, tonnages and grades should be:",
+    "options": {
+      "A": "Reported to the maximum number of decimal places available",
+      "B": "Reported to appropriate significant figures reflecting the order of accuracy of the estimate",
+      "C": "Always rounded to the nearest million tonnes",
+      "D": "Reported in imperial units for international comparability"
+    },
+    "correct": "B",
+    "explanation": "Clause 33, consistent with Clause 25 for Resources, requires that Ore Reserves be reported to appropriate significant figures reflecting the order of accuracy of the estimate. Over-precise reporting creates a false impression of accuracy. For example, reporting a Probable Reserve as 12,347,562 tonnes implies a precision that Reserve estimation simply cannot deliver. The number of significant figures should decrease as uncertainty increases — Proved may warrant more figures than Probable.",
+    "key_concept": "Reserve precision must match accuracy — no false precision through excessive significant figures",
+    "source": "JORC Code 2012, Clause 33",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-06-008",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Under Clause 34, a company reports 'Total Ore Reserve: 20 Mt at 1.5 g/t Au' without breaking down Proved and Probable categories. This is:",
+    "options": {
+      "A": "Acceptable because the total is what investors care about",
+      "B": "A violation — Ore Reserves must be reported by category (Proved and Probable), and if combined, the individual figures must also be shown",
+      "C": "Acceptable if the CP provides a footnote",
+      "D": "Required for ASX announcements to avoid confusion"
+    },
+    "correct": "B",
+    "explanation": "Clause 34 requires that Ore Reserves be reported by individual category. If a combined total is reported, the individual Proved and Probable figures must also be provided. This is essential for investor transparency — a Reserve that is 90% Probable carries different risk than one that is 90% Proved. Combining without breakdown obscures the confidence level and violates the Transparency principle. The same rule applies to Resource reporting under Clause 27.",
+    "key_concept": "Reserves must show Proved and Probable breakdown — combined totals need individual figures",
+    "source": "JORC Code 2012, Clause 34",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-009",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A Measured Mineral Resource is converted to a Probable (not Proved) Ore Reserve. Under Clause 32, the most likely reason is:",
+    "options": {
+      "A": "The CP made an error in classification",
+      "B": "Uncertainties in the Modifying Factors (such as mining dilution, metallurgical recovery, or permitting risk) reduced confidence below the Proved level",
+      "C": "JORC requires all first-time Reserves to be Probable",
+      "D": "The deposit has not been in production long enough"
+    },
+    "correct": "B",
+    "explanation": "Clause 32 explicitly allows a Measured Resource to be converted to a Probable (rather than Proved) Reserve when the application of Modifying Factors introduces uncertainties that the CP considers sufficient to reduce confidence. For example, a deposit with Measured geological confidence but uncertain metallurgical recovery, difficult ground conditions, or unresolved permitting issues may only justify Probable status. This 'downgrade' pathway recognises that high geological confidence does not automatically guarantee high confidence in economic extraction.",
+    "key_concept": "Measured may become Probable Reserve when Modifying Factor uncertainties reduce confidence",
+    "source": "JORC Code 2012, Clause 32",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-010",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A mining company has a copper deposit with a Measured Resource of 10 Mt and an Indicated Resource of 30 Mt. After a DFS, the CP declares a Proved Reserve of 8 Mt and a Probable Reserve of 20 Mt. What happened to the remaining tonnage?",
+    "options": {
+      "A": "It was lost due to rounding",
+      "B": "A portion of the Resource was excluded because it was not economically mineable after applying Modifying Factors (e.g., below cut-off, in pillars, or in sterilized zones)",
+      "C": "The CP made an error — all Resources should convert to Reserves",
+      "D": "The remaining tonnes automatically became Inferred"
+    },
+    "correct": "B",
+    "explanation": "Not all Mineral Resources convert to Ore Reserves. Application of Modifying Factors typically reduces the tonnage through: mining dilution and losses, pit shell or underground design constraints, pillar requirements, economic cut-off grade adjustments, metallurgical recovery factors, and exclusion of sterilized zones (under infrastructure, buffer zones, etc.). The 'shrinkage' from Resource to Reserve is normal and expected. Resources do not downgrade to Inferred — they simply remain as unconverted Resources.",
+    "key_concept": "Resource to Reserve conversion always involves tonnage reduction through Modifying Factors",
+    "source": "JORC Code 2012, Clauses 29-32",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-011",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "For a large bulk commodity deposit (e.g., iron ore), what extraction timeframe might the JORC Code contemplate as supporting 'reasonable prospects for eventual economic extraction'?",
+    "options": {
+      "A": "Maximum 5 years",
+      "B": "Maximum 10 years",
+      "C": "Up to 50+ years for bulk mineral deposits",
+      "D": "Timeframe is irrelevant to JORC assessment"
+    },
+    "correct": "C",
+    "explanation": "The JORC Code recognises that large bulk commodity deposits (iron ore, coal, bauxite) may have mine lives extending 50+ years, and the Resource/Reserve assessment should consider this full potential. For smaller, higher-grade deposits (e.g., underground gold), 10-15 years may be more typical. The timeframe influences the economic analysis, infrastructure amortisation, and long-term commodity price assumptions used in Modifying Factor assessment. The CP must ensure the assumed timeframe is realistic for the deposit type.",
+    "key_concept": "Bulk mineral deposits can have 50+ year extraction horizons; smaller deposits 10-15 years",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-012",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Which of the following is a valid conversion pathway under the JORC Code?",
+    "options": {
+      "A": "Inferred Resource → Probable Reserve",
+      "B": "Indicated Resource → Proved Reserve",
+      "C": "Measured Resource → Probable Reserve",
+      "D": "Inferred Resource → Proved Reserve"
+    },
+    "correct": "C",
+    "explanation": "Of the four options, only Measured → Probable is valid under the JORC Code. Clause 32 allows this when Modifying Factor uncertainties reduce confidence below Proved level. Inferred Resources cannot convert to any Reserve (Clause 21). Indicated Resources can only convert to Probable, never Proved (Clause 32). The complete valid pathways are: Measured → Proved or Probable; Indicated → Probable only; Inferred → no Reserve conversion.",
+    "key_concept": "Valid Reserve pathways: Measured→Proved/Probable; Indicated→Probable only; Inferred→none",
+    "source": "JORC Code 2012, Clauses 30-32",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-013",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A CP is considering the 'legal' Modifying Factor for a Reserve estimate. Which of the following would be MOST relevant?",
+    "options": {
+      "A": "The company's corporate governance structure",
+      "B": "Mining tenement validity, native title agreements, and regulatory approvals required for extraction",
+      "C": "The CP's professional indemnity insurance coverage",
+      "D": "The company's listing rules compliance history"
+    },
+    "correct": "B",
+    "explanation": "The legal Modifying Factor relates to the legal framework enabling extraction: mining tenement security, native title and land access agreements, environmental approvals, water licences, and regulatory permits. If a tenement is disputed, or key approvals are unlikely to be granted, the Reserve may need to be reduced or removed entirely. Corporate governance, CP insurance, and listing compliance are important for other reasons but are not 'legal Modifying Factors' in the JORC sense.",
+    "key_concept": "Legal Modifying Factor covers tenement, approvals, permits, and land access",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-014",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A company's environmental approval for a tailings storage facility is under legal challenge. How should this affect the Ore Reserve estimate?",
+    "options": {
+      "A": "No impact — legal matters are separate from Reserve estimation",
+      "B": "The entire Reserve should be removed until the legal challenge is resolved",
+      "C": "The CP must assess the risk and may need to reduce or qualify the Reserve depending on the probability of approval being overturned",
+      "D": "The Reserve should be reclassified as an Inferred Resource"
+    },
+    "correct": "C",
+    "explanation": "Environmental and legal Modifying Factors directly affect Reserve viability. If the tailings facility approval is uncertain, the CP must assess the probability and impact. A minor challenge might warrant a risk disclosure; a serious challenge threatening the project's ability to operate could require a material Reserve reduction or removal of the portion dependent on that facility. Reserves cannot be reclassified as Inferred Resources — that would confuse geological confidence with economic viability assessments.",
+    "key_concept": "Permitting and legal risks must be reflected in Reserve estimates, not ignored",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-015",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A gold mining company reports Ore Reserves using a gold price assumption of US$3,200/oz, which is 40% above the current spot price. Under JORC, this is:",
+    "options": {
+      "A": "Acceptable because the CP has discretion over price assumptions",
+      "B": "Potentially non-compliant — the economic Modifying Factor requires commodity price assumptions to be reasonable and defensible, and a 40% premium above spot may not meet this test",
+      "C": "Required because Reserves must use long-term price forecasts",
+      "D": "Irrelevant because commodity prices are not a Modifying Factor"
+    },
+    "correct": "B",
+    "explanation": "The economic Modifying Factor requires that commodity price assumptions used in Reserve estimation be reasonable and defensible. While the JORC Code does not prescribe a specific price or methodology, using a price 40% above current spot would need strong justification (e.g., credible long-term consensus forecasts). If the Reserve only exists at inflated prices, it fails the economic viability test. Most practitioners use conservative price decks based on analyst consensus or 2-3 year trailing averages to ensure defensibility.",
+    "key_concept": "Reserve commodity price assumptions must be reasonable and defensible",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-016",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A copper-gold project has Measured Resources but metallurgical testwork shows only 60% copper recovery using a novel, unproven processing technology. The CP declares a Proved Reserve. What is the compliance concern?",
+    "options": {
+      "A": "60% recovery is too low for any Reserve",
+      "B": "The metallurgical Modifying Factor uncertainty from unproven technology should likely reduce confidence to Probable, even though the geological confidence is Measured",
+      "C": "Novel technology automatically disqualifies a project from Reserve status",
+      "D": "The CP should report 100% recovery and adjust later"
+    },
+    "correct": "B",
+    "explanation": "Clause 32 allows Measured Resources to be downgraded to Probable Reserves when Modifying Factor uncertainties reduce confidence. Unproven metallurgical technology introduces significant uncertainty in processing recovery, operating costs, and plant performance. While 60% recovery is not inherently disqualifying, the unproven nature of the technology means confidence in that recovery figure is low. A Probable Reserve (or no Reserve until proven) would be more defensible than Proved under these circumstances.",
+    "key_concept": "Unproven technology uncertainty should downgrade Measured from Proved to Probable Reserve",
+    "source": "JORC Code 2012, Clauses 29, 31, 32",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-017",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A company reports Ore Reserves but does not disclose the cut-off grade, commodity price assumptions, or mining method used. Under the JORC Code, this reporting is:",
+    "options": {
+      "A": "Acceptable if the CP signs the report",
+      "B": "Non-compliant — the Transparency principle and Table 1 require disclosure of key assumptions and parameters underpinning the Reserve estimate",
+      "C": "Acceptable for preliminary announcements",
+      "D": "Compliant if the information is in an appendix"
+    },
+    "correct": "B",
+    "explanation": "The Transparency principle (Clause 4) and Table 1 reporting requirements mandate that key assumptions, parameters, and methods used in Reserve estimation be disclosed. This includes cut-off grades, commodity price assumptions, mining method, metallurgical recovery, and other Modifying Factor inputs. Without these disclosures, investors cannot assess the robustness or sensitivity of the Reserve. A CP's signature does not substitute for transparent reporting of assumptions.",
+    "key_concept": "Reserves must disclose cut-off, price, mining method, and other key assumptions",
+    "source": "JORC Code 2012, Clauses 4, 29, Table 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-018",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "When reporting Ore Reserves, the JORC Code requires that Mineral Resources are reported:",
+    "options": {
+      "A": "Separately from and in addition to Ore Reserves",
+      "B": "Only if they exceed Ore Reserves",
+      "C": "As a combined Resource-Reserve figure",
+      "D": "Resources are suppressed once Reserves are declared"
+    },
+    "correct": "A",
+    "explanation": "The JORC Code requires that when Ore Reserves are reported, Mineral Resources should also be reported separately. Resources are NOT subsets that disappear when Reserves are declared — they represent the geological endowment, while Reserves represent the economically extractable portion. Reporting both allows investors to assess upside potential (Resources not yet converted to Reserves) and understand the relationship between geological confidence and economic viability.",
+    "key_concept": "Resources and Reserves are reported separately — Resources don't disappear when Reserves declared",
+    "source": "JORC Code 2012, Clauses 27, 34",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-019",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A mining operation has been running for 5 years with consistent reconciliation showing the Reserve model overestimates grade by 15%. Under JORC, the CP should:",
+    "options": {
+      "A": "Ignore reconciliation data as it is operational, not geological",
+      "B": "Apply a 15% global reduction factor to reported grade without updating the model",
+      "C": "Review and update the Resource model and Reserve estimate to reflect the reconciliation data, investigating the cause of the discrepancy",
+      "D": "Continue reporting the original Reserve until it is fully depleted"
+    },
+    "correct": "C",
+    "explanation": "Reconciliation data is crucial feedback for Reserve validation. A consistent 15% grade overestimation over 5 years represents material information that must be addressed. The CP should investigate the cause (sampling bias, geological model error, mining dilution, etc.), update the Resource model, and re-estimate the Reserve. Clause 27 requires disclosure of material changes. Ignoring systematic reconciliation failures would breach the Competence and Materiality principles and mislead investors.",
+    "key_concept": "Persistent reconciliation discrepancies require Reserve model updates, not silence",
+    "source": "JORC Code 2012, Clauses 4, 5, 27, 29",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-020",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A project's social Modifying Factor assessment reveals strong community opposition to the mine, with pending legal injunctions. How should this affect Reserve reporting?",
+    "options": {
+      "A": "Social factors are irrelevant to Reserve estimation",
+      "B": "The CP should disclose the social risk but maintain the Reserve unchanged",
+      "C": "The CP must assess whether the opposition materially threatens the ability to extract the Reserve and adjust the estimate accordingly, potentially reducing or removing affected portions",
+      "D": "The Reserve should be increased to show the company's commitment to the project"
+    },
+    "correct": "C",
+    "explanation": "Social factors are explicitly listed as Modifying Factors under the JORC Code. If community opposition and legal injunctions threaten the ability to obtain necessary permits, access land, or operate the mine, this directly impacts whether the mineral can be 'economically mineable' — the core definition of an Ore Reserve (Clause 29). The CP must make an honest assessment of the risk. A material social licence threat could require Reserve reduction, qualification, or in extreme cases, removal pending resolution.",
+    "key_concept": "Social licence risk is a Modifying Factor that can materially reduce Ore Reserves",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-021",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "An underground mine has a Proved Reserve based on Measured Resources. After a major ground failure event, the CP reassesses the mining Modifying Factor. The most appropriate action is:",
+    "options": {
+      "A": "Maintain the Proved Reserve as the geological confidence hasn't changed",
+      "B": "Remove the entire Reserve pending investigation",
+      "C": "Downgrade the affected portion from Proved to Probable Reserve, reflecting increased mining uncertainty, while maintaining geological classification",
+      "D": "Reclassify the Resource from Measured to Indicated"
+    },
+    "correct": "C",
+    "explanation": "A major ground failure affects the mining Modifying Factor, not the geological confidence. The Resource remains Measured (geological evidence hasn't changed), but the Reserve confidence in the affected zone should be downgraded from Proved to Probable under Clause 32, reflecting increased uncertainty in the ability to safely and economically extract the material. This exemplifies the important distinction: geological confidence determines Resource category, while Modifying Factor confidence determines Reserve category.",
+    "key_concept": "Mining events affect Reserve category (Modifying Factor) not Resource category (geological)",
+    "source": "JORC Code 2012, Clauses 29, 31, 32",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-022",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A government changes the mining royalty rate from 5% to 15% after a Reserve is declared. Under JORC, the CP must:",
+    "options": {
+      "A": "Ignore the change — Reserves use the assumptions at the date of estimation",
+      "B": "Assess whether the increased royalty materially affects the economic viability and update the Reserve accordingly",
+      "C": "Automatically remove 10% of the Reserve to match the royalty increase",
+      "D": "Request the government reverse the change before updating"
+    },
+    "correct": "B",
+    "explanation": "The governmental Modifying Factor includes fiscal terms such as royalties. A tripling of the royalty rate is a material change that could render marginal portions of the Reserve uneconomic. Clause 27 requires disclosure of material changes, and the CP must reassess the Reserve using the new royalty rate. The impact depends on the project's cost structure — a high-margin deposit may absorb the increase, while a marginal deposit may see significant Reserve reductions. The assessment must be quantitative and transparent.",
+    "key_concept": "Government fiscal changes are Modifying Factors requiring Reserve reassessment",
+    "source": "JORC Code 2012, Clauses 27, 29",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-023",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Which statement about the relationship between Mineral Resources and Ore Reserves is correct under JORC?",
+    "options": {
+      "A": "Ore Reserves are always a subset of Mineral Resources",
+      "B": "Mineral Resources and Ore Reserves are independent estimates with no relationship",
+      "C": "Ore Reserves always exceed Mineral Resources due to mining dilution",
+      "D": "Mineral Resources must be converted to Reserves within 3 years"
+    },
+    "correct": "A",
+    "explanation": "Ore Reserves are by definition derived from Mineral Resources (Measured and/or Indicated) through application of Modifying Factors. Therefore, Reserves are always a subset of — and cannot exceed — the underlying Resources. Mining dilution adds waste material but does not increase the recoverable mineral content. There is no time limit for conversion. The Resource represents the total geological endowment; the Reserve represents the portion that can be profitably extracted under current assumptions.",
+    "key_concept": "Ore Reserves are always a subset of Mineral Resources, never exceeding them",
+    "source": "JORC Code 2012, Clauses 29-31",
+    "difficulty": 1
+  },
+  {
+    "id": "jorc-06-024",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A CP is estimating Ore Reserves for a greenfields project with no production history. The infrastructure Modifying Factor assessment should include:",
+    "options": {
+      "A": "Only the processing plant design",
+      "B": "Access roads, power supply, water supply, port facilities, accommodation, and tailings storage — all infrastructure required for extraction",
+      "C": "Infrastructure is not a Modifying Factor for greenfields projects",
+      "D": "Only infrastructure within the mining lease boundary"
+    },
+    "correct": "B",
+    "explanation": "The infrastructure Modifying Factor requires assessment of ALL infrastructure needed for economic extraction, not just the processing plant. For a greenfields project, this includes: access roads, power supply (grid connection or generation), water supply and management, port or rail facilities for product transport, worker accommodation, tailings storage, and any community infrastructure commitments. The cost and feasibility of this infrastructure directly affects whether the deposit is economically mineable (Clause 29).",
+    "key_concept": "Infrastructure Modifying Factor covers ALL project infrastructure, not just the processing plant",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-025",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A CP declares an Ore Reserve using a mine plan with a 30-year life for a small underground gold deposit. A peer reviewer would most likely challenge this because:",
+    "options": {
+      "A": "30 years exceeds the JORC maximum mine life of 20 years",
+      "B": "Small underground gold deposits typically have 10-15 year extraction timeframes, and a 30-year plan may not demonstrate realistic economic extraction within a reasonable period",
+      "C": "JORC prohibits mine plans exceeding 25 years",
+      "D": "Underground deposits cannot have mine lives over 15 years"
+    },
+    "correct": "B",
+    "explanation": "While there is no absolute maximum mine life in JORC, the extraction timeframe must be realistic and economically supportable. Small underground gold deposits typically have 10-15 year mine lives due to the capital-intensive nature of underground mining and the relatively concentrated mineralisation. A 30-year plan for such a deposit might indicate that marginal material has been included to inflate the Reserve, or that the production rate is unrealistically low. The peer reviewer would question whether the economic assumptions hold over such an extended period.",
+    "key_concept": "Mine life must be realistic: 50+ years for bulk minerals, 10-15 years for small underground deposits",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-026",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "When commodity prices drop significantly, what is the expected impact on Ore Reserves under JORC?",
+    "options": {
+      "A": "No impact — Reserves are fixed geological quantities",
+      "B": "Reserves automatically reduce proportionally to the price drop",
+      "C": "The CP must reassess the Reserve, and material previously above the economic cut-off may fall below it, reducing the Reserve estimate",
+      "D": "Reserves convert back to Inferred Resources"
+    },
+    "correct": "C",
+    "explanation": "Ore Reserves are economic estimates, not fixed geological quantities. When commodity prices drop, the economic cut-off grade increases, and material that was previously above the cut-off may fall below it. The CP must reassess the Reserve using updated price assumptions. The reduction is not automatic or proportional — it depends on the grade distribution, cost structure, and sensitivity of the deposit. Material removed from the Reserve reverts to its Resource category (Measured or Indicated), not to Inferred.",
+    "key_concept": "Price drops may reduce Reserves as cut-off grades rise — material reverts to Resource, not Inferred",
+    "source": "JORC Code 2012, Clauses 27, 29",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-027",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A marketing Modifying Factor assessment for an iron ore Reserve should consider:",
+    "options": {
+      "A": "Only the current spot price for iron ore",
+      "B": "Product specifications, market demand, offtake agreements, transport logistics, and customer requirements",
+      "C": "The company's advertising budget",
+      "D": "Only the grade of the iron ore"
+    },
+    "correct": "B",
+    "explanation": "The marketing Modifying Factor goes beyond price to encompass the full commercial chain: product quality specifications (lump vs fines, impurity penalties), market demand and competition, existing or potential offtake agreements, transport logistics to market, and customer requirements. For iron ore specifically, alumina and phosphorus penalties, moisture content, and sizing distribution are critical marketing factors that affect the realised price and hence the economic viability of the Reserve.",
+    "key_concept": "Marketing Modifying Factor covers product specs, demand, offtakes, and logistics — not just price",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-028",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A CP estimates an Ore Reserve for a deposit in a country experiencing political instability and the threat of resource nationalisation. Under JORC, the governmental Modifying Factor requires the CP to:",
+    "options": {
+      "A": "Ignore sovereign risk as it is a political, not technical, matter",
+      "B": "Remove the entire Reserve from reporting",
+      "C": "Assess the sovereign risk, consider its impact on the ability to extract the Reserve, disclose the risk, and potentially qualify or reduce the Reserve",
+      "D": "Apply a standard 20% sovereign risk discount to tonnage"
+    },
+    "correct": "C",
+    "explanation": "The governmental Modifying Factor explicitly includes sovereign risk, fiscal stability, and regulatory framework reliability. Political instability and nationalisation threats directly affect whether the deposit can be 'economically mineable' over the planned mine life. The CP must assess the probability and impact, disclose the risk transparently, and may need to qualify the Reserve statement or reduce the estimate for portions at highest risk. There is no standard discount — the assessment must be project-specific and defensible.",
+    "key_concept": "Sovereign and political risk must be assessed under the governmental Modifying Factor",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 3
+  }
+]
