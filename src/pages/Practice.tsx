@@ -83,6 +83,8 @@ export default function Practice() {
 
   const chapter = chapters.find(c => c.id === chapterId);
 
+  const chapterStats = chapterId ? getChapterStats(chapterId) : null;
+
   if (loading) {
     return <div className="text-center text-gray-500 mt-12">加载中...</div>;
   }
@@ -137,6 +139,12 @@ export default function Practice() {
     <div className="max-w-2xl mx-auto">
       <div className="flex items-center justify-between mb-2">
         <Link to="/practice" className="text-sm text-gray-500 hover:text-blue-600">← {chapter?.name}</Link>
+        <div className="flex items-center gap-3 text-xs text-gray-400">
+          {chapterStats && chapterStats.total > 0 && (
+            <span>历史正确率: {chapterStats.accuracy}%</span>
+          )}
+          <Link to={`/concepts/${chapterId}`} className="text-blue-500 hover:underline">知识点</Link>
+        </div>
       </div>
       <ProgressBar current={currentIndex} total={questions.length} correct={correctCount} />
       <QuestionCard
