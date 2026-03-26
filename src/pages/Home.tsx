@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { chapters, jorcChapters, goldChapters } from '../data/chapters';
 import { useProgress, calcAccuracy } from '../hooks/useProgress';
 import { useErrorBook } from '../hooks/useErrorBook';
+import { storage } from '../lib/storage';
 
 function aggregateStats(chs: typeof jorcChapters, getStats: (id: string) => { total: number; correct: number }) {
   let total = 0, correct = 0;
@@ -12,6 +14,7 @@ function aggregateStats(chs: typeof jorcChapters, getStats: (id: string) => { to
 export default function Home() {
   const { getChapterStats, totalAnswered, overallAccuracy, dailyStreak, getWeakChapters, todayCount } = useProgress();
   const { dueEntries } = useErrorBook();
+  const [readConcepts] = useState(() => storage.get<string[]>('read_concepts', []));
   const allChapterIds = chapters.map(c => c.id);
   const weakChapters = getWeakChapters(allChapterIds);
 
@@ -24,22 +27,22 @@ export default function Home() {
 
       {/* Domain cards */}
       <div className="grid grid-cols-2 gap-4 mb-6">
-        <div className="bg-white rounded-lg border border-gray-200 p-4">
+        <Link to="/concepts" className="bg-white rounded-lg border border-gray-200 p-4 hover:border-blue-300 transition-colors">
           <div className="font-medium text-gray-800 mb-1">JORC Code</div>
-          <div className="text-sm text-gray-500">{jorcChapters.length} 章</div>
+          <div className="text-sm text-gray-500">{jorcChapters.length} 章 · 已读 {readConcepts.filter(id => id.startsWith('jorc')).length}</div>
           <div className="text-sm text-gray-500">
             已做 {jorcStats.total} 题
             {jorcStats.total > 0 && ` · ${calcAccuracy(jorcStats.correct, jorcStats.total)}%`}
           </div>
-        </div>
-        <div className="bg-white rounded-lg border border-gray-200 p-4">
+        </Link>
+        <Link to="/concepts" className="bg-white rounded-lg border border-gray-200 p-4 hover:border-blue-300 transition-colors">
           <div className="font-medium text-gray-800 mb-1">Gold Exploration</div>
-          <div className="text-sm text-gray-500">{goldChapters.length} 章</div>
+          <div className="text-sm text-gray-500">{goldChapters.length} 章 · 已读 {readConcepts.filter(id => id.startsWith('gold')).length}</div>
           <div className="text-sm text-gray-500">
             已做 {goldStats.total} 题
             {goldStats.total > 0 && ` · ${calcAccuracy(goldStats.correct, goldStats.total)}%`}
           </div>
-        </div>
+        </Link>
       </div>
 
       {/* Today's progress & streak */}
