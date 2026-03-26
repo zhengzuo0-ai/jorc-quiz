@@ -107,17 +107,25 @@ export default function Practice() {
         </h2>
         <div className="bg-white rounded-lg border border-gray-200 p-6">
           <div className="text-sm text-gray-600 mb-2">
-            总题数: {questions.length}
+            总题数: {questions.length} · 正确: {correctCount} · 正确率: {Math.round((correctCount / questions.length) * 100)}%
           </div>
-          <div className="text-sm text-gray-600 mb-2">
-            正确: {correctCount} · 正确率: {Math.round((correctCount / questions.length) * 100)}%
-          </div>
+          {chapterStats && chapterStats.total > 0 && (
+            <div className="text-xs text-gray-500 mb-3">
+              累计: {chapterStats.total} 题 · 总正确率 {chapterStats.accuracy}%
+            </div>
+          )}
           <div className="flex gap-3 mt-4">
             <Link
               to="/practice"
               className="px-4 py-2 text-sm border border-gray-200 rounded hover:bg-gray-50"
             >
               ← 返回章节
+            </Link>
+            <Link
+              to={`/concepts/${chapterId}`}
+              className="px-4 py-2 text-sm border border-blue-200 text-blue-600 rounded hover:bg-blue-50"
+            >
+              看知识点
             </Link>
             <button
               onClick={() => {
