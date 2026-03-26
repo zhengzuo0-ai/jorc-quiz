@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { chapters, jorcChapters, goldChapters } from '../data/chapters';
+import { chapters, jorcChapters, goldChapters, industryChapters } from '../data/chapters';
 import { storage } from '../lib/storage';
 
 export default function Concepts() {
@@ -97,6 +97,27 @@ export default function Concepts() {
             ))}
           </div>
         </div>
+
+        {industryChapters.length > 0 && (
+          <div className="mt-6">
+            <h2 className="text-sm font-medium text-gray-600 mb-2">Industry Knowledge 行业知识</h2>
+            <div className="flex flex-col gap-1">
+              {industryChapters.map(ch => (
+                <Link
+                  key={ch.id}
+                  to={`/concepts/${ch.id}`}
+                  className="flex items-center justify-between bg-white rounded border border-gray-200 px-4 py-3 hover:border-blue-400 transition-colors"
+                >
+                  <div>
+                    <div className="text-sm text-gray-800">{ch.name}</div>
+                    <div className="text-xs text-gray-500">{ch.nameEn}</div>
+                  </div>
+                  <span className="text-xs">{readChapters.includes(ch.id) ? <span className="text-green-500">已读</span> : <span className="text-gray-400">→</span>}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     );
   }

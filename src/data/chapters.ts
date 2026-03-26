@@ -31,5 +31,10 @@ export const chapters: Chapter[] = [
   { id: 'gold-13', domain: 'gold', name: '钻探技术', nameEn: 'Drilling', description: 'RC vs Diamond Core, 规划、QA/QC、成本', questionCount: 0 },
 ];
 
+// Industry knowledge chapters (no quiz questions, concept-only)
+export const industryChapters: Chapter[] = [
+  { id: 'gold-industry-01', domain: 'gold', name: '顶级金矿公司', nameEn: 'Top Gold Companies & Country Analysis', description: 'Newmont, Barrick, B2Gold, Endeavour + 马里/老挝深度分析', questionCount: 0 },
+];
+
 export const jorcChapters = chapters.filter(c => c.domain === 'jorc');
 export const goldChapters = chapters.filter(c => c.domain === 'gold');
