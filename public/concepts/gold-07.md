@@ -1,9 +1,16 @@
 # 选矿方法 Gold Processing & Beneficiation
 
+*参考资料: [911Metallurgist - Gold CIL Process](https://www.911metallurgist.com/blog/gold-cil-process-explained/), [Mining Pedia - CIP vs CIL](https://www.miningpedia.net/news/gold-extraction-process/what-are-the-differences-between-cip-and-cil.html)*
+
+## 通俗理解 Layman's Guide
+
+> **简单来说**: 选矿就像做果汁——先把水果（矿石）切碎、榨汁（溶解金），然后过滤掉果渣（废石），最后浓缩得到纯果汁（纯金）。只不过矿石里的"金汁"含量极低——一吨矿石里可能只有几克金。
+
 ## 选矿流程概述 Processing Flowsheet Overview
 
 ```
 矿石 (ROM) → 破碎 Crushing → 磨矿 Grinding → 分选 Separation → 精炼 Refining
+                (切碎)           (磨成粉)         (提取金)           (提纯)
 ```
 
 ## 破碎与磨矿 Comminution
@@ -68,21 +75,30 @@
 
 **最重要的金回收方法**，全球约 **80%** 的金通过氰化法提取。
 
+> **泡茶类比 Tea Analogy**: 氰化浸出就像泡茶——把茶叶（磨细的矿石）放入热水（氰化钠溶液）中，茶的味道（金）会溶入水中，而茶渣（废石）留在底部。氰化钠就是那个让金"溶解"到液体中的魔法溶剂。
+
 ### 化学原理 Chemistry
 ```
 4Au + 8NaCN + O₂ + 2H₂O → 4Na[Au(CN)₂] + 4NaOH
+（金 + 氰化钠 + 氧 + 水 → 金氰化物溶液 + 氢氧化钠）
 ```
 - 金溶于碱性氰化钠溶液 (pH 10-11)
 - 需要氧的参与 (通常鼓入空气)
 - 反应速度受: 金粒度、NaCN浓度、O₂供给、pH、温度影响
 
 ### CIL 炭浸法 Carbon-in-Leach
-- 浸出和吸附**同时进行**
+
+> **通俗理解**: 想象你在泡茶的同时，往茶杯里放了活性炭。茶味（金）一溶出来就立刻被活性炭吸走。"边泡边吸"。
+
+- 浸出（溶金）和吸附（收金）**同时进行**
 - 活性炭直接加入浸出槽中
-- 优势: 适合含"劫金"矿物的矿石 (preg-robbing)
-- 最常用方法
+- 优势: 适合含"劫金"矿物的矿石 (preg-robbing — 矿石中的碳质会抢走溶液中的金，CIL能抢先吸走)
+- **最常用方法** — 现代金矿的标配
 
 ### CIP 炭浆法 Carbon-in-Pulp
+
+> **通俗理解**: 先把茶泡好（金全部溶出），然后再放入活性炭吸附。"先泡后吸"。
+
 - 先浸出，后吸附
 - 浸出在前面的搅拌槽中完成
 - 含金溶液流入后面的吸附槽
