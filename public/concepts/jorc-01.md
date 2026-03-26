@@ -1,6 +1,12 @@
 # JORC 三大原则 The Three Principles of JORC
 
+*官方文件: [JORC Code 2012 Edition](https://www.jorc.org/docs/JORC_code_2012.pdf) | [ASX Listing Rules Chapter 5](https://www.asx.com.au/)*
+
 ## 概述 Overview
+
+**JORC Code** (Joint Ore Reserves Committee Code) 是澳大利亚/亚太地区矿业公开报告的行业标准，已被纳入ASX（澳大利亚证券交易所）上市规则，因此对所有ASX上市矿业公司具有**法律约束力**。
+
+现行版本为 **2012版**（2012年12月20日起生效），目前正在修订中，预计2025年发布新版。
 
 JORC Code 2012 建立在三大核心原则之上，这是所有矿业公开报告的基础。
 

@@ -71,25 +71,31 @@
 
 **为什么PMH要关注B2Gold?**
 - B2Gold的旗舰矿山 **Fekola** 位于**马里南部**
-- 年产量 ~600,000 oz Au，AISC仅 ~$850/oz
-- 是世界上成本最低的大型金矿之一
+- 2024年产量: 420,000-450,000 oz Au (原计划470-500k oz，因设备问题下调)
+- 2025年指导产量: **515,000-550,000 oz** (含Fekola Underground新增)
+- AISC: $1,510-1,570/oz (2024年，受设备和税务影响上升)
+
+*数据来源: [B2Gold官方新闻稿 2024](https://www.b2gold.com/operations-projects/producing/fekola-mine-mali/), [Mining Weekly 2024](https://www.miningweekly.com/article/b2gold-lowers-fekola-guidance-for-2024-2024-08-12)*
 
 **发家历史:**
 - 2007年由 **Clive Johnson** 创立
 - 从小型勘探公司起步
-- 通过发现和收购优质项目成长
 - Fekola矿: 2009年收购时只是勘探项目 → 2017年投产 → 成为Tier 1资产
 
-**马里运营经验:**
-- 在马里政治不稳定环境下成功运营
-- 与当地社区建立良好关系
-- 雇佣96%以上本地员工
-- 社区发展项目: 学校、医院、水井
+**2024-2025 关键进展:**
+- 2024年9月: 与马里政府达成Fekola Complex框架协议
+  - 解决了采矿审计、所得税和关税审计的遗留问题
+  - 同意对燃油进口缴税，但获得2%收入税和权利金减免作为抵消
+  - 马里政府持股20%
+- 2024年11-12月: 经历短暂罢工事件，但选矿厂持续满负荷运转
+- **2025年7月**: 马里政府批准Fekola地下开采！已完成9,300+米的开拓工程
+- Fekola Regional预计2026-2029年每年额外增产约180,000盎司
 
-**PMH可学习的:**
-- 如何在西非高风险国家成功运营
-- 社区关系管理的最佳实践
-- 从勘探到生产的项目推进经验
+**马里运营经验 (PMH必学):**
+- 在政治不稳定环境下维持运营的能力 (2020、2021年军事政变后仍正常生产)
+- 与当地社区建立良好关系 — 雇佣96%以上本地员工
+- 灵活应对政策变化 — 2023年马里新矿业法的适应策略
+- 社区发展项目: 学校、医院、水井
 
 ### Endeavour Mining — 西非之王
 
@@ -112,7 +118,9 @@
 
 ## 关注国家深度分析 Country Deep Dives
 
-### 马里 Mali — 非洲第三大黄金生产国
+### 马里 Mali — 非洲第三大黄金生产国 (约100吨/年)
+
+*数据来源: [World Gold Council](https://www.gold.org/goldhub/data/gold-production-by-country), [USGS MCS 2025](https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-gold.pdf)*
 
 **黄金地质概况:**
 - 位于**西非克拉通 (West African Craton)** 的 Birimian 绿岩带

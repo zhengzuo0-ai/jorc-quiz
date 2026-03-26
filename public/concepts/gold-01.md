@@ -54,11 +54,21 @@
 ## 全球黄金资源概况 Global Gold Resources
 
 ### 主要产金国 Top Producing Countries (2024)
-1. 中国 China (~370 t/yr)
-2. 澳大利亚 Australia (~310 t/yr)
-3. 俄罗斯 Russia (~310 t/yr)
+
+*数据来源: [World Gold Council](https://www.gold.org/goldhub/data/gold-production-by-country), [USGS MCS 2025](https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-gold.pdf)*
+
+全球矿产金总产量约 **3,660吨** (2024年)。
+
+1. 中国 China (~380 t/yr) — 占全球约10%
+2. 俄罗斯 Russia (~330 t/yr)
+3. 澳大利亚 Australia (~284 t/yr)
 4. 加拿大 Canada (~200 t/yr)
-5. 美国 USA (~170 t/yr)
+5. 美国 USA (~160 t/yr) — 其中内华达州占70%
+
+**非洲主要产金国:**
+- 加纳 Ghana (~141 t) — 非洲第一
+- 马里 Mali (~100 t) — 非洲第三
+- 南非 South Africa (~99 t) — 曾经的世界第一，现已下滑
 
 ### 著名金矿类型 Major Deposit Types
 - **造山型 Orogenic** — 全球最重要的金矿类型，产于变质岩中

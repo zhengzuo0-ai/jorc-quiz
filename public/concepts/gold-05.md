@@ -1,8 +1,12 @@
 # 物探·化探·遥感方法原理 Geophysics, Geochemistry & Remote Sensing
 
+*参考资料: [Farmonaut - Geophysical Methods for Gold Exploration](https://farmonaut.com/mining/geophysical-methods-for-gold-exploration-top-5-techniques), [AGI - Introduction to IP Surveying](https://www.agiusa.com/introduction-to-induced-polarization-surveying), [Rangefront - IP Studies](https://rangefront.com/blog/induced-polarization-studies/)*
+
 ## 物探方法 Geophysical Methods
 
 物探 (地球物理勘探) 通过测量岩石和矿物的**物理性质差异**来寻找地下矿体。
+
+> **关键认知**: 物探**不能直接探测到金**（因为金的品位太低，即使10 g/t的高品位矿石也只含百万分之十的金）。但金常常与硫化物矿物（黄铁矿、毒砂）伴生，而这些矿物具有可探测的物理性质。所以物探是**间接找金**。
 
 ### 磁法勘探 Magnetic Survey
 
