@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import type { ErrorEntry } from '../types';
 import { storage } from '../lib/storage';
 import { calculateNextReview, isDueForReview } from '../lib/spaced-repetition';
@@ -53,8 +53,8 @@ export function useErrorBook() {
     });
   }, []);
 
-  const dueEntries = entries.filter(isDueForReview);
-  const activeEntries = entries.filter(e => !e.mastered);
+  const dueEntries = useMemo(() => entries.filter(isDueForReview), [entries]);
+  const activeEntries = useMemo(() => entries.filter(e => !e.mastered), [entries]);
 
   return { entries, activeEntries, dueEntries, addError, reviewAnswer };
 }

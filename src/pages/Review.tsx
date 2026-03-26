@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import type { Question } from '../types';
 import { chapters } from '../data/chapters';
 import { useErrorBook } from '../hooks/useErrorBook';
@@ -157,11 +158,16 @@ export default function Review() {
                   <div className="text-gray-700 font-mono text-xs">{entry.questionId}</div>
                   <div className="text-xs text-gray-500">{chapter?.name}</div>
                 </div>
-                <div className="flex justify-between mt-1 text-xs text-gray-500">
+                <div className="flex justify-between items-center mt-1 text-xs text-gray-500">
                   <span>错误 {entry.wrongCount} 次</span>
-                  <span className={isOverdue ? 'text-red-500' : ''}>
-                    下次复习: {nextDate.toLocaleDateString('zh-CN')}
-                  </span>
+                  <div className="flex items-center gap-2">
+                    <Link to={`/concepts/${entry.chapterId}`} className="text-blue-500 hover:underline" onClick={e => e.stopPropagation()}>
+                      知识点
+                    </Link>
+                    <span className={isOverdue ? 'text-red-500' : ''}>
+                      {nextDate.toLocaleDateString('zh-CN')}
+                    </span>
+                  </div>
                 </div>
               </div>
             );
