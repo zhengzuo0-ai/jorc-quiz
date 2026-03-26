@@ -53,18 +53,15 @@ export default function Practice() {
   const handleNext = useCallback(() => {
     const nextIdx = currentIndex + 1;
     if (nextIdx >= questions.length) {
-      // Build result - compute from current state
-      const answered = nextIdx;
-      // correctCount is already updated by handleAnswer before handleNext fires
       setResult({
-        total: answered,
-        correct: correctCount + (questions[currentIndex] ? 0 : 0), // correctCount is already final
+        total: nextIdx,
+        correct: correctCount,
         wrong: [],
       });
     } else {
       setCurrentIndex(nextIdx);
     }
-  }, [currentIndex, questions.length, correctCount]);
+  }, [currentIndex, questions, correctCount]);
 
   // Chapter selection view
   if (!chapterId) {
