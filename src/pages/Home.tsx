@@ -12,7 +12,7 @@ function aggregateStats(chs: typeof jorcChapters, getStats: (id: string) => { to
 }
 
 export default function Home() {
-  const { getChapterStats, totalAnswered, overallAccuracy, dailyStreak, getWeakChapters, todayCount } = useProgress();
+  const { getChapterStats, overallAccuracy, dailyStreak, getWeakChapters, todayCount } = useProgress();
   const { dueEntries } = useErrorBook();
   const [readConcepts] = useState(() => storage.get<string[]>('read_concepts', []));
   const allChapterIds = chapters.map(c => c.id);
@@ -23,44 +23,48 @@ export default function Home() {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <h1 className="text-xl font-semibold text-gray-800 mb-6">JORC Quiz</h1>
-
-      {/* Domain cards */}
-      <div className="grid grid-cols-2 gap-4 mb-6">
-        <Link to="/concepts" className="bg-white rounded-lg border border-gray-200 p-4 hover:border-blue-300 transition-colors">
-          <div className="font-medium text-gray-800 mb-1">JORC Code</div>
-          <div className="text-sm text-gray-500">{jorcChapters.length} 章 · 已读 {readConcepts.filter(id => id.startsWith('jorc')).length}</div>
-          <div className="text-sm text-gray-500">
-            已做 {jorcStats.total} 题
-            {jorcStats.total > 0 && ` · ${calcAccuracy(jorcStats.correct, jorcStats.total)}%`}
+      {/* Hero section */}
+      <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-5 mb-6 text-white">
+        <h1 className="text-lg font-semibold mb-1">JORC Quiz</h1>
+        <p className="text-blue-100 text-sm mb-4">矿业知识学习平台 · Mining Knowledge Platform</p>
+        <div className="grid grid-cols-3 gap-3">
+          <div className="bg-white/15 rounded-lg p-3 text-center">
+            <div className="text-2xl font-bold">{dailyStreak}</div>
+            <div className="text-xs text-blue-200">连续天数</div>
           </div>
-        </Link>
-        <Link to="/concepts" className="bg-white rounded-lg border border-gray-200 p-4 hover:border-blue-300 transition-colors">
-          <div className="font-medium text-gray-800 mb-1">Gold Exploration</div>
-          <div className="text-sm text-gray-500">{goldChapters.length} 章 · 已读 {readConcepts.filter(id => id.startsWith('gold')).length}</div>
-          <div className="text-sm text-gray-500">
-            已做 {goldStats.total} 题
-            {goldStats.total > 0 && ` · ${calcAccuracy(goldStats.correct, goldStats.total)}%`}
+          <div className="bg-white/15 rounded-lg p-3 text-center">
+            <div className="text-2xl font-bold">{todayCount}</div>
+            <div className="text-xs text-blue-200">今日做题</div>
           </div>
-        </Link>
-      </div>
-
-      {/* Today's progress & streak */}
-      <div className="bg-white rounded-lg border border-gray-200 p-4 mb-4">
-        <div className="flex items-center justify-between">
-          <div>
-            <div className="text-sm text-gray-600">
-              今日已做 <span className="font-medium text-gray-800">{todayCount}</span> 题
-            </div>
-            <div className="text-sm text-gray-600">
-              总进度: {totalAnswered} 题 · 正确率 {overallAccuracy}%
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-orange-500">{dailyStreak}</div>
-            <div className="text-xs text-gray-500">连续天数</div>
+          <div className="bg-white/15 rounded-lg p-3 text-center">
+            <div className="text-2xl font-bold">{overallAccuracy}%</div>
+            <div className="text-xs text-blue-200">正确率</div>
           </div>
         </div>
+      </div>
+
+      {/* Domain cards */}
+      <div className="grid grid-cols-2 gap-3 mb-5">
+        <Link to="/concepts" className="bg-white rounded-xl border border-gray-200 p-4 hover:shadow-md transition-shadow">
+          <div className="text-xs text-blue-600 font-medium mb-1">JORC Code</div>
+          <div className="flex items-baseline gap-1">
+            <span className="text-lg font-bold text-gray-800">{readConcepts.filter(id => id.startsWith('jorc')).length}</span>
+            <span className="text-xs text-gray-400">/{jorcChapters.length} 章已读</span>
+          </div>
+          <div className="text-xs text-gray-500 mt-1">
+            {jorcStats.total} 题{jorcStats.total > 0 ? ` · ${calcAccuracy(jorcStats.correct, jorcStats.total)}%` : ''}
+          </div>
+        </Link>
+        <Link to="/concepts" className="bg-white rounded-xl border border-gray-200 p-4 hover:shadow-md transition-shadow">
+          <div className="text-xs text-amber-600 font-medium mb-1">Gold Exploration</div>
+          <div className="flex items-baseline gap-1">
+            <span className="text-lg font-bold text-gray-800">{readConcepts.filter(id => id.startsWith('gold')).length}</span>
+            <span className="text-xs text-gray-400">/{goldChapters.length} 章已读</span>
+          </div>
+          <div className="text-xs text-gray-500 mt-1">
+            {goldStats.total} 题{goldStats.total > 0 ? ` · ${calcAccuracy(goldStats.correct, goldStats.total)}%` : ''}
+          </div>
+        </Link>
       </div>
 
       {/* Action items */}
