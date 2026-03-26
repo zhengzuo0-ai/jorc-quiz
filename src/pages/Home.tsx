@@ -70,6 +70,33 @@ export default function Home() {
         </Link>
       )}
 
+      {/* Smart recommendation */}
+      {(() => {
+        // Find chapters not yet attempted or with few attempts
+        const untried = chapters.filter(c => c.questionCount > 0 && getChapterStats(c.id).total === 0);
+        const needsPractice = chapters.filter(c => {
+          const s = getChapterStats(c.id);
+          return c.questionCount > 0 && s.total > 0 && s.total < 10;
+        });
+        const recommended = untried.length > 0 ? untried[0] : needsPractice[0];
+        if (!recommended) return null;
+        return (
+          <Link
+            to={untried.length > 0 ? `/concepts/${recommended.id}` : `/practice/${recommended.id}`}
+            className="block bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 mb-3 hover:bg-blue-100"
+          >
+            <div className="text-sm text-blue-800 font-medium">
+              {untried.length > 0 ? '推荐学习' : '继续练习'}: {recommended.name} →
+            </div>
+            <div className="text-xs text-blue-600 mt-0.5">
+              {untried.length > 0
+                ? `还有 ${untried.length} 个章节未开始，先看看知识点吧`
+                : `已做 ${getChapterStats(recommended.id).total} 题，建议多做几道巩固`}
+            </div>
+          </Link>
+        );
+      })()}
+
       {weakChapters.length > 0 && (
         <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 mb-4">
           <div className="text-sm text-red-800 font-medium mb-1">
