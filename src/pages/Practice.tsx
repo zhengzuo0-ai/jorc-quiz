@@ -226,7 +226,7 @@ export default function Practice() {
               {questions.length} 题 · 正确 {correctCount}
             </div>
           </div>
-          <div className="flex gap-3 justify-center">
+          <div className="flex flex-wrap gap-3 justify-center">
             <Link
               to="/practice"
               className="px-5 py-2.5 text-sm font-medium rounded-lg transition-all duration-200"
@@ -235,6 +235,13 @@ export default function Practice() {
               onMouseLeave={e => { e.currentTarget.style.background = ''; }}
             >
               ← 返回章节
+            </Link>
+            <Link
+              to={`/concepts/${chapterId}`}
+              className="px-5 py-2.5 text-sm font-medium rounded-lg transition-all duration-200"
+              style={{ border: '1px solid var(--gold)', color: 'var(--gold)' }}
+            >
+              📖 看知识点
             </Link>
             <button
               onClick={() => {
