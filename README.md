@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# JORC Quiz — Mining Knowledge Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A bilingual (Chinese/English) mining knowledge learning platform with quiz, spaced repetition, and comprehensive reference content. Built for business professionals entering the gold mining industry.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **31 Bilingual Concept Chapters** — JORC Code, gold exploration, processing, trading, industry analysis, country-specific regulations (Mali/Laos), all with verified source citations
+- **682 Quiz Questions** across 25 chapters with difficulty indicators
+- **Spaced Repetition** (SM-2 algorithm) — wrong answers auto-enter the error book with scheduled reviews based on forgetting curves
+- **Timed Exam Mode** — configurable domain, question count, and time limit with per-chapter accuracy breakdown
+- **Daily Streak & Progress Tracking** — streak counter, weak chapter alerts, smart learning recommendations
+- **Learning Notes** — daily journal for recording study progress
+- **200+ Term Glossary** — bilingual mining terminology reference
+- **5-Week Learning Path** — structured guide for business-background beginners
 
-## React Compiler
+## Knowledge Coverage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Module | Chapters | Sources |
+|---|---|---|
+| JORC Code | 8 | jorc.org, ASX, AusIMM |
+| Gold Technical | 13 | 911Metallurgist, Mining Pedia, USGS, WGC |
+| Industry Analysis | 6 | Newmont 10-K, Barrick, B2Gold, Endeavour FY-2024 |
+| Country Regulations | 2 | UNCTAD, Lexology, Lao Official Gazette |
+| Reference | 2 | Glossary + Learning Path |
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Layer | Choice |
+|---|---|
+| Framework | React 19 + TypeScript |
+| Build | Vite 8 |
+| Styling | Tailwind CSS v4 |
+| Routing | react-router-dom v7 |
+| Markdown | react-markdown + remark-gfm |
+| Testing | Vitest (21 tests) |
+| Hosting | Vercel |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev        # Start dev server
+npm run build      # Production build
+npm run test       # Run tests
+npm run lint       # ESLint check
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+├── pages/          # Home, Practice, Review, Exam, Concepts, Notes
+├── components/     # QuestionCard, ChapterList, ProgressBar, Timer, Layout
+├── hooks/          # useQuestions, useProgress, useErrorBook
+├── lib/            # storage, spaced-repetition (+ tests)
+├── data/           # Chapter metadata registry
+└── types.ts        # TypeScript definitions
+
+public/
+├── data/           # 682 quiz questions (JSON, one file per chapter)
+└── concepts/       # 31 bilingual markdown knowledge chapters
+```
+
+## License
+
+Private project for PMH (Paramount Mining Holdings).
