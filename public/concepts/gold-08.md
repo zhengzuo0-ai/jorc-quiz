@@ -199,8 +199,15 @@
 
 ## 深入阅读 (Further Reading)
 
-- Marsden, J.O. & House, C.I. — *The Chemistry of Gold Extraction* (选金化学权威教材)
-- Wills, B.A. & Finch, J.A. — *Wills' Mineral Processing Technology* (选矿工程经典教材)
+**标准参考教材 (Standard References)** — 以下三本是全球选矿冶金工程师公认的核心参考书，覆盖了从破碎磨矿到金的提取的完整知识体系：
+
+- **Wills, B.A. & Finch, J.A. — *Wills' Mineral Processing Technology* (第9版)** — 选矿工程的权威教科书 (the definitive reference)，涵盖破碎、磨矿、重选、浮选、磁选等全部选矿方法，全球矿业院校和工程实践的标准教材。
+- **Darling, P. (ed.) — *SME Mining Engineering Handbook* (第3版, 2011)** — 美国采矿冶金与勘探学会 (SME) 出版的采矿工程综合手册，覆盖采矿方法、选矿、矿山设计和经济评价，是矿业工程师案头必备。
+- **Marsden, J.O. & House, C.I. — *The Chemistry of Gold Extraction* (第2版, 2006)** — 选金化学与工艺的权威专著，详细阐述氰化浸出、非氰法提金、难处理矿石预处理等核心工艺的化学原理和工程应用。
+
+> 💡 **实践提示：** 这三本书是全球冶金工程师 (Metallurgists) 的标准参考资料。在可行性研究 (Feasibility Study) 和冶金试验 (Metallurgical Testwork) 阶段与冶金顾问沟通时，了解这些教材中的核心概念和术语将大大提升沟通效率。
+
+**其他推荐资源：**
 - International Cyanide Management Code (www.cyanidecode.org)
 - Adams, M.D. (ed.) — *Gold Ore Processing: Project Development and Operations*
 - World Gold Council — Responsible Gold Mining Principles
