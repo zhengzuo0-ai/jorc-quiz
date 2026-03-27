@@ -25,7 +25,7 @@ export default function Home() {
     <div className="max-w-2xl mx-auto">
       {/* Hero section */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-5 mb-6 text-white">
-        <h1 className="text-lg font-semibold mb-1">JORC Quiz</h1>
+        <h1 className="text-lg font-semibold mb-1">PMH Mining</h1>
         <p className="text-blue-100 text-sm mb-4">矿业知识学习平台 · Mining Knowledge Platform</p>
         <div className="grid grid-cols-3 gap-3">
           <div className="bg-white/15 rounded-lg p-3 text-center">

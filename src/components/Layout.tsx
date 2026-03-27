@@ -32,7 +32,7 @@ export default function Layout() {
     <div className="min-h-screen flex flex-col md:flex-row">
       {/* Desktop sidebar */}
       <aside className="hidden md:flex flex-col w-60 border-r border-gray-200 bg-white p-4 shrink-0">
-        <h1 className="text-lg font-semibold mb-4 text-gray-800">JORC Quiz</h1>
+        <h1 className="text-lg font-semibold mb-4 text-gray-800">PMH Mining</h1>
         <nav className="flex flex-col gap-1">
           {navItems.map(item => (
             <NavLinkItem key={item.to} {...item} />

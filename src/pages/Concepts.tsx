@@ -148,21 +148,7 @@ export default function Concepts() {
         <Link to={`/practice/${chapterId}`} className="text-sm text-blue-600 hover:underline">去做题 →</Link>
       </div>
 
-      <article className="prose prose-sm max-w-none
-        prose-headings:text-gray-800
-        prose-h1:text-lg prose-h1:font-semibold prose-h1:mb-4
-        prose-h2:text-base prose-h2:font-medium prose-h2:mt-6 prose-h2:mb-2
-        prose-h3:text-sm prose-h3:font-medium prose-h3:mt-4 prose-h3:mb-1
-        prose-p:text-sm prose-p:text-gray-700 prose-p:leading-relaxed
-        prose-li:text-sm prose-li:text-gray-700
-        prose-strong:text-gray-900
-        prose-table:text-xs
-        prose-th:bg-gray-50 prose-th:px-3 prose-th:py-1.5
-        prose-td:px-3 prose-td:py-1.5 prose-td:border-gray-200
-        prose-code:text-xs prose-code:bg-gray-100 prose-code:px-1 prose-code:rounded
-        prose-blockquote:border-blue-400 prose-blockquote:bg-blue-50 prose-blockquote:text-sm prose-blockquote:py-2 prose-blockquote:px-4
-        prose-hr:my-6
-      ">
+      <article className="prose max-w-none">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
       </article>
     </div>
