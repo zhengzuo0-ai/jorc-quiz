@@ -9,14 +9,19 @@ export default function ProgressBar({ current, total, correct }: Props) {
   const accuracy = current > 0 ? Math.round((correct / current) * 100) : 0;
 
   return (
-    <div className="mb-4">
-      <div className="flex justify-between text-sm text-gray-600 mb-1">
-        <span>{current}/{total} · 正确 {correct} ({accuracy}%)</span>
+    <div className="mb-5">
+      <div className="flex justify-between text-sm mb-2">
+        <span style={{ color: 'var(--text-secondary)' }}>
+          {current}/{total} · 正确 {correct} ({accuracy}%)
+        </span>
       </div>
-      <div className="w-full bg-gray-200 rounded-full h-1.5">
+      <div className="w-full h-2 rounded-full" style={{ background: 'var(--warm-gray)' }}>
         <div
-          className="bg-blue-600 h-1.5 rounded-full transition-all"
-          style={{ width: `${pct}%` }}
+          className="h-2 rounded-full transition-all duration-300"
+          style={{
+            width: `${pct}%`,
+            background: 'linear-gradient(to right, var(--gold), var(--gold-light))',
+          }}
         />
       </div>
     </div>

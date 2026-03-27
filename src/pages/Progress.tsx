@@ -81,71 +81,112 @@ export default function Progress() {
     });
   }, [getChapterStats, conceptReads]);
 
+  const statCards = [
+    { label: '已答题', value: totalAnswered, sub: `正确 ${totalCorrect}` },
+    { label: '正确率', value: `${overallAccuracy}%`, sub: `错题 ${errorEntries.length}` },
+    { label: '概念已读', value: conceptReads.length, sub: `共 ${chapters.length} 章` },
+    { label: '连续天数', value: streak, sub: `活跃 ${activeDays} 天`, icon: '🔥' },
+  ];
+
   return (
-    <div>
-      <h1 className="text-xl font-semibold text-gray-800 mb-4">学习进度 Progress</h1>
+    <div className="max-w-3xl mx-auto">
+      <h1
+        className="text-2xl font-semibold mb-6"
+        style={{ fontFamily: 'var(--font-display)', color: 'var(--navy-dark)' }}
+      >
+        学习进度 Progress
+      </h1>
 
       {/* Stats grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
-        {[
-          { label: '已答题', value: totalAnswered, sub: `正确 ${totalCorrect}` },
-          { label: '正确率', value: `${overallAccuracy}%`, sub: `错题 ${errorEntries.length}` },
-          { label: '概念已读', value: conceptReads.length, sub: `共 ${chapters.length} 章` },
-          { label: '连续天数', value: streak, sub: `活跃 ${activeDays} 天` },
-        ].map(s => (
-          <div key={s.label} className="bg-white border border-gray-200 rounded-lg p-3 text-center">
-            <div className="text-2xl font-bold text-gray-800">{s.value}</div>
-            <div className="text-xs text-gray-500">{s.label}</div>
-            <div className="text-xs text-gray-400 mt-0.5">{s.sub}</div>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        {statCards.map(s => (
+          <div
+            key={s.label}
+            className="rounded-xl p-4 text-center"
+            style={{
+              background: 'var(--navy-dark)',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.12)',
+            }}
+          >
+            <div
+              className="text-3xl font-bold mb-1"
+              style={{ fontFamily: 'var(--font-display)', color: 'var(--gold)' }}
+            >
+              {'icon' in s && s.icon ? `${s.icon} ` : ''}{s.value}
+            </div>
+            <div className="text-xs font-medium" style={{ color: 'var(--text-light)' }}>{s.label}</div>
+            <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>{s.sub}</div>
           </div>
         ))}
       </div>
 
       {/* Due review reminder */}
       {dueEntries.length > 0 && (
-        <div className="bg-amber-50 border border-amber-200 rounded-lg p-3 mb-6 text-sm text-amber-800">
-          {dueEntries.length} 道错题待复习 — 前往错题本复习
+        <div
+          className="rounded-xl p-4 mb-8 text-sm font-medium"
+          style={{
+            background: 'var(--gold-dim)',
+            border: '1px solid rgba(184, 150, 78, 0.3)',
+            color: 'var(--gold)',
+          }}
+        >
+          ⚠ {dueEntries.length} 道错题待复习 — 前往错题本复习
         </div>
       )}
 
       {/* Chapter mastery */}
-      <div className="mb-6">
-        <h2 className="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">
+      <div className="mb-8">
+        <h2
+          className="text-xs font-semibold uppercase tracking-wider mb-3"
+          style={{ color: 'var(--text-muted)' }}
+        >
           章节掌握度 Chapter Mastery
         </h2>
-        <div className="bg-white border border-gray-200 rounded-lg divide-y divide-gray-100">
-          {chapterMastery.map(ch => {
+        <div
+          className="rounded-xl overflow-hidden"
+          style={{
+            background: 'var(--white)',
+            border: '1px solid var(--border)',
+            boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
+          }}
+        >
+          {chapterMastery.map((ch, i) => {
             const barWidth = ch.stats.total > 0 ? ch.stats.accuracy : 0;
             const barColor =
               ch.stats.accuracy >= 90
-                ? 'bg-green-500'
+                ? 'var(--gold)'
                 : ch.stats.accuracy >= 70
-                  ? 'bg-blue-500'
+                  ? 'var(--gold-light)'
                   : ch.stats.accuracy >= 50
-                    ? 'bg-amber-500'
-                    : 'bg-red-400';
+                    ? '#D4A853'
+                    : 'var(--error)';
             return (
-              <div key={ch.id} className="flex items-center gap-3 px-3 py-2">
+              <div
+                key={ch.id}
+                className="flex items-center gap-3 px-4 py-3"
+                style={{
+                  borderBottom: i < chapterMastery.length - 1 ? '1px solid var(--warm-gray)' : 'none',
+                }}
+              >
                 <div className="min-w-0 flex-1">
-                  <div className="text-sm text-gray-700 truncate">{ch.name}</div>
-                  <div className="text-xs text-gray-400">{ch.nameEn}</div>
+                  <div className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{ch.name}</div>
+                  <div className="text-xs" style={{ color: 'var(--text-muted)' }}>{ch.nameEn}</div>
                 </div>
-                <div className="w-24 h-2 bg-gray-100 rounded-full shrink-0">
+                <div className="w-24 h-2 rounded-full shrink-0" style={{ background: 'var(--warm-gray)' }}>
                   <div
-                    className={`h-full rounded-full ${barColor}`}
-                    style={{ width: `${barWidth}%` }}
+                    className="h-full rounded-full transition-all duration-500"
+                    style={{ width: `${barWidth}%`, background: barColor }}
                   />
                 </div>
                 <span
-                  className={`text-xs w-14 text-right shrink-0 ${
-                    ch.level === '精通'
-                      ? 'text-green-600'
-                      : ch.level === '熟练'
-                        ? 'text-blue-600'
-                        : ch.level === '需加强'
-                          ? 'text-red-500'
-                          : 'text-gray-400'
-                  }`}
+                  className="text-xs font-semibold w-14 text-right shrink-0"
+                  style={{
+                    color:
+                      ch.level === '精通' ? 'var(--gold)'
+                        : ch.level === '熟练' ? 'var(--gold-light)'
+                          : ch.level === '需加强' ? 'var(--error)'
+                            : 'var(--text-muted)',
+                  }}
                 >
                   {ch.level}
                 </span>
@@ -157,26 +198,44 @@ export default function Progress() {
 
       {/* Recent activity */}
       <div>
-        <h2 className="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">
+        <h2
+          className="text-xs font-semibold uppercase tracking-wider mb-3"
+          style={{ color: 'var(--text-muted)' }}
+        >
           最近活动 Recent Activity
         </h2>
         {recentActivity.length === 0 ? (
-          <p className="text-sm text-gray-400">暂无活动记录</p>
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>暂无活动记录</p>
         ) : (
-          <div className="bg-white border border-gray-200 rounded-lg divide-y divide-gray-100">
+          <div
+            className="rounded-xl overflow-hidden"
+            style={{
+              background: 'var(--white)',
+              border: '1px solid var(--border)',
+              boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
+            }}
+          >
             {recentActivity.map((item, i) => (
-              <div key={i} className="flex items-center gap-3 px-3 py-2">
+              <div
+                key={i}
+                className="flex items-center gap-3 px-4 py-3"
+                style={{
+                  borderBottom: i < recentActivity.length - 1 ? '1px solid var(--warm-gray)' : 'none',
+                }}
+              >
                 <span
-                  className={`w-2 h-2 rounded-full shrink-0 ${
-                    item.type === 'correct'
-                      ? 'bg-green-500'
-                      : item.type === 'wrong'
-                        ? 'bg-red-400'
-                        : 'bg-blue-400'
-                  }`}
+                  className="w-2 h-2 rounded-full shrink-0"
+                  style={{
+                    background:
+                      item.type === 'correct' ? 'var(--success)'
+                        : item.type === 'wrong' ? 'var(--error)'
+                          : 'var(--gold)',
+                  }}
                 />
-                <span className="text-sm text-gray-700 flex-1 truncate">{item.label}</span>
-                <span className="text-xs text-gray-400 shrink-0">
+                <span className="text-sm flex-1 truncate" style={{ color: 'var(--text-primary)' }}>
+                  {item.label}
+                </span>
+                <span className="text-xs shrink-0" style={{ color: 'var(--text-muted)' }}>
                   {new Date(item.time).toLocaleString('zh-CN', {
                     month: 'short',
                     day: 'numeric',

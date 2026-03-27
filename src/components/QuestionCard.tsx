@@ -54,41 +54,83 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
     return () => window.removeEventListener('keydown', handler);
   }, [answered, handleSelect, onNext]);
 
-  function optionClass(key: OptionKey): string {
-    const base = 'w-full text-left px-4 py-3 rounded border text-sm transition-colors';
-    if (!answered) {
-      return `${base} border-gray-200 hover:border-blue-400 hover:bg-blue-50 cursor-pointer`;
-    }
+  function optionStyle(key: OptionKey): React.CSSProperties {
+    if (!answered) return {};
     if (key === question.correct) {
-      return `${base} border-green-400 bg-green-50 text-green-900`;
+      return { borderColor: 'var(--success)', background: 'rgba(34, 197, 94, 0.08)', color: '#166534' };
     }
     if (key === selected) {
-      return `${base} border-red-400 bg-red-50 text-red-900`;
+      return { borderColor: 'var(--error)', background: 'rgba(239, 68, 68, 0.08)', color: '#991b1b' };
     }
-    return `${base} border-gray-200 text-gray-400`;
+    return { borderColor: 'var(--border)', color: 'var(--text-muted)' };
+  }
+
+  function optionClass(_key: OptionKey): string {
+    const base = 'w-full text-left px-4 py-3.5 rounded-lg border text-sm transition-all duration-200';
+    if (!answered) {
+      return `${base} cursor-pointer`;
+    }
+    return base;
   }
 
   return (
-    <div className="bg-white rounded-lg border border-gray-200 p-6 max-w-2xl mx-auto">
+    <div
+      className="rounded-xl p-6 md:p-8 max-w-2xl mx-auto"
+      style={{
+        background: 'var(--white)',
+        border: '1px solid var(--border)',
+        boxShadow: '0 4px 12px rgba(0,0,0,0.06)',
+      }}
+    >
       {/* Header */}
-      <div className="flex justify-between text-sm text-gray-500 mb-4">
-        <span>Q{index + 1}/{total}</span>
-        <span>{question.chapterId}</span>
+      <div className="flex justify-between items-center mb-5">
+        <span
+          className="text-xs font-semibold px-2.5 py-1 rounded-full"
+          style={{ background: 'var(--gold-dim)', color: 'var(--gold)' }}
+        >
+          Q{index + 1}/{total}
+        </span>
+        <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{question.chapterId}</span>
       </div>
 
       {/* Question stem */}
-      <p className="text-gray-800 mb-6 leading-relaxed">{question.question}</p>
+      <p
+        className="mb-6 leading-relaxed text-base"
+        style={{ color: 'var(--text-primary)', fontWeight: 500 }}
+      >
+        {question.question}
+      </p>
 
       {/* Options */}
-      <div className="flex flex-col gap-2 mb-4">
+      <div className="flex flex-col gap-2.5 mb-4">
         {optionKeys.map(key => (
           <button
             key={key}
             onClick={() => handleSelect(key)}
             disabled={answered}
             className={optionClass(key)}
+            style={{
+              borderColor: 'var(--border)',
+              ...optionStyle(key),
+            }}
+            onMouseEnter={e => {
+              if (!answered) {
+                e.currentTarget.style.borderColor = 'var(--gold)';
+                e.currentTarget.style.background = 'var(--gold-dim)';
+              }
+            }}
+            onMouseLeave={e => {
+              if (!answered) {
+                e.currentTarget.style.borderColor = 'var(--border)';
+                e.currentTarget.style.background = '';
+              }
+            }}
           >
-            <span className="font-medium mr-2">[{key}]</span>
+            <span
+              className="font-mono text-xs mr-2.5 opacity-50"
+            >
+              {key}
+            </span>
             {question.options[key]}
           </button>
         ))}
@@ -96,20 +138,36 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
 
       {/* Explanation */}
       {answered && (
-        <div className="border-t border-gray-200 pt-4 mt-4">
-          <div className={`text-sm font-medium mb-2 ${isCorrect ? 'text-green-700' : 'text-red-700'}`}>
+        <div className="pt-5 mt-5" style={{ borderTop: '1px solid var(--border)' }}>
+          <div
+            className="text-sm font-semibold mb-3"
+            style={{ color: isCorrect ? 'var(--success)' : 'var(--error)' }}
+          >
             {isCorrect ? '正确 ✓' : `错误 ✗ — 正确答案: ${question.correct}`}
           </div>
-          <div className="text-sm text-gray-700 leading-relaxed mb-3">
+          <div
+            className="text-sm leading-relaxed mb-3 p-4 rounded-lg"
+            style={{
+              background: 'var(--cream)',
+              borderLeft: '3px solid var(--gold)',
+              color: 'var(--text-secondary)',
+            }}
+          >
             {question.explanation}
           </div>
-          <div className="text-xs text-gray-500 mb-4">
-            <span className="font-medium">关键概念:</span> {question.key_concept}
+          <div className="text-xs mb-5" style={{ color: 'var(--text-muted)' }}>
+            <span className="font-semibold">关键概念:</span> {question.key_concept}
           </div>
           <div className="flex justify-end">
             <button
               onClick={onNext}
-              className="px-4 py-2 bg-blue-600 text-white rounded text-sm hover:bg-blue-700"
+              className="px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200"
+              style={{
+                background: 'var(--gold)',
+                color: 'var(--white)',
+              }}
+              onMouseEnter={e => { e.currentTarget.style.background = '#9F7F3E'; }}
+              onMouseLeave={e => { e.currentTarget.style.background = 'var(--gold)'; }}
             >
               下一题 → (Enter)
             </button>

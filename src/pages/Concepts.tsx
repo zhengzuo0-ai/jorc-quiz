@@ -34,18 +34,26 @@ function ChapterListView() {
   const readSet = new Set(readRecords.map(r => r.chapterId));
 
   return (
-    <div>
-      <h1 className="text-xl font-semibold text-gray-800 mb-4">概念学习 Concepts</h1>
+    <div className="max-w-3xl mx-auto">
+      <h1
+        className="text-2xl font-semibold mb-6"
+        style={{ fontFamily: 'var(--font-display)', color: 'var(--navy-dark)' }}
+      >
+        概念学习 Concepts
+      </h1>
 
       {[
-        { label: 'JORC Code 2012', items: jorcChapters, color: 'blue' },
-        { label: 'Gold Exploration', items: goldChapters, color: 'amber' },
+        { label: 'JORC Code 2012', items: jorcChapters },
+        { label: 'Gold Exploration', items: goldChapters },
       ].map(group => (
-        <div key={group.label} className="mb-6">
-          <h2 className="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">
+        <div key={group.label} className="mb-8">
+          <h2
+            className="text-xs font-semibold uppercase tracking-wider mb-3"
+            style={{ color: 'var(--text-muted)' }}
+          >
             {group.label}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {group.items.map(ch => {
               const isRead = readSet.has(ch.id);
               const record = readRecords.find(r => r.chapterId === ch.id);
@@ -53,24 +61,38 @@ function ChapterListView() {
                 <Link
                   key={ch.id}
                   to={`/concepts/${ch.id}`}
-                  className="flex items-start gap-3 bg-white border border-gray-200 rounded-lg p-3 hover:border-blue-300 hover:shadow-sm transition-all"
+                  className="flex items-start gap-3 rounded-xl p-4 transition-all duration-200"
+                  style={{
+                    background: 'var(--white)',
+                    border: '1px solid var(--border)',
+                    boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
+                  }}
+                  onMouseEnter={e => {
+                    e.currentTarget.style.borderColor = 'var(--gold)';
+                    e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)';
+                  }}
+                  onMouseLeave={e => {
+                    e.currentTarget.style.borderColor = 'var(--border)';
+                    e.currentTarget.style.boxShadow = '0 1px 3px rgba(0,0,0,0.04)';
+                  }}
                 >
                   <span
-                    className={`mt-0.5 w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 text-xs ${
-                      isRead
-                        ? 'border-green-500 bg-green-50 text-green-600'
-                        : 'border-gray-300 text-transparent'
-                    }`}
+                    className="mt-0.5 w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 text-xs"
+                    style={{
+                      borderColor: isRead ? 'var(--gold)' : 'var(--border)',
+                      background: isRead ? 'var(--gold-dim)' : 'transparent',
+                      color: isRead ? 'var(--gold)' : 'transparent',
+                    }}
                   >
                     ✓
                   </span>
                   <div className="min-w-0">
-                    <div className="text-sm font-medium text-gray-800 truncate">
+                    <div className="text-sm font-medium truncate" style={{ color: 'var(--text-primary)' }}>
                       {ch.name}
                     </div>
-                    <div className="text-xs text-gray-500 truncate">{ch.nameEn}</div>
+                    <div className="text-xs truncate" style={{ color: 'var(--text-muted)' }}>{ch.nameEn}</div>
                     {record && (
-                      <div className="text-xs text-gray-400 mt-0.5">
+                      <div className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
                         已读 {record.readCount} 次 · {new Date(record.lastRead).toLocaleDateString()}
                       </div>
                     )}
@@ -108,26 +130,41 @@ function ConceptViewer({ chapterId }: { chapterId: string }) {
   }, [chapterId]);
 
   return (
-    <div>
+    <div className="max-w-3xl mx-auto">
       <Link
         to="/concepts"
-        className="inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 mb-4"
+        className="inline-flex items-center gap-1 text-sm font-medium mb-5 transition-colors duration-200"
+        style={{ color: 'var(--gold)' }}
+        onMouseEnter={e => { e.currentTarget.style.color = 'var(--gold-light)'; }}
+        onMouseLeave={e => { e.currentTarget.style.color = 'var(--gold)'; }}
       >
         ← 返回目录 Back to list
       </Link>
 
       {chapter && (
-        <div className="mb-4">
-          <h1 className="text-xl font-semibold text-gray-800">{chapter.name}</h1>
-          <p className="text-sm text-gray-500">{chapter.nameEn}</p>
+        <div className="mb-5">
+          <h1
+            className="text-2xl font-semibold"
+            style={{ fontFamily: 'var(--font-display)', color: 'var(--navy-dark)' }}
+          >
+            {chapter.name}
+          </h1>
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{chapter.nameEn}</p>
         </div>
       )}
 
-      {loading && <p className="text-gray-500 text-sm">加载中...</p>}
-      {error && <p className="text-red-500 text-sm">{error}</p>}
+      {loading && <p style={{ color: 'var(--text-muted)' }} className="text-sm">加载中...</p>}
+      {error && <p style={{ color: 'var(--error)' }} className="text-sm">{error}</p>}
 
       {!loading && !error && (
-        <article className="concept-prose bg-white border border-gray-200 rounded-lg p-4 md:p-6">
+        <article
+          className="concept-prose rounded-xl p-6 md:p-8"
+          style={{
+            background: 'var(--white)',
+            border: '1px solid var(--border)',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.06)',
+          }}
+        >
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
         </article>
       )}
