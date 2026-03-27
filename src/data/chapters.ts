@@ -40,6 +40,7 @@ export const industryChapters: Chapter[] = [
   { id: 'gold-industry-05', domain: 'gold', name: '老挝矿业法详解', nameEn: 'Laos Mining Regulations Deep Dive', description: '矿权制度、税收、外资政策、铜金机遇', questionCount: 0 },
   { id: 'gold-drilling', domain: 'gold', name: '钻探技术详解', nameEn: 'Drilling Technology Deep Dive', description: 'DD vs RC对比、成本、策略、2025趋势', questionCount: 0 },
   { id: 'gold-hedging', domain: 'gold', name: '黄金对冲策略', nameEn: 'Gold Hedging Strategies', description: '远期、期权、Collar、对冲比例、历史教训', questionCount: 0 },
+  { id: 'gold-industry-06', domain: 'gold', name: '矿山安全管理', nameEn: 'Mining Safety & HSE', description: 'ICMM数据、致命风险、关键控制管理', questionCount: 0 },
   { id: 'glossary', domain: 'gold', name: '矿业术语表', nameEn: 'Mining Glossary', description: '200+中英文对照矿业术语', questionCount: 0 },
   { id: 'learning-path', domain: 'gold', name: '学习路径指南', nameEn: 'Learning Path Guide', description: '5周从零开始的系统学习计划', questionCount: 0 },
 ];
