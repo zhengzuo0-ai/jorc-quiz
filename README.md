@@ -1,73 +1,39 @@
-# React + TypeScript + Vite
+# PMH Mining — 矿业知识学习平台
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bilingual (Chinese/English) mining knowledge learning platform with quiz, spaced repetition, and comprehensive reference content. Built for business professionals entering the gold mining industry.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **33 Bilingual Concept Chapters** — JORC Code (12), Gold Technical (13), Industry Analysis (8), all with verified source citations, PMH context, and self-check questions
+- **1,485 Quiz Questions** across 33 chapters (45 per chapter) with difficulty indicators
+- **Spaced Repetition** (SM-2 algorithm) — wrong answers auto-enter error book with scheduled reviews
+- **Timed Exam Mode** — configurable domain, question count, and time limit
+- **Progress Tracking** — streak counter, weak chapter alerts, per-chapter accuracy
+- **Study Plan** — structured learning path for beginners
+- **Learning Notes** — daily journal for recording study progress
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Layer | Choice |
+|---|---|
+| Framework | React 19 + TypeScript |
+| Build | Vite 8 |
+| Styling | Tailwind CSS v4 |
+| Routing | react-router-dom v7 |
+| Markdown | react-markdown + remark-gfm |
+| Testing | Vitest (19 tests) |
+| Hosting | Vercel |
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev        # Start dev server
+npm run build      # Production build
+npm test           # Run tests
+npm run lint       # ESLint check
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## License
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Private project for PMH (Paramount Mining Holdings).
