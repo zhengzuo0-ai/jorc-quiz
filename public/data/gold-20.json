@@ -1,0 +1,342 @@
+[
+  {
+    "id": "gold-20-001",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "What is the primary responsibility of a Country Manager in a West African mining operation?",
+    "options": {
+      "A": "Designing drill programs and interpreting geological data",
+      "B": "Serving as the company's senior in-country representative, managing government relations, licences, community relations, and compliance",
+      "C": "Operating the processing plant and optimising gold recovery rates",
+      "D": "Conducting resource estimation and signing JORC reports as Competent Person"
+    },
+    "correct": "B",
+    "explanation": "The Country Manager is the company's most senior representative in the host country. Their responsibilities span government relations, licence management, community engagement, security, and regulatory compliance. In West Africa, this role requires deep cultural understanding, diplomatic skills, and often fluency in French (for Francophone countries like Mali, Cote d'Ivoire, Burkina Faso, Guinea) or English (Ghana, Sierra Leone). The Country Manager does not typically perform technical geological work — that falls to the Exploration Manager and Chief Geologist. The role is strategic and relational rather than technical.",
+    "key_concept": "Country Manager: senior in-country representative handling government, community, licences, compliance",
+    "source": "Mining organisational structure / West Africa operations",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-20-002",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "LTIFR is calculated as:",
+    "options": {
+      "A": "(Number of fatalities / total hours worked) x 1,000",
+      "B": "(Number of lost time injuries / total hours worked) x 1,000,000",
+      "C": "(Number of all injuries / number of employees) x 100",
+      "D": "(Number of safety incidents / number of shifts) x 10,000"
+    },
+    "correct": "B",
+    "explanation": "LTIFR (Lost Time Injury Frequency Rate) is calculated by dividing the number of lost time injuries by total hours worked, then multiplying by 1,000,000. A lost time injury is any workplace injury that results in the worker being unable to return to their next scheduled shift. The multiplier of one million standardises the rate to a per-million-hours basis, allowing meaningful comparison between operations of different sizes. Industry benchmarks: excellent < 1.0, good 1.0-3.0, needs improvement > 5.0. LTIFR is one of the most widely reported safety metrics in mining, though TRIFR (Total Recordable Injury Frequency Rate) is increasingly preferred as a more comprehensive measure.",
+    "key_concept": "LTIFR = (LTIs / total hours worked) x 1,000,000; benchmark: excellent < 1.0",
+    "source": "Mining safety metrics / ICMM standards",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-20-003",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "In Mali's labour law, what happens when a CDD (Contrat a Duree Determinee) is renewed more than twice?",
+    "options": {
+      "A": "The contract is automatically terminated with no severance obligation",
+      "B": "The contract automatically converts to a CDI (Contrat a Duree Indeterminee), an indefinite-term contract",
+      "C": "The employee must leave the country for 90 days before a new CDD can be issued",
+      "D": "The employer must pay a one-time bonus equal to six months' salary"
+    },
+    "correct": "B",
+    "explanation": "Under Malian labour law (Code du Travail), a CDD (fixed-term contract) can be renewed a maximum of two times. After the second renewal, the contract automatically converts to a CDI (indefinite-term contract). This has major implications for mining companies because CDI employees are entitled to significantly higher severance payments upon termination, and dismissal procedures are more restrictive. For exploration companies that may only operate for 3-5 years before deciding whether to proceed to development, this automatic conversion creates substantial contingent liabilities. HR planning must carefully track CDD renewal dates to manage this risk.",
+    "key_concept": "Mali: CDD renewed twice automatically becomes CDI; higher severance and termination costs",
+    "source": "Mali Code du Travail / West African labour law",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-004",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "What is a typical fully loaded annual cost for a senior expatriate mining professional in West Africa?",
+    "options": {
+      "A": "$30,000-$50,000",
+      "B": "$60,000-$90,000",
+      "C": "$150,000-$400,000",
+      "D": "$800,000-$1,200,000"
+    },
+    "correct": "C",
+    "explanation": "The fully loaded cost of a senior expatriate in West Africa typically ranges from $150,000 to $400,000 per year, with senior mine managers potentially exceeding $500,000. This cost includes base salary, rotation flights (R&R), housing or camp accommodation, medical insurance, life insurance, tax equalisation payments, and other allowances. This is typically 3-5 times the cost of a qualified national employee in the same role. The high cost of expatriates is a key driver behind localisation programs, where companies invest in training national staff to progressively fill roles held by expatriates. Options A and B represent local staff salary ranges, while option D would be exceptionally high even for a CEO-level expatriate package.",
+    "key_concept": "Expatriate fully loaded cost: $150K-$400K/year; 3-5x cost of national staff",
+    "source": "Mining industry compensation / West Africa HR practice",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-20-005",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "Which rotation roster is commonly used for expatriate staff at West African gold mines?",
+    "options": {
+      "A": "Monday to Friday, weekends off, living in nearby town",
+      "B": "6 weeks on-site / 3 weeks off (6/3), 8/4, or 5/3 fly-in fly-out rosters",
+      "C": "12 hours on / 12 hours off with no extended leave periods",
+      "D": "3 months on-site / 6 months off with half pay during leave"
+    },
+    "correct": "B",
+    "explanation": "West African gold mines typically operate expatriate rosters of 6 weeks on / 3 weeks off (6/3), 8 weeks on / 4 weeks off (8/4), or 5 weeks on / 3 weeks off (5/3). These fly-in fly-out (FIFO) or fly-in fly-home (FIFH) arrangements reflect the remote locations of most mine sites and the need to attract talent from overseas. The roster directly impacts staffing costs because each position requires a 'back-to-back' — a second person to cover the role during the primary holder's leave period. A 6/3 roster means the employee works 67% of the time, so approximately 1.5 full-time equivalents are needed per position. National staff typically work different rosters, often with shorter rotation cycles or commuter arrangements.",
+    "key_concept": "Common expat rosters: 6/3, 8/4, 5/3; each position needs a back-to-back for coverage",
+    "source": "Mining HR practice / West Africa operations",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-20-006",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "What distinguishes TRIFR from LTIFR as a safety metric?",
+    "options": {
+      "A": "TRIFR only counts fatalities, while LTIFR counts all injuries",
+      "B": "TRIFR includes lost time injuries, restricted work injuries, and medical treatment injuries, making it a more comprehensive measure than LTIFR alone",
+      "C": "TRIFR measures environmental incidents, while LTIFR measures personal injuries",
+      "D": "TRIFR is calculated per 100,000 hours while LTIFR uses 1,000,000 hours"
+    },
+    "correct": "B",
+    "explanation": "TRIFR (Total Recordable Injury Frequency Rate) captures a broader range of workplace injuries than LTIFR. It includes: (1) Lost Time Injuries (LTIs) — injuries causing absence from the next shift, (2) Restricted Work Injuries (RWIs) — injuries where the worker returns but cannot perform all normal duties, and (3) Medical Treatment Injuries (MTIs) — injuries requiring treatment beyond first aid. Both metrics use the same per-million-hours multiplier. Modern mining companies increasingly prefer TRIFR because LTIFR can be manipulated through 'light duties' programs that bring injured workers back on modified duties to avoid recording an LTI. TRIFR is harder to game and gives a more honest picture of safety performance.",
+    "key_concept": "TRIFR = LTIs + RWIs + MTIs per million hours; harder to manipulate than LTIFR alone",
+    "source": "Mining safety metrics / ICMM reporting standards",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-007",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "In a start-up exploration company entering a new West African country, which hire should be made BEFORE commencing any field work?",
+    "options": {
+      "A": "Metallurgical engineer to design the processing flowsheet",
+      "B": "Community Liaison Officer from the local area",
+      "C": "Underground mine manager with shaft-sinking experience",
+      "D": "Financial auditor to prepare quarterly reports"
+    },
+    "correct": "B",
+    "explanation": "A Community Liaison Officer (CLO) should be among the very first hires when entering a new project area. The CLO — ideally from the local community or region — establishes the critical first contact between the company and the community, facilitating land access agreements, explaining the company's plans, managing expectations, and building the social licence to operate. Without community support, even the most promising geological target cannot be explored: drill rigs may be blocked, permits may be challenged, and the company's reputation can be damaged before work begins. A metallurgical engineer is not needed until feasibility stage, an underground mine manager is premature at exploration stage, and while financial controls matter, they do not gate field access the way community relations do.",
+    "key_concept": "Community Liaison Officer: first critical hire; gates field access and social licence",
+    "source": "Exploration best practice / community engagement",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-008",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "What are Cardinal Rules (also called Life-Saving Rules) in the mining safety context?",
+    "options": {
+      "A": "Guidelines that recommend best practices but allow supervisors to grant exceptions",
+      "B": "Non-negotiable safety rules addressing risks that could cause fatalities, where violation can result in immediate dismissal",
+      "C": "Environmental regulations imposed by government agencies",
+      "D": "Financial controls that prevent unauthorised spending on safety equipment"
+    },
+    "correct": "B",
+    "explanation": "Cardinal Rules (or Life-Saving Rules) are a set of absolute, non-negotiable safety rules that address the critical risks most likely to cause fatalities in mining operations. Common examples include: always wear a seatbelt when in a vehicle, never work under unsupported ground, never bypass safety guards on equipment, never enter a confined space without authorisation, and never work at height without fall protection. Violation of any Cardinal Rule typically results in immediate dismissal, regardless of the employee's seniority or whether an actual injury occurred. This zero-tolerance approach, championed by organisations like ICMM (International Council on Mining and Metals), recognises that certain behaviours are so inherently dangerous that no exception can be permitted. Major mining companies like Barrick, Newmont, and Gold Fields all operate versions of these rules.",
+    "key_concept": "Cardinal Rules: non-negotiable, violation = immediate dismissal, target fatal risk controls",
+    "source": "ICMM safety framework / major mining company standards",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-009",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "What is the role of the Chief Geologist within the JORC reporting framework?",
+    "options": {
+      "A": "The Chief Geologist automatically serves as the Competent Person who signs the JORC resource statement",
+      "B": "The Chief Geologist acts as data gatekeeper, ensuring the quality and integrity of geological data that will be reviewed by the Competent Person",
+      "C": "The Chief Geologist is responsible for financial modelling of the ore reserve",
+      "D": "The Chief Geologist only works during the feasibility study phase"
+    },
+    "correct": "B",
+    "explanation": "The Chief Geologist plays a critical but often misunderstood role in the JORC framework. While the Competent Person (CP) is the individual who takes professional responsibility for the resource or reserve statement, the Chief Geologist is typically the person who ensures data quality day-to-day on site. This includes supervising geological logging, managing QAQC protocols (standards, blanks, duplicates), overseeing the geological database, and validating interpretations. The Chief Geologist is the 'data gatekeeper' — if the underlying data is flawed, the CP's resource estimate will be unreliable regardless of the estimation methodology used. The CP may be an external consultant who visits the site periodically, making the Chief Geologist's role in maintaining data integrity between visits essential. Note: a Chief Geologist CAN be the CP if they meet the JORC requirements (membership of a recognised professional organisation, relevant experience), but this is not automatic.",
+    "key_concept": "Chief Geologist = data gatekeeper for JORC; ensures data quality for Competent Person review",
+    "source": "JORC Code / exploration team structure",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-010",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "A Toolbox Talk in mining operations is:",
+    "options": {
+      "A": "A weekly management meeting to review financial performance and production targets",
+      "B": "A pre-shift safety briefing of 10-15 minutes led by the shift supervisor to discuss the day's hazards and controls",
+      "C": "An annual training course on equipment maintenance lasting 2-3 days",
+      "D": "A government-mandated inspection of mining tools and equipment"
+    },
+    "correct": "B",
+    "explanation": "A Toolbox Talk is a short (typically 10-15 minute) pre-shift safety briefing conducted by the shift supervisor or team leader at the start of each work shift. The talk covers the specific tasks planned for that shift, identifies associated hazards, discusses control measures, reviews any recent incidents or near-misses, and checks that all team members have the required PPE and are fit for work. Toolbox Talks are a cornerstone of operational safety culture because they create a daily touchpoint for safety communication at the frontline level. They are documented (topic, attendees, issues raised) and form part of the operation's safety management system. The practice originated in construction and has become universal in mining. Effective Toolbox Talks are interactive — workers are encouraged to raise concerns and share observations rather than just passively listening.",
+    "key_concept": "Toolbox Talk: 10-15 min daily pre-shift safety briefing; frontline safety communication tool",
+    "source": "Mining safety management systems",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-20-011",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "Namibia's Labour Act requires mining companies to comply with Affirmative Action provisions. What does this mean in practice?",
+    "options": {
+      "A": "Companies must pay all employees the same salary regardless of role or experience",
+      "B": "Companies must give recruitment priority to previously disadvantaged groups and report on workforce demographics",
+      "C": "Companies must only hire Namibian citizens and cannot employ any expatriates",
+      "D": "Companies must allocate 50% of profits to employee bonuses"
+    },
+    "correct": "B",
+    "explanation": "Namibia's Affirmative Action (Employment) Act, read alongside the Labour Act (2007), requires employers with more than 25 employees to implement affirmative action measures. In practice, this means companies must: (1) prepare and submit an Affirmative Action Plan to the Employment Equity Commission, (2) set targets for the representation of previously disadvantaged groups (defined as persons who were disadvantaged by racial discrimination before Namibian independence in 1990) in various job categories, (3) give preference in recruitment to suitably qualified persons from designated groups, and (4) report annually on progress. Non-compliance can result in the company being barred from government contracts. This does not prohibit expatriate employment — work permits are available for positions where no suitably qualified Namibian candidate exists — but companies must demonstrate genuine efforts toward workforce transformation.",
+    "key_concept": "Namibia Affirmative Action: prioritise previously disadvantaged groups, submit plans to Equity Commission",
+    "source": "Namibia Labour Act 2007 / Affirmative Action (Employment) Act",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-012",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "What is a 'back-to-back' arrangement in mining expatriate staffing?",
+    "options": {
+      "A": "Two employees sharing a single accommodation unit to reduce housing costs",
+      "B": "A second person employed to fill the same role during the primary holder's rotation leave, ensuring continuous coverage",
+      "C": "Two consecutive shifts worked by the same employee without a rest break",
+      "D": "A contract arrangement where the employee pays their own travel costs"
+    },
+    "correct": "B",
+    "explanation": "A 'back-to-back' is a second employee who fills a position when the primary holder is on rotation leave. For example, on a 6-weeks-on / 3-weeks-off roster, the primary holder is absent for one-third of the year. A back-to-back ensures the role is continuously filled. This effectively means each critical position requires approximately 1.5 FTEs (full-time equivalents) when factoring in both employees' leave periods. Back-to-back arrangements are common for senior technical and management roles such as Mine Manager, Processing Plant Manager, and Chief Geologist, where the role cannot be left vacant. The cost implication is significant: a position that costs $300,000/year for one expatriate may cost $450,000-$500,000/year when the back-to-back is included. Some companies mitigate this by having a senior national employee act as the back-to-back, which is also a localisation development opportunity.",
+    "key_concept": "Back-to-back: second person covering same role during rotation leave; ~1.5 FTEs per position",
+    "source": "Mining HR practice / roster management",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-013",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "What qualification is typically required by law for a Mine Manager at an operating mine in Australia?",
+    "options": {
+      "A": "A Bachelor's degree in any engineering discipline",
+      "B": "First Class Mine Manager's Certificate of Competency",
+      "C": "An MBA from a recognised university",
+      "D": "A Competent Person qualification under the JORC Code"
+    },
+    "correct": "B",
+    "explanation": "In Australian states and territories, the Mine Manager (also called Registered Mine Manager or Senior Site Executive) must hold a First Class Mine Manager's Certificate of Competency (or equivalent statutory certification). This is a legally mandated qualification, not just a professional preference. The certificate requires a combination of formal education (typically a mining engineering degree), extensive practical experience (usually 5+ years in mining operations including underground or surface as relevant), and passing rigorous examinations covering mine safety legislation, ventilation, ground control, emergency management, and other technical subjects. The Mine Manager has personal legal liability for safety at the operation. Similar statutory certification requirements exist in most mining jurisdictions worldwide, including West African countries, though the specific requirements vary. This is distinct from JORC Competent Person status, which relates to resource/reserve reporting rather than operational management.",
+    "key_concept": "Mine Manager: First Class Certificate of Competency required by law; carries personal legal liability for safety",
+    "source": "Australian mining legislation / statutory qualifications",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-014",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "During Phase 2 (initial fieldwork) of building an exploration team in a new country, the typical team size is:",
+    "options": {
+      "A": "1-3 people: a country representative and legal counsel only",
+      "B": "5-10 people: exploration manager, geologists, field assistants, drivers, community liaison officer",
+      "C": "50-100 people: full mine operations team including plant operators",
+      "D": "200+ people: construction workforce for processing plant"
+    },
+    "correct": "B",
+    "explanation": "Phase 2 of team building — initial fieldwork — typically involves 5-10 people. The core team includes an Exploration Manager (usually an expatriate with regional experience), 2-3 geologists (a mix of expatriate and local), field assistants for soil sampling and mapping support, drivers familiar with local roads and conditions, and critically a Community Liaison Officer. This phase focuses on reconnaissance geology: soil geochemistry, geological mapping, rock chip sampling, and possibly initial RAB or auger drilling. The team size is deliberately small to control costs during the high-risk early exploration stage, where the company is spending money with no revenue. Phase 1 (licence acquisition, 1-3 people) precedes this, and Phase 3 (drilling, 15-30 people) follows if initial results are encouraging.",
+    "key_concept": "Phase 2 fieldwork team: 5-10 people; Exploration Manager, geologists, field support, CLO",
+    "source": "Exploration team building / PMH operational model",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-20-015",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "What is a Behavioural Safety Observation (BSO) program?",
+    "options": {
+      "A": "A psychological screening test administered during recruitment to identify risk-prone personality types",
+      "B": "A system where managers observe workers performing tasks, recording both safe and unsafe behaviours, and providing immediate feedback",
+      "C": "A computerised monitoring system that tracks equipment movements via GPS",
+      "D": "An annual safety audit conducted by an external government inspector"
+    },
+    "correct": "B",
+    "explanation": "A Behavioural Safety Observation (BSO) program involves managers and supervisors conducting structured field observations of workers performing their normal tasks. The observer records both safe behaviours (to reinforce positive practices) and unsafe behaviours or conditions (to correct immediately and identify training needs). BSOs are typically documented on standardised forms and entered into a database for trend analysis. Key principles: (1) BSOs should be coaching opportunities, not punitive inspections — workers should feel comfortable being observed, (2) data is aggregated to identify systemic issues (e.g., if 40% of BSOs note poor housekeeping, this indicates a cultural issue not an individual failing), (3) senior management participation demonstrates visible safety leadership, (4) BSO frequency is often a KPI for managers. Research shows that 85-95% of workplace incidents involve unsafe behaviours rather than unsafe conditions, making behavioural observation a powerful prevention tool.",
+    "key_concept": "BSO: structured field observation of safe/unsafe behaviours; coaching not punitive; identifies systemic risks",
+    "source": "Behavioural safety management / DuPont safety model",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-016",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "Why is a localisation plan important for a mining company operating in West Africa?",
+    "options": {
+      "A": "It helps the company avoid paying corporate income tax",
+      "B": "It ensures compliance with host country labour laws, reduces long-term staffing costs, and strengthens social licence to operate",
+      "C": "It eliminates the need for any expatriate employees from day one of operations",
+      "D": "It is only required for underground mining operations, not open pit"
+    },
+    "correct": "B",
+    "explanation": "A localisation plan serves three critical purposes: (1) Legal compliance — most West African mining codes require companies to demonstrate progressive replacement of expatriate workers with qualified nationals, and work permit renewals may depend on showing localisation progress; (2) Cost reduction — national employees typically cost 1/3 to 1/5 of an equivalent expatriate, so replacing even a few senior expatriate roles can save hundreds of thousands of dollars annually; (3) Social licence — communities and governments expect to see their citizens benefiting from mining through skilled employment, not just labourer positions. A good localisation plan identifies which roles can be localised, sets realistic timelines, and includes structured mentoring and training programs. It does not mean eliminating all expatriates immediately — some specialist roles may require expatriate expertise for years — but it must show genuine, measurable progress.",
+    "key_concept": "Localisation: legal compliance + cost savings (expats 3-5x more expensive) + social licence",
+    "source": "West African mining codes / HR strategy",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-017",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "A gold mine reports an LTIFR of 7.2 for the year. How should this be interpreted?",
+    "options": {
+      "A": "Excellent — well below industry benchmarks",
+      "B": "Average — consistent with typical mining industry performance",
+      "C": "Poor — significantly above the benchmark of < 1.0 for excellent performance and > 5.0 indicating need for improvement",
+      "D": "Cannot be interpreted without knowing the gold production in ounces"
+    },
+    "correct": "C",
+    "explanation": "An LTIFR of 7.2 means there were 7.2 lost time injuries per million hours worked, which is poor by modern mining industry standards. Benchmarks: excellent performance is typically LTIFR < 1.0, good performance is 1.0-3.0, and anything above 5.0 indicates serious safety deficiencies requiring urgent management attention. Major international gold miners like Newmont, Barrick, and Gold Fields regularly report LTIFRs below 1.5, and many target zero lost time injuries. An LTIFR of 7.2 would likely trigger: (1) board-level scrutiny, (2) a detailed incident investigation and root cause analysis program, (3) potential regulatory intervention, (4) increased insurance premiums, and (5) reputational damage with investors and financiers who increasingly screen mining investments on ESG (Environmental, Social, Governance) criteria including safety performance. Gold production is irrelevant to the calculation — LTIFR is normalised to hours worked, not output.",
+    "key_concept": "LTIFR 7.2 = poor; excellent < 1.0, good 1-3, needs improvement > 5.0",
+    "source": "Mining safety benchmarking / ICMM",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-20-018",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "What is 'tax equalisation' in the context of expatriate compensation packages?",
+    "options": {
+      "A": "A government policy requiring all mining companies to pay the same tax rate",
+      "B": "An arrangement where the employer ensures the expatriate's total tax burden is equivalent to what they would pay in their home country, absorbing any excess host country tax",
+      "C": "A method of calculating the tax deduction for exploration expenditures",
+      "D": "A requirement for mining companies to share tax revenue equally with local communities"
+    },
+    "correct": "B",
+    "explanation": "Tax equalisation is a common component of expatriate compensation packages where the employer ensures the employee pays no more (and no less) in total income tax than they would if they had remained in their home country. The mechanism works as follows: the employer calculates a 'hypothetical tax' — the tax the employee would pay on their base salary in their home country — and deducts this from the employee's pay. The employer then pays the actual tax obligations in both the home country and host country. If the actual combined tax exceeds the hypothetical tax, the employer absorbs the difference; if it is less, the employer retains the saving. This ensures expatriates are 'tax neutral' — they are neither advantaged nor disadvantaged by their international assignment. Tax equalisation is expensive to administer (requiring specialist tax advisors) but is considered essential for attracting expatriate talent, particularly to high-tax jurisdictions in West Africa.",
+    "key_concept": "Tax equalisation: employer absorbs tax difference so expat pays same as if working in home country",
+    "source": "Expatriate compensation / international HR practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-20-019",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "Which of the following KPIs is most directly associated with the Metallurgical Superintendent's performance?",
+    "options": {
+      "A": "Drill metres per month and core recovery percentage",
+      "B": "JORC resource category upgrades from Inferred to Indicated",
+      "C": "Gold recovery rate (%), plant throughput (tph), grind size (P80), and reagent consumption",
+      "D": "Community grievance resolution time and social investment budget utilisation"
+    },
+    "correct": "C",
+    "explanation": "The Metallurgical Superintendent (or Plant Manager) is directly accountable for processing plant performance, measured by: (1) Gold recovery rate (%) — the percentage of gold in the feed ore that is successfully extracted, typically targeting 90-95% for CIL/CIP circuits; (2) Throughput (tonnes per hour, tph) — the rate at which ore is processed through the plant, which must match the mine's production schedule; (3) Grind size (P80) — the particle size at which 80% of the ground ore passes, which directly affects both recovery and energy costs; (4) Reagent consumption — particularly cyanide (NaCN) and lime (CaO), which are major operating cost components. Drill metres and resource upgrades are geological functions, while community relations fall under the Country Manager or Community Relations Manager. The Met Superintendent must balance recovery optimisation against cost control — pushing for finer grinding improves recovery but increases energy and grinding media costs.",
+    "key_concept": "Met Superintendent KPIs: recovery %, throughput (tph), grind size (P80), reagent consumption",
+    "source": "Processing plant management / metallurgical operations",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-20-020",
+    "chapterId": "gold-20",
+    "domain": "gold",
+    "question": "A mining company is planning to close an operation in Mali. Under CDI contracts, severance payments are typically calculated as:",
+    "options": {
+      "A": "A flat rate of $1,000 per employee regardless of tenure",
+      "B": "Approximately one month's salary per year of service, creating a potentially significant financial obligation at mine closure",
+      "C": "No severance is required under Malian law if 90 days' notice is given",
+      "D": "Severance is only payable to expatriate employees, not national staff"
+    },
+    "correct": "B",
+    "explanation": "Under Malian labour law, employees on CDI (indefinite-term) contracts who are terminated are entitled to severance pay (indemnite de licenciement) calculated based on their length of service. The standard calculation is approximately one month's salary per year of service, though the exact multiplier can vary based on collective bargaining agreements and seniority category. For a mine that has operated for 10-15 years with hundreds of CDI employees, the aggregate severance obligation at closure can amount to millions of dollars. This must be provisioned for in the mine's financial model and closure plan. Prudent mining companies begin accruing severance liabilities from the start of operations and include them in Life of Mine (LOM) financial projections. The severance obligation applies to all employees on CDI contracts, both national and expatriate, though in practice the vast majority of CDI employees are nationals since expatriates are typically on fixed-term assignments.",
+    "key_concept": "Mali CDI severance: ~1 month salary per year of service; major closure cost to provision for",
+    "source": "Mali Code du Travail / mine closure planning",
+    "difficulty": 3
+  }
+]

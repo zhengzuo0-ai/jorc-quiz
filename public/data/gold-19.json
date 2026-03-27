@@ -1,0 +1,427 @@
+[
+  {
+    "id": "gold-19-001",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Which exchange is considered the global epicenter for junior mining equity financing, completing approximately 40% of all mining equity capital raised worldwide?",
+    "options": {
+      "A": "ASX (Australian Securities Exchange)",
+      "B": "LSE AIM (London Alternative Investment Market)",
+      "C": "TSX and TSX Venture Exchange",
+      "D": "JSE (Johannesburg Stock Exchange)"
+    },
+    "correct": "C",
+    "explanation": "The Toronto Stock Exchange (TSX) and its junior board TSX Venture Exchange (TSX-V) together form the world's preeminent hub for mining equity financing. Over 1,200 mining companies are listed on TSX/TSX-V, and approximately 40% of global mining equity capital is raised in Toronto. The TSX-V specifically serves as the incubator for junior exploration companies. While the ASX is also a major mining exchange with 700+ mining listings, it ranks behind Toronto in total mining capital raised.",
+    "key_concept": "TSX/TSX-V: ~40% of global mining equity financing, 1,200+ mining listings",
+    "source": "TMX Group market statistics; global mining finance industry data",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-19-002",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "In a precious metals streaming agreement, the ongoing payment made by the streaming company for each ounce delivered is typically what percentage of the spot price?",
+    "options": {
+      "A": "50-75% of spot price",
+      "B": "25-50% of spot price",
+      "C": "10-25% of spot price",
+      "D": "1-5% of spot price"
+    },
+    "correct": "C",
+    "explanation": "In a typical streaming deal, the streaming company makes a large upfront deposit (often hundreds of millions of dollars) and then pays an ongoing per-unit price of approximately 10-25% of the prevailing spot price for each ounce of metal delivered. This steep discount compensates the streaming company for the upfront capital risk. The difference between the ongoing payment and the market price represents the streaming company's gross margin, which is why streaming companies like Wheaton Precious Metals and Franco-Nevada maintain exceptionally high profit margins (often 70%+).",
+    "key_concept": "Streaming ongoing payments: 10-25% of spot price per ounce delivered",
+    "source": "Wheaton Precious Metals and Franco-Nevada annual reports; streaming industry conventions",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-19-003",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "What does 'limited recourse' mean in the context of mining project finance?",
+    "options": {
+      "A": "The project can only access a limited amount of debt financing",
+      "B": "Lenders can only claim against the project's own assets and cash flows, not the parent company's balance sheet",
+      "C": "The mining company has limited ability to refinance the loan",
+      "D": "The government limits the total amount of foreign capital that can enter the project"
+    },
+    "correct": "B",
+    "explanation": "Limited recourse (or non-recourse) project finance means that lenders' claims are primarily secured against the project's own assets, contracts, and future cash flows rather than the parent company's corporate balance sheet. If the project fails, lenders cannot typically pursue the sponsor's other assets. This structure is fundamental to mining project finance because it allows companies to undertake large capital-intensive projects without putting their entire corporate asset base at risk. It also means lenders conduct extremely rigorous due diligence on project feasibility studies, offtake agreements, and reserve estimates before committing capital.",
+    "key_concept": "Limited recourse: lenders secured against project assets/cash flows, not parent company",
+    "source": "Project finance structuring principles; mining finance textbooks",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-19-004",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Franco-Nevada is best described as which type of company?",
+    "options": {
+      "A": "A vertically integrated gold mining and refining company",
+      "B": "A royalty and streaming company that holds interests in mining assets but operates no mines",
+      "C": "A commodity trading house that buys and sells physical gold",
+      "D": "A mining-focused private equity fund"
+    },
+    "correct": "B",
+    "explanation": "Franco-Nevada is the world's largest gold-focused royalty and streaming company by market capitalization (approximately USD 25 billion+). Its business model is to acquire royalty interests (primarily NSR royalties) and streaming agreements on mining properties worldwide. Crucially, Franco-Nevada does not operate any mines itself, meaning it has no direct exposure to operating costs, capex overruns, labor disputes, or environmental liabilities. It holds over 400 royalty and streaming assets across gold, copper, and oil & gas. The company maintains zero debt and is considered one of the most defensive business models in the mining sector.",
+    "key_concept": "Franco-Nevada: royalty/streaming company, 400+ assets, zero mines operated, zero debt",
+    "source": "Franco-Nevada Corporation corporate profile and annual reports",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-19-005",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "A junior explorer on the TSX-V conducts a private placement offering 'units' consisting of one common share plus one-half warrant exercisable at CAD 0.50 within 24 months. An investor buys 100,000 units at CAD 0.30 each. What is the maximum total capital the company could receive from this investor including full warrant exercise?",
+    "options": {
+      "A": "CAD 30,000",
+      "B": "CAD 55,000",
+      "C": "CAD 80,000",
+      "D": "CAD 50,000"
+    },
+    "correct": "B",
+    "explanation": "The investor first pays CAD 0.30 × 100,000 units = CAD 30,000 for the shares and warrants. Each unit includes 0.5 warrants, so the investor receives 50,000 warrants. If all warrants are exercised at CAD 0.50 each, that generates an additional CAD 0.50 × 50,000 = CAD 25,000. Total maximum capital from this investor: CAD 30,000 + CAD 25,000 = CAD 55,000. This 'units with warrants' structure is extremely common in junior mining private placements because it provides both immediate capital and a potential second tranche of financing if the share price rises above the warrant exercise price.",
+    "key_concept": "Units with warrants: share + fractional warrant, two-stage capital raising mechanism",
+    "source": "TSX Venture Exchange private placement conventions",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-006",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "What is the typical debt-to-equity ratio used in mining project finance?",
+    "options": {
+      "A": "90:10 (debt:equity)",
+      "B": "60:40 to 70:30 (debt:equity)",
+      "C": "50:50 (debt:equity)",
+      "D": "30:70 (debt:equity)"
+    },
+    "correct": "B",
+    "explanation": "Mining project finance typically uses a debt-to-equity ratio of 60:40 to 70:30, meaning 60-70% of the project capital comes from debt (bank loans, bonds) and 30-40% from equity. This is more conservative than real estate or infrastructure project finance (which may reach 80:20 or higher) because mining projects carry commodity price risk, geological risk, and political risk that make lenders cautious. The exact ratio depends on factors including the project's jurisdiction, commodity, reserve quality, offtake agreements in place, and the sponsor's credit profile.",
+    "key_concept": "Mining project finance D/E ratio: typically 60:40 to 70:30",
+    "source": "Mining project finance industry standards",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-007",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Barrick Gold spent approximately USD 5.6 billion in 2009 to close out its gold hedge book. What type of hedging instrument was primarily responsible for these losses?",
+    "options": {
+      "A": "Put options purchased as price insurance",
+      "B": "Forward sales contracts that locked in prices below the rising spot price",
+      "C": "Currency hedges against the Australian dollar",
+      "D": "Interest rate swaps on project finance debt"
+    },
+    "correct": "B",
+    "explanation": "Barrick Gold had built a massive forward sales hedge book during the late 1990s and early 2000s when gold prices were low (USD 250-350/oz). As gold prices surged past USD 1,000/oz in 2008-2009, these forward contracts obligated Barrick to deliver gold at far below market prices, resulting in enormous mark-to-market losses. The company ultimately spent approximately USD 5.6 billion to buy back and cancel these forward contracts, crystallizing massive losses. This became a cautionary tale for the entire gold mining industry about the dangers of excessive forward hedging, and most major gold miners subsequently adopted minimal or zero hedging policies.",
+    "key_concept": "Barrick's USD 5.6B hedge book unwind: forward sales contracts in a rising market",
+    "source": "Barrick Gold Corporation 2009 annual report; mining finance case studies",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-008",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "What is an NSR (Net Smelter Return) royalty?",
+    "options": {
+      "A": "A tax levied by governments on mining company profits",
+      "B": "A percentage of revenue from the sale of refined mineral products after deducting smelting and refining costs",
+      "C": "A fee paid to the smelter for processing ore",
+      "D": "The net profit margin of a smelting operation"
+    },
+    "correct": "B",
+    "explanation": "A Net Smelter Return (NSR) royalty is calculated as a percentage of the revenue received from the sale of mineral products after deducting transportation, smelting, and refining charges. It is the most common form of mining royalty. Typical NSR royalty rates range from 1% to 5% of net smelter returns. NSR royalties are preferred by royalty holders because they are tied to revenue (not profit), making them less susceptible to manipulation through cost inflation. Unlike a Net Profits Interest (NPI), an NSR royalty generates income as long as the mine is producing, regardless of whether the mine is profitable.",
+    "key_concept": "NSR royalty: % of revenue after smelting/refining costs, most common mining royalty type",
+    "source": "Mining royalty agreements; Franco-Nevada and Royal Gold disclosures",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-19-009",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "A Nominated Adviser (Nomad) is a mandatory requirement for companies listed on which exchange?",
+    "options": {
+      "A": "TSX Venture Exchange",
+      "B": "ASX",
+      "C": "LSE AIM",
+      "D": "JSE"
+    },
+    "correct": "C",
+    "explanation": "The London Stock Exchange's Alternative Investment Market (AIM) requires every listed company to retain a Nominated Adviser (Nomad) at all times. The Nomad acts as a gatekeeper and ongoing regulatory supervisor, responsible for assessing the company's suitability for AIM admission and ensuring continuous compliance with AIM Rules. If a company loses its Nomad, its shares are typically suspended from trading within one month. This system replaces the more traditional listing requirements (minimum market cap, trading history) found on main board exchanges, allowing smaller and earlier-stage companies to access public markets while maintaining a degree of investor protection.",
+    "key_concept": "LSE AIM: Nominated Adviser (Nomad) mandatory for all listed companies",
+    "source": "London Stock Exchange AIM Rules for Companies",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-19-010",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "In a zero-cost collar hedging strategy, a gold mining company simultaneously:",
+    "options": {
+      "A": "Buys call options and sells put options",
+      "B": "Buys put options and sells call options, with premiums offsetting each other",
+      "C": "Buys forward contracts and sells futures contracts",
+      "D": "Buys gold ETF shares and sells physical gold"
+    },
+    "correct": "B",
+    "explanation": "A zero-cost collar involves buying put options (establishing a price floor) and simultaneously selling call options (establishing a price ceiling). The premium received from selling the calls offsets the premium paid for the puts, making the net cost of the strategy approximately zero. For example, a gold miner might buy puts at USD 1,900/oz and sell calls at USD 2,400/oz. This guarantees the miner receives at least USD 1,900/oz (downside protection) but caps upside at USD 2,400/oz. If gold trades between the two strike prices, neither option is exercised and the company sells at spot. This strategy is popular because it provides free downside protection, but the tradeoff is forfeiting windfall gains above the cap.",
+    "key_concept": "Zero-cost collar: buy puts (floor) + sell calls (cap), premiums offset to zero net cost",
+    "source": "Commodity hedging strategies; mining finance textbooks",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-011",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "What distinguishes a streaming agreement from a royalty agreement?",
+    "options": {
+      "A": "Streaming agreements involve government entities; royalties are private",
+      "B": "In a stream, the company purchases and takes delivery of physical metal at a discounted price; in a royalty, the company receives a percentage of revenue without taking physical delivery",
+      "C": "Royalties require larger upfront payments than streams",
+      "D": "Streaming agreements are only used for precious metals; royalties can apply to any commodity"
+    },
+    "correct": "B",
+    "explanation": "The fundamental distinction is physical delivery. In a streaming agreement, the streaming company makes an upfront deposit and then purchases actual physical metal from the mine at a deeply discounted ongoing price (typically 10-25% of spot). The streaming company then sells this metal at market prices for profit. In a royalty agreement, the royalty holder simply receives a percentage of revenue (NSR), profit (NPI), or production value without ever taking physical possession of the commodity. While both provide upfront capital to miners, streaming companies carry physical metal on their balance sheets and must manage logistics, whereas royalty holders are purely financial participants.",
+    "key_concept": "Stream = physical metal delivery at discount; Royalty = % of revenue/profit, no physical delivery",
+    "source": "Wheaton Precious Metals, Franco-Nevada corporate descriptions; mining finance literature",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-012",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Which financing model has been extensively used by Chinese state banks in African mining, where loan repayment is secured by future mineral exports?",
+    "options": {
+      "A": "Convertible bond financing",
+      "B": "Resource-for-loan (resources-backed lending)",
+      "C": "Mezzanine debt financing",
+      "D": "Equity crowdfunding"
+    },
+    "correct": "B",
+    "explanation": "The resource-for-loan model (also called resource-backed lending or commodity-backed lending) has been extensively used by Chinese state banks, particularly the China Development Bank (CDB) and China Exim Bank (CEXIM), in African mining investments. Under this structure, Chinese banks provide large loans to African governments or mining projects, with repayment secured by future mineral or commodity exports to China. This model has funded billions of dollars in mining infrastructure in the DRC (copper-cobalt), Guinea (bauxite), and other resource-rich African nations. While it provides crucial development capital, it has generated controversy around 'debt-trap diplomacy' concerns.",
+    "key_concept": "Resource-for-loan: Chinese state bank financing secured by future mineral exports to China",
+    "source": "China-Africa mining investment studies; CDB and CEXIM loan structures",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-013",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "What is the minimum Debt Service Coverage Ratio (DSCR) that banks typically require for mining project finance loans?",
+    "options": {
+      "A": "0.8-1.0x",
+      "B": "1.0-1.1x",
+      "C": "1.3-1.5x",
+      "D": "2.5-3.0x"
+    },
+    "correct": "C",
+    "explanation": "Banks typically require a minimum DSCR of 1.3x to 1.5x for mining project finance loans. The DSCR is calculated as the project's net operating cash flow divided by total debt service (principal + interest payments). A DSCR of 1.5x means the project generates 50% more cash flow than needed to service its debt, providing a cushion against commodity price declines or operational disruptions. Some banks may require higher DSCRs (1.5-2.0x) for projects in higher-risk jurisdictions or with single-commodity exposure. A DSCR below 1.0x means the project cannot cover its debt obligations from operating cash flow.",
+    "key_concept": "Mining project finance minimum DSCR: 1.3-1.5x (cash flow / debt service)",
+    "source": "Mining project finance lending standards; commercial bank requirements",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-014",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Canada's Flow-Through Shares (FTS) mechanism benefits junior mining companies by:",
+    "options": {
+      "A": "Allowing the company to issue shares without regulatory approval",
+      "B": "Passing the tax deduction for exploration expenditures directly to investors, effectively subsidizing exploration costs",
+      "C": "Guaranteeing a minimum share price for 12 months after issuance",
+      "D": "Providing government-backed insurance against exploration failure"
+    },
+    "correct": "B",
+    "explanation": "Canada's Flow-Through Share (FTS) mechanism allows mining and exploration companies to 'flow through' or renounce eligible Canadian Exploration Expenses (CEE) to investors. The investors can then claim these deductions against their personal income tax. For high-income Canadian investors, this tax benefit can effectively reduce their net cost of investment by 30-50%, making them willing to pay a premium (often 15-30% above market price) for flow-through shares. This system has been instrumental in funding grassroots exploration across Canada and is widely regarded as one of the most effective government incentives for mineral exploration globally. Australia has a similar but smaller program called the Junior Minerals Exploration Incentive (JMEI).",
+    "key_concept": "Flow-Through Shares: exploration tax deductions flow to investors, subsidizing junior exploration",
+    "source": "Canada Income Tax Act; Canadian mineral exploration financing",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-015",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Which of the following is NOT a typical advantage of streaming financing for a mining company compared to issuing new equity?",
+    "options": {
+      "A": "No dilution of existing shareholders' ownership percentage",
+      "B": "Immediate access to large upfront capital",
+      "C": "The streaming obligation expires after the mine closes",
+      "D": "The company retains full ownership of all future production revenue"
+    },
+    "correct": "D",
+    "explanation": "Option D is NOT an advantage because streaming specifically requires the mining company to surrender a portion of its future production to the streaming company at a deeply discounted price — this is the fundamental cost of streaming finance. The company does NOT retain full ownership of all future production revenue. The other three options are genuine advantages: (A) streaming does not issue new shares, so existing shareholders maintain their ownership percentage; (B) streaming companies provide large upfront deposits, often hundreds of millions of dollars; (C) streaming obligations are tied to mine life, so they naturally terminate when production ceases (unlike perpetual royalties on the land).",
+    "key_concept": "Streaming tradeoff: no equity dilution but permanent surrender of portion of future production",
+    "source": "Streaming agreement structures; Wheaton Precious Metals transaction summaries",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-016",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "In a typical earn-in joint venture agreement between a major miner and a junior explorer, the major miner typically earns what percentage of the project by spending an agreed amount on exploration?",
+    "options": {
+      "A": "10-25%",
+      "B": "51-75%",
+      "C": "90-100%",
+      "D": "Exactly 50%"
+    },
+    "correct": "B",
+    "explanation": "In a typical earn-in JV agreement, the major mining company earns 51-75% of the project by funding a specified amount of exploration expenditure (typically USD 5-20 million) over a defined period (usually 3-5 years). The 51% threshold is critical because it gives the major company operational control. Many agreements have a two-stage earn-in: for example, spend USD 5 million to earn 51%, then an additional USD 10 million to earn up to 70-75%. The junior company retains a minority interest (25-49%) without having to fund its share of exploration during the earn-in period. This structure is fundamental to the junior mining ecosystem — juniors make discoveries and then partner with majors who have the capital and expertise to advance projects.",
+    "key_concept": "Earn-in JV: major spends exploration $ over 3-5 years to earn 51-75% of project",
+    "source": "Mining joint venture conventions; junior-major partnership structures",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-017",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "A gold mine has a pre-tax NPV(5%) of USD 800 million and requires an initial capital expenditure of USD 500 million. What is the NPV-to-Capex ratio, and how would most mining investors interpret it?",
+    "options": {
+      "A": "0.6x — the project destroys value and should be rejected",
+      "B": "1.6x — a marginally acceptable project",
+      "C": "1.6x — a robust and attractive project",
+      "D": "3.0x — an exceptionally high-return project"
+    },
+    "correct": "C",
+    "explanation": "The NPV-to-Capex ratio is 800/500 = 1.6x. In mining, an NPV/Capex ratio above 1.0x means the project creates value above its cost (NPV is positive after accounting for the initial investment if NPV is calculated net of capex, but here NPV(5%) of 800M already accounts for capital costs in the DCF, making 1.6x very attractive). Generally, mining investors consider: <0.5x as marginal, 0.5-1.0x as acceptable, and >1.0x as robust to very attractive. A ratio of 1.6x at a 5% discount rate indicates a strong project with substantial value creation. However, investors would also examine the IRR, payback period, and sensitivity to commodity prices before committing capital.",
+    "key_concept": "NPV/Capex ratio: >1.0x generally considered robust; 1.6x is attractive",
+    "source": "Mining project valuation conventions; feasibility study assessment criteria",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-19-018",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Wheaton Precious Metals primarily acquires streaming interests in which type of metal production?",
+    "options": {
+      "A": "Primary gold production from dedicated gold mines",
+      "B": "By-product gold and silver from base metal mines (copper, zinc, etc.)",
+      "C": "Iron ore and coal production",
+      "D": "Recycled gold from e-waste processing"
+    },
+    "correct": "B",
+    "explanation": "Wheaton Precious Metals has built its business model primarily around acquiring streaming interests in by-product precious metals (gold and silver) from base metal mines. When a copper or zinc mine produces gold and silver as by-products, the mine operator often views these as non-core revenue streams and is willing to sell streaming rights on them in exchange for upfront capital. This creates a win-win: the base metal miner gets significant upfront financing without diluting equity or borrowing, while Wheaton gains access to low-cost precious metal production. Because the mining costs are borne by the primary base metal operation, the marginal cost of by-product precious metals is very low, making these particularly attractive streaming targets.",
+    "key_concept": "Wheaton's model: streaming by-product precious metals from base metal mines",
+    "source": "Wheaton Precious Metals corporate strategy and annual reports",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-019",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Which South African reporting code is equivalent to JORC for mineral resource classification on the JSE?",
+    "options": {
+      "A": "NI 43-101",
+      "B": "SAMREC Code",
+      "C": "SEC S-K 1300",
+      "D": "CIM Standards"
+    },
+    "correct": "B",
+    "explanation": "The South African Mineral Resource Committee (SAMREC) Code is the mandatory reporting standard for mineral resources and reserves on the Johannesburg Stock Exchange (JSE). SAMREC is a member of CRIRSCO (Committee for Mineral Reserves International Reporting Standards), which is the international umbrella body that ensures mutual recognition among reporting codes worldwide. Other CRIRSCO members include JORC (Australia), CIM (Canada, which underpins NI 43-101), PERC (Europe), and SEC S-K 1300 (USA). While these codes share common principles of transparency, materiality, and competence, each has jurisdiction-specific requirements.",
+    "key_concept": "SAMREC Code: JSE's mineral resource reporting standard, CRIRSCO member alongside JORC",
+    "source": "SAMREC Code; JSE Listings Requirements; CRIRSCO template",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-19-020",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "An offtake agreement in mining project finance serves primarily to:",
+    "options": {
+      "A": "Set the final selling price of the commodity for the life of the mine",
+      "B": "Provide lenders with confidence in future cash flow predictability by securing a committed buyer",
+      "C": "Eliminate all commodity price risk for the mining company",
+      "D": "Transfer mine ownership to the offtaker upon loan repayment"
+    },
+    "correct": "B",
+    "explanation": "The primary purpose of an offtake agreement in the context of project finance is to provide lenders with confidence that the project will have a reliable sales channel and predictable revenue stream. Banks financing a mine construction want assurance that the mine's production can be sold, so having a creditworthy offtaker (such as Glencore, Trafigura, or a steel mill) committed to purchasing production significantly de-risks the loan. However, offtake agreements typically do NOT fix prices for the life of the mine — most use market-based pricing formulas (e.g., LME reference price minus a discount). They also do not eliminate commodity price risk, as the mine still receives market-linked prices. The offtake secures volume/buyer certainty, not price certainty.",
+    "key_concept": "Offtake agreements: secure buyer and sales channel for lender confidence, not price certainty",
+    "source": "Mining project finance structuring; offtake agreement conventions",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-021",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Orion Resource Partners, Appian Capital Advisory, and Resource Capital Funds are examples of:",
+    "options": {
+      "A": "Central banks that accumulate gold reserves",
+      "B": "Commodity trading houses",
+      "C": "Specialized mining-focused private equity funds",
+      "D": "Government-owned mining companies"
+    },
+    "correct": "C",
+    "explanation": "Orion Resource Partners, Appian Capital Advisory, and Resource Capital Funds (RCF) are all specialized private equity funds focused exclusively on the mining and metals sector. These funds typically invest in development-stage mining projects — assets that have completed feasibility studies but need capital for construction. Investment sizes typically range from USD 50 million to USD 500 million. They fill a critical financing gap between what junior miners can raise in equity markets and what project finance banks will lend, often providing the equity portion of project finance structures. Their investment horizon is typically 5-10 years, with exits through IPO, trade sale to a major miner, or project-level refinancing.",
+    "key_concept": "Mining PE funds: Orion, Appian, RCF — invest in development-stage projects, USD 50-500M range",
+    "source": "Mining private equity fund profiles; industry conference disclosures",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-19-022",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "A mining company buys put options at USD 1,800/oz gold for its next 12 months of production, paying a 5% premium. If gold averages USD 2,200/oz during that period, what is the financial outcome?",
+    "options": {
+      "A": "The company is obligated to sell at USD 1,800/oz and loses USD 400/oz",
+      "B": "The puts expire worthless; the company sells at USD 2,200/oz but loses the premium paid",
+      "C": "The company exercises the puts and sells at USD 1,800/oz for a guaranteed profit",
+      "D": "The premium is refunded because the puts were not exercised"
+    },
+    "correct": "B",
+    "explanation": "Put options give the holder the RIGHT but not the OBLIGATION to sell at the strike price. Since the market price (USD 2,200/oz) is well above the put strike price (USD 1,800/oz), it would make no sense to exercise the puts. The company lets them expire worthless and sells its gold at the favorable market price of USD 2,200/oz. However, the company still loses the premium it paid for the puts (5% of the contract value), which is the cost of insurance. This is the key advantage of options over forward contracts: if prices rise, the company participates in the upside minus the cost of the premium. With forward contracts, the company would have been locked into selling at the lower contracted price regardless of market movements.",
+    "key_concept": "Put options: right not obligation to sell; expire worthless if price rises, cost is premium paid",
+    "source": "Commodity hedging mechanics; options theory applied to mining",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-19-023",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "Which Chinese mining company has made significant copper-cobalt investments in the Democratic Republic of Congo and is dual-listed on the Hong Kong and Shanghai exchanges?",
+    "options": {
+      "A": "China Shenhua Energy",
+      "B": "Zijin Mining Group",
+      "C": "CMOC Group (formerly China Molybdenum / Luoyang Molybdenum)",
+      "D": "Jiangxi Copper"
+    },
+    "correct": "C",
+    "explanation": "CMOC Group (洛阳钼业, formerly known as China Molybdenum Co.) has made transformative investments in the DRC's copper-cobalt belt, most notably acquiring the Tenke Fungurume mine from Freeport-McMoRan in 2016 for approximately USD 2.65 billion and the Kisanfu copper-cobalt project from Freeport in 2020. CMOC is dual-listed on the Hong Kong Stock Exchange and Shanghai Stock Exchange (A+H shares). While Zijin Mining is also a major Chinese mining company active in Africa (notably the Kamoa-Kakula copper project in the DRC as a JV with Ivanhoe Mines), the question's reference to copper-cobalt specifically and dual-listing points most directly to CMOC's DRC portfolio.",
+    "key_concept": "CMOC: major Chinese miner in DRC copper-cobalt, A+H dual-listed",
+    "source": "CMOC Group corporate disclosures; DRC mining investment history",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-19-024",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "A Net Profits Interest (NPI) royalty differs from an NSR royalty in that the NPI:",
+    "options": {
+      "A": "Is calculated on gross revenue without any cost deductions",
+      "B": "Is calculated on net profit after deducting all operating costs, making it riskier for the royalty holder",
+      "C": "Always pays a higher percentage than an NSR",
+      "D": "Can only be applied to precious metals, not base metals"
+    },
+    "correct": "B",
+    "explanation": "A Net Profits Interest (NPI) royalty is calculated as a percentage of the mine's net profit after deducting all operating costs, capital expenditures, and sometimes even depreciation and financing charges. This makes NPI the riskiest type of royalty for the holder because: (1) if the mine operates at a loss, the NPI pays nothing; (2) the mine operator controls cost reporting and can potentially inflate costs to reduce the NPI payment; and (3) mines frequently operate at a loss during their early years or during commodity price downturns. In contrast, an NSR royalty is based on revenue (minus only smelting/refining/transport costs), so it pays as long as the mine is producing, regardless of profitability. This is why NSR royalties typically trade at higher valuations per dollar of income than NPI royalties.",
+    "key_concept": "NPI royalty: based on net profit after all costs — riskiest royalty type for holder",
+    "source": "Mining royalty type comparisons; royalty company disclosures",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-19-025",
+    "chapterId": "gold-19",
+    "domain": "gold",
+    "question": "A feasibility study for a gold project shows an IRR of 12% at a gold price of USD 2,000/oz. The project sponsor is seeking project finance from a commercial bank. What is the bank's most likely response?",
+    "options": {
+      "A": "Approve the loan immediately, as any positive IRR indicates a viable project",
+      "B": "Decline or require significant enhancements, as 12% IRR is below the typical 15-20% threshold that banks and investors expect for mining projects",
+      "C": "Approve the loan but require 100% equity and no debt",
+      "D": "Approve the loan only if gold prices exceed USD 3,000/oz"
+    },
+    "correct": "B",
+    "explanation": "Commercial banks and mining investors typically require an IRR of at least 15-20% for mining projects to compensate for the inherent risks: commodity price volatility, geological uncertainty, construction cost overruns, political/regulatory risk, and environmental liabilities. A 12% IRR at the base-case gold price suggests thin margins that could easily turn negative with modest gold price declines or cost increases. Banks would likely either decline the financing or require significant enhancements such as: higher equity contribution from the sponsor, additional offtake agreements, hedging of a portion of production, sovereign guarantees, or a complete project re-design to reduce capital costs. The project might be considered 'economically marginal' at these returns.",
+    "key_concept": "Mining project IRR threshold: typically 15-20% minimum for bankable feasibility",
+    "source": "Mining project finance lending criteria; feasibility study assessment standards",
+    "difficulty": 3
+  }
+]

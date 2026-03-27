@@ -1,0 +1,342 @@
+[
+  {
+    "id": "gold-18-001",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "The Indochina Block collided with the South China Block along the Palaeo-Tethys suture zone during which geological period?",
+    "options": {
+      "A": "Jurassic (200-145 Ma)",
+      "B": "Triassic (250-200 Ma)",
+      "C": "Permian (300-250 Ma)",
+      "D": "Cretaceous (145-66 Ma)"
+    },
+    "correct": "B",
+    "explanation": "The Indochina Block collided with the South China Block during the Triassic period (approximately 250-200 Ma) as the Palaeo-Tethys Ocean closed. This collision event along the suture zone produced intense magmatic activity and metamorphism that created the metallogenic conditions for gold, copper, and tin mineralization throughout Laos and Vietnam. The Truong Son Fold Belt marks this collision zone.",
+    "key_concept": "Indochina-South China Block collision occurred in the Triassic along the Palaeo-Tethys suture",
+    "source": "Southeast Asian tectonic framework, Metcalfe (2011)",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-18-002",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "The Truong Son Fold Belt extends along which international border?",
+    "options": {
+      "A": "Laos-Thailand border",
+      "B": "Laos-Cambodia border",
+      "C": "Laos-Vietnam border",
+      "D": "Laos-China border"
+    },
+    "correct": "C",
+    "explanation": "The Truong Son Fold Belt extends along the Laos-Vietnam border, marking the suture zone where the Indochina Block's northern margin collided with the South China Block. This fold belt is hundreds of kilometres long and contains ophiolites, arc magmatic rocks, and sedimentary sequences that host multiple styles of mineralization relevant to gold and copper exploration.",
+    "key_concept": "Truong Son Fold Belt runs along the Laos-Vietnam border as a major metallogenic zone",
+    "source": "Regional geology of mainland Southeast Asia",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-003",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "What type of gold mineralization at the Sepon mine is analogous to deposits found in Nevada, USA?",
+    "options": {
+      "A": "Orogenic lode gold",
+      "B": "Carlin-type gold",
+      "C": "Epithermal high-sulphidation gold",
+      "D": "Placer gold"
+    },
+    "correct": "B",
+    "explanation": "The Sepon gold deposit is classified as Carlin-type mineralization, where gold occurs as fine-grained particles disseminated within arsenian pyrite hosted in Carboniferous carbonates and clastic sediments. This style is directly analogous to the famous Carlin-type deposits of Nevada's Carlin Trend. The gold is typically invisible to the naked eye (submicroscopic) and requires chemical assay to detect.",
+    "key_concept": "Sepon gold is Carlin-type: fine gold in arsenian pyrite within carbonate host rocks",
+    "source": "Sepon deposit geology, PanAust technical reports",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-004",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "The Sepon mine is located in which province of Laos?",
+    "options": {
+      "A": "Xiangkhouang Province",
+      "B": "Vientiane Province",
+      "C": "Savannakhet Province",
+      "D": "Champasak Province"
+    },
+    "correct": "C",
+    "explanation": "The Sepon mine is located in Savannakhet Province in central Laos. This is an important geographic fact because Savannakhet is positioned along the Vietnamese border corridor, with road access to the Vietnamese port of Da Nang for concentrate export. Xiangkhouang Province hosts the Phu Kham mine in northern Laos.",
+    "key_concept": "Sepon is in Savannakhet Province; Phu Kham is in Xiangkhouang Province",
+    "source": "PanAust/Chifeng Gold operations geography",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-005",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "Which processing method was used for the oxide gold ore at Sepon before the oxide resource was depleted in 2013?",
+    "options": {
+      "A": "Carbon-in-leach (CIL)",
+      "B": "Flotation followed by smelting",
+      "C": "Heap leach with cyanide",
+      "D": "Gravity separation"
+    },
+    "correct": "C",
+    "explanation": "Sepon's oxide gold ore was processed using heap leach technology with cyanide solution. In the oxide zone, gold had been naturally liberated from its host sulphide minerals through weathering, making it amenable to simple cyanide heap leaching without the need for roasting or pressure oxidation. The oxide gold resource was exhausted by 2013, after which the operation focused on copper production via SX-EW.",
+    "key_concept": "Sepon oxide gold used heap leach; oxide exhausted by 2013, then copper-only via SX-EW",
+    "source": "Sepon mine operational history",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-18-006",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "What hydrometallurgical process is used at Sepon to produce cathode copper from copper sulphide ore?",
+    "options": {
+      "A": "Flotation and smelting",
+      "B": "Solvent extraction and electrowinning (SX-EW)",
+      "C": "Bioleaching followed by cementation",
+      "D": "Roasting and acid leaching"
+    },
+    "correct": "B",
+    "explanation": "Sepon uses solvent extraction and electrowinning (SX-EW) to produce high-purity cathode copper (LME Grade A, 99.99% Cu). This is notable because SX-EW is typically associated with oxide copper ores, but Sepon's high-grade secondary sulphide copper minerals (covellite and chalcocite) are amenable to acid leaching. The SX-EW plant produces approximately 80,000 tonnes of cathode copper annually.",
+    "key_concept": "Sepon produces cathode copper via SX-EW from secondary sulphide minerals",
+    "source": "Sepon copper operations, PanAust technical reports",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-18-007",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "The primary copper minerals at Sepon are covellite and chalcocite. These are classified as what type of copper enrichment?",
+    "options": {
+      "A": "Primary hypogene mineralization",
+      "B": "Supergene enrichment",
+      "C": "Skarn-related replacement",
+      "D": "Volcanogenic massive sulphide (VMS)"
+    },
+    "correct": "B",
+    "explanation": "Covellite (CuS) and chalcocite (Cu2S) at Sepon are products of supergene enrichment, where descending groundwater dissolved primary copper minerals and re-deposited them as higher-grade secondary copper sulphides in the enrichment blanket. Supergene enrichment can upgrade copper grades significantly (Sepon grades reach 4-5% Cu) compared to typical primary porphyry grades of 0.3-0.6% Cu. This process requires a period of weathering and a fluctuating water table.",
+    "key_concept": "Covellite and chalcocite are supergene minerals that produce high-grade copper enrichment blankets",
+    "source": "Economic geology of supergene copper deposits",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-18-008",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "Which Chinese mining company acquired PanAust's Laos mining assets, including Sepon and Phu Kham?",
+    "options": {
+      "A": "Zijin Mining",
+      "B": "China Molybdenum (CMOC)",
+      "C": "Chifeng Gold (Chifeng Jilong Gold Mining)",
+      "D": "Shandong Gold"
+    },
+    "correct": "C",
+    "explanation": "Chifeng Gold (Chifeng Jilong Gold Mining Co., Ltd.) acquired PanAust and its Laos mining operations. This transaction, valued at approximately $3.7 billion for the asset package, represents one of the largest Chinese mining investments in Southeast Asia. The acquisition signaled strong Chinese strategic interest in securing copper and gold resources in the ASEAN region and established Chifeng as a significant player in Laos mining.",
+    "key_concept": "Chifeng Gold acquired PanAust's Laos operations (Sepon, Phu Kham) for ~$3.7B",
+    "source": "Chifeng Gold corporate announcements",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-009",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "Phu Kham is classified as which deposit type?",
+    "options": {
+      "A": "Carlin-type disseminated gold",
+      "B": "Porphyry copper-gold",
+      "C": "Epithermal low-sulphidation gold-silver",
+      "D": "Iron oxide copper-gold (IOCG)"
+    },
+    "correct": "B",
+    "explanation": "Phu Kham is a porphyry copper-gold deposit associated with a Permian-Triassic quartz diorite porphyry intrusion. Mineralization occurs within potassic and chlorite alteration zones, with chalcopyrite, bornite, and native gold as the primary ore minerals. Typical grades of approximately 0.6% Cu and 0.3 g/t Au are characteristic of medium-grade porphyry deposits. The mine uses conventional flotation to produce copper-gold concentrate.",
+    "key_concept": "Phu Kham is a porphyry Cu-Au deposit with ~0.6% Cu and ~0.3 g/t Au grades",
+    "source": "Phu Kham deposit geology, PanAust",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-010",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "The intrusive rock associated with Phu Kham mineralization is best described as:",
+    "options": {
+      "A": "Granite porphyry",
+      "B": "Quartz diorite porphyry",
+      "C": "Syenite",
+      "D": "Gabbro"
+    },
+    "correct": "B",
+    "explanation": "Phu Kham mineralization is associated with a Permian-Triassic quartz diorite porphyry intrusion. Quartz diorite is an intermediate composition igneous rock, which is the typical host for porphyry copper-gold systems globally (as opposed to more felsic granites which tend to host tin-tungsten or molybdenum systems). The porphyritic texture indicates the magma underwent two-stage cooling, with early phenocrysts formed at depth.",
+    "key_concept": "Porphyry Cu-Au deposits are typically associated with intermediate composition intrusions like diorite",
+    "source": "Phu Kham geological model",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-18-011",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "Under Laos Mining Law 2017, what is the maximum initial term for an exploration licence?",
+    "options": {
+      "A": "2 years",
+      "B": "3 years",
+      "C": "5 years",
+      "D": "7 years"
+    },
+    "correct": "B",
+    "explanation": "Under the 2017 Law on Minerals (No. 31/NA), an exploration licence has a maximum initial term of 3 years. It can be extended twice, each extension being up to 2 years, giving a maximum total exploration period of 7 years. During this period, the licence holder must meet minimum expenditure commitments and submit regular progress reports to the Ministry of Energy and Mines.",
+    "key_concept": "Laos exploration licence: 3 years initial + 2 extensions of 2 years each = 7 years maximum",
+    "source": "Laos Law on Minerals 2017, No. 31/NA",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-012",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "What percentage of free carried interest can the Lao government claim in a mining project under the 2017 Mining Law?",
+    "options": {
+      "A": "5%",
+      "B": "10%",
+      "C": "20%",
+      "D": "30%"
+    },
+    "correct": "B",
+    "explanation": "The Lao government has the right to a 10% free carried interest in mining projects under the 2017 Law on Minerals. 'Free carried' means the government receives this equity stake without contributing capital to the project's development costs. For strategic minerals, this percentage may be negotiated higher. This is comparable to free carry provisions in other jurisdictions such as Ghana (10%) and Tanzania (16%).",
+    "key_concept": "Laos government gets 10% free carried interest; may increase for strategic minerals",
+    "source": "Laos Law on Minerals 2017, No. 31/NA",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-013",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "What is the gold royalty rate in Laos under the current fiscal regime?",
+    "options": {
+      "A": "2%",
+      "B": "3%",
+      "C": "5%",
+      "D": "7.5%"
+    },
+    "correct": "C",
+    "explanation": "The gold royalty rate in Laos is 5% of the mineral product's sales value. This is an ad valorem royalty, meaning it is calculated on revenue rather than profit. A 5% gold royalty is moderate by global standards — compare with Australia (2.5-5% depending on state), Ghana (5%), and Tanzania (6%). Copper royalties range from 3-5% depending on copper price levels and specific contractual terms.",
+    "key_concept": "Laos gold royalty is 5% ad valorem; copper is 3-5% depending on price/terms",
+    "source": "Laos Mining Law fiscal regime",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-014",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "The standard corporate income tax rate applicable to mining operations in Laos is:",
+    "options": {
+      "A": "20%",
+      "B": "24%",
+      "C": "28%",
+      "D": "35%"
+    },
+    "correct": "B",
+    "explanation": "The standard corporate income tax rate in Laos is 24%, and mining operations typically fall under this standard rate. Combined with the 5% gold royalty and 10% government free carry, the total government take is moderate but meaningful. Some earlier mining agreements negotiated tax holidays or reduced rates, but the 2017 law has moved towards standardizing the fiscal terms for new projects.",
+    "key_concept": "Laos corporate income tax for mining is 24% (standard rate)",
+    "source": "Laos tax code and Mining Law 2017",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-18-015",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "What is the maximum area permitted for a single exploration licence in Laos?",
+    "options": {
+      "A": "50 km2",
+      "B": "100 km2",
+      "C": "200 km2",
+      "D": "500 km2"
+    },
+    "correct": "C",
+    "explanation": "A single exploration licence in Laos can cover a maximum area of 200 km2. This is relatively generous compared to some jurisdictions — for example, Ghana limits prospecting licences to approximately 150 km2. The large permitted area allows explorers to capture entire geological structures or mineralized belts within a single licence, reducing the administrative burden of managing multiple tenements.",
+    "key_concept": "Maximum exploration licence area in Laos is 200 km2",
+    "source": "Laos Law on Minerals 2017, No. 31/NA",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-18-016",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "Which of the following is a significant non-geological risk factor specific to mineral exploration in central and southern Laos?",
+    "options": {
+      "A": "Permafrost affecting drill rig access",
+      "B": "Unexploded ordnance (UXO) from the Vietnam War era",
+      "C": "Active volcanic hazards",
+      "D": "Extreme high altitude (>4,000m)"
+    },
+    "correct": "B",
+    "explanation": "Unexploded ordnance (UXO) from the Vietnam War era is a major non-geological risk factor in central and southern Laos. Laos is the most heavily bombed country per capita in history, with an estimated 80 million unexploded cluster munitions remaining. Before any ground-based exploration (soil sampling, trenching, drilling) can begin, UXO clearance must be conducted, adding both cost and time to the exploration program. This is particularly severe along the Ho Chi Minh Trail corridor.",
+    "key_concept": "UXO clearance is a mandatory pre-exploration cost in much of Laos",
+    "source": "UXO Lao and international development reports",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-017",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "The Laos-China Railway, which opened in December 2021, primarily improves logistics for mining operations in which part of Laos?",
+    "options": {
+      "A": "Southern Laos (Champasak)",
+      "B": "Central Laos (Savannakhet)",
+      "C": "Northern Laos (including Vientiane to border)",
+      "D": "Eastern Laos (Vietnam border areas)"
+    },
+    "correct": "C",
+    "explanation": "The Laos-China Railway runs from Vientiane north to the Chinese border at Boten, primarily benefiting northern Laos. This 414 km railway significantly reduces transport costs and time for mining operations in the north, providing a rail link to China's Yunnan province and its smelting and refining infrastructure. For operations like Phu Kham in Xiangkhouang Province, this represents a meaningful improvement in concentrate export logistics.",
+    "key_concept": "Laos-China Railway (2021) connects Vientiane to China, improving northern Laos mining logistics",
+    "source": "Laos-China Railway project documentation",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-18-018",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "Ophiolite sequences found within the Truong Son Belt are significant because they indicate:",
+    "options": {
+      "A": "The presence of coal-bearing sedimentary basins",
+      "B": "Former oceanic crust preserved during continental collision",
+      "C": "Recent volcanic activity and geothermal potential",
+      "D": "Extensive laterite development suitable for nickel mining"
+    },
+    "correct": "B",
+    "explanation": "Ophiolites are fragments of oceanic crust and upper mantle that have been obducted (thrust onto) continental crust during ocean basin closure and continental collision. Their presence in the Truong Son Belt confirms that a former ocean (the Palaeo-Tethys) once separated the Indochina and South China blocks before collision in the Triassic. Ophiolites can also host chromium, nickel, and platinum group element mineralization, though these are not the primary exploration targets in Laos.",
+    "key_concept": "Ophiolites = preserved oceanic crust, confirming ocean closure and collision tectonic history",
+    "source": "Structural geology of the Truong Son Belt",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-18-019",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "A mining company evaluating a gold project in Laos must consider that the wet season typically spans which months, limiting field operations?",
+    "options": {
+      "A": "January to April",
+      "B": "March to June",
+      "C": "May to October",
+      "D": "November to February"
+    },
+    "correct": "C",
+    "explanation": "The wet season (monsoon) in Laos typically runs from May to October, bringing heavy rainfall that can severely limit field exploration activities including soil sampling, trenching, road construction, and drilling. Access roads become impassable, river crossings become dangerous, and drill rigs cannot operate effectively. Effective exploration programs in Laos must plan their field seasons around the dry season (November to April) and use the wet season for data compilation, interpretation, and planning.",
+    "key_concept": "Laos wet season is May-October; field exploration concentrated in November-April dry season",
+    "source": "Practical exploration planning in tropical Southeast Asia",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-18-020",
+    "chapterId": "gold-18",
+    "domain": "gold",
+    "question": "From a strategic perspective, what is the most compelling geological argument for early-stage gold exploration in Laos?",
+    "options": {
+      "A": "Laos has no existing mines, indicating completely untested potential",
+      "B": "Proven deposit types (Carlin, porphyry, epithermal) exist but effective exploration coverage remains low relative to the prospective area",
+      "C": "Laos geology is identical to the Witwatersrand Basin of South Africa",
+      "D": "Alluvial gold deposits guarantee easy and low-cost extraction"
+    },
+    "correct": "B",
+    "explanation": "The strongest geological argument for Laos exploration is that world-class deposits (Sepon as Carlin-type, Phu Kham as porphyry Cu-Au, Ban Houayxai as epithermal Au-Ag) have already proven multiple mineralization styles exist, yet the ratio of effectively explored ground to total prospective area remains very low. This combination of proven endowment with low exploration maturity is the ideal scenario for greenfield exploration. Options A and D are factually incorrect, and C is geologically nonsensical — Laos has no geological similarity to the Witwatersrand.",
+    "key_concept": "Laos has proven mineral endowment but low exploration maturity — ideal for greenfield entry",
+    "source": "Mineral exploration strategy framework",
+    "difficulty": 3
+  }
+]

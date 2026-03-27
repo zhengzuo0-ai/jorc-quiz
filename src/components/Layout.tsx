@@ -3,8 +3,10 @@ import { NavLink, Outlet } from 'react-router-dom';
 const navItems = [
   { to: '/', label: 'Home' },
   { to: '/practice', label: '练习' },
+  { to: '/concepts', label: '概念' },
   { to: '/review', label: '错题本' },
   { to: '/exam', label: '模考' },
+  { to: '/progress', label: '进度' },
 ];
 
 function NavLinkItem({ to, label }: { to: string; label: string }) {

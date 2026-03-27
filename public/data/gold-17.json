@@ -1,0 +1,342 @@
+[
+  {
+    "id": "gold-17-001",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Damara Orogen, Namibia's most important metallogenic belt, formed from the collision of which two cratons?",
+    "options": {
+      "A": "West African Craton and Saharan Metacraton",
+      "B": "Congo Craton and Kalahari Craton",
+      "C": "Tanzania Craton and Zimbabwe Craton",
+      "D": "Kaapvaal Craton and Pilbara Craton"
+    },
+    "correct": "B",
+    "explanation": "The Damara Orogen formed approximately 550-500 Ma during the Neoproterozoic to Early Palaeozoic from the collision between the Congo Craton to the north and the Kalahari Craton to the south. This collision produced a northeast-southwest trending orogenic belt that traverses central Namibia and is subdivided into Northern, Central, and Southern Zones. The Central Zone is the most prospective for gold, hosting the Navachab gold mine and widespread Pan-African granite intrusions that provided heat and auriferous hydrothermal fluids.",
+    "key_concept": "Damara Orogen: Congo-Kalahari craton collision, 550-500 Ma, NE-SW trending, Central Zone most prospective for gold",
+    "source": "Namibia regional geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-17-002",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Navachab gold mine, Namibia's only major producing gold mine, is classified as which deposit type?",
+    "options": {
+      "A": "Witwatersrand-type paleoplacer deposit",
+      "B": "Carlin-type sediment-hosted disseminated gold deposit",
+      "C": "Skarn-type gold deposit formed at the granite-marble contact",
+      "D": "Epithermal low-sulphidation vein deposit"
+    },
+    "correct": "C",
+    "explanation": "Navachab is a skarn-type gold deposit located in the Karibib district of the Central Damara Belt. Gold mineralization formed through metasomatic replacement reactions where hydrothermal fluids from granite intrusions interacted with carbonate country rocks (marble) along the contact zone. Characteristic skarn minerals include garnet and diopside, accompanied by sulphides such as pyrite, pyrrhotite, and arsenopyrite. The deposit has produced at historical grades of approximately 1.5-2.5 g/t Au from open pit mining, with annual output of 60,000-80,000 ounces. Its geological setting demonstrates that similar granite-carbonate contacts throughout the Central Zone represent underexplored gold targets.",
+    "key_concept": "Navachab: skarn-type gold at granite-marble contact, 1.5-2.5 g/t Au, 60-80 koz/yr, Central Damara Belt",
+    "source": "Navachab mine geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-17-003",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Which zone of the Damara Orogen is considered the most prospective for gold mineralization in Namibia?",
+    "options": {
+      "A": "Northern Zone, characterized by thrust-fault copper deposits",
+      "B": "Southern Zone, characterized by fold-and-thrust lead-zinc deposits",
+      "C": "Central Zone, characterized by Pan-African granite intrusions and skarn/vein-hosted gold",
+      "D": "Coastal Zone, characterized by alluvial diamond deposits"
+    },
+    "correct": "C",
+    "explanation": "The Central Zone of the Damara Orogen is the primary target for gold exploration in Namibia. It is distinguished by extensive Pan-African granite intrusions that served as both heat engines and sources of auriferous hydrothermal fluids. The country rocks—marble, schist, and gneiss—underwent high-grade metamorphism, and gold mineralization occurs in skarn bodies at granite-carbonate contacts, in quartz vein systems, and at structural intersections such as fold hinges and shear zone junctions. The Navachab mine sits within this zone, proving its capacity to host economic gold deposits. Despite this demonstrated prospectivity, large portions of the Central Zone remain underexplored by modern geochemical and geophysical methods.",
+    "key_concept": "Central Damara Zone: granite intrusions, skarn + vein gold, hosts Navachab, largely underexplored",
+    "source": "Damara Belt geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-17-004",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "What approximate percentage of Namibia's diamonds are gem quality, making its diamond production unusually valuable per carat?",
+    "options": {
+      "A": "About 25%, similar to global average",
+      "B": "About 50%, moderately above average",
+      "C": "About 75%, well above average",
+      "D": "About 95%, far exceeding the global average"
+    },
+    "correct": "D",
+    "explanation": "Approximately 95% of Namibia's diamonds are gem quality, which is extraordinarily high compared to the global average of roughly 20-30%. This exceptional quality results from the natural sorting process: diamonds transported by the Orange River and Atlantic Ocean currents over millions of years underwent repeated abrasion that destroyed weaker, lower-quality stones, leaving only the most durable gem-quality crystals in the coastal and marine placer deposits. This quality premium makes Namibia's diamond output disproportionately valuable relative to carat volume and has sustained the Namdeb joint venture (De Beers 50% / Government of Namibia 50%) and Debmarine Namibia's specialized marine mining operations for decades.",
+    "key_concept": "Namibia diamonds: ~95% gem quality due to natural sorting, Namdeb JV (De Beers/Government 50:50)",
+    "source": "Namibia diamond industry",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-17-005",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Under the Minerals (Prospecting and Mining) Act of 1992, what is the maximum total duration of an Exclusive Prospecting Licence (EPL) including all renewals?",
+    "options": {
+      "A": "3 years with no renewal option",
+      "B": "5 years (3-year initial term plus one 2-year renewal)",
+      "C": "7 years (3-year initial term plus two 2-year renewals)",
+      "D": "10 years (5-year initial term plus one 5-year renewal)"
+    },
+    "correct": "C",
+    "explanation": "Under Namibia's Minerals Act of 1992, an Exclusive Prospecting Licence (EPL) is granted for an initial period of 3 years. It may be renewed twice, with each renewal for a period of 2 years, giving a maximum total tenure of 7 years (3+2+2). Importantly, at each renewal the licence area must be reduced by at least 25%, compelling the holder to progressively focus exploration on the most prospective ground and relinquish less promising areas. This use-it-or-lose-it mechanism prevents speculative tenure hoarding and ensures that exploration ground remains available for active explorers. Failure to demonstrate adequate exploration expenditure can also result in non-renewal.",
+    "key_concept": "EPL: 3+2+2 = 7 years maximum, 25% area reduction at each renewal, prevents speculative hoarding",
+    "source": "Minerals (Prospecting and Mining) Act, 1992",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-17-006",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Rehoboth Inlier is significant for gold exploration because it:",
+    "options": {
+      "A": "Contains active volcanic systems producing epithermal gold deposits",
+      "B": "Is a Palaeoproterozoic granite-gneiss basement with greenstone belt remnants and regional shear zones analogous to gold-hosting terranes elsewhere in Africa",
+      "C": "Hosts the world's largest alluvial gold deposits along the Orange River",
+      "D": "Is composed entirely of Karoo sedimentary rocks unsuitable for gold mineralization"
+    },
+    "correct": "B",
+    "explanation": "The Rehoboth Inlier is a Palaeoproterozoic (approximately 1.8-2.0 Ga) granite-gneiss basement block located between the southern margin of the Damara Belt and the Nama Group. It contains remnants of greenstone belts, which are geological settings analogous to the highly productive Archaean and Palaeoproterozoic greenstone belt gold deposits found across Africa (notably the Birimian greenstone belts of West Africa). Regional-scale shear zones cutting through the inlier provide structural conduits for auriferous hydrothermal fluids. Despite these favourable geological indicators, the Rehoboth Inlier has received very limited modern gold exploration, partly because portions are obscured by Kalahari Basin sand cover. This represents a frontier exploration opportunity.",
+    "key_concept": "Rehoboth Inlier: Palaeoproterozoic basement, greenstone belt remnants, shear zones, underexplored gold frontier",
+    "source": "Namibia regional geology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-007",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "What royalty rate does Namibia charge on gold production under the Minerals Act?",
+    "options": {
+      "A": "0% — gold is exempt from royalties to encourage exploration",
+      "B": "3%",
+      "C": "5%",
+      "D": "10%"
+    },
+    "correct": "B",
+    "explanation": "Under Namibia's Minerals Act of 1992, gold production is subject to a 3% royalty rate. This places gold alongside uranium and copper in the same royalty tier. By contrast, diamonds and precious stones attract a significantly higher royalty of 10%, reflecting their historically dominant role in Namibia's mineral revenue. Industrial minerals are charged at 2%. The 3% gold royalty is competitive by global standards and does not impose an excessive burden on project economics, though it must be factored into discounted cash flow models alongside corporate tax (32%), NEEEF compliance costs, and the government's potential 10% free carried interest when evaluating Namibian gold project viability.",
+    "key_concept": "Gold royalty: 3% (same as uranium/copper); diamonds 10%; industrial minerals 2%",
+    "source": "Minerals (Prospecting and Mining) Act, 1992",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-17-008",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "NEEEF (New Equitable Economic Empowerment Framework) requires what minimum ownership stake by Previously Disadvantaged Namibians in enterprises?",
+    "options": {
+      "A": "10%",
+      "B": "15%",
+      "C": "25%",
+      "D": "51%"
+    },
+    "correct": "C",
+    "explanation": "NEEEF requires Previously Disadvantaged Namibians to hold at least 25% effective ownership in enterprises operating in Namibia. This is one of six pillars of the framework, alongside management control, human resources and skills development, enterprise and supplier development, community investment, and technology transfer. Although NEEEF has not been fully enacted into law as of the current date, it has become a de facto consideration for mining investors, and many companies proactively incorporate NEEEF-aligned structures to secure their social licence to operate. The 25% ownership dilution must be modelled into project economics, as it affects equity returns, financing structures, and the distribution of dividends.",
+    "key_concept": "NEEEF: 25% ownership by Previously Disadvantaged Namibians, six pillars, de facto compliance expected",
+    "source": "NEEEF policy framework",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-17-009",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Rossing uranium mine, one of the world's longest-running open pit uranium operations, is located in which geological setting?",
+    "options": {
+      "A": "Karoo Supergroup sandstones in the Southern Damara Zone",
+      "B": "Alaskite (leucogranite) intrusions within the Central Zone of the Damara Belt",
+      "C": "Alluvial deposits along the Orange River",
+      "D": "Otavi Group dolomites in the Northern Damara Zone"
+    },
+    "correct": "B",
+    "explanation": "The Rossing uranium mine, operated by Rio Tinto's Rossing Uranium Limited since 1976, is hosted in alaskite (leucogranite) intrusions within the Central Zone of the Damara Belt near Swakopmund. Alaskites are light-coloured, quartz- and feldspar-rich granitic rocks that concentrated uranium during late-stage magmatic differentiation. The Erongo Region of the Central Damara Belt is informally known as Namibia's 'uranium province' due to the widespread occurrence of uraniferous alaskites. Importantly, the uranium and gold mineralization systems in the Central Zone share similar structural controls and hydrothermal histories, meaning that geological knowledge gained from decades of uranium exploration and mining directly informs gold target generation in the same terrane.",
+    "key_concept": "Rossing: alaskite-hosted uranium in Central Damara Belt, same terrane as gold targets, 'uranium province'",
+    "source": "Namibia uranium geology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-010",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Under Namibia's Environmental Management Act of 2007, which document must be obtained before any exploration or mining activity can commence?",
+    "options": {
+      "A": "Social Impact Bond",
+      "B": "Environmental Clearance Certificate (ECC)",
+      "C": "Carbon Credit Allocation",
+      "D": "Water Table Depletion Permit"
+    },
+    "correct": "B",
+    "explanation": "The Environmental Management Act of 2007 requires that all exploration and mining activities in Namibia undergo an Environmental Impact Assessment (EIA) and obtain an Environmental Clearance Certificate (ECC) before operations can commence. The EIA process typically takes 6-12 months and includes baseline environmental studies, public consultation with affected communities, and the development of mitigation and management plans. The ECC is issued by the Ministry of Environment, Forestry and Tourism. Additionally, mining licence holders must post a Rehabilitation Bond to guarantee environmental remediation after mine closure. Given Namibia's arid environment and sensitive ecosystems (including the Namib Desert and Skeleton Coast), environmental compliance is rigorously enforced.",
+    "key_concept": "ECC required before exploration/mining, EIA process 6-12 months, Rehabilitation Bond for mine closure",
+    "source": "Environmental Management Act, 2007",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-17-011",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Which company acquired the Navachab gold mine in 2021, becoming Namibia's primary gold producer?",
+    "options": {
+      "A": "Barrick Gold Corporation",
+      "B": "Newmont Corporation",
+      "C": "Dundee Precious Metals (DPM)",
+      "D": "AngloGold Ashanti"
+    },
+    "correct": "C",
+    "explanation": "Dundee Precious Metals (DPM) acquired the Navachab gold mine in 2021, taking over from QKR Corp, which had previously purchased it from AngloGold Ashanti. Navachab was originally developed by AngloGold and has been Namibia's only significant gold producer, operating as an open pit mine with annual production of approximately 60,000-80,000 ounces at grades of 1.5-2.5 g/t Au. DPM's acquisition signalled continued confidence in the Navachab deposit and the broader Central Damara Belt gold potential, including the possibility of extending mine life through underground development below the existing open pit. The ownership history reflects how Namibian gold assets have changed hands as major producers refocused their portfolios, creating opportunities for mid-tier companies.",
+    "key_concept": "Navachab ownership: AngloGold → QKR Corp → Dundee Precious Metals (2021), mid-tier opportunity",
+    "source": "Navachab mine corporate history",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-012",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "What maximum free carried interest can the Namibian government claim in any mining project under the Minerals Act?",
+    "options": {
+      "A": "5%",
+      "B": "10%",
+      "C": "20%",
+      "D": "35%"
+    },
+    "correct": "B",
+    "explanation": "Under the Minerals (Prospecting and Mining) Act of 1992, the Government of Namibia has the right to acquire up to 10% free carried interest in any mining project. 'Free carried' means the government is not required to contribute capital for its equity share — the project bears the government's proportionate costs, and the government receives dividends from its stake without prior investment. This 10% government interest is separate from and additive to the NEEEF requirement for 25% Previously Disadvantaged Namibian ownership. Together, these provisions mean that a foreign mining investor could face effective equity dilution of up to 35% (10% government + 25% NEEEF), which must be carefully modelled in project economics and financing structures.",
+    "key_concept": "Government: up to 10% free carried interest, additive to 25% NEEEF = potential 35% total dilution",
+    "source": "Minerals (Prospecting and Mining) Act, 1992",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-013",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Namdeb, the joint venture that operates Namibia's onshore diamond mines, is owned by which parties?",
+    "options": {
+      "A": "De Beers (100%)",
+      "B": "Government of Namibia (100%)",
+      "C": "De Beers (50%) and Government of Namibia (50%)",
+      "D": "Rio Tinto (50%) and Government of Namibia (50%)"
+    },
+    "correct": "C",
+    "explanation": "Namdeb Holdings is a 50:50 joint venture between De Beers Group and the Government of the Republic of Namibia. It operates onshore alluvial diamond mining along Namibia's southwestern coast, from Oranjemund to Lüderitz. The equal partnership structure reflects Namibia's insistence on sovereign resource participation, a principle established after independence in 1990 when the colonial-era Consolidated Diamond Mines (CDM) was restructured. Debmarine Namibia, the offshore marine diamond mining operation that uses specialized vessels to recover diamonds from the Atlantic seabed, operates under the same 50:50 ownership structure. The diamond industry contributes approximately 30% of Namibia's export revenue and has provided the institutional and infrastructure foundation upon which broader mineral exploration, including gold, now builds.",
+    "key_concept": "Namdeb: De Beers 50% / Government 50%, onshore + marine diamonds, ~30% of export revenue",
+    "source": "Namibia diamond industry structure",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-17-014",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Husab uranium mine, one of the world's largest uranium operations, is operated by which entity?",
+    "options": {
+      "A": "Rio Tinto through Rossing Uranium Limited",
+      "B": "Cameco Corporation",
+      "C": "Swakop Uranium, a subsidiary of China General Nuclear Power Group (CGN)",
+      "D": "Paladin Energy Limited"
+    },
+    "correct": "C",
+    "explanation": "The Husab uranium mine is operated by Swakop Uranium, a subsidiary of China General Nuclear Power Group (CGN). Husab commenced production in 2017 and rapidly became one of the world's largest uranium mines, with annual output of approximately 3,400 tonnes U₃O₈. The mine is located in the Erongo Region near Swakopmund, within the Central Zone of the Damara Belt — the same geological terrane that hosts the Rossing mine and the Navachab gold mine. CGN's investment in Husab represents one of the largest Chinese mining investments in Africa and has brought significant infrastructure development to the region. The geological knowledge generated by Husab's extensive drilling campaigns contributes to understanding the Central Damara Belt's hydrothermal systems, which also control gold mineralization.",
+    "key_concept": "Husab: CGN/Swakop Uranium, ~3,400 t U₃O₈/yr, Central Damara Belt, major Chinese investment",
+    "source": "Namibia uranium industry",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-015",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "When renewing an Exclusive Prospecting Licence (EPL) in Namibia, the licence holder must reduce the licence area by at least:",
+    "options": {
+      "A": "10%",
+      "B": "25%",
+      "C": "50%",
+      "D": "75%"
+    },
+    "correct": "B",
+    "explanation": "At each renewal of an EPL, the licence area must be reduced by at least 25%. Since an EPL can be renewed twice (after the initial 3-year term), this means progressive area reduction over the licence life. After the first renewal, at most 75% of the original area remains; after the second renewal, at most 56.25% remains (75% × 75%). This mechanism serves multiple policy objectives: it prevents companies from warehousing large exploration tenements without actively exploring them, it returns relinquished ground to the state for potential award to other explorers, and it forces licence holders to prioritize and focus their exploration programs on the most geologically promising portions of their holdings. Companies must therefore plan their exploration programs strategically to identify and retain the most prospective ground before each renewal deadline.",
+    "key_concept": "EPL renewal: minimum 25% area reduction each time, prevents tenure hoarding, forces exploration focus",
+    "source": "Minerals (Prospecting and Mining) Act, 1992",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-016",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Which of the following best describes why water resource scarcity is a critical constraint for mining projects in Namibia?",
+    "options": {
+      "A": "Namibia receives excessive rainfall causing constant flooding at mine sites",
+      "B": "Namibia is one of Africa's driest countries, requiring water rights permits from the Department of Water Affairs and impacting drilling, processing, and tailings management",
+      "C": "Namibia's water is abundant but highly radioactive due to uranium contamination",
+      "D": "Water scarcity only affects artisanal mining, not industrial-scale operations"
+    },
+    "correct": "B",
+    "explanation": "Namibia is one of the most arid countries in sub-Saharan Africa, with most of its territory receiving less than 250mm of rainfall annually. This makes water a critical constraint at every stage of mining operations. Exploration drilling (both RC and diamond core) requires water for dust suppression and as drilling fluid. Mineral processing (crushing, grinding, flotation, leaching) is water-intensive. Tailings management must account for evaporation and seepage in arid conditions. All water use requires permits from the Department of Water Affairs and Forestry (DWAF), and competition for limited water resources between mining, agriculture, municipal supply, and environmental flows can create permitting delays and stakeholder conflicts. Innovative water management strategies—such as recycled process water, desalination, and dry-stack tailings—are increasingly important for Namibian mining project feasibility.",
+    "key_concept": "Namibia: <250mm rainfall, water permits from DWAF, impacts drilling/processing/tailings, water recycling essential",
+    "source": "Namibia environmental and water regulations",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-017",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "A foreign mining company planning a gold project in Namibia could face total potential equity dilution of up to approximately what percentage when combining government free carried interest and NEEEF ownership requirements?",
+    "options": {
+      "A": "10%",
+      "B": "25%",
+      "C": "35%",
+      "D": "51%"
+    },
+    "correct": "C",
+    "explanation": "A foreign mining investor in Namibia faces potential equity dilution from two sources: the government's right to up to 10% free carried interest under the Minerals Act, plus the NEEEF requirement for 25% ownership by Previously Disadvantaged Namibians, totalling up to 35%. This means the foreign investor could retain as little as 65% equity in the project while bearing 100% of the exploration risk and a disproportionate share of development capital. This dilution must be factored into financial models from the earliest project stage, as it affects internal rates of return, net present value, payback periods, and the attractiveness of the project to external financiers. Prudent project structuring, including negotiating the terms of local participation (vendor finance, staged buy-in, or joint venture arrangements), can help manage the economic impact.",
+    "key_concept": "Total dilution: up to 35% (10% government + 25% NEEEF), investor retains ~65%, must model from outset",
+    "source": "Minerals Act + NEEEF combined impact",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-018",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "At the Navachab gold mine, which structural features are the primary controls on skarn-hosted gold mineralization?",
+    "options": {
+      "A": "Flat-lying unconformities between Karoo sandstone and basement",
+      "B": "Granite-marble contacts, fold hinges, and shear zone intersections",
+      "C": "Marine sedimentary bedding planes in Nama Group limestone",
+      "D": "Ring dyke complexes associated with Cretaceous volcanism"
+    },
+    "correct": "B",
+    "explanation": "Gold mineralization at Navachab is controlled by three key structural features: (1) granite-marble contacts, where hydrothermal fluids from Pan-African granite intrusions reacted with reactive carbonate wall rocks to form skarn mineral assemblages (garnet, diopside) that host gold; (2) fold hinges, which created structural dilation zones that focused fluid flow and mineral precipitation; and (3) shear zone intersections, where crossing structures created high-permeability conduits. Understanding these structural controls is essential for exploration targeting in the broader Central Damara Belt, as similar geological configurations—granite intrusions emplaced into folded marble sequences cut by regional shear zones—occur throughout the terrane but have received limited systematic drill testing.",
+    "key_concept": "Navachab controls: granite-marble contact, fold hinges, shear zone intersections — replicable targets across Central Damara Belt",
+    "source": "Navachab mine structural geology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-019",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "What is the recommended staged exploration approach for a gold target in the Central Damara Belt of Namibia?",
+    "options": {
+      "A": "Immediately commence underground mining development based on surface outcrop observations",
+      "B": "Regional geochemical sampling → ground magnetics and IP geophysics → RC drilling for target testing → DD drilling for geological detail and metallurgical data",
+      "C": "Satellite image interpretation only, with no ground-based work required",
+      "D": "Begin with a bankable feasibility study before any fieldwork"
+    },
+    "correct": "B",
+    "explanation": "The recommended staged exploration approach for the Central Damara Belt follows a systematic funnel: (1) Regional soil/stream sediment geochemistry to identify anomalous areas with elevated gold and pathfinder elements (arsenic, antimony, bismuth); (2) Ground-based geophysical surveys, particularly magnetics (to map granite contacts and structural geometry) and induced polarization (IP) surveys (to detect disseminated sulphides associated with skarn and vein mineralization); (3) RC drilling to test prioritized targets cost-effectively, establishing whether gold grades are present at potentially economic levels; (4) Diamond core drilling on confirmed targets to provide continuous geological information, structural data, and samples for metallurgical test work. This staged approach manages risk by progressively increasing investment only as geological confidence justifies it, consistent with JORC-aligned exploration best practice.",
+    "key_concept": "Staged exploration: geochem → geophysics (magnetics + IP) → RC drilling → DD drilling, progressive risk management",
+    "source": "Exploration methodology for Damara Belt",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-020",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "What is the duration of a Mining Licence (ML) in Namibia under the Minerals Act, and for how long can it be renewed?",
+    "options": {
+      "A": "10 years initial, renewable for 5 years",
+      "B": "15 years initial, renewable for 10 years",
+      "C": "25 years initial, renewable for 15 years",
+      "D": "50 years initial, with no renewal option"
+    },
+    "correct": "C",
+    "explanation": "Under the Minerals (Prospecting and Mining) Act of 1992, a Mining Licence (ML) is granted for an initial period of 25 years and may be renewed for a further 15 years, giving a maximum tenure of 40 years. To obtain an ML, the applicant must submit a feasibility study demonstrating the economic viability of the deposit and an Environmental Impact Assessment (EIA) with an approved Environmental Clearance Certificate (ECC). The 25+15 year tenure provides sufficient security for the long investment horizons typical of mining projects, including capital payback on processing plant construction, infrastructure development, and progressive mine development. The ML is subject to conditions including royalty payments, employment of Namibian citizens, compliance with environmental management plans, and reporting obligations to the Ministry of Mines and Energy.",
+    "key_concept": "Mining Licence: 25 years + 15-year renewal = 40 years max, requires feasibility study + EIA/ECC",
+    "source": "Minerals (Prospecting and Mining) Act, 1992",
+    "difficulty": 3
+  }
+]

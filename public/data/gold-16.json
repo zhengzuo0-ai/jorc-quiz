@@ -1,0 +1,427 @@
+[
+  {
+    "id": "gold-16-001",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What geological terrane hosts virtually all of Mali's gold mineralization?",
+    "options": {
+      "A": "Archean Kaapvaal Craton greenstone belts",
+      "B": "Paleoproterozoic Birimian greenstone belts (~2.1-2.2 Ga)",
+      "C": "Mesozoic sedimentary basins of the Sahel",
+      "D": "Neoproterozoic Pan-African mobile belt"
+    },
+    "correct": "B",
+    "explanation": "Mali's gold deposits are hosted almost exclusively within the Paleoproterozoic Birimian Supergroup, dated at approximately 2.1-2.2 billion years old. This is the same metallogenic province that hosts major gold deposits in Ghana, Burkina Faso, Guinea, and Cote d'Ivoire. The Birimian consists of volcanic and sedimentary sequences that were deformed and metamorphosed during the Eburnean Orogeny, creating the structural architecture (shear zones, fold hinges) that controlled gold-bearing fluid migration and deposition.",
+    "key_concept": "Birimian greenstone belts (2.1-2.2 Ga) host all major Mali gold deposits",
+    "source": "West African Craton geology",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-002",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "The Kenieba Window in western Mali is the host geological domain for which major gold mining complex?",
+    "options": {
+      "A": "Syama (Resolute Mining)",
+      "B": "Fekola (B2Gold)",
+      "C": "Loulo-Gounkoto (Barrick Gold)",
+      "D": "Essakane (IAMGOLD)"
+    },
+    "correct": "C",
+    "explanation": "The Kenieba Window (also called the Kenieba Inlier) in western Mali, near the Senegalese border, hosts the Loulo-Gounkoto complex operated by Barrick Gold. This structural window exposes Birimian rocks through younger cover sequences and is traversed by the Senegal-Mali Shear Zone (SMSZ), which is the primary structural control on gold mineralization in the area. The Kenieba Window also hosts the Sadiola mine. Essakane is located in Burkina Faso, not Mali.",
+    "key_concept": "Kenieba Window hosts Loulo-Gounkoto (Barrick) and Sadiola, controlled by Senegal-Mali Shear Zone",
+    "source": "Mali gold mining geography",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-003",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What is the dominant gold deposit type in Mali?",
+    "options": {
+      "A": "Carlin-type sediment-hosted disseminated gold",
+      "B": "Intrusion-related gold systems (IRGS)",
+      "C": "Orogenic gold deposits associated with shear zones and structural traps",
+      "D": "Volcanic-hosted massive sulphide (VHMS) deposits"
+    },
+    "correct": "C",
+    "explanation": "Mali's gold deposits are predominantly orogenic gold deposits, formed during the Eburnean Orogeny when metamorphic fluids migrated along regional shear zones and precipitated gold in structural traps such as shear zone intersections, anticlinal hinges, and lithological contacts. This is consistent with the broader West African gold province. Carlin-type deposits are characteristic of Nevada, IRGS are found in the Tintina Belt (Yukon/Alaska), and VHMS deposits are typically copper-zinc-gold systems in volcanic arcs.",
+    "key_concept": "Orogenic gold: shear zone-hosted, Eburnean Orogeny-related, dominant Mali deposit type",
+    "source": "Goldfarb et al., orogenic gold classification",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-004",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Which company operates the Fekola gold mine in Mali's Kayes region?",
+    "options": {
+      "A": "Barrick Gold",
+      "B": "Resolute Mining",
+      "C": "B2Gold",
+      "D": "AngloGold Ashanti"
+    },
+    "correct": "C",
+    "explanation": "Fekola is operated by B2Gold Corporation, a Canadian mid-tier gold producer. The mine commenced production in 2017 and has become one of the largest gold mines in West Africa, producing approximately 550,000-600,000 ounces per year following the processing plant expansion from 5 Mtpa to 8 Mtpa completed in 2022. B2Gold holds an 80% interest with the Mali government holding the remaining 20% free-carried interest as mandated by the mining code.",
+    "key_concept": "Fekola: B2Gold's flagship, ~550-600 koz/yr, expanded to 8 Mtpa, Kayes region",
+    "source": "B2Gold corporate reports",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-005",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "The Senegal-Mali Shear Zone (SMSZ) is significant to gold mining because it:",
+    "options": {
+      "A": "Marks the boundary between oxide and sulphide ore zones",
+      "B": "Acts as the primary structural control channeling gold-bearing fluids in the Kenieba Window",
+      "C": "Defines the legal boundary between Malian and Senegalese mining jurisdictions",
+      "D": "Is a modern seismically active fault that threatens mine stability"
+    },
+    "correct": "B",
+    "explanation": "The Senegal-Mali Shear Zone (SMSZ) is a major Paleoproterozoic crustal-scale structure that acted as the primary conduit for gold-bearing hydrothermal fluids during the Eburnean Orogeny. Gold deposits in the Kenieba Window, including Loulo-Gounkoto and Sadiola, are spatially and genetically associated with the SMSZ and its subsidiary splay structures. The shear zone created zones of dilation and structural complexity where gold-bearing fluids were focused and precipitated their metal content. It is not a modern active fault, nor does it define jurisdictional boundaries.",
+    "key_concept": "SMSZ: crustal-scale structure, primary fluid conduit, controls Kenieba Window gold deposits",
+    "source": "Structural geology of West African gold",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-006",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What is the approximate annual gold production of the Loulo-Gounkoto complex?",
+    "options": {
+      "A": "100,000-200,000 oz",
+      "B": "300,000-400,000 oz",
+      "C": "550,000-680,000 oz",
+      "D": "Over 1,000,000 oz"
+    },
+    "correct": "C",
+    "explanation": "The Loulo-Gounkoto complex, operated by Barrick Gold (80%) with the Mali government holding 20%, produces approximately 550,000-680,000 ounces of gold per year, making it one of Barrick's Tier One assets and the largest gold mining operation in Mali. The complex combines underground mining at Yalea and Gara (high-grade, 5-8 g/t Au) with open-pit mining at Gounkoto (lower-grade, 2-3 g/t Au), optimizing the blend fed to the 4.7 Mtpa processing plant.",
+    "key_concept": "Loulo-Gounkoto: ~550-680 koz/yr, underground + open pit, Barrick Tier One asset",
+    "source": "Barrick Gold annual reports",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-007",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Why does the Syama gold mine require a roasting circuit before conventional CIL processing?",
+    "options": {
+      "A": "The ore contains excessive clay minerals that interfere with cyanide leaching",
+      "B": "The gold is locked within refractory sulphide minerals (arsenopyrite and pyrite) and must be oxidized to liberate the gold for cyanide leaching",
+      "C": "Roasting is used to remove mercury contamination from ASM activities on the deposit",
+      "D": "The ore is a placer deposit requiring thermal treatment to separate gold from alluvial gravels"
+    },
+    "correct": "B",
+    "explanation": "Syama's primary ore is refractory sulphide ore where fine gold particles are physically encapsulated within arsenopyrite and pyrite crystal lattices. Standard cyanide leaching cannot access gold trapped inside these sulphide minerals. Roasting at approximately 650°C oxidizes the sulphide minerals (converting arsenopyrite and pyrite to iron oxides), breaking open the crystal structures and liberating the gold particles for subsequent cyanide leaching in the CIL circuit. Alternative pre-treatment methods include pressure oxidation (POX) and bio-oxidation (BIOX), but Syama uses roasting. Without pre-treatment, gold recovery from Syama's sulphide ore would be below 50%; with roasting, recovery reaches 85-92%.",
+    "key_concept": "Refractory ore: gold locked in sulphides, roasting at 650°C oxidizes sulphides to liberate gold",
+    "source": "Resolute Mining technical reports / refractory gold metallurgy",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-008",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Under Mali's 2019 Mining Code, what is the government's free-carried interest in mining operations?",
+    "options": {
+      "A": "5%, with no option to increase",
+      "B": "10%, with an option to purchase up to 20%",
+      "C": "20%, fully diluting with the operator",
+      "D": "35%, non-negotiable"
+    },
+    "correct": "B",
+    "explanation": "Mali's 2019 Mining Code (Code Minier 2019) grants the government a 10% free-carried interest in all mining operations, meaning the government receives this equity stake without contributing to capital costs. The government also has the option to purchase an additional 10% at market value, bringing its potential total to 20%. This structure is broadly consistent with other West African mining codes. However, the military government that took power in 2020-2021 has been pushing to increase the free-carried interest to 35% through proposed amendments, creating significant regulatory uncertainty for operators.",
+    "key_concept": "Mali 2019 Mining Code: 10% free carry + option to buy up to 20%, military government pushing for 35%",
+    "source": "Code Minier du Mali 2019",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-009",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What is the royalty structure under Mali's 2019 Mining Code for gold production?",
+    "options": {
+      "A": "A flat 5% of revenue regardless of gold price",
+      "B": "A sliding scale of 3-7% tied to the prevailing gold price",
+      "C": "No royalty is charged; the government relies solely on corporate income tax",
+      "D": "A fixed per-ounce fee of $50/oz"
+    },
+    "correct": "B",
+    "explanation": "Mali's 2019 Mining Code establishes a sliding-scale royalty on gold production ranging from 3% to 7%, calculated based on the prevailing gold price. At lower gold prices, the royalty rate is at the lower end (3%), providing some relief to operators during downturns. As gold prices rise, the royalty rate increases to capture a larger share of windfall profits for the government. This is in addition to corporate income tax of 25-30% and the government's free-carried equity interest. The sliding-scale mechanism is a common feature in modern African mining codes, designed to balance fiscal take with investment attractiveness.",
+    "key_concept": "Royalty: 3-7% sliding scale based on gold price, plus 25-30% corporate tax",
+    "source": "Code Minier du Mali 2019",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-010",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "In 2023, the Malian military government detained the CEO of which mining company over a tax dispute?",
+    "options": {
+      "A": "Barrick Gold",
+      "B": "B2Gold",
+      "C": "Resolute Mining",
+      "D": "Allied Gold"
+    },
+    "correct": "C",
+    "explanation": "In late 2023, Mali's military government detained Resolute Mining's CEO during a visit to Bamako, demanding payment of approximately $160 million in back taxes and penalties related to the Syama mine. This high-profile incident sent shockwaves through the mining industry and was widely interpreted as a signal of escalating resource nationalism under the military junta led by Colonel Assimi Goita. Resolute ultimately negotiated a settlement. Barrick Gold also faced tax disputes and employee detentions in 2024, confirming that this was a systematic pattern rather than an isolated event.",
+    "key_concept": "2023 Resolute CEO detention: $160M tax demand, signal of escalating resource nationalism",
+    "source": "Resolute Mining corporate announcements / international media",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-011",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Mali experienced military coups in which years, fundamentally altering the mining investment environment?",
+    "options": {
+      "A": "2015 and 2018",
+      "B": "2020 and 2021",
+      "C": "2012 and 2019",
+      "D": "2022 and 2024"
+    },
+    "correct": "B",
+    "explanation": "Mali experienced back-to-back military coups in August 2020 and May 2021, both led by Colonel Assimi Goita. The first coup removed President Ibrahim Boubacar Keita, and the second removed the transitional civilian leadership that had been installed under international pressure. The military government has since delayed promised elections, been sanctioned by ECOWAS, expelled French military forces, and pursued closer ties with Russia (including Wagner Group mercenaries). For the mining sector, this has meant escalating resource nationalism, increased tax demands, regulatory uncertainty, and complications with foreign exchange and gold exports.",
+    "key_concept": "Dual coups Aug 2020 + May 2021 under Goita, ECOWAS sanctions, Russian pivot, resource nationalism",
+    "source": "International Crisis Group / media reporting on Mali",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-012",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What distinguishes oxide ore from sulphide (primary) ore in Mali's gold deposits, and why does it matter economically?",
+    "options": {
+      "A": "Oxide ore is found only in alluvial placer deposits, while sulphide ore is in hard rock",
+      "B": "Oxide ore has been weathered near surface, gold occurs as free particles with >95% leach recovery; sulphide ore contains gold locked in sulphide minerals with lower recovery and higher processing costs",
+      "C": "Oxide ore contains higher gold grades but is too soft to mine efficiently",
+      "D": "There is no meaningful difference; both ore types are processed identically"
+    },
+    "correct": "B",
+    "explanation": "In Mali's gold deposits, the near-surface zone (typically 0-80m) has been weathered and oxidized over geological time, breaking down sulphide minerals and liberating gold into a free-milling form. This oxide ore achieves excellent cyanide leach recovery rates (>95%) using simple CIL circuits. In contrast, deeper sulphide (primary) ore retains gold locked within arsenopyrite and pyrite crystal structures, requiring more complex and expensive processing (flotation, roasting, pressure oxidation, or bio-oxidation) to achieve 85-92% recovery. Many Mali mines, including Fekola and Sadiola, initially exploited high-grade oxide ore for superior economics but now face the transition to lower-recovery, higher-cost sulphide ore as open pits deepen.",
+    "key_concept": "Oxide: free gold, >95% recovery, shallow; Sulphide: locked gold, 85-92% recovery, complex processing",
+    "source": "Metallurgical fundamentals / Mali mine technical reports",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-013",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Approximately how many people are involved in artisanal and small-scale mining (ASM / Orpaillage) in Mali?",
+    "options": {
+      "A": "Fewer than 10,000",
+      "B": "About 50,000-100,000",
+      "C": "Over 1,000,000 directly or indirectly",
+      "D": "Approximately 5,000,000"
+    },
+    "correct": "C",
+    "explanation": "An estimated 1 million or more people in Mali are directly or indirectly involved in artisanal and small-scale gold mining (known locally as Orpaillage). ASM produces an estimated 20-40 tonnes of gold per year, representing 30-40% of Mali's total gold output, though most of this production is not captured in official statistics. ASM is concentrated in the Kayes, Sikasso, and Koulikoro regions. The sector provides critical livelihoods in rural areas but is associated with significant environmental damage (mercury use), safety hazards (unshored shallow shafts), and social issues including child labor estimated at approximately 20,000 children.",
+    "key_concept": "ASM in Mali: >1 million people, 20-40t/yr (30-40% of output), largely informal, mercury + child labor issues",
+    "source": "World Bank / ILO reports on Mali ASM",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-014",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What is the primary method used by artisanal miners in Mali to extract gold from crushed ore?",
+    "options": {
+      "A": "Carbon-in-leach (CIL) cyanidation",
+      "B": "Mercury amalgamation",
+      "C": "Flotation concentration",
+      "D": "Heap leach with dilute cyanide"
+    },
+    "correct": "B",
+    "explanation": "Mercury amalgamation remains the dominant gold extraction method in Mali's ASM sector. Miners crush ore manually or with small mills, then mix the concentrate with liquid mercury. Gold preferentially amalgamates (alloys) with mercury, forming a gold-mercury amalgam. The amalgam is then heated with a blowtorch or open flame to vaporize the mercury, leaving behind a gold sponge. This process is extremely hazardous: mercury vapor is a potent neurotoxin, and residual mercury contaminates soil and waterways. Despite being banned or restricted under the Minamata Convention on Mercury (ratified by Mali), enforcement is minimal. Alternative mercury-free methods (gravity concentration, borax flux) exist but adoption remains low.",
+    "key_concept": "Mercury amalgamation: dominant ASM method, severe health/environmental hazard, Minamata Convention violation",
+    "source": "UNEP / Alliance for Responsible Mining",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-015",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What is the typical depth of oxide ore zones in Mali's gold deposits that are amenable to low-cost open-pit mining?",
+    "options": {
+      "A": "5-15 metres",
+      "B": "80-100 metres",
+      "C": "200-300 metres",
+      "D": "Over 500 metres"
+    },
+    "correct": "B",
+    "explanation": "In Mali's tropical weathering environment, the oxide zone typically extends from surface to 80-100 metres depth. This zone represents prolonged chemical weathering of Birimian bedrock, converting sulphide minerals to iron oxides and hydroxides while liberating gold from its sulphide hosts. The oxide zone is favorable for open-pit mining because the material is softer (lower drilling and blasting costs), gold recovery through standard CIL leaching exceeds 95%, and it sits within economical stripping ratios. Below the oxide zone lies a transitional zone (mixed oxide-sulphide) before reaching fresh sulphide ore, which requires different processing approaches.",
+    "key_concept": "Oxide zone: 0-80/100m depth, tropical weathering, soft rock, >95% CIL recovery, open-pit favorable",
+    "source": "Mali deposit geological models",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-016",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Syama mine is notable in global mining for being the first:",
+    "options": {
+      "A": "Gold mine to use bioleaching (BIOX) technology",
+      "B": "Fully automated underground gold mine using Sandvik's AutoMine system",
+      "C": "Open-pit mine to achieve zero carbon emissions",
+      "D": "Mine in Africa to process refractory ore with pressure oxidation (POX)"
+    },
+    "correct": "B",
+    "explanation": "Syama, operated by Resolute Mining, achieved a world-first when it deployed Sandvik's AutoMine system to create a fully automated underground gold mine. The automated sublevel caving operation uses remotely operated loaders and trucks that can operate continuously without personnel underground during production blasting cycles. This reduces labor costs, improves safety by removing workers from the active mining zone, and enables continuous operation. However, the system requires sophisticated maintenance capabilities, reliable telecommunications infrastructure, and specialized technical support, which can be challenging in a remote West African location.",
+    "key_concept": "Syama: world's first fully automated underground gold mine, Sandvik AutoMine, sublevel caving",
+    "source": "Resolute Mining / Sandvik technical publications",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-017",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Mali's gold sector accounts for approximately what percentage of the country's total exports?",
+    "options": {
+      "A": "Less than 20%",
+      "B": "About 35-40%",
+      "C": "Over 70%",
+      "D": "Exactly 50%"
+    },
+    "correct": "C",
+    "explanation": "Gold mining accounts for over 70% of Mali's total export revenues, making the country's economy highly dependent on the gold sector. This fiscal dependence is a key driver of resource nationalism: the military government needs mining revenue to fund military operations in the north (counter-terrorism) and social spending to maintain legitimacy. This dependency gives the government strong motivation to extract maximum fiscal value from mining companies, but it also constrains how far the government can push before deterring the investment needed to maintain production levels. Mali's annual gold production of approximately 60-70 tonnes makes it Africa's third-largest producer after South Africa and Ghana.",
+    "key_concept": "Gold >70% of Mali exports, fiscal dependence drives resource nationalism, 3rd in Africa",
+    "source": "World Bank / IMF Mali economic reports",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-16-018",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What is the primary destination for Mali's ASM gold exports through informal channels?",
+    "options": {
+      "A": "London (LBMA refineries)",
+      "B": "Johannesburg (Rand Refinery)",
+      "C": "Dubai (UAE gold souk and refineries)",
+      "D": "Mumbai (Indian jewellery market)"
+    },
+    "correct": "C",
+    "explanation": "Dubai (UAE) is the primary destination for Mali's informally traded ASM gold. Gold is purchased by intermediary traders in Bamako and other regional centers, then exported through informal channels to Dubai's gold souk and refining operations. Dubai's historically permissive regulatory environment for gold imports has made it the main aggregation point for artisanally mined gold from across West and East Africa. The LBMA has been increasing pressure on Dubai-based refineries to implement responsible sourcing due diligence, but the informal ASM-to-Dubai pipeline remains robust. This trade operates largely outside Mali's official export statistics and central bank oversight.",
+    "key_concept": "ASM gold flows: Mali -> Bamako traders -> Dubai, largely outside official channels and statistics",
+    "source": "LBMA / OECD due diligence reports on gold supply chains",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-019",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What underground mining method is used at Barrick's Yalea and Gara deposits within the Loulo-Gounkoto complex?",
+    "options": {
+      "A": "Room and pillar with backfill",
+      "B": "Block caving",
+      "C": "Sublevel caving and underhand cut and fill",
+      "D": "Longwall mining"
+    },
+    "correct": "C",
+    "explanation": "The Yalea and Gara underground mines within the Loulo-Gounkoto complex use a combination of sublevel caving (SLC) and underhand cut and fill methods. Sublevel caving is a bulk mining method suited to the steeply dipping, high-grade ore bodies, where ore is drilled and blasted from sublevels and allowed to cave under gravity. Underhand cut and fill is used in areas where ground conditions or orebody geometry require more selective extraction and engineered fill for ground support. These underground mines produce high-grade ore (5-8 g/t Au) that is blended with lower-grade open-pit material from Gounkoto (2-3 g/t Au) to optimize the feed grade to the processing plant.",
+    "key_concept": "Yalea/Gara: SLC + underhand cut & fill, 5-8 g/t Au underground, blended with Gounkoto open pit ore",
+    "source": "Barrick Gold technical reports",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-020",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What is MIGA insurance, and why has it become more relevant for mining operations in Mali?",
+    "options": {
+      "A": "A geological survey certification for mineral resources in developing countries",
+      "B": "A multilateral political risk insurance product that protects investors against expropriation, war, breach of contract, and currency transfer restrictions",
+      "C": "An environmental compliance certificate required by the World Bank for mine permitting",
+      "D": "A marketing standard for ethically sourced gold from conflict-affected regions"
+    },
+    "correct": "B",
+    "explanation": "MIGA (Multilateral Investment Guarantee Agency) is a member of the World Bank Group that provides political risk insurance (PRI) to foreign investors in developing countries. MIGA coverage protects against expropriation and nationalization, war and civil disturbance, breach of contract by host governments, and restrictions on currency conversion and transfer. Following Mali's 2020-2021 military coups, ECOWAS sanctions, escalating tax disputes with mining companies, and the government's push to increase its equity stake, MIGA-type political risk insurance has become essential for mining investors to protect their assets. Companies have also been reassessing discount rates for Malian assets, increasing them from 8-10% to 12-15% to reflect heightened political risk.",
+    "key_concept": "MIGA: World Bank political risk insurance, covers expropriation/war/breach of contract, critical in post-coup Mali",
+    "source": "MIGA / World Bank Group",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-021",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "In PMH's Track B cash flow operations in Mali, what processing approach is used to avoid mercury contamination?",
+    "options": {
+      "A": "Traditional mercury amalgamation with improved ventilation",
+      "B": "Gravity concentration followed by flotation and small-scale CIL, eliminating mercury entirely",
+      "C": "Direct smelting of raw ore in small furnaces",
+      "D": "Heap leaching with hydrochloric acid"
+    },
+    "correct": "B",
+    "explanation": "PMH's Track B operations employ a clean processing chain that explicitly avoids mercury: gravity concentration (using shaking tables, spirals, or centrifugal concentrators) recovers coarse free gold, followed by flotation to capture finer gold associated with sulphides, and finally small-scale CIL (carbon-in-leach) cyanidation to maximize overall recovery. This mercury-free approach addresses both environmental compliance requirements under the 2019 Mining Code and international responsible sourcing standards. While more capital-intensive than artisanal mercury-based methods ($500K-2M for equipment), the superior recovery rates and clean product command better pricing and reduce long-term environmental liabilities.",
+    "key_concept": "Track B: gravity + flotation + small CIL, zero mercury, compliant processing chain",
+    "source": "PMH operational framework",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-022",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "What is the approximate AISC (All-In Sustaining Cost) breakeven range for PMH Track B operations in Mali?",
+    "options": {
+      "A": "$600-800/oz",
+      "B": "$1,200-1,400/oz",
+      "C": "$1,800-2,000/oz",
+      "D": "$2,200-2,500/oz"
+    },
+    "correct": "B",
+    "explanation": "PMH Track B operations in Mali target an AISC breakeven point of approximately $1,200-1,400/oz. At a gold price of $2,000/oz, this yields an operating profit margin of approximately 30-40%. The cost structure reflects semi-mechanized mining (small excavators rather than large fleet), portable processing equipment, local labor, and relatively low overhead compared to large-scale industrial operations. The target production rate of 2,000-5,000 oz/year with $500K-2M in capital investment aims for a payback period of 12-18 months. These economics are viable because Track B operations target high-grade zones (typically >5 g/t Au) that are too small for large-scale mining but too rich to leave unexploited.",
+    "key_concept": "Track B AISC: $1,200-1,400/oz, 30-40% margin at $2,000 gold, 12-18 month payback",
+    "source": "PMH financial models",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-023",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "ECOWAS sanctions on Mali following the 2021 coup primarily affected the mining sector by:",
+    "options": {
+      "A": "Banning all gold production in the country",
+      "B": "Complicating import/export logistics, foreign exchange transactions, and repatriation of profits",
+      "C": "Requiring all mines to shut down within 90 days",
+      "D": "Transferring ownership of all mines to ECOWAS member states"
+    },
+    "correct": "B",
+    "explanation": "ECOWAS (Economic Community of West African States) imposed economic and diplomatic sanctions on Mali following the May 2021 coup, including border closures, trade embargoes, and financial restrictions. For the mining sector, the practical impacts included disrupted supply chains for fuel, reagents, and spare parts (many imported through neighbouring ECOWAS countries); complications with international banking and foreign exchange transactions; difficulties repatriating dividends and management fees; and increased costs for alternative logistics routes. The sanctions did not directly ban mining operations, but they raised operating costs and complexity. Most sanctions were eventually eased, but the period demonstrated the vulnerability of landlocked Mali's mining operations to regional political disruptions.",
+    "key_concept": "ECOWAS sanctions: supply chain disruption, forex complications, profit repatriation challenges, not outright mining ban",
+    "source": "ECOWAS communiques / mining industry analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-024",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "The Sadiola Sulphide Project represents a strategic transition from oxide to sulphide ore processing. Which company acquired and is developing this project?",
+    "options": {
+      "A": "Barrick Gold",
+      "B": "B2Gold",
+      "C": "Allied Gold",
+      "D": "Endeavour Mining"
+    },
+    "correct": "C",
+    "explanation": "Allied Gold acquired the Sadiola mine in 2020 from the previous AngloGold Ashanti/IAMGold joint venture. The Sadiola Sulphide Project is the key development phase, as the original oxide ore that sustained over 20 years of open-pit production is now largely depleted. The sulphide project requires construction of a new processing facility incorporating CIL and flotation circuits capable of handling the refractory sulphide ore at depth. This oxide-to-sulphide transition is a common challenge across West African gold mines and requires significant capital investment in new metallurgical infrastructure, fundamentally changing the mine's cost profile and recovery characteristics.",
+    "key_concept": "Sadiola: Allied Gold, oxide depleted, sulphide project needs new CIL + flotation plant, 20+ year old mine",
+    "source": "Allied Gold corporate reports",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-025",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "A mining investor is evaluating a Malian gold asset. Given the post-coup political environment, what discount rate adjustment would typically be applied compared to pre-2020 risk assumptions?",
+    "options": {
+      "A": "No change; political risk is already priced into West African gold assets",
+      "B": "Discount rate decreased from 10% to 6% due to higher gold prices offsetting risk",
+      "C": "Discount rate increased from 8-10% to 12-15% to reflect heightened political risk including expropriation, tax escalation, and regulatory uncertainty",
+      "D": "Discount rate set to 25% or higher, effectively making all Mali projects uneconomic"
+    },
+    "correct": "C",
+    "explanation": "Following Mali's dual coups (2020-2021), ECOWAS sanctions, the detention of mining executives, escalating tax demands, and proposed increases to government equity stakes, investors have typically increased their discount rates for Malian gold assets from a pre-2020 range of 8-10% to 12-15%. This 400-500 basis point increase reflects elevated risks of expropriation or creeping nationalization, arbitrary tax reassessment, regulatory instability, foreign exchange controls, and security concerns. A 25%+ rate would be excessively punitive given that major operators (Barrick, B2Gold) continue to operate profitably, and Mali's geological endowment remains world-class. The key analytical challenge is distinguishing between temporary political friction and structural regime change in the investment framework.",
+    "key_concept": "Post-coup Mali discount rates: 8-10% -> 12-15%, reflecting expropriation/tax/regulatory risk escalation",
+    "source": "Mining sector risk analysis / investment banking research",
+    "difficulty": 3
+  }
+]

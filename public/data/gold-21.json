@@ -1,0 +1,342 @@
+[
+  {
+    "id": "gold-21-001",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "What does the Global Industry Standard on Tailings Management (GISTM) primarily aim to achieve?",
+    "options": {
+      "A": "Maximize the volume of tailings that can be stored in a single facility",
+      "B": "Establish a global framework for safe tailings management with the goal of zero harm to people and the environment",
+      "C": "Eliminate the need for tailings dams by requiring all mines to use dry processing",
+      "D": "Set a minimum tailings dam height standard for all mining operations worldwide"
+    },
+    "correct": "B",
+    "explanation": "The GISTM was developed jointly by UNEP, ICMM, and PRI in response to catastrophic tailings dam failures such as Brumadinho (2019, 270 deaths) and Samarco (2015). Its core objective is zero harm to people and the environment. The standard requires independent tailings review boards, public disclosure of facility information, and free prior and informed consent from affected communities. It does not mandate specific technologies like dry stacking but rather establishes a risk-based framework that operators must follow regardless of the tailings method chosen.",
+    "key_concept": "GISTM: global tailings safety standard by UNEP/ICMM/PRI, goal of zero harm, independent review, public disclosure",
+    "source": "GISTM / ICMM",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-21-002",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "Acid Mine Drainage (AMD) is caused by:",
+    "options": {
+      "A": "Excessive use of cyanide in gold processing plants",
+      "B": "Exposure of sulfide-bearing minerals to air and water, producing sulfuric acid that leaches heavy metals",
+      "C": "Mechanical erosion of open pit walls during heavy rainfall",
+      "D": "Dewatering of underground mines causing ground subsidence"
+    },
+    "correct": "B",
+    "explanation": "Acid Mine Drainage occurs when sulfide minerals (particularly pyrite, FeS2) in waste rock or tailings are exposed to oxygen and water. Bacterial action accelerates the oxidation, producing sulfuric acid. This acid dissolves heavy metals such as arsenic, lead, copper, and zinc from surrounding rock, creating toxic runoff that can contaminate surface water and groundwater for decades or centuries after mining ceases. AMD is considered the most persistent environmental legacy of mining and is a major driver of closure costs. Prevention strategies include subaqueous disposal (keeping sulfides underwater to exclude oxygen), encapsulation with non-reactive materials, and alkaline amendments.",
+    "key_concept": "AMD: sulfide oxidation produces sulfuric acid, leaches heavy metals, persists for decades post-closure",
+    "source": "Environmental science / mine water management",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-21-003",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "Under the IFC Performance Standards, the 'mitigation hierarchy' for biodiversity impacts requires actions in which order?",
+    "options": {
+      "A": "Offset → Restore → Minimize → Avoid",
+      "B": "Minimize → Avoid → Offset → Restore",
+      "C": "Avoid → Minimize → Restore → Offset",
+      "D": "Restore → Avoid → Offset → Minimize"
+    },
+    "correct": "C",
+    "explanation": "IFC Performance Standard 6 (Biodiversity Conservation) requires projects to follow the mitigation hierarchy in strict order: first Avoid impacts entirely where possible, then Minimize unavoidable impacts, then Restore affected areas to their original condition, and finally Offset residual impacts through conservation actions elsewhere (such as biodiversity offset areas). This hierarchy ensures that offsets are used only as a last resort, not as a first option. In practice, a gold mining project in West Africa near a forest reserve would first explore alternative mine layouts to avoid the forest, then minimize the footprint of any encroachment, restore disturbed areas progressively, and offset any remaining net loss through a conservation program.",
+    "key_concept": "Mitigation hierarchy: Avoid → Minimize → Restore → Offset (offsets are last resort, not first option)",
+    "source": "IFC Performance Standard 6",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-21-004",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "The Extractive Industries Transparency Initiative (EITI) requires:",
+    "options": {
+      "A": "Mining companies to publish their ore reserve estimates annually",
+      "B": "Governments and companies to disclose payments and revenues from extractive industries, verified through independent reconciliation",
+      "C": "All mining permits to be awarded through public auction only",
+      "D": "Mining companies to allocate 50% of profits to community development"
+    },
+    "correct": "B",
+    "explanation": "EITI is a global standard for transparency in the oil, gas, and mining sectors. It requires governments to disclose all revenues received from extractive companies (taxes, royalties, signing bonuses, license fees) and companies to disclose all payments made to governments. An independent administrator then reconciles these figures to identify discrepancies. EITI also requires disclosure of beneficial ownership of extractive companies and contract transparency. In West Africa, major gold-producing countries including Guinea, Mali, Senegal, Burkina Faso, and Cote d'Ivoire are EITI member states. For investors, EITI compliance signals a more transparent fiscal environment and more predictable regulatory regime.",
+    "key_concept": "EITI: mutual disclosure of payments/revenues by companies and governments, independent reconciliation, beneficial ownership",
+    "source": "EITI Standard",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-21-005",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "What distinguishes the UK Bribery Act 2010 from the US Foreign Corrupt Practices Act (FCPA)?",
+    "options": {
+      "A": "The UK Bribery Act only applies to bribery within the United Kingdom",
+      "B": "The UK Bribery Act creates a corporate offense of 'failure to prevent bribery,' requiring companies to prove they had adequate procedures in place",
+      "C": "The FCPA is stricter because it prohibits facilitation payments while the UK Bribery Act permits them",
+      "D": "The UK Bribery Act applies only to publicly listed companies while the FCPA applies to all companies"
+    },
+    "correct": "B",
+    "explanation": "The UK Bribery Act 2010 is widely considered stricter than the FCPA in several respects. Its most distinctive feature is Section 7, which creates a standalone corporate offense of 'failure to prevent bribery.' Under this provision, a company is guilty if any person associated with it bribes another, unless the company can demonstrate it had 'adequate procedures' in place to prevent bribery. This effectively reverses the burden of proof — the company must prove its innocence. The FCPA, while having extraterritorial reach, does not contain an equivalent strict liability provision. Both laws have extraterritorial jurisdiction: the FCPA applies to companies with US connections, and the UK Bribery Act applies to companies with any UK connection, including being listed on AIM.",
+    "key_concept": "UK Bribery Act Section 7: corporate offense of failure to prevent bribery, reversed burden of proof, adequate procedures defense",
+    "source": "UK Bribery Act 2010 / FCPA",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-006",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "IFC Performance Standard 5 (Land Acquisition and Involuntary Resettlement) requires that compensation for displaced persons be calculated at:",
+    "options": {
+      "A": "Market value minus depreciation for age and condition of structures",
+      "B": "Full replacement cost without deduction for depreciation",
+      "C": "Government-assessed land values as published in official gazettes",
+      "D": "A fixed per-hectare rate determined by the IFC for each country"
+    },
+    "correct": "B",
+    "explanation": "IFC PS5 requires that displaced persons receive compensation at full replacement cost, defined as the market value sufficient to replace lost assets plus transaction costs, without any deduction for depreciation, salvage value, or prior investments in the property. This is a higher standard than many national laws, which often allow depreciation. For example, if a farmer's mud-brick house is 20 years old, national law might depreciate the compensation significantly, but PS5 requires compensation sufficient to build a new equivalent house. PS5 also requires that resettlement improve or at least restore the livelihoods and living standards of displaced persons, going beyond mere financial compensation to include livelihood restoration programs.",
+    "key_concept": "IFC PS5: full replacement cost, no depreciation deduction, must restore or improve livelihoods",
+    "source": "IFC Performance Standard 5",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-007",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "What is 'Social License to Operate' (SLO) in the mining context?",
+    "options": {
+      "A": "A formal government permit required before commencing mining operations",
+      "B": "A legal certificate issued by the local municipality authorizing community engagement",
+      "C": "The ongoing acceptance and approval of a mining project by the local community and stakeholders, beyond formal legal permits",
+      "D": "An insurance policy that covers social risks and community claims"
+    },
+    "correct": "C",
+    "explanation": "Social License to Operate is not a formal legal document but rather a concept describing the level of acceptance or approval that a community and broader stakeholders grant to a mining project. A company may hold all required legal permits and licenses yet still be unable to operate effectively if the local community blocks access roads, stages protests, initiates legal challenges, or pressures politicians to revoke permits. SLO is earned through transparent communication, genuine community engagement, equitable benefit sharing, and responsible environmental management. It can be lost quickly — a single environmental incident or broken promise can destroy years of trust-building. In West Africa, where customary land rights often coexist with formal legal frameworks, SLO is particularly critical.",
+    "key_concept": "SLO: informal community acceptance beyond legal permits, earned through trust and engagement, easily lost",
+    "source": "Mining social performance",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-21-008",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "The International Cyanide Management Code (ICMC) governs which aspects of cyanide use in gold mining?",
+    "options": {
+      "A": "Only the concentration of cyanide in process solutions during leaching",
+      "B": "Production, transport, handling, operations, decommissioning, worker safety, emergency response, and stakeholder engagement related to cyanide",
+      "C": "Only the disposal of cyanide-contaminated tailings after processing",
+      "D": "Only the purchase price and supply chain logistics of sodium cyanide"
+    },
+    "correct": "B",
+    "explanation": "The International Cyanide Management Code is a voluntary industry program for gold mining companies that covers the full lifecycle of cyanide use: production, transport, handling, operations (including process solution management and tailings), decommissioning, worker safety, emergency response, and stakeholder engagement. Companies that become signatories must undergo independent third-party audits every three years. Certification under the ICMC is increasingly expected by international lenders and investors. The Code was developed by the International Cyanide Management Institute (ICMI) under the auspices of UNEP. It does not set a single concentration limit but requires companies to manage cyanide responsibly across all stages, including ensuring that WAD (Weak Acid Dissociable) cyanide levels in tailings meet environmental standards.",
+    "key_concept": "ICMC: full lifecycle cyanide management, voluntary, third-party audited, increasingly expected by lenders",
+    "source": "International Cyanide Management Code",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-009",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "Which of the following best describes 'beneficial ownership' disclosure as required by EITI?",
+    "options": {
+      "A": "Disclosure of which mining method will most benefit the local economy",
+      "B": "Disclosure of the natural persons who ultimately own or control a company holding extractive licenses, beyond nominee shareholders and corporate layers",
+      "C": "Disclosure of which community members will benefit from a mining royalty distribution",
+      "D": "Disclosure of projected economic benefits in a mining company's feasibility study"
+    },
+    "correct": "B",
+    "explanation": "Beneficial ownership disclosure under the EITI Standard requires revealing the natural persons (real human beings) who ultimately own or control companies holding extractive licenses. This requirement aims to pierce the veil of shell companies, nominee shareholders, and complex corporate structures that can hide politically exposed persons, sanctioned individuals, or conflicts of interest in the award of mining rights. The 2019 EITI Standard made beneficial ownership disclosure mandatory for all implementing countries. For West African gold exploration, this is particularly relevant because opaque ownership of exploration permits has historically been a source of corruption and governance risk. Investors use beneficial ownership data to assess the integrity of their joint venture partners and the legitimacy of license holders.",
+    "key_concept": "Beneficial ownership: revealing real persons behind corporate structures holding extractive licenses, mandatory under EITI 2019",
+    "source": "EITI Standard 2019",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-010",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "A junior gold explorer listed on London's AIM market discovers that a local agent paid $5,000 to a government official to expedite a routine exploration permit. Under the UK Bribery Act 2010, the company is:",
+    "options": {
+      "A": "Not liable because the payment was made by a third-party agent, not a company employee",
+      "B": "Not liable because $5,000 is below the Act's de minimis threshold of $10,000",
+      "C": "Potentially liable under Section 7 (failure to prevent bribery) unless it can demonstrate it had adequate anti-bribery procedures in place",
+      "D": "Liable only if the government official was a UK citizen"
+    },
+    "correct": "C",
+    "explanation": "Under Section 7 of the UK Bribery Act 2010, a commercial organization is liable if a person 'associated with' the organization bribes another person to obtain or retain business. Associated persons include agents, consultants, and joint venture partners — not just employees. There is no de minimis threshold; even small facilitation payments can constitute bribery. The company's only defense is to prove it had 'adequate procedures' in place to prevent bribery. These procedures, outlined in Ministry of Justice guidance, include: proportionate risk assessment, top-level commitment, due diligence on third parties, clear policies and training, and monitoring and review. For AIM-listed junior miners operating in West Africa, this means robust agent due diligence, written anti-corruption policies, and training programs are not optional — they are legal necessities.",
+    "key_concept": "UK Bribery Act: no de minimis, agents included, adequate procedures defense, AIM-listed companies fully exposed",
+    "source": "UK Bribery Act 2010, Section 7",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-21-011",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "The Equator Principles require signatory banks to:",
+    "options": {
+      "A": "Provide interest-free loans to mining projects in developing countries",
+      "B": "Assess and manage the environmental and social risks of project finance transactions using IFC Performance Standards as the benchmark",
+      "C": "Guarantee that all financed mining projects achieve carbon neutrality within 5 years",
+      "D": "Refuse all financing to mining projects in countries with poor human rights records"
+    },
+    "correct": "B",
+    "explanation": "The Equator Principles (EP) are a voluntary risk management framework adopted by over 130 financial institutions globally. Signatory banks (Equator Principles Financial Institutions, or EPFIs) commit to assessing the environmental and social risks of project finance transactions above $10 million using IFC Performance Standards as the benchmark for projects in non-designated (developing) countries. Projects are categorized as A (high risk), B (medium risk), or C (low risk), and higher-risk projects require more extensive assessment, including independent review. For mining companies seeking project finance, this means compliance with IFC PS is effectively mandatory, regardless of whether the IFC itself is a lender. Most major international banks that finance mining projects are EP signatories, making IFC PS the de facto global standard for mining project finance.",
+    "key_concept": "Equator Principles: 130+ banks, IFC PS as benchmark, makes PS compliance mandatory for project finance",
+    "source": "Equator Principles / IFC",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-012",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "What is Free, Prior and Informed Consent (FPIC) in the context of mining projects?",
+    "options": {
+      "A": "A legal requirement that mining companies obtain free environmental permits before starting operations",
+      "B": "The right of indigenous peoples and affected communities to give or withhold consent to projects that affect their lands, territories, and resources, based on adequate information provided before the project begins",
+      "C": "A standard clause in mining joint venture agreements allowing either party to withdraw without penalty",
+      "D": "A financial disclosure requirement for publicly listed mining companies"
+    },
+    "correct": "B",
+    "explanation": "FPIC is a specific right recognized in the UN Declaration on the Rights of Indigenous Peoples (UNDRIP) and operationalized through IFC Performance Standard 7 (Indigenous Peoples). 'Free' means no coercion, intimidation, or manipulation. 'Prior' means consent is sought before activities begin. 'Informed' means affected communities receive full, accurate, and accessible information about the project and its impacts. 'Consent' means the right to say yes or no. FPIC goes beyond mere consultation — it gives affected communities genuine decision-making power. In West Africa, while formal indigenous peoples designations are less common than in the Americas or Australia, FPIC principles increasingly apply to all affected communities under GISTM and evolving IFC guidance. Mining companies that bypass FPIC risk project delays, legal challenges, and loss of social license.",
+    "key_concept": "FPIC: free (no coercion), prior (before activities), informed (full information), consent (right to say no)",
+    "source": "UNDRIP / IFC Performance Standard 7 / GISTM",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-013",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "A gold mining company's Environmental Impact Assessment (EIA) must include a Mine Closure Plan because:",
+    "options": {
+      "A": "Regulators want to know the exact date the mine will close so they can reallocate the land",
+      "B": "Closure planning from the outset ensures that rehabilitation costs are budgeted, environmental liabilities are managed, and long-term risks (such as AMD and tailings stability) are addressed before the company depletes its resources",
+      "C": "Mine closure plans are only required for underground mines, not open pit operations",
+      "D": "The closure plan determines the mine's annual production quota"
+    },
+    "correct": "B",
+    "explanation": "Mine closure planning from the earliest stages of project development is a fundamental principle of responsible mining. The rationale is straightforward: if closure is not planned and budgeted from the start, the company may deplete its ore body and lack the financial resources to properly rehabilitate the site. This creates 'orphaned mines' — abandoned sites with ongoing environmental liabilities including acid mine drainage, unstable tailings facilities, contaminated water, and degraded land. Most jurisdictions now require closure plans as part of the EIA, along with financial assurance (closure bonds or trust funds) to guarantee rehabilitation even if the company becomes insolvent. The closure plan addresses landform recontouring, revegetation, tailings facility long-term stability, water treatment, and stakeholder engagement for post-mining land use.",
+    "key_concept": "Closure planning from day one: budget rehabilitation, financial assurance, prevent orphaned mines",
+    "source": "Mine closure best practice / EIA requirements",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-21-014",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "IFC Performance Standard 4 (Community Health, Safety and Security) specifically requires mining companies to:",
+    "options": {
+      "A": "Provide free healthcare to all community members within a 50 km radius",
+      "B": "Develop protocols governing the conduct of security personnel (public and private) and establish a grievance mechanism for security-related incidents",
+      "C": "Build a hospital at the mine site that meets international accreditation standards",
+      "D": "Employ only unarmed security guards at all mine sites globally"
+    },
+    "correct": "B",
+    "explanation": "IFC PS4 addresses the risks that mining projects pose to community health and safety, including risks from security arrangements. A critical requirement is that companies assess and manage risks related to the use of security personnel — both private security contractors and public security forces (police, military). Companies must adopt the Voluntary Principles on Security and Human Rights (VPSHR), which require written rules of engagement, training on proportionate use of force, investigation of allegations of abuse, and a grievance mechanism for affected communities. This is particularly important in West Africa, where security incidents at mine sites have led to human rights violations. PS4 also covers broader community health and safety issues including management of hazardous materials transport, emergency preparedness, and risks from project infrastructure.",
+    "key_concept": "PS4: security personnel conduct, Voluntary Principles on Security and Human Rights, grievance mechanism",
+    "source": "IFC Performance Standard 4 / VPSHR",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-015",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "Dry stack (filtered) tailings are increasingly preferred over conventional wet tailings storage because:",
+    "options": {
+      "A": "Dry stack tailings are less expensive to construct and operate than conventional tailings dams",
+      "B": "Dry stack tailings eliminate the risk of catastrophic dam failure by removing the water component, creating a stable, stackable material that does not require a conventional dam",
+      "C": "Dry stack tailings produce higher gold recovery rates than conventional tailings methods",
+      "D": "Dry stack tailings can be sold as construction aggregate, generating additional revenue"
+    },
+    "correct": "B",
+    "explanation": "Dry stack or filtered tailings technology involves dewatering tailings to a moisture content low enough (typically <15% moisture) that the material can be stacked and compacted like soil rather than stored as a slurry behind a dam. The primary advantage is the elimination of catastrophic dam failure risk — the leading cause of fatalities in tailings incidents. Water recovered during filtration is recycled back to the process plant, reducing freshwater consumption. The trade-off is higher capital and operating costs: filtration plants, conveyor systems, and compaction equipment add significant expense. However, after Brumadinho and the GISTM, many investors and insurers now view the cost premium as justified by the reduced liability. For junior miners designing a new project, selecting dry stack from the outset avoids the reputational and financial risks increasingly associated with conventional wet tailings facilities.",
+    "key_concept": "Dry stack tailings: <15% moisture, no dam needed, eliminates catastrophic failure risk, higher cost but lower liability",
+    "source": "Tailings management / GISTM",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-016",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "In West African gold mining, Artisanal and Small-scale Mining (ASM) presents a challenge for exploration companies because:",
+    "options": {
+      "A": "ASM miners use more advanced technology than exploration companies",
+      "B": "ASM miners often operate within exploration license areas, creating safety, environmental, and social conflicts that cannot be resolved by simply evicting them",
+      "C": "ASM operations are always illegal and can be removed by court order without consequences",
+      "D": "ASM miners typically hold senior mineral rights that override exploration licenses"
+    },
+    "correct": "B",
+    "explanation": "Artisanal and small-scale mining (ASM) is a major socioeconomic reality across West Africa, employing millions of people. ASM operators — often referred to as 'orpailleurs' in Francophone countries — frequently work within areas covered by exploration or mining licenses held by larger companies. Simple eviction is rarely feasible or ethical: ASM miners may have customary land rights, their activities may predate the exploration license, and forced removal can trigger violent conflict and political backlash. Best practice requires engagement strategies including: demarcating coexistence zones, formalizing ASM operations, providing technical assistance for safer practices, and creating alternative livelihood programs. Companies that develop constructive ASM strategies often gain stronger social license and valuable geological intelligence from artisanal workings that indicate mineralization.",
+    "key_concept": "ASM coexistence: millions employed, eviction impractical, engagement and formalization preferred",
+    "source": "West African mining practice / ESG",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-017",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "The FCPA's anti-bribery provisions apply to:",
+    "options": {
+      "A": "Only US citizens working in the United States",
+      "B": "Only companies incorporated in the United States",
+      "C": "Any company listed on a US stock exchange, any US person, and any person who commits an act in furtherance of a bribe while in US territory, regardless of nationality",
+      "D": "Only payments exceeding $100,000 made to foreign heads of state"
+    },
+    "correct": "C",
+    "explanation": "The FCPA has broad extraterritorial jurisdiction. Its anti-bribery provisions apply to three categories: (1) 'issuers' — any company listed on a US stock exchange or required to file SEC reports, regardless of where incorporated; (2) 'domestic concerns' — US citizens, nationals, residents, and entities organized under US law; and (3) any person who commits any act in furtherance of a corrupt payment while in US territory. This means a Canadian mining company listed on NYSE, or an Australian company that routes a wire transfer through a US bank, can be prosecuted under the FCPA for bribing an African government official. There is no minimum payment threshold. The FCPA also contains accounting provisions requiring accurate books and records and adequate internal controls, which apply to all SEC-reporting companies.",
+    "key_concept": "FCPA: applies to US-listed companies, US persons, acts on US territory; no minimum threshold; books and records provisions",
+    "source": "Foreign Corrupt Practices Act (FCPA)",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-21-018",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "Which ESG reporting framework specifically addresses climate-related financial risks and is increasingly required by securities regulators?",
+    "options": {
+      "A": "EITI (Extractive Industries Transparency Initiative)",
+      "B": "GRI (Global Reporting Initiative)",
+      "C": "TCFD (Task Force on Climate-related Financial Disclosures)",
+      "D": "ICMC (International Cyanide Management Code)"
+    },
+    "correct": "C",
+    "explanation": "The Task Force on Climate-related Financial Disclosures (TCFD) was established by the Financial Stability Board to develop recommendations for climate-related financial disclosures. TCFD focuses on four areas: governance (board oversight of climate risks), strategy (actual and potential climate impacts on the business), risk management (processes for identifying and managing climate risks), and metrics and targets (emissions data and reduction targets). For mining companies, TCFD-aligned disclosure covers physical risks (extreme weather affecting operations, water scarcity), transition risks (carbon pricing, shifting investor preferences), and opportunities (demand for metals needed in energy transition). Multiple securities regulators including those in the UK, EU, Australia, and Canada have made TCFD-aligned disclosure mandatory or are moving toward mandatory requirements. GRI is a broader sustainability reporting framework, EITI focuses on revenue transparency, and ICMC is specific to cyanide management.",
+    "key_concept": "TCFD: climate-related financial disclosure, four pillars (governance/strategy/risk/metrics), increasingly mandatory",
+    "source": "TCFD / FSB",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-21-019",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "A Resettlement Action Plan (RAP) under IFC PS5 must include provisions for which of the following groups?",
+    "options": {
+      "A": "Only persons who hold formal, registered land titles",
+      "B": "Only persons who have resided in the area for more than 10 years",
+      "C": "All displaced persons including those without formal legal title but with recognized occupation or use rights, such as informal settlers and customary land users",
+      "D": "Only persons who are citizens of the host country"
+    },
+    "correct": "C",
+    "explanation": "IFC PS5 explicitly recognizes three categories of displaced persons: (1) those with formal legal rights to the land (title holders); (2) those without formal legal rights but with recognized or recognizable claims under national law (e.g., customary land rights); and (3) those with no formal or recognizable legal rights (informal occupants or encroachers). All three categories are entitled to some form of compensation or assistance. Categories 1 and 2 receive compensation at full replacement cost plus relocation assistance. Category 3 receives resettlement assistance in lieu of compensation for the land itself, but still must be assisted. This is critical in West Africa, where customary land tenure is the dominant form of land holding and few rural communities have formal titles. A RAP that covers only title holders would miss the majority of affected people.",
+    "key_concept": "RAP covers all displaced persons: title holders, customary rights, and informal occupants — all receive assistance",
+    "source": "IFC Performance Standard 5",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-21-020",
+    "chapterId": "gold-21",
+    "domain": "gold",
+    "question": "Why should a junior gold explorer begin environmental baseline data collection during the exploration phase, before any mining decision is made?",
+    "options": {
+      "A": "Because baseline data collection is the cheapest phase of the mining lifecycle and costs nothing during exploration",
+      "B": "Because pre-disturbance baseline data on water quality, air quality, biodiversity, and socioeconomic conditions is essential for future EIA approvals, cannot be collected retrospectively once the site is disturbed, and demonstrates responsible management to investors and regulators",
+      "C": "Because environmental regulators require daily monitoring reports from the first day of exploration drilling",
+      "D": "Because baseline data is needed to calculate the mineral resource estimate"
+    },
+    "correct": "B",
+    "explanation": "Environmental baseline data — including water quality (surface and groundwater chemistry, flow rates), air quality, noise levels, soil conditions, biodiversity surveys (flora, fauna, critical habitats), and socioeconomic profiles — must be collected before any significant disturbance occurs. This data serves multiple critical purposes: it forms the foundation of the Environmental and Social Impact Assessment (ESIA) required for mining permits; it provides the benchmark against which future impacts are measured; it is needed to design appropriate mitigation measures; and it is essential evidence in any future environmental dispute. Once a site is disturbed, pre-disturbance conditions cannot be reconstructed. Starting baseline work during exploration also signals to investors, lenders, and regulators that the company is serious about responsible development. The cost is modest relative to overall project development costs but the data is irreplaceable.",
+    "key_concept": "Early baseline: water, air, biodiversity, socioeconomic data before disturbance; irreplaceable, essential for ESIA",
+    "source": "Environmental assessment best practice",
+    "difficulty": 1
+  }
+]
