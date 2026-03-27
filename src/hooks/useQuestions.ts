@@ -17,9 +17,10 @@ export function useQuestions(chapterId: string | undefined) {
 
   useEffect(() => {
     if (!chapterId) return;
-    setLoading(true);
-    setError(null);
-    fetch(`/data/${chapterId}.json`)
+    async function load() {
+      setLoading(true);
+      setError(null);
+      fetch(`/data/${chapterId}.json`)
       .then(res => {
         if (!res.ok) throw new Error('No questions available');
         return res.json();
@@ -33,6 +34,8 @@ export function useQuestions(chapterId: string | undefined) {
         setQuestions([]);
         setLoading(false);
       });
+    }
+    load();
   }, [chapterId]);
 
   return { questions, loading, error };
@@ -44,8 +47,9 @@ export function useMultiChapterQuestions(chapterIds: string[], count: number) {
 
   useEffect(() => {
     if (chapterIds.length === 0) return;
-    setLoading(true);
-    Promise.all(
+    async function load() {
+      setLoading(true);
+      Promise.all(
       chapterIds.map(id =>
         fetch(`/data/${id}.json`)
           .then(res => (res.ok ? res.json() : []))
@@ -56,6 +60,8 @@ export function useMultiChapterQuestions(chapterIds: string[], count: number) {
       setQuestions(shuffle(all).slice(0, count));
       setLoading(false);
     });
+    }
+    load();
   }, [chapterIds.join(','), count]);
 
   return { questions, loading };

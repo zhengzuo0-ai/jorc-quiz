@@ -162,7 +162,7 @@ export default function Practice() {
     } else {
       setCurrentIndex(nextIdx);
     }
-  }, [currentIndex, questions.length, correctCount]);
+  }, [currentIndex, questions, correctCount]);
 
   // Chapter selection view
   if (!chapterId) {

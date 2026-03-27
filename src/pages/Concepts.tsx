@@ -114,9 +114,10 @@ function ConceptViewer({ chapterId }: { chapterId: string }) {
   const chapter = chapters.find(c => c.id === chapterId);
 
   useEffect(() => {
-    setLoading(true);
-    setError('');
-    fetch(`/concepts/${chapterId}.md`)
+    async function load() {
+      setLoading(true);
+      setError('');
+      fetch(`/concepts/${chapterId}.md`)
       .then(res => {
         if (!res.ok) throw new Error('Not found');
         return res.text();
@@ -127,6 +128,8 @@ function ConceptViewer({ chapterId }: { chapterId: string }) {
       })
       .catch(() => setError('无法加载内容 / Content not found'))
       .finally(() => setLoading(false));
+    }
+    load();
   }, [chapterId]);
 
   return (

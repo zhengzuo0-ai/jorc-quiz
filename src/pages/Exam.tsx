@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo, useEffect } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { chapters } from '../data/chapters';
 import { useMultiChapterQuestions } from '../hooks/useQuestions';
 import { useProgress } from '../hooks/useProgress';
@@ -45,13 +45,10 @@ export default function Exam() {
     setTimerRunning(true);
   }, [chapterIds]);
 
-  // Transition to exam phase once questions load
-  useEffect(() => {
-    if (phase === 'exam' && questions.length === 0 && !loading && startedChapterIds.length > 0) {
-      // No questions available
-      setPhase('config');
-    }
-  }, [phase, questions.length, loading, startedChapterIds]);
+  // Transition back to config if no questions available
+  if (phase === 'exam' && questions.length === 0 && !loading && startedChapterIds.length > 0) {
+    setPhase('config');
+  }
 
   const finishExam = useCallback(() => {
     setTimerRunning(false);
