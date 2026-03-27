@@ -457,5 +457,311 @@
     "key_concept": "Pushback sequencing phases pit expansion to maintain safety, equipment access, and consistent ore supply.",
     "source": "Mining methods practice",
     "difficulty": 3
+  },
+  {
+    "id": "gold-07-028",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "In open pit gold mining, what does 'powder factor' refer to in drill and blast design?",
+    "options": {
+      "A": "The percentage of explosive that detonates successfully",
+      "B": "The quantity of explosive used per unit volume or mass of rock to be broken",
+      "C": "The ratio of drill holes to blast holes in a pattern",
+      "D": "The fineness of the crushed material after blasting"
+    },
+    "correct": "B",
+    "explanation": "Powder factor is defined as the mass of explosive consumed per unit volume (kg/m³) or per tonne (kg/t) of rock broken. It is a fundamental parameter in drill and blast design that directly influences fragmentation, wall stability, and blasting cost. A higher powder factor generally produces finer fragmentation, which benefits downstream loading and crushing but increases explosive costs and may cause excessive wall damage. In West African gold operations, typical powder factors for hard rock range from 0.4 to 0.8 kg/m³, with adjustments based on rock mass properties. The blast pattern (burden and spacing) is designed in conjunction with the powder factor to achieve the desired fragmentation distribution.",
+    "key_concept": "Powder factor is the mass of explosive per unit volume of rock, governing fragmentation and blast efficiency.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed., Hustrulid et al.",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-029",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "A West African open pit gold mine experiences significant water inflow during the wet season. Which dewatering strategy is most appropriate for managing both groundwater seepage and direct rainfall runoff in a deep pit?",
+    "options": {
+      "A": "Relying solely on evaporation during the dry season to lower pit water levels",
+      "B": "A combination of in-pit sumps with pumps for surface water, and perimeter dewatering wells (bores) to lower the water table ahead of mining",
+      "C": "Constructing a concrete dam across the pit entrance to prevent water ingress",
+      "D": "Scheduling all mining activities exclusively during the dry season"
+    },
+    "correct": "B",
+    "explanation": "Effective open pit dewatering typically requires a two-pronged approach. In-pit sumps collect surface runoff and direct rainfall, pumping it out of the pit via staged pump stations. Perimeter dewatering wells (borehole pumps) are installed around the pit perimeter to proactively lower the water table, reducing seepage into pit walls and improving slope stability. This is especially critical in West Africa where wet seasons can deliver 1,000-1,500 mm of rainfall over 4-6 months. Depressurising pit walls also reduces pore pressures, which is essential for maintaining design slope angles. Relying on evaporation alone or seasonal scheduling would be impractical for continuous mining operations.",
+    "key_concept": "Effective pit dewatering combines in-pit sump pumping with perimeter dewatering wells to manage both runoff and groundwater.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Hustrulid et al.",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-030",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the recommended maximum gradient for a loaded haul truck on a permanent haul road in an open pit mine?",
+    "options": {
+      "A": "1-3%",
+      "B": "8-10%",
+      "C": "15-18%",
+      "D": "20-25%"
+    },
+    "correct": "B",
+    "explanation": "Industry best practice recommends a maximum sustained gradient of 8-10% (about 1 in 10 to 1 in 12) for loaded haul roads in open pit mines. Steeper grades significantly increase tyre wear, fuel consumption, brake overheating on descent, and reduce truck speeds, all of which degrade productivity and increase operating costs. Haul roads should also incorporate adequate width (typically 3.5 times the widest truck for two-lane roads), proper drainage with cross-fall (2-4%), and a well-maintained running surface to reduce rolling resistance. In West African laterite environments, maintaining road surfaces during the wet season is a particular challenge requiring regular grading and compaction.",
+    "key_concept": "Maximum haul road gradient for loaded trucks is typically 8-10% to balance productivity and safety.",
+    "source": "Kaufman & Ault, Design of Surface Mine Haulage Roads; SME Mining Engineering Handbook",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-031",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the primary function of a fleet management system (FMS) or dispatch system in an open pit gold mine?",
+    "options": {
+      "A": "To automatically control the steering and braking of haul trucks",
+      "B": "To optimise the real-time assignment of trucks to shovels, dumps, and routes, minimising truck wait times and maximising fleet productivity",
+      "C": "To replace the need for mine planning and scheduling software",
+      "D": "To monitor employee attendance and shift changes"
+    },
+    "correct": "B",
+    "explanation": "A fleet management or dispatch system uses GPS tracking, real-time production data, and optimisation algorithms to dynamically assign trucks to loading units, dump locations, and haul routes. The objective is to minimise truck queuing and shovel idle time while maximising overall fleet productivity and ensuring the correct ore types are delivered to the right destinations. Modern FMS platforms such as Wenco, Modular Mining (DISPATCH), and Caterpillar MineStar also capture payload data, cycle times, and equipment health metrics. In multi-pit or multi-phase operations common in West Africa, effective dispatching is critical to blending ore from different sources to maintain consistent plant feed grade.",
+    "key_concept": "Fleet management systems optimise real-time truck-to-shovel assignments to maximise productivity and minimise idle time.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Modular Mining Systems",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-032",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "Why is ore stockpile management and blending important in gold mining operations?",
+    "options": {
+      "A": "Stockpiles are only used to store waste rock before it is placed on the dump",
+      "B": "Blending ore from different stockpiles ensures consistent head grade, tonnage, and mineralogical characteristics to the processing plant, optimising recovery",
+      "C": "Stockpiles eliminate the need for grade control drilling entirely",
+      "D": "Blending is only necessary when mining multiple commodities simultaneously"
+    },
+    "correct": "B",
+    "explanation": "Ore stockpile management is a critical link between mining and processing. Different mining areas produce ore with varying grades, hardness, clay content, and mineralogy. By maintaining segregated stockpiles (e.g., high-grade, medium-grade, low-grade, and oxide vs. sulphide) and strategically blending them, the operation can deliver a consistent feed to the plant that optimises metallurgical recovery and throughput. This is particularly important in West African gold deposits where oxide and transitional ores behave very differently in CIL/CIP circuits. Effective stockpile management also decouples mining rate from plant feed rate, providing a buffer against short-term mining disruptions such as wet season delays or equipment breakdowns.",
+    "key_concept": "Ore blending from stockpiles ensures consistent plant feed grade and mineralogy, optimising metallurgical recovery.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-033",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is a key advantage of an owner-operator mining model compared to using a mining contractor?",
+    "options": {
+      "A": "Owner-operator models always have lower capital expenditure requirements",
+      "B": "The mine owner retains full control over equipment, workforce, and operational decisions, and typically achieves lower unit costs over the life of mine",
+      "C": "Contractors provide better geological knowledge of the orebody",
+      "D": "Owner-operator models eliminate the need for mine planning"
+    },
+    "correct": "B",
+    "explanation": "Under an owner-operator model, the mining company owns the fleet, employs the workforce, and directly manages all mining operations. This provides greater operational control, alignment of incentives with long-term mine objectives, and generally lower unit mining costs over the life of mine because there is no contractor margin. However, it requires significant upfront capital for equipment and carries the risk of fleet underutilisation. Conversely, a contractor model reduces capital exposure and is well-suited to shorter mine lives, start-up phases, or when the owner lacks operational experience. Many West African gold mines start with a contractor during construction and early production, then transition to owner-operator once operations are established and the deposit's long-term viability is confirmed.",
+    "key_concept": "Owner-operator mining offers greater control and lower long-term unit costs but requires higher capital investment.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Mining methods practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-034",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "Under the JORC Code and typical regulatory requirements, what must a mine closure and rehabilitation plan demonstrate?",
+    "options": {
+      "A": "That the mine will be abandoned immediately upon ore depletion with no further obligations",
+      "B": "That disturbed land will be progressively and finally rehabilitated to a safe, stable, non-polluting landform consistent with agreed post-mining land use, with adequate financial provision",
+      "C": "That all mine infrastructure will remain in place for future use by the local community",
+      "D": "That rehabilitation is only required if the mine was profitable"
+    },
+    "correct": "B",
+    "explanation": "Mine closure planning is a regulatory and social requirement that must be considered from the earliest stages of project development. A credible closure plan demonstrates that all disturbed areas (pits, waste dumps, tailings facilities, infrastructure) will be rehabilitated to a safe, stable, and non-polluting condition. The plan must define the post-mining land use agreed with stakeholders, include progressive rehabilitation during operations, and ensure adequate financial provisioning (closure cost estimates and bonding). In West Africa, closure planning must address specific regional challenges including acid mine drainage in sulphide-bearing waste, artisanal mining encroachment on closed sites, and community expectations for post-mining livelihoods. The JORC Code requires that Modifying Factors, including environmental and closure considerations, are addressed in Ore Reserve estimation.",
+    "key_concept": "Mine closure plans must ensure safe, stable, non-polluting landforms with adequate financial provision and stakeholder agreement.",
+    "source": "JORC Code 2012, Table 1; ICMM Mine Closure Framework",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-035",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "Which geotechnical monitoring tool provides continuous, real-time measurement of slope movements across a broad area of an open pit wall?",
+    "options": {
+      "A": "Diamond core drilling",
+      "B": "Slope stability radar (SSR) systems",
+      "C": "Blast vibration monitors",
+      "D": "Piezometers"
+    },
+    "correct": "B",
+    "explanation": "Slope stability radar (SSR) systems use interferometric radar to continuously scan pit walls and detect sub-millimetre movements over large areas, typically with update intervals of minutes. This enables early warning of potential slope failures, allowing evacuation of personnel and equipment before a collapse. SSR complements point-measurement systems such as survey prisms (monitored by robotic total stations) and wireline extensometers. Piezometers measure pore water pressure within slopes rather than movement, while blast vibration monitors measure ground vibration from blasting. In deep West African open pits where slope angles are pushed to optimise economics, SSR systems are increasingly standard practice for managing geotechnical risk, particularly during the wet season when pore pressures are elevated.",
+    "key_concept": "Slope stability radar provides continuous, broad-area, sub-millimetre detection of pit wall movements for early failure warning.",
+    "source": "Read & Stacey, Guidelines for Open Pit Slope Design; GroundProbe SSR documentation",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-036",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "In underground gold mining, what is the primary purpose of backfill?",
+    "options": {
+      "A": "To permanently seal mine openings from public access",
+      "B": "To provide ground support to mined-out stopes, enabling recovery of adjacent pillars and improving regional ground stability",
+      "C": "To dispose of surface topsoil underground",
+      "D": "To increase the gold grade of remaining ore by mixing with high-grade material"
+    },
+    "correct": "B",
+    "explanation": "Backfill is placed into mined-out voids (stopes) to provide ground support, limit wall convergence, and improve regional stress distribution. This enables higher extraction ratios by allowing adjacent pillars and stopes to be mined without excessive dilution or ground collapse. Common backfill types include cemented rock fill (CRF), cemented paste fill (CPF), and hydraulic fill. Cemented paste fill, made from thickened tailings mixed with cement, is widely used because it provides good strength, can utilise tailings as aggregate (reducing surface storage requirements), and can be delivered via pipeline. The required backfill strength depends on the mining method and stope geometry—typically 0.5-2.0 MPa UCS for most gold mining applications. Backfill is essential in methods like long-hole open stoping, cut-and-fill, and underhand drift-and-fill.",
+    "key_concept": "Backfill supports mined-out stopes, improves ground stability, and enables higher extraction ratios in underground mining.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Potvin et al., Handbook on Mine Fill",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-037",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the typical maximum gradient used for a decline (ramp) providing truck access to an underground gold mine?",
+    "options": {
+      "A": "1:3 (about 33%)",
+      "B": "1:7 to 1:8 (about 12-14%)",
+      "C": "1:20 (about 5%)",
+      "D": "1:50 (about 2%)"
+    },
+    "correct": "B",
+    "explanation": "Decline development for underground truck access typically uses a gradient of 1:7 to 1:8 (approximately 12-14%), which balances the need to reach depth efficiently against the traction and braking capability of underground haul trucks. Steeper gradients increase tyre wear, reduce truck payload capacity on the climb, and create safety risks on descent. The decline cross-section must accommodate the largest equipment that will use it, with adequate clearance for ventilation ducting, services (water, compressed air, electrical), and passing bays. In West African underground gold projects transitioning from open pit, the portal location and decline orientation are critical design decisions that consider the orebody geometry, geotechnical conditions, and the need for a second means of egress for safety.",
+    "key_concept": "Underground decline gradients of 1:7 to 1:8 (12-14%) balance depth access efficiency with truck operational capability.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Hustrulid & Bullock, Underground Mining Methods",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-038",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "Why is ventilation a critical design consideration in underground gold mining?",
+    "options": {
+      "A": "Ventilation is only needed to cool computer servers in the underground control room",
+      "B": "It provides fresh air for personnel, dilutes and removes blasting fumes, diesel exhaust, dust, and radon, and controls underground temperatures",
+      "C": "Ventilation is used exclusively to dry out wet ground conditions",
+      "D": "It is only required in coal mines, not hard rock gold mines"
+    },
+    "correct": "B",
+    "explanation": "Underground ventilation is essential for maintaining a safe and productive working environment. The ventilation system must supply sufficient fresh air to all active working areas, dilute and remove contaminants (blasting gases such as CO and NOx, diesel particulate matter, silica dust, and naturally occurring radon), and manage underground temperatures. In deep or hot mines, refrigeration may be required in addition to ventilation. Air quantity requirements are typically governed by the number of diesel-powered equipment operating underground, with regulations commonly specifying 0.06-0.08 m³/s per kW of diesel power. The ventilation system—comprising primary fans, airways, raises, and auxiliary fans with ducting—represents a significant capital and operating cost, often 25-40% of total underground operating costs in deep mines.",
+    "key_concept": "Underground ventilation supplies fresh air, removes contaminants, and controls temperature, representing a major operating cost.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; McPherson, Subsurface Ventilation Engineering",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-039",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "In open pit mine design, what is the primary purpose of constructing ramps (access roads) within the pit?",
+    "options": {
+      "A": "To provide pedestrian walking paths for geologists conducting mapping",
+      "B": "To provide safe, graded access for haul trucks and service vehicles between the pit floor and surface, connecting each working bench level",
+      "C": "To act as permanent retaining walls preventing slope failure",
+      "D": "To channel rainwater out of the pit during storms"
+    },
+    "correct": "B",
+    "explanation": "In-pit ramps are permanent or semi-permanent roadways constructed within the pit shell to provide access for haul trucks, service vehicles, and personnel to all active working levels. Ramp design must consider gradient (typically 8-10% for haul trucks), width (sufficient for the truck fleet with safety berms), and location within the pit to minimise impact on the overall pit slope angle and ore recovery. Dual-lane ramps are preferred in high-traffic operations to avoid congestion. The ramp location is a critical pit design parameter because it occupies space within the pit shell, effectively steepening the local slope angle on the ramp side or increasing the overall strip ratio. Strategic ramp placement considers the sequence of pushbacks and the ultimate pit geometry.",
+    "key_concept": "In-pit ramps provide graded truck access between bench levels and are a critical pit design parameter affecting slope angles.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Hustrulid et al., Open Pit Mine Planning and Design",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-040",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the main advantage of in-pit crushing and conveying (IPCC) systems compared to conventional truck haulage?",
+    "options": {
+      "A": "IPCC systems eliminate the need for any drilling and blasting",
+      "B": "IPCC systems reduce the haul distance for trucks by placing a crusher in the pit, then conveying material to surface, significantly lowering fuel costs, tyre costs, and truck fleet requirements",
+      "C": "IPCC systems are only suitable for underground mining operations",
+      "D": "IPCC systems increase the number of trucks required but reduce their size"
+    },
+    "correct": "B",
+    "explanation": "In-pit crushing and conveying (IPCC) involves installing a primary crusher within the open pit and using conveyors to transport the crushed material to the surface. This dramatically reduces the truck haul distance—trucks only haul from the face to the in-pit crusher rather than all the way to the surface. The result is a significant reduction in fuel consumption (often 30-50%), tyre costs, truck fleet size, and associated maintenance and labour costs. IPCC systems can be fully mobile, semi-mobile, or fixed, with trade-offs between capital cost and flexibility. While capital costs are higher than conventional truck fleets, the operating cost savings are substantial for deep pits with long haul distances, making IPCC increasingly attractive as open pits in West Africa reach depths of 200-400 metres.",
+    "key_concept": "IPCC reduces truck haul distances by crushing ore in-pit and conveying it to surface, lowering fuel and fleet costs.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Mordak & Peroni, In-Pit Crushing and Conveying",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-041",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "What is the primary concern regarding blast vibration in gold mining operations located near communities?",
+    "options": {
+      "A": "Blast vibration has no measurable effect beyond the pit boundary",
+      "B": "Ground vibration (measured as peak particle velocity) and air overpressure from blasting can cause structural damage to nearby buildings and significant community disturbance, requiring monitoring and blast design controls",
+      "C": "Blast vibration only affects underground mines, not open pit operations",
+      "D": "Community complaints about blasting are always unfounded and can be ignored"
+    },
+    "correct": "B",
+    "explanation": "Blast vibration propagates through the ground as seismic waves, measured as peak particle velocity (PPV, in mm/s), and through the air as overpressure (measured in dB). Excessive ground vibration can cause cosmetic or structural damage to nearby buildings, while air overpressure causes rattling windows and perceptible concussion. Most regulatory frameworks set limits—commonly 5-10 mm/s PPV for residential structures and 115-120 dB for air overpressure. Blast design controls include limiting maximum instantaneous charge (MIC), using electronic detonators for precise timing, orienting blast faces away from sensitive receptors, and implementing community notification protocols. In West African operations where communities may be located close to mine boundaries, robust blast vibration monitoring and proactive community engagement are essential for maintaining the social licence to operate.",
+    "key_concept": "Blast vibration (PPV) and air overpressure must be monitored and controlled to prevent structural damage and community disturbance.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; AS 2187.2 Explosives—Storage and Use",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-07-042",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "Which type of drill bit is most commonly used for production blasthole drilling in hard rock gold mines?",
+    "options": {
+      "A": "Polycrystalline diamond compact (PDC) bits, primarily used in soft sedimentary formations",
+      "B": "Tricone roller bits with tungsten carbide inserts, suited for a wide range of rock types and providing good hole straightness",
+      "C": "Auger bits, which are limited to soft soils and alluvial deposits",
+      "D": "Fixed-cutter diamond bits used exclusively for exploration core drilling"
+    },
+    "correct": "B",
+    "explanation": "Tricone roller bits are the most widely used drill bits for production blasthole drilling in open pit hard rock mines. They consist of three rotating cones with tungsten carbide insert (TCI) teeth that crush the rock as the bit rotates under applied weight. Tricone bits are versatile, effective across a wide range of rock types and strengths, and produce relatively straight holes—important for blast pattern accuracy. For very hard, abrasive rock, down-the-hole (DTH) hammer bits with tungsten carbide buttons may be preferred as they deliver higher penetration rates. Bit selection considers rock hardness (UCS), abrasivity (Cerchar index), hole diameter, required drilling rate, and cost per metre drilled. In West African gold mines, the geological variability from soft oxide to hard fresh rock often requires different bit types across the deposit.",
+    "key_concept": "Tricone roller bits with tungsten carbide inserts are the standard for production blasthole drilling in hard rock open pits.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Atlas Copco Drilling Solutions",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-07-043",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "A gold mine in West Africa is designing a 40 Mm³ waste dump on laterite foundation soils. Which of the following is the MOST critical factor for ensuring long-term stability of the waste dump?",
+    "options": {
+      "A": "Painting the dump surface with reflective paint to reduce solar heating",
+      "B": "Proper foundation preparation, controlled lift heights, effective drainage and compaction of each lift, and designs based on geotechnical characterisation of both the waste material and foundation soils",
+      "C": "Building the dump as steeply as possible to minimise the footprint area",
+      "D": "Placing all waste rock types in a single, unsegregated dump regardless of material properties"
+    },
+    "correct": "B",
+    "explanation": "Waste dump stability depends on understanding the geotechnical properties of both the waste material and the foundation. Foundation soils must be assessed for bearing capacity—weak laterite or clay foundations may require stripping or staged loading to prevent foundation failure. The dump is built in controlled lifts (typically 10-20 m) with each lift compacted by truck traffic or dedicated compaction equipment. Internal drainage is critical, especially in high-rainfall West African environments, to prevent build-up of pore water pressure that can trigger large-scale failures. Segregation of potentially acid-forming (PAF) waste from non-acid-forming (NAF) material through selective placement is also important for environmental management. Dump design must comply with regulatory requirements and consider closure obligations including final landform shaping, drainage, and revegetation.",
+    "key_concept": "Waste dump stability requires geotechnical characterisation, controlled lifts, drainage, and proper foundation preparation.",
+    "source": "Read & Stacey, Guidelines for Open Pit Slope Design; ANCOLD Guidelines",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-07-044",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "A West African gold deposit extends below the economic limit of the current open pit. Management is evaluating a transition to underground mining. What is the MOST important technical consideration for this transition?",
+    "options": {
+      "A": "The colour of the underground mine vehicles must match the surface fleet",
+      "B": "The crown pillar design between the pit floor and the underground workings must ensure stability of both the pit and underground openings, while the underground mining method must be compatible with the orebody geometry, grade distribution, and geotechnical conditions",
+      "C": "Underground mining must begin before the open pit is completed to maintain continuous employment",
+      "D": "The underground mine must produce exactly the same tonnage as the open pit to avoid changing the plant feed rate"
+    },
+    "correct": "B",
+    "explanation": "Transitioning from open pit to underground mining is a complex engineering challenge. The crown pillar—the block of rock left between the pit floor and the uppermost underground workings—is critical for safety and must be designed with sufficient thickness and integrity to prevent pit water, weathered material, or pit wall failures from impacting underground operations. The selected underground mining method (e.g., sub-level open stoping, longhole, or cut-and-fill) must suit the orebody's width, dip, grade distribution, and geotechnical conditions. Other key considerations include the portal and decline location (often from the pit wall), ventilation design, dewatering of the overlying pit, and the potential for concurrent open pit and underground operations during the transition period. Many West African deposits, such as Syama and Obuasi, have successfully completed or are planning such transitions.",
+    "key_concept": "Open pit to underground transition requires careful crown pillar design and a mining method compatible with orebody and geotechnical conditions.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Hustrulid & Bullock, Underground Mining Methods",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-07-045",
+    "chapterId": "gold-07",
+    "domain": "gold",
+    "question": "A mine planner must select haul trucks for a new open pit gold mine. The primary loading unit is a 22 m³ backhoe excavator with a cycle time of 30 seconds. The target is 4-5 bucket passes to fill each truck. What is the MOST appropriate approach to optimising the truck-excavator match?",
+    "options": {
+      "A": "Select the largest truck available regardless of the excavator bucket size, to minimise the number of trucks",
+      "B": "Match the truck payload capacity to 4-5 times the excavator bucket payload (bucket volume × material density × fill factor), and verify the match factor (truck fleet capacity vs. excavator capacity) is between 0.85 and 1.15 to minimise both truck queuing and excavator idle time",
+      "C": "Use the smallest trucks possible to maximise fleet flexibility, regardless of loading time",
+      "D": "Select trucks based solely on purchase price without considering the excavator match"
+    },
+    "correct": "B",
+    "explanation": "Truck-excavator matching is fundamental to fleet productivity and cost efficiency. The truck payload should be sized so that 4-5 bucket passes achieve a full load—fewer passes risk bucket-to-tray impact damage and overloading, while more passes extend loading time and reduce truck productivity. For a 22 m³ backhoe in typical West African hard rock (broken density ~1.8 t/m³, fill factor ~0.85), each bucket pass delivers approximately 33.7 tonnes, so the target truck payload is 135-170 tonnes (e.g., Cat 785 or Komatsu 730E class). The match factor (ratio of total truck fleet hauling capacity to excavator loading capacity) should ideally be 0.85-1.15; below 0.85 the excavator waits excessively for trucks, and above 1.15 trucks queue at the loader. Optimising this match is one of the highest-impact decisions in open pit mine design, directly affecting unit mining costs.",
+    "key_concept": "Truck-excavator matching targets 4-5 passes per load with a match factor of 0.85-1.15 to balance fleet productivity.",
+    "source": "SME Mining Engineering Handbook, 3rd Ed.; Caterpillar Performance Handbook",
+    "difficulty": 3
   }
 ]

@@ -457,5 +457,311 @@
     "key_concept": "Orogenic: deep (5-20 km), hot (300-600°C), metamorphic fluids; Epithermal: shallow (<1.5 km), cool (150-300°C)",
     "source": "Gold deposit classification fundamentals",
     "difficulty": 2
+  },
+  {
+    "id": "gold-02-028",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What is the primary geological model for gold concentration in the Witwatersrand Basin, South Africa?",
+    "options": {
+      "A": "Magmatic intrusion of gold-bearing granites into the basin",
+      "B": "Modified paleoplacer model where detrital gold was deposited in fluvial conglomerates and subsequently remobilized by later hydrothermal fluids",
+      "C": "Purely epigenetic hydrothermal gold introduced along faults during the Bushveld intrusion",
+      "D": "Volcanic exhalative origin similar to VMS deposits"
+    },
+    "correct": "B",
+    "explanation": "The Witwatersrand goldfields — the world's largest gold province — are best explained by a modified paleoplacer model. Detrital gold was originally deposited ~2.9–2.7 Ga ago in alluvial fan and braided river conglomerates (the 'reefs') derived from erosion of gold-bearing Archean greenstone belts. Subsequent burial, metamorphism, and hydrothermal fluid flow remobilized and locally upgraded the gold. This hybrid model reconciles the strong sedimentological control on gold distribution with textural evidence of hydrothermal remobilization, such as secondary gold on carbon seams. The Witwatersrand has produced over 50,000 tonnes of gold, dwarfing all other gold provinces.",
+    "key_concept": "Witwatersrand = modified paleoplacer; detrital gold in Archean conglomerates, subsequently remobilized by hydrothermal fluids",
+    "source": "Frimmel et al. (2005), Witwatersrand gold models",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-029",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Which of the following best characterizes iron oxide copper-gold (IOCG) deposits?",
+    "options": {
+      "A": "They are exclusively associated with subduction-related arc magmatism and contain negligible iron oxides",
+      "B": "They are defined by abundant iron oxides (magnetite and/or hematite), Cu ± Au ± U ± REE, structural and/or replacement controls, and lack of the quartz-vein stockworks typical of porphyry deposits",
+      "C": "They form exclusively at mid-ocean ridges from seawater circulation and contain mainly pyrite with traces of copper",
+      "D": "They are syn-sedimentary deposits confined to Paleozoic basins with gold as the dominant economic metal"
+    },
+    "correct": "B",
+    "explanation": "IOCG deposits are defined by voluminous low-Ti iron oxides (magnetite and/or hematite) as the dominant gangue, together with economic copper and commonly gold, uranium, and REE. They form via high-temperature, oxidized, saline fluids — possibly of magmatic, metamorphic, or deeply circulating basinal origin — and are structurally or stratigraphically controlled. Unlike porphyry deposits, they lack quartz vein stockworks and show iron oxide rather than sulfide dominance. The giant Olympic Dam deposit (Australia) is the type example, containing the world's largest uranium resource alongside major Cu-Au. IOCG deposits occur in Archean through Mesozoic terranes worldwide.",
+    "key_concept": "IOCG = abundant Fe-oxides (magnetite/hematite) + Cu ± Au ± U ± REE, no quartz stockwork",
+    "source": "Hitzman et al. (1992); Williams et al. (2005), IOCG classification",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-030",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "How do skarn gold deposits form, and what distinguishes them from other gold deposit types?",
+    "options": {
+      "A": "Gold precipitates in laterite profiles over ultramafic rocks through weathering processes",
+      "B": "Gold is concentrated by calc-silicate metasomatism at the contact between an intrusion and reactive carbonate host rocks, producing characteristic garnet-pyroxene-wollastonite assemblages",
+      "C": "Gold forms in banded iron formations through diagenetic processes in shallow marine basins",
+      "D": "Gold accumulates in residual soils above greenstone belts without any intrusive association"
+    },
+    "correct": "B",
+    "explanation": "Skarn gold deposits form where magmatic-hydrothermal fluids from an intrusion (typically intermediate to felsic) interact with reactive carbonate (limestone/dolostone) host rocks, producing distinctive calc-silicate mineral assemblages of garnet (andradite-grossular), pyroxene (diopside-hedenbergite), wollastonite, and epidote. Gold is deposited along with sulfides (pyrrhotite, arsenopyrite, chalcopyrite) during both prograde and retrograde stages of skarn formation. These deposits can be high-grade and are distinguished from porphyry and epithermal systems by their contact-metasomatic origin and calc-silicate gangue. The Fortitude deposit (Nevada) and Hedley (British Columbia) are classic examples.",
+    "key_concept": "Skarn gold = intrusion-carbonate contact metasomatism; garnet-pyroxene assemblage with Au-sulfide mineralization",
+    "source": "Meinert et al. (2005), Skarn deposit classification",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-031",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What is the primary mechanism of supergene gold enrichment, and where in the weathering profile does it occur?",
+    "options": {
+      "A": "Gold is leached by acidic groundwaters from the oxidized zone, transported downward as chloride complexes, and reprecipitated at or below the water table where reducing conditions prevail",
+      "B": "Gold is brought to the surface by rising magmatic fluids and deposited in the soil horizon",
+      "C": "Gold is mechanically concentrated by wind deflation of surrounding fine-grained sediments",
+      "D": "Gold dissolves in alkaline fluids and precipitates at the surface as a carbonate mineral"
+    },
+    "correct": "A",
+    "explanation": "Supergene gold enrichment occurs when acidic, oxidizing groundwaters in the vadose zone dissolve gold from primary sulfide mineralization — gold can be transported as chloride or thiosulfate complexes. As these solutions percolate downward, they encounter reducing conditions near the water table, causing gold to reprecipitate as secondary native gold that is often higher purity (finer fineness) than primary gold. This process can create a supergene-enriched blanket above or within the primary ore zone, significantly upgrading grades. Understanding supergene enrichment is critical for resource estimation because it affects the vertical grade profile and metallurgical behavior.",
+    "key_concept": "Supergene enrichment: gold leached from oxide zone, transported downward, reprecipitated at/near water table under reducing conditions",
+    "source": "Webster & Mann (1984); Groves et al. (1998), Supergene gold processes",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-032",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "In a typical laterite gold enrichment profile over a primary gold deposit, what is the correct sequence of zones from surface to fresh rock?",
+    "options": {
+      "A": "Fresh rock → saprock → saprolite → mottled zone → laterite (duricrust)",
+      "B": "Laterite (duricrust/cuirasse) → mottled zone → saprolite → saprock → fresh rock",
+      "C": "Saprolite → laterite → fresh rock → saprock → mottled zone",
+      "D": "Alluvium → fresh rock → laterite → saprolite → saprock"
+    },
+    "correct": "B",
+    "explanation": "The laterite weathering profile, particularly well-developed in West Africa's tropical climate, follows a consistent sequence from surface downward: laterite duricrust (cuirasse, rich in iron/aluminum oxides), mottled zone (transitional with iron mottling), saprolite (thoroughly weathered but retaining original rock fabric), saprock (partially weathered with fresh rock fragments), and finally fresh unweathered bedrock. Gold can be enriched at multiple levels — in the laterite surface through residual accumulation, and in the saprolite through chemical remobilization. In the Birimian terranes of West Africa, understanding this profile is essential for drilling and resource estimation, as grade distribution varies systematically through these zones.",
+    "key_concept": "Laterite profile top-to-bottom: duricrust → mottled zone → saprolite → saprock → fresh rock; gold enriched at multiple levels",
+    "source": "Butt & Zeegers (1992); Anand & Paine (2002), Laterite gold geochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-033",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What are the commonly accepted size thresholds for classifying gold deposits as 'world-class,' 'major,' and 'significant'?",
+    "options": {
+      "A": "World-class >100 Moz, major >50 Moz, significant >10 Moz",
+      "B": "World-class >6 Moz (>200 t Au), major >1–3 Moz (>30–100 t Au), significant >0.5 Moz (>15 t Au)",
+      "C": "World-class >1 Moz, major >0.5 Moz, significant >0.1 Moz",
+      "D": "Deposit size is classified only by grade, not contained ounces"
+    },
+    "correct": "B",
+    "explanation": "The widely used classification system for gold deposits recognizes world-class deposits as those containing more than approximately 6 Moz (roughly 200 tonnes) of gold — these are rare and include deposits like Muruntau, Grasberg, and Obuasi. Major deposits contain approximately 1–3 Moz (30–100 tonnes), while significant deposits exceed about 0.5 Moz (15 tonnes). These thresholds are approximate and vary between authors, but they provide a useful framework for ranking projects. Grade is considered separately — a deposit can be world-class by tonnage but low-grade, or small but very high-grade. Understanding these benchmarks helps Competent Persons contextualize a deposit's importance within a global framework.",
+    "key_concept": "World-class gold deposit >6 Moz (~200 t Au); major >1–3 Moz; significant >0.5 Moz",
+    "source": "Singer (1995); Groves et al. (2003), Gold deposit size classification",
+    "difficulty": 1
+  },
+  {
+    "id": "gold-02-034",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "Within the Birimian Supergroup of West Africa, which lithological unit most commonly hosts orogenic gold mineralization?",
+    "options": {
+      "A": "Tarkwaian conglomerates exclusively, as detrital paleoplacer accumulations",
+      "B": "Granitoid batholiths intruding basement gneisses, with gold in pegmatite veins",
+      "C": "Birimian metavolcanic and metasedimentary belts, particularly at the contact between volcanic and sedimentary units or along major shear zones within the belts",
+      "D": "Cenozoic laterite caps with no relationship to underlying bedrock lithology"
+    },
+    "correct": "C",
+    "explanation": "In the Birimian terrane (~2.2–2.0 Ga) of the West African Craton, orogenic gold is predominantly hosted in Paleoproterozoic metavolcanic belts (basalt, andesite) and metasedimentary belts (greywacke, phyllite) — particularly where major shear zones intersect contacts between different lithological units. The Ashanti Belt in Ghana, hosting the world-class Obuasi deposit, is a classic example where gold occurs in sheared and altered rocks at volcanic-sedimentary contacts. While the younger Tarkwaian Group does host paleoplacer-style gold at Tarkwa, the volumetrically dominant gold endowment of West Africa is in Birimian orogenic lode deposits controlled by structures like the Ashanti Fault.",
+    "key_concept": "Birimian metavolcanic-metasedimentary belt contacts and major shear zones are the primary orogenic gold hosts in West Africa",
+    "source": "Goldfarb et al. (2001); Feybesse et al. (2006), West African gold metallogeny",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-035",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "How does gold fineness (ratio of Au to Au+Ag) typically vary between different deposit types?",
+    "options": {
+      "A": "Gold fineness is uniform at 999 across all deposit types",
+      "B": "Orogenic and Witwatersrand gold typically has high fineness (>900), epithermal gold has moderate fineness (600–850), and porphyry gold has variable but often lower fineness",
+      "C": "Epithermal gold has the highest fineness (>950) while orogenic gold has the lowest (<500)",
+      "D": "Fineness only depends on particle size and has no relationship to deposit type"
+    },
+    "correct": "B",
+    "explanation": "Gold fineness — the proportion of gold in native gold grains expressed in parts per thousand (Au / (Au+Ag) × 1000) — varies systematically by deposit type because it reflects the chemistry of the mineralizing fluid. Orogenic gold typically has high fineness (>900), reflecting the low Ag content of metamorphic fluids. Witwatersrand paleoplacer gold is similarly high fineness, partly due to supergene purification during weathering and transport. Epithermal gold has moderate fineness (600–850), reflecting the higher Ag content of near-surface hydrothermal fluids, with low-sulfidation systems often producing electrum (Au-Ag alloy). Porphyry gold fineness is variable. Gold fineness is a useful exploration and provenance indicator.",
+    "key_concept": "High fineness (>900) = orogenic/paleoplacer; moderate (600–850) = epithermal; variable = porphyry",
+    "source": "Morrison et al. (1991); Chapman & Mortensen (2006), Gold fineness and provenance",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-036",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "How does increasing metamorphic grade affect the style and characteristics of orogenic gold deposits?",
+    "options": {
+      "A": "Metamorphic grade has no effect — orogenic gold deposits are identical in all metamorphic settings",
+      "B": "At greenschist facies, deposits are typically brittle quartz-vein-hosted with arsenopyrite ± pyrite; at amphibolite-granulite facies, deposits tend to be more disseminated, with pyrrhotite-löllingite-gold and broader alteration halos",
+      "C": "Higher metamorphic grade always destroys gold mineralization, so only greenschist-hosted deposits are economic",
+      "D": "Amphibolite facies deposits contain only invisible gold in silicate minerals and are never economic"
+    },
+    "correct": "B",
+    "explanation": "Orogenic gold deposits show systematic changes with increasing metamorphic grade of the host rocks. In sub-greenschist to greenschist facies settings, gold is typically hosted in brittle-ductile quartz veins with arsenopyrite, pyrite, and sericite-carbonate-pyrite alteration — this is the most common setting globally. At amphibolite facies, mineralization tends to be more disseminated within altered wall rocks, with pyrrhotite and löllingite replacing arsenopyrite as key sulfide phases, and gold occurs both in veins and as free grains in the wall rock. At granulite facies, deposits are rare but can be high-grade, with gold in pyroxene-bearing assemblages. The Hemlo deposit (Canada) is an example of a high-grade metamorphosed gold deposit.",
+    "key_concept": "Greenschist = brittle quartz veins, arsenopyrite; amphibolite = disseminated, pyrrhotite-löllingite; grade affects style not prospectivity",
+    "source": "Groves et al. (1998); Goldfarb et al. (2005), Crustal continuum model for orogenic gold",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-037",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "In Archean greenstone belt architecture, what is the significance of the interface between mafic volcanic sequences and overlying sedimentary units for gold mineralization?",
+    "options": {
+      "A": "This interface has no significance — gold deposits are randomly distributed throughout greenstone belts",
+      "B": "The lithological contact provides a rheological (competency) contrast that focuses fluid flow and gold deposition, particularly where major structures intersect this contact",
+      "C": "Gold only forms in the sedimentary rocks above this contact, never in the volcanic rocks below",
+      "D": "This contact is always an unconformity that acts as a barrier preventing any fluid migration"
+    },
+    "correct": "B",
+    "explanation": "In Archean greenstone belts — the world's most productive orogenic gold terrane — the interface between competent mafic volcanic rocks (basalts, komatiites) and overlying less competent sedimentary rocks (shales, greywackes) is a critical ore-controlling feature. This rheological contrast focuses strain during deformation, creating permeable zones along which gold-bearing metamorphic fluids migrate and deposit gold. Many world-class deposits (e.g., Golden Mile at Kalgoorlie, Timmins deposits in Abitibi) occur at or near such contacts, especially where they are intersected by regional-scale fault/shear zones. The concept applies equally to Paleoproterozoic (Birimian) greenstone belts in West Africa, where volcanic-sedimentary contacts host deposits like Obuasi and Siguiri.",
+    "key_concept": "Mafic volcanic–sedimentary contacts in greenstone belts = rheological trap focusing auriferous fluids along competency contrasts",
+    "source": "Robert & Poulsen (2001); Groves et al. (1998), Greenstone belt gold controls",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-038",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What factors determine orebody geometry and grade continuity in orogenic gold deposits, and why does this matter for JORC resource estimation?",
+    "options": {
+      "A": "Orogenic gold orebodies are always spherical and grades are perfectly uniform, making estimation straightforward",
+      "B": "Orebody geometry is controlled by the intersection of structures (faults, folds, lithological contacts), producing tabular to pipe-like shoots with highly variable grade continuity that requires carefully chosen search ellipses and variogram analysis for estimation",
+      "C": "Orebody geometry is irrelevant to resource estimation because block models use uniform grade assignment",
+      "D": "Grade continuity is only controlled by weathering depth and is identical in all structural settings"
+    },
+    "correct": "B",
+    "explanation": "Orogenic gold orebodies are strongly controlled by structural geometry — the intersection of fault/shear zones with favorable lithologies, fold hinges, and dilational sites produces ore shoots that range from tabular (vein-hosted) to pipe-like (intersection-controlled) geometries. Grade continuity is highly anisotropic, being typically much greater along the plunge of ore shoots than across them. For JORC-compliant resource estimation, this means the Competent Person must define search ellipses aligned with the ore shoot geometry, and variogram analysis must capture directional grade continuity. Incorrect assumptions about orebody geometry can lead to significant over- or under-estimation of resources. Drill spacing must be appropriate to the scale of grade continuity.",
+    "key_concept": "Orogenic gold shoots have anisotropic grade continuity controlled by structural geometry — critical for search ellipse and variogram design",
+    "source": "Vearncombe & Vearncombe (1999); Dominy et al. (2002), Orebody geometry and estimation",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-039",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What is the geological significance of the gold-antimony (Au-Sb) association commonly observed in orogenic gold deposits?",
+    "options": {
+      "A": "Antimony is a pathfinder element that indicates formation from highly oxidized magmatic fluids at very shallow depths",
+      "B": "The Au-Sb association (with stibnite, berthierite, and aurostibite) indicates relatively low-temperature hydrothermal conditions (~200–300°C) often in the upper parts of orogenic gold systems, making antimony a useful vertical zonation indicator",
+      "C": "Antimony replaces gold in the crystal lattice, so high Sb always means low Au grades",
+      "D": "The Au-Sb association is purely coincidental and has no geological or exploration significance"
+    },
+    "correct": "B",
+    "explanation": "The gold-antimony association is a well-documented feature of many orogenic gold deposits worldwide, including numerous deposits in West Africa, Central Asia, and the European Variscides. Stibnite (Sb₂S₃) and other antimony minerals precipitate at relatively low temperatures (~200–300°C), typically in the upper, shallower portions of orogenic gold systems. This makes antimony a useful zonation indicator — high Sb/Au ratios may indicate the upper part of the system with potential for deeper, higher-temperature gold zones below. The association reflects the co-transport of Au and Sb in sulfide complexes in reduced metamorphic fluids. In exploration, Sb soil anomalies can serve as pathfinder indicators for blind gold mineralization at depth.",
+    "key_concept": "Au-Sb association = lower temperature (~200–300°C) portion of orogenic systems; Sb is a pathfinder and vertical zonation indicator",
+    "source": "Goldfarb et al. (2005); Bierlein & Crowe (2000), Gold-antimony association",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-040",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "What is the 'nugget effect' in the context of gold deposit geology and geostatistics, and what geological factors cause it?",
+    "options": {
+      "A": "The nugget effect refers to the premium price paid for gold nuggets by collectors, unrelated to resource estimation",
+      "B": "The nugget effect is the high short-range grade variability (apparent randomness at small sampling scales) caused by the coarse, irregular distribution of native gold particles, erratic vein geometry, or clustered high-grade shoots",
+      "C": "The nugget effect describes the shape of alluvial gold particles and has no relevance to lode gold deposits",
+      "D": "The nugget effect is a sampling artifact that disappears with any increase in sample size"
+    },
+    "correct": "B",
+    "explanation": "The nugget effect is a critical geostatistical concept in gold deposits, representing the apparent random component of grade variability at very short distances. It manifests as a discontinuity at the origin of the variogram. Geologically, it is caused by the coarse particle size of native gold (a single 1mm gold grain in a 1 kg sample contributes ~10 g/t), erratic distribution of gold-bearing vein material within a sample support, and clustered high-grade zones. A high nugget effect means that closely spaced samples can have very different grades, making resource estimation challenging. Managing the nugget effect requires appropriate sample sizes (larger samples for coarse gold), duplicate sampling programs, and sometimes top-cutting or other outlier management strategies in estimation.",
+    "key_concept": "Nugget effect = short-range grade randomness from coarse gold or erratic veining; requires appropriate sample size and outlier management",
+    "source": "Dominy et al. (2003); Pitard (1993), Sampling and nugget effect in gold deposits",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-041",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "In a tropical West African laterite terrain, how are the main weathering profile zones defined and what is their significance for gold exploration and resource estimation?",
+    "options": {
+      "A": "Only two zones exist — laterite and fresh rock — with no transitional zones of geological significance",
+      "B": "The profile comprises laterite (duricrust), mottled zone, saprolite, saprock, and fresh rock, each with distinct geotechnical, geochemical, and metallurgical properties that affect sample representativity, bulk density, and gold recovery",
+      "C": "Weathering profiles are irrelevant in the tropics because gold is completely leached from all weathered horizons",
+      "D": "The profile consists only of transported alluvium over fresh rock, with no in-situ weathering zones"
+    },
+    "correct": "B",
+    "explanation": "In West African laterite terrains, the weathering profile is a critical consideration for exploration and resource estimation. The laterite duricrust (cuirasse) is a hard, iron-rich cap that may contain residual or secondarily enriched gold. The mottled zone shows partial iron segregation. The saprolite is deeply weathered rock retaining original fabric — here gold may be enriched or depleted relative to fresh rock. The saprock is partially weathered with corestones of fresh material. Each zone has different bulk density (laterite ~2.5–3.0, saprolite ~1.5–2.0, fresh rock ~2.7 g/cm³), which directly impacts tonnage calculations. Metallurgical recovery also varies — oxide (saprolite) gold is typically free-milling, while sulfide (fresh rock) gold may be refractory. The Competent Person must assign appropriate density values and model the weathering surface accurately.",
+    "key_concept": "West African weathering zones differ in density, geochemistry, and metallurgy — each must be separately characterized for JORC estimation",
+    "source": "Butt & Zeegers (1992); Anand (2001), Regolith geology and gold exploration",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-042",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "SCENARIO: A CEO asks you, as the Competent Person, to explain why an orogenic gold deposit in a Birimian greenstone belt might be a more attractive long-term investment than a high-sulfidation epithermal deposit in the Pacific Rim. What is the strongest geological argument you would present?",
+    "options": {
+      "A": "Orogenic deposits always have higher grades than epithermal deposits, making them more profitable per tonne mined",
+      "B": "Orogenic deposits typically show better grade continuity at depth with potential for deep extensions, while high-sulfidation epithermal deposits have steep vertical grade zonation and limited depth extent, creating higher long-term resource risk",
+      "C": "Epithermal deposits always require heap leach processing which is less efficient than milling",
+      "D": "Orogenic deposits never have metallurgical issues while epithermal deposits always contain refractory gold"
+    },
+    "correct": "B",
+    "explanation": "The strongest geological argument relates to deposit geometry and depth persistence. Orogenic gold deposits in Birimian greenstone belts characteristically show continuity of grade along plunging ore shoots to substantial depths — Obuasi has been mined to >1,600 m depth with consistent grade. This provides long mine life and scope for resource growth through deep drilling. In contrast, high-sulfidation epithermal deposits typically form in the upper 500–1,000 m of the crust and show strong vertical grade zonation, with the highest grades concentrated at the paleo-water table. Once the near-surface enrichment zone is depleted, grades diminish rapidly at depth. This vertical grade limitation represents a significant long-term resource risk. The Competent Person should note, however, that orogenic deposits in West Africa can present metallurgical challenges (refractory sulfides at depth) and higher capital costs for deep mining.",
+    "key_concept": "Orogenic gold = depth continuity and long mine life; epithermal = shallow, vertically limited, higher resource risk at depth",
+    "source": "Groves et al. (2003); Goldfarb et al. (2005), Deposit comparison for investment",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-02-043",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "SCENARIO: Your exploration team has identified a paleochannel system in Tertiary sediments overlying Birimian bedrock. What geological model should guide your alluvial gold exploration in this paleochannel, and what are the key targeting criteria?",
+    "options": {
+      "A": "Paleochannels are random features — drill on a regular grid with no geological model required",
+      "B": "Target the deepest parts of the paleochannel (thalweg) where bedrock irregularities, riffles, and false bottoms create natural traps for heavy minerals including gold; use geophysical methods (magnetics, gravity, ground-penetrating radar) to map the bedrock surface and channel geometry",
+      "C": "Ignore the paleochannel and drill directly through it into the underlying Birimian bedrock, which is the only possible gold target",
+      "D": "Only sample the uppermost gravels in the paleochannel since gold cannot reach the bedrock contact"
+    },
+    "correct": "B",
+    "explanation": "Paleochannel alluvial gold exploration requires understanding fluvial sedimentology and placer gold behavior. Gold, being extremely dense (19.3 g/cm³), concentrates on the bedrock surface at the base of channels (the 'thalweg'), particularly in bedrock depressions, behind riffle bars, and in structural traps ('false bottoms') such as clay layers. The key targeting criteria include: (1) mapping the paleochannel bedrock surface using geophysics (magnetics for magnetic bedrock, gravity for channel geometry, GPR for shallow channels); (2) identifying source areas — primary gold deposits upstream that supplied the detrital gold; (3) defining the sedimentary architecture to locate pay gravels; and (4) characterizing gold particle size distribution for metallurgical planning. In West Africa, Tertiary and Quaternary paleochannels draining Birimian gold-bearing terrain can host significant alluvial gold resources.",
+    "key_concept": "Paleochannel targeting: map bedrock surface, focus on thalweg traps and riffles, identify upstream primary gold sources",
+    "source": "Garnett & Bassett (2005); Hérail et al. (1999), Alluvial gold exploration methods",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-02-044",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "How does competency contrast between adjacent rock types serve as a gold-localizing mechanism in structurally controlled deposits?",
+    "options": {
+      "A": "Competency contrast is irrelevant — gold distributes evenly regardless of rock mechanical properties",
+      "B": "When rocks of different mechanical strength (e.g., competent dolerite sill within incompetent shale) are deformed together, the competent unit fails by fracturing while the incompetent unit flows, creating dilation zones, pressure shadows, and fluid pathways at their contacts and within the competent body that localize gold deposition",
+      "C": "Competency contrast only affects the width of the alteration halo, not the location of gold",
+      "D": "Only incompetent rocks can host gold because competent rocks do not fracture under stress"
+    },
+    "correct": "B",
+    "explanation": "Competency contrast is one of the most important structural controls on gold deposition in orogenic systems. When lithological units of contrasting mechanical properties are deformed together — such as a competent dolerite sill, BIF horizon, or sandstone bed within an incompetent shale/phyllite sequence — the competent unit accommodates strain by brittle fracturing while the incompetent unit deforms by ductile flow. This creates dilation at contacts, extensional fracture arrays within the competent unit, and pressure shadows at the ends of competent bodies, all of which are favorable fluid pathways and gold deposition sites. In West African Birimian sequences, competent mafic intrusions (dolerite sills and dykes) within sheared metasedimentary sequences are classic gold hosts — the Siguiri and Syama deposits exemplify this control.",
+    "key_concept": "Competency contrast = brittle competent unit in ductile matrix creates dilation and fracture networks that localize gold-bearing fluids",
+    "source": "Robert & Poulsen (2001); Cox et al. (2001), Structural controls on orogenic gold",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-02-045",
+    "chapterId": "gold-02",
+    "domain": "gold",
+    "question": "How do rheological traps such as fold hinges and boudin necks concentrate gold in deformed terranes?",
+    "options": {
+      "A": "Fold hinges and boudin necks are zones of compression that prevent fluid access and therefore never contain gold",
+      "B": "These features create local zones of dilation and low mean stress (pressure shadows) during deformation, drawing in gold-bearing fluids by the 'fluid pumping' mechanism, where cyclic stress changes during seismic events drive fluid migration into low-pressure sites",
+      "C": "Gold is deposited in these features by magmatic fluids escaping from nearby intrusions, unrelated to deformation",
+      "D": "Fold hinges only host gold in sedimentary rocks, while boudin necks only host gold in igneous rocks"
+    },
+    "correct": "B",
+    "explanation": "Fold hinges and boudin necks are classic rheological (structural) traps for gold in orogenic systems. During folding, the hinge zone of a fold experiences outer-arc extension (creating fractures and dilation), particularly in competent units within a less competent matrix. During boudinage, competent layers being pulled apart develop gaps (boudin necks) between the separating blocks — these necks are zones of very low mean stress that draw in fluids. The seismic 'fault-valve' model (Sibson et al., 1988) explains how cyclic stress changes during earthquake events create transient pressure gradients that pump large volumes of metamorphic fluid into these dilational sites, where pressure drops and temperature changes cause gold precipitation. Saddle reef veins in fold hinges (e.g., Bendigo, Australia) and boudin-neck quartz pods are textbook examples of these traps.",
+    "key_concept": "Fold hinges and boudin necks = dilation sites where fault-valve fluid pumping concentrates gold during cyclic deformation",
+    "source": "Sibson et al. (1988); Cox et al. (1991); Robert & Poulsen (2001), Structural traps for gold",
+    "difficulty": 2
   }
 ]
