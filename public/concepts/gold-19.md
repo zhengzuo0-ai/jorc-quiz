@@ -36,6 +36,23 @@
 
 - **Royal Gold**: 专注于黄金和白银的矿税公司，持有约 190 项矿税权益。其收入模式以 NSR (Net Smelter Return) 矿税为主，即按矿山冶炼后销售收入的一定百分比（通常 1-5%）收取费用。
 
+**具体交易案例 (Notable Deal Examples)：**
+
+**Franco-Nevada 关键流媒体/矿税交易：**
+
+- **Cobre Panama 流媒体**：Franco-Nevada 持有巴拿马 Cobre Panama 铜矿（First Quantum Minerals 运营）的贵金属流媒体权益。这是 Franco-Nevada 最大的单一资产敞口。该交易结构为前期支付约 USD 10亿，换取矿山生命周期内金银产出的购买权。2023年巴拿马政府关闭 Cobre Panama 矿山的事件凸显了主权风险 (Sovereign Risk) 对流媒体资产的连锁影响——即便流媒体公司不承担运营风险，政治风险仍可摧毁其收入来源
+- **Antamina 矿税**：Franco-Nevada 持有秘鲁 Antamina 铜锌矿（BHP/Glencore/Teck 合资）的 NSR 矿税。Antamina 是全球最大的铜锌矿之一，年产铜约 45 万吨。该矿税每年为 Franco-Nevada 贡献约 USD 1-1.5亿收入，是其组合中最稳定的现金流来源之一
+
+**Wheaton Precious Metals 交易结构：**
+
+Wheaton 的核心竞争力在于**副产品流媒体 (By-product Streaming)**——在以铜或锌为主的矿山中，金银作为副产品的经济价值常被主矿种的运营成本所覆盖。Wheaton 典型交易结构：
+
+- 前期预付款 USD 2-10亿，取决于矿山规模
+- 获得矿山金产量的 50-100% 和银产量的一定比例
+- 持续购买价格 (Ongoing Payment)：黄金约为现货价的 18%，白银约为现货价的 20-25%
+- Wheaton 目前持有约 20+ 个运营矿山的流媒体权益，年收入超过 USD 10亿
+- **对矿山运营商的价值**：流媒体融资不稀释股权、不增加债务，对于需要建设资金但不愿进一步稀释的中型矿企极具吸引力
+
 **矿税类型详解**：
 - **NSR (Net Smelter Return, 净冶炼厂回报)**: 按冶炼后矿产品销售收入的百分比计算，是最常见的矿税形式
 - **GRR (Gross Revenue Royalty, 毛收入矿税)**: 按矿产品总销售收入计算，不扣除任何成本
@@ -77,6 +94,23 @@
 - **战略投资者 (Strategic Investors)**: 大型矿业公司如 BHP、Rio Tinto 通过其风险投资部门 (Corporate Venture Arms) 投资初级勘探公司，以获取早期项目管线。
 
 - **中国资本在非洲矿业 (Chinese Capital in African Mining)**: 过去二十年，中国国有企业和民营企业在非洲矿业投资超过 USD 500 亿。中国五矿集团 (Minmetals)、中国有色矿业集团 (CNMC)、紫金矿业 (Zijin Mining) 在刚果（金）的铜钴矿带、几内亚的铝土矿、南非的铬矿和铂矿进行了大规模投资。融资模式常采用 **"资源换贷款" (Resource-for-Loan)** 结构——中国国家开发银行 (CDB) 或中国进出口银行 (CEXIM) 提供优惠贷款，以未来矿产品出口作为还款保障。这一模式在西方引发了关于"债务陷阱外交 (Debt-Trap Diplomacy)" 的争议。
+
+**中国国企非洲矿业投资典型案例 (Chinese SOE African Mining Deal Examples)：**
+
+| 交易 | 参与方 | 结构 | 规模与特点 |
+|------|--------|------|-----------|
+| Sinohydro-刚果(金) 协议 | 中国水电集团 (Sinohydro) / 刚果(金)政府 | 资源换基础设施 (Resources-for-Infrastructure) | 2007年签署，中方承诺投资约 USD 90亿用于刚果基础设施建设（公路、铁路、医院），换取 Tenke Fungurume 等铜钴矿区的开采权。该协议后经多次修订，实际投资规模缩减，但确立了中国"安哥拉模式"在中非的复制 |
+| CITIC Sino Iron | 中信泰富 (CITIC Pacific) | 直接开发 | 西澳 Sino Iron 磁铁矿项目，原预算 USD 52亿，最终成本超支至约 USD 120亿，成为中国海外矿业投资中最著名的成本失控案例。虽非非洲项目，但其教训深刻影响了中国国企后续海外矿业投资的风控标准 |
+| 中国有色-赞比亚铜矿 | CNMC (中国有色) | 直接运营 | CNMC 在赞比亚铜带省运营 Chambishi 铜矿和 Luanshya 铜矿，是中国在非洲最早的矿业投资之一（始于1998年）。运营中曾因劳工标准和环境问题引发争议 |
+
+**出口信贷机构融资 (ECA Financing for African Mining)：**
+
+出口信贷机构 (Export Credit Agencies, ECAs) 是非洲矿业项目重要的融资来源，尤其对于需要大量进口设备的绿地项目 (Greenfield Projects)：
+
+- **融资逻辑**：ECA 为本国设备出口商提供买方信贷或担保，使非洲矿业项目以优惠利率获得设备融资。项目采购本国制造的采矿设备和工程服务是 ECA 融资的前提条件
+- **主要 ECA**：芬兰 Finnvera（Metso/Outotec 设备）、瑞典 EKN（Sandvik/Epiroc 设备）、德国 Euler Hermes（ThyssenKrupp 设备）、中国信保 (Sinosure)
+- **典型条款**：贷款期限 8-12 年，利率低于商业银行 200-400 个基点，但要求采购一定比例的出口国设备（通常 > 50%）
+- **PMH 启示 | PMH Relevance**：对于 PMH 未来可能的矿山建设融资，ECA 贷款是降低综合融资成本的有效工具。在可行性研究阶段即应考虑设备供应商的国籍与 ECA 融资的匹配性——例如选择芬兰制造的破碎和浮选设备可为 Finnvera 融资创造条件
 
 ### 6. 初级矿业公司融资方式 (How Junior Miners Raise Capital)
 
