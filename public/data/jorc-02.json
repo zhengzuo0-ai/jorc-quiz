@@ -5,12 +5,12 @@
     "domain": "jorc",
     "question": "Under Clause 11 of the JORC Code 2012, a Competent Person must have a minimum of how many years of relevant experience?",
     "options": {
-      "A": "3 years",
-      "B": "5 years",
+      "A": "5 years",
+      "B": "10 years",
       "C": "7 years",
-      "D": "10 years"
+      "D": "3 years"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Clause 11 requires a minimum of five years of experience relevant to the style of mineralisation, type of deposit, and activity being reported. The key word is 'relevant' — five years of general geological experience may not qualify if it does not relate to the specific commodity, deposit type, or reporting activity. This is a self-assessed requirement backed by RPO accountability.",
     "key_concept": "CP requires minimum 5 years relevant experience",
     "source": "JORC Code 2012, Clause 11",
@@ -22,10 +22,10 @@
     "domain": "jorc",
     "question": "Which of the following is a recognised professional organisation (RPO) for JORC Competent Persons?",
     "options": {
-      "A": "CPA Australia",
+      "A": "The Geological Society of London",
       "B": "The Australasian Institute of Mining and Metallurgy (AusIMM)",
-      "C": "The Australian Securities and Investments Commission (ASIC)",
-      "D": "The Geological Society of London"
+      "C": "CPA Australia",
+      "D": "The Australian Securities and Investments Commission (ASIC)"
     },
     "correct": "B",
     "explanation": "The AusIMM is one of the primary RPOs recognised under the JORC Code. Other recognised organisations include the Australian Institute of Geoscientists (AIG). The RPO must have enforceable disciplinary processes and a code of ethics. CPA Australia is an accounting body, ASIC is a regulator, and while the Geological Society of London is a professional body, it is recognised under different codes (e.g., the UK's PERC Code) rather than JORC specifically.",
@@ -39,10 +39,10 @@
     "domain": "jorc",
     "question": "The '5 years relevant experience' requirement for a CP is assessed by:",
     "options": {
-      "A": "The ASX before approving the listing",
-      "B": "An independent panel of geologists",
+      "A": "An independent panel of geologists",
+      "B": "The company's board of directors",
       "C": "Self-assessment by the individual, subject to RPO disciplinary processes",
-      "D": "The company's board of directors"
+      "D": "The ASX before approving the listing"
     },
     "correct": "C",
     "explanation": "The JORC Code relies on self-assessment — the individual determines whether they have adequate relevant experience to act as CP for the specific report. This places significant professional responsibility on the individual. If the self-assessment is later found to be inappropriate, the CP is subject to their RPO's complaints and disciplinary processes. There is no pre-approval or certification system; it is trust-based with accountability.",
@@ -57,11 +57,11 @@
     "question": "What must a Competent Person disclose in a Public Report?",
     "options": {
       "A": "Their annual salary and bonus structure",
-      "B": "Their name, RPO membership, and employer or business relationship with the company",
+      "B": "Their previous employer history for the last 10 years",
       "C": "Their university transcripts",
-      "D": "Their previous employer history for the last 10 years"
+      "D": "Their name, RPO membership, and employer or business relationship with the company"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Clause 9 and 11 require the Public Report to include the CP's name, their RPO membership, and their relationship with the issuing company (whether employee, consultant, etc.). This disclosure requirement serves Transparency by allowing investors to assess potential conflicts of interest. Salary details and university transcripts are not required — the focus is on professional accountability and relationship transparency.",
     "key_concept": "CP must disclose name, RPO membership, and business relationship",
     "source": "JORC Code 2012, Clauses 9, 11",
@@ -73,8 +73,8 @@
     "domain": "jorc",
     "question": "How does the JORC 'Competent Person' differ from the NI 43-101 'Qualified Person' (QP)?",
     "options": {
-      "A": "There is no meaningful difference — they are identical",
-      "B": "A QP requires 10 years experience while a CP requires 5",
+      "A": "A QP requires 10 years experience while a CP requires 5",
+      "B": "There is no meaningful difference — they are identical",
       "C": "A CP must be an RPO member; a QP must be a member of a professional association or licensed by a regulatory authority, and QP requirements include good standing with no specific minimum years",
       "D": "A CP can only report on Australian deposits while a QP has global jurisdiction"
     },
@@ -92,8 +92,8 @@
     "options": {
       "A": "Acceptable because 8 years exceeds the 5-year minimum",
       "B": "Questionable — the experience may not be 'relevant' to lithium brine deposits, which are fundamentally different from iron ore",
-      "C": "Acceptable if the geologist reads the relevant literature first",
-      "D": "Only acceptable if they co-sign with a lithium specialist"
+      "C": "Only acceptable if they co-sign with a lithium specialist",
+      "D": "Acceptable if the geologist reads the relevant literature first"
     },
     "correct": "B",
     "explanation": "Clause 11 requires five years of experience relevant to the style of mineralisation and type of deposit under consideration. Iron ore exploration (typically hard-rock BIF deposits) is fundamentally different from lithium brine resources (hydrogeology, evaporation pond chemistry, aquifer modelling). Simply having more than five years of general experience is insufficient — the experience must be directly relevant. The CP should honestly self-assess whether their experience qualifies them for this specific report type.",
@@ -107,12 +107,12 @@
     "domain": "jorc",
     "question": "Under the JORC Code, who bears ultimate responsibility for the content of a Public Report?",
     "options": {
-      "A": "The Competent Person exclusively",
-      "B": "The company's directors, with the CP responsible for the technical content",
-      "C": "The ASX Listings Compliance team",
-      "D": "The company's external auditor"
+      "A": "The company's external auditor",
+      "B": "The ASX Listings Compliance team",
+      "C": "The Competent Person exclusively",
+      "D": "The company's directors, with the CP responsible for the technical content"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "While the CP takes responsibility for the technical content and must consent to the form and context of the report (Clause 9), the company's directors bear ultimate corporate responsibility for the Public Report as a whole. This dual accountability is deliberate: directors cannot hide behind the CP for misleading disclosures, and the CP cannot be pressured to approve content they disagree with. Both parties have independent obligations.",
     "key_concept": "Directors and CP share responsibility — directors for the report, CP for technical content",
     "source": "JORC Code 2012, Clauses 9, 11; ASX Listing Rules",
@@ -124,12 +124,12 @@
     "domain": "jorc",
     "question": "The CP consent requirement under Clause 9 means the Competent Person must:",
     "options": {
-      "A": "Approve the final Public Report in the form and context in which it appears",
-      "B": "Only approve the geological data tables, not the narrative text",
-      "C": "Provide verbal consent to the company secretary",
-      "D": "Consent only once when first appointed, covering all future reports"
+      "A": "Provide verbal consent to the company secretary",
+      "B": "Consent only once when first appointed, covering all future reports",
+      "C": "Only approve the geological data tables, not the narrative text",
+      "D": "Approve the final Public Report in the form and context in which it appears"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "Clause 9 requires the CP to consent to the inclusion of their work in the Public Report in the form and context in which it appears. This means the CP must review and approve the final document — not just the technical appendices, but the way their work is presented, summarised, and contextualised. Consent is specific to each report, not a blanket approval. If the company changes the context or form after CP approval, new consent is needed.",
     "key_concept": "CP consent covers the full report's form and context, not just raw data",
     "source": "JORC Code 2012, Clause 9",
@@ -141,8 +141,8 @@
     "domain": "jorc",
     "question": "If a complaint is lodged against a Competent Person for alleged JORC non-compliance, the complaint is investigated by:",
     "options": {
-      "A": "The ASX Listing Compliance department",
-      "B": "The JORC Committee directly",
+      "A": "The JORC Committee directly",
+      "B": "The ASX Listing Compliance department",
       "C": "The CP's recognised professional organisation (RPO) through its disciplinary processes",
       "D": "The Australian Federal Police"
     },
@@ -158,12 +158,12 @@
     "domain": "jorc",
     "question": "Possible disciplinary outcomes for a CP found to have breached professional standards may include:",
     "options": {
-      "A": "Criminal imprisonment",
-      "B": "Reprimand, suspension, or expulsion from the RPO",
-      "C": "Automatic revocation of their geology degree",
-      "D": "Fines imposed by the JORC Committee"
+      "A": "Reprimand, suspension, or expulsion from the RPO",
+      "B": "Criminal imprisonment",
+      "C": "Fines imposed by the JORC Committee",
+      "D": "Automatic revocation of their geology degree"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "RPO disciplinary outcomes typically range from reprimand to suspension to expulsion from the organisation. Since acting as a CP requires RPO membership, expulsion effectively bars the individual from signing future JORC reports. The JORC Committee does not impose fines, and criminal matters are handled separately by law enforcement agencies. The RPO system provides professional accountability distinct from legal or regulatory sanctions.",
     "key_concept": "RPO sanctions range from reprimand to expulsion, effectively barring the CP role",
     "source": "JORC Code 2012, Clause 11; AusIMM Disciplinary By-Laws",
@@ -175,12 +175,12 @@
     "domain": "jorc",
     "question": "A large gold project requires both a resource estimate and an ore reserve estimate. How many Competent Persons are required?",
     "options": {
-      "A": "One CP must sign off on everything",
-      "B": "A minimum of two — one for the resource and one for the reserve",
-      "C": "One or more — a single CP may cover both if they have relevant experience in both areas, or different CPs may be appointed for each",
-      "D": "Three — one for exploration, one for resources, one for reserves"
+      "A": "A minimum of two — one for the resource and one for the reserve",
+      "B": "One or more — a single CP may cover both if they have relevant experience in both areas, or different CPs may be appointed for each",
+      "C": "Three — one for exploration, one for resources, one for reserves",
+      "D": "One CP must sign off on everything"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "The JORC Code does not mandate a specific number of CPs per project. A single CP with relevant experience in both resource estimation and reserve determination may sign for both. However, it is common practice — and often preferable — to have separate CPs for resources (typically a geologist) and reserves (typically a mining engineer), as the skill sets differ significantly. The key requirement is that each CP has relevant experience for their area of responsibility.",
     "key_concept": "Multiple CPs are common but not mandatory — relevance of experience is the test",
     "source": "JORC Code 2012, Clause 11",
@@ -192,10 +192,10 @@
     "domain": "jorc",
     "question": "Which of the following professionals would MOST likely be an appropriate CP for an Ore Reserve estimate?",
     "options": {
-      "A": "An exploration geologist with 15 years of core logging experience",
+      "A": "A metallurgist with 10 years of processing plant design experience",
       "B": "A mining engineer with 7 years of experience in open pit optimisation and mine planning for similar deposits",
-      "C": "A metallurgist with 10 years of processing plant design experience",
-      "D": "A financial analyst with 5 years of mining project valuation experience"
+      "C": "A financial analyst with 5 years of mining project valuation experience",
+      "D": "An exploration geologist with 15 years of core logging experience"
     },
     "correct": "B",
     "explanation": "Ore Reserve estimation requires experience in mine planning, economic evaluation, and the application of Modifying Factors — skills typically held by mining engineers. A mining engineer with 7 years of relevant open pit optimisation experience meets both the 5-year minimum and the relevance requirement. While geologists typically sign for resources and metallurgists contribute to recovery assumptions, the reserve CP needs mine planning expertise specifically.",
@@ -211,8 +211,8 @@
     "options": {
       "A": "The country where the deposit is located",
       "B": "The style of mineralisation and the type of deposit under consideration, and the activity being undertaken",
-      "C": "The stock exchange where the company is listed",
-      "D": "The software used for the resource estimate"
+      "C": "The software used for the resource estimate",
+      "D": "The stock exchange where the company is listed"
     },
     "correct": "B",
     "explanation": "Clause 11 defines relevant experience as experience in the style of mineralisation or type of deposit under consideration, and in the activity being undertaken (e.g., sampling, resource estimation, mine planning). A CP experienced in porphyry copper deposits may not be relevant for alluvial gold. Similarly, experience in resource estimation does not automatically qualify someone for reserve estimation. The assessment is specific to both deposit type and professional activity.",
@@ -226,12 +226,12 @@
     "domain": "jorc",
     "question": "A CP employed full-time by a mining company prepares a resource estimate for that company's flagship project. Under JORC, this arrangement is:",
     "options": {
-      "A": "Prohibited — CPs must always be independent consultants",
-      "B": "Permitted — but the employment relationship must be disclosed in the Public Report",
-      "C": "Permitted without any disclosure requirement",
-      "D": "Only permitted if the CP owns less than 1% of the company's shares"
+      "A": "Permitted without any disclosure requirement",
+      "B": "Prohibited — CPs must always be independent consultants",
+      "C": "Only permitted if the CP owns less than 1% of the company's shares",
+      "D": "Permitted — but the employment relationship must be disclosed in the Public Report"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The JORC Code does not require CPs to be independent consultants. Company employees frequently serve as CPs for their employer's projects. However, Clause 9 requires disclosure of the CP's relationship with the issuing company — whether they are a full-time employee, a consultant, or have other business relationships. This disclosure allows investors to assess potential conflicts of interest and judge the report accordingly.",
     "key_concept": "Employee CPs are permitted but the employment relationship must be disclosed",
     "source": "JORC Code 2012, Clauses 9, 11",
@@ -243,12 +243,12 @@
     "domain": "jorc",
     "question": "A Competent Person holds shares worth $2 million in the company for which they are preparing a resource report. Under JORC, this:",
     "options": {
-      "A": "Automatically disqualifies them as CP for that company",
-      "B": "Is permitted but the shareholding should be disclosed as a potential conflict of interest",
-      "C": "Is only a problem if the shares exceed 5% of the company's issued capital",
-      "D": "Is irrelevant because JORC only covers technical qualifications"
+      "A": "Is permitted but the shareholding should be disclosed as a potential conflict of interest",
+      "B": "Automatically disqualifies them as CP for that company",
+      "C": "Is irrelevant because JORC only covers technical qualifications",
+      "D": "Is only a problem if the shares exceed 5% of the company's issued capital"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "JORC does not set a specific shareholding threshold that disqualifies a CP. However, the CP's obligation to act with integrity and the disclosure requirements under Clause 9 mean that material conflicts of interest — including significant shareholdings — should be disclosed. The CP must honestly assess whether their financial interest could compromise their professional objectivity. In practice, a $2M shareholding represents a significant potential conflict that investors deserve to know about.",
     "key_concept": "Material conflicts (including shareholdings) must be disclosed, not necessarily prohibited",
     "source": "JORC Code 2012, Clauses 9, 11",
@@ -260,12 +260,12 @@
     "domain": "jorc",
     "question": "Under the JORC Code, which statement about CP consent is correct?",
     "options": {
-      "A": "Written consent is preferred but verbal consent is acceptable",
-      "B": "The CP must provide prior written consent to the inclusion of their work in the form and context in which it appears",
-      "C": "Consent is implied once the CP submits their technical report to the company",
-      "D": "Consent is only required for Ore Reserve reports, not Exploration Results"
+      "A": "Consent is only required for Ore Reserve reports, not Exploration Results",
+      "B": "Consent is implied once the CP submits their technical report to the company",
+      "C": "The CP must provide prior written consent to the inclusion of their work in the form and context in which it appears",
+      "D": "Written consent is preferred but verbal consent is acceptable"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Clause 9 requires the CP to provide prior written consent before the Public Report is issued. This consent must relate to the form and context of the final document — not just the underlying technical work. Consent cannot be implied from submission of a technical report, as the company may subsequently alter the presentation. Written consent provides a clear record of the CP's approval and protects both the CP and the company.",
     "key_concept": "CP must give prior written consent to the report's final form and context",
     "source": "JORC Code 2012, Clause 9",
@@ -277,12 +277,12 @@
     "domain": "jorc",
     "question": "A consulting CP charges a success fee based on the size of the declared resource. This fee arrangement:",
     "options": {
-      "A": "Is standard industry practice and fully compliant with JORC",
-      "B": "Creates a direct conflict of interest that compromises independence and may breach the CP's professional obligations",
-      "C": "Is acceptable if disclosed in the Public Report",
-      "D": "Is only prohibited for Ore Reserve estimates, not Mineral Resources"
+      "A": "Creates a direct conflict of interest that compromises independence and may breach the CP's professional obligations",
+      "B": "Is standard industry practice and fully compliant with JORC",
+      "C": "Is only prohibited for Ore Reserve estimates, not Mineral Resources",
+      "D": "Is acceptable if disclosed in the Public Report"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "A success fee linked to the size of a declared resource creates a direct financial incentive to overstate the resource — a fundamental conflict with the CP's duty of objectivity. While JORC does not explicitly prohibit specific fee arrangements, the CP's RPO code of ethics and professional obligations generally prohibit fee structures that could compromise independence. Such arrangements undermine the Competence principle and the integrity of the entire reporting framework.",
     "key_concept": "Success fees linked to resource size create conflicts that compromise CP integrity",
     "source": "JORC Code 2012, Clause 11; AusIMM Code of Ethics",
@@ -294,12 +294,12 @@
     "domain": "jorc",
     "question": "A company appoints three CPs for a feasibility study: one for geology/resources, one for mining/reserves, and one for metallurgy/processing. Under JORC, who takes overall responsibility for the Public Report?",
     "options": {
-      "A": "The most senior CP by years of experience",
-      "B": "Each CP takes responsibility for their respective section, and the company's directors take responsibility for the overall report",
-      "C": "The CP who prepared the resource estimate, as it underpins everything",
-      "D": "An additional 'lead CP' must be appointed to oversee the others"
+      "A": "Each CP takes responsibility for their respective section, and the company's directors take responsibility for the overall report",
+      "B": "The most senior CP by years of experience",
+      "C": "An additional 'lead CP' must be appointed to oversee the others",
+      "D": "The CP who prepared the resource estimate, as it underpins everything"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "When multiple CPs contribute to a Public Report, each takes responsibility for the sections within their area of competence. There is no requirement for a single 'lead CP' to take overarching technical responsibility. The company's directors bear responsibility for the overall report and for ensuring that the work of all CPs is properly integrated and fairly represented. Each CP must individually consent to how their section appears.",
     "key_concept": "Multiple CPs each own their section; directors own the overall report",
     "source": "JORC Code 2012, Clauses 9, 11",
@@ -312,11 +312,11 @@
     "question": "A recently graduated geologist with a Master's degree in economic geology has been working for 3 years on nickel sulphide deposits. Can they act as CP for a nickel sulphide resource estimate?",
     "options": {
       "A": "Yes, because their Master's research counts toward the 5-year requirement",
-      "B": "Yes, because postgraduate qualifications reduce the experience requirement to 3 years",
-      "C": "No, because they do not meet the minimum 5-year relevant experience requirement",
+      "B": "No, because they do not meet the minimum 5-year relevant experience requirement",
+      "C": "Yes, because postgraduate qualifications reduce the experience requirement to 3 years",
       "D": "Yes, but only if supervised by a senior CP"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Clause 11 requires a minimum of 5 years relevant experience, with no provision to reduce this based on academic qualifications. While some experience gained during postgraduate research may contribute toward the 5-year total (if relevant), 3 years of post-graduation experience alone is insufficient. There is no formal 'supervised CP' mechanism in JORC. The geologist should continue building experience before self-assessing as a CP.",
     "key_concept": "The 5-year minimum cannot be reduced by academic qualifications",
     "source": "JORC Code 2012, Clause 11",
@@ -328,12 +328,12 @@
     "domain": "jorc",
     "question": "If a CP becomes aware after publication that their resource estimate contained a material error, their obligation under JORC and professional ethics is to:",
     "options": {
-      "A": "Wait until the next annual review to correct the estimate",
-      "B": "Promptly notify the company and recommend that investors be informed of the error",
-      "C": "Issue a personal correction directly to the ASX",
-      "D": "Quietly revise the estimate in the next report without flagging the change"
+      "A": "Issue a personal correction directly to the ASX",
+      "B": "Quietly revise the estimate in the next report without flagging the change",
+      "C": "Promptly notify the company and recommend that investors be informed of the error",
+      "D": "Wait until the next annual review to correct the estimate"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Professional ethics and the principles of Transparency and Materiality require the CP to promptly notify the company of any material error discovered after publication. The company then has continuous disclosure obligations to inform the market. The CP cannot directly correct the public record (that responsibility lies with the company), but they must not be complicit in allowing a known material error to persist. Quietly revising in a future report would violate both Transparency and Materiality.",
     "key_concept": "CP must promptly notify the company of post-publication material errors",
     "source": "JORC Code 2012, Clauses 4-5; AusIMM Code of Ethics",
@@ -345,10 +345,10 @@
     "domain": "jorc",
     "question": "The JORC Code requires the Competent Person to be a Member or Fellow of a 'recognised professional organisation.' The RPO must have which key feature?",
     "options": {
-      "A": "At least 10,000 members worldwide",
+      "A": "A mandatory continuing professional development (CPD) program of at least 100 hours per year",
       "B": "Enforceable disciplinary processes that could result in the person being expelled",
-      "C": "Government funding from the Australian federal budget",
-      "D": "A mandatory continuing professional development (CPD) program of at least 100 hours per year"
+      "C": "At least 10,000 members worldwide",
+      "D": "Government funding from the Australian federal budget"
     },
     "correct": "B",
     "explanation": "The defining feature of an RPO under JORC is that it must have enforceable disciplinary processes, including the ability to suspend or expel members. This is the accountability mechanism that underpins the Competent Person system. Without enforceable discipline, the self-assessment model would have no consequences for incompetent or dishonest behaviour. While many RPOs also have CPD requirements, the disciplinary enforcement capacity is the critical element for JORC recognition.",
@@ -362,12 +362,12 @@
     "domain": "jorc",
     "question": "A CP prepares a resource estimate for Company A. Six months later, Company B acquires Company A and wants to re-publish the same resource estimate. Under JORC, Company B:",
     "options": {
-      "A": "Can republish without any further action since the CP already signed off",
-      "B": "Must obtain fresh consent from the original CP for the new publication context",
+      "A": "Must obtain fresh consent from the original CP for the new publication context",
+      "B": "Can republish if the resource estimate is less than 12 months old",
       "C": "Must appoint a new CP from Company B's own staff",
-      "D": "Can republish if the resource estimate is less than 12 months old"
+      "D": "Can republish without any further action since the CP already signed off"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "CP consent is specific to the form and context in which the report appears (Clause 9). A change of issuing company fundamentally changes the context — different corporate disclosures, different investor audience, potentially different accompanying information. The original CP must consent to the resource estimate being used in Company B's new reporting context. The CP may also need to confirm that no material changes have occurred since the original estimate.",
     "key_concept": "Change of issuing company requires fresh CP consent for the new context",
     "source": "JORC Code 2012, Clause 9",
@@ -379,12 +379,12 @@
     "domain": "jorc",
     "question": "A Competent Person based in South Africa is a Fellow of SAIMM (Southern African Institute of Mining and Metallurgy). Can they act as CP under JORC for an ASX-listed company?",
     "options": {
-      "A": "No — only AusIMM and AIG members can be JORC CPs",
-      "B": "Yes — SAIMM is a CRIRSCO-aligned RPO and may be recognised under JORC for foreign-based professionals",
+      "A": "Yes, but only for projects located in Africa",
+      "B": "No — only AusIMM and AIG members can be JORC CPs",
       "C": "Only if they also obtain AusIMM membership",
-      "D": "Yes, but only for projects located in Africa"
+      "D": "Yes — SAIMM is a CRIRSCO-aligned RPO and may be recognised under JORC for foreign-based professionals"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The JORC Code recognises that professionals who are members of overseas professional organisations with similar admission criteria and disciplinary processes may qualify as CPs. SAIMM, as a CRIRSCO-aligned body underpinning the SAMREC Code, generally meets these criteria. The key test is whether the foreign RPO has comparable membership standards and enforceable disciplinary processes. The CP's location or the project's location is not the determining factor.",
     "key_concept": "Foreign RPOs may be recognised if they have comparable standards and discipline",
     "source": "JORC Code 2012, Clause 11",
@@ -396,12 +396,12 @@
     "domain": "jorc",
     "question": "Under JORC, a Competent Person is responsible for ensuring that the Public Report is not:",
     "options": {
-      "A": "Longer than 100 pages",
-      "B": "Misleading by reason of inclusion, omission, or presentation of information",
-      "C": "Released during an ASX trading halt",
-      "D": "Reviewed by the company's legal counsel"
+      "A": "Misleading by reason of inclusion, omission, or presentation of information",
+      "B": "Released during an ASX trading halt",
+      "C": "Reviewed by the company's legal counsel",
+      "D": "Longer than 100 pages"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The CP's core obligation is to ensure the report fairly represents their work and is not misleading. This applies to three dimensions: what is included (no false statements), what is omitted (no material information left out), and how information is presented (no misleading emphasis or context). This obligation flows directly from the principles of Transparency and Materiality and is the practical expression of the CP's professional responsibility.",
     "key_concept": "CP must guard against misleading inclusion, omission, and presentation",
     "source": "JORC Code 2012, Clauses 4-5, 9",
@@ -413,12 +413,12 @@
     "domain": "jorc",
     "question": "A company pressures its CP to include an Inferred Resource in an Ore Reserve estimate to boost project economics. The CP should:",
     "options": {
-      "A": "Comply if the board provides a written instruction",
-      "B": "Include it with a footnote explaining the board's request",
-      "C": "Refuse — Inferred Resources cannot be converted to Ore Reserves under JORC, and the CP must not comply with requests that breach the Code",
-      "D": "Include it but apply a 50% discount factor for uncertainty"
+      "A": "Include it but apply a 50% discount factor for uncertainty",
+      "B": "Refuse — Inferred Resources cannot be converted to Ore Reserves under JORC, and the CP must not comply with requests that breach the Code",
+      "C": "Include it with a footnote explaining the board's request",
+      "D": "Comply if the board provides a written instruction"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "JORC explicitly prohibits Inferred Resources from being converted to Ore Reserves (Clause 29) due to their low geological confidence. A CP who includes Inferred material in an Ore Reserve under board pressure would be violating the Code and their professional obligations. No amount of discounting or footnoting makes this permissible. The CP must refuse the request and, if necessary, consider whether they can continue to act for the company.",
     "key_concept": "CP must refuse requests that violate JORC, regardless of board pressure",
     "source": "JORC Code 2012, Clauses 11, 29",
@@ -430,12 +430,12 @@
     "domain": "jorc",
     "question": "Which of the following scenarios would MOST likely raise concerns about a CP's relevant experience?",
     "options": {
-      "A": "A coal geologist with 20 years experience signing a CP report for a new coal deposit in a different basin",
-      "B": "A gold exploration geologist with 6 years of underground vein deposit experience signing for an open-pit porphyry gold-copper resource estimate",
-      "C": "A mining engineer with 10 years of open pit experience signing for an open pit Ore Reserve",
+      "A": "A gold exploration geologist with 6 years of underground vein deposit experience signing for an open-pit porphyry gold-copper resource estimate",
+      "B": "A mining engineer with 10 years of open pit experience signing for an open pit Ore Reserve",
+      "C": "A coal geologist with 20 years experience signing a CP report for a new coal deposit in a different basin",
       "D": "A geologist with 5 years of VMS deposit experience signing for a similar VMS prospect in a new country"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "While the geologist in option B has gold experience, underground narrow-vein deposits are geologically and operationally very different from large open-pit porphyry systems. The mineralisation style, estimation methods, grade distribution, and mining approach are fundamentally different. Options A, C, and D involve professionals working within their established areas of expertise, simply in new geographic areas — which is generally acceptable. The deposit type and mineralisation style mismatch in B is the most concerning.",
     "key_concept": "Different deposit types within the same commodity may require different expertise",
     "source": "JORC Code 2012, Clause 11",
@@ -447,10 +447,10 @@
     "domain": "jorc",
     "question": "The JORC Code's reliance on self-assessment for CP qualification is sometimes criticised. The primary safeguard against abuse of self-assessment is:",
     "options": {
-      "A": "Pre-registration exams administered by JORC",
+      "A": "Annual CP licence renewals administered by ASIC",
       "B": "Mandatory peer review of all resource estimates",
       "C": "RPO disciplinary processes and the professional reputational risk of being challenged",
-      "D": "Annual CP licence renewals administered by ASIC"
+      "D": "Pre-registration exams administered by JORC"
     },
     "correct": "C",
     "explanation": "The JORC system deliberately avoids a formal certification or examination process, relying instead on professional judgement backed by RPO accountability. If a CP's self-assessment is challenged — by investors, competitors, regulators, or the JORC Committee — the RPO's disciplinary processes are the enforcement mechanism. Additionally, reputational risk in the tight-knit mining industry provides a powerful informal deterrent. This trust-based system is efficient but depends on RPOs actively enforcing standards.",
@@ -464,12 +464,12 @@
     "domain": "jorc",
     "question": "Under JORC, the Competent Person for Exploration Results must have relevant experience in:",
     "options": {
-      "A": "Only the sampling and analytical techniques used",
-      "B": "The style of mineralisation and the type of deposit being explored",
-      "C": "Financial modelling of exploration budgets",
-      "D": "Environmental impact assessment of exploration activities"
+      "A": "Financial modelling of exploration budgets",
+      "B": "Only the sampling and analytical techniques used",
+      "C": "Environmental impact assessment of exploration activities",
+      "D": "The style of mineralisation and the type of deposit being explored"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Clause 11 consistently requires that the CP's experience be relevant to the style of mineralisation and type of deposit, regardless of whether the report covers Exploration Results, Mineral Resources, or Ore Reserves. For Exploration Results, this means understanding the geological context well enough to assess whether results are significant, properly sampled, and fairly reported. Financial modelling and environmental assessment are outside the CP's JORC mandate.",
     "key_concept": "CP for Exploration Results needs deposit-specific geological experience",
     "source": "JORC Code 2012, Clause 11",
@@ -498,10 +498,10 @@
     "domain": "jorc",
     "question": "A large polymetallic project report includes a Mineral Resource estimate, an Ore Reserve estimate, and a metallurgical recovery study. The company appoints separate CPs for each section. How should the report document their responsibilities?",
     "options": {
-      "A": "Only the most senior CP needs to be named in the report",
+      "A": "Only one CP can be listed per Public Report under ASX Listing Rules",
       "B": "Each CP should be named alongside the specific sections they take responsibility for, and each must provide individual written consent",
-      "C": "All CPs are listed in an appendix but not linked to specific sections",
-      "D": "Only one CP can be listed per Public Report under ASX Listing Rules"
+      "C": "Only the most senior CP needs to be named in the report",
+      "D": "All CPs are listed in an appendix but not linked to specific sections"
     },
     "correct": "B",
     "explanation": "When multiple CPs contribute to a single Public Report, clarity of responsibility is essential. Each CP must be identified alongside the specific sections and technical matters for which they take responsibility. Each CP must independently provide written consent to the inclusion of their work in the form and context in which it appears. This approach ensures investors can identify who is accountable for each technical element and allows each CP to exercise their professional judgement within their area of competence without being held responsible for sections outside their expertise.",
@@ -515,12 +515,12 @@
     "domain": "jorc",
     "question": "A geologist is a Registered Member of the Society for Mining, Metallurgy & Exploration (SME) in the United States. They want to act as CP for an ASX-listed company's JORC report. Under the CRIRSCO mutual recognition framework, this is:",
     "options": {
-      "A": "Impossible — only Australian RPOs are recognised under JORC",
-      "B": "Potentially acceptable if SME's membership standards, code of ethics, and disciplinary processes are considered equivalent to those of a JORC-recognised RPO",
+      "A": "Potentially acceptable if SME's membership standards, code of ethics, and disciplinary processes are considered equivalent to those of a JORC-recognised RPO",
+      "B": "Only permitted if the project is located in the United States",
       "C": "Automatically accepted because SME is a CRIRSCO member",
-      "D": "Only permitted if the project is located in the United States"
+      "D": "Impossible — only Australian RPOs are recognised under JORC"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The JORC Code allows foreign professional organisations to be recognised as RPOs if they have admission criteria, codes of ethics, and enforceable disciplinary processes comparable to those of AusIMM or AIG. While CRIRSCO provides a framework for mutual recognition across reporting codes (including CIM for NI 43-101, SAMREC for SAMVAL, etc.), automatic acceptance is not guaranteed. The key test is whether the overseas body can effectively hold its members accountable. The project location is irrelevant — what matters is the professional organisation's standards and enforcement capability.",
     "key_concept": "Overseas RPOs may be recognised under JORC if their standards and discipline are comparable",
     "source": "JORC Code 2012, Clause 11; CRIRSCO International Reporting Template",
@@ -532,12 +532,12 @@
     "domain": "jorc",
     "question": "An AusIMM member acting as CP is found to have significantly overstated a Mineral Resource through negligent application of estimation methods. The AusIMM disciplinary panel may:",
     "options": {
-      "A": "Only issue a private warning with no public disclosure",
-      "B": "Impose penalties ranging from reprimand and mandatory retraining to suspension or expulsion from membership",
-      "C": "Directly fine the member up to $1 million under the JORC Code",
-      "D": "Refer the matter to the ASX for criminal prosecution"
+      "A": "Refer the matter to the ASX for criminal prosecution",
+      "B": "Directly fine the member up to $1 million under the JORC Code",
+      "C": "Only issue a private warning with no public disclosure",
+      "D": "Impose penalties ranging from reprimand and mandatory retraining to suspension or expulsion from membership"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "RPO disciplinary panels have a range of sanctions at their disposal. For the AusIMM, these typically include formal reprimand, requirement for additional professional development, suspension of membership for a defined period, or expulsion. Since CP status depends on RPO membership, suspension or expulsion effectively prevents the individual from acting as CP on future JORC reports. The RPO cannot impose monetary fines under the JORC Code, nor does it have criminal prosecution powers. However, separate legal action by regulators or affected parties may occur in parallel.",
     "key_concept": "RPO disciplinary sanctions range from reprimand to expulsion, with real consequences for CP status",
     "source": "JORC Code 2012, Clause 11; AusIMM Disciplinary By-Laws",
@@ -549,9 +549,9 @@
     "domain": "jorc",
     "question": "A CP provided written consent for a resource announcement three weeks ago. Before the announcement is released, the company adds promotional language and optimistic forward-looking statements that misrepresent the CP's findings. The CP learns of these changes the day before release. The CP should:",
     "options": {
-      "A": "Allow the release since they already provided written consent",
+      "A": "Request a footnote be added disclaiming the promotional language",
       "B": "Withdraw their consent in writing and notify the company that the modified report no longer reflects their approved form and context",
-      "C": "Request a footnote be added disclaiming the promotional language",
+      "C": "Allow the release since they already provided written consent",
       "D": "Wait until after release and then file a complaint with ASIC"
     },
     "correct": "B",
@@ -567,11 +567,11 @@
     "question": "A CP is engaged to prepare a Mineral Resource estimate for an advanced exploration project. They have not visited the project site, relying entirely on drill core photographs and digital data. Under JORC best practice, this approach is:",
     "options": {
       "A": "Fully compliant — site visits are not mentioned in the JORC Code",
-      "B": "Acceptable only if the CP has previously visited the site within the last 5 years",
-      "C": "Potentially deficient — while JORC does not mandate site visits, Table 1 Section 2 requires the CP to comment on data verification including site visits, and lack of a visit should be disclosed and justified",
-      "D": "Prohibited — JORC requires at least one site visit before any resource estimate"
+      "B": "Prohibited — JORC requires at least one site visit before any resource estimate",
+      "C": "Acceptable only if the CP has previously visited the site within the last 5 years",
+      "D": "Potentially deficient — while JORC does not mandate site visits, Table 1 Section 2 requires the CP to comment on data verification including site visits, and lack of a visit should be disclosed and justified"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "The JORC Code does not explicitly mandate site visits, but Table 1 Section 2 requires the CP to discuss data verification processes, which commonly include site inspection. A CP who has not visited the site should disclose this fact and explain how they have otherwise satisfied themselves about data quality, geological interpretation, and sampling practices. In practice, failure to visit a site for a resource estimate may undermine the CP's ability to fully understand the deposit geology, data integrity, and operational context. The absence of a site visit is a material fact that investors should be aware of.",
     "key_concept": "Site visits are not mandatory but their absence must be disclosed and justified",
     "source": "JORC Code 2012, Table 1, Section 2",
@@ -583,10 +583,10 @@
     "domain": "jorc",
     "question": "Regarding professional indemnity (PI) insurance for Competent Persons, which statement is MOST accurate?",
     "options": {
-      "A": "The JORC Code mandates that all CPs carry a minimum of $10 million PI insurance",
+      "A": "Employee CPs must carry personal PI insurance separate from their employer's coverage",
       "B": "The JORC Code does not mandate PI insurance, but many consulting CPs carry it as professional risk management, and some RPOs recommend or require it for members in practice",
       "C": "PI insurance is only required for CPs working on projects valued above $100 million",
-      "D": "Employee CPs must carry personal PI insurance separate from their employer's coverage"
+      "D": "The JORC Code mandates that all CPs carry a minimum of $10 million PI insurance"
     },
     "correct": "B",
     "explanation": "The JORC Code itself does not prescribe professional indemnity insurance requirements for CPs. However, PI insurance is widely considered best practice for consulting CPs, as it provides financial protection against claims arising from professional negligence. Some RPOs and consulting firms require their members or employees to maintain PI coverage. Employee CPs are typically covered by their employer's corporate insurance. The lack of a JORC mandate does not diminish the practical importance of PI insurance, particularly for independent consultants whose personal assets may be at risk.",
@@ -600,12 +600,12 @@
     "domain": "jorc",
     "question": "A company wants to include a historical resource estimate from 1995 in its ASX announcement. The original CP is retired and unavailable. Under JORC, the company must:",
     "options": {
-      "A": "Simply republish the 1995 estimate with the original CP's name",
-      "B": "Disclose that the estimate is historical, state that it has not been reported under JORC 2012, appoint a current CP to assess its relevance, and include required cautionary statements",
-      "C": "Convert the historical estimate to JORC 2012 categories without further work",
-      "D": "Abandon the historical estimate entirely since the original CP cannot consent"
+      "A": "Convert the historical estimate to JORC 2012 categories without further work",
+      "B": "Abandon the historical estimate entirely since the original CP cannot consent",
+      "C": "Disclose that the estimate is historical, state that it has not been reported under JORC 2012, appoint a current CP to assess its relevance, and include required cautionary statements",
+      "D": "Simply republish the 1995 estimate with the original CP's name"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "JORC and ASX Listing Rules provide specific guidance for reporting historical estimates. The company must clearly label the estimate as historical, state that it was not prepared in accordance with the current JORC Code, and include cautionary language that a CP has not done sufficient work to classify it under JORC 2012. A current CP should assess the estimate's relevance and reliability and comment on what work would be needed to upgrade it. The historical estimate cannot simply be republished as a current JORC resource, nor must it be abandoned — it can be reported with appropriate context and caveats.",
     "key_concept": "Historical estimates require specific disclosure, cautionary statements, and a current CP's assessment",
     "source": "JORC Code 2012, Clause 18; ASX Listing Rules, Chapter 5",
@@ -619,8 +619,8 @@
     "options": {
       "A": "Allow the reference since the original resource was properly reported at the time",
       "B": "Advise the company that the original resource may no longer be current, and recommend either updating the estimate or including a qualification that material new information exists",
-      "C": "Refuse any involvement until a completely new resource estimate is completed",
-      "D": "Approve the reference if the new drilling represents less than 10% of total drill metres"
+      "C": "Approve the reference if the new drilling represents less than 10% of total drill metres",
+      "D": "Refuse any involvement until a completely new resource estimate is completed"
     },
     "correct": "B",
     "explanation": "A CP has an ongoing professional obligation to ensure that published estimates are not used in a misleading context. When the CP becomes aware of material information that could affect a previously reported resource, they should advise the company that the estimate may require updating. Continued reference to an estimate that the CP knows may be materially affected by new data could mislead investors. The CP does not need to refuse all involvement, but should ensure the company is aware of the issue and that any reference to the original resource is appropriately qualified.",
@@ -635,11 +635,11 @@
     "question": "Company A is acquired by Company B in a takeover. Company A's flagship project has a JORC resource estimate signed by a CP who was an employee of Company A. After the acquisition, the CP's employment transfers to Company B. Regarding the existing resource estimate:",
     "options": {
       "A": "The resource estimate automatically transfers and remains valid without any action",
-      "B": "The CP should confirm that the estimate remains current and provide fresh consent for any republication by Company B under the new corporate context",
-      "C": "Company B must immediately commission a new resource estimate with its own CP",
-      "D": "The resource estimate expires 30 days after the change of ownership"
+      "B": "Company B must immediately commission a new resource estimate with its own CP",
+      "C": "The resource estimate expires 30 days after the change of ownership",
+      "D": "The CP should confirm that the estimate remains current and provide fresh consent for any republication by Company B under the new corporate context"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "While the technical work underpinning the resource estimate remains valid, a change of corporate ownership changes the reporting context. The CP, now employed by Company B, should review whether the estimate remains current (no material changes to data, parameters, or market conditions) and provide fresh consent if Company B intends to republish or reference the estimate. This is not a matter of the estimate 'expiring' but of ensuring proper consent for the new publication context. The CP's employment transfer actually simplifies this process since the same person is available to provide updated consent.",
     "key_concept": "Corporate ownership changes require CP review and fresh consent for republication",
     "source": "JORC Code 2012, Clauses 9, 14",
@@ -651,12 +651,12 @@
     "domain": "jorc",
     "question": "A major mining company commissions an independent peer review of its CP's Mineral Resource estimate before publication. Under JORC, peer review is:",
     "options": {
-      "A": "Mandatory for all Mineral Resource estimates above 1 million ounces",
-      "B": "Not required by the JORC Code, but widely regarded as best practice that enhances confidence in the estimate's quality and the CP's work",
-      "C": "Required by the ASX for all new resource announcements",
+      "A": "Not required by the JORC Code, but widely regarded as best practice that enhances confidence in the estimate's quality and the CP's work",
+      "B": "Required by the ASX for all new resource announcements",
+      "C": "Mandatory for all Mineral Resource estimates above 1 million ounces",
       "D": "Only necessary when the CP has fewer than 10 years of experience"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The JORC Code does not mandate peer review of CP work. However, independent peer review is widely regarded as industry best practice, particularly for material resource estimates. Many large mining companies routinely commission peer reviews to provide an additional quality assurance layer, identify potential errors or oversights, and demonstrate governance rigour to investors and financiers. The peer reviewer does not become a CP for the report; rather, they provide an independent technical check. While not compulsory, the absence of peer review for a material estimate may be noted by sophisticated investors.",
     "key_concept": "Peer review is best practice for quality assurance, not a JORC requirement",
     "source": "JORC Code 2012; AusIMM Resource Estimation Guidelines",
@@ -668,12 +668,12 @@
     "domain": "jorc",
     "question": "Regarding continuing professional development (CPD) for Competent Persons, which statement is correct?",
     "options": {
-      "A": "The JORC Code specifies a minimum of 150 CPD hours per year for all CPs",
-      "B": "CPD requirements are set by the CP's RPO (e.g., AusIMM), not by the JORC Code directly, and maintaining current knowledge is essential to the CP's ability to self-assess competence",
-      "C": "There are no CPD requirements for CPs under any framework",
-      "D": "CPD is only required for CPs who have been sanctioned by their RPO"
+      "A": "There are no CPD requirements for CPs under any framework",
+      "B": "CPD is only required for CPs who have been sanctioned by their RPO",
+      "C": "The JORC Code specifies a minimum of 150 CPD hours per year for all CPs",
+      "D": "CPD requirements are set by the CP's RPO (e.g., AusIMM), not by the JORC Code directly, and maintaining current knowledge is essential to the CP's ability to self-assess competence"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The JORC Code does not prescribe specific CPD requirements. However, RPOs such as the AusIMM have their own CPD policies that members must comply with. Maintaining up-to-date technical knowledge is fundamental to the CP's ability to accurately self-assess their competence for any given assignment. A CP who has not kept current with developments in estimation methodologies, software, or reporting standards may not be competent to self-assess. CPD thus serves as an indirect but critical support for the JORC system's integrity, ensuring that CPs remain capable of making sound professional judgements.",
     "key_concept": "CPD is governed by RPOs and supports the CP's ability to self-assess competence",
     "source": "JORC Code 2012, Clause 11; AusIMM CPD Policy",
@@ -685,10 +685,10 @@
     "domain": "jorc",
     "question": "A geologist with 12 years of experience in metallic mineral deposits (gold, copper, zinc) is asked to act as CP for an industrial minerals resource estimate involving high-purity silica sand. Under JORC, the key consideration is:",
     "options": {
-      "A": "Industrial minerals are excluded from the JORC Code entirely",
+      "A": "The geologist automatically qualifies because 12 years exceeds the 5-year minimum",
       "B": "Whether the geologist's experience with metallic minerals is transferable to industrial minerals, given that industrial minerals often have unique quality specifications, market requirements, and estimation approaches",
-      "C": "The geologist automatically qualifies because 12 years exceeds the 5-year minimum",
-      "D": "Industrial minerals only require a CP with 3 years of experience"
+      "C": "Industrial minerals only require a CP with 3 years of experience",
+      "D": "Industrial minerals are excluded from the JORC Code entirely"
     },
     "correct": "B",
     "explanation": "Industrial minerals such as high-purity silica sand have very different evaluation criteria compared to metallic minerals. Grade alone may be less important than physical properties (grain size, shape, purity specifications), market specifications, and end-use requirements. Resource estimation for industrial minerals often requires understanding of product quality parameters that are unfamiliar to metallic mineral geologists. The CP must honestly assess whether their metallic mineral experience provides adequate competence for the specific industrial mineral deposit. In many cases, additional experience or collaboration with an industrial minerals specialist would be needed.",
@@ -702,12 +702,12 @@
     "domain": "jorc",
     "question": "During the preparation of a resource estimate, a CP discovers that the company's database contains assay results that appear to have been fabricated — several drill holes show identical grade sequences that are statistically implausible. The CP's ethical obligation is to:",
     "options": {
-      "A": "Exclude the suspicious data and proceed with the remaining data without reporting the issue",
-      "B": "Immediately cease work, notify the company in writing of the suspected data fraud, refuse to sign any report based on the compromised database, and consider reporting to their RPO",
-      "C": "Apply a statistical correction factor to the suspicious data and proceed",
-      "D": "Include the data with a disclaimer noting it has not been independently verified"
+      "A": "Apply a statistical correction factor to the suspicious data and proceed",
+      "B": "Include the data with a disclaimer noting it has not been independently verified",
+      "C": "Immediately cease work, notify the company in writing of the suspected data fraud, refuse to sign any report based on the compromised database, and consider reporting to their RPO",
+      "D": "Exclude the suspicious data and proceed with the remaining data without reporting the issue"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Suspected data fraud strikes at the foundation of the entire resource estimation process and represents one of the most serious ethical situations a CP can face. The CP must not proceed with work based on a database whose integrity is compromised. They should immediately document their findings, notify the company in writing, and refuse to sign any report until the data integrity issues are resolved. Depending on the circumstances, the CP may also have obligations to notify their RPO or consider whether regulatory reporting is warranted. Simply excluding suspicious data without reporting the issue would be a failure of the CP's professional and ethical obligations.",
     "key_concept": "Data fraud requires immediate cessation of work, written notification, and refusal to sign",
     "source": "JORC Code 2012, Clauses 4-5, 11; AusIMM Code of Ethics",
@@ -736,12 +736,12 @@
     "domain": "jorc",
     "question": "A junior mining company is preparing an IPO prospectus that includes a JORC Mineral Resource estimate. Regarding the CP's role in the prospectus disclosure:",
     "options": {
-      "A": "The CP's report is not required in a prospectus — only audited financial statements matter",
-      "B": "The CP must provide consent for the resource estimate to be included in the prospectus, and the estimate must comply with JORC 2012 and ASX Listing Rules, with the CP's name and qualifications prominently disclosed",
-      "C": "The CP only needs to provide a one-paragraph summary for the prospectus",
-      "D": "The prospectus resource estimate does not need to be JORC-compliant if it is less than 2 years old"
+      "A": "The CP must provide consent for the resource estimate to be included in the prospectus, and the estimate must comply with JORC 2012 and ASX Listing Rules, with the CP's name and qualifications prominently disclosed",
+      "B": "The CP only needs to provide a one-paragraph summary for the prospectus",
+      "C": "The prospectus resource estimate does not need to be JORC-compliant if it is less than 2 years old",
+      "D": "The CP's report is not required in a prospectus — only audited financial statements matter"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "An IPO prospectus is a critical disclosure document with heightened legal significance. The CP must provide written consent for their resource estimate to be included in the prospectus, and the estimate must be fully JORC 2012 compliant. The prospectus must disclose the CP's name, qualifications, RPO membership, and relationship with the company. ASIC and ASX scrutiny of mineral resource disclosures in prospectuses is typically more rigorous than for ongoing ASX announcements. The CP should be aware that their professional exposure is heightened in an IPO context, as investors rely heavily on the resource estimate to assess the company's value.",
     "key_concept": "IPO prospectus resource disclosure requires full JORC compliance and heightened CP diligence",
     "source": "JORC Code 2012, Clauses 9, 11; ASX Listing Rules, Chapter 5; Corporations Act 2001",
@@ -753,12 +753,12 @@
     "domain": "jorc",
     "question": "Under JORC's Transparency principle, a CP preparing a Mineral Resource estimate must disclose:",
     "options": {
-      "A": "Only the final tonnage and grade figures, as detailed uncertainty discussion may confuse investors",
-      "B": "Sufficient information about uncertainties, risks, and limitations so that a reasonably informed investor can make their own assessment of the estimate's reliability",
-      "C": "A guarantee that the resource will be economically extractable",
+      "A": "A guarantee that the resource will be economically extractable",
+      "B": "Only the final tonnage and grade figures, as detailed uncertainty discussion may confuse investors",
+      "C": "Sufficient information about uncertainties, risks, and limitations so that a reasonably informed investor can make their own assessment of the estimate's reliability",
       "D": "Only risks that have a greater than 50% probability of occurring"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The Transparency principle requires the CP to provide sufficient information for a reasonably informed person to form a balanced judgement about the reported results. This includes discussing key uncertainties (geological, sampling, estimation method), risks (grade continuity, geological complexity), and limitations (data spacing, assumptions made). The CP must not 'cherry-pick' only positive aspects while suppressing uncertainties. Equally, there is no requirement to guarantee economic extractability — that would conflate resources with reserves. A well-written resource report acknowledges uncertainty honestly, helping investors understand both the potential and the risks of the deposit.",
     "key_concept": "CPs must transparently disclose uncertainties, risks, and limitations for informed investor judgement",
     "source": "JORC Code 2012, Clauses 4-5; Table 1, Section 3",

@@ -4,6 +4,7 @@ const navItems = [
   { to: '/', label: 'Home', icon: '🏠' },
   { to: '/practice', label: '练习', icon: '⛏' },
   { to: '/concepts', label: '概念', icon: '📖' },
+  { to: '/study-plan', label: '计划', icon: '📋' },
   { to: '/review', label: '错题本', icon: '❌' },
   { to: '/exam', label: '模考', icon: '📝' },
   { to: '/progress', label: '进度', icon: '📊' },

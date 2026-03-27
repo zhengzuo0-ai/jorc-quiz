@@ -7,8 +7,8 @@
     "options": {
       "A": "Archean Tarkwaian conglomerate",
       "B": "Paleoproterozoic Birimian Supergroup greenstone belts",
-      "C": "Mesozoic sedimentary basins along the coastline",
-      "D": "Neoproterozoic Pan-African mobile belt"
+      "C": "Neoproterozoic Pan-African mobile belt",
+      "D": "Mesozoic sedimentary basins along the coastline"
     },
     "correct": "B",
     "explanation": "Gold mineralization in Côte d'Ivoire is hosted almost entirely within the Paleoproterozoic Birimian Supergroup (2.0–2.2 Ga), which forms northeast-trending greenstone belts of mafic volcanic rocks and sedimentary basins separated by granite-gneiss domes. These belts are part of the broader West African Craton and extend from Senegal through Guinea, Mali, Burkina Faso, and Ghana into Côte d'Ivoire, constituting one of the world's largest Precambrian gold provinces. The Tarkwaian is a different (younger) unit found mainly in Ghana; the Mesozoic coastal basins are not gold-bearing; and the Pan-African belt affects eastern Côte d'Ivoire but is not the primary gold host.",
@@ -22,12 +22,12 @@
     "domain": "gold",
     "question": "Which structural style predominantly controls gold mineralization in Côte d'Ivoire's Birimian greenstone belts?",
     "options": {
-      "A": "Sedimentary-hosted paleoplacer deposits in alluvial fans",
-      "B": "Porphyry-style copper-gold mineralization associated with subduction",
-      "C": "Orogenic gold in ductile-brittle shear zones with quartz veining and sericite-carbonate-pyrite alteration",
-      "D": "Epithermal low-sulphidation veins in volcanic calderas"
+      "A": "Epithermal low-sulphidation veins in volcanic calderas",
+      "B": "Orogenic gold in ductile-brittle shear zones with quartz veining and sericite-carbonate-pyrite alteration",
+      "C": "Porphyry-style copper-gold mineralization associated with subduction",
+      "D": "Sedimentary-hosted paleoplacer deposits in alluvial fans"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Gold in the Birimian belts of Côte d'Ivoire is predominantly orogenic gold (also called mesothermal or lode gold). Mineralization is structurally controlled by regional-scale ductile to brittle-ductile shear zones that acted as conduits for gold-bearing hydrothermal fluids during late-stage orogenic deformation. The characteristic alteration assemblage includes sericite, carbonate minerals, and pyrite, with gold occurring in quartz veins and disseminated within altered wallrock. This is the same deposit type found across the entire West African gold province, including Ghana's Ashanti Belt, Mali's Syama and Morila, and Burkina Faso's Essakane.",
     "key_concept": "Orogenic gold in shear zones with sericite-carbonate-pyrite alteration = dominant Ivorian gold deposit type",
     "source": "Structural geology / orogenic gold model",
@@ -39,12 +39,12 @@
     "domain": "gold",
     "question": "The Ity gold mine in southwestern Côte d'Ivoire is operated by which company?",
     "options": {
-      "A": "Barrick Gold",
-      "B": "Newmont Corporation",
-      "C": "Endeavour Mining",
-      "D": "AngloGold Ashanti"
+      "A": "Newmont Corporation",
+      "B": "Barrick Gold",
+      "C": "AngloGold Ashanti",
+      "D": "Endeavour Mining"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "The Ity gold mine is operated by Endeavour Mining, making it one of the company's flagship assets in West Africa. Ity has a long mining history — heap leach operations began in 1991, and Endeavour commissioned a modern CIL (carbon-in-leach) processing plant in 2019, transforming it into a Tier 1 asset producing approximately 250,000–300,000 ounces per year. Endeavour consolidated full ownership after acquiring La Mancha's interest. Barrick operates Tongon in northern Côte d'Ivoire, not Ity.",
     "key_concept": "Ity mine: Endeavour Mining's flagship, ~250-300 koz/year, CIL plant commissioned 2019",
     "source": "Endeavour Mining corporate disclosures",
@@ -56,12 +56,12 @@
     "domain": "gold",
     "question": "Tongon gold mine in northern Côte d'Ivoire came under Barrick Gold's ownership through which corporate transaction?",
     "options": {
-      "A": "Barrick's acquisition of Placer Dome in 2006",
-      "B": "Barrick's merger with Randgold Resources in 2019",
-      "C": "Barrick's joint venture with Newmont (Nevada Gold Mines)",
-      "D": "Barrick's acquisition of Acacia Mining in Tanzania"
+      "A": "Barrick's joint venture with Newmont (Nevada Gold Mines)",
+      "B": "Barrick's acquisition of Acacia Mining in Tanzania",
+      "C": "Barrick's acquisition of Placer Dome in 2006",
+      "D": "Barrick's merger with Randgold Resources in 2019"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Tongon was originally developed and operated by Randgold Resources under CEO Mark Bristow. When Barrick Gold merged with Randgold Resources in January 2019 (in a $6.5 billion deal), Barrick inherited Randgold's portfolio including Tongon, Loulo-Gounkoto (Mali), Kibali (DRC), and Morila (Mali). Mark Bristow became CEO of the combined Barrick Gold. Tongon first poured gold in 2010 and has been a consistent producer, though it now faces reserve depletion challenges with mine life originally projected to around 2025.",
     "key_concept": "Tongon: inherited by Barrick via Randgold merger (2019), first gold 2010, reserve depletion challenge",
     "source": "Barrick Gold / Randgold Resources merger",
@@ -74,11 +74,11 @@
     "question": "The Abujar gold mine was developed by Tietto Minerals and subsequently acquired by which company?",
     "options": {
       "A": "Endeavour Mining",
-      "B": "Resolute Mining",
-      "C": "Perseus Mining",
-      "D": "B2Gold Corporation"
+      "B": "B2Gold Corporation",
+      "C": "Resolute Mining",
+      "D": "Perseus Mining"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Tietto Minerals discovered and developed the Abujar gold deposit in west-central Côte d'Ivoire, achieving first gold pour in 2023. Perseus Mining subsequently acquired Tietto in 2024, adding Abujar's approximately 200,000 oz/year production capacity and 5+ Moz resource base to its portfolio alongside the Yaouré mine (also in Côte d'Ivoire) and Edikan (Ghana). The acquisition strengthened Perseus's position as a mid-tier African gold producer. Abujar is a large, lower-grade deposit (reserve grade ~1.2–1.5 g/t Au) with significant growth potential.",
     "key_concept": "Abujar: Tietto discovery, first gold 2023, acquired by Perseus Mining 2024, ~200 koz/year, 5+ Moz resource",
     "source": "Perseus Mining / Tietto Minerals corporate disclosures",
@@ -90,12 +90,12 @@
     "domain": "gold",
     "question": "Under Côte d'Ivoire's 2014 Mining Code, what percentage free carry equity does the state hold in mining companies?",
     "options": {
-      "A": "5%",
-      "B": "10%",
-      "C": "15%",
-      "D": "20%"
+      "A": "15%",
+      "B": "20%",
+      "C": "5%",
+      "D": "10%"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The 2014 Mining Code (Loi n° 2014-138) grants the Ivorian state a 10% free carried interest (participation gratuite) in all mining companies holding exploitation permits. This means the state receives 10% equity without contributing to exploration or development costs. Additionally, the state has the option to purchase up to an additional 15% at market value, potentially bringing total government equity to 25%. The 10% free carry is standard and non-negotiable — it is a cost that all mining investors must factor into project economics. This is comparable to but slightly lower than some neighboring jurisdictions (e.g., Mali's 20% free carry under its 2019 code).",
     "key_concept": "Côte d'Ivoire: 10% state free carry + option for additional 15% at market price",
     "source": "Côte d'Ivoire Mining Code 2014 (Loi n° 2014-138)",
@@ -107,12 +107,12 @@
     "domain": "gold",
     "question": "At a gold price above $1,600/oz, what royalty rate applies under Côte d'Ivoire's sliding scale royalty structure?",
     "options": {
-      "A": "3%",
-      "B": "3.5%",
-      "C": "4%",
-      "D": "5%"
+      "A": "3.5%",
+      "B": "4%",
+      "C": "5%",
+      "D": "3%"
     },
-    "correct": "D",
+    "correct": "C",
     "explanation": "Côte d'Ivoire's 2014 Mining Code implements a sliding scale royalty (redevance proportionnelle) tied to gold price: 3% when gold is at or below $1,000/oz, 3.5% at $1,000–$1,300/oz, 4% at $1,300–$1,600/oz, and 5% above $1,600/oz. With gold prices consistently above $2,000/oz in recent years, the effective royalty rate has been 5%. Note that the scale was designed when gold prices were lower; there has been ongoing discussion about revising the upper thresholds upward to capture more revenue at higher gold prices, reflecting resource nationalism pressures across West Africa.",
     "key_concept": "Ivorian gold royalty: 3-5% sliding scale; 5% applies at current gold prices (>$1,600/oz)",
     "source": "Côte d'Ivoire Mining Code 2014",
@@ -125,11 +125,11 @@
     "question": "What is the corporate income tax rate applicable to mining companies in Côte d'Ivoire under the 2014 Mining Code?",
     "options": {
       "A": "18%",
-      "B": "25%",
+      "B": "35%",
       "C": "30%",
-      "D": "35%"
+      "D": "25%"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Mining companies in Côte d'Ivoire pay a corporate income tax rate of 25% under the 2014 Mining Code, which is lower than the standard Ivorian corporate tax rate of 30% applicable to non-mining businesses. This reduced rate is designed to attract mining investment. Combined with the 5% royalty (at current gold prices), 10% state free carry, and 18% VAT (partially exempt during exploration), the total government take from a producing mine in Côte d'Ivoire is moderate by African standards, contributing to the country's reputation as a relatively investor-friendly mining jurisdiction.",
     "key_concept": "Mining corporate tax: 25% (vs. 30% standard); designed to attract investment",
     "source": "Côte d'Ivoire Mining Code 2014",
@@ -158,12 +158,12 @@
     "domain": "gold",
     "question": "Which government entity serves as the state mining company managing government equity interests in Côte d'Ivoire's mining sector?",
     "options": {
-      "A": "SOGUIPAMI",
-      "B": "SODEMI",
+      "A": "BUMIGEB",
+      "B": "SOGUIPAMI",
       "C": "DGMG",
-      "D": "BUMIGEB"
+      "D": "SODEMI"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "SODEMI (Société pour le Développement Minier de la Côte d'Ivoire) is the state-owned mining company that manages the government's equity interests in mining projects. SODEMI holds the state's 10% free carry shares and may participate in exploration joint ventures on behalf of the government. DGMG (Direction Générale des Mines et de la Géologie) is the technical regulatory body, not the equity holder. SOGUIPAMI is Guinea's state mining company, and BUMIGEB is Burkina Faso's geological survey — both are from different countries.",
     "key_concept": "SODEMI: Côte d'Ivoire's state mining company, manages 10% free carry and government equity",
     "source": "Ivorian mining institutional framework",
@@ -177,10 +177,10 @@
     "options": {
       "A": "Flotation and pressure oxidation (POX)",
       "B": "Gravity separation only",
-      "C": "Heap leach processing",
-      "D": "Underground cut-and-fill stoping with no surface processing"
+      "C": "Underground cut-and-fill stoping with no surface processing",
+      "D": "Heap leach processing"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Ity originally operated as a heap leach mine starting in 1991, processing oxide ore at relatively low throughput and recovery rates. Endeavour Mining invested approximately $412 million to construct a modern 5 Mtpa CIL (carbon-in-leach) plant, which was commissioned in early 2019. The CIL plant dramatically increased both throughput and gold recovery, enabling the processing of transitional and sulphide ores in addition to oxides. This transformation converted Ity from a small, low-cost operation into a Tier 1 asset producing 250,000–300,000 oz/year, making it one of the largest single gold mines in West Africa.",
     "key_concept": "Ity transformation: heap leach (1991) → CIL plant (2019), ~$412M capex, Tier 1 asset",
     "source": "Endeavour Mining Ity mine history",
@@ -193,11 +193,11 @@
     "question": "Which greenstone belt hosts the Tongon gold mine in northern Côte d'Ivoire?",
     "options": {
       "A": "Ashanti Belt",
-      "B": "Siguiri Basin",
-      "C": "Boundiali (Senoufo) Belt",
-      "D": "Toulépleu Belt"
+      "B": "Boundiali (Senoufo) Belt",
+      "C": "Toulépleu Belt",
+      "D": "Siguiri Basin"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Tongon is hosted within the Boundiali greenstone belt, also known as the Senoufo Belt, in northern Côte d'Ivoire. Gold mineralization at Tongon occurs in the NE-trending Nielle shear zone, which cuts through Birimian volcanic and sedimentary rocks. The Ashanti Belt is in Ghana, the Siguiri Basin is in Guinea, and the Toulépleu Belt is in southwestern Côte d'Ivoire (hosting the Ity mine). The Boundiali Belt extends into Burkina Faso and has additional exploration potential along strike from Tongon.",
     "key_concept": "Tongon: Boundiali (Senoufo) Belt, Nielle shear zone, NE-trending, northern Côte d'Ivoire",
     "source": "Barrick Gold / Randgold Resources technical reports",
@@ -211,10 +211,10 @@
     "options": {
       "A": "1995",
       "B": "2003",
-      "C": "2014",
-      "D": "2019"
+      "C": "2019",
+      "D": "2014"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Côte d'Ivoire's current Mining Code was enacted in 2014 (Loi n° 2014-138 du 24 mars 2014 portant Code Minier). It replaced the previous 1995 Mining Code, which had governed the sector during a period of political instability and civil conflict (2002–2011) that limited mining investment. The 2014 Code was designed to modernize the regulatory framework, attract foreign investment in a post-conflict environment, increase government revenue through higher royalties and state participation, and align with international best practices. The stability clause provisions in the 2014 Code were particularly important for restoring investor confidence.",
     "key_concept": "Mining Code 2014 (Loi n° 2014-138): replaced 1995 code, post-conflict modernization",
     "source": "Côte d'Ivoire legislative records",
@@ -226,12 +226,12 @@
     "domain": "gold",
     "question": "In the context of Côte d'Ivoire gold exploration, what does the term 'orpaillage' refer to?",
     "options": {
-      "A": "Industrial open-pit mining using truck-and-shovel methods",
-      "B": "Artisanal and small-scale gold mining by informal miners",
-      "C": "Airborne geophysical surveys flown over greenstone belts",
-      "D": "The French term for a JORC-compliant resource estimate"
+      "A": "The French term for a JORC-compliant resource estimate",
+      "B": "Industrial open-pit mining using truck-and-shovel methods",
+      "C": "Artisanal and small-scale gold mining by informal miners",
+      "D": "Airborne geophysical surveys flown over greenstone belts"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Orpaillage is the French term for artisanal and small-scale gold mining (ASM/ASGM). In Côte d'Ivoire, orpaillage involves tens of thousands of informal miners using basic tools — panning, sluicing, and small-scale digging — to extract gold from alluvial deposits and shallow weathered bedrock. For exploration companies, orpaillage sites are a double-edged sword: active artisanal mining often indicates genuine gold anomalies and can serve as a prospecting guide, but it also creates land access challenges, environmental damage, community tensions, and safety hazards. Managing the relationship with artisanal miners is a critical operational challenge for formal exploration and mining companies in Côte d'Ivoire.",
     "key_concept": "Orpaillage: artisanal/small-scale gold mining; indicator of gold presence but operational challenge",
     "source": "West African mining practice",
@@ -243,12 +243,12 @@
     "domain": "gold",
     "question": "Côte d'Ivoire's gold production grew from approximately 5 tonnes in 2010 to roughly what level by 2024?",
     "options": {
-      "A": "10 tonnes",
-      "B": "25 tonnes",
-      "C": "50 tonnes",
-      "D": "100 tonnes"
+      "A": "100 tonnes",
+      "B": "10 tonnes",
+      "C": "25 tonnes",
+      "D": "50 tonnes"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Côte d'Ivoire's gold production experienced approximately 10-fold growth from around 5 tonnes in 2010 to approximately 50 tonnes (~1.6 Moz) by 2024. This dramatic increase was driven by the commissioning of new mines (Ity CIL plant, Abujar), continued production from Tongon and other operations, and the return of political stability after the 2010–2011 post-election crisis. The government's stated ambition is to become a top-five African gold producer. By comparison, Ghana produces ~100+ tonnes/year, South Africa ~100 tonnes/year (declining), Mali ~60-70 tonnes/year, and Burkina Faso ~60 tonnes/year.",
     "key_concept": "Côte d'Ivoire gold production: ~5t (2010) → ~50t (2024), 10x growth, targeting top-5 Africa",
     "source": "Ivorian government mining statistics",
@@ -277,10 +277,10 @@
     "domain": "gold",
     "question": "What is the typical alteration assemblage associated with orogenic gold deposits in Côte d'Ivoire's Birimian belts?",
     "options": {
-      "A": "Potassic alteration with biotite and K-feldspar",
+      "A": "Propylitic alteration with chlorite-epidote only",
       "B": "Advanced argillic alteration with alunite and kaolinite",
       "C": "Sericite-carbonate-pyrite alteration",
-      "D": "Propylitic alteration with chlorite-epidote only"
+      "D": "Potassic alteration with biotite and K-feldspar"
     },
     "correct": "C",
     "explanation": "The hallmark alteration assemblage of Birimian orogenic gold deposits is sericite (fine-grained white mica) + carbonate minerals (ankerite, calcite, or dolomite) + pyrite, often accompanied by silicification (quartz veining and flooding). This assemblage forms when CO₂-H₂O-bearing hydrothermal fluids interact with the mafic volcanic and sedimentary host rocks along shear zones, resulting in potassium and carbon metasomatism. Recognizing this alteration package in drill core or RC chips is a key skill for geologists working in the West African Birimian. Potassic and advanced argillic alteration are associated with porphyry and epithermal systems respectively, which are not the dominant deposit types in this geological setting.",
@@ -294,12 +294,12 @@
     "domain": "gold",
     "question": "The Montage Gold Koné project in Côte d'Ivoire is at what stage of development?",
     "options": {
-      "A": "Early-stage grassroots exploration with no drilling",
-      "B": "Development stage with a resource exceeding 3 Moz and advancing toward construction",
-      "C": "Full production at 300,000 oz/year",
-      "D": "Closed and in reclamation"
+      "A": "Development stage with a resource exceeding 3 Moz and advancing toward construction",
+      "B": "Early-stage grassroots exploration with no drilling",
+      "C": "Closed and in reclamation",
+      "D": "Full production at 300,000 oz/year"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Montage Gold's Koné project is at an advanced development stage with a gold resource exceeding 3 million ounces. The project has completed a feasibility study and is advancing toward a construction decision and financing. Koné represents one of the most significant undeveloped gold deposits in Côte d'Ivoire and demonstrates the country's continued potential for large-scale discoveries. The project contemplates open-pit mining with a CIL processing plant. Koné is not yet in production, and it is certainly not closed — it is a live development-stage project seeking to transition into construction.",
     "key_concept": "Koné (Montage Gold): development stage, >3 Moz resource, feasibility complete, construction pending",
     "source": "Montage Gold corporate disclosures",
@@ -311,10 +311,10 @@
     "domain": "gold",
     "question": "In Côte d'Ivoire, the rainy season from June to September primarily affects gold exploration by:",
     "options": {
-      "A": "Increasing gold grades due to supergene enrichment",
+      "A": "Forcing all gold processing plants to shut down",
       "B": "Restricting access to drill sites and limiting the drilling window to the dry season",
       "C": "Requiring all exploration permits to be suspended during those months",
-      "D": "Forcing all gold processing plants to shut down"
+      "D": "Increasing gold grades due to supergene enrichment"
     },
     "correct": "B",
     "explanation": "The rainy season (approximately June–September) in Côte d'Ivoire creates significant logistical challenges for field exploration programs. Heavy rainfall makes unpaved roads impassable, drill pads become waterlogged, and equipment mobilization becomes difficult or impossible in remote areas. This effectively limits the primary drilling window to the dry season (approximately October–May). Exploration companies must plan their drill programs and budgets around this seasonal constraint. Processing plants at operating mines typically continue year-round as they have paved access and established infrastructure, and permits are not legally suspended — it is a practical rather than regulatory limitation.",
@@ -329,11 +329,11 @@
     "question": "What is the significance of the 'stability clause' (clause de stabilité) in Côte d'Ivoire mining agreements?",
     "options": {
       "A": "It guarantees the gold price will not fall below $1,500/oz for the mine operator",
-      "B": "It freezes the fiscal terms (tax rates, royalties) applicable to the mining project for a fixed period of approximately 10–15 years after signing",
+      "B": "It requires the mine to maintain a minimum production rate throughout its life",
       "C": "It prevents the mining company from ever selling its assets",
-      "D": "It requires the mine to maintain a minimum production rate throughout its life"
+      "D": "It freezes the fiscal terms (tax rates, royalties) applicable to the mining project for a fixed period of approximately 10–15 years after signing"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The stability clause in Côte d'Ivoire mining agreements provides fiscal certainty by locking in the tax and royalty regime applicable to a mining project for a fixed period, typically 10–15 years from the signing of the mining convention. This means that even if the government subsequently changes the Mining Code to impose higher taxes or royalties, the stabilized project continues to operate under the original terms for the duration of the stability period. This provision is critical for attracting foreign investment in mining, as projects require large upfront capital expenditure and long payback periods. Investors need assurance that fiscal terms will not change adversely before they recover their investment.",
     "key_concept": "Stability clause: fiscal terms frozen for 10-15 years, critical for investment confidence and project bankability",
     "source": "Côte d'Ivoire Mining Code 2014 / mining conventions",
@@ -345,12 +345,12 @@
     "domain": "gold",
     "question": "Which of the following best describes the 'earn-in' JV structure commonly used in Côte d'Ivoire gold exploration?",
     "options": {
-      "A": "The government earns its 10% interest by funding 10% of exploration costs",
-      "B": "A senior mining company earns an equity interest in a project by funding a defined exploration expenditure program on a junior company's tenement",
+      "A": "The exploration permit holder sells 100% of the project outright with no ongoing relationship",
+      "B": "The government earns its 10% interest by funding 10% of exploration costs",
       "C": "Two companies split all costs 50/50 from the first day of exploration",
-      "D": "The exploration permit holder sells 100% of the project outright with no ongoing relationship"
+      "D": "A senior mining company earns an equity interest in a project by funding a defined exploration expenditure program on a junior company's tenement"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "An earn-in joint venture is the most common structure for partnering in Côte d'Ivoire exploration. Typically, a junior exploration company holds the exploration permit, and a larger (senior) mining company agrees to fund a specified amount of exploration expenditure (e.g., $5 million over 3 years) to earn a defined equity interest (e.g., 51–75%) in the project. This structure benefits both parties: the junior gains access to capital and technical expertise it cannot afford alone, while the senior company gains exposure to early-stage upside without the cost and risk of acquiring and maintaining permits. The government's 10% free carry is separate and held through SODEMI regardless of the JV structure.",
     "key_concept": "Earn-in JV: senior funds exploration on junior's permit to earn equity; most common exploration partnership model",
     "source": "Mining JV structures / West African exploration practice",
@@ -362,12 +362,12 @@
     "domain": "gold",
     "question": "Côte d'Ivoire is considered to have a political stability advantage for mining investment compared to which neighboring gold-producing countries?",
     "options": {
-      "A": "Ghana and South Africa",
-      "B": "Mali and Burkina Faso",
+      "A": "Mali and Burkina Faso",
+      "B": "Morocco and Egypt",
       "C": "Australia and Canada",
-      "D": "Morocco and Egypt"
+      "D": "Ghana and South Africa"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Since the end of the 2010–2011 post-election crisis, Côte d'Ivoire has enjoyed relative political stability and strong economic growth, in stark contrast to its northern neighbors Mali and Burkina Faso, which have experienced military coups (Mali in 2020/2021, Burkina Faso in 2022), jihadi insurgencies, and increasingly hostile mining regulatory environments. Both Mali and Burkina Faso have introduced or threatened more aggressive fiscal terms for miners, including higher state participation, windfall taxes, and arbitrary enforcement actions. This has made Côte d'Ivoire relatively more attractive for mining investment, creating a 'political stability premium' for Ivorian assets. Ghana is also politically stable and is not typically cited as less stable than Côte d'Ivoire.",
     "key_concept": "Political stability premium: Côte d'Ivoire vs. Mali/Burkina Faso's coups, insurgencies, hostile mining policies",
     "source": "West African political risk analysis",
@@ -379,12 +379,12 @@
     "domain": "gold",
     "question": "In a typical Track A exploration program in Côte d'Ivoire, what is the correct sequence of exploration activities from earliest to most advanced?",
     "options": {
-      "A": "Feasibility study → RC drilling → soil geochemistry → RAB drilling",
-      "B": "Regional geochemistry and geophysics → RAB/AC drilling → RC drilling → resource definition and DD drilling",
-      "C": "Diamond drilling → CIL plant construction → soil sampling → RC drilling",
-      "D": "Mining permit application → environmental study → soil sampling → RAB drilling"
+      "A": "Diamond drilling → CIL plant construction → soil sampling → RC drilling",
+      "B": "Mining permit application → environmental study → soil sampling → RAB drilling",
+      "C": "Feasibility study → RC drilling → soil geochemistry → RAB drilling",
+      "D": "Regional geochemistry and geophysics → RAB/AC drilling → RC drilling → resource definition and DD drilling"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "A systematic Track A exploration program in Côte d'Ivoire follows a staged, funnel-like approach: (1) Regional reconnaissance using soil/stream sediment geochemistry and airborne geophysics (magnetics, radiometrics, EM) to identify anomalies across large permit areas; (2) First-pass RAB or auger (AC) drilling to test anomalies beneath laterite cover at shallow depths; (3) RC drilling to confirm and define mineralized zones at closer spacing; (4) Diamond drilling (DD) to provide detailed geological, structural, and metallurgical information for resource estimation and feasibility. Each stage progressively reduces the target area while increasing confidence and expenditure per metre. This staged approach optimizes the use of limited exploration budgets ($2–5M/year for a typical junior).",
     "key_concept": "Staged exploration: geochem/geophysics → RAB/AC → RC → DD; funnel approach optimizes budget",
     "source": "Exploration best practice / Track A methodology",
@@ -396,12 +396,12 @@
     "domain": "gold",
     "question": "The Agbaou gold mine in Côte d'Ivoire was sold by Endeavour Mining to which company as part of portfolio optimization?",
     "options": {
-      "A": "Barrick Gold",
-      "B": "Allied Gold",
-      "C": "Gold Fields",
-      "D": "Kinross Gold"
+      "A": "Kinross Gold",
+      "B": "Barrick Gold",
+      "C": "Allied Gold",
+      "D": "Gold Fields"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Endeavour Mining divested the Agbaou gold mine to Allied Gold Mining as part of its strategy to focus on Tier 1 assets and optimize its portfolio. Agbaou is located in central-southern Côte d'Ivoire and had been producing approximately 100,000–130,000 oz/year. The sale allowed Endeavour to concentrate resources on its larger, longer-life assets like Ity and the Lafigué development project. Allied Gold, backed by private equity, has been building a portfolio of mid-tier gold assets across Africa. This transaction illustrates the typical life cycle of mining assets, where they may change hands multiple times as companies pursue different strategic objectives.",
     "key_concept": "Agbaou: Endeavour → Allied Gold; portfolio optimization, ~100-130 koz/year mid-tier asset",
     "source": "Endeavour Mining / Allied Gold corporate transactions",
@@ -413,12 +413,12 @@
     "domain": "gold",
     "question": "A mining company in Côte d'Ivoire with a gold price realization of $2,200/oz would face a total direct government take (royalty + corporate tax on a 40% pre-tax margin + state equity dilution) of approximately what order of magnitude?",
     "options": {
-      "A": "Less than 10% of revenue",
-      "B": "Approximately 15–20% of revenue",
+      "A": "Approximately 15–20% of revenue",
+      "B": "Less than 10% of revenue",
       "C": "Approximately 35–45% of revenue",
       "D": "Greater than 60% of revenue"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "At $2,200/oz, the key components of government take are: (1) Royalty of 5% on revenue (sliding scale tops out above $1,600/oz); (2) Corporate income tax of 25% on taxable profit — if we assume a 40% pre-tax profit margin, the effective tax on revenue is 25% × 40% = 10%; (3) State free carry of 10% dilutes the company's net income by approximately 10% of after-tax profit, which on revenue terms is roughly 10% × (40% × 75%) = 3%. Adding these components: 5% + 10% + 3% ≈ 18% of revenue, falling in the 15–20% range. This is a moderate government take by African standards — lower than Mali or Tanzania but higher than some historical Ivorian terms. The actual figure varies with cost structure, depreciation, and other deductions.",
     "key_concept": "Côte d'Ivoire total government take: ~15-20% of revenue at current gold prices; moderate by African standards",
     "source": "Mining fiscal analysis / Côte d'Ivoire Mining Code 2014",
@@ -447,12 +447,12 @@
     "domain": "gold",
     "question": "A gold producer in Côte d'Ivoire sells its output at an average realized price of $1,150/oz. What ad valorem royalty rate applies under the 2014 Mining Code's sliding scale?",
     "options": {
-      "A": "3.0%",
-      "B": "3.5%",
+      "A": "3.5%",
+      "B": "5.0%",
       "C": "4.0%",
-      "D": "5.0%"
+      "D": "3.0%"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The 2014 Mining Code establishes a four-tier sliding scale royalty for gold: 3% when the gold price is at or below $1,000/oz, 3.5% between $1,000 and $1,300/oz, 4% between $1,300 and $1,600/oz, and 5% above $1,600/oz. At a realized price of $1,150/oz, the applicable rate falls within the $1,000-$1,300 bracket, resulting in a 3.5% royalty. This progressive structure was designed to capture more government revenue when commodity prices are high while providing fiscal relief during lower price environments. However, with gold prices now consistently above $2,000/oz, the 5% top rate has become the effective permanent rate, prompting discussion about whether the thresholds should be recalibrated.",
     "key_concept": "Sliding royalty: 3% (≤$1,000), 3.5% ($1,000-$1,300), 4% ($1,300-$1,600), 5% (>$1,600)",
     "source": "Côte d'Ivoire Mining Code 2014",
@@ -465,11 +465,11 @@
     "question": "A newly permitted gold mine in Côte d'Ivoire is evaluating its tax obligations during the first years of operation. What tax holiday benefit does the 2014 Mining Code provide to new mining operations?",
     "options": {
       "A": "Complete exemption from all taxes for 20 years",
-      "B": "A corporate income tax exemption during the first 5 years of exploitation, after which the standard mining rate applies",
+      "B": "Exemption from royalties only during the first 3 years",
       "C": "No tax holiday exists; full taxes apply from the first day of production",
-      "D": "Exemption from royalties only during the first 3 years"
+      "D": "A corporate income tax exemption during the first 5 years of exploitation, after which the standard mining rate applies"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The 2014 Mining Code provides new mining operations with a corporate income tax holiday during the initial exploitation phase, typically covering the first 5 years of production. During this period, the company is exempt from the 25% mining corporate income tax, allowing it to recover initial capital expenditures more rapidly. However, the royalty obligation applies from the first day of commercial production regardless of the tax holiday, and the 10% state free carry equity is also effective from permit issuance. After the tax holiday expires, the standard 25% mining corporate tax rate applies. This incentive is a key element of Côte d'Ivoire's strategy to attract greenfield mining investment in a competitive West African landscape.",
     "key_concept": "Tax holiday: ~5-year corporate income tax exemption for new mines; royalty still applies from day one",
     "source": "Côte d'Ivoire Mining Code 2014 / fiscal incentives",
@@ -498,10 +498,10 @@
     "domain": "gold",
     "question": "A mining analyst is reviewing Endeavour Mining's Côte d'Ivoire portfolio. Which combination correctly lists Endeavour's three key operations or development projects in the country?",
     "options": {
-      "A": "Tongon, Agbaou, and Yaouré",
+      "A": "Ity, Tongon, and Edikan",
       "B": "Ity, Fetekro, and Lafigué",
-      "C": "Abujar, Koné, and Sabodala",
-      "D": "Ity, Tongon, and Edikan"
+      "C": "Tongon, Agbaou, and Yaouré",
+      "D": "Abujar, Koné, and Sabodala"
     },
     "correct": "B",
     "explanation": "Endeavour Mining's Côte d'Ivoire portfolio comprises: (1) Ity, its flagship producing mine in the southwest with ~250-300 koz/year output; (2) Fetekro, a development-stage project; and (3) Lafigué, a greenfield development that achieved first gold in 2024. Tongon is operated by Barrick Gold, Yaouré and Abujar belong to Perseus Mining, Koné is Montage Gold's project, Sabodala is Endeavour's Senegal asset, and Edikan is Perseus's Ghana operation. Endeavour previously operated Agbaou in Côte d'Ivoire but divested it to Allied Gold as part of portfolio optimization to focus on higher-quality assets.",
@@ -517,8 +517,8 @@
     "options": {
       "A": "It is an underground-only operation targeting narrow high-grade veins at depth",
       "B": "It is a new open-pit mine adding approximately 200 koz/year of production, reinforcing Côte d'Ivoire's growth trajectory toward top-5 African gold producer status",
-      "C": "It is primarily a copper mine with minor gold by-product credits",
-      "D": "It is a heap leach operation processing only oxide ores at grades below 0.5 g/t"
+      "C": "It is a heap leach operation processing only oxide ores at grades below 0.5 g/t",
+      "D": "It is primarily a copper mine with minor gold by-product credits"
     },
     "correct": "B",
     "explanation": "Lafigué represents Endeavour Mining's newest producing asset in Côte d'Ivoire, located approximately 480 km north of Abidjan. The project was designed as an open-pit mine with a CIL processing plant, targeting annual production of approximately 200,000 ounces over a mine life exceeding 10 years. First gold pour in 2024 marked a significant milestone for both Endeavour and Côte d'Ivoire, adding substantial new production capacity to the country's gold output. Lafigué's commissioning supports the Ivorian government's ambition to become a top-5 gold producer in Africa, complementing output from Ity, Tongon, Yaouré, and Abujar.",
@@ -534,8 +534,8 @@
     "options": {
       "A": "Ity and Tongon",
       "B": "Yaouré and Abujar",
-      "C": "Lafigué and Fetekro",
-      "D": "Edikan and Agbaou"
+      "C": "Edikan and Agbaou",
+      "D": "Lafigué and Fetekro"
     },
     "correct": "B",
     "explanation": "Perseus Mining operates two gold mines in Côte d'Ivoire: Yaouré and Abujar. Yaouré, located approximately 200 km northwest of Yamoussoukro, commenced production in 2021 and produces approximately 200,000+ oz/year from a combined open-pit and underground operation. Abujar was acquired through Perseus's takeover of Tietto Minerals in 2024, adding approximately 200,000 oz/year of production capacity. Together, these two mines give Perseus approximately 400,000+ oz/year of Ivorian gold production, making the company one of the largest gold producers in the country. Perseus also operates the Edikan mine in Ghana, but Ity and Tongon belong to Endeavour and Barrick respectively.",
@@ -549,12 +549,12 @@
     "domain": "gold",
     "question": "A junior explorer has identified a prospective gold target in Côte d'Ivoire and wishes to apply for an exploration permit (Permis de Recherche). What is the initial term and renewal structure for such a permit?",
     "options": {
-      "A": "Initial term of 2 years with one 1-year renewal, maximum total 3 years",
-      "B": "Initial term of 4 years with two 3-year renewals, maximum total 10 years, with area relinquishment required at each renewal",
-      "C": "Initial term of 10 years with no renewals and no area relinquishment",
-      "D": "Initial term of 1 year, renewable annually for up to 20 years"
+      "A": "Initial term of 10 years with no renewals and no area relinquishment",
+      "B": "Initial term of 1 year, renewable annually for up to 20 years",
+      "C": "Initial term of 2 years with one 1-year renewal, maximum total 3 years",
+      "D": "Initial term of 4 years with two 3-year renewals, maximum total 10 years, with area relinquishment required at each renewal"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Under the 2014 Mining Code, a Permis de Recherche (exploration permit) is granted for an initial term of 4 years. It can be renewed twice, each for a period of 3 years, giving a maximum total exploration period of 10 years. At each renewal, the permit holder must relinquish a portion of the permit area (typically 50% at first renewal), which prevents speculative land-banking and ensures active exploration. The permit holder must also demonstrate minimum expenditure commitments and report exploration results to the Direction Générale des Mines et de la Géologie (DGMG). This structure encourages systematic, time-bound exploration while giving companies sufficient time to evaluate complex geological targets beneath laterite cover.",
     "key_concept": "Exploration permit: 4 years initial + two 3-year renewals = 10 years max; 50% area relinquishment at renewal",
     "source": "Côte d'Ivoire Mining Code 2014",
@@ -566,10 +566,10 @@
     "domain": "gold",
     "question": "A company has completed a feasibility study and wishes to transition from exploration to mining in Côte d'Ivoire. What key document must be submitted to obtain an exploitation permit (Permis d'Exploitation)?",
     "options": {
-      "A": "Only a simple letter of intent to the Minister of Mines",
+      "A": "Proof of gold reserves exceeding 5 million ounces and a $1 billion bank guarantee",
       "B": "A bankable feasibility study, an environmental and social impact assessment (ESIA), and a mining convention negotiated with the state",
-      "C": "A preliminary economic assessment (PEA) and a community petition signed by local chiefs",
-      "D": "Proof of gold reserves exceeding 5 million ounces and a $1 billion bank guarantee"
+      "C": "Only a simple letter of intent to the Minister of Mines",
+      "D": "A preliminary economic assessment (PEA) and a community petition signed by local chiefs"
     },
     "correct": "B",
     "explanation": "Transitioning from exploration to exploitation in Côte d'Ivoire requires several key submissions: a bankable feasibility study demonstrating the project's technical and economic viability, an approved Environmental and Social Impact Assessment (ESIA), and a negotiated mining convention (convention minière) with the state that specifies fiscal terms, stability clauses, and community development obligations. The exploitation permit is granted by presidential decree for an initial period of up to 20 years and is renewable. The process also requires the company to demonstrate financial capacity, submit a mine closure and rehabilitation plan, and establish the state's 10% free carry participation through SODEMI. This rigorous process ensures that only technically and financially credible projects proceed to mining.",
@@ -583,12 +583,12 @@
     "domain": "gold",
     "question": "A mining company operating in rural Côte d'Ivoire must comply with community relations requirements under the 2014 Mining Code. Which obligation is mandated by law?",
     "options": {
-      "A": "Companies must relocate all communities within 50 km of the mine site",
-      "B": "Companies must establish a community development fund and implement a local development plan in consultation with affected communities",
-      "C": "Companies have no legal obligation to engage with local communities",
-      "D": "Companies must transfer 51% ownership of the mine to local community cooperatives"
+      "A": "Companies must establish a community development fund and implement a local development plan in consultation with affected communities",
+      "B": "Companies must relocate all communities within 50 km of the mine site",
+      "C": "Companies must transfer 51% ownership of the mine to local community cooperatives",
+      "D": "Companies have no legal obligation to engage with local communities"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The 2014 Mining Code mandates that mining companies establish a community development fund (fonds de développement communautaire) financed by a percentage of mining revenue, and implement a local development plan (plan de développement local) designed in consultation with affected communities. This typically covers investments in education, healthcare, water supply, roads, and livelihoods programs. The law also requires companies to conduct stakeholder consultations as part of the ESIA process and to establish a local consultation committee (comité de consultation locale) that includes community representatives. These requirements reflect international best practices and the growing importance of social license to operate in African mining jurisdictions. Failure to maintain good community relations can result in protests, blockades, and operational disruptions.",
     "key_concept": "Community development fund + local development plan + stakeholder consultation = legally mandated social obligations",
     "source": "Côte d'Ivoire Mining Code 2014 / community provisions",
@@ -601,11 +601,11 @@
     "question": "An exploration company is preparing its environmental compliance documentation for a new gold project in Côte d'Ivoire. At what stage is an Environmental and Social Impact Assessment (ESIA) required?",
     "options": {
       "A": "Only after mine closure, as a retrospective assessment",
-      "B": "Before the exploitation permit is granted; the ESIA must be approved by the National Environment Agency (ANDE) as a prerequisite",
-      "C": "ESIAs are optional and only recommended for mines producing more than 500,000 oz/year",
+      "B": "ESIAs are optional and only recommended for mines producing more than 500,000 oz/year",
+      "C": "Before the exploitation permit is granted; the ESIA must be approved by the National Environment Agency (ANDE) as a prerequisite",
       "D": "The ESIA is only required for underground mines, not open-pit operations"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Under the 2014 Mining Code and Côte d'Ivoire's environmental regulations, an approved Environmental and Social Impact Assessment (ESIA) is a mandatory prerequisite for obtaining an exploitation permit. The ESIA must be submitted to and approved by ANDE (Agence Nationale de l'Environnement et du Développement Durable), the national environmental agency. The study must cover baseline environmental conditions, projected impacts on water, air, soil, biodiversity, and communities, and include mitigation measures and a mine closure/rehabilitation plan. The ESIA process involves public consultations with affected communities. For exploration activities, a simpler Environmental Notice (Constat d'Impact Environnemental) may suffice for lower-impact work, but any project transitioning to exploitation requires the full ESIA.",
     "key_concept": "ESIA: mandatory before exploitation permit; approved by ANDE; covers environmental, social, and closure planning",
     "source": "Côte d'Ivoire Mining Code 2014 / ANDE environmental regulations",
@@ -619,8 +619,8 @@
     "options": {
       "A": "No local content requirements exist; companies may hire entirely from abroad",
       "B": "Companies must prioritize Ivorian nationals for employment and progressively replace expatriate staff with trained local personnel, with procurement preference for local goods and services",
-      "C": "100% of all positions, including CEO and CFO, must be held by Ivorian citizens from day one",
-      "D": "Local content requirements apply only to artisanal mining, not industrial operations"
+      "C": "Local content requirements apply only to artisanal mining, not industrial operations",
+      "D": "100% of all positions, including CEO and CFO, must be held by Ivorian citizens from day one"
     },
     "correct": "B",
     "explanation": "The 2014 Mining Code requires mining companies to prioritize the employment of Ivorian nationals at all levels and to implement training programs that progressively increase local workforce participation over time. While expatriate staff are permitted for specialized roles, companies must demonstrate a localization plan showing how expatriate positions will be transferred to qualified Ivorian employees. Additionally, the code encourages preferential procurement of goods and services from local Ivorian suppliers where available at competitive quality and price. These local content provisions aim to maximize the socioeconomic benefits of mining for Côte d'Ivoire beyond government revenue alone. In practice, most operating mines in Côte d'Ivoire have achieved 90%+ local workforce ratios for non-managerial positions.",
@@ -634,10 +634,10 @@
     "domain": "gold",
     "question": "As of 2024, where does Côte d'Ivoire rank approximately among African gold-producing nations?",
     "options": {
-      "A": "1st in Africa, surpassing Ghana and South Africa",
+      "A": "Côte d'Ivoire does not produce any gold commercially",
       "B": "Approximately 5th-7th in Africa, behind Ghana, South Africa, Mali, and Burkina Faso but rising rapidly",
-      "C": "Last among West African producers, producing less than Liberia and Sierra Leone",
-      "D": "Côte d'Ivoire does not produce any gold commercially"
+      "C": "1st in Africa, surpassing Ghana and South Africa",
+      "D": "Last among West African producers, producing less than Liberia and Sierra Leone"
     },
     "correct": "B",
     "explanation": "As of 2024, Côte d'Ivoire ranks approximately 5th to 7th among African gold producers, with annual output of roughly 50 tonnes (~1.6 Moz). It trails Ghana (~100+ tonnes), South Africa (~100 tonnes, declining), Mali (~60-70 tonnes), and Burkina Faso (~60 tonnes), but has been the fastest-growing major gold producer on the continent. The Ivorian government has set an ambitious target of reaching top-5 status in Africa, which is achievable given the pipeline of new mines (Lafigué, Koné) and expansion potential at existing operations. The country's 10-fold production growth from ~5 tonnes in 2010 to ~50 tonnes by 2024 reflects the success of the post-conflict investment drive and the investor-friendly 2014 Mining Code.",
@@ -651,12 +651,12 @@
     "domain": "gold",
     "question": "SODEMI, the Ivorian state mining company, plays multiple roles in the mining sector. In a scenario where a new mine enters production, how does SODEMI typically participate?",
     "options": {
-      "A": "SODEMI operates all mines directly as the sole mining company in Côte d'Ivoire",
-      "B": "SODEMI holds the state's 10% free carry equity, receives dividends when declared, and may participate in joint ventures or conduct its own exploration programs",
-      "C": "SODEMI only regulates artisanal mining and has no role in industrial mining",
+      "A": "SODEMI only regulates artisanal mining and has no role in industrial mining",
+      "B": "SODEMI operates all mines directly as the sole mining company in Côte d'Ivoire",
+      "C": "SODEMI holds the state's 10% free carry equity, receives dividends when declared, and may participate in joint ventures or conduct its own exploration programs",
       "D": "SODEMI's sole function is tax collection on behalf of the Ministry of Finance"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "SODEMI (Société pour le Développement Minier de la Côte d'Ivoire) serves as the custodian of the state's 10% free carry equity interest in all mining operations and receives pro-rata dividends when profits are distributed. Beyond this passive equity role, SODEMI also conducts its own exploration programs on state-held permits, enters into joint venture agreements with private companies to advance projects, and maintains geological databases that support sector development. SODEMI is distinct from the DGMG, which handles regulatory and technical oversight, and from the Ministry of Mines, which handles policy and permitting. SODEMI's dual role as equity holder and explorer gives it a unique position in the Ivorian mining value chain.",
     "key_concept": "SODEMI: holds 10% free carry, receives dividends, conducts exploration, enters JVs; distinct from DGMG regulatory role",
     "source": "SODEMI institutional mandate / Ivorian mining framework",
@@ -668,10 +668,10 @@
     "domain": "gold",
     "question": "A foreign mining company operating in Côte d'Ivoire wants to repatriate profits to its home jurisdiction. What restriction applies under Ivorian law?",
     "options": {
-      "A": "All profits must remain in Côte d'Ivoire indefinitely; no repatriation is allowed",
+      "A": "Repatriation is only permitted in physical gold, not currency",
       "B": "Mining companies operating under the 2014 Mining Code may freely repatriate profits and dividends after meeting all local tax obligations, facilitated by Côte d'Ivoire's membership in the West African CFA franc zone",
-      "C": "Only 10% of profits may be repatriated per year",
-      "D": "Repatriation is only permitted in physical gold, not currency"
+      "C": "All profits must remain in Côte d'Ivoire indefinitely; no repatriation is allowed",
+      "D": "Only 10% of profits may be repatriated per year"
     },
     "correct": "B",
     "explanation": "The 2014 Mining Code guarantees mining companies the right to freely repatriate profits, dividends, and capital after satisfying all local fiscal obligations (taxes, royalties, community fund contributions). This guarantee is a critical investment protection measure. Côte d'Ivoire's membership in the WAEMU/CFA franc zone provides additional comfort, as the CFA franc is pegged to the euro and backed by the French Treasury, providing currency stability and convertibility that is unusual in Sub-Saharan Africa. This eliminates much of the currency risk that plagues mining operations in countries with volatile local currencies. The combination of profit repatriation rights and CFA franc stability is a significant competitive advantage for Côte d'Ivoire in attracting mining investment.",
@@ -685,12 +685,12 @@
     "domain": "gold",
     "question": "A mining engineer is planning infrastructure for a new gold project in northern Côte d'Ivoire. Which infrastructure challenge is most commonly cited by mining operators in the country?",
     "options": {
-      "A": "Lack of available land for mine development",
-      "B": "Reliable power supply, as many mine sites are distant from the national grid and must rely on self-generation or expensive grid extensions",
-      "C": "Extreme cold temperatures requiring heated processing facilities",
-      "D": "Absence of any ports within 5,000 km for importing equipment"
+      "A": "Absence of any ports within 5,000 km for importing equipment",
+      "B": "Extreme cold temperatures requiring heated processing facilities",
+      "C": "Reliable power supply, as many mine sites are distant from the national grid and must rely on self-generation or expensive grid extensions",
+      "D": "Lack of available land for mine development"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Power supply is consistently cited as the most significant infrastructure challenge for mining operations in Côte d'Ivoire, particularly for projects in the north and west of the country that are distant from the national grid. While Côte d'Ivoire has the largest power generation capacity in West Africa (largely from the Soubré and Taabo hydroelectric dams and thermal plants), transmission infrastructure to remote mine sites is often inadequate. Many mines operate their own diesel or HFO power plants at significant cost ($0.15-0.25/kWh vs. $0.08-0.12/kWh from the grid), or invest in grid connection infrastructure. Water supply during the dry season, unpaved road conditions during the rainy season, and limited rail infrastructure are also notable challenges, but power is typically the primary constraint on project economics.",
     "key_concept": "Power supply: #1 infrastructure challenge; remote sites require self-generation at higher cost vs. grid power",
     "source": "Mining infrastructure analysis / operator reports",
@@ -704,8 +704,8 @@
     "options": {
       "A": "Côte d'Ivoire has never experienced any political instability in its history",
       "B": "Unlike Mali and Burkina Faso (which have experienced recent military coups and insurgencies), Côte d'Ivoire has maintained democratic governance and economic growth since 2011, with a functioning legal system and respected mining code",
-      "C": "Côte d'Ivoire has a military government that favors mining companies",
-      "D": "Côte d'Ivoire is not located in West Africa and is therefore immune to regional instability"
+      "C": "Côte d'Ivoire is not located in West Africa and is therefore immune to regional instability",
+      "D": "Côte d'Ivoire has a military government that favors mining companies"
     },
     "correct": "B",
     "explanation": "Since the resolution of the 2010-2011 post-election crisis, Côte d'Ivoire has maintained democratic governance under Presidents Ouattara and successors, achieving sustained GDP growth rates of 6-8% annually and becoming West Africa's largest economy. This contrasts sharply with Mali (coups in 2020 and 2021, withdrawal from ECOWAS, hostile mining code revisions) and Burkina Faso (coup in 2022, jihadi insurgency, increased resource nationalism). Côte d'Ivoire's functioning judicial system, respected mining code with stability clauses, and ECOWAS membership provide a more predictable operating environment. However, CDI did experience its own period of conflict (2002-2011), so the stability advantage is relative and post-2011, not absolute or historical. This political stability differential has driven a measurable shift in exploration investment toward Côte d'Ivoire.",
@@ -719,12 +719,12 @@
     "domain": "gold",
     "question": "A company is comparing mining frameworks between Côte d'Ivoire and Ghana for a potential gold investment. Which statement accurately contrasts the two jurisdictions?",
     "options": {
-      "A": "Ghana has no mining code and operates entirely on informal agreements",
-      "B": "Côte d'Ivoire offers a lower corporate tax rate for miners (25% vs. Ghana's 35%) and CFA franc currency stability, while Ghana offers a more established mining sector with deeper capital markets and longer operational track record",
-      "C": "Ghana prohibits all foreign ownership of mines, while Côte d'Ivoire allows 100% foreign ownership",
-      "D": "Both countries have identical mining codes and fiscal terms"
+      "A": "Ghana prohibits all foreign ownership of mines, while Côte d'Ivoire allows 100% foreign ownership",
+      "B": "Both countries have identical mining codes and fiscal terms",
+      "C": "Ghana has no mining code and operates entirely on informal agreements",
+      "D": "Côte d'Ivoire offers a lower corporate tax rate for miners (25% vs. Ghana's 35%) and CFA franc currency stability, while Ghana offers a more established mining sector with deeper capital markets and longer operational track record"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Côte d'Ivoire and Ghana are both attractive West African gold mining destinations but differ in important ways. CDI offers a lower mining corporate tax rate (25% vs. Ghana's 35%), CFA franc stability (euro-pegged vs. Ghana's cedi, which has experienced significant depreciation), and potentially larger untapped exploration potential in underexplored belts. Ghana, however, offers a more mature mining sector with 100+ years of industrial gold mining history, deeper local capital markets (Ghana Stock Exchange), more experienced local workforce, better established mining supply chain, and a proven regulatory track record. Ghana's gold production (~100+ tonnes/year) is roughly double CDI's, reflecting this maturity. Both countries allow majority foreign ownership and have sliding-scale royalty systems, but their fiscal packages differ in detail.",
     "key_concept": "CDI vs Ghana: CDI has lower tax (25% vs 35%), CFA stability; Ghana has maturity, supply chain, deeper capital markets",
     "source": "Comparative mining jurisdiction analysis",
@@ -736,12 +736,12 @@
     "domain": "gold",
     "question": "A mining company is importing a fleet of haul trucks and processing equipment for its new Côte d'Ivoire gold mine. What customs duty benefit does the 2014 Mining Code provide during the construction phase?",
     "options": {
-      "A": "No customs exemptions exist; all imports are taxed at the standard 20% rate",
-      "B": "Mining companies benefit from customs and import duty exemptions on equipment, machinery, and materials imported during the exploration and construction phases, with reduced rates during production",
-      "C": "Only companies with more than 10,000 employees qualify for customs exemptions",
-      "D": "Customs exemptions apply only to food imports for mine camp catering"
+      "A": "Mining companies benefit from customs and import duty exemptions on equipment, machinery, and materials imported during the exploration and construction phases, with reduced rates during production",
+      "B": "Customs exemptions apply only to food imports for mine camp catering",
+      "C": "No customs exemptions exist; all imports are taxed at the standard 20% rate",
+      "D": "Only companies with more than 10,000 employees qualify for customs exemptions"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The 2014 Mining Code provides significant customs and import duty exemptions to mining companies during the exploration and construction phases. Mining equipment, machinery, vehicles, spare parts, and construction materials can be imported duty-free or at reduced rates during these phases, substantially reducing the upfront capital cost of mine development. During the production phase, reduced customs rates (rather than full exemptions) typically apply to ongoing imports of consumables and replacement equipment. These fiscal incentives are specified in the mining convention negotiated between the company and the state. The customs benefits are a key component of CDI's competitive fiscal package, as import duties can otherwise add 10-20% to the cost of capital equipment in West Africa, where nearly all mining equipment must be imported.",
     "key_concept": "Customs exemptions: duty-free imports during exploration/construction; reduced rates during production phase",
     "source": "Côte d'Ivoire Mining Code 2014 / customs provisions",
@@ -753,12 +753,12 @@
     "domain": "gold",
     "question": "A regional exploration manager is evaluating Côte d'Ivoire's remaining gold exploration potential. Which statement best characterizes the country's underexplored opportunity?",
     "options": {
-      "A": "All Birimian belts in Côte d'Ivoire have been fully drilled out with no remaining exploration upside",
-      "B": "Côte d'Ivoire's Birimian greenstone belts remain significantly underexplored compared to equivalent geology in Ghana and Burkina Faso, with large areas of prospective ground obscured by laterite cover and limited historical drilling",
-      "C": "Côte d'Ivoire has no remaining greenstone belts suitable for gold exploration",
-      "D": "Only offshore areas remain prospective, as all onshore gold has already been discovered"
+      "A": "Only offshore areas remain prospective, as all onshore gold has already been discovered",
+      "B": "Côte d'Ivoire has no remaining greenstone belts suitable for gold exploration",
+      "C": "All Birimian belts in Côte d'Ivoire have been fully drilled out with no remaining exploration upside",
+      "D": "Côte d'Ivoire's Birimian greenstone belts remain significantly underexplored compared to equivalent geology in Ghana and Burkina Faso, with large areas of prospective ground obscured by laterite cover and limited historical drilling"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Despite recent production growth, Côte d'Ivoire's Birimian greenstone belts remain significantly underexplored compared to the equivalent geological terranes in Ghana (Ashanti Belt), Burkina Faso, and Mali, which have been systematically explored for decades longer. Large areas of prospective Birimian geology in CDI have received only reconnaissance-level exploration or no modern exploration at all, particularly in the central and western parts of the country. Thick laterite cover (5-30m) conceals bedrock geology and gold anomalies, requiring systematic geochemical and drilling programs to penetrate. The decades of civil conflict (2002-2011) created a significant exploration gap that the industry is only now beginning to fill. With proven geological fertility demonstrated by multiple multi-million-ounce deposits, the discovery pipeline in Côte d'Ivoire is considered among the most prospective in West Africa.",
     "key_concept": "Underexplored Birimian belts: laterite-covered, conflict-era exploration gap, high discovery potential vs. Ghana/Burkina peers",
     "source": "West African exploration potential analysis",

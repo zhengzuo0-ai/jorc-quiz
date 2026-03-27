@@ -5,12 +5,12 @@
     "domain": "jorc",
     "question": "Table 1 Section 3 of the JORC Code covers reporting requirements for which category?",
     "options": {
-      "A": "Exploration Results",
-      "B": "Mineral Resource estimation and reporting",
-      "C": "Ore Reserve estimation and reporting",
-      "D": "Production reconciliation"
+      "A": "Production reconciliation",
+      "B": "Ore Reserve estimation and reporting",
+      "C": "Mineral Resource estimation and reporting",
+      "D": "Exploration Results"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Table 1 Section 3 specifically addresses the criteria for reporting Mineral Resources. It covers the geological model, estimation methodology, classification criteria, cut-off grades, and numerous other technical parameters that must be disclosed when publicly reporting a Mineral Resource estimate. Section 2 covers Exploration Results and Section 4 covers Ore Reserves. Understanding which section governs which reporting category is fundamental to JORC compliance.",
     "key_concept": "Table 1 Section 3 governs Mineral Resource estimation and reporting",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -39,12 +39,12 @@
     "domain": "jorc",
     "question": "Ordinary kriging is preferred over inverse distance weighting (IDW) for grade estimation in many deposits because:",
     "options": {
-      "A": "Kriging is always faster to compute",
-      "B": "Kriging produces unbiased estimates with minimum estimation variance, using the spatial correlation structure (variogram) of the data",
-      "C": "Kriging always produces higher grade estimates than IDW",
+      "A": "Kriging produces unbiased estimates with minimum estimation variance, using the spatial correlation structure (variogram) of the data",
+      "B": "Kriging always produces higher grade estimates than IDW",
+      "C": "Kriging is always faster to compute",
       "D": "IDW is not permitted under the JORC Code"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Ordinary kriging is a geostatistical method that uses the variogram (spatial correlation model) to produce the Best Linear Unbiased Estimate (BLUE) with minimum estimation variance. Unlike IDW, which uses an arbitrary distance-weighting power, kriging weights are derived from the actual spatial structure of the data, accounting for data clustering, anisotropy, and the geometry of the estimation domain. However, both methods are acceptable under JORC — the Competent Person must justify the chosen method's appropriateness for the deposit type. IDW can be acceptable for well-drilled, relatively homogeneous deposits.",
     "key_concept": "Kriging uses variogram-derived weights for minimum variance, unbiased grade estimation",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -56,12 +56,12 @@
     "domain": "jorc",
     "question": "A variogram models which property of the grade data in a deposit?",
     "options": {
-      "A": "The average grade of the deposit",
-      "B": "The spatial continuity and correlation of grades as a function of distance and direction",
-      "C": "The total tonnage of the resource",
-      "D": "The relationship between gold price and ore grade"
+      "A": "The total tonnage of the resource",
+      "B": "The relationship between gold price and ore grade",
+      "C": "The spatial continuity and correlation of grades as a function of distance and direction",
+      "D": "The average grade of the deposit"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "A variogram (or semi-variogram) quantifies how grade similarity between sample pairs changes as a function of separation distance and direction. It captures three key parameters: the nugget (short-range variability), the sill (total variance), and the range (distance beyond which grades are uncorrelated). Anisotropic variograms capture directional differences in continuity — for example, grades may be continuous along strike for 200m but only 50m across strike. Table 1 Section 3 requires disclosure of variogram parameters and their influence on the resource estimate.",
     "key_concept": "Variograms model spatial grade continuity as a function of distance and direction",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -73,12 +73,12 @@
     "domain": "jorc",
     "question": "Cut-off grade in a Mineral Resource estimate is defined as:",
     "options": {
-      "A": "The average grade of all drill intersections",
-      "B": "The minimum grade at which mineralised material is considered potentially economic and is included in the resource",
+      "A": "The minimum grade at which mineralised material is considered potentially economic and is included in the resource",
+      "B": "The grade at which the mine becomes profitable",
       "C": "The maximum grade permitted before top-cutting is applied",
-      "D": "The grade at which the mine becomes profitable"
+      "D": "The average grade of all drill intersections"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The cut-off grade is the threshold grade below which mineralised material is excluded from the Mineral Resource. It must reflect 'reasonable prospects for eventual economic extraction' as required by the JORC definition of a Mineral Resource (Clause 20). The cut-off grade is influenced by commodity prices, anticipated mining and processing costs, and recovery assumptions. Table 1 Section 3 requires disclosure of the cut-off grade used and the basis for its determination. An unrealistically low cut-off inflates the resource tonnage with sub-economic material, while an excessively high cut-off understates the resource.",
     "key_concept": "Cut-off grade defines the minimum grade for inclusion based on reasonable economic prospects",
     "source": "JORC Code 2012, Clause 20, Table 1 Section 3",
@@ -90,12 +90,12 @@
     "domain": "jorc",
     "question": "The three classification categories for Mineral Resources, in order of increasing geological confidence, are:",
     "options": {
-      "A": "Probable, Possible, Proven",
-      "B": "Inferred, Indicated, Measured",
-      "C": "Measured, Indicated, Inferred",
-      "D": "Preliminary, Definitive, Final"
+      "A": "Measured, Indicated, Inferred",
+      "B": "Probable, Possible, Proven",
+      "C": "Preliminary, Definitive, Final",
+      "D": "Inferred, Indicated, Measured"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The JORC Code classifies Mineral Resources as Inferred (lowest confidence), Indicated, and Measured (highest confidence) based on increasing levels of geological knowledge and confidence in the estimate (Clause 21-23). Inferred Resources are estimated with insufficient confidence for application of Modifying Factors. Indicated Resources have sufficient confidence for mine planning at the pre-feasibility level. Measured Resources have the highest confidence. Note: Proven and Probable are Ore Reserve categories, not Resource categories — a common source of confusion.",
     "key_concept": "Resource classification: Inferred < Indicated < Measured (increasing geological confidence)",
     "source": "JORC Code 2012, Clauses 21-23",
@@ -109,8 +109,8 @@
     "options": {
       "A": "The resource must exceed 1 million tonnes",
       "B": "Drill spacing and data quality must provide sufficient confidence that the geological and grade continuity can be confirmed with certainty",
-      "C": "A feasibility study must be completed",
-      "D": "The deposit must be within 5km of existing infrastructure"
+      "C": "The deposit must be within 5km of existing infrastructure",
+      "D": "A feasibility study must be completed"
     },
     "correct": "B",
     "explanation": "Measured Resources require that drill spacing, data quality, and geological understanding are sufficient to confirm geological and grade continuity with a high degree of confidence (Clause 22). The distinction from Indicated is fundamentally about the confidence in the continuity of geology, grade, and physical characteristics between sample points. This is typically demonstrated through close-spaced drilling, consistent geological model, good variogram structure, and low estimation variance. There is no tonnage threshold, infrastructure requirement, or study requirement for Resource classification — these are separate considerations.",
@@ -124,12 +124,12 @@
     "domain": "jorc",
     "question": "Bulk density (or dry bulk density) is required for Mineral Resource estimation because:",
     "options": {
-      "A": "It determines the colour of the ore",
-      "B": "It is needed to convert estimated volumes into tonnages",
-      "C": "It determines the hardness of the rock for blast design",
-      "D": "It is used to calculate the gold price"
+      "A": "It determines the hardness of the rock for blast design",
+      "B": "It is used to calculate the gold price",
+      "C": "It determines the colour of the ore",
+      "D": "It is needed to convert estimated volumes into tonnages"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Mineral Resources are reported in tonnes and grade. The block model estimates grades and volumes, but tonnage = volume x bulk density. Without accurate density data, the tonnage calculation is unreliable. Table 1 Section 3 requires disclosure of the method used to determine bulk density (e.g., immersion, calliper, gamma logging), the number and distribution of measurements, the assumed density values by rock type, and whether moisture content has been accounted for. Density can vary significantly between oxide, transitional, and fresh rock zones, making spatially distributed measurements essential.",
     "key_concept": "Bulk density converts block model volumes to reportable tonnages",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -141,12 +141,12 @@
     "domain": "jorc",
     "question": "A Competent Person uses a top-cut of 30 g/t Au for a gold resource estimate. What must be disclosed regarding this decision?",
     "options": {
-      "A": "Only the top-cut value itself",
-      "B": "The top-cut value, the statistical basis for its selection, and the impact on the overall resource grade and metal content",
+      "A": "The top-cut value and the number of samples affected",
+      "B": "Only the top-cut value itself",
       "C": "Nothing — top-cutting is an internal technical decision",
-      "D": "The top-cut value and the number of samples affected"
+      "D": "The top-cut value, the statistical basis for its selection, and the impact on the overall resource grade and metal content"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Table 1 Section 3 requires comprehensive disclosure of high-grade management strategies. This includes the top-cut value, the statistical basis for its selection (e.g., log-probability analysis, coefficient of variation analysis, histogram breaks), the number and percentage of samples affected, and importantly, the impact on the resource grade and metal content. A top-cut that reduces the resource grade by 25% is a material factor that investors need to understand. The sensitivity of the estimate to the chosen top-cut level should also be discussed, as different Competent Persons may arrive at different top-cut values from the same data.",
     "key_concept": "Top-cut disclosure must include value, statistical basis, and impact on the resource estimate",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -158,12 +158,12 @@
     "domain": "jorc",
     "question": "Block model parameters that must be reported under Table 1 Section 3 include:",
     "options": {
-      "A": "Only the total number of blocks",
-      "B": "Block size, search parameters, minimum and maximum samples used, and the relationship between block size and drill spacing",
-      "C": "Only the software used for estimation",
-      "D": "Only the block grades above the cut-off"
+      "A": "Only the block grades above the cut-off",
+      "B": "Only the total number of blocks",
+      "C": "Block size, search parameters, minimum and maximum samples used, and the relationship between block size and drill spacing",
+      "D": "Only the software used for estimation"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Table 1 Section 3 requires disclosure of block dimensions (and whether sub-blocking was used), search ellipse orientations and dimensions, minimum and maximum number of composites used per block estimate, and critically, the relationship between block size and data spacing. Block size should generally be approximately half the drill spacing — blocks significantly smaller than the data spacing produce unreliable individual block estimates (though global estimates may still be acceptable). These parameters fundamentally control the smoothing and reliability of the grade estimate.",
     "key_concept": "Block model parameters including size, search criteria, and data spacing relationship must be disclosed",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -176,9 +176,9 @@
     "question": "The JORC Code requires tonnages to be reported on which moisture basis?",
     "options": {
       "A": "Always wet tonnes",
-      "B": "Always dry tonnes",
+      "B": "Moisture basis is not relevant to JORC reporting",
       "C": "The moisture basis must be stated, and dry tonnes are preferred for most commodities",
-      "D": "Moisture basis is not relevant to JORC reporting"
+      "D": "Always dry tonnes"
     },
     "correct": "C",
     "explanation": "Table 1 Section 3 requires that the moisture basis for tonnage reporting be clearly stated. For most metallic mineral deposits, dry tonnes are the standard because the contained metal is the value driver. However, for some commodities (e.g., iron ore, coal), the moisture content is commercially significant and both wet and dry tonnages may be relevant. Reporting tonnage without specifying the moisture basis is a compliance failure because the difference between wet and dry tonnage can be 5-15% or more, particularly for oxide and clay-rich ores. This directly affects the economic value of the resource.",
@@ -193,11 +193,11 @@
     "question": "An Inferred Mineral Resource differs from an Indicated Mineral Resource primarily in that:",
     "options": {
       "A": "Inferred Resources are based on different geological models",
-      "B": "Inferred Resources have lower geological confidence and cannot be directly converted to Ore Reserves",
+      "B": "Inferred Resources use different estimation methods",
       "C": "Inferred Resources are always smaller in tonnage",
-      "D": "Inferred Resources use different estimation methods"
+      "D": "Inferred Resources have lower geological confidence and cannot be directly converted to Ore Reserves"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "An Inferred Resource (Clause 23) is estimated with insufficient confidence in geological and grade continuity to allow the Modifying Factors to be applied with meaningful precision. As a result, Inferred Resources cannot be directly converted to Ore Reserves — only Indicated and Measured Resources can form the basis for Probable and Proved Reserves respectively. The lower confidence typically reflects wider drill spacing, less geological understanding, or limited data quality. Inferred Resources carry the implicit warning that with more data, the estimate could change substantially — upward or downward.",
     "key_concept": "Inferred Resources have insufficient confidence for Reserve conversion — they may change substantially",
     "source": "JORC Code 2012, Clauses 23, 28-29",
@@ -209,12 +209,12 @@
     "domain": "jorc",
     "question": "Inverse distance weighting (IDW) estimation uses a distance power (typically IDW² or IDW³). What is the effect of increasing the power?",
     "options": {
-      "A": "It gives more weight to distant samples, creating a smoother estimate",
-      "B": "It gives more weight to nearby samples, creating a more localised estimate that approaches nearest-neighbour at very high powers",
-      "C": "It has no effect on the grade estimate",
-      "D": "It reduces the total tonnage of the resource"
+      "A": "It reduces the total tonnage of the resource",
+      "B": "It has no effect on the grade estimate",
+      "C": "It gives more weight to nearby samples, creating a more localised estimate that approaches nearest-neighbour at very high powers",
+      "D": "It gives more weight to distant samples, creating a smoother estimate"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "In IDW, sample weights are proportional to 1/d^n where d is distance and n is the power. Higher powers give increasingly dominant weight to the nearest samples. At IDW¹, weights decrease linearly with distance (smoother, more averaged). At IDW², weights decrease with the square of distance (standard). At very high powers (IDW⁶+), the estimate converges toward the nearest-neighbour method where only the closest sample effectively determines the block grade. Table 1 Section 3 requires justification of the IDW power chosen and comparison with alternative methods to demonstrate reasonableness.",
     "key_concept": "Higher IDW power gives more weight to nearest samples, approaching nearest-neighbour",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -243,10 +243,10 @@
     "domain": "jorc",
     "question": "When JORC states that a Mineral Resource must have 'reasonable prospects for eventual economic extraction,' this means:",
     "options": {
-      "A": "A positive NPV feasibility study must be completed",
+      "A": "The current commodity price must exceed the estimated production cost",
       "B": "The Competent Person must consider factors like cut-off grade, mining method, processing, and access that suggest the material could realistically be mined in the future",
-      "C": "The current commodity price must exceed the estimated production cost",
-      "D": "An Ore Reserve must be simultaneously declared"
+      "C": "An Ore Reserve must be simultaneously declared",
+      "D": "A positive NPV feasibility study must be completed"
     },
     "correct": "B",
     "explanation": "The 'reasonable prospects for eventual economic extraction' test (Clause 20) requires the Competent Person to consider, at a broad conceptual level, whether the mineralisation could realistically be mined. This includes consideration of likely mining method (open pit vs underground), reasonable cut-off grades, processing characteristics, location and access, and commodity price outlook. It does NOT require a feasibility study, positive NPV, or simultaneous Reserve declaration. However, it does exclude mineralised material that has no conceivable path to economic extraction — for example, deep, low-grade material in a remote location with no infrastructure.",
@@ -261,11 +261,11 @@
     "question": "A company reports a Mineral Resource that is described as 'additional to' Ore Reserves. What does this mean?",
     "options": {
       "A": "The Resource has been converted to Reserves and then additional material was found",
-      "B": "The reported Resource tonnage does NOT include the material already converted to Ore Reserves — the Resource and Reserve are mutually exclusive quantities",
+      "B": "The Resource was estimated by a different Competent Person than the Reserve",
       "C": "The Resource is reported after the Reserve was depleted by mining",
-      "D": "The Resource was estimated by a different Competent Person than the Reserve"
+      "D": "The reported Resource tonnage does NOT include the material already converted to Ore Reserves — the Resource and Reserve are mutually exclusive quantities"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "When a Mineral Resource is reported as 'additional to' Ore Reserves, it means the Resource figure excludes the material that has been converted to Reserves. The total mineralised inventory = Resource + Reserve. Alternatively, a Resource can be reported as 'inclusive of' Reserves, meaning the Reserve is a subset of the reported Resource figure. The JORC Code (Clause 24) requires clear statement of which convention is used, as confusion between 'inclusive' and 'additional' can lead to double-counting or misunderstanding of the total mineral inventory. Industry practice varies by jurisdiction.",
     "key_concept": "'Additional to' means Resources exclude Reserve material; 'inclusive of' means Reserves are a subset",
     "source": "JORC Code 2012, Clause 24",
@@ -278,11 +278,11 @@
     "question": "The polygonal estimation method assigns grades to blocks based on:",
     "options": {
       "A": "A weighted average of all samples within a search ellipse",
-      "B": "The grade of the nearest sample, with each sample assigned an area of influence using Thiessen polygons",
+      "B": "The arithmetic mean of all samples in the deposit",
       "C": "A geostatistical simulation of possible grade distributions",
-      "D": "The arithmetic mean of all samples in the deposit"
+      "D": "The grade of the nearest sample, with each sample assigned an area of influence using Thiessen polygons"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The polygonal (Thiessen/Voronoi) method assigns each sample a polygon of influence based on the perpendicular bisectors between adjacent sample points. All blocks within a polygon receive the grade of its central sample. This is the simplest estimation method and produces locally unsmoothed estimates. It is generally only appropriate for evenly-spaced data or as a global check on more sophisticated methods. For irregularly spaced data, polygonal estimation produces highly biased results because clustered samples get small polygons while isolated samples get disproportionately large ones. Table 1 Section 3 requires justification of the chosen estimation method.",
     "key_concept": "Polygonal estimation assigns nearest-sample grades via Thiessen polygons — simple but sensitive to data spacing",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -294,12 +294,12 @@
     "domain": "jorc",
     "question": "A resource estimate is reconciled against production data from an operating mine. The reconciliation shows the model consistently overstates grade by 15%. Under JORC, what should the Competent Person do?",
     "options": {
-      "A": "Ignore the discrepancy as reconciliation is only informational",
-      "B": "Investigate the cause of the discrepancy and disclose the reconciliation results, adjustments made, or reasons if no adjustment was applied",
+      "A": "Withdraw the resource estimate entirely",
+      "B": "Ignore the discrepancy as reconciliation is only informational",
       "C": "Automatically reduce all resource grades by 15%",
-      "D": "Withdraw the resource estimate entirely"
+      "D": "Investigate the cause of the discrepancy and disclose the reconciliation results, adjustments made, or reasons if no adjustment was applied"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Table 1 Section 3 requires disclosure of reconciliation results where applicable. A systematic 15% grade overstatement is material and demands investigation — potential causes include assay bias, selective mining, ore loss, dilution, sample support effects, or estimation bias (smoothing). The Competent Person must disclose the reconciliation results and either adjust the estimate or explain why no adjustment was made. Simply applying a blanket 15% reduction without understanding the cause could be equally inappropriate. Reconciliation is one of the most powerful validation tools for resource estimates.",
     "key_concept": "Production reconciliation discrepancies must be investigated, disclosed, and addressed",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -311,12 +311,12 @@
     "domain": "jorc",
     "question": "The 'nugget effect' in variography represents:",
     "options": {
-      "A": "The presence of visible gold nuggets in drill core",
-      "B": "The random, short-range variability in grades that cannot be resolved by the sampling spacing, plus measurement error",
-      "C": "The increase in grade variance at long distances",
-      "D": "The effect of gold price fluctuations on resource value"
+      "A": "The effect of gold price fluctuations on resource value",
+      "B": "The presence of visible gold nuggets in drill core",
+      "C": "The random, short-range variability in grades that cannot be resolved by the sampling spacing, plus measurement error",
+      "D": "The increase in grade variance at long distances"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "In variography, the nugget effect (C₀) is the y-intercept of the variogram — the variance that exists at zero separation distance. It represents two components: (1) micro-scale geological variability at distances shorter than the closest sample spacing, and (2) measurement error from sampling and assaying. A high nugget effect means grades are poorly correlated even at short distances, which increases estimation uncertainty and typically leads to more conservative resource classification. The term originates from gold deposits where coarse gold particles create extreme short-range grade variability, but it applies to all variogram models.",
     "key_concept": "Nugget effect = short-range variability + measurement error, visible as variogram y-intercept",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -328,12 +328,12 @@
     "domain": "jorc",
     "question": "A Competent Person is classifying blocks in a resource model. Which approach to classification is most consistent with JORC requirements?",
     "options": {
-      "A": "Classify all blocks as Measured to maximise the reported resource",
-      "B": "Use a combination of data density, estimation quality metrics (kriging variance, slope of regression), geological confidence, and reconciliation data",
-      "C": "Classify solely based on drill hole spacing with fixed distance thresholds",
-      "D": "Allow the mining company's board to determine classification"
+      "A": "Use a combination of data density, estimation quality metrics (kriging variance, slope of regression), geological confidence, and reconciliation data",
+      "B": "Classify solely based on drill hole spacing with fixed distance thresholds",
+      "C": "Allow the mining company's board to determine classification",
+      "D": "Classify all blocks as Measured to maximise the reported resource"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "JORC (Clauses 21-23) requires that classification reflect the Competent Person's confidence in the geological and grade continuity, data quality, and estimation reliability. Best practice uses multiple criteria: drill spacing and data density, estimation quality metrics (kriging variance, number of informing samples, slope of regression), geological model confidence, data quality (QA/QC results), and reconciliation where available. Using drill spacing alone is overly simplistic — it does not account for geological complexity or estimation performance. Classification is the Competent Person's professional judgement and cannot be delegated to management.",
     "key_concept": "Resource classification uses multiple confidence criteria, not drill spacing alone",
     "source": "JORC Code 2012, Clauses 21-23",
@@ -345,12 +345,12 @@
     "domain": "jorc",
     "question": "Which of the following bulk density determination methods would be LEAST reliable for a porous, oxide gold ore?",
     "options": {
-      "A": "Water immersion method on wax-coated core samples",
-      "B": "Water immersion method on uncoated core samples",
-      "C": "Calliper method on regular-geometry core samples",
-      "D": "Downhole gamma-gamma density logging"
+      "A": "Calliper method on regular-geometry core samples",
+      "B": "Downhole gamma-gamma density logging",
+      "C": "Water immersion method on uncoated core samples",
+      "D": "Water immersion method on wax-coated core samples"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Water immersion on uncoated samples is unreliable for porous materials because water enters the pore spaces during measurement, reducing the apparent volume and overstating the density. For porous oxide ores, the measured density can be 10-20% higher than the actual in-situ density. Wax-coating before immersion seals the pores and gives a more accurate result. Calliper methods work for regular-geometry samples but may miss internal porosity. Gamma-gamma logging measures in-situ density and captures moisture effects. Table 1 Section 3 requires disclosure of the density determination method, number of measurements, and consideration of porosity effects.",
     "key_concept": "Uncoated water immersion overstates density for porous ores — wax-coating or in-situ methods are required",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -363,11 +363,11 @@
     "question": "Grade continuity in a resource estimate refers to:",
     "options": {
       "A": "Whether the company will continue mining at the same grade",
-      "B": "The degree to which grades can be predicted between sample points, reflecting the spatial correlation of mineralisation",
-      "C": "Whether the grade exceeds the cut-off continuously",
+      "B": "Whether the grade exceeds the cut-off continuously",
+      "C": "The degree to which grades can be predicted between sample points, reflecting the spatial correlation of mineralisation",
       "D": "The consistency of laboratory assay results over time"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Grade continuity describes how predictable grades are between known data points. High grade continuity means that if two nearby samples show similar grades, the grade between them is likely to be similar — this supports higher resource classification. Low grade continuity (high nugget effect, erratic grades) means grades between samples are unpredictable, requiring closer drill spacing for the same level of confidence. Grade continuity is quantified through the variogram and is a primary factor in resource classification. The JORC Code (Table 1 Section 3) requires that the confidence in grade continuity be discussed and its implications for classification explained.",
     "key_concept": "Grade continuity = spatial predictability of grades between sample points, quantified by variograms",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -379,12 +379,12 @@
     "domain": "jorc",
     "question": "A Mineral Resource estimate includes dilution and recovery assumptions. Under JORC, is this appropriate?",
     "options": {
-      "A": "Yes, Resources should always include mining dilution and ore loss",
-      "B": "No — Mineral Resources are estimated in-situ; dilution and recovery are Modifying Factors applied when converting to Ore Reserves",
-      "C": "Yes, but only for underground mining methods",
-      "D": "No — neither Resources nor Reserves should include dilution"
+      "A": "Yes, but only for underground mining methods",
+      "B": "No — neither Resources nor Reserves should include dilution",
+      "C": "Yes, Resources should always include mining dilution and ore loss",
+      "D": "No — Mineral Resources are estimated in-situ; dilution and recovery are Modifying Factors applied when converting to Ore Reserves"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Mineral Resources are reported as in-situ estimates — they represent the mineralisation as it exists in the ground before any mining takes place. Mining dilution (inclusion of waste material) and ore loss (mineralised material that cannot be recovered) are Modifying Factors that are applied during the conversion of Resources to Ore Reserves (Table 1 Section 4). Including mining dilution or ore loss assumptions in a Resource estimate would conflate the geological model with mining assumptions, making it difficult for readers to assess either independently. However, the cut-off grade used for the Resource should consider the likely mining scenario at a conceptual level.",
     "key_concept": "Resources are in-situ estimates; dilution and recovery are Modifying Factors for Reserves",
     "source": "JORC Code 2012, Table 1 Sections 3-4",
@@ -396,12 +396,12 @@
     "domain": "jorc",
     "question": "A deposit has 60% of its resource classified as Indicated and 40% as Inferred. A company is considering converting this to an Ore Reserve. What is the maximum percentage that could theoretically be converted?",
     "options": {
-      "A": "100% — all resource categories can become Reserves",
-      "B": "60% — only the Indicated portion can be converted (to Probable Reserve)",
-      "C": "40% — only the Inferred portion can be converted",
-      "D": "0% — a feasibility study must be completed first before any conversion"
+      "A": "0% — a feasibility study must be completed first before any conversion",
+      "B": "40% — only the Inferred portion can be converted",
+      "C": "60% — only the Indicated portion can be converted (to Probable Reserve)",
+      "D": "100% — all resource categories can become Reserves"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Under JORC (Clauses 28-29), only Indicated and Measured Resources can be converted to Ore Reserves — Measured to Proved Reserves and Indicated to Probable Reserves. Inferred Resources cannot be converted to any Reserve category because they lack sufficient geological confidence. Therefore, the maximum conversion is limited to the 60% Indicated portion. In practice, the actual conversion would typically be lower than 60% because not all Indicated material will be economically extractable after applying Modifying Factors (mining, processing, economic, and other considerations). The Inferred material is excluded from the Reserve entirely.",
     "key_concept": "Only Measured and Indicated Resources can convert to Reserves — Inferred cannot",
     "source": "JORC Code 2012, Clauses 28-29",
@@ -413,12 +413,12 @@
     "domain": "jorc",
     "question": "The nearest-neighbour estimation method is generally considered the LEAST sophisticated estimation technique. Under what circumstances might its use be appropriate for a JORC-compliant resource?",
     "options": {
-      "A": "It is never appropriate under JORC",
-      "B": "For a global resource estimate check or validation of more sophisticated methods, or for deposits with very regular drill spacing and simple geology",
-      "C": "Only for coal deposits",
-      "D": "When the Competent Person lacks access to kriging software"
+      "A": "When the Competent Person lacks access to kriging software",
+      "B": "Only for coal deposits",
+      "C": "It is never appropriate under JORC",
+      "D": "For a global resource estimate check or validation of more sophisticated methods, or for deposits with very regular drill spacing and simple geology"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Nearest-neighbour assigns each block the grade of the closest sample. While unsophisticated, it has legitimate uses: as a global validation check against kriging or IDW estimates (they should produce similar global averages), for deposits with very regular drill spacing where data clustering is not an issue, or for early-stage estimates where more complex methods are not yet justified. Table 1 Section 3 requires that the Competent Person justify the chosen method. Lack of software access is not an acceptable justification — the method must be appropriate for the deposit characteristics and the intended use of the estimate.",
     "key_concept": "Nearest-neighbour is valid for global checks or simple deposits but must be justified",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -430,12 +430,12 @@
     "domain": "jorc",
     "question": "When reporting a Mineral Resource, the JORC Code requires the Competent Person to consider 'all relevant factors.' Which of the following is NOT a factor that must be considered?",
     "options": {
-      "A": "The geological model and estimation methodology",
-      "B": "Cut-off grade assumptions and their basis",
-      "C": "The company's current share price and market capitalisation",
-      "D": "Environmental and social factors that may affect reasonable prospects for economic extraction"
+      "A": "Cut-off grade assumptions and their basis",
+      "B": "The geological model and estimation methodology",
+      "C": "Environmental and social factors that may affect reasonable prospects for economic extraction",
+      "D": "The company's current share price and market capitalisation"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Table 1 Section 3 requires consideration of geological models, estimation methods, cut-off grades, density, classification, and environmental/social factors. The company's share price and market capitalisation are irrelevant to the technical and geological assessment of a Mineral Resource. The Resource estimate must be based on geological and technical merit, not on the company's market valuation. Including market factors would compromise the independence and objectivity of the Competent Person's assessment and violate the Competence principle.",
     "key_concept": "Resource estimation considers geological and technical factors, never market valuation",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -448,11 +448,11 @@
     "question": "A resource model uses a search ellipse with a maximum range of 300m, but the drill spacing in parts of the deposit is 150m. What concern does this raise?",
     "options": {
       "A": "No concern — the search range should always exceed drill spacing",
-      "B": "The search range is so much larger than the drill spacing that blocks estimated using distant samples may have low reliability, yet could still be classified as Indicated or Measured",
-      "C": "The search range should be exactly equal to drill spacing",
-      "D": "The search range should always be less than drill spacing"
+      "B": "The search range should always be less than drill spacing",
+      "C": "The search range is so much larger than the drill spacing that blocks estimated using distant samples may have low reliability, yet could still be classified as Indicated or Measured",
+      "D": "The search range should be exactly equal to drill spacing"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "When the search range significantly exceeds the drill spacing, blocks at the margins of the data (or in gaps between holes) may be estimated using samples at considerable distance. These distant-informed blocks may have high kriging variance and poor estimation quality, but could appear to be well-estimated by simple metrics. This creates a risk of over-classification — blocks that should be Inferred being classified as Indicated. Best practice uses restricted search ranges for higher classification categories and requires minimum numbers of informing samples from multiple drill holes. Table 1 Section 3 requires disclosure of search parameters and their relationship to data spacing.",
     "key_concept": "Excessive search ranges relative to drill spacing risk over-classification of resource blocks",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -464,10 +464,10 @@
     "domain": "jorc",
     "question": "A Competent Person is defining estimation domains for a polymetallic VMS deposit with distinct massive sulphide, stringer, and disseminated zones. What is the MOST important principle for domain definition?",
     "options": {
-      "A": "Domains should be defined purely by grade thresholds using a fixed cut-off",
+      "A": "Domains should be defined solely by the block model software's automatic clustering algorithm",
       "B": "Domains should be geologically meaningful, reflecting distinct populations with different grade distributions, and their boundaries should be supported by geological evidence such as lithology, alteration, or structural controls",
       "C": "A single domain should always be used to maximise sample numbers for variography",
-      "D": "Domains should be defined solely by the block model software's automatic clustering algorithm"
+      "D": "Domains should be defined purely by grade thresholds using a fixed cut-off"
     },
     "correct": "B",
     "explanation": "Estimation domains must be geologically meaningful and statistically distinct. Each domain should represent a population with internally consistent grade characteristics — combining massive sulphide (high grade, low variance) with disseminated mineralisation (low grade, high variance) into a single domain would violate stationarity assumptions and produce biased estimates. Domain boundaries should be justified by geological evidence: lithology contacts, alteration boundaries, structural controls, or mineralisation style. Grade-only thresholds risk creating artificial domains that do not reflect geological reality. Table 1 Section 3 requires disclosure of the geological interpretation underpinning estimation domains and the rationale for their definition.",
@@ -481,12 +481,12 @@
     "domain": "jorc",
     "question": "A deposit has been drilled on an irregular pattern — some areas at 25m spacing and others at 100m. The global mean grade of all composites is 2.1 g/t Au. A Competent Person suspects this naively calculated mean is biased. Why?",
     "options": {
-      "A": "The laboratory instruments drift over time, biasing later assays",
-      "B": "Closely spaced drilling tends to be concentrated in higher-grade areas, so the clustered high-grade samples are over-represented in the global mean",
-      "C": "Wider-spaced samples are always less accurate than closely-spaced ones",
-      "D": "The mean is always unbiased if all samples are weighted equally"
+      "A": "The mean is always unbiased if all samples are weighted equally",
+      "B": "Wider-spaced samples are always less accurate than closely-spaced ones",
+      "C": "The laboratory instruments drift over time, biasing later assays",
+      "D": "Closely spaced drilling tends to be concentrated in higher-grade areas, so the clustered high-grade samples are over-represented in the global mean"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Preferential or clustered sampling is one of the most common sources of bias in resource estimation. Companies tend to drill closely in areas where initial results are encouraging (higher grades), creating data clusters that over-represent high-grade zones when a simple arithmetic mean is calculated. This is called information bias or clustering bias. Declustering techniques — such as cell declustering or polygonal declustering — assign lower weights to clustered samples and higher weights to isolated samples to produce an unbiased global estimate. Table 1 Section 3 requires disclosure of how data clustering has been addressed in the estimation.",
     "key_concept": "Clustered drilling in high-grade areas biases naive statistics — declustering is essential",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -499,11 +499,11 @@
     "question": "Compositing in resource estimation involves combining individual assay intervals into equal-length composites. What is the PRIMARY reason for compositing?",
     "options": {
       "A": "To reduce the number of samples and speed up the estimation software",
-      "B": "To regularise sample support so that each data point represents an equal volume of rock, ensuring valid geostatistical analysis",
-      "C": "To artificially smooth out high grades",
-      "D": "To eliminate the need for variography"
+      "B": "To artificially smooth out high grades",
+      "C": "To eliminate the need for variography",
+      "D": "To regularise sample support so that each data point represents an equal volume of rock, ensuring valid geostatistical analysis"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Geostatistical methods assume data with equal support (volume). Raw assay intervals often vary in length (0.3m to 3m), meaning each sample represents a different volume of rock. Compositing regularises the data to a consistent length so that each composite has equal statistical weight. The composite length should reflect the likely selective mining unit or a practical interval related to the mineralisation style — typically 1-2m for gold deposits or matching bench heights for bulk mining. Compositing does produce some smoothing, but that is a secondary effect, not the primary purpose. Table 1 Section 3 requires disclosure of the compositing method, length, and rationale.",
     "key_concept": "Compositing regularises sample support for valid geostatistical analysis",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -515,12 +515,12 @@
     "domain": "jorc",
     "question": "Multiple indicator kriging (MIK) is particularly suited to which type of deposit?",
     "options": {
-      "A": "Deposits with simple, normally distributed grade populations",
-      "B": "Deposits with complex, highly skewed grade distributions where conventional kriging may over-smooth the grade-tonnage relationship",
-      "C": "Deposits where no variogram can be fitted",
-      "D": "Deposits with only 10-20 drill holes"
+      "A": "Deposits where no variogram can be fitted",
+      "B": "Deposits with only 10-20 drill holes",
+      "C": "Deposits with complex, highly skewed grade distributions where conventional kriging may over-smooth the grade-tonnage relationship",
+      "D": "Deposits with simple, normally distributed grade populations"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "MIK estimates the full conditional cumulative distribution function (ccdf) of grade at each block, rather than just the mean grade. This is particularly valuable for deposits with highly skewed, multi-modal, or complex grade distributions — such as nuggety gold deposits — where ordinary kriging tends to over-smooth grades and produce unreliable grade-tonnage curves. MIK works by transforming the grade data into a series of indicator variables at multiple thresholds and kriging each indicator separately. The resulting grade-tonnage curves better represent the inherent variability of the deposit. However, MIK requires substantial data and careful implementation. Table 1 Section 3 requires justification of why MIK was selected over simpler methods.",
     "key_concept": "MIK estimates grade distributions for complex, skewed deposits where kriging over-smooths",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -533,11 +533,11 @@
     "question": "A grade-tonnage curve for a gold deposit shows that at a 0.5 g/t cut-off the resource is 10 Mt at 2.0 g/t, but at 1.0 g/t cut-off it drops to 4 Mt at 3.5 g/t. What does this steep tonnage drop indicate?",
     "options": {
       "A": "The estimation method is unreliable",
-      "B": "A large proportion of the resource sits between 0.5 and 1.0 g/t — the deposit is grade-sensitive and small changes in cut-off grade dramatically affect the reported resource",
+      "B": "The variogram range is too short",
       "C": "The block model has too many blocks",
-      "D": "The variogram range is too short"
+      "D": "A large proportion of the resource sits between 0.5 and 1.0 g/t — the deposit is grade-sensitive and small changes in cut-off grade dramatically affect the reported resource"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Grade-tonnage curves reveal the sensitivity of the resource to cut-off grade assumptions. A steep drop in tonnage over a narrow grade range means a large volume of material exists near the marginal cut-off — the resource is highly sensitive to commodity price fluctuations. This is critical information for investors and for mine planning because small changes in gold price could render 60% of the resource sub-economic. Table 1 Section 3 effectively requires this sensitivity to be communicated by requiring discussion of the cut-off grade basis and the resource's sensitivity to key assumptions. A Competent Person should present grade-tonnage curves or tabulate the resource at multiple cut-offs to convey this risk.",
     "key_concept": "Grade-tonnage curves reveal resource sensitivity to cut-off grade and economic assumptions",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -550,9 +550,9 @@
     "question": "Swath plots are a common validation tool for resource estimates. What do they compare?",
     "options": {
       "A": "The estimated block grades (averaged in slices or swaths along each axis) against the declustered composite grades in the same slices",
-      "B": "The drill hole collar coordinates against the block model extents",
-      "C": "The variogram model against the gold price forecast",
-      "D": "The tonnage from open pit optimisation against underground stope optimisation"
+      "B": "The tonnage from open pit optimisation against underground stope optimisation",
+      "C": "The drill hole collar coordinates against the block model extents",
+      "D": "The variogram model against the gold price forecast"
     },
     "correct": "A",
     "explanation": "Swath plots compare the mean estimated block grade in successive slices (e.g., 50m-wide east-west swaths) against the mean declustered composite grade in the same slices, along each of the three principal axes (easting, northing, elevation). If the model is globally unbiased, the two curves should track closely. Systematic divergence indicates estimation bias — the model may be under- or over-estimating grades in specific parts of the deposit. Swath plots are one of several validation techniques (alongside visual inspection, global statistics comparison, and change-of-support checks) that Table 1 Section 3 expects a Competent Person to perform and disclose.",
@@ -567,11 +567,11 @@
     "question": "What is 'change of support' in the context of resource estimation, and why does it matter?",
     "options": {
       "A": "Changing from one mining contractor to another during operations",
-      "B": "The statistical effect whereby the variance of grades decreases as the volume (support) over which grades are averaged increases — affecting the proportion of material above a given cut-off",
+      "B": "Updating the resource estimate when new drill data becomes available",
       "C": "Converting from metric to imperial units in the block model",
-      "D": "Updating the resource estimate when new drill data becomes available"
+      "D": "The statistical effect whereby the variance of grades decreases as the volume (support) over which grades are averaged increases — affecting the proportion of material above a given cut-off"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Change of support is a fundamental geostatistical principle: as the averaging volume increases (from a 1m drill sample to a 10m mining block to a 50m panel), the variance of grades decreases and the grade distribution becomes tighter around the mean. This means the proportion of material above (or below) any cut-off grade changes with the block size used. A model with small blocks will show more material at extreme grades (both high and low) than one with large blocks. This has direct implications for recoverable resource estimation and selective mining unit (SMU) assumptions. Methods like MIK with change-of-support corrections or conditional simulation address this issue explicitly.",
     "key_concept": "Change of support: grade variance decreases with increasing block volume, affecting cut-off grade economics",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -583,10 +583,10 @@
     "domain": "jorc",
     "question": "A Competent Person must choose between ordinary kriging (OK) and conditional simulation (CS) for a deposit where understanding local grade variability and selectivity is critical for mine planning. Which statement is correct?",
     "options": {
-      "A": "OK and CS always produce identical results, so the choice does not matter",
+      "A": "OK is always superior because it produces minimum-variance estimates",
       "B": "CS should be used because it reproduces the full range of grade variability including local uncertainty, while OK produces smoothed estimates that understate grade variability at the block scale",
-      "C": "OK is always superior because it produces minimum-variance estimates",
-      "D": "CS is prohibited under the JORC Code because it introduces randomness"
+      "C": "CS is prohibited under the JORC Code because it introduces randomness",
+      "D": "OK and CS always produce identical results, so the choice does not matter"
     },
     "correct": "B",
     "explanation": "Ordinary kriging produces the best estimate of the mean grade for each block (minimum variance, unbiased) but smooths the grade distribution — it overstates tonnage near the mean grade and understates both high-grade and low-grade tails. Conditional simulation generates multiple equally probable realisations that honour the data values, histogram, and spatial correlation. Each realisation reproduces the full grade variability, and the ensemble of realisations quantifies local uncertainty. This makes CS particularly valuable when selectivity, dilution, or ore loss is critical. Both methods are acceptable under JORC; the Competent Person must justify the choice based on the deposit characteristics and the intended use of the estimate.",
@@ -600,12 +600,12 @@
     "domain": "jorc",
     "question": "A deposit contains two adjacent mineralisation zones: a high-grade quartz vein and a lower-grade disseminated halo. The Competent Person must decide whether to use hard or soft boundaries between these domains. What is the key criterion?",
     "options": {
-      "A": "Hard boundaries should always be used because they are simpler to implement",
-      "B": "If there is a sharp geological contact with a distinct grade break, hard boundaries are appropriate; if there is a gradational transition, soft boundaries that allow data from one domain to inform the other may be more appropriate",
-      "C": "Soft boundaries should always be used to maximise the number of informing samples",
+      "A": "If there is a sharp geological contact with a distinct grade break, hard boundaries are appropriate; if there is a gradational transition, soft boundaries that allow data from one domain to inform the other may be more appropriate",
+      "B": "Soft boundaries should always be used to maximise the number of informing samples",
+      "C": "Hard boundaries should always be used because they are simpler to implement",
       "D": "The choice depends entirely on which option produces the higher resource tonnage"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The choice between hard and soft domain boundaries must be driven by the geological reality at the contact. Hard boundaries prevent data from one domain influencing estimates in the adjacent domain — appropriate where sharp geological contacts produce abrupt grade changes (e.g., a vein contact). Soft boundaries allow some cross-domain data influence — appropriate for gradational transitions such as disseminated halos around veins, or weathering profiles. Contact analysis (comparing grade profiles across the boundary) should be used to determine the appropriate approach. Table 1 Section 3 requires disclosure of the domain boundary treatment and its geological justification. Using hard boundaries where grade transitions are gradational can create artificial grade discontinuities in the model.",
     "key_concept": "Hard vs soft domain boundaries must reflect the geological nature of the contact",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -617,10 +617,10 @@
     "domain": "jorc",
     "question": "Beyond simple top-cutting, what is an alternative outlier management strategy that a Competent Person might employ for a gold deposit with extreme high grades?",
     "options": {
-      "A": "Delete all samples above the 95th percentile from the dataset",
+      "A": "Assign all high-grade samples to a separate resource category called 'Speculative'",
       "B": "Restrict the distance of influence of high-grade composites by using a reduced search neighbourhood for samples above a specified threshold",
       "C": "Report the resource without any outlier treatment and let the market decide",
-      "D": "Assign all high-grade samples to a separate resource category called 'Speculative'"
+      "D": "Delete all samples above the 95th percentile from the dataset"
     },
     "correct": "B",
     "explanation": "Restricting the search distance for high-grade composites is a sophisticated alternative to simple top-cutting. Rather than permanently reducing or capping high grades, this approach limits how far each high-grade sample can influence surrounding blocks. A high-grade intersection can still contribute its full value to nearby blocks (where it is geologically reasonable) but cannot dominate estimates at greater distances where its influence is uncertain. Other advanced techniques include high-grade domaining (treating high-grade zones as separate estimation domains) and indicator-based methods. Table 1 Section 3 requires disclosure of how extreme grades have been managed and the impact on the estimate. Deleting samples is never appropriate as it discards real geological information.",
@@ -634,9 +634,9 @@
     "domain": "jorc",
     "question": "In a sub-blocked model, parent cells are subdivided at domain boundaries or topographic surfaces. What is the critical rule regarding grade estimation in sub-blocked models?",
     "options": {
-      "A": "Each sub-cell must be estimated independently using its own search parameters",
+      "A": "Sub-cells always receive a grade of zero to be conservative",
       "B": "Grade is typically estimated at the parent cell level, and all sub-cells within the same domain inherit the parent cell grade — this avoids artificial grade variability from support effects",
-      "C": "Sub-cells always receive a grade of zero to be conservative",
+      "C": "Each sub-cell must be estimated independently using its own search parameters",
       "D": "Sub-cells must have higher grades than parent cells to compensate for their smaller volume"
     },
     "correct": "B",
@@ -653,8 +653,8 @@
     "options": {
       "A": "Multiple indicator kriging — because all deposits require MIK",
       "B": "Ordinary kriging — the deposit's large scale, relatively low grade variability, and regular data spacing make it well suited to OK, which will produce reliable block estimates with quantified estimation variance",
-      "C": "Nearest-neighbour — because the drill spacing is too wide for geostatistics",
-      "D": "Polygonal estimation — because porphyry deposits always use polygonal methods"
+      "C": "Polygonal estimation — because porphyry deposits always use polygonal methods",
+      "D": "Nearest-neighbour — because the drill spacing is too wide for geostatistics"
     },
     "correct": "B",
     "explanation": "Porphyry copper deposits are typically large, with relatively continuous grade distributions and moderate variability — characteristics well-suited to ordinary kriging. The regular drill spacing enables reliable variogram modelling, and the deposit's scale and continuity mean OK can produce robust block estimates with quantifiable estimation variance. MIK would be unnecessarily complex for a grade distribution that is not highly skewed. Nearest-neighbour and polygonal methods, while valid as global checks, would not leverage the spatial correlation structure that OK captures. The JORC Code does not prescribe a specific estimation method; the Competent Person must justify the method's appropriateness for the deposit type, data density, and grade characteristics (Table 1 Section 3).",
@@ -668,10 +668,10 @@
     "domain": "jorc",
     "question": "When should a block model be rotated (i.e., have its axes aligned to something other than the grid north/east/elevation)?",
     "options": {
-      "A": "Block models should never be rotated — they must always align with mine grid north",
+      "A": "Rotation is only applied to underground deposits",
       "B": "When the orebody geometry, strike direction, or principal directions of grade continuity are oblique to the standard grid, rotating the model to align with geological controls improves estimation accuracy and volumetric representation",
       "C": "Only when the mining lease boundary is not aligned with north",
-      "D": "Rotation is only applied to underground deposits"
+      "D": "Block models should never be rotated — they must always align with mine grid north"
     },
     "correct": "B",
     "explanation": "Block model rotation aligns the model axes with the dominant geological orientation of the deposit — typically along strike, across strike, and down dip. This is important because: (1) blocks aligned with the orebody minimise the volume of partially-filled boundary blocks, improving tonnage accuracy; (2) the estimation search can more naturally follow the geological continuity; and (3) grade estimation within oriented blocks better represents the selective mining geometry. For steeply dipping or obliquely striking orebodies, a non-rotated model can produce significant volumetric errors at domain boundaries. Table 1 Section 3 requires disclosure of block model orientation and its geological rationale.",
@@ -685,12 +685,12 @@
     "domain": "jorc",
     "question": "A narrow vein gold deposit has a true width of 1.5m but the company reports the resource using 10m x 10m x 5m blocks. What is the problem with this approach?",
     "options": {
-      "A": "There is no problem — larger blocks are always more reliable",
-      "B": "The block size far exceeds the minimum mining width, resulting in excessive internal dilution within each block and producing an unrealistically low average grade that does not represent what could actually be selectively mined",
-      "C": "Smaller blocks would produce a lower tonnage",
+      "A": "Smaller blocks would produce a lower tonnage",
+      "B": "There is no problem — larger blocks are always more reliable",
+      "C": "The block size far exceeds the minimum mining width, resulting in excessive internal dilution within each block and producing an unrealistically low average grade that does not represent what could actually be selectively mined",
       "D": "The JORC Code mandates 1m x 1m x 1m blocks for all vein deposits"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "For narrow vein deposits, the block size must reflect the minimum mining width (MMW) — the narrowest width that can be practically mined. Using 10m blocks for a 1.5m vein means each block averages the vein grade with ~8.5m of waste, producing unrealistically diluted grades that do not represent the material that a selective mining operation would recover. The resource would be understated in grade and overstated in tonnage relative to what could actually be mined. Best practice for narrow veins uses block widths close to the MMW (e.g., 1.5-3m) or reports the resource on a vein-width basis with separate internal dilution calculations. Table 1 Section 3 requires that block size be appropriate for the deposit and mining scenario.",
     "key_concept": "Block size must relate to minimum mining width — oversized blocks dilute narrow vein grades",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -702,12 +702,12 @@
     "domain": "jorc",
     "question": "A Competent Person presents a resource estimate with a sensitivity analysis showing the resource at three different gold prices (+20%, base case, -20%). Why is this sensitivity analysis important under JORC?",
     "options": {
-      "A": "It is a purely academic exercise with no practical relevance",
-      "B": "It demonstrates how the resource tonnage and grade change with cut-off grade assumptions linked to commodity price, allowing readers to assess the robustness of the 'reasonable prospects for eventual economic extraction' determination",
-      "C": "It is required only for deposits in developing countries",
-      "D": "It replaces the need for a feasibility study"
+      "A": "It demonstrates how the resource tonnage and grade change with cut-off grade assumptions linked to commodity price, allowing readers to assess the robustness of the 'reasonable prospects for eventual economic extraction' determination",
+      "B": "It is a purely academic exercise with no practical relevance",
+      "C": "It replaces the need for a feasibility study",
+      "D": "It is required only for deposits in developing countries"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Resource sensitivity analysis demonstrates how robust the estimate is to changes in key assumptions, particularly commodity price (which drives cut-off grade). A resource that drops by 70% with a 20% price decline is far more risky than one that drops by only 10%. This information is material for investors and for the Competent Person's own assessment of 'reasonable prospects for eventual economic extraction' (Clause 20). Table 1 Section 3 encourages transparency about the sensitivity of the estimate to input parameters. Best practice includes sensitivity to cut-off grade, commodity price, density assumptions, and high-grade management. Sensitivity analysis does not replace a feasibility study but informs risk assessment.",
     "key_concept": "Sensitivity analysis reveals resource robustness to commodity price and cut-off grade changes",
     "source": "JORC Code 2012, Clause 20, Table 1 Section 3",
@@ -719,12 +719,12 @@
     "domain": "jorc",
     "question": "A dataset contains 15% of assay results reported as below the detection limit (BDL) for copper at <0.01%. How should these BDL samples be treated in the resource estimate?",
     "options": {
-      "A": "Exclude all BDL samples from the dataset entirely",
-      "B": "Assign them a value of half the detection limit (0.005%) — this is the most common approach for moderate proportions of BDL data, and the treatment must be disclosed",
-      "C": "Assign them a value of zero, regardless of the proportion of BDL data",
-      "D": "Assign them the mean grade of the entire deposit"
+      "A": "Assign them a value of half the detection limit (0.005%) — this is the most common approach for moderate proportions of BDL data, and the treatment must be disclosed",
+      "B": "Exclude all BDL samples from the dataset entirely",
+      "C": "Assign them the mean grade of the entire deposit",
+      "D": "Assign them a value of zero, regardless of the proportion of BDL data"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Below-detection-limit (BDL) samples represent real geological information — the grade is low but not necessarily zero. The most common treatment is to assign half the detection limit value, which assumes a uniform distribution between zero and the detection limit. This is generally appropriate when BDL samples represent a moderate proportion of the data (<20-30%). For higher proportions, more sophisticated approaches (e.g., maximum likelihood estimation or indicator methods) may be needed. Excluding BDL samples would bias the mean grade upward by removing low-grade data. Assigning zero underestimates the contained metal. Table 1 Section 3 requires disclosure of how BDL samples were treated and the proportion of data affected.",
     "key_concept": "Below-detection-limit assays are typically assigned half the detection limit; treatment must be disclosed",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -736,12 +736,12 @@
     "domain": "jorc",
     "question": "A Competent Person discovers that the geological domaining used in a previous resource estimate grouped two lithologically distinct units into a single domain. Contact plots show a sharp grade discontinuity at the lithological boundary. What is the likely impact of this error?",
     "options": {
-      "A": "No impact — domaining errors are cosmetic and do not affect grade estimates",
-      "B": "The estimate will be biased because high-grade samples from one unit will have influenced (contaminated) block grades in the adjacent lower-grade unit, and vice versa, producing overestimation in the low-grade unit and underestimation in the high-grade unit",
-      "C": "The estimate will have higher nugget effect but the same mean grade",
-      "D": "The tonnage will be correct but reported in the wrong classification category"
+      "A": "The estimate will be biased because high-grade samples from one unit will have influenced (contaminated) block grades in the adjacent lower-grade unit, and vice versa, producing overestimation in the low-grade unit and underestimation in the high-grade unit",
+      "B": "The estimate will have higher nugget effect but the same mean grade",
+      "C": "The tonnage will be correct but reported in the wrong classification category",
+      "D": "No impact — domaining errors are cosmetic and do not affect grade estimates"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Incorrect geological domaining is one of the most consequential errors in resource estimation. When two distinct populations are combined, the estimation algorithm treats all data as coming from a single statistical population. High-grade samples from one unit will be used to estimate blocks in the lower-grade unit near the contact, and vice versa. This produces systematic grade smearing across the boundary — the low-grade unit is overestimated and the high-grade unit is underestimated. The global mean may appear correct, but local block estimates near the contact will be significantly biased. The variogram will also be poorly modelled because it attempts to describe the spatial structure of a mixed population. This is why Table 1 Section 3 places such emphasis on the geological model underpinning the estimate.",
     "key_concept": "Incorrect domaining causes grade smearing across boundaries — one of the most impactful estimation errors",
     "source": "JORC Code 2012, Table 1 Section 3",
@@ -753,12 +753,12 @@
     "domain": "jorc",
     "question": "When reporting a Mineral Resource, JORC requires the resource to be stated as tonnes and grade. A company additionally reports 'contained metal' (e.g., 500,000 oz Au). What must the Competent Person ensure regarding contained metal reporting?",
     "options": {
-      "A": "Contained metal should never be reported as it is misleading",
-      "B": "Contained metal may be reported but must be accompanied by the tonnage and grade from which it is derived, must not be reported with false precision, and must clearly distinguish between resource categories (Measured, Indicated, Inferred) — it must not imply that all the metal will be recovered",
-      "C": "Contained metal is only permitted for gold deposits",
-      "D": "Contained metal can be reported as a single combined figure across all resource categories"
+      "A": "Contained metal may be reported but must be accompanied by the tonnage and grade from which it is derived, must not be reported with false precision, and must clearly distinguish between resource categories (Measured, Indicated, Inferred) — it must not imply that all the metal will be recovered",
+      "B": "Contained metal is only permitted for gold deposits",
+      "C": "Contained metal can be reported as a single combined figure across all resource categories",
+      "D": "Contained metal should never be reported as it is misleading"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Contained metal (tonnes x grade x conversion factor) is a useful summary metric but carries risks of misinterpretation. The JORC Code requires that contained metal always be accompanied by the underlying tonnage and grade, reported separately for each resource category (Measured, Indicated, Inferred). Combining contained metal across categories obscures the different confidence levels — 100,000 oz in the Measured category is far more reliable than 100,000 oz in the Inferred category. Additionally, contained metal must not be presented with precision that exceeds the estimate's accuracy (e.g., reporting to single ounces when the estimate has +/-20% uncertainty). Clause 25 and Table 1 Section 3 govern the appropriate format for resource reporting, emphasising transparency and the avoidance of material misrepresentation.",
     "key_concept": "Contained metal must accompany tonnes and grade, be reported by category, and not imply full recovery",
     "source": "JORC Code 2012, Clause 25, Table 1 Section 3",

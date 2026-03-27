@@ -5,12 +5,12 @@
     "domain": "gold",
     "question": "Which exchange is considered the global epicenter for junior mining equity financing, completing approximately 40% of all mining equity capital raised worldwide?",
     "options": {
-      "A": "ASX (Australian Securities Exchange)",
-      "B": "LSE AIM (London Alternative Investment Market)",
-      "C": "TSX and TSX Venture Exchange",
-      "D": "JSE (Johannesburg Stock Exchange)"
+      "A": "TSX and TSX Venture Exchange",
+      "B": "ASX (Australian Securities Exchange)",
+      "C": "JSE (Johannesburg Stock Exchange)",
+      "D": "LSE AIM (London Alternative Investment Market)"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "The Toronto Stock Exchange (TSX) and its junior board TSX Venture Exchange (TSX-V) together form the world's preeminent hub for mining equity financing. Over 1,200 mining companies are listed on TSX/TSX-V, and approximately 40% of global mining equity capital is raised in Toronto. The TSX-V specifically serves as the incubator for junior exploration companies. While the ASX is also a major mining exchange with 700+ mining listings, it ranks behind Toronto in total mining capital raised.",
     "key_concept": "TSX/TSX-V: ~40% of global mining equity financing, 1,200+ mining listings",
     "source": "TMX Group market statistics; global mining finance industry data",
@@ -22,10 +22,10 @@
     "domain": "gold",
     "question": "In a precious metals streaming agreement, the ongoing payment made by the streaming company for each ounce delivered is typically what percentage of the spot price?",
     "options": {
-      "A": "50-75% of spot price",
-      "B": "25-50% of spot price",
+      "A": "1-5% of spot price",
+      "B": "50-75% of spot price",
       "C": "10-25% of spot price",
-      "D": "1-5% of spot price"
+      "D": "25-50% of spot price"
     },
     "correct": "C",
     "explanation": "In a typical streaming deal, the streaming company makes a large upfront deposit (often hundreds of millions of dollars) and then pays an ongoing per-unit price of approximately 10-25% of the prevailing spot price for each ounce of metal delivered. This steep discount compensates the streaming company for the upfront capital risk. The difference between the ongoing payment and the market price represents the streaming company's gross margin, which is why streaming companies like Wheaton Precious Metals and Franco-Nevada maintain exceptionally high profit margins (often 70%+).",
@@ -39,9 +39,9 @@
     "domain": "gold",
     "question": "What does 'limited recourse' mean in the context of mining project finance?",
     "options": {
-      "A": "The project can only access a limited amount of debt financing",
+      "A": "The mining company has limited ability to refinance the loan",
       "B": "Lenders can only claim against the project's own assets and cash flows, not the parent company's balance sheet",
-      "C": "The mining company has limited ability to refinance the loan",
+      "C": "The project can only access a limited amount of debt financing",
       "D": "The government limits the total amount of foreign capital that can enter the project"
     },
     "correct": "B",
@@ -56,12 +56,12 @@
     "domain": "gold",
     "question": "Franco-Nevada is best described as which type of company?",
     "options": {
-      "A": "A vertically integrated gold mining and refining company",
-      "B": "A royalty and streaming company that holds interests in mining assets but operates no mines",
+      "A": "A mining-focused private equity fund",
+      "B": "A vertically integrated gold mining and refining company",
       "C": "A commodity trading house that buys and sells physical gold",
-      "D": "A mining-focused private equity fund"
+      "D": "A royalty and streaming company that holds interests in mining assets but operates no mines"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Franco-Nevada is the world's largest gold-focused royalty and streaming company by market capitalization (approximately USD 25 billion+). Its business model is to acquire royalty interests (primarily NSR royalties) and streaming agreements on mining properties worldwide. Crucially, Franco-Nevada does not operate any mines itself, meaning it has no direct exposure to operating costs, capex overruns, labor disputes, or environmental liabilities. It holds over 400 royalty and streaming assets across gold, copper, and oil & gas. The company maintains zero debt and is considered one of the most defensive business models in the mining sector.",
     "key_concept": "Franco-Nevada: royalty/streaming company, 400+ assets, zero mines operated, zero debt",
     "source": "Franco-Nevada Corporation corporate profile and annual reports",
@@ -90,12 +90,12 @@
     "domain": "gold",
     "question": "What is the typical debt-to-equity ratio used in mining project finance?",
     "options": {
-      "A": "90:10 (debt:equity)",
-      "B": "60:40 to 70:30 (debt:equity)",
+      "A": "60:40 to 70:30 (debt:equity)",
+      "B": "90:10 (debt:equity)",
       "C": "50:50 (debt:equity)",
       "D": "30:70 (debt:equity)"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Mining project finance typically uses a debt-to-equity ratio of 60:40 to 70:30, meaning 60-70% of the project capital comes from debt (bank loans, bonds) and 30-40% from equity. This is more conservative than real estate or infrastructure project finance (which may reach 80:20 or higher) because mining projects carry commodity price risk, geological risk, and political risk that make lenders cautious. The exact ratio depends on factors including the project's jurisdiction, commodity, reserve quality, offtake agreements in place, and the sponsor's credit profile.",
     "key_concept": "Mining project finance D/E ratio: typically 60:40 to 70:30",
     "source": "Mining project finance industry standards",
@@ -107,10 +107,10 @@
     "domain": "gold",
     "question": "Barrick Gold spent approximately USD 5.6 billion in 2009 to close out its gold hedge book. What type of hedging instrument was primarily responsible for these losses?",
     "options": {
-      "A": "Put options purchased as price insurance",
+      "A": "Interest rate swaps on project finance debt",
       "B": "Forward sales contracts that locked in prices below the rising spot price",
       "C": "Currency hedges against the Australian dollar",
-      "D": "Interest rate swaps on project finance debt"
+      "D": "Put options purchased as price insurance"
     },
     "correct": "B",
     "explanation": "Barrick Gold had built a massive forward sales hedge book during the late 1990s and early 2000s when gold prices were low (USD 250-350/oz). As gold prices surged past USD 1,000/oz in 2008-2009, these forward contracts obligated Barrick to deliver gold at far below market prices, resulting in enormous mark-to-market losses. The company ultimately spent approximately USD 5.6 billion to buy back and cancel these forward contracts, crystallizing massive losses. This became a cautionary tale for the entire gold mining industry about the dangers of excessive forward hedging, and most major gold miners subsequently adopted minimal or zero hedging policies.",
@@ -124,10 +124,10 @@
     "domain": "gold",
     "question": "What is an NSR (Net Smelter Return) royalty?",
     "options": {
-      "A": "A tax levied by governments on mining company profits",
+      "A": "A fee paid to the smelter for processing ore",
       "B": "A percentage of revenue from the sale of refined mineral products after deducting smelting and refining costs",
-      "C": "A fee paid to the smelter for processing ore",
-      "D": "The net profit margin of a smelting operation"
+      "C": "The net profit margin of a smelting operation",
+      "D": "A tax levied by governments on mining company profits"
     },
     "correct": "B",
     "explanation": "A Net Smelter Return (NSR) royalty is calculated as a percentage of the revenue received from the sale of mineral products after deducting transportation, smelting, and refining charges. It is the most common form of mining royalty. Typical NSR royalty rates range from 1% to 5% of net smelter returns. NSR royalties are preferred by royalty holders because they are tied to revenue (not profit), making them less susceptible to manipulation through cost inflation. Unlike a Net Profits Interest (NPI), an NSR royalty generates income as long as the mine is producing, regardless of whether the mine is profitable.",
@@ -141,12 +141,12 @@
     "domain": "gold",
     "question": "A Nominated Adviser (Nomad) is a mandatory requirement for companies listed on which exchange?",
     "options": {
-      "A": "TSX Venture Exchange",
-      "B": "ASX",
-      "C": "LSE AIM",
-      "D": "JSE"
+      "A": "LSE AIM",
+      "B": "JSE",
+      "C": "TSX Venture Exchange",
+      "D": "ASX"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "The London Stock Exchange's Alternative Investment Market (AIM) requires every listed company to retain a Nominated Adviser (Nomad) at all times. The Nomad acts as a gatekeeper and ongoing regulatory supervisor, responsible for assessing the company's suitability for AIM admission and ensuring continuous compliance with AIM Rules. If a company loses its Nomad, its shares are typically suspended from trading within one month. This system replaces the more traditional listing requirements (minimum market cap, trading history) found on main board exchanges, allowing smaller and earlier-stage companies to access public markets while maintaining a degree of investor protection.",
     "key_concept": "LSE AIM: Nominated Adviser (Nomad) mandatory for all listed companies",
     "source": "London Stock Exchange AIM Rules for Companies",
@@ -158,12 +158,12 @@
     "domain": "gold",
     "question": "In a zero-cost collar hedging strategy, a gold mining company simultaneously:",
     "options": {
-      "A": "Buys call options and sells put options",
-      "B": "Buys put options and sells call options, with premiums offsetting each other",
-      "C": "Buys forward contracts and sells futures contracts",
+      "A": "Buys forward contracts and sells futures contracts",
+      "B": "Buys call options and sells put options",
+      "C": "Buys put options and sells call options, with premiums offsetting each other",
       "D": "Buys gold ETF shares and sells physical gold"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "A zero-cost collar involves buying put options (establishing a price floor) and simultaneously selling call options (establishing a price ceiling). The premium received from selling the calls offsets the premium paid for the puts, making the net cost of the strategy approximately zero. For example, a gold miner might buy puts at USD 1,900/oz and sell calls at USD 2,400/oz. This guarantees the miner receives at least USD 1,900/oz (downside protection) but caps upside at USD 2,400/oz. If gold trades between the two strike prices, neither option is exercised and the company sells at spot. This strategy is popular because it provides free downside protection, but the tradeoff is forfeiting windfall gains above the cap.",
     "key_concept": "Zero-cost collar: buy puts (floor) + sell calls (cap), premiums offset to zero net cost",
     "source": "Commodity hedging strategies; mining finance textbooks",
@@ -176,11 +176,11 @@
     "question": "What distinguishes a streaming agreement from a royalty agreement?",
     "options": {
       "A": "Streaming agreements involve government entities; royalties are private",
-      "B": "In a stream, the company purchases and takes delivery of physical metal at a discounted price; in a royalty, the company receives a percentage of revenue without taking physical delivery",
-      "C": "Royalties require larger upfront payments than streams",
-      "D": "Streaming agreements are only used for precious metals; royalties can apply to any commodity"
+      "B": "Streaming agreements are only used for precious metals; royalties can apply to any commodity",
+      "C": "In a stream, the company purchases and takes delivery of physical metal at a discounted price; in a royalty, the company receives a percentage of revenue without taking physical delivery",
+      "D": "Royalties require larger upfront payments than streams"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The fundamental distinction is physical delivery. In a streaming agreement, the streaming company makes an upfront deposit and then purchases actual physical metal from the mine at a deeply discounted ongoing price (typically 10-25% of spot). The streaming company then sells this metal at market prices for profit. In a royalty agreement, the royalty holder simply receives a percentage of revenue (NSR), profit (NPI), or production value without ever taking physical possession of the commodity. While both provide upfront capital to miners, streaming companies carry physical metal on their balance sheets and must manage logistics, whereas royalty holders are purely financial participants.",
     "key_concept": "Stream = physical metal delivery at discount; Royalty = % of revenue/profit, no physical delivery",
     "source": "Wheaton Precious Metals, Franco-Nevada corporate descriptions; mining finance literature",
@@ -193,11 +193,11 @@
     "question": "Which financing model has been extensively used by Chinese state banks in African mining, where loan repayment is secured by future mineral exports?",
     "options": {
       "A": "Convertible bond financing",
-      "B": "Resource-for-loan (resources-backed lending)",
-      "C": "Mezzanine debt financing",
-      "D": "Equity crowdfunding"
+      "B": "Mezzanine debt financing",
+      "C": "Equity crowdfunding",
+      "D": "Resource-for-loan (resources-backed lending)"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The resource-for-loan model (also called resource-backed lending or commodity-backed lending) has been extensively used by Chinese state banks, particularly the China Development Bank (CDB) and China Exim Bank (CEXIM), in African mining investments. Under this structure, Chinese banks provide large loans to African governments or mining projects, with repayment secured by future mineral or commodity exports to China. This model has funded billions of dollars in mining infrastructure in the DRC (copper-cobalt), Guinea (bauxite), and other resource-rich African nations. While it provides crucial development capital, it has generated controversy around 'debt-trap diplomacy' concerns.",
     "key_concept": "Resource-for-loan: Chinese state bank financing secured by future mineral exports to China",
     "source": "China-Africa mining investment studies; CDB and CEXIM loan structures",
@@ -209,12 +209,12 @@
     "domain": "gold",
     "question": "What is the minimum Debt Service Coverage Ratio (DSCR) that banks typically require for mining project finance loans?",
     "options": {
-      "A": "0.8-1.0x",
+      "A": "1.3-1.5x",
       "B": "1.0-1.1x",
-      "C": "1.3-1.5x",
+      "C": "0.8-1.0x",
       "D": "2.5-3.0x"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "Banks typically require a minimum DSCR of 1.3x to 1.5x for mining project finance loans. The DSCR is calculated as the project's net operating cash flow divided by total debt service (principal + interest payments). A DSCR of 1.5x means the project generates 50% more cash flow than needed to service its debt, providing a cushion against commodity price declines or operational disruptions. Some banks may require higher DSCRs (1.5-2.0x) for projects in higher-risk jurisdictions or with single-commodity exposure. A DSCR below 1.0x means the project cannot cover its debt obligations from operating cash flow.",
     "key_concept": "Mining project finance minimum DSCR: 1.3-1.5x (cash flow / debt service)",
     "source": "Mining project finance lending standards; commercial bank requirements",
@@ -226,10 +226,10 @@
     "domain": "gold",
     "question": "Canada's Flow-Through Shares (FTS) mechanism benefits junior mining companies by:",
     "options": {
-      "A": "Allowing the company to issue shares without regulatory approval",
+      "A": "Providing government-backed insurance against exploration failure",
       "B": "Passing the tax deduction for exploration expenditures directly to investors, effectively subsidizing exploration costs",
       "C": "Guaranteeing a minimum share price for 12 months after issuance",
-      "D": "Providing government-backed insurance against exploration failure"
+      "D": "Allowing the company to issue shares without regulatory approval"
     },
     "correct": "B",
     "explanation": "Canada's Flow-Through Share (FTS) mechanism allows mining and exploration companies to 'flow through' or renounce eligible Canadian Exploration Expenses (CEE) to investors. The investors can then claim these deductions against their personal income tax. For high-income Canadian investors, this tax benefit can effectively reduce their net cost of investment by 30-50%, making them willing to pay a premium (often 15-30% above market price) for flow-through shares. This system has been instrumental in funding grassroots exploration across Canada and is widely regarded as one of the most effective government incentives for mineral exploration globally. Australia has a similar but smaller program called the Junior Minerals Exploration Incentive (JMEI).",
@@ -243,12 +243,12 @@
     "domain": "gold",
     "question": "Which of the following is NOT a typical advantage of streaming financing for a mining company compared to issuing new equity?",
     "options": {
-      "A": "No dilution of existing shareholders' ownership percentage",
-      "B": "Immediate access to large upfront capital",
+      "A": "The company retains full ownership of all future production revenue",
+      "B": "No dilution of existing shareholders' ownership percentage",
       "C": "The streaming obligation expires after the mine closes",
-      "D": "The company retains full ownership of all future production revenue"
+      "D": "Immediate access to large upfront capital"
     },
-    "correct": "D",
+    "correct": "A",
     "explanation": "Option D is NOT an advantage because streaming specifically requires the mining company to surrender a portion of its future production to the streaming company at a deeply discounted price — this is the fundamental cost of streaming finance. The company does NOT retain full ownership of all future production revenue. The other three options are genuine advantages: (A) streaming does not issue new shares, so existing shareholders maintain their ownership percentage; (B) streaming companies provide large upfront deposits, often hundreds of millions of dollars; (C) streaming obligations are tied to mine life, so they naturally terminate when production ceases (unlike perpetual royalties on the land).",
     "key_concept": "Streaming tradeoff: no equity dilution but permanent surrender of portion of future production",
     "source": "Streaming agreement structures; Wheaton Precious Metals transaction summaries",
@@ -260,12 +260,12 @@
     "domain": "gold",
     "question": "In a typical earn-in joint venture agreement between a major miner and a junior explorer, the major miner typically earns what percentage of the project by spending an agreed amount on exploration?",
     "options": {
-      "A": "10-25%",
-      "B": "51-75%",
-      "C": "90-100%",
-      "D": "Exactly 50%"
+      "A": "90-100%",
+      "B": "Exactly 50%",
+      "C": "51-75%",
+      "D": "10-25%"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "In a typical earn-in JV agreement, the major mining company earns 51-75% of the project by funding a specified amount of exploration expenditure (typically USD 5-20 million) over a defined period (usually 3-5 years). The 51% threshold is critical because it gives the major company operational control. Many agreements have a two-stage earn-in: for example, spend USD 5 million to earn 51%, then an additional USD 10 million to earn up to 70-75%. The junior company retains a minority interest (25-49%) without having to fund its share of exploration during the earn-in period. This structure is fundamental to the junior mining ecosystem — juniors make discoveries and then partner with majors who have the capital and expertise to advance projects.",
     "key_concept": "Earn-in JV: major spends exploration $ over 3-5 years to earn 51-75% of project",
     "source": "Mining joint venture conventions; junior-major partnership structures",
@@ -277,8 +277,8 @@
     "domain": "gold",
     "question": "A gold mine has a pre-tax NPV(5%) of USD 800 million and requires an initial capital expenditure of USD 500 million. What is the NPV-to-Capex ratio, and how would most mining investors interpret it?",
     "options": {
-      "A": "0.6x — the project destroys value and should be rejected",
-      "B": "1.6x — a marginally acceptable project",
+      "A": "1.6x — a marginally acceptable project",
+      "B": "0.6x — the project destroys value and should be rejected",
       "C": "1.6x — a robust and attractive project",
       "D": "3.0x — an exceptionally high-return project"
     },
@@ -295,11 +295,11 @@
     "question": "Wheaton Precious Metals primarily acquires streaming interests in which type of metal production?",
     "options": {
       "A": "Primary gold production from dedicated gold mines",
-      "B": "By-product gold and silver from base metal mines (copper, zinc, etc.)",
-      "C": "Iron ore and coal production",
+      "B": "Iron ore and coal production",
+      "C": "By-product gold and silver from base metal mines (copper, zinc, etc.)",
       "D": "Recycled gold from e-waste processing"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Wheaton Precious Metals has built its business model primarily around acquiring streaming interests in by-product precious metals (gold and silver) from base metal mines. When a copper or zinc mine produces gold and silver as by-products, the mine operator often views these as non-core revenue streams and is willing to sell streaming rights on them in exchange for upfront capital. This creates a win-win: the base metal miner gets significant upfront financing without diluting equity or borrowing, while Wheaton gains access to low-cost precious metal production. Because the mining costs are borne by the primary base metal operation, the marginal cost of by-product precious metals is very low, making these particularly attractive streaming targets.",
     "key_concept": "Wheaton's model: streaming by-product precious metals from base metal mines",
     "source": "Wheaton Precious Metals corporate strategy and annual reports",
@@ -311,12 +311,12 @@
     "domain": "gold",
     "question": "Which South African reporting code is equivalent to JORC for mineral resource classification on the JSE?",
     "options": {
-      "A": "NI 43-101",
-      "B": "SAMREC Code",
-      "C": "SEC S-K 1300",
-      "D": "CIM Standards"
+      "A": "SAMREC Code",
+      "B": "SEC S-K 1300",
+      "C": "CIM Standards",
+      "D": "NI 43-101"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The South African Mineral Resource Committee (SAMREC) Code is the mandatory reporting standard for mineral resources and reserves on the Johannesburg Stock Exchange (JSE). SAMREC is a member of CRIRSCO (Committee for Mineral Reserves International Reporting Standards), which is the international umbrella body that ensures mutual recognition among reporting codes worldwide. Other CRIRSCO members include JORC (Australia), CIM (Canada, which underpins NI 43-101), PERC (Europe), and SEC S-K 1300 (USA). While these codes share common principles of transparency, materiality, and competence, each has jurisdiction-specific requirements.",
     "key_concept": "SAMREC Code: JSE's mineral resource reporting standard, CRIRSCO member alongside JORC",
     "source": "SAMREC Code; JSE Listings Requirements; CRIRSCO template",
@@ -329,11 +329,11 @@
     "question": "An offtake agreement in mining project finance serves primarily to:",
     "options": {
       "A": "Set the final selling price of the commodity for the life of the mine",
-      "B": "Provide lenders with confidence in future cash flow predictability by securing a committed buyer",
-      "C": "Eliminate all commodity price risk for the mining company",
-      "D": "Transfer mine ownership to the offtaker upon loan repayment"
+      "B": "Transfer mine ownership to the offtaker upon loan repayment",
+      "C": "Provide lenders with confidence in future cash flow predictability by securing a committed buyer",
+      "D": "Eliminate all commodity price risk for the mining company"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The primary purpose of an offtake agreement in the context of project finance is to provide lenders with confidence that the project will have a reliable sales channel and predictable revenue stream. Banks financing a mine construction want assurance that the mine's production can be sold, so having a creditworthy offtaker (such as Glencore, Trafigura, or a steel mill) committed to purchasing production significantly de-risks the loan. However, offtake agreements typically do NOT fix prices for the life of the mine — most use market-based pricing formulas (e.g., LME reference price minus a discount). They also do not eliminate commodity price risk, as the mine still receives market-linked prices. The offtake secures volume/buyer certainty, not price certainty.",
     "key_concept": "Offtake agreements: secure buyer and sales channel for lender confidence, not price certainty",
     "source": "Mining project finance structuring; offtake agreement conventions",
@@ -345,12 +345,12 @@
     "domain": "gold",
     "question": "Orion Resource Partners, Appian Capital Advisory, and Resource Capital Funds are examples of:",
     "options": {
-      "A": "Central banks that accumulate gold reserves",
-      "B": "Commodity trading houses",
-      "C": "Specialized mining-focused private equity funds",
-      "D": "Government-owned mining companies"
+      "A": "Commodity trading houses",
+      "B": "Government-owned mining companies",
+      "C": "Central banks that accumulate gold reserves",
+      "D": "Specialized mining-focused private equity funds"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Orion Resource Partners, Appian Capital Advisory, and Resource Capital Funds (RCF) are all specialized private equity funds focused exclusively on the mining and metals sector. These funds typically invest in development-stage mining projects — assets that have completed feasibility studies but need capital for construction. Investment sizes typically range from USD 50 million to USD 500 million. They fill a critical financing gap between what junior miners can raise in equity markets and what project finance banks will lend, often providing the equity portion of project finance structures. Their investment horizon is typically 5-10 years, with exits through IPO, trade sale to a major miner, or project-level refinancing.",
     "key_concept": "Mining PE funds: Orion, Appian, RCF — invest in development-stage projects, USD 50-500M range",
     "source": "Mining private equity fund profiles; industry conference disclosures",
@@ -362,10 +362,10 @@
     "domain": "gold",
     "question": "A mining company buys put options at USD 1,800/oz gold for its next 12 months of production, paying a 5% premium. If gold averages USD 2,200/oz during that period, what is the financial outcome?",
     "options": {
-      "A": "The company is obligated to sell at USD 1,800/oz and loses USD 400/oz",
+      "A": "The company exercises the puts and sells at USD 1,800/oz for a guaranteed profit",
       "B": "The puts expire worthless; the company sells at USD 2,200/oz but loses the premium paid",
-      "C": "The company exercises the puts and sells at USD 1,800/oz for a guaranteed profit",
-      "D": "The premium is refunded because the puts were not exercised"
+      "C": "The premium is refunded because the puts were not exercised",
+      "D": "The company is obligated to sell at USD 1,800/oz and loses USD 400/oz"
     },
     "correct": "B",
     "explanation": "Put options give the holder the RIGHT but not the OBLIGATION to sell at the strike price. Since the market price (USD 2,200/oz) is well above the put strike price (USD 1,800/oz), it would make no sense to exercise the puts. The company lets them expire worthless and sells its gold at the favorable market price of USD 2,200/oz. However, the company still loses the premium it paid for the puts (5% of the contract value), which is the cost of insurance. This is the key advantage of options over forward contracts: if prices rise, the company participates in the upside minus the cost of the premium. With forward contracts, the company would have been locked into selling at the lower contracted price regardless of market movements.",
@@ -396,12 +396,12 @@
     "domain": "gold",
     "question": "A Net Profits Interest (NPI) royalty differs from an NSR royalty in that the NPI:",
     "options": {
-      "A": "Is calculated on gross revenue without any cost deductions",
-      "B": "Is calculated on net profit after deducting all operating costs, making it riskier for the royalty holder",
-      "C": "Always pays a higher percentage than an NSR",
-      "D": "Can only be applied to precious metals, not base metals"
+      "A": "Is calculated on net profit after deducting all operating costs, making it riskier for the royalty holder",
+      "B": "Always pays a higher percentage than an NSR",
+      "C": "Can only be applied to precious metals, not base metals",
+      "D": "Is calculated on gross revenue without any cost deductions"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "A Net Profits Interest (NPI) royalty is calculated as a percentage of the mine's net profit after deducting all operating costs, capital expenditures, and sometimes even depreciation and financing charges. This makes NPI the riskiest type of royalty for the holder because: (1) if the mine operates at a loss, the NPI pays nothing; (2) the mine operator controls cost reporting and can potentially inflate costs to reduce the NPI payment; and (3) mines frequently operate at a loss during their early years or during commodity price downturns. In contrast, an NSR royalty is based on revenue (minus only smelting/refining/transport costs), so it pays as long as the mine is producing, regardless of profitability. This is why NSR royalties typically trade at higher valuations per dollar of income than NPI royalties.",
     "key_concept": "NPI royalty: based on net profit after all costs — riskiest royalty type for holder",
     "source": "Mining royalty type comparisons; royalty company disclosures",
@@ -413,12 +413,12 @@
     "domain": "gold",
     "question": "A feasibility study for a gold project shows an IRR of 12% at a gold price of USD 2,000/oz. The project sponsor is seeking project finance from a commercial bank. What is the bank's most likely response?",
     "options": {
-      "A": "Approve the loan immediately, as any positive IRR indicates a viable project",
-      "B": "Decline or require significant enhancements, as 12% IRR is below the typical 15-20% threshold that banks and investors expect for mining projects",
-      "C": "Approve the loan but require 100% equity and no debt",
-      "D": "Approve the loan only if gold prices exceed USD 3,000/oz"
+      "A": "Decline or require significant enhancements, as 12% IRR is below the typical 15-20% threshold that banks and investors expect for mining projects",
+      "B": "Approve the loan immediately, as any positive IRR indicates a viable project",
+      "C": "Approve the loan only if gold prices exceed USD 3,000/oz",
+      "D": "Approve the loan but require 100% equity and no debt"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Commercial banks and mining investors typically require an IRR of at least 15-20% for mining projects to compensate for the inherent risks: commodity price volatility, geological uncertainty, construction cost overruns, political/regulatory risk, and environmental liabilities. A 12% IRR at the base-case gold price suggests thin margins that could easily turn negative with modest gold price declines or cost increases. Banks would likely either decline the financing or require significant enhancements such as: higher equity contribution from the sponsor, additional offtake agreements, hedging of a portion of production, sovereign guarantees, or a complete project re-design to reduce capital costs. The project might be considered 'economically marginal' at these returns.",
     "key_concept": "Mining project IRR threshold: typically 15-20% minimum for bankable feasibility",
     "source": "Mining project finance lending criteria; feasibility study assessment standards",
@@ -430,12 +430,12 @@
     "domain": "gold",
     "question": "A junior mining company applies to list on the TSX Venture Exchange (TSX-V) under Tier 2 (mineral exploration). The company has one exploration-stage property in Ontario with no resource estimate. Which minimum requirement must the company satisfy regarding that property?",
     "options": {
-      "A": "The property must have a NI 43-101-compliant Mineral Resource estimate of at least 500,000 oz gold",
-      "B": "The company must own or have an option on a property, have a QP-signed technical report on it, and demonstrate adequate working capital to fund 18 months of planned exploration",
-      "C": "The property must have a completed Pre-Feasibility Study and IRR above 15%",
-      "D": "The company must show at least two years of exploration history and a minimum of 5,000 meters of drill results"
+      "A": "The company must show at least two years of exploration history and a minimum of 5,000 meters of drill results",
+      "B": "The property must have a NI 43-101-compliant Mineral Resource estimate of at least 500,000 oz gold",
+      "C": "The company must own or have an option on a property, have a QP-signed technical report on it, and demonstrate adequate working capital to fund 18 months of planned exploration",
+      "D": "The property must have a completed Pre-Feasibility Study and IRR above 15%"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "TSX-V Tier 2 listing requirements for mineral exploration companies (Policy 2.1) require: (1) the company must own or have a valid option on at least one qualifying property; (2) a QP (Qualified Person as defined under NI 43-101)-authored technical report on the property must be filed on SEDAR; and (3) the company must demonstrate sufficient working capital to fund at least 18 months of planned exploration activities — typically interpreted as a minimum of CAD 200,000-750,000 depending on the stage. No pre-existing resource estimate is required for a grass-roots exploration listing. The QP's technical report is critical for investor disclosure and is the cornerstone of TSX-V's regulatory framework for junior miners.",
     "key_concept": "TSX-V Tier 2 mineral listing: QP technical report + valid property interest + 18-month working capital",
     "source": "TSX Venture Exchange Policy 2.1 — Minimum Listing Requirements for Issuers",
@@ -448,9 +448,9 @@
     "question": "Under ASX Listing Rules Chapter 1 and Chapter 2, a mining exploration company seeking to list must meet which of the following specific thresholds?",
     "options": {
       "A": "Minimum 300 shareholders each holding a 'marketable parcel,' net tangible assets of at least AUD 4 million or market cap of AUD 15 million, and a JORC-compliant technical report",
-      "B": "A minimum of 50 shareholders, AUD 500,000 net tangible assets, and a five-year operating history",
-      "C": "Minimum 1,000 shareholders, AUD 10 million market cap, and an AISC below AUD 1,500/oz",
-      "D": "Minimum 500 shareholders, a completed Definitive Feasibility Study, and a minimum reserve of 100,000 oz gold"
+      "B": "Minimum 500 shareholders, a completed Definitive Feasibility Study, and a minimum reserve of 100,000 oz gold",
+      "C": "A minimum of 50 shareholders, AUD 500,000 net tangible assets, and a five-year operating history",
+      "D": "Minimum 1,000 shareholders, AUD 10 million market cap, and an AISC below AUD 1,500/oz"
     },
     "correct": "A",
     "explanation": "ASX Listing Rule 1.1 (Condition 1) and Chapter 2 establish entry criteria for mining companies. The spread requirement mandates a minimum of 300 non-affiliated shareholders each holding a 'marketable parcel' (typically AUD 500 or more worth of shares at the issue price). The financial test for a mining explorer without a profit track record typically requires either: (a) net tangible assets of at least AUD 4 million, OR (b) a market capitalisation of at least AUD 15 million. For exploration-stage miners, a JORC Code-compliant technical report from a Competent Person is required for any resource estimates disclosed. These thresholds are lower than main-board industrials because the ASX actively courts resources sector listings.",
@@ -464,12 +464,12 @@
     "domain": "gold",
     "question": "In project finance for a gold mine, the Special Purpose Vehicle (SPV) structure is used primarily because:",
     "options": {
-      "A": "It reduces the gold mine's royalty obligations to the government",
-      "B": "It legally 'ring-fences' the project's assets and cash flows from the parent company's other businesses, enabling non-recourse lending based solely on project merit",
+      "A": "It legally 'ring-fences' the project's assets and cash flows from the parent company's other businesses, enabling non-recourse lending based solely on project merit",
+      "B": "It enables the project to issue shares on a stock exchange without requiring a full IPO",
       "C": "It allows the project to avoid paying corporate income tax in the host country",
-      "D": "It enables the project to issue shares on a stock exchange without requiring a full IPO"
+      "D": "It reduces the gold mine's royalty obligations to the government"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The SPV (Special Purpose Vehicle) structure is the cornerstone of project finance. A new legal entity — the SPV — is incorporated specifically to own and operate the mine. All project assets (mining licenses, equipment, processing plant), project contracts (offtake agreements, EPC contracts), and project debt sit within this SPV. This 'ring-fencing' means: (1) lenders can only claim against the SPV's assets if the project fails — not the parent company's other operations or assets (non-recourse or limited-recourse); (2) the parent company's balance sheet is protected from project-level risks; and (3) multiple sponsors can co-invest in the SPV as shareholders with clearly defined rights. The DRC's Kamoa-Kakula copper project, for example, is held through a JV SPV structure with Ivanhoe Mines, Zijin Mining, and the DRC government.",
     "key_concept": "SPV ring-fencing: project assets/debt isolated from parent, enables non-recourse lending",
     "source": "Mining project finance structuring; Yescombe, E.R. 'Principles of Project Finance'",
@@ -482,11 +482,11 @@
     "question": "Franco-Nevada's streaming agreement with First Quantum Minerals on the Cobre Panama copper mine is structured as a gold and silver stream. What feature of this deal makes it particularly notable in the streaming industry?",
     "options": {
       "A": "It was the first streaming deal ever executed for a copper mine by-product",
-      "B": "At approximately USD 1 billion upfront, it was one of the largest single streaming transactions in history, providing critical construction financing for a multi-billion dollar copper mine",
+      "B": "It included an equity participation clause giving Franco-Nevada 15% of mine equity upon project completion",
       "C": "It gave Franco-Nevada 100% of all gold produced at Cobre Panama in perpetuity for a fixed USD 400/oz payment",
-      "D": "It included an equity participation clause giving Franco-Nevada 15% of mine equity upon project completion"
+      "D": "At approximately USD 1 billion upfront, it was one of the largest single streaming transactions in history, providing critical construction financing for a multi-billion dollar copper mine"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Franco-Nevada's Cobre Panama stream, announced in 2018, involved an upfront deposit of approximately USD 1 billion to First Quantum Minerals in exchange for rights to purchase a set percentage of gold and silver production from the Cobre Panama mine (one of the world's largest new copper mines, with a capital cost exceeding USD 6 billion). Franco-Nevada would purchase gold at the lower of USD 418/oz and spot price, and silver at the lower of USD 5.90/oz and spot price, for the life of the mine. The sheer scale — USD 1 billion — made it one of the industry's largest single streaming transactions. Tragically, Cobre Panama was suspended by the Panamanian government in 2023 following protests over the mining contract, causing significant impairment charges for Franco-Nevada and illustrating political risk in even well-structured streaming deals.",
     "key_concept": "Cobre Panama stream: ~USD 1B upfront to First Quantum, one of largest streaming transactions; illustrates political risk",
     "source": "Franco-Nevada Corporation press releases 2018; annual reports 2019-2024",
@@ -498,12 +498,12 @@
     "domain": "gold",
     "question": "When valuing an NSR royalty on a producing gold mine using a Discounted Cash Flow (DCF) approach, which discount rate range is most appropriate and why?",
     "options": {
-      "A": "5-7%, because royalties have bond-like characteristics with predictable, low-risk cash flows",
-      "B": "8-12%, reflecting the royalty's indirect exposure to mine operating risk, commodity price risk, and reserve life uncertainty",
-      "C": "20-30%, the same rate used for early-stage exploration companies",
-      "D": "0-3%, equivalent to risk-free government bond rates since royalties have no operating costs"
+      "A": "20-30%, the same rate used for early-stage exploration companies",
+      "B": "0-3%, equivalent to risk-free government bond rates since royalties have no operating costs",
+      "C": "5-7%, because royalties have bond-like characteristics with predictable, low-risk cash flows",
+      "D": "8-12%, reflecting the royalty's indirect exposure to mine operating risk, commodity price risk, and reserve life uncertainty"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "NSR royalties on producing mines are typically discounted at 8-12% in NAV (Net Asset Value) models. This is lower than a direct equity investment in the mining company (which might use 10-15%+) because royalties have no operating cost exposure, capex exposure, or direct liability — reducing their risk profile. However, they retain exposure to: (1) commodity price risk (revenue is gold price × ounces); (2) reserve depletion risk (what happens when the mine closes?); (3) mine operator risk (if the operator goes bankrupt, royalty payments may cease); and (4) political/country risk. Comparable transaction analysis is also commonly used — for example, royalties on Tier 1 gold mines in safe jurisdictions trade at 1-2% NAVPS (NAV per share) compared to royalties on marginal mines in high-risk countries that might trade at 4-6% discount rates.",
     "key_concept": "NSR royalty DCF discount rate: 8-12%, lower than direct equity but retains commodity/reserve/operator risk",
     "source": "Royalty company analyst reports; mining valuation textbooks; Franco-Nevada and Royal Gold NAV models",
@@ -516,11 +516,11 @@
     "question": "Orion Mine Finance manages approximately USD 2-4 billion in assets focused on lending and streaming to mid-tier mining companies. Its business model is best described as:",
     "options": {
       "A": "A passive index fund tracking global mining equities",
-      "B": "A specialist alternative credit provider targeting 20-25% IRR through royalties, streams, and subordinated loans to development and production-stage miners",
-      "C": "A government-backed export credit agency for Canadian mining equipment",
-      "D": "A traditional commercial bank offering project finance at LIBOR plus 200 basis points"
+      "B": "A traditional commercial bank offering project finance at LIBOR plus 200 basis points",
+      "C": "A specialist alternative credit provider targeting 20-25% IRR through royalties, streams, and subordinated loans to development and production-stage miners",
+      "D": "A government-backed export credit agency for Canadian mining equipment"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Orion Mine Finance (formerly Orion Resource Partners) is a New York-based specialist mining credit and royalty fund managing approximately USD 3-4 billion in assets. Its strategy targets returns of approximately 20-25% IRR by deploying capital through: royalty acquisitions (NSR and streaming), subordinated/mezzanine loans, and equity co-investments into development-stage and producing mining companies. Orion typically invests USD 50-300 million per transaction and focuses on metals including gold, copper, cobalt, and battery metals. Unlike traditional project finance banks (which target 3-6% returns above their cost of funds), Orion accepts higher risk in exchange for higher returns and is willing to invest at earlier project stages. Appian Capital Advisory similarly targets ~20-25% IRR but focuses specifically on African mining equity.",
     "key_concept": "Orion Mine Finance: ~USD 3-4B AUM, specialist mining credit/royalty fund, 20-25% IRR target",
     "source": "Orion Mine Finance public fund disclosures; mining alternative credit industry profiles",
@@ -532,12 +532,12 @@
     "domain": "gold",
     "question": "Appian Capital Advisory is a London-based mining private equity fund with a specific geographic focus. What distinguishes its investment mandate from general mining PE funds?",
     "options": {
-      "A": "It exclusively invests in Arctic and Antarctic mineral exploration",
-      "B": "It focuses primarily on African mining assets, targeting development-stage base metals projects with equity positions and aiming for 20-25% IRR exits via trade sales to majors",
-      "C": "It specializes in acquiring distressed Australian gold mines in administration",
-      "D": "It invests only in royalty streams on North American copper mines"
+      "A": "It invests only in royalty streams on North American copper mines",
+      "B": "It specializes in acquiring distressed Australian gold mines in administration",
+      "C": "It exclusively invests in Arctic and Antarctic mineral exploration",
+      "D": "It focuses primarily on African mining assets, targeting development-stage base metals projects with equity positions and aiming for 20-25% IRR exits via trade sales to majors"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Appian Capital Advisory is a London-based private equity fund manager focused specifically on African mining. Founded in 2012 by Michael Scherb, Appian manages approximately USD 2-3 billion and targets high-quality development and production-stage base metal and gold projects across sub-Saharan Africa (with notable investments in Sierra Leone, Guinea, Zambia, DRC, and South Africa). Appian takes controlling or significant minority equity positions and adds operational value through the mine-building phase, with exit strategies typically targeting trade sales to major mining companies or Chinese SOE buyers seeking African resources. Target returns of 20-25% IRR reflect the construction risk, currency risk, and political risk premium in Africa. Appian's Africa focus differentiates it from broader mining PE funds like Resource Capital Funds (global) or Waterton Global Resource Management (Americas-focused).",
     "key_concept": "Appian Capital: London-based PE fund, African mining focus, equity positions, 20-25% IRR, exit via trade sales",
     "source": "Appian Capital Advisory public disclosures; mining PE fund industry profiles",
@@ -550,8 +550,8 @@
     "question": "The Sinohydro-DRC 'Sicomines' deal is a landmark example of Chinese infrastructure-for-minerals financing in Africa. Under this agreement:",
     "options": {
       "A": "China provided USD 6 billion in infrastructure funding to the DRC in exchange for copper and cobalt mining rights, with Chinese state companies recouping costs through mine revenues",
-      "B": "Sinohydro purchased 100% of the DRC's Tenke Fungurume mine for USD 2.65 billion in cash",
-      "C": "China Development Bank provided a USD 10 billion bond to the DRC government, secured only by future oil revenues",
+      "B": "China Development Bank provided a USD 10 billion bond to the DRC government, secured only by future oil revenues",
+      "C": "Sinohydro purchased 100% of the DRC's Tenke Fungurume mine for USD 2.65 billion in cash",
       "D": "Sinohydro built a hydroelectric dam for the DRC in exchange for a 2% NSR royalty on all DRC mineral exports"
     },
     "correct": "A",
@@ -566,12 +566,12 @@
     "domain": "gold",
     "question": "CITIC Pacific's Sino Iron magnetite project in Western Australia has experienced massive cost overruns and legal disputes. This project is most notable in mining finance circles for:",
     "options": {
-      "A": "Being the first iron ore project financed entirely through a gold streaming deal",
-      "B": "Demonstrating the risks of mega-project execution by a Chinese SOE in Australia, with costs escalating from an initial USD 2.5 billion estimate to over USD 12 billion",
-      "C": "Successfully completing the world's first infrastructure-for-minerals deal in a Western country",
-      "D": "Being the largest single ASX-listed mining IPO in history at AUD 8 billion"
+      "A": "Being the largest single ASX-listed mining IPO in history at AUD 8 billion",
+      "B": "Being the first iron ore project financed entirely through a gold streaming deal",
+      "C": "Demonstrating the risks of mega-project execution by a Chinese SOE in Australia, with costs escalating from an initial USD 2.5 billion estimate to over USD 12 billion",
+      "D": "Successfully completing the world's first infrastructure-for-minerals deal in a Western country"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Sino Iron (owned by CITIC Pacific, a subsidiary of CITIC Group, a Chinese state-owned enterprise) is a magnetite iron ore project in the Pilbara region of Western Australia. The project became a cautionary tale about mega-project cost estimation and Chinese SOE project management in Western jurisdictions. Initial capital cost estimates of approximately USD 2.5 billion escalated dramatically to over USD 12 billion by the time the project reached production (a ~380% overrun), caused by: construction complexity of the magnetite processing circuit, labour cost escalations, equipment procurement issues, and prolonged disputes with the project's engineering contractors. Sino Iron also became embroiled in a lengthy legal dispute with Mineralogy Pty Ltd (owned by billionaire Clive Palmer) over royalty payments. This project is studied as a case study in construction risk, sovereign environment surprises (Western Australia's high labour costs), and the challenges of Chinese company management in OECD jurisdictions.",
     "key_concept": "Sino Iron: USD 2.5B → USD 12B+ cost overrun, Chinese SOE mega-project risk in Western Australia",
     "source": "CITIC Pacific annual reports; Western Australian DMP project records; mining finance case studies",
@@ -583,12 +583,12 @@
     "domain": "gold",
     "question": "A copper concentrate offtake agreement between a copper miner and Glencore includes a 'pricing formula' clause. The formula states: Payment = LME 3-month average price × (1 - TC/RC deduction) × payable metal percentage × quantity. If the LME copper price is USD 9,000/tonne, TC/RC deductions total USD 80/tonne of concentrate, the payable percentage is 96.5%, and the shipment is 1,000 dry metric tonnes of concentrate at 28% copper, what is the approximate payment?",
     "options": {
-      "A": "USD 9,000,000",
-      "B": "USD 2,398,920",
-      "C": "USD 2,430,000",
-      "D": "USD 2,344,320"
+      "A": "USD 2,344,320",
+      "B": "USD 9,000,000",
+      "C": "USD 2,398,920",
+      "D": "USD 2,430,000"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Step 1: Calculate payable copper per tonne of concentrate. At 28% copper grade, each tonne of concentrate contains 280 kg = 0.280 tonnes of copper. For 1,000 DMT of concentrate: 1,000 × 0.280 = 280 tonnes of contained copper. Step 2: Apply payable percentage: 280 × 96.5% = 270.2 payable tonnes of copper. Step 3: Apply copper price: 270.2 × USD 9,000 = USD 2,431,800. Step 4: Deduct TC/RC: typically applied per dry metric tonne of concentrate (TC) and per pound of copper refined (RC). Simplified with USD 80/tonne of concentrate: USD 80 × 1,000 = USD 80,000. Step 5: Net payment ≈ USD 2,431,800 - USD 80,000 ≈ USD 2,351,800. The closest answer accounting for rounding is B: USD 2,398,920 (exact calculation depends on specific TC/RC structure). This illustrates why concentrate buyers (smelters/traders) and sellers (miners) negotiate TC/RC terms intensely in offtake agreements.",
     "key_concept": "Concentrate offtake pricing: LME price × payable% × contained metal quantity, minus TC/RC deductions",
     "source": "Copper concentrate trading conventions; LME pricing methodology; Glencore and Trafigura offtake frameworks",
@@ -600,12 +600,12 @@
     "domain": "gold",
     "question": "A junior gold miner issues a convertible note with these terms: CAD 5 million principal, 8% annual coupon, 18-month term, convertible at CAD 0.35/share at the holder's option. The current share price is CAD 0.22. Why is this financing structure used rather than a straight equity placement?",
     "options": {
-      "A": "Convertible notes are always cheaper than equity placements because they have no dilution",
-      "B": "At the current low share price, an equity placement would severely dilute existing shareholders; the convertible note provides bridge financing at a better conversion price, aligning investor incentives with share price recovery",
+      "A": "At the current low share price, an equity placement would severely dilute existing shareholders; the convertible note provides bridge financing at a better conversion price, aligning investor incentives with share price recovery",
+      "B": "Convertible notes are always cheaper than equity placements because they have no dilution",
       "C": "Convertible notes are mandatory for all TSX-V companies raising more than CAD 3 million",
       "D": "The coupon payments on convertible notes are tax-deductible for investors"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Convertible notes are a critical bridge financing tool for junior miners when the share price is depressed. If the company raised equity at CAD 0.22/share, it would need to issue CAD 5M / 0.22 = 22.7 million new shares — severe dilution to existing shareholders. By contrast, the convertible note allows funding today with the possibility that, if the share price recovers above CAD 0.35, investors will convert to equity (avoiding cash repayment) and the company benefits from the higher conversion price (only 14.3 million shares would be issued at CAD 0.35). The 8% coupon compensates investors for the lending risk during the 18 months. Convertible notes are common for juniors between exploration milestones — for example, bridging from a new drill result to a resource update. Key risks: if the share price does not recover, the company must repay CAD 5M cash at maturity, which may require another financing.",
     "key_concept": "Convertible notes for juniors: bridge financing when share price depressed, better dilution profile than equity at current low price",
     "source": "TSX-V junior mining financing structures; convertible debt mechanics",
@@ -617,12 +617,12 @@
     "domain": "gold",
     "question": "In mining project finance, mezzanine debt is described as 'subordinated' and typically includes 'warrant kickers.' This means:",
     "options": {
-      "A": "Mezzanine lenders are repaid before senior lenders in the capital structure, and warrants are penalties for early repayment",
-      "B": "Mezzanine debt ranks below senior debt in repayment priority, increasing risk for mezzanine lenders, who are compensated with equity warrants that allow participation in project upside",
-      "C": "Mezzanine loans have a subordinate interest rate (lower than senior debt) to compensate for their junior position",
+      "A": "Mezzanine debt ranks below senior debt in repayment priority, increasing risk for mezzanine lenders, who are compensated with equity warrants that allow participation in project upside",
+      "B": "Mezzanine loans have a subordinate interest rate (lower than senior debt) to compensate for their junior position",
+      "C": "Mezzanine lenders are repaid before senior lenders in the capital structure, and warrants are penalties for early repayment",
       "D": "Mezzanine debt is provided exclusively by government agencies in developing countries"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Mezzanine debt occupies the 'mezzanine floor' between senior debt and equity in the capital structure. Key characteristics: (1) Subordination: if the project defaults, senior lenders are repaid first from asset liquidation proceeds; mezzanine lenders only receive payment after senior debt is fully satisfied. This subordination significantly increases mezzanine lenders' risk of total loss. (2) Warrant kickers: to compensate for this subordination risk, mezzanine lenders typically receive equity warrants (rights to purchase shares at a fixed price) or 'equity kickers' (a small equity stake) in addition to the coupon. This allows them to participate in project upside. (3) Pricing: mezzanine debt typically commands 15-20% all-in returns (coupon + warrant value) compared to 8-12% for senior project finance. In mining, mezzanine is often provided by specialist funds like Orion Mine Finance, Sprott, or Bain Capital Credit.",
     "key_concept": "Mezzanine debt: subordinated to senior debt, compensated with warrant kickers, 15-20% all-in return target",
     "source": "Mining project finance capital structure; mezzanine lending conventions",
@@ -634,10 +634,10 @@
     "domain": "gold",
     "question": "Which cost of capital range is most appropriate for discounting cash flows in a DCF valuation of a gold exploration company with no defined resource, relative to a producing gold mine?",
     "options": {
-      "A": "Exploration: 5-8%; producing mine: 25-35%",
+      "A": "Exploration: 12-15%; producing mine: 18-22%",
       "B": "Exploration: 30%+; development-stage project: 15-20%; producing mine: 8-12%",
-      "C": "Both stages use the same WACC of approximately 10-12%",
-      "D": "Exploration: 12-15%; producing mine: 18-22%"
+      "C": "Exploration: 5-8%; producing mine: 25-35%",
+      "D": "Both stages use the same WACC of approximately 10-12%"
     },
     "correct": "B",
     "explanation": "Discount rates in mining increase dramatically as project stage uncertainty increases. For a producing gold mine with established reserves, operating history, and predictable cash flows, an 8-12% discount rate is appropriate (comparable to mature industrial companies). For a development-stage project (bankable feasibility complete, construction risk remains), 15-20% is appropriate to reflect construction cost overrun risk, commissioning delays, and ramp-up uncertainty. For an exploration-stage company with no defined resource, 30% or higher is used because there is no guarantee the company will ever find an economic deposit — the probability of converting drilling targets into a mine is typically 1 in 100 to 1 in 1,000. This wide range means exploration companies are almost never valued on DCF — they are valued on comparable transactions (price per acre or price per resource ounce) instead.",
@@ -653,8 +653,8 @@
     "options": {
       "A": "The risk that the gold price rises significantly, increasing the cost of repaying the physical gold in USD-equivalent terms",
       "B": "The risk that the bullion bank defaults before repayment",
-      "C": "The risk that the gold price falls, making the loan principal worth less",
-      "D": "The risk that currency controls prevent physical gold from being shipped to the bullion bank"
+      "C": "The risk that currency controls prevent physical gold from being shipped to the bullion bank",
+      "D": "The risk that the gold price falls, making the loan principal worth less"
     },
     "correct": "A",
     "explanation": "Under a gold loan (bullion-denominated loan), the mining company borrows physical gold (or the USD cash equivalent), sells it immediately at spot price for working capital or project financing, and is obligated to repay the principal in gold (or its gold-equivalent value) plus gold lease rate interest. The primary risk: if the gold price rises from, say, USD 2,000/oz at loan inception to USD 3,000/oz at maturity, the company must repay 10,000 oz × USD 3,000 = USD 30 million worth of gold versus receiving only USD 20 million initially. This is the same economic exposure as a forward sale — the mining company is effectively short gold. Historically used as a construction financing tool in the 1990s when gold prices were depressed, gold loans fell out of favor as prices rose in the 2000s (for the same reasons Barrick suffered with forward sales). Today, gold loans are less common but persist in regions where USD credit is expensive.",
@@ -669,11 +669,11 @@
     "question": "A gold mine in Canada is considering whether to lease or purchase a fleet of 50 haul trucks valued at CAD 150 million. Which consideration most strongly favors leasing over outright purchase in a mining project finance context?",
     "options": {
       "A": "Leasing is always cheaper than purchasing because lease rates are subsidized by government",
-      "B": "Leasing preserves cash and project finance debt capacity by converting a large upfront capex into an operating expense, particularly important when the company's debt covenants restrict total indebtedness",
-      "C": "Purchased equipment must be insured, while leased equipment requires no insurance",
-      "D": "Mining equipment leases are always treated as operating leases under IFRS 16, reducing reported balance sheet leverage"
+      "B": "Mining equipment leases are always treated as operating leases under IFRS 16, reducing reported balance sheet leverage",
+      "C": "Leasing preserves cash and project finance debt capacity by converting a large upfront capex into an operating expense, particularly important when the company's debt covenants restrict total indebtedness",
+      "D": "Purchased equipment must be insured, while leased equipment requires no insurance"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "In mining project finance, equipment leasing provides three key benefits over outright purchase: (1) Capital preservation: CAD 150 million in capex can be avoided upfront, reducing equity requirements and preserving cash for operations or contingency reserves; (2) Debt covenant management: project finance debt covenants typically restrict the total debt/equity ratio — equipment leases (under operating lease classification) may not count against debt capacity; (3) Flexibility: at end-of-life or if mine plans change, leased equipment can be returned rather than sold at distressed prices. Note: IFRS 16 (effective 2019) has largely eliminated off-balance-sheet treatment by requiring all significant leases to be capitalized — so the tax and accounting advantages have diminished. However, the capex-to-opex conversion benefit remains valuable for cash flow management.",
     "key_concept": "Equipment leasing in mining: converts capex to opex, preserves debt capacity, provides flexibility at mine closure",
     "source": "Mining equipment financing; IFRS 16 lease accounting; project finance covenant analysis",
@@ -685,12 +685,12 @@
     "domain": "gold",
     "question": "Export Credit Agencies (ECAs) such as Export Development Canada (EDC), UK Export Finance (UKEF), and OECD ECAs provide financing for mining projects primarily by:",
     "options": {
-      "A": "Purchasing equity stakes in mining companies listed on foreign stock exchanges",
-      "B": "Providing loans, guarantees, or insurance to support the purchase of capital equipment and services exported from their home countries, typically at preferential rates that help mining projects achieve financial close",
+      "A": "Providing loans, guarantees, or insurance to support the purchase of capital equipment and services exported from their home countries, typically at preferential rates that help mining projects achieve financial close",
+      "B": "Purchasing equity stakes in mining companies listed on foreign stock exchanges",
       "C": "Setting the benchmark interest rate for all cross-border mining project loans",
       "D": "Operating as the exclusive insurer for political risk in developing country mining projects"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Export Credit Agencies (ECAs) are government-backed financial institutions that support exports of goods and services from their home countries. In mining project finance, ECAs play a critical role when a mine purchases major equipment from the ECA's home country. For example: if a Canadian gold mine in West Africa purchases CAT mining equipment (US-made) and METSO grinding mills (Finnish), the US Export-Import Bank (US EXIM) and Finnish Export Credit (Finnvera) may each provide debt or guarantees covering a portion of the equipment purchase price, typically at below-market interest rates (OECD Consensus rates). This reduces the project's overall cost of capital and can be decisive in achieving financial close. ECA tenors typically match equipment life (7-12 years) and their involvement signals institutional credibility to commercial bank co-lenders.",
     "key_concept": "ECAs support mining by financing export equipment purchases at preferential rates; EDC, UKEF, US EXIM, Finnvera common in mining",
     "source": "OECD Arrangement on Export Credits; Export Development Canada; mining project ECA financing examples",
@@ -702,12 +702,12 @@
     "domain": "gold",
     "question": "A mining company is evaluating a DFS-stage gold project and must select a long-term gold price assumption for the base-case NPV. The current spot price is USD 2,400/oz, the 5-year average trailing price is USD 1,950/oz, and consensus analyst forecasts average USD 2,100/oz long-term. Which methodology is most aligned with standard feasibility study practice and likely to be accepted by project finance banks?",
     "options": {
-      "A": "Use current spot price (USD 2,400/oz) to maximize the NPV and attract investor interest",
-      "B": "Use a trailing 3-5 year average or analyst consensus long-term price (e.g., USD 1,950-2,100/oz), reflecting a conservative through-the-cycle price that minimises overstating NPV at peak-cycle prices",
-      "C": "Use USD 1,000/oz as the most conservative assumption to guarantee bank approval",
-      "D": "Use the gold futures curve (USD 2,350/oz for 10-year contracts) as it reflects the market's best forward price estimate"
+      "A": "Use the gold futures curve (USD 2,350/oz for 10-year contracts) as it reflects the market's best forward price estimate",
+      "B": "Use current spot price (USD 2,400/oz) to maximize the NPV and attract investor interest",
+      "C": "Use a trailing 3-5 year average or analyst consensus long-term price (e.g., USD 1,950-2,100/oz), reflecting a conservative through-the-cycle price that minimises overstating NPV at peak-cycle prices",
+      "D": "Use USD 1,000/oz as the most conservative assumption to guarantee bank approval"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Project finance banks and equity analysts universally require conservative, through-the-cycle metal price assumptions for base-case NPV calculations. Using spot price (USD 2,400) when gold is near multi-year highs overstates NPV and the project's true through-the-cycle value. Best practice is to use either: (1) a trailing 3-5 year average (USD 1,950/oz), which smooths cyclical peaks; or (2) independent analyst consensus long-term forecasts (typically USD 1,900-2,100/oz for gold in 2024-2025 consensus). Banks perform independent technical reports and will recalculate NPV at their own conservative price deck. Sensitivity analysis around the base case (e.g., at ±20% gold price) is also mandatory. The futures curve approach is disfavored for long-life mines because futures markets lack liquidity beyond 2-3 years.",
     "key_concept": "Feasibility study gold price: use trailing 3-5yr average or analyst consensus, not spot price; banks require conservative through-the-cycle assumptions",
     "source": "CIM Best Practice Guidelines; project finance lender requirements; mining analyst valuation conventions",
@@ -719,12 +719,12 @@
     "domain": "gold",
     "question": "A strategic investor (such as a major mining company taking a 15% stake in a junior) differs fundamentally from a financial investor (such as a mining PE fund) in that the strategic investor typically:",
     "options": {
-      "A": "Requires a higher IRR (30%+) because of the longer holding period",
-      "B": "Values the investment partly for strategic reasons beyond financial return — including securing future M&A optionality, locking up mineral supply, or gaining a foothold in a new jurisdiction — and may accept lower IRR thresholds than a purely financial investor",
-      "C": "Always demands a controlling stake (51%+) before investing any capital",
+      "A": "Always demands a controlling stake (51%+) before investing any capital",
+      "B": "Requires a higher IRR (30%+) because of the longer holding period",
+      "C": "Values the investment partly for strategic reasons beyond financial return — including securing future M&A optionality, locking up mineral supply, or gaining a foothold in a new jurisdiction — and may accept lower IRR thresholds than a purely financial investor",
       "D": "Is prohibited by securities law from investing in exploration-stage companies"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Strategic investors — typically major mining companies like Barrick, Newmont, Rio Tinto, or BHP — invest in junior miners for strategic reasons that extend beyond pure financial return. Their rationale may include: (1) Securing M&A optionality: a 10-15% 'strategic stake' often includes a right of first refusal (ROFR) or right of first offer (ROFO) on any sale of the company, ensuring the major can acquire the project before competitors; (2) Supply security: locking in future metal supply from a mine under development; (3) Jurisdictional positioning: gaining a foothold in a new country without the risk of full ownership; (4) Technical intelligence: gaining data access to make informed full acquisition decisions. Because of these strategic benefits, major companies may accept 12-15% IRR deals that a financial PE fund (targeting 20-25% IRR) would reject. This is why strategic investors are often 'cheaper capital' than PE funds for junior miners.",
     "key_concept": "Strategic investor: accepts lower IRR for M&A optionality, supply security, ROFR/ROFO rights vs financial investor's pure return focus",
     "source": "Mining M&A strategy; junior-major partnership structures; mining investment banking frameworks",
@@ -737,11 +737,11 @@
     "question": "A mining project finance package requires Political Risk Insurance (PRI) from MIGA (Multilateral Investment Guarantee Agency) and Business Interruption (BI) insurance. What specific event would each policy respond to?",
     "options": {
       "A": "PRI covers commodity price crashes; BI covers gold price falls below the project's break-even cost",
-      "B": "PRI covers events such as government expropriation, currency inconvertibility, or war/civil disturbance that prevent the project from operating; BI covers lost revenue from physical damage (equipment failure, flooding, fire) that suspends production",
-      "C": "PRI covers construction cost overruns; BI covers tailings dam failures and environmental remediation",
+      "B": "PRI covers construction cost overruns; BI covers tailings dam failures and environmental remediation",
+      "C": "PRI covers events such as government expropriation, currency inconvertibility, or war/civil disturbance that prevent the project from operating; BI covers lost revenue from physical damage (equipment failure, flooding, fire) that suspends production",
       "D": "Both policies cover the same events but PRI is required by governments and BI is optional for banks"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Political Risk Insurance (PRI) and Business Interruption (BI) insurance address fundamentally different risks. PRI (offered by MIGA, OPIC/DFC, private insurers like AIG and Zurich) covers political events that are outside the operator's control: (1) Expropriation/nationalization — government seizure of the mine; (2) Currency inconvertibility/transfer restriction — inability to repatriate dividends or loan repayments; (3) War, civil disturbance, terrorism that physically damages or prevents mine operation. Project finance banks in high-risk jurisdictions (e.g., DRC, Guinea, Papua New Guinea) routinely require PRI as a loan condition. Business Interruption (BI) insurance covers physical-damage-related revenue losses: if a fire destroys the processing plant, BI pays for lost production revenue during the repair period (often 12-18 months). BI is typically bundled with property/casualty insurance and is a standard project finance requirement regardless of jurisdiction.",
     "key_concept": "PRI: expropriation/currency/war risk; BI: revenue loss from physical damage events — both required in project finance",
     "source": "MIGA product guidelines; project finance insurance requirements; Marsh and Aon mining insurance surveys",
@@ -753,12 +753,12 @@
     "domain": "gold",
     "question": "A mining company is comparing the total cost of listing on the TSX-V versus the ASX versus the LSE AIM for a planned IPO of CAD 10 million. Which statement best reflects the comparative listing cost landscape?",
     "options": {
-      "A": "All three exchanges have identical listing fees mandated by IOSCO standards",
-      "B": "TSX-V is cheapest overall; ASX and AIM are comparable; all three exchanges have total IPO costs (fees, legal, accounting) typically ranging from 8-15% of gross proceeds for a CAD 10 million raise, with ASX requiring slightly higher ongoing disclosure costs and AIM requiring ongoing Nomad retainer fees of GBP 60,000-150,000 per year",
+      "A": "TSX-V is cheapest overall; ASX and AIM are comparable; all three exchanges have total IPO costs (fees, legal, accounting) typically ranging from 8-15% of gross proceeds for a CAD 10 million raise, with ASX requiring slightly higher ongoing disclosure costs and AIM requiring ongoing Nomad retainer fees of GBP 60,000-150,000 per year",
+      "B": "All three exchanges have identical listing fees mandated by IOSCO standards",
       "C": "LSE AIM is the cheapest because London has no stamp duty on new share issuances",
       "D": "ASX charges a flat AUD 5 million listing fee for all mining companies regardless of IPO size"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "For a small mining IPO of approximately CAD 10 million, total transaction costs (underwriting commissions at 6-8%, legal fees, audit, prospectus preparation, exchange fees) typically represent 8-15% of gross proceeds across all three exchanges. Key differences: TSX-V exchange fees for a new listing are relatively modest (CAD 10,000-40,000 application fee) and its regulatory infrastructure is well-adapted to junior miners, often making it the most cost-efficient access point to mining capital. ASX requires a JORC-compliant technical report, and the exchange fees (AUD 7,500-25,000 initial fee) are comparable, but Australian legal and accounting costs can be slightly higher. LSE AIM has no minimum market cap but requires a Nomad whose annual retainer typically costs GBP 60,000-150,000 per year — a significant ongoing cost burden for a small company. Additionally, AIM requires a GBP 7,500-10,000 annual fee plus ad hoc admission fees. For a CAD 10M company, the Nomad cost alone can represent 1-2% of market cap annually, making AIM relatively expensive for very small miners.",
     "key_concept": "IPO listing costs 8-15% gross proceeds; AIM has GBP 60-150K/year Nomad retainer; TSX-V most cost-efficient for small juniors",
     "source": "TSX-V, ASX, and LSE AIM fee schedules; mining IPO cost benchmarking studies",

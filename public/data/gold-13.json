@@ -6,11 +6,11 @@
     "question": "What does RC stand for in the context of gold exploration drilling?",
     "options": {
       "A": "Rock Classification",
-      "B": "Reverse Circulation",
-      "C": "Resource Confirmation",
-      "D": "Rotary Core"
+      "B": "Rotary Core",
+      "C": "Reverse Circulation",
+      "D": "Resource Confirmation"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "RC stands for Reverse Circulation, a drilling method where compressed air pushes rock cuttings up through the inner tube of a dual-wall drill pipe, preventing contamination from the borehole walls. RC drilling is the workhorse of gold exploration in West Africa, offering a balance between cost ($30-80/m), speed, and sample quality. It is effective to depths of 50-300 metres, making it ideal for the typical laterite-covered, weathered-bedrock gold targets found across the West African Birimian greenstone belts. RC provides representative samples suitable for resource estimation, though it does not produce the continuous core that diamond drilling provides.",
     "key_concept": "RC = Reverse Circulation: $30-80/m, 50-300m depth, West Africa exploration workhorse",
     "source": "Drilling methodology / gold exploration practice",
@@ -22,12 +22,12 @@
     "domain": "gold",
     "question": "What is the primary advantage of diamond drilling (DD) over RC drilling for gold exploration?",
     "options": {
-      "A": "Diamond drilling is significantly cheaper per metre",
-      "B": "Diamond drilling produces continuous rock core, providing the highest quality geological, structural, and metallurgical information",
-      "C": "Diamond drilling is faster and requires less water",
+      "A": "Diamond drilling is faster and requires less water",
+      "B": "Diamond drilling is significantly cheaper per metre",
+      "C": "Diamond drilling produces continuous rock core, providing the highest quality geological, structural, and metallurgical information",
       "D": "Diamond drilling can only reach depths of 50 metres"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Diamond drilling (DD) produces a continuous cylindrical rock core that preserves geological structures, textures, mineralogy, and the spatial relationship of mineralization to host rocks. This core can be logged in detail, photographed, used for metallurgical test work, and stored for future reference. DD can reach depths exceeding 2,000 metres ($80-200/m), making it essential for deep targets and underground mine planning. The trade-off is cost: DD is 2-5x more expensive per metre than RC and slower to complete. In a typical West African exploration program, RC drilling defines the broad resource footprint while DD provides the detailed geological understanding needed for higher-confidence resource categories and feasibility studies.",
     "key_concept": "Diamond drilling: continuous core, highest quality data, >2000m depth, $80-200/m, essential for feasibility",
     "source": "Drilling methodology",
@@ -40,11 +40,11 @@
     "question": "RAB drilling (Rotary Air Blast) is used in gold exploration primarily for:",
     "options": {
       "A": "Deep drilling to define underground mining targets below 500 metres",
-      "B": "Shallow reconnaissance drilling to 10-50 metres to penetrate laterite cover and test bedrock geochemistry",
-      "C": "Collecting metallurgical samples for pilot plant testing",
-      "D": "Confirming Measured Resource categories for feasibility studies"
+      "B": "Collecting metallurgical samples for pilot plant testing",
+      "C": "Confirming Measured Resource categories for feasibility studies",
+      "D": "Shallow reconnaissance drilling to 10-50 metres to penetrate laterite cover and test bedrock geochemistry"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "RAB drilling is the cheapest drilling method ($10-20/m) and is used for shallow reconnaissance, typically to 10-50 metres depth. In West Africa, its primary purpose is to penetrate the laterite and saprolite cover that obscures bedrock geology, allowing geochemists to sample fresh or semi-fresh rock below the transported overburden. RAB provides lower-quality samples than RC or DD because the hole is open and sample contamination is more likely. RAB results are used for target generation and anomaly prioritization, not for resource estimation. It is the first pass drilling method in a staged exploration approach: RAB identifies anomalies, RC defines the resource, and DD provides the detail.",
     "key_concept": "RAB: $10-20/m, 10-50m depth, reconnaissance, laterite penetration, target generation only",
     "source": "Drilling methodology",
@@ -56,10 +56,10 @@
     "domain": "gold",
     "question": "What is the gold standard analytical method for determining gold content in drill samples?",
     "options": {
-      "A": "Atomic absorption spectroscopy (AAS) on whole rock",
+      "A": "Inductively coupled plasma mass spectrometry (ICP-MS) only",
       "B": "X-ray fluorescence (XRF) on pressed pellets",
       "C": "Fire assay with a 30-50g charge, fusion at ~1,100°C and cupellation at ~950°C",
-      "D": "Inductively coupled plasma mass spectrometry (ICP-MS) only"
+      "D": "Atomic absorption spectroscopy (AAS) on whole rock"
     },
     "correct": "C",
     "explanation": "Fire assay is the universally accepted 'gold standard' method for determining gold content in geological samples. A 30-50g sample charge is fused with a lead-based flux at approximately 1,100°C, producing a lead button that collects the gold and silver. The button is then cupelled at approximately 950°C to oxidize and absorb the lead, leaving a precious metal prill that is weighed and/or dissolved for AA or ICP finish. Fire assay's superiority comes from its large sample weight (reducing the nugget effect), complete decomposition of all mineral phases, and proven reliability over centuries of use. No other method fully decomposes refractory gold-bearing minerals like arsenopyrite.",
@@ -73,12 +73,12 @@
     "domain": "gold",
     "question": "In sample preparation for gold assay, what is the target grind size to ensure adequate liberation of gold particles?",
     "options": {
-      "A": ">90% passing 500 μm",
+      "A": ">90% passing 10 μm",
       "B": ">90% passing 250 μm",
-      "C": ">90% passing 75 μm",
-      "D": ">90% passing 10 μm"
+      "C": ">90% passing 500 μm",
+      "D": ">90% passing 75 μm"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "The standard sample preparation protocol requires grinding to >90% passing 75 micrometres (200 mesh). This ensures that gold particles are liberated from the host rock and homogeneously distributed in the pulp, enabling a representative 30-50g fire assay charge. The preparation sequence is: crush the sample to <2mm, riffle split to obtain a 200-500g subsample, then pulverize to >90% passing 75μm. If the grind is too coarse, coarse gold particles may not be uniformly distributed, leading to erratic assay results (the 'nugget effect'). For deposits with known coarse gold, larger sample charges (metallic screen fire assay using 500g-1kg) may be required to achieve representative results.",
     "key_concept": "Gold sample prep: crush <2mm → split 200-500g → grind >90% passing 75μm",
     "source": "Laboratory sample preparation standards",
@@ -91,11 +91,11 @@
     "question": "Why is core recovery an important parameter in diamond drilling?",
     "options": {
       "A": "Higher core recovery reduces drilling costs",
-      "B": "Core recovery indicates the percentage of rock successfully retrieved from the hole; low recovery may mean mineralized intervals are missing, biasing the resource estimate",
-      "C": "Core recovery determines the diameter of the drill hole",
+      "B": "Core recovery determines the diameter of the drill hole",
+      "C": "Core recovery indicates the percentage of rock successfully retrieved from the hole; low recovery may mean mineralized intervals are missing, biasing the resource estimate",
       "D": "Core recovery affects the colour of the core for logging purposes"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Core recovery measures the percentage of rock core actually retrieved versus the drilled interval length. If you drill 3 metres but only recover 2 metres of core, recovery is 67%. Low recovery zones are problematic because the missing core may represent fractured, weathered, or mineralized material that broke apart during drilling. If gold-bearing quartz veins preferentially fragment and are lost, the assay results will understate the true grade — a systematic bias that can significantly impact the resource estimate. JORC requires that core recovery be reported and that intervals with low recovery be flagged. Best practice targets >95% core recovery in mineralized zones.",
     "key_concept": "Core recovery: % retrieved vs drilled; low recovery = potential grade bias, target >95%",
     "source": "JORC Code / diamond drilling practice",
@@ -107,12 +107,12 @@
     "domain": "gold",
     "question": "What is the purpose of blank samples in a QA/QC program?",
     "options": {
-      "A": "To test the accuracy of the laboratory's gold calibration",
-      "B": "To detect contamination in the sample preparation and analytical process",
-      "C": "To verify the precision of duplicate samples",
+      "A": "To verify the precision of duplicate samples",
+      "B": "To test the accuracy of the laboratory's gold calibration",
+      "C": "To detect contamination in the sample preparation and analytical process",
       "D": "To establish the gold price for royalty calculations"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Blank samples are certified barren material (containing negligible gold, typically <0.01 g/t) inserted into the sample stream to detect contamination. If a blank returns a significant gold value, it indicates that gold from a preceding high-grade sample has carried over during crushing, splitting, or pulverizing equipment cleaning (cross-contamination). In a typical QA/QC program, blanks are inserted after high-grade samples at a rate of approximately 1 in 20 samples. Blank failures require investigation: the laboratory must re-prepare and re-assay the surrounding samples. Persistent blank failures indicate a systemic contamination problem that can invalidate an entire drill program's results.",
     "key_concept": "Blanks: barren samples to detect contamination, inserted after high-grade samples, ~1 in 20",
     "source": "QA/QC best practice / JORC Code",
@@ -143,8 +143,8 @@
     "options": {
       "A": "Contamination in the crushing circuit",
       "B": "Precision — the reproducibility of results from the same original sample",
-      "C": "Whether the gold price assumption in the resource model is correct",
-      "D": "The structural orientation of mineralization"
+      "C": "The structural orientation of mineralization",
+      "D": "Whether the gold price assumption in the resource model is correct"
     },
     "correct": "B",
     "explanation": "Duplicate samples test the precision (reproducibility) of the sampling and analytical process. There are several types: field duplicates (a second sample taken from the same interval at the drill rig), coarse duplicates (a split taken after initial crushing), and pulp duplicates (a second subsample taken from the pulverized material). Each type isolates a different source of variability. Good precision means the original and duplicate return similar values. High variability between duplicates suggests heterogeneous gold distribution (nugget effect) or poor sample preparation. Duplicate insertion rates are typically 1 in 20 samples, and results are analyzed using half-absolute relative difference (HARD) plots.",
@@ -158,10 +158,10 @@
     "domain": "gold",
     "question": "What percentage of samples should typically be sent to an independent umpire (second) laboratory as part of a robust QA/QC program?",
     "options": {
-      "A": "1-2%",
+      "A": "50%",
       "B": "5-10%",
       "C": "25-30%",
-      "D": "50%"
+      "D": "1-2%"
     },
     "correct": "B",
     "explanation": "Best practice recommends sending 5-10% of all pulp samples to an independent umpire laboratory for check assaying. The umpire laboratory should be a different facility from the primary lab, ideally operated by a different company and in a different geographic location. Umpire results are compared to primary lab results using scatter plots and relative difference analysis. Systematic discrepancies between the primary and umpire labs may indicate calibration issues, method differences, or bias at one or both laboratories. Umpire assaying is a critical component of QA/QC and is specifically scrutinized by Competent Persons during JORC resource estimation audits.",
@@ -175,12 +175,12 @@
     "domain": "gold",
     "question": "What is the typical drill spacing required to classify a gold resource as Indicated under JORC?",
     "options": {
-      "A": "200-400 metres",
-      "B": "100-200 metres",
-      "C": "50-100 metres",
-      "D": "25-50 metres"
+      "A": "50-100 metres",
+      "B": "25-50 metres",
+      "C": "100-200 metres",
+      "D": "200-400 metres"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "Indicated Resources typically require drill spacing of 50-100 metres, depending on the geological complexity and continuity of mineralization. This spacing must demonstrate reasonable geological and grade continuity between drill holes, allowing a Competent Person to have reasonable confidence in the tonnage, grade, and shape of the deposit. More complex or erratic mineralization styles may require tighter spacing (closer to 50m), while continuous, tabular deposits may achieve Indicated confidence at 100m spacing. The progression from Inferred (100-200m) to Indicated (50-100m) to Measured (25-50m) reflects increasing drill density and geological confidence.",
     "key_concept": "Indicated Resource drill spacing: 50-100m (varies with deposit geology and continuity)",
     "source": "JORC Code / resource classification practice",
@@ -192,12 +192,12 @@
     "domain": "gold",
     "question": "What drill spacing is generally required for Inferred Resource classification?",
     "options": {
-      "A": "25-50 metres",
-      "B": "50-100 metres",
-      "C": "100-200 metres",
-      "D": "500-1,000 metres"
+      "A": "500-1,000 metres",
+      "B": "25-50 metres",
+      "C": "50-100 metres",
+      "D": "100-200 metres"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Inferred Resources are the lowest confidence category and typically require drill spacing of 100-200 metres. At this spacing, geological and grade continuity are assumed but not confirmed. Inferred Resources cannot be used in feasibility studies for mine planning or reserve conversion, though they can be included in Preliminary Economic Assessments (PEAs) and scoping studies. The wide spacing means that the geometry, grade, and tonnage of the deposit are known to a broad order of magnitude but are subject to significant revision with additional drilling. Inferred Resources carry insufficient confidence for economic evaluation of mining projects under JORC.",
     "key_concept": "Inferred Resource: 100-200m drill spacing, lowest confidence, not for feasibility studies",
     "source": "JORC Code / resource classification",
@@ -209,12 +209,12 @@
     "domain": "gold",
     "question": "What drill spacing is generally needed for Measured Resource classification?",
     "options": {
-      "A": "100-200 metres",
-      "B": "50-100 metres",
-      "C": "25-50 metres",
-      "D": "10-15 metres"
+      "A": "10-15 metres",
+      "B": "25-50 metres",
+      "C": "50-100 metres",
+      "D": "100-200 metres"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Measured Resources require drill spacing of approximately 25-50 metres, providing the highest level of geological confidence in the JORC classification system. At this density, the Competent Person has high confidence in the continuity, tonnage, grade, shape, and physical characteristics of the mineralization. Measured Resources can be converted to Proved Reserves when modifying factors (mining, metallurgical, economic, marketing, legal, environmental, social, and governmental) are applied. The cost of achieving Measured classification is substantial — infill drilling from 100m to 25m spacing requires roughly 16x the number of drill holes — which is why only the portion of a deposit planned for near-term mining is typically drilled to this density.",
     "key_concept": "Measured Resource: 25-50m drill spacing, highest confidence, convertible to Proved Reserves",
     "source": "JORC Code / resource classification",
@@ -227,11 +227,11 @@
     "question": "When planning drill hole orientations for a gold exploration program, the primary consideration is:",
     "options": {
       "A": "Drilling vertically to minimize costs",
-      "B": "Orienting holes to intersect the mineralized zone as close to perpendicular as possible, maximizing the true width of intercepts",
-      "C": "Drilling parallel to the strike of mineralization for maximum meterage in ore",
-      "D": "Drilling at random angles to avoid bias"
+      "B": "Drilling at random angles to avoid bias",
+      "C": "Orienting holes to intersect the mineralized zone as close to perpendicular as possible, maximizing the true width of intercepts",
+      "D": "Drilling parallel to the strike of mineralization for maximum meterage in ore"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Drill holes must be oriented to intersect the target mineralization as close to perpendicular (90 degrees) as possible. This maximizes the true width of intercepts and minimizes sampling bias. If a steeply dipping vein is drilled vertically, the hole may run parallel to the vein, producing either a misleadingly long intersection (if in ore) or missing the vein entirely. West African gold deposits commonly occur in steeply dipping structures, so drill holes are typically angled at 45-60 degrees from horizontal, directed to cross-cut the known or interpreted strike and dip of mineralization. The relationship between drilled width and true width must be reported under JORC, and resource estimators rely on correctly oriented holes for grade interpolation.",
     "key_concept": "Drill orientation: perpendicular to mineralization for true width; avoid parallel to structures",
     "source": "Drill planning best practice / JORC Code",
@@ -244,11 +244,11 @@
     "question": "What is the purpose of collar surveys in a drilling program?",
     "options": {
       "A": "To determine the gold grade at the surface",
-      "B": "To accurately record the position (easting, northing, and elevation) of each drill hole's starting point",
+      "B": "To assess the environmental impact of the drill pad",
       "C": "To measure the diameter of the drill hole collar",
-      "D": "To assess the environmental impact of the drill pad"
+      "D": "To accurately record the position (easting, northing, and elevation) of each drill hole's starting point"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Collar surveys use differential GPS or total station instruments to accurately record the easting, northing, and elevation (X, Y, Z coordinates) of each drill hole's starting point (the collar). This is critical because all downhole geological and assay data are positioned in 3D space relative to the collar coordinates. Even small errors in collar position can cause significant displacement of intersections at depth, potentially leading to incorrect geological interpretations and flawed resource models. Best practice requires sub-metre accuracy for collar surveys, with survey-grade GPS achieving centimetre-level precision. Collar survey data are reported as part of the Table 1 requirements under JORC.",
     "key_concept": "Collar survey: precise XYZ position of drill hole start point, sub-metre accuracy required",
     "source": "Drilling practice / JORC Table 1",
@@ -260,12 +260,12 @@
     "domain": "gold",
     "question": "Downhole surveys in diamond drill holes are conducted to:",
     "options": {
-      "A": "Measure the gold grade at different depths",
-      "B": "Track the actual path of the drill hole at depth, as holes deviate from their planned azimuth and inclination",
-      "C": "Determine the water table depth for hydrogeological studies",
-      "D": "Measure the temperature at depth for geothermal assessments"
+      "A": "Measure the temperature at depth for geothermal assessments",
+      "B": "Measure the gold grade at different depths",
+      "C": "Track the actual path of the drill hole at depth, as holes deviate from their planned azimuth and inclination",
+      "D": "Determine the water table depth for hydrogeological studies"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Downhole surveys measure the azimuth (compass direction) and inclination (angle from horizontal) of the drill hole at regular intervals (typically every 30-50 metres) as it progresses underground. All drill holes deviate from their planned trajectory due to rock hardness variations, structural discontinuities, and drilling mechanics. Without downhole surveys, the assumed position of the hole at depth could be tens of metres from its actual position, leading to incorrect geological interpretations. Modern tools include single-shot cameras, multi-shot electronic instruments, and gyroscopic systems (required in magnetic rock formations where compass-based tools are unreliable). Accurate downhole survey data is mandatory for JORC-compliant resource estimation.",
     "key_concept": "Downhole surveys: track actual azimuth/inclination at depth, every 30-50m, mandatory for JORC",
     "source": "Drilling practice / JORC Table 1",
@@ -279,8 +279,8 @@
     "options": {
       "A": "The driller to steer the hole towards the ore zone",
       "B": "Geologists to determine the absolute orientation (dip and dip direction) of structures, veins, and contacts intersected in the core, enabling structural analysis and geological modelling",
-      "C": "The laboratory to know which end of the core to assay",
-      "D": "The core to be stored in the correct sequence in the core tray"
+      "C": "The core to be stored in the correct sequence in the core tray",
+      "D": "The laboratory to know which end of the core to assay"
     },
     "correct": "B",
     "explanation": "Core orientation uses mechanical or electronic tools (e.g., Reflex ACT III, Ezy-Mark) to mark the bottom-of-hole position on each core run before it is retrieved. This reference mark, combined with downhole survey data, allows geologists to determine the true 3D orientation of any structural feature (fault, vein, contact, foliation) intersected in the core. Without orientation data, geologists can describe structures but cannot determine their absolute orientation in space, severely limiting structural analysis and geological modelling. In West African orogenic gold deposits where structural controls are paramount, oriented core data is essential for understanding the geometry of gold-bearing structures and predicting their continuation between drill holes.",
@@ -294,12 +294,12 @@
     "domain": "gold",
     "question": "Chain of custody for drill samples refers to:",
     "options": {
-      "A": "The legal ownership of the mineral rights associated with the drill results",
-      "B": "The documented, unbroken record of who handled the samples from the drill rig to the laboratory, ensuring sample integrity and preventing tampering",
-      "C": "The financial chain of payments from the mining company to the drilling contractor",
-      "D": "The sequence in which drill holes are completed during a campaign"
+      "A": "The documented, unbroken record of who handled the samples from the drill rig to the laboratory, ensuring sample integrity and preventing tampering",
+      "B": "The legal ownership of the mineral rights associated with the drill results",
+      "C": "The sequence in which drill holes are completed during a campaign",
+      "D": "The financial chain of payments from the mining company to the drilling contractor"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Chain of custody is the documented, unbroken trail tracking who handled drill samples from the moment they are collected at the rig, through bagging, transport, preparation, and analysis at the laboratory. Each transfer of custody must be recorded, and samples should be secured with tamper-evident seals during transport. A broken chain of custody can lead to data being challenged or rejected by Competent Persons, auditors, or securities regulators. In West Africa, where samples may travel by truck from remote drill sites to a sample preparation facility and then internationally to an analytical laboratory, maintaining chain of custody requires rigorous protocols and documentation at every stage.",
     "key_concept": "Chain of custody: documented sample tracking from rig to lab, tamper-evident seals, essential for data integrity",
     "source": "QA/QC best practice / JORC Code",
@@ -311,10 +311,10 @@
     "domain": "gold",
     "question": "A West African gold explorer plans a 10,000-metre RC drilling program. At $55 per metre, what is the approximate drilling cost, and approximately how many holes will this comprise at an average depth of 100 metres?",
     "options": {
-      "A": "$275,000 and 50 holes",
+      "A": "$2,750,000 and 500 holes",
       "B": "$550,000 and 100 holes",
       "C": "$1,100,000 and 200 holes",
-      "D": "$2,750,000 and 500 holes"
+      "D": "$275,000 and 50 holes"
     },
     "correct": "B",
     "explanation": "10,000 metres at $55/m = $550,000 drilling cost. At 100m average depth, this is 100 drill holes. This represents a typical first-pass RC program for a West African gold target. However, the total program cost will be significantly higher than $550,000 because it excludes mobilization/demobilization ($50-100K), sample preparation and assay ($15-25 per sample, with ~15,000 1-metre samples = $225-375K), geological supervision, QA/QC samples, camp costs, and data management. A fully loaded 10,000m RC program in West Africa typically costs $1.0-1.5M all-in. CEOs must budget for the complete cost, not just the per-metre drilling rate.",
@@ -328,12 +328,12 @@
     "domain": "gold",
     "question": "An RC drill program returns the following interval: 'TLRC045: 12m @ 4.5 g/t Au from 68m (downhole).' Why is it important to report true width alongside downhole width?",
     "options": {
-      "A": "True width is always longer than downhole width, making the result look better",
-      "B": "True width represents the actual thickness of mineralization perpendicular to its orientation, which may be significantly less than the downhole width if the hole intersects the zone at an oblique angle",
-      "C": "True width is required for royalty calculations",
-      "D": "Downhole width and true width are always identical in RC drilling"
+      "A": "True width represents the actual thickness of mineralization perpendicular to its orientation, which may be significantly less than the downhole width if the hole intersects the zone at an oblique angle",
+      "B": "True width is always longer than downhole width, making the result look better",
+      "C": "Downhole width and true width are always identical in RC drilling",
+      "D": "True width is required for royalty calculations"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "If a drill hole intersects a mineralized zone at an oblique angle, the downhole width will overstate the true thickness of the mineralization. For example, a 5m-thick vertical vein intersected by a hole angled at 30 degrees from horizontal will produce a 10m downhole intercept. Reporting only the 10m downhole width would mislead investors about the size of the deposit. JORC requires that the relationship between downhole width and true width be stated, and ideally the true width should be reported. The conversion factor depends on the dip of the mineralization and the angle of the drill hole. Failing to distinguish between true and downhole widths is one of the most common misleading practices in exploration reporting.",
     "key_concept": "True width vs downhole width: oblique intersections overstate thickness; JORC requires clarification",
     "source": "JORC Code / exploration reporting",
@@ -345,10 +345,10 @@
     "domain": "gold",
     "question": "A junior explorer discovers that its blank samples are returning values of 0.3-0.5 g/t Au instead of the expected <0.01 g/t. What is the most likely cause and the correct response?",
     "options": {
-      "A": "The blanks were accidentally prepared from mineralized material; re-certify the blanks",
+      "A": "The fire assay flux was contaminated; switch to a new flux batch",
       "B": "Cross-contamination in the sample preparation laboratory, likely from inadequate cleaning of crushing and pulverizing equipment between samples; investigate, halt submissions, and require the lab to re-prepare and re-assay affected batches",
-      "C": "The fire assay flux was contaminated; switch to a new flux batch",
-      "D": "Normal analytical variability; no action required"
+      "C": "Normal analytical variability; no action required",
+      "D": "The blanks were accidentally prepared from mineralized material; re-certify the blanks"
     },
     "correct": "B",
     "explanation": "Blank values of 0.3-0.5 g/t are a serious red flag indicating cross-contamination, most likely in the sample preparation laboratory. When crushing and pulverizing equipment is not adequately cleaned between samples, gold-bearing material from a preceding high-grade sample contaminates subsequent samples, including the blank. The correct response is immediate: halt sample submissions, investigate the contamination source, require the laboratory to re-prepare all affected batches from retained coarse reject material, and implement enhanced cleaning protocols (including barren flushes between samples). Ignoring blank failures can invalidate an entire drilling program and expose the company to securities regulatory action if contaminated results are used in resource estimates.",
@@ -362,12 +362,12 @@
     "domain": "gold",
     "question": "A company needs to upgrade its resource from Inferred to Indicated for a feasibility study. The current drill spacing is 150m. What is the approximate increase in drilling metres required to achieve 75m spacing across the same deposit footprint?",
     "options": {
-      "A": "No additional drilling is needed",
-      "B": "Approximately 2x the original drilling metres",
-      "C": "Approximately 3x the original drilling metres",
-      "D": "Approximately 4x the original drilling metres"
+      "A": "Approximately 2x the original drilling metres",
+      "B": "Approximately 3x the original drilling metres",
+      "C": "Approximately 4x the original drilling metres",
+      "D": "No additional drilling is needed"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Halving the drill spacing from 150m to 75m requires approximately 4x the number of drill holes (because both X and Y spacings are halved: 2 × 2 = 4). However, since you already have the holes from the 150m spacing, you only need approximately 3x additional metres to infill to 75m. In practice, the exact increase depends on the deposit geometry, hole depths, and whether the infill drilling reveals new mineralization domains requiring further drilling. This cost escalation is a critical consideration for juniors planning the transition from a scoping study (which can use Inferred Resources) to a feasibility study (which requires Indicated or Measured). The infill drilling program can easily cost $10-30M for a significant deposit.",
     "key_concept": "Halving drill spacing ≈ 4x total holes needed, 3x additional metres, $10-30M cost for infill",
     "source": "Drill program planning / resource upgrade economics",
@@ -380,11 +380,11 @@
     "question": "During core logging, a geologist observes that core recovery drops from 98% to 45% in a 3-metre interval that shows visible gold in the recovered portions. What concern should this raise for the resource estimate?",
     "options": {
       "A": "No concern; the recovered core can be assayed normally",
-      "B": "The assay from this interval may understate the true grade because the lost core likely contained fractured, mineralized quartz vein material that was preferentially ground and washed away during drilling",
+      "B": "Core recovery only matters for metallurgical test work, not resource estimation",
       "C": "The assay from this interval will overstate the grade because the lost core was barren waste rock",
-      "D": "Core recovery only matters for metallurgical test work, not resource estimation"
+      "D": "The assay from this interval may understate the true grade because the lost core likely contained fractured, mineralized quartz vein material that was preferentially ground and washed away during drilling"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Low core recovery in mineralized zones is one of the most critical issues in diamond drilling. Quartz veins carrying visible gold are often fractured and friable, making them prone to grinding and washing out during drilling. When this material is lost, only the harder, potentially lower-grade host rock is recovered, resulting in an understatement of the true grade. This is a systematic bias that can lead to significant underestimation of the deposit's value. The Competent Person must flag these intervals, consider using RC twin holes to verify grades, or apply recovery-grade correlation corrections. Persistent low recovery in mineralized zones can prevent classification above Inferred, regardless of drill spacing.",
     "key_concept": "Low core recovery in mineralized zones → likely grade understatement due to loss of friable vein material",
     "source": "Diamond drilling / resource estimation practice",
@@ -396,12 +396,12 @@
     "domain": "gold",
     "question": "A company is planning a diamond drilling program for metallurgical test work on a West African gold deposit. The cost is $150/m and 2,000 metres of drilling are planned across 10 holes. What is the approximate drilling cost, and why is diamond core specifically required for this purpose?",
     "options": {
-      "A": "$300,000; DD core preserves the original mineralogy, texture, and spatial relationships needed for representative metallurgical testing of ore types and recovery processes",
-      "B": "$150,000; DD is cheaper than RC for metallurgical work",
-      "C": "$600,000; DD core is required because RC chips dissolve during metallurgical testing",
-      "D": "$300,000; DD is required because RC drilling cannot penetrate the ore zone"
+      "A": "$300,000; DD is required because RC drilling cannot penetrate the ore zone",
+      "B": "$300,000; DD core preserves the original mineralogy, texture, and spatial relationships needed for representative metallurgical testing of ore types and recovery processes",
+      "C": "$150,000; DD is cheaper than RC for metallurgical work",
+      "D": "$600,000; DD core is required because RC chips dissolve during metallurgical testing"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "2,000m at $150/m = $300,000 for the drilling alone. Diamond core is specifically required for metallurgical test work because it preserves the original mineralogy, texture, grain size distribution, and spatial relationships of the ore. This is essential for representative comminution testing (grinding energy requirements), gravity recovery assessment, leach kinetics (cyanide or thiosulfate), and flotation response testing. RC chips are mechanically degraded and mixed during drilling, destroying the textural information needed for process design. The metallurgical test work itself will cost an additional $200-500K, bringing the total metallurgical program budget to $500K-800K. This is a critical investment because incorrect metallurgical assumptions can render a feasibility study worthless.",
     "key_concept": "DD core for met work: preserves mineralogy and texture, $300K drilling + $200-500K testing",
     "source": "Metallurgical testing practice",
@@ -414,11 +414,11 @@
     "question": "In a West African laterite environment, what is the typical staged drilling approach from target generation to resource definition?",
     "options": {
       "A": "Diamond drilling only throughout all stages",
-      "B": "RAB drilling (10-50m, $10-20/m) for reconnaissance and geochemistry → RC drilling (50-300m, $30-80/m) for resource definition → Diamond drilling ($80-200/m) for geological detail, structural understanding, and metallurgical samples",
+      "B": "Trenching only, as drilling is not effective in laterite environments",
       "C": "Auger drilling for resource definition followed by RC for metallurgy",
-      "D": "Trenching only, as drilling is not effective in laterite environments"
+      "D": "RAB drilling (10-50m, $10-20/m) for reconnaissance and geochemistry → RC drilling (50-300m, $30-80/m) for resource definition → Diamond drilling ($80-200/m) for geological detail, structural understanding, and metallurgical samples"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The staged approach optimizes cost-effectiveness at each exploration phase. RAB drilling ($10-20/m) penetrates the laterite cover cheaply to sample bedrock geochemistry and generate drill targets. RC drilling ($30-80/m) then systematically tests and defines the resource at appropriate spacings (150m for Inferred, 75m for Indicated). Diamond drilling ($80-200/m) is used selectively to provide continuous core for detailed geological logging, structural interpretation, metallurgical test work, and geotechnical analysis. This staged approach means that the most expensive drilling method is only deployed where it adds the most value, and the cheaper methods are used for the bulk of the meterage. A typical program might comprise 70% RC, 20% DD, and 10% RAB by meterage.",
     "key_concept": "West Africa staged drilling: RAB (recon) → RC (resource) → DD (detail/met), 70/20/10% split",
     "source": "West African exploration methodology",
@@ -431,11 +431,11 @@
     "question": "What is the 'nugget effect' in gold sampling and how does it impact drill program design?",
     "options": {
       "A": "The tendency for gold nuggets to accumulate at the bottom of drill holes",
-      "B": "The erratic distribution of coarse gold particles in a deposit, causing high variability between closely spaced samples and requiring larger sample sizes, closer drill spacing, or screen fire assay methods",
-      "C": "The premium price paid for gold nuggets versus refined gold bars",
-      "D": "The visual identification of gold nuggets during core logging"
+      "B": "The visual identification of gold nuggets during core logging",
+      "C": "The erratic distribution of coarse gold particles in a deposit, causing high variability between closely spaced samples and requiring larger sample sizes, closer drill spacing, or screen fire assay methods",
+      "D": "The premium price paid for gold nuggets versus refined gold bars"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The nugget effect refers to the short-range variability in gold grade caused by the erratic distribution of discrete gold particles. When gold occurs as coarse free particles (>100 μm) rather than finely disseminated, adjacent samples can return wildly different grades. This creates challenges for resource estimation because standard geostatistical methods assume relatively smooth grade variation. To mitigate the nugget effect, exploration programs may use: larger sample weights (metallic screen fire assay with 500g-1kg charges), closer drill spacing, larger diameter drill holes (to increase sample volume), or bulk sampling. Deposits with a strong nugget effect are inherently harder to evaluate and may require 2-3x the drilling of a smoothly distributed deposit to achieve the same classification confidence.",
     "key_concept": "Nugget effect: coarse gold causes erratic grades; mitigate with larger samples, closer spacing, screen fire assay",
     "source": "Geostatistics / gold sampling theory",
@@ -447,12 +447,12 @@
     "domain": "gold",
     "question": "Core logging procedures for a diamond drill program should include, at minimum:",
     "options": {
-      "A": "Only the gold assay results",
-      "B": "Lithology, alteration, mineralization, structure, core recovery, RQD, and geotechnical parameters, all recorded systematically with core photography",
+      "A": "Lithology, alteration, mineralization, structure, core recovery, RQD, and geotechnical parameters, all recorded systematically with core photography",
+      "B": "Only the intervals where visible gold is observed",
       "C": "A verbal description recorded as audio notes",
-      "D": "Only the intervals where visible gold is observed"
+      "D": "Only the gold assay results"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Systematic core logging is the foundation of geological data collection from diamond drilling. Standard logging parameters include: lithology (rock type identification), alteration (type, intensity, and mineralogy of hydrothermal alteration), mineralization (sulphide content, visible gold, vein types), structure (faults, shear zones, veins, foliation with orientation data if core is oriented), core recovery (% recovered per run), RQD (Rock Quality Designation — % of intact core pieces >10cm), and geotechnical parameters (fracture frequency, weathering grade). All logging is recorded in standardized digital formats and supported by wet and dry core photography. This data underpins geological interpretation, resource modelling, geotechnical design, and metallurgical domain definition.",
     "key_concept": "Core logging: lithology + alteration + mineralization + structure + recovery + RQD + geotechnical + photos",
     "source": "Diamond drilling / geological logging practice",
@@ -465,11 +465,11 @@
     "question": "A geotechnical consultant recommends sonic drilling to obtain continuous samples through 40 metres of alluvial overburden above a gold-bearing saprolite zone. What is the primary principle of sonic drilling that makes it suitable for this application?",
     "options": {
       "A": "It uses diamond-impregnated bits to cut through hard rock at high speed",
-      "B": "It uses high-frequency mechanical vibration (oscillation) of the drill string to advance the bit, enabling continuous sample recovery through unconsolidated or poorly consolidated materials with minimal disturbance",
-      "C": "It relies on compressed air to blow cuttings out of the hole, similar to RC drilling",
-      "D": "It uses chemical injection to dissolve soft materials and pump them to the surface"
+      "B": "It uses chemical injection to dissolve soft materials and pump them to the surface",
+      "C": "It uses high-frequency mechanical vibration (oscillation) of the drill string to advance the bit, enabling continuous sample recovery through unconsolidated or poorly consolidated materials with minimal disturbance",
+      "D": "It relies on compressed air to blow cuttings out of the hole, similar to RC drilling"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Sonic drilling uses a drill head that generates high-frequency (50-180 Hz) mechanical vibrations transmitted down the drill string to the bit face. These vibrations fluidize the material immediately around the bit, allowing the core barrel to advance through unconsolidated sands, gravels, clays, and weathered rock with near-100% sample recovery. Unlike RC or rotary drilling, which destroy the in-situ structure of soft materials, sonic drilling preserves the stratigraphy and sample integrity. This makes it ideal for environmental investigations, alluvial sampling, and geotechnical characterization of overburden. However, sonic drilling is more expensive than conventional methods ($80-150/m) and less effective in hard, competent rock.",
     "key_concept": "Sonic drilling: high-frequency vibration advances bit through unconsolidated ground with near-100% continuous recovery",
     "source": "Drilling technology / geotechnical investigation practice",
@@ -481,12 +481,12 @@
     "domain": "gold",
     "question": "An exploration team in Burkina Faso needs to collect shallow soil and laterite samples to a depth of 5-10 metres across a large licence area at low cost. Which drilling method is most appropriate?",
     "options": {
-      "A": "Diamond drilling with HQ core barrels",
-      "B": "Auger drilling, which uses a rotating helical screw to bring material to surface and is the cheapest method for shallow sampling in soft ground",
-      "C": "RC drilling with a face-sampling hammer",
-      "D": "Mud rotary drilling with polymer additives"
+      "A": "Auger drilling, which uses a rotating helical screw to bring material to surface and is the cheapest method for shallow sampling in soft ground",
+      "B": "Mud rotary drilling with polymer additives",
+      "C": "Diamond drilling with HQ core barrels",
+      "D": "RC drilling with a face-sampling hammer"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Auger drilling uses a rotating helical screw (flight auger) to physically lift material from the hole to the surface. It is the simplest and cheapest drilling method ($5-15/m), ideal for shallow soil sampling, laterite profiling, and first-pass geochemical reconnaissance. In West Africa, auger drilling is commonly used to sample through the transported laterite cover to reach residual soil and saprolite, where bedrock geochemical signatures are better preserved. Auger drills are lightweight, highly mobile, and can complete 20-40 shallow holes per day with a small crew. However, auger drilling is limited to soft, unconsolidated materials and typically cannot penetrate fresh bedrock or depths beyond 30-50 metres.",
     "key_concept": "Auger drilling: $5-15/m, rotating screw, cheapest shallow sampling, 20-40 holes/day, laterite profiling",
     "source": "Exploration drilling methods / West African geochemistry",
@@ -498,12 +498,12 @@
     "domain": "gold",
     "question": "A diamond drill program is planned in a remote tropical jungle area of Guinea. What are the key considerations for drill pad preparation in this environment?",
     "options": {
-      "A": "No preparation is needed; modern drill rigs can operate on any surface",
-      "B": "Pads must be cleared and levelled with a bulldozer, drainage must be managed to prevent erosion and water pooling, sump pits must be lined to contain drilling fluids, and access tracks must be built to support heavy equipment during the wet season",
+      "A": "Pads must be cleared and levelled with a bulldozer, drainage must be managed to prevent erosion and water pooling, sump pits must be lined to contain drilling fluids, and access tracks must be built to support heavy equipment during the wet season",
+      "B": "The only consideration is ensuring the pad is large enough for the drill rig itself",
       "C": "Drill pads only require a flat concrete slab poured on top of the jungle floor",
-      "D": "The only consideration is ensuring the pad is large enough for the drill rig itself"
+      "D": "No preparation is needed; modern drill rigs can operate on any surface"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Drill pad preparation in tropical jungle environments is a significant logistical and environmental challenge. Pads must be cleared of vegetation and graded to provide a stable, level platform for the drill rig, rod handler, water tank, and support equipment. In high-rainfall environments, drainage management is critical to prevent erosion, waterlogging, and contamination of local waterways. Sump pits for circulating drilling fluid and cuttings disposal must be lined with geomembrane to prevent soil and groundwater contamination. Access tracks often require laterite gravel surfacing and culverts to remain passable during the wet season. Failure to properly prepare drill pads can result in rig bogging, environmental damage, regulatory penalties, and project delays costing thousands of dollars per day of lost drilling.",
     "key_concept": "Jungle drill pads: clearing, levelling, drainage, lined sumps, wet-season access tracks, environmental containment",
     "source": "Drill program logistics / environmental management",
@@ -532,12 +532,12 @@
     "domain": "gold",
     "question": "A drill hole was planned at -60 degrees inclination and 045 degrees azimuth to intersect a target at 250 metres depth. After 200 metres, a downhole survey reveals the hole has deviated to -50 degrees and 060 degrees. What type of survey instrument would provide the most accurate measurement in this scenario, and why might a magnetic tool be unreliable?",
     "options": {
-      "A": "A magnetic single-shot camera, because it is the cheapest option and always accurate",
-      "B": "A gyroscopic survey tool, because it uses an inertial reference (not the Earth's magnetic field) and is therefore unaffected by magnetic minerals in the rock or steel casing that can cause magnetic interference and erroneous readings",
-      "C": "A GPS receiver lowered into the hole, because satellite signals can penetrate rock",
-      "D": "A spirit level attached to the drill rods, because it directly measures inclination"
+      "A": "A spirit level attached to the drill rods, because it directly measures inclination",
+      "B": "A GPS receiver lowered into the hole, because satellite signals can penetrate rock",
+      "C": "A gyroscopic survey tool, because it uses an inertial reference (not the Earth's magnetic field) and is therefore unaffected by magnetic minerals in the rock or steel casing that can cause magnetic interference and erroneous readings",
+      "D": "A magnetic single-shot camera, because it is the cheapest option and always accurate"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Downhole directional surveys measure the azimuth (compass direction) and inclination (angle from horizontal) of a drill hole at regular intervals. Magnetic survey tools (single-shot and multi-shot instruments) use the Earth's magnetic field for azimuth reference. However, in formations containing magnetic minerals (magnetite, pyrrhotite, banded iron formation) or near steel casing, magnetic interference can cause azimuth errors of 10-30 degrees or more. Gyroscopic survey tools use a spinning mass or fibre-optic gyroscope to establish an inertial reference independent of magnetic fields, providing accurate azimuth readings regardless of downhole magnetic conditions. While gyroscopic surveys are more expensive ($500-1000 per survey vs $100-200 for magnetic), they are essential in magnetically challenging environments common in West African greenstone belts.",
     "key_concept": "Gyroscopic surveys: inertial reference, unaffected by magnetic minerals or steel casing, essential in BIF/greenstone",
     "source": "Downhole survey technology / drilling practice",
@@ -549,9 +549,9 @@
     "domain": "gold",
     "question": "During a diamond drilling program, the geologist needs a second hole (daughter hole) deflected from an existing parent hole at 180 metres depth to test a parallel structure 30 metres away. What technique is used to achieve this?",
     "options": {
-      "A": "The driller simply pushes the drill string sideways at the collar to change the hole direction",
+      "A": "A new hole must always be drilled from surface; it is impossible to deflect within an existing hole",
       "B": "A deflection wedge (cement or steel) is set in the parent hole at the desired depth, and the new daughter hole is drilled off the wedge face at a controlled angle, saving the cost of re-drilling from surface",
-      "C": "A new hole must always be drilled from surface; it is impossible to deflect within an existing hole",
+      "C": "The driller simply pushes the drill string sideways at the collar to change the hole direction",
       "D": "The drill rods are bent at surface to create a curve that propagates downhole"
     },
     "correct": "B",
@@ -566,12 +566,12 @@
     "domain": "gold",
     "question": "After completing a drill program, what are the standard requirements for drill hole abandonment and rehabilitation?",
     "options": {
-      "A": "Simply pull the rods out and move to the next site; no further action is needed",
-      "B": "Holes must be sealed with cement or bentonite plugs to prevent aquifer cross-contamination, collars must be clearly marked for future identification, drill pads must be rehabilitated by removing all waste, re-contouring the surface, and re-establishing vegetation where required by the environmental permit",
-      "C": "Only holes deeper than 500 metres require any abandonment procedure",
+      "A": "Holes must be sealed with cement or bentonite plugs to prevent aquifer cross-contamination, collars must be clearly marked for future identification, drill pads must be rehabilitated by removing all waste, re-contouring the surface, and re-establishing vegetation where required by the environmental permit",
+      "B": "Only holes deeper than 500 metres require any abandonment procedure",
+      "C": "Simply pull the rods out and move to the next site; no further action is needed",
       "D": "The drilling contractor is solely responsible and the exploration company has no obligations"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Drill hole abandonment and site rehabilitation are regulatory and environmental obligations that apply to every drill hole. Open boreholes can act as conduits for groundwater contamination by connecting separate aquifers, so holes must be sealed with cement grout or bentonite plugs, particularly through water-bearing zones. Collar markers (PVC pipe with hole ID, coordinates, and depth) must be installed for future reference and to prevent accidents. Drill pads must be cleaned of all drilling fluids, fuel, waste materials, and equipment. The surface must be re-contoured to pre-drilling topography, and vegetation rehabilitation may be required depending on the jurisdiction and land use. In West Africa, failure to properly rehabilitate drill sites can result in loss of the exploration licence and damage to community relations.",
     "key_concept": "Hole abandonment: cement/bentonite seals, collar markers, pad cleanup, re-contouring, vegetation rehabilitation",
     "source": "Environmental regulation / drilling best practice",
@@ -583,12 +583,12 @@
     "domain": "gold",
     "question": "Before commencing a drill program in Senegal, the exploration company must obtain environmental compliance. Which of the following best describes the typical environmental requirements?",
     "options": {
-      "A": "No environmental permits are required for exploration drilling, only for mining",
-      "B": "An Environmental and Social Impact Assessment (ESIA) or Environmental Management Plan (EMP) must be approved, addressing water management, waste disposal, flora/fauna protection, community consultation, and a rehabilitation bond or guarantee before drilling can commence",
-      "C": "Only a verbal agreement with the local village chief is required",
-      "D": "Environmental compliance is only required if the drill program exceeds 50,000 metres"
+      "A": "Only a verbal agreement with the local village chief is required",
+      "B": "Environmental compliance is only required if the drill program exceeds 50,000 metres",
+      "C": "No environmental permits are required for exploration drilling, only for mining",
+      "D": "An Environmental and Social Impact Assessment (ESIA) or Environmental Management Plan (EMP) must be approved, addressing water management, waste disposal, flora/fauna protection, community consultation, and a rehabilitation bond or guarantee before drilling can commence"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Most West African jurisdictions require formal environmental approval before exploration drilling can begin. This typically involves preparing an Environmental and Social Impact Assessment (ESIA) or a simplified Environmental Management Plan (EMP) that addresses: water use and discharge management, drilling fluid and waste disposal, protection of sensitive habitats and waterways, dust and noise control, community consultation and grievance mechanisms, and a plan for site rehabilitation upon completion. Some jurisdictions also require a rehabilitation bond or financial guarantee. The approval process can take 3-6 months and cost $20,000-100,000 depending on the scale and sensitivity of the project. Starting drilling without proper environmental approvals can result in licence revocation, fines, and reputational damage with investors and communities.",
     "key_concept": "Environmental compliance: ESIA/EMP required before drilling, covers water/waste/habitat/community/rehabilitation",
     "source": "West African mining law / environmental regulation",
@@ -601,11 +601,11 @@
     "question": "A surveyor uses a handheld GPS to record drill collar locations and reports coordinates with an accuracy of +/- 5 metres. The Competent Person rejects this data for use in a resource estimate. Why?",
     "options": {
       "A": "Handheld GPS is always accurate to +/- 1 cm and is perfectly acceptable",
-      "B": "For resource estimation, JORC requires drill collar positions to be surveyed by DGPS (Differential GPS) or total station to an accuracy of +/- 0.5 metre or better, because 5-metre collar errors propagate into significant misplacement of mineralized intersections at depth, distorting the geological model",
+      "B": "The rejection was unreasonable; 5-metre accuracy is sufficient for all purposes",
       "C": "GPS does not work in Africa due to satellite coverage limitations",
-      "D": "The rejection was unreasonable; 5-metre accuracy is sufficient for all purposes"
+      "D": "For resource estimation, JORC requires drill collar positions to be surveyed by DGPS (Differential GPS) or total station to an accuracy of +/- 0.5 metre or better, because 5-metre collar errors propagate into significant misplacement of mineralized intersections at depth, distorting the geological model"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Drill collar survey accuracy is fundamental to the integrity of a geological model and resource estimate. A 5-metre error at the collar translates into a corresponding misplacement of every sample and intersection down the entire hole, compounding with any downhole survey errors. For resource estimation at Indicated or Measured confidence levels, JORC Table 1 requires that collar positions be accurately surveyed, typically using Differential GPS (DGPS) achieving sub-metre accuracy, or a total station survey tied to a known geodetic datum. In areas with dense vegetation or steep terrain, RTK (Real-Time Kinematic) GPS may be needed. The cost of a professional DGPS collar survey is modest ($10-30 per hole) compared to the drilling cost, making it unjustifiable to rely on lower-accuracy handheld GPS.",
     "key_concept": "Collar surveys: DGPS or total station, +/- 0.5m accuracy, handheld GPS (+/- 5m) unacceptable for resource work",
     "source": "JORC Code Table 1 / survey practice",
@@ -617,10 +617,10 @@
     "domain": "gold",
     "question": "An exploration project in Mali encounters a deeply weathered zone extending to 80 metres below surface, where RC drilling produces wet, clay-rich samples that are difficult to split representatively. What alternative drilling method could address this problem?",
     "options": {
-      "A": "Trenching to 80 metres depth",
+      "A": "Abandoning the project because weathered zones cannot be drilled",
       "B": "Mud rotary drilling, which uses a drilling fluid (mud) to stabilize the borehole wall, cool the bit, and carry cuttings to surface, and is effective in deep weathered zones where RC air circulation fails due to water ingress and clay swelling",
       "C": "Switching to a smaller RC hammer, which always solves wet-sample problems",
-      "D": "Abandoning the project because weathered zones cannot be drilled"
+      "D": "Trenching to 80 metres depth"
     },
     "correct": "B",
     "explanation": "Mud rotary drilling uses a circulating drilling fluid (bentonite or polymer mud) that stabilizes unstable borehole walls, cools and lubricates the bit, and carries rock cuttings to surface where they are collected from a settling pit or shale shaker. In deeply weathered zones, RC drilling often struggles because water ingress from the saturated saprolite overwhelms the air circulation system, producing wet, contaminated samples that cannot be split representatively. Mud rotary drilling avoids this problem by design, though the trade-off is that the mud can contaminate the cuttings, potentially diluting trace element geochemistry. For gold exploration, where grades are measured in g/t rather than ppm-level trace elements, this contamination is generally manageable. Mud rotary is commonly used in West Africa for pre-collar drilling through the weathered zone before transitioning to diamond coring in fresh rock.",
@@ -634,12 +634,12 @@
     "domain": "gold",
     "question": "A diamond drill hole intersects a highly weathered, friable shear zone at 120 metres that is critical for the resource estimate, but standard HQ core recovery drops to 30%. The geologist requests the driller switch to a triple tube core barrel. What advantage does this provide?",
     "options": {
-      "A": "Triple tube barrels drill three times faster than standard barrels",
-      "B": "The triple tube system uses an inner split tube that can be removed without the core passing over the core lifter, dramatically improving recovery of soft, friable, and broken material that would otherwise be washed away or ground up during retrieval with a standard core barrel",
-      "C": "Triple tube barrels use three diamond bits simultaneously for wider holes",
-      "D": "Triple tube barrels eliminate the need for drilling fluid entirely"
+      "A": "The triple tube system uses an inner split tube that can be removed without the core passing over the core lifter, dramatically improving recovery of soft, friable, and broken material that would otherwise be washed away or ground up during retrieval with a standard core barrel",
+      "B": "Triple tube barrels drill three times faster than standard barrels",
+      "C": "Triple tube barrels eliminate the need for drilling fluid entirely",
+      "D": "Triple tube barrels use three diamond bits simultaneously for wider holes"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "A triple tube core barrel adds a third, split inner tube inside the standard double-tube assembly. When the core barrel is retrieved, the inner split tube is carefully removed and opened on a cradle, allowing the soft or broken core to be extracted without passing over the core lifter or being disturbed by the extraction process. In a standard double-tube barrel, friable material must pass over the core lifter and slide out of the inner tube, often causing significant core loss or disturbance. Triple tube systems routinely improve recovery from 30-50% to 80-95% in weathered and sheared zones. The trade-off is slower drilling speed, higher consumable costs, and more time-consuming core handling. However, in mineralized zones where grade accuracy is critical, the improved recovery justifies the additional cost of approximately $10-20/m above standard coring.",
     "key_concept": "Triple tube: split inner tube protects friable core from disturbance, improves recovery from 30% to 80-95%",
     "source": "Diamond drilling technology / core recovery optimization",
@@ -651,12 +651,12 @@
     "domain": "gold",
     "question": "A company's data management protocol requires systematic drill core photography before sampling. What is the correct standard for core photography and digital logging?",
     "options": {
-      "A": "A single photograph of the entire core shed is sufficient documentation",
-      "B": "Each core tray must be photographed wet and dry with a visible depth marker, metre marks, colour chart, and scale bar; digital logging data must be captured in a validated database system (e.g., acQuire, Fusion, MX Deposit) with standardized codes and validation rules to prevent data entry errors",
-      "C": "Core photography is optional and only performed if the geologist has spare time",
-      "D": "Only core intervals with visible gold need to be photographed"
+      "A": "Only core intervals with visible gold need to be photographed",
+      "B": "A single photograph of the entire core shed is sufficient documentation",
+      "C": "Each core tray must be photographed wet and dry with a visible depth marker, metre marks, colour chart, and scale bar; digital logging data must be captured in a validated database system (e.g., acQuire, Fusion, MX Deposit) with standardized codes and validation rules to prevent data entry errors",
+      "D": "Core photography is optional and only performed if the geologist has spare time"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Systematic core photography creates a permanent visual record of the drill core before it is sampled (and half the core is destroyed). Best practice requires both dry and wet photographs of each core tray, as wetting the core enhances colour, texture, and structural features. Each photograph must include the hole ID, depth interval (from-to), a colour reference chart, and a scale bar for accurate reproduction. Digital geological logging must be captured in a validated database system that enforces standardized lithology, alteration, and mineralization codes, and includes validation rules to catch errors such as overlapping intervals, missing data, or impossible values. This systematic approach ensures data integrity, enables efficient relogging or review by other geologists, and supports audit requirements under JORC. Photographs also serve as an invaluable reference when the physical core is eventually depleted.",
     "key_concept": "Core photos: wet and dry, with depth/colour/scale markers; digital logging in validated database with standardized codes",
     "source": "Data management best practice / JORC Table 1",
@@ -668,12 +668,12 @@
     "domain": "gold",
     "question": "A feasibility study for an open-pit gold mine requires hydrogeological data to design the pit dewatering system. The hydrogeologist requests packer tests and pump tests during the drill program. What do these tests measure?",
     "options": {
-      "A": "Packer tests measure gold grade and pump tests measure silver grade in groundwater",
-      "B": "Packer tests isolate specific intervals in a borehole to measure the hydraulic conductivity (permeability) of discrete rock units, while pump tests measure the sustained yield and aquifer transmissivity by pumping water from a well and monitoring drawdown in surrounding observation holes",
-      "C": "Both tests measure the compressive strength of rock core for pit slope design",
-      "D": "These tests are only relevant for underground mining, not open-pit operations"
+      "A": "Both tests measure the compressive strength of rock core for pit slope design",
+      "B": "Packer tests measure gold grade and pump tests measure silver grade in groundwater",
+      "C": "These tests are only relevant for underground mining, not open-pit operations",
+      "D": "Packer tests isolate specific intervals in a borehole to measure the hydraulic conductivity (permeability) of discrete rock units, while pump tests measure the sustained yield and aquifer transmissivity by pumping water from a well and monitoring drawdown in surrounding observation holes"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Packer tests (also called Lugeon tests) use inflatable packers to isolate a section of borehole and inject water under controlled pressure to measure the hydraulic conductivity of that specific rock interval. This data reveals which geological units and structures are most permeable and will contribute the most groundwater inflow to the pit. Pump tests involve sustained pumping from a screened well while monitoring water level drawdown in surrounding observation boreholes over hours to days. Pump tests measure aquifer transmissivity, storativity, and sustainable yield, which are essential for designing the pit dewatering system, estimating pumping costs, and assessing environmental impacts on surrounding water users. In West Africa, where some deposits sit below the water table in permeable saprolite, dewatering can be a major operational cost ($1-5M per year) and environmental concern.",
     "key_concept": "Packer tests: interval permeability; pump tests: aquifer transmissivity and yield for pit dewatering design",
     "source": "Hydrogeology / feasibility study requirements",
@@ -685,12 +685,12 @@
     "domain": "gold",
     "question": "A geotechnical engineer requests dedicated geotechnical diamond drill holes oriented perpendicular to the proposed pit walls. What specific data from these holes is critical for pit slope design?",
     "options": {
-      "A": "Only the gold grade in the pit walls matters for slope design",
-      "B": "Rock mass classification parameters (RQD, fracture frequency, joint roughness, joint infill, intact rock strength), groundwater conditions, and the orientation of major structural discontinuities (faults, shears, foliation) that control potential failure mechanisms",
-      "C": "The colour and appearance of the rock for aesthetic considerations",
-      "D": "Only the depth of the weathered zone is needed for pit slope design"
+      "A": "Rock mass classification parameters (RQD, fracture frequency, joint roughness, joint infill, intact rock strength), groundwater conditions, and the orientation of major structural discontinuities (faults, shears, foliation) that control potential failure mechanisms",
+      "B": "The colour and appearance of the rock for aesthetic considerations",
+      "C": "Only the depth of the weathered zone is needed for pit slope design",
+      "D": "Only the gold grade in the pit walls matters for slope design"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Pit slope design relies on detailed characterization of the rock mass quality and structural fabric. Geotechnical drill holes collect data including Rock Quality Designation (RQD), fracture frequency and spacing, joint surface conditions (roughness, alteration, infill material), intact rock strength (measured by point load or UCS testing of core samples), and groundwater conditions (pore pressures from vibrating wire piezometers). Oriented core data is essential to determine the true orientation of discontinuities that could control wedge failures, planar sliding, or toppling. This data feeds into rock mass classification systems (RMR, GSI, Q-system) and numerical slope stability models that determine safe pit slope angles. Steepening slopes by even a few degrees can expose millions of additional tonnes of ore, so the investment in geotechnical drilling ($200,000-500,000) typically delivers enormous economic value.",
     "key_concept": "Geotechnical drilling: RQD, fractures, joint conditions, rock strength, groundwater, structural orientation for pit slopes",
     "source": "Geotechnical engineering / open-pit design",
@@ -702,12 +702,12 @@
     "domain": "gold",
     "question": "A QA/QC review reveals that gold values from RC drill holes systematically increase when a hole follows immediately after a high-grade intersection in the previous hole, even though the geological context does not support elevated grades. What is the most likely cause?",
     "options": {
-      "A": "Natural geological enrichment that follows the drilling sequence by coincidence",
-      "B": "Cross-contamination between drill holes caused by inadequate flushing of the RC splitter, cyclone, and sample collection system between holes, allowing residual gold-bearing cuttings from the high-grade hole to contaminate samples in the next hole",
-      "C": "The GPS coordinates for the two holes were accidentally swapped",
-      "D": "Laboratory assay instruments drift higher after analysing high-grade samples"
+      "A": "The GPS coordinates for the two holes were accidentally swapped",
+      "B": "Natural geological enrichment that follows the drilling sequence by coincidence",
+      "C": "Laboratory assay instruments drift higher after analysing high-grade samples",
+      "D": "Cross-contamination between drill holes caused by inadequate flushing of the RC splitter, cyclone, and sample collection system between holes, allowing residual gold-bearing cuttings from the high-grade hole to contaminate samples in the next hole"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Cross-contamination between sequential drill holes is a serious but preventable QA/QC failure in RC drilling. Gold-bearing cuttings can become trapped in the cyclone, splitter, hoses, and sample collection buckets, then be flushed into early samples of the next hole. The systematic pattern (elevated grades following high-grade holes) is the diagnostic fingerprint of this contamination source. Prevention requires thorough flushing of the entire sample collection system between holes using compressed air and/or barren material, with the flush material collected and discarded. Many companies also require the first 1-3 metres of each new hole to be collected as waste and not submitted for assay. The QA/QC protocol should include analysis of the sequence-dependent grade pattern as a routine check, and affected data must be flagged or excluded from resource estimation.",
     "key_concept": "Cross-contamination between RC holes: flush cyclone/splitter between holes, discard first metres, check sequence patterns",
     "source": "QA/QC best practice / RC drilling protocols",
@@ -721,8 +721,8 @@
     "options": {
       "A": "Vertical holes will miss the target entirely and never intersect the mineralized zone",
       "B": "Vertical holes will intersect the 45-degree dipping zone at an oblique angle, producing downhole intercepts approximately 1.4x the true width, and will under-sample the hangingwall and footwall geometry; inclined holes drilled from the west at -60 degrees would intersect the zone closer to perpendicular, providing intercepts nearer to true width",
-      "C": "Vertical holes always produce true-width intersections regardless of the target geometry",
-      "D": "Vertical drilling is impossible in West Africa due to the laterite cover"
+      "C": "Vertical drilling is impossible in West Africa due to the laterite cover",
+      "D": "Vertical holes always produce true-width intersections regardless of the target geometry"
     },
     "correct": "B",
     "explanation": "The angle at which a drill hole intersects a mineralized zone directly affects the relationship between downhole width and true width. For a zone dipping at 45 degrees, a vertical hole produces an intersection angle of 45 degrees, and the downhole width is approximately 1.41x (1/sin 45) the true width. Inclined holes drilled from the opposite direction to the dip can achieve near-perpendicular intersections, giving downhole widths close to true width. Designing holes to intersect targets at high angles also provides better spatial coverage of the mineralized zone and its immediate hanging wall and footwall. JORC Table 1 requires disclosure of drill hole orientation relative to the mineralized body and discussion of whether the orientation could introduce sampling bias. Poorly oriented drilling can systematically overstate or understate the apparent thickness and continuity of mineralization.",
@@ -736,12 +736,12 @@
     "domain": "gold",
     "question": "A gold exploration company plans to drill in an area with active artisanal mining (orpaillage) in southern Mali. What are the key safety and legal considerations?",
     "options": {
-      "A": "Artisanal miners have no legal rights, and the company can proceed without consultation",
-      "B": "The company must conduct community engagement and obtain social licence, avoid active artisanal workings due to collapse risk from shallow tunnels and shafts, coordinate with local authorities, potentially negotiate compensation or co-existence agreements, and ensure drill crew safety protocols address the risk of unmarked underground voids",
+      "A": "The company must conduct community engagement and obtain social licence, avoid active artisanal workings due to collapse risk from shallow tunnels and shafts, coordinate with local authorities, potentially negotiate compensation or co-existence agreements, and ensure drill crew safety protocols address the risk of unmarked underground voids",
+      "B": "Artisanal miners have no legal rights, and the company can proceed without consultation",
       "C": "The company should hire the artisanal miners as drill helpers without any formal agreements",
       "D": "Artisanal mining areas are permanently excluded from all exploration activity under West African law"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Artisanal and small-scale mining (ASM) is widespread across West African gold belts and creates significant safety, legal, and social challenges for exploration companies. Shallow, unmarked tunnels and shafts pose collapse and subsidence risks to drill rigs and personnel, requiring ground-penetrating radar surveys or cautious advance in known ASM areas. Legally, artisanal miners often have customary or formal rights that must be respected, even within a company's exploration licence. Companies must engage communities early, work through local authorities and traditional leaders, and may need to negotiate compensation, relocation, or co-existence agreements. Failure to manage ASM relationships can result in equipment theft, site invasions, violent confrontations, regulatory sanctions, and reputational damage that deters investors. Many successful West African projects have developed productive co-existence frameworks with artisanal miners.",
     "key_concept": "ASM areas: community engagement, collapse risk from voids, legal rights, co-existence agreements, crew safety protocols",
     "source": "West African exploration practice / social licence",
@@ -753,10 +753,10 @@
     "domain": "gold",
     "question": "A junior gold explorer is budgeting a 15,000-metre RC drill program in Cote d'Ivoire. The drilling contractor quotes $60/m. The exploration manager warns that the all-in program cost will be approximately 2.5x the drilling cost alone. What additional cost categories account for this multiplier?",
     "options": {
-      "A": "No additional costs exist beyond the per-metre drilling rate",
+      "A": "The only additional cost is a 10% government royalty on the drilling metres",
       "B": "Mobilization/demobilization ($50-100K), sample preparation and assaying ($15-25 per sample for ~15,000 samples = $225-375K), geological supervision and logging ($50-100K), QA/QC samples (5-10% extra samples), access road construction and maintenance, camp and accommodation, fuel for drill rig and support vehicles, environmental management, data management, and community relations costs",
-      "C": "The only additional cost is a 10% government royalty on the drilling metres",
-      "D": "The multiplier is caused entirely by currency exchange losses"
+      "C": "The multiplier is caused entirely by currency exchange losses",
+      "D": "No additional costs exist beyond the per-metre drilling rate"
     },
     "correct": "B",
     "explanation": "The per-metre drilling rate ($60/m x 15,000m = $900K) typically represents only 40-50% of the total program cost. Major additional cost categories include: mobilization and demobilization of the drill rig ($50-100K); sample preparation and fire assay ($15-25 per 1-metre sample, totalling $225-375K for 15,000 samples); geological supervision, logging, and data management ($50-100K); QA/QC samples adding 5-10% to the sample count; access road construction and maintenance in remote areas; camp costs for the drill crew and geology team; fuel (a large RC rig consumes 200-400 litres of diesel per day); environmental management and rehabilitation; and community relations and compensation payments. The fully loaded cost of approximately $2.0-2.5M ($130-165/m all-in) is what the explorer must budget and finance. Underestimating program costs is a common cause of funding shortfalls that force premature program termination.",

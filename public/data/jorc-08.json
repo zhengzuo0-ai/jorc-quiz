@@ -5,12 +5,12 @@
     "domain": "jorc",
     "question": "Table 1 of the JORC Code 2012 is divided into sections. Section 1 covers:",
     "options": {
-      "A": "Ore Reserve estimation parameters",
-      "B": "Sampling techniques and data",
-      "C": "Modifying Factors for Reserve conversion",
-      "D": "Environmental impact assessment"
+      "A": "Environmental impact assessment",
+      "B": "Modifying Factors for Reserve conversion",
+      "C": "Sampling techniques and data",
+      "D": "Ore Reserve estimation parameters"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Table 1 Section 1 covers 'Sampling Techniques and Data,' which includes all aspects of how samples were collected, prepared, and analysed. This section addresses drilling techniques, sampling methods, sample preparation, quality assurance and quality control (QA/QC), data verification, and database management. It forms the foundation of data quality assessment — without reliable sampling, no Resource estimate can be credible. The 'if not why not' reporting basis applies throughout Table 1.",
     "key_concept": "Table 1 Section 1 = Sampling Techniques and Data (drilling, preparation, QA/QC)",
     "source": "JORC Code 2012, Table 1",
@@ -22,12 +22,12 @@
     "domain": "jorc",
     "question": "Table 1 operates on an 'if not why not' basis. This means:",
     "options": {
-      "A": "All criteria must be reported in full detail regardless of relevance",
-      "B": "Each criterion must be addressed, and if it is not relevant, the CP must explain why it was not reported",
+      "A": "Each criterion must be addressed, and if it is not relevant, the CP must explain why it was not reported",
+      "B": "The CP can skip any criteria deemed unimportant",
       "C": "Only criteria favourable to the project need to be reported",
-      "D": "The CP can skip any criteria deemed unimportant"
+      "D": "All criteria must be reported in full detail regardless of relevance"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The 'if not why not' basis is a core Table 1 principle. It means that every criterion in the checklist must be considered by the CP, and if a particular item is not reported, the CP must provide an explanation of why it is not applicable or relevant. This prevents selective reporting where unfavourable information is simply omitted. It also serves as a quality assurance mechanism — if a CP cannot explain why something was omitted, it probably should have been included.",
     "key_concept": "'If not why not' requires addressing every Table 1 criterion or explaining its omission",
     "source": "JORC Code 2012, Table 1",
@@ -39,10 +39,10 @@
     "domain": "jorc",
     "question": "Which drilling method typically provides the most reliable geological and geotechnical information?",
     "options": {
-      "A": "Rotary Air Blast (RAB)",
-      "B": "Reverse Circulation (RC)",
+      "A": "Reverse Circulation (RC)",
+      "B": "Auger drilling",
       "C": "Diamond Drilling (DD)",
-      "D": "Auger drilling"
+      "D": "Rotary Air Blast (RAB)"
     },
     "correct": "C",
     "explanation": "Diamond Drilling (DD) produces intact core that preserves geological structure, texture, mineralogy, and geotechnical properties. This allows direct observation of lithology contacts, alteration, veining, structural features, and core orientation. RC drilling provides reliable grade samples but destroys geological texture. RAB and auger drilling provide lower-quality samples suitable only for reconnaissance. DD costs more ($80-200/m vs RC $30-80/m) but the information quality is unmatched for Resource estimation and geological interpretation.",
@@ -56,12 +56,12 @@
     "domain": "jorc",
     "question": "The typical cost range for Reverse Circulation (RC) drilling per metre is approximately:",
     "options": {
-      "A": "$10-20/m",
-      "B": "$30-80/m",
+      "A": "$30-80/m",
+      "B": "$200-500/m",
       "C": "$80-200/m",
-      "D": "$200-500/m"
+      "D": "$10-20/m"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "RC drilling typically costs $30-80/m depending on depth, terrain, rig availability, and location. This compares to RAB at $10-20/m (cheapest, lowest quality) and Diamond Drilling at $80-200/m (most expensive, highest quality). RC provides good-quality grade samples through a face-sampling hammer that forces cuttings up the inner tube of the dual-wall rods, minimising contamination. It is the workhorse method for grade definition in many Australian mineral deposits, offering a balance of cost and sample quality.",
     "key_concept": "RC drilling: $30-80/m — cost-effective balance between RAB and Diamond drilling",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -74,11 +74,11 @@
     "question": "In the standard sample preparation sequence for gold assaying, the correct order is:",
     "options": {
       "A": "Pulverise → crush → split → assay",
-      "B": "Crush → split → pulverise → assay",
-      "C": "Split → crush → pulverise → assay",
+      "B": "Split → crush → pulverise → assay",
+      "C": "Crush → split → pulverise → assay",
       "D": "Assay → crush → split → pulverise"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The standard sample preparation sequence is: (1) Crush the entire sample to a nominal size (typically <2-3mm); (2) Split a representative sub-sample using a riffle splitter or rotary divider; (3) Pulverise the sub-sample to a fine powder (typically 85% passing 75 microns); (4) Assay the pulverised sub-sample. Each stage reduces sample volume while maintaining representativity. The sequence ensures that the small assay charge (typically 30-50g for fire assay) is representative of the original multi-kilogram drill sample.",
     "key_concept": "Sample prep sequence: Crush → Split → Pulverise → Assay",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -90,10 +90,10 @@
     "domain": "jorc",
     "question": "In a QA/QC program, what is the primary purpose of inserting Certified Reference Materials (CRMs or standards)?",
     "options": {
-      "A": "To detect sample contamination between consecutive samples",
+      "A": "To test the laboratory's crushing equipment",
       "B": "To monitor the laboratory's analytical accuracy — whether assay results match the known certified values",
       "C": "To check for data entry errors",
-      "D": "To test the laboratory's crushing equipment"
+      "D": "To detect sample contamination between consecutive samples"
     },
     "correct": "B",
     "explanation": "CRMs (standards) have certified values determined by multiple laboratories using round-robin analysis. Inserting CRMs into the sample stream monitors the laboratory's analytical accuracy — if the lab consistently returns values that differ significantly from the certified value, it indicates a systematic bias (calibration drift, contamination, or method error). CRMs should bracket the expected grade range of the deposit. Blanks detect contamination; duplicates assess precision; CRMs assess accuracy.",
@@ -107,12 +107,12 @@
     "domain": "jorc",
     "question": "What is the primary purpose of inserting blank samples in a QA/QC program?",
     "options": {
-      "A": "To calibrate the laboratory equipment",
-      "B": "To detect contamination or carry-over between consecutive samples during preparation or analysis",
+      "A": "To detect contamination or carry-over between consecutive samples during preparation or analysis",
+      "B": "To calibrate the laboratory equipment",
       "C": "To increase the total number of assays for statistical validity",
       "D": "To test the laboratory's turnaround time"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Blank samples (barren material with known negligible grades) are inserted to detect contamination or carry-over between samples. If a blank returns a significant assay value, it indicates that material from a preceding high-grade sample has contaminated the blank during crushing, splitting, pulverising, or assaying. This is critical for gold deposits where coarse gold particles can carry over in preparation equipment. Blanks should be inserted after anticipated high-grade samples for maximum effectiveness.",
     "key_concept": "Blanks detect sample contamination and carry-over in preparation and assaying",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -124,10 +124,10 @@
     "domain": "jorc",
     "question": "In fire assay for gold, the fusion step occurs at approximately what temperature?",
     "options": {
-      "A": "500°C",
-      "B": "750°C",
+      "A": "1500°C",
+      "B": "500°C",
       "C": "1100°C",
-      "D": "1500°C"
+      "D": "750°C"
     },
     "correct": "C",
     "explanation": "Fire assay involves two key temperature stages: fusion at approximately 1100°C and cupellation at approximately 950°C. During fusion, the pulverised sample is mixed with a flux (litharge, borax, soda ash, silica) and heated to ~1100°C in a crucible. The lead oxide in the flux is reduced to molten lead, which collects gold and silver from the sample. The resulting lead button is then cupelled at ~950°C on a porous cupel that absorbs the lead, leaving a gold-silver bead (prill) for weighing or further analysis.",
@@ -141,12 +141,12 @@
     "domain": "jorc",
     "question": "A QA/QC review shows that 15% of CRM results fall outside ±2 standard deviations of the certified value. The CP should:",
     "options": {
-      "A": "Ignore it — 15% failure is within normal limits",
-      "B": "Investigate the cause (lab bias, method drift, incorrect CRM), re-assay affected batches, and document the issue in the Table 1 report",
-      "C": "Remove the failed CRMs from the dataset",
-      "D": "Change to a different CRM with a wider acceptable range"
+      "A": "Change to a different CRM with a wider acceptable range",
+      "B": "Ignore it — 15% failure is within normal limits",
+      "C": "Investigate the cause (lab bias, method drift, incorrect CRM), re-assay affected batches, and document the issue in the Table 1 report",
+      "D": "Remove the failed CRMs from the dataset"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Industry best practice expects >95% of CRM results to fall within ±2 standard deviations (i.e., <5% failure rate). A 15% failure rate is a significant quality concern indicating potential laboratory bias, calibration drift, or method error. The CP should investigate the root cause, request re-assay of affected sample batches, and document the QA/QC issue in the Table 1 report. Simply removing failed results or changing CRMs would mask the problem and violate Transparency principles.",
     "key_concept": ">5% CRM failure rate requires investigation, re-assay, and transparent reporting",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -158,12 +158,12 @@
     "domain": "jorc",
     "question": "What is the purpose of umpire (check) assays in a QA/QC program?",
     "options": {
-      "A": "To replace the primary laboratory's results",
-      "B": "To provide an independent verification of the primary laboratory's assay results by re-analysing pulps or reject material at a second laboratory",
-      "C": "To test different assay methods on the same samples",
-      "D": "To increase the number of data points for geostatistical analysis"
+      "A": "To provide an independent verification of the primary laboratory's assay results by re-analysing pulps or reject material at a second laboratory",
+      "B": "To replace the primary laboratory's results",
+      "C": "To increase the number of data points for geostatistical analysis",
+      "D": "To test different assay methods on the same samples"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Umpire (check) assays involve sending a subset of samples (typically 5-10%) to a second, independent laboratory for re-analysis. This detects systematic laboratory bias that may not be apparent from CRM results alone. The comparison between primary and umpire results is assessed for both accuracy (mean difference) and precision (scatter). If significant discrepancies exist, the CP must investigate and determine which laboratory's results are more reliable. Umpire assays should use the same analytical method for valid comparison.",
     "key_concept": "Umpire assays = independent lab verification of primary assay results",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -175,12 +175,12 @@
     "domain": "jorc",
     "question": "A diamond drill hole achieves only 65% core recovery through a high-grade gold zone. Under Table 1, how should the CP address this?",
     "options": {
-      "A": "Report the assay results as-is — recovery is an operational matter",
-      "B": "Assess whether the missing 35% is likely to have different grade characteristics (preferential core loss of soft, possibly higher-grade material), disclose the recovery, and discuss its potential impact on the Resource estimate",
-      "C": "Discard the entire hole from the Resource estimate",
+      "A": "Assess whether the missing 35% is likely to have different grade characteristics (preferential core loss of soft, possibly higher-grade material), disclose the recovery, and discuss its potential impact on the Resource estimate",
+      "B": "Discard the entire hole from the Resource estimate",
+      "C": "Report the assay results as-is — recovery is an operational matter",
       "D": "Assume the missing core has the same grade as the recovered core"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Poor core recovery (65%) in a gold zone is a significant data quality concern. Table 1 requires reporting of core recovery and assessment of its impact. The missing 35% may represent preferential loss of soft, weathered, or fractured material that could have different (often higher) grade than the recovered core. The CP must disclose the recovery, assess whether grade bias exists (comparing recovered intervals vs. expected mineralisation), and discuss the impact on Resource confidence. Simply assuming equal grade (option D) may introduce significant bias.",
     "key_concept": "Poor core recovery must be disclosed and assessed for grade bias — not assumed neutral",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -192,12 +192,12 @@
     "domain": "jorc",
     "question": "Which drilling method is MOST susceptible to sample contamination from water table interaction and caving?",
     "options": {
-      "A": "Diamond Drilling (DD)",
-      "B": "Reverse Circulation (RC)",
-      "C": "Rotary Air Blast (RAB)",
-      "D": "All methods are equally susceptible"
+      "A": "Reverse Circulation (RC)",
+      "B": "All methods are equally susceptible",
+      "C": "Diamond Drilling (DD)",
+      "D": "Rotary Air Blast (RAB)"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "RAB drilling is an open-hole method where cuttings return up the outside of the drill rods (between the rods and the hole wall). This makes it highly susceptible to contamination from caving of the hole walls and mixing with groundwater. Below the water table, sample quality deteriorates significantly as cuttings are washed and diluted. RC drilling mitigates this by using a dual-wall system forcing cuttings up the inner tube. DD recovers intact core, avoiding mixing entirely. RAB should generally be used only for reconnaissance, not Resource-grade sampling.",
     "key_concept": "RAB drilling is most contamination-prone — open-hole return path allows caving and water mixing",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -209,12 +209,12 @@
     "domain": "jorc",
     "question": "Field duplicate samples in a QA/QC program measure:",
     "options": {
-      "A": "Laboratory accuracy against certified values",
-      "B": "The total sampling precision including geological variability, sampling, and preparation error",
-      "C": "Contamination between samples",
+      "A": "The total sampling precision including geological variability, sampling, and preparation error",
+      "B": "Contamination between samples",
+      "C": "Laboratory accuracy against certified values",
       "D": "Database entry accuracy"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Field duplicates are collected at the point of sampling (e.g., a second split from the same RC interval or a second half of diamond core). They measure total sampling precision, which includes: geological variability at the sample scale (the 'nugget effect'), sampling error (how consistently the sampling method divides the material), and preparation error. This is the broadest measure of data quality. By contrast, preparation duplicates isolate prep error only, and analytical duplicates isolate lab precision only. High field duplicate variability may indicate a fundamental sampling problem.",
     "key_concept": "Field duplicates measure total sampling precision — geological + sampling + preparation error",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -226,12 +226,12 @@
     "domain": "jorc",
     "question": "A company uses a 30g fire assay charge for a coarse-grained gold deposit with a P80 of 150 microns in the pulverised sample. A QA/QC specialist would likely be concerned about:",
     "options": {
-      "A": "The fire assay temperature being too low",
-      "B": "The sample may not be representative — coarse gold and large particle size relative to the small assay charge may cause a 'nugget effect' and poor representativity",
-      "C": "30g is too large an assay charge",
-      "D": "Fire assay is not suitable for gold"
+      "A": "The sample may not be representative — coarse gold and large particle size relative to the small assay charge may cause a 'nugget effect' and poor representativity",
+      "B": "The fire assay temperature being too low",
+      "C": "Fire assay is not suitable for gold",
+      "D": "30g is too large an assay charge"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Sample representativity is governed by Gy's sampling theory — the assay charge must contain enough particles to be statistically representative. For coarse-grained gold, a 30g charge at P80 of 150 microns (rather than the standard P80 of 75 microns) significantly increases the risk of nugget effect. Larger charge sizes (50g or even 1kg via LeachWELL or screen fire assay) and finer grinding are needed. Table 1 requires reporting of sample sizes and their appropriateness for the mineralisation style.",
     "key_concept": "Coarse gold + small charge + coarse pulp = poor representativity (nugget effect risk)",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -245,8 +245,8 @@
     "options": {
       "A": "The legal ownership of the mineral tenement",
       "B": "The documented tracking of samples from collection point through transport, preparation, and analysis to ensure sample integrity and prevent tampering or loss",
-      "C": "The corporate reporting hierarchy for Resource estimates",
-      "D": "The sequence of technical studies from Scoping to DFS"
+      "C": "The sequence of technical studies from Scoping to DFS",
+      "D": "The corporate reporting hierarchy for Resource estimates"
     },
     "correct": "B",
     "explanation": "Chain of custody is the documented record of sample handling from the point of collection (drill rig) through transport to the sample preparation facility, through preparation (crushing, splitting, pulverising), and finally to the analytical laboratory. It ensures that samples are not tampered with, switched, lost, or contaminated during transit. Table 1 requires reporting on chain of custody procedures, including security seals, transport methods, and sample tracking systems. Breaks in chain of custody undermine the credibility of assay results.",
@@ -260,12 +260,12 @@
     "domain": "jorc",
     "question": "An RC drill program reports 100% sample recovery for all holes. A reviewer would be most concerned about this claim because:",
     "options": {
-      "A": "100% recovery is the expected norm for RC drilling",
-      "B": "Claiming 100% recovery for every hole is practically impossible and suggests sample recovery was not rigorously monitored — real RC programs experience variable recovery, particularly near the water table and in fractured ground",
-      "C": "RC drilling always has less than 50% recovery",
-      "D": "Sample recovery is not relevant for RC drilling"
+      "A": "Claiming 100% recovery for every hole is practically impossible and suggests sample recovery was not rigorously monitored — real RC programs experience variable recovery, particularly near the water table and in fractured ground",
+      "B": "Sample recovery is not relevant for RC drilling",
+      "C": "100% recovery is the expected norm for RC drilling",
+      "D": "RC drilling always has less than 50% recovery"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "While RC drilling generally achieves good recovery, claiming 100% for every hole is a red flag. Real RC programs encounter variable recovery due to water ingress (samples become wet and stick in cyclone), fractured ground (loss of air pressure), and rod changes. Table 1 requires reporting of sample recovery and assessment of its impact. If recovery was not actually measured (weighed per metre), the claim of 100% is unsupported. The reviewer would question whether sample weights were recorded and whether wet samples were appropriately managed.",
     "key_concept": "Claiming 100% RC recovery for all holes suggests inadequate monitoring, not perfect drilling",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -277,9 +277,9 @@
     "domain": "jorc",
     "question": "Under Table 1, data verification should include which of the following?",
     "options": {
-      "A": "Only checking that the database matches the laboratory certificates",
+      "A": "Verification by the company's marketing department",
       "B": "Independent verification including database checks, twin hole comparisons, site visits, and assessment of data entry processes",
-      "C": "Verification by the company's marketing department",
+      "C": "Only checking that the database matches the laboratory certificates",
       "D": "Only QA/QC sample analysis"
     },
     "correct": "B",
@@ -294,12 +294,12 @@
     "domain": "jorc",
     "question": "A company's drill database contains assay results from three different laboratories used over a 15-year exploration history. Under Table 1, the CP should:",
     "options": {
-      "A": "Use only the most recent laboratory's results",
-      "B": "Merge all data without comment since they are all from accredited laboratories",
-      "C": "Assess inter-laboratory bias, report which labs were used and when, evaluate consistency across datasets, and apply corrections if systematic biases are identified",
-      "D": "Discard all data older than 5 years"
+      "A": "Merge all data without comment since they are all from accredited laboratories",
+      "B": "Discard all data older than 5 years",
+      "C": "Use only the most recent laboratory's results",
+      "D": "Assess inter-laboratory bias, report which labs were used and when, evaluate consistency across datasets, and apply corrections if systematic biases are identified"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Table 1 requires that the CP address data quality across the entire dataset. When multiple laboratories have been used over an extended period, inter-laboratory bias is a real risk. Different labs may use different methods, have different detection limits, or operate with different calibration standards. The CP must: identify which labs were used and when, compare results from overlapping periods, assess for systematic bias, and apply corrections if needed. Simply merging or arbitrarily discarding data is not appropriate.",
     "key_concept": "Multi-lab datasets require inter-laboratory bias assessment and transparent reporting",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -311,12 +311,12 @@
     "domain": "jorc",
     "question": "Diamond drilling costs approximately $80-200/m compared to RAB at $10-20/m. Under what circumstance would a CP still recommend RAB drilling?",
     "options": {
-      "A": "When defining a Measured Mineral Resource",
-      "B": "When conducting wide-spaced reconnaissance exploration over a large tenement to identify targets prior to more detailed drilling",
+      "A": "When conducting wide-spaced reconnaissance exploration over a large tenement to identify targets prior to more detailed drilling",
+      "B": "RAB should never be used under any circumstances",
       "C": "When completing infill drilling for a Feasibility Study",
-      "D": "RAB should never be used under any circumstances"
+      "D": "When defining a Measured Mineral Resource"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "RAB drilling ($10-20/m) is appropriate for wide-spaced reconnaissance exploration where the objective is target generation over large areas, not Resource estimation. The low cost allows maximum ground coverage for minimum expenditure. Once targets are identified, they should be followed up with RC and/or DD drilling which provide the sample quality needed for Resource estimation. RAB data alone is generally insufficient for Resource estimation due to poor sample quality below the water table and contamination risk. Table 1 requires disclosure of drilling methods and their limitations.",
     "key_concept": "RAB is appropriate for reconnaissance only — insufficient quality for Resource estimation",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -328,10 +328,10 @@
     "domain": "jorc",
     "question": "During cupellation in fire assay, the lead button is heated on a porous cupel at approximately 950°C. The purpose of this step is to:",
     "options": {
-      "A": "Melt the gold so it can be poured into a mould",
+      "A": "Reduce the gold oxide to metallic gold",
       "B": "Oxidise and absorb the lead into the cupel, leaving a gold-silver prill (bead) that can be weighed",
       "C": "Separate copper from gold",
-      "D": "Reduce the gold oxide to metallic gold"
+      "D": "Melt the gold so it can be poured into a mould"
     },
     "correct": "B",
     "explanation": "Cupellation is the second stage of fire assay. The lead button from fusion (which contains the gold and silver collected from the sample) is placed on a porous magnesia or bone ash cupel and heated to ~950°C in an oxidising atmosphere. The lead oxidises to lead oxide (litharge), which is absorbed into the porous cupel. The gold and silver, which are not oxidised at this temperature, remain as a small bead (prill) on the cupel surface. This prill is then weighed (gravimetric finish) or dissolved in acid and analysed by AAS or ICP (instrumental finish).",
@@ -345,12 +345,12 @@
     "domain": "jorc",
     "question": "A company reports that all samples were analysed by 'industry standard methods' without specifying the actual analytical method, detection limits, or laboratory name. Under Table 1, this is:",
     "options": {
-      "A": "Sufficient — 'industry standard' is a recognized term",
-      "B": "Non-compliant — Table 1 requires specific disclosure of analytical methods, sample preparation procedures, detection limits, and the laboratory used",
-      "C": "Acceptable for preliminary reports",
-      "D": "Acceptable if the CP confirms the quality"
+      "A": "Acceptable if the CP confirms the quality",
+      "B": "Acceptable for preliminary reports",
+      "C": "Sufficient — 'industry standard' is a recognized term",
+      "D": "Non-compliant — Table 1 requires specific disclosure of analytical methods, sample preparation procedures, detection limits, and the laboratory used"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Table 1 requires specific, detailed reporting of analytical methods — not vague references to 'industry standard.' The CP must disclose: the specific analytical method (e.g., 50g fire assay with AAS finish), the laboratory name and accreditation status, detection limits and upper detection limits, sample preparation procedures, and QA/QC protocols. Without this information, a reader cannot assess data quality or potential biases. 'Industry standard' means different things in different contexts and provides no useful information.",
     "key_concept": "Vague terms like 'industry standard' are non-compliant — specific methods must be disclosed",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -362,12 +362,12 @@
     "domain": "jorc",
     "question": "A QA/QC program shows that field duplicate pairs for gold have a coefficient of variation (CV) of 45%. This suggests:",
     "options": {
-      "A": "Excellent precision — no action needed",
-      "B": "The total sampling precision is poor, likely reflecting a significant nugget effect and/or sampling errors, which may affect the reliability of the Resource estimate",
-      "C": "The laboratory is performing poorly",
-      "D": "The database has transcription errors"
+      "A": "The laboratory is performing poorly",
+      "B": "The database has transcription errors",
+      "C": "The total sampling precision is poor, likely reflecting a significant nugget effect and/or sampling errors, which may affect the reliability of the Resource estimate",
+      "D": "Excellent precision — no action needed"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "A field duplicate CV of 45% for gold indicates poor total sampling precision. Field duplicates capture all sources of error: geological variability at the sample scale (nugget effect), sampling method error, and preparation error. For gold, some variability is expected due to the nugget effect, but 45% CV suggests the combination of sampling method, sample size, and mineralisation style is producing unreliable data. The CP should investigate: Is the gold coarse-grained? Are sample sizes adequate? Is the splitting method appropriate? This impacts Resource classification confidence.",
     "key_concept": "High field duplicate CV (45%) = poor total sampling precision affecting Resource reliability",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -380,11 +380,11 @@
     "question": "Under Table 1, which of the following is NOT a required reporting item for sampling techniques?",
     "options": {
       "A": "Nature and quality of sampling (drilling type, methods)",
-      "B": "Measures taken to ensure sample representativity",
-      "C": "The company's exploration budget and funding sources",
+      "B": "The company's exploration budget and funding sources",
+      "C": "Measures taken to ensure sample representativity",
       "D": "Sample preparation and quality control procedures"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Table 1 Section 1 requires reporting on: sampling techniques (drilling type, method), sample representativity (sample sizes, splitting methods), sample preparation (crush, split, pulverise procedures), QA/QC protocols (blanks, CRMs, duplicates, umpire assays), and data verification processes. The company's exploration budget and funding sources are corporate/financial matters, not technical sampling criteria. While budget constraints may influence program design, they are not a Table 1 reporting requirement.",
     "key_concept": "Table 1 covers technical sampling criteria — not corporate financial matters",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -396,12 +396,12 @@
     "domain": "jorc",
     "question": "A CP discovers that historical drill hole collar coordinates were surveyed using a handheld GPS with ±5m accuracy, while the Resource model uses 5m x 5m blocks. How should this be addressed under Table 1?",
     "options": {
-      "A": "The survey accuracy is irrelevant to the Resource estimate",
-      "B": "The survey uncertainty means drill holes could be mislocated relative to the block model, potentially placing samples in the wrong blocks — the CP should disclose the survey method and accuracy, assess the impact on the estimate, and consider re-surveying accessible collars with DGPS",
-      "C": "The block size should be reduced to 1m x 1m to compensate",
+      "A": "The survey uncertainty means drill holes could be mislocated relative to the block model, potentially placing samples in the wrong blocks — the CP should disclose the survey method and accuracy, assess the impact on the estimate, and consider re-surveying accessible collars with DGPS",
+      "B": "The block size should be reduced to 1m x 1m to compensate",
+      "C": "The survey accuracy is irrelevant to the Resource estimate",
       "D": "All historically surveyed holes should be removed from the dataset"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "When survey accuracy (±5m) approaches or exceeds the block model dimensions (5m x 5m), sample locations may be incorrectly assigned to adjacent blocks, smearing grade boundaries and reducing model accuracy. Table 1 requires disclosure of survey methods and accuracy. The CP should: disclose the limitation, assess whether the location uncertainty materially affects the estimate (particularly at domain boundaries), consider re-surveying accessible collars with differential GPS (±0.1m accuracy), and potentially increase block sizes to reduce the relative impact of survey error.",
     "key_concept": "Survey accuracy must be compatible with block model resolution — discrepancies require disclosure",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -413,12 +413,12 @@
     "domain": "jorc",
     "question": "Trenching as a sampling method is most appropriate for:",
     "options": {
-      "A": "Deep underground deposits below 500m",
-      "B": "Near-surface mineralisation where bedrock is exposed or covered by thin overburden, allowing systematic channel sampling across the mineralised structure",
-      "C": "Sampling below the water table",
-      "D": "Replacing all drill programs in tropical environments"
+      "A": "Sampling below the water table",
+      "B": "Replacing all drill programs in tropical environments",
+      "C": "Deep underground deposits below 500m",
+      "D": "Near-surface mineralisation where bedrock is exposed or covered by thin overburden, allowing systematic channel sampling across the mineralised structure"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Trenching involves excavating shallow trenches (typically 1-5m deep) to expose bedrock for systematic channel sampling. It is most appropriate for near-surface mineralisation where outcrop or subcrop is present, allowing direct observation and sampling of the mineralised structure. Trenching provides excellent geological context (structure, contacts, alteration) and can be cost-effective for surface deposits. However, it cannot reach deep mineralisation, is impractical below the water table, and does not replace drilling for depth extension assessment.",
     "key_concept": "Trenching = near-surface sampling method for exposed or shallow mineralisation",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -432,8 +432,8 @@
     "options": {
       "A": "Normal — 8% is an acceptable failure rate for blanks",
       "B": "Evidence of systematic contamination in the sample preparation process, requiring investigation of the crushing and pulverising equipment, potential barren flushes between high-grade samples, and re-assay of samples adjacent to failed blanks",
-      "C": "A laboratory calibration error only",
-      "D": "Irrelevant for copper deposits"
+      "C": "Irrelevant for copper deposits",
+      "D": "A laboratory calibration error only"
     },
     "correct": "B",
     "explanation": "An 8% blank failure rate with grades up to 0.15% Cu is a significant contamination signal. Blanks should return values at or near detection limits — any consistent grade indicates material carry-over. The most likely source is inadequate cleaning of crushing and pulverising equipment between samples. The CP should: investigate preparation procedures, require barren flushes (cleaning with barren material) between high-grade samples, re-assay samples adjacent to failed blanks, and report the contamination issue in the Table 1 disclosure. This may affect low-grade Resource domains most significantly.",
@@ -447,12 +447,12 @@
     "domain": "jorc",
     "question": "Under Table 1, database management reporting should address:",
     "options": {
-      "A": "Only the software platform used",
-      "B": "Data capture methods, validation procedures, data storage security, and the process for handling historical data conversions",
+      "A": "Data capture methods, validation procedures, data storage security, and the process for handling historical data conversions",
+      "B": "Only the software platform used",
       "C": "The cost of the database system",
       "D": "Only errors found during verification"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Table 1 requires comprehensive reporting on database management including: how data is captured (digital logging vs. paper, data entry procedures), validation procedures (range checks, consistency checks, duplicate detection), data storage and security (backup procedures, access controls, version management), and the process for integrating historical data (format conversions, datum transformations, legacy data quality assessment). A robust database is the foundation of any Resource estimate — errors in the database propagate directly into the geological model.",
     "key_concept": "Database management = capture, validation, security, and historical data handling",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -464,12 +464,12 @@
     "domain": "jorc",
     "question": "A gold exploration program uses only 4m composite RC samples for grade estimation in a deposit with narrow (0.5m wide) high-grade shoots. Under Table 1, the key sampling concern is:",
     "options": {
-      "A": "4m composites are the industry standard for gold",
-      "B": "The 4m composite length significantly exceeds the mineralisation width, causing severe grade dilution within the sample — the high-grade shoot grades are averaged with 3.5m of waste, making the deposit appear lower grade than it actually is",
-      "C": "Composite length has no impact on grade estimation",
-      "D": "Shorter composites would be too expensive to analyse"
+      "A": "The 4m composite length significantly exceeds the mineralisation width, causing severe grade dilution within the sample — the high-grade shoot grades are averaged with 3.5m of waste, making the deposit appear lower grade than it actually is",
+      "B": "Composite length has no impact on grade estimation",
+      "C": "Shorter composites would be too expensive to analyse",
+      "D": "4m composites are the industry standard for gold"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "When the sample composite length (4m) greatly exceeds the mineralisation width (0.5m), the high-grade material is diluted within the sample by barren or low-grade material. A 0.5m shoot at 50 g/t Au composited over 4m would return only ~6.25 g/t — potentially below the reporting cut-off. Table 1 requires assessment of sample sizes and their appropriateness. For narrow high-grade shoots, shorter composites (0.5-1m) or selective sampling at the mineralised contacts is essential. The CP must disclose and assess this sampling limitation.",
     "key_concept": "Sample composite length must match mineralisation width to avoid internal dilution",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -481,10 +481,10 @@
     "domain": "jorc",
     "question": "A diamond drill hole deviates significantly from planned orientation at depth. Under Table 1, which downhole survey method provides the MOST reliable measurement of hole azimuth and inclination in a magnetically challenging environment (e.g., massive magnetite)?",
     "options": {
-      "A": "Single-shot Eastman camera",
-      "B": "Electronic multi-shot magnetic tool (e.g., Reflex EZ-Shot)",
+      "A": "No survey is required if the hole was collared at the correct orientation",
+      "B": "Single-shot Eastman camera",
       "C": "North-seeking gyroscopic tool (e.g., Reflex Gyro Sprint or Axis Mining Gyro)",
-      "D": "No survey is required if the hole was collared at the correct orientation"
+      "D": "Electronic multi-shot magnetic tool (e.g., Reflex EZ-Shot)"
     },
     "correct": "C",
     "explanation": "In magnetically challenging environments such as massive magnetite or banded iron formation (BIF) deposits, magnetic-based survey tools produce unreliable azimuth readings because the local magnetic field is distorted by the rock mass. North-seeking gyroscopic tools determine true north using the Earth's rotation rather than its magnetic field, making them immune to magnetic interference. Table 1 requires disclosure of downhole survey methods, their accuracy, and any limitations. Using magnetic tools in magnetic rocks without disclosure is a significant data quality issue that can result in drill holes being incorrectly plotted in 3D space, directly affecting the geological model.",
@@ -499,11 +499,11 @@
     "question": "Core orientation is performed on diamond drill core to determine the true spatial position of structural features. Which of the following BEST describes why core orientation is important for Resource estimation?",
     "options": {
       "A": "It increases core recovery percentage",
-      "B": "It allows the geologist to determine the true dip and strike of mineralisation controls (veins, faults, contacts), enabling correct geological domain interpretation and appropriate drill hole spacing design",
-      "C": "It reduces drilling costs by allowing shorter holes",
-      "D": "It is only needed for geotechnical studies, not Resource estimation"
+      "B": "It is only needed for geotechnical studies, not Resource estimation",
+      "C": "It allows the geologist to determine the true dip and strike of mineralisation controls (veins, faults, contacts), enabling correct geological domain interpretation and appropriate drill hole spacing design",
+      "D": "It reduces drilling costs by allowing shorter holes"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Core orientation (using tools such as Reflex ACT III, Ori-Mark, or the Ballmark system) marks a known reference line on the core, allowing structural measurements (dip direction and dip angle) of planar features like veins, faults, and lithological contacts to be converted from core-relative angles to true spatial orientations. This is critical for understanding the geometry of mineralisation controls, designing optimal drill hole orientations, and building accurate geological domain models. Without orientation data, structural interpretations rely on assumptions that may introduce significant error into the Resource estimate. Table 1 requires reporting on core orientation methods where used.",
     "key_concept": "Core orientation reveals true geometry of structures controlling mineralisation",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -515,12 +515,12 @@
     "domain": "jorc",
     "question": "A CP needs to determine bulk density for a porous, vesicular basalt-hosted copper deposit. Which measurement method is MOST appropriate?",
     "options": {
-      "A": "Water immersion method on unwaxed core",
-      "B": "Water immersion method on wax-coated core (or caliper-measured volume for regular shapes)",
-      "C": "Assumed density values from published literature",
-      "D": "Downhole gamma-gamma density logging only"
+      "A": "Water immersion method on wax-coated core (or caliper-measured volume for regular shapes)",
+      "B": "Water immersion method on unwaxed core",
+      "C": "Downhole gamma-gamma density logging only",
+      "D": "Assumed density values from published literature"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "For porous or vesicular rocks, unwaxed water immersion underestimates volume (water enters pores, reducing apparent displaced volume) and therefore overestimates density. Wax-coating the core seals the pores so the immersion method measures the true bulk volume including voids. Alternatively, caliper measurement of regular core pieces provides direct volume. Using assumed values from literature is not acceptable for Resource estimation — Table 1 requires actual measurements. Downhole gamma-gamma logging provides useful continuous data but should be calibrated against physical measurements. The CP must disclose the method used and its appropriateness for the rock type.",
     "key_concept": "Porous rocks require wax-coated immersion to prevent water infiltration and density overestimation",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -532,12 +532,12 @@
     "domain": "jorc",
     "question": "According to Gy's sampling theory, the fundamental sampling error is primarily controlled by:",
     "options": {
-      "A": "The colour of the mineral grains",
-      "B": "The maximum particle size of the material being sampled relative to the mass of the sample taken — larger particles and smaller sample masses increase the error",
-      "C": "The temperature at which the sample is dried",
-      "D": "The brand of sample bags used"
+      "A": "The brand of sample bags used",
+      "B": "The colour of the mineral grains",
+      "C": "The maximum particle size of the material being sampled relative to the mass of the sample taken — larger particles and smaller sample masses increase the error",
+      "D": "The temperature at which the sample is dried"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Pierre Gy's Theory of Sampling demonstrates that the fundamental sampling error (FSE) is proportional to the cube of the maximum particle diameter (d³) and inversely proportional to the sample mass (Ms). The relationship is approximately: FSE² = Cd³/Ms, where C is a mineralogical constant incorporating liberation factor, shape factor, size range factor, and density/grade contrast. This means that reducing particle size (by crushing) dramatically reduces FSE, while increasing sample mass also reduces FSE. Table 1 requires that sample sizes be assessed for appropriateness relative to the grain size of the mineralisation — this is the practical application of Gy's theory.",
     "key_concept": "Gy's theory: sampling error scales with particle size³ and inversely with sample mass",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -549,12 +549,12 @@
     "domain": "jorc",
     "question": "A CP must decide between half-core and quarter-core sampling for a diamond drilling program in a narrow vein gold deposit. The primary advantage of half-core over quarter-core sampling is:",
     "options": {
-      "A": "Half-core is cheaper to prepare",
-      "B": "Half-core provides a larger, more representative sample mass and retains the other half as a permanent reference — quarter-core should only be used when a second assay split is required from a limited core diameter",
-      "C": "Quarter-core always provides more accurate results",
-      "D": "There is no practical difference between half-core and quarter-core"
+      "A": "There is no practical difference between half-core and quarter-core",
+      "B": "Quarter-core always provides more accurate results",
+      "C": "Half-core provides a larger, more representative sample mass and retains the other half as a permanent reference — quarter-core should only be used when a second assay split is required from a limited core diameter",
+      "D": "Half-core is cheaper to prepare"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Half-core sampling provides twice the sample mass of quarter-core, improving representativity (per Gy's theory, larger mass reduces fundamental sampling error). The retained half serves as a permanent reference for re-logging, verification assays, and metallurgical testwork. Quarter-core sampling halves the available mass and introduces additional splitting error. It should only be used when a second independent assay split is needed (e.g., for umpire analysis) and the core diameter is too small to provide adequate mass from a sixth of the core. For narrow vein gold deposits where the nugget effect is a concern, maximising sample mass through half-core sampling is preferred. Table 1 requires disclosure of sampling method and sample sizes.",
     "key_concept": "Half-core preferred for mass and representativity; quarter-core only when second split is essential",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -567,11 +567,11 @@
     "question": "An RC drilling program encounters the water table at 40m depth. Below this level, samples become visibly wet and sticky. Under Table 1, the CP should be concerned because:",
     "options": {
       "A": "Wet RC samples are always higher grade than dry samples",
-      "B": "Water ingress causes fine particles (which may carry disproportionate grade) to be lost in the cyclone and sample collection system, potentially introducing a systematic grade bias — sample recovery and quality must be monitored and reported",
-      "C": "Wet samples cannot be assayed by any method",
+      "B": "Wet samples cannot be assayed by any method",
+      "C": "Water ingress causes fine particles (which may carry disproportionate grade) to be lost in the cyclone and sample collection system, potentially introducing a systematic grade bias — sample recovery and quality must be monitored and reported",
       "D": "The water table depth is not a Table 1 reporting item"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "When RC drilling penetrates the water table, groundwater mixes with the drill cuttings. Wet samples tend to stick in the cyclone and sample collection system, causing preferential loss of fine particles. In many deposits, fine particles carry higher grades than coarse particles (particularly for disseminated mineralisation), so this loss introduces a negative grade bias. Additionally, wet samples may not split representatively. The CP must: monitor sample recovery (by weighing each metre), note the water table depth, compare sample weights and grades above vs. below the water table, and consider using auxiliary compressors or converting to diamond drilling at depth. This is a required Table 1 disclosure.",
     "key_concept": "Wet RC samples lose fines in cyclone, causing potential negative grade bias below water table",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -583,12 +583,12 @@
     "domain": "jorc",
     "question": "For a base metal exploration program (Cu-Zn-Pb), a CP is selecting between AAS (Atomic Absorption Spectrophotometry), ICP-MS (Inductively Coupled Plasma Mass Spectrometry), and handheld XRF. Which statement is MOST accurate?",
     "options": {
-      "A": "Handheld XRF is suitable as the primary assay method for Resource estimation",
-      "B": "AAS is a single-element technique providing good precision for major elements; ICP-MS provides multi-element data at very low detection limits; handheld XRF is useful for screening but not as a primary Resource-grade analytical method",
-      "C": "ICP-MS cannot detect copper or zinc",
+      "A": "ICP-MS cannot detect copper or zinc",
+      "B": "Handheld XRF is suitable as the primary assay method for Resource estimation",
+      "C": "AAS is a single-element technique providing good precision for major elements; ICP-MS provides multi-element data at very low detection limits; handheld XRF is useful for screening but not as a primary Resource-grade analytical method",
       "D": "All three methods are interchangeable with identical precision and accuracy"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "AAS analyses one element at a time with good precision and accuracy for major and minor elements — it is a well-established method for base metals. ICP-MS provides simultaneous multi-element analysis at parts-per-billion detection limits, making it excellent for trace elements and pathfinder geochemistry. Handheld (portable) XRF provides rapid semi-quantitative field results useful for geological logging and target prioritisation, but it lacks the precision, accuracy, and sample preparation rigour required for Resource estimation. Table 1 requires disclosure of analytical methods and their appropriateness. A CP should understand the strengths and limitations of each technique when selecting methods for different project stages.",
     "key_concept": "AAS = single-element precision; ICP-MS = multi-element trace sensitivity; pXRF = screening only",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -600,12 +600,12 @@
     "domain": "jorc",
     "question": "A CP analysing a gold-copper porphyry deposit requests multi-element ICP-MS analysis in addition to fire assay for gold. The primary reason for requesting multi-element data is:",
     "options": {
-      "A": "To increase the assay cost and demonstrate thoroughness",
-      "B": "To identify pathfinder element halos (e.g., As, Mo, Bi, Te) that may extend beyond the ore zone, aid geological domain interpretation, and detect potential deleterious elements (e.g., As, Hg) that affect processing and environmental management",
-      "C": "Multi-element analysis is a regulatory requirement for all deposits",
-      "D": "ICP-MS replaces the need for fire assay for gold"
+      "A": "To identify pathfinder element halos (e.g., As, Mo, Bi, Te) that may extend beyond the ore zone, aid geological domain interpretation, and detect potential deleterious elements (e.g., As, Hg) that affect processing and environmental management",
+      "B": "Multi-element analysis is a regulatory requirement for all deposits",
+      "C": "ICP-MS replaces the need for fire assay for gold",
+      "D": "To increase the assay cost and demonstrate thoroughness"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Multi-element geochemistry in porphyry systems identifies pathfinder element halos that reflect hydrothermal zonation (e.g., Mo in the core, As-Sb on the periphery). These halos assist with geological domain interpretation and vectoring toward higher-grade zones. Additionally, multi-element data identifies deleterious elements (arsenic, mercury, fluorine) that may affect ore processing, concentrate quality, and environmental compliance. ICP-MS does not replace fire assay for gold — fire assay remains the industry standard for gold due to its complete decomposition of the sample. Table 1 requires reporting of all analytical methods used and the elements analysed.",
     "key_concept": "Multi-element analysis identifies pathfinder halos, domain controls, and deleterious elements",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -617,12 +617,12 @@
     "domain": "jorc",
     "question": "For iron ore (Fe) Resource estimation, the most common primary analytical method is:",
     "options": {
-      "A": "Fire assay with AAS finish",
-      "B": "X-Ray Fluorescence (XRF) on fused glass discs, providing whole-rock major oxide analysis including Fe₂O₃, SiO₂, Al₂O₃, P, LOI, and other penalty elements",
-      "C": "ICP-MS after aqua regia digestion",
-      "D": "Gravimetric analysis only"
+      "A": "ICP-MS after aqua regia digestion",
+      "B": "Gravimetric analysis only",
+      "C": "Fire assay with AAS finish",
+      "D": "X-Ray Fluorescence (XRF) on fused glass discs, providing whole-rock major oxide analysis including Fe₂O₃, SiO₂, Al₂O₃, P, LOI, and other penalty elements"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Iron ore characterisation requires whole-rock major element analysis because the value and processing characteristics depend on the complete chemical composition — not just iron grade. XRF on fused glass discs (borate fusion) is the industry standard, providing accurate analysis of Fe₂O₃, SiO₂, Al₂O₃, MnO, P, S, TiO₂, CaO, MgO, K₂O, Na₂O, and Loss on Ignition (LOI). Penalty elements like P, S, Al₂O₃, and SiO₂ directly affect product pricing and salability. Fire assay is for precious metals; aqua regia ICP-MS provides incomplete dissolution of refractory iron oxides. Table 1 requires that the analytical method be appropriate for the commodity and deposit type.",
     "key_concept": "Iron ore uses XRF on fused discs for whole-rock analysis including penalty elements",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -652,11 +652,11 @@
     "question": "A twinning program involves drilling new holes within 5-10m of existing historical holes. The primary purpose of a twinning program under Table 1 is to:",
     "options": {
       "A": "Double the number of drill holes to improve Resource confidence",
-      "B": "Verify the reliability of historical data by comparing new results (using modern methods and QA/QC) with the historical assays and geological logs at the same location",
+      "B": "Satisfy regulatory requirements for a minimum number of holes",
       "C": "Provide samples for metallurgical testing only",
-      "D": "Satisfy regulatory requirements for a minimum number of holes"
+      "D": "Verify the reliability of historical data by comparing new results (using modern methods and QA/QC) with the historical assays and geological logs at the same location"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Twinning programs are a critical data verification tool when historical drill data forms a significant proportion of the Resource database. By drilling new holes adjacent to historical holes using current best-practice methods (modern QA/QC, certified laboratory, digital logging), the CP can assess whether historical grades and geological interpretations are reliable. Systematic differences between twin and historical results may indicate historical data quality issues (sampling bias, assay method differences, or poor sample handling). Table 1 requires reporting of data verification methods, and twinning is one of the most robust approaches for validating legacy data.",
     "key_concept": "Twinning verifies historical data reliability by comparing modern and legacy results at the same location",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -668,12 +668,12 @@
     "domain": "jorc",
     "question": "A company acquires a project with historical data from the 1970s including drill logs on paper, assays from a now-closed laboratory, and collar surveys in a local grid system. Under Table 1, the MOST significant challenge for integrating this data is:",
     "options": {
-      "A": "The data is too old to be useful under any circumstances",
-      "B": "Multiple compounding issues: unverifiable assay quality (no QA/QC), potential transcription errors during digitisation, coordinate transformation uncertainty from local grid to standard datum, and unknown sampling/preparation protocols — all requiring disclosure and risk assessment",
-      "C": "The paper logs will have faded and be unreadable",
-      "D": "Historical data automatically qualifies as Measured Resource"
+      "A": "Multiple compounding issues: unverifiable assay quality (no QA/QC), potential transcription errors during digitisation, coordinate transformation uncertainty from local grid to standard datum, and unknown sampling/preparation protocols — all requiring disclosure and risk assessment",
+      "B": "The data is too old to be useful under any circumstances",
+      "C": "Historical data automatically qualifies as Measured Resource",
+      "D": "The paper logs will have faded and be unreadable"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Integrating historical data presents multiple simultaneous challenges that compound uncertainty: (1) Assay quality cannot be verified retrospectively if no QA/QC was performed and the laboratory no longer exists; (2) Digitising paper logs introduces transcription errors; (3) Converting from local grid to MGA/WGS84 requires transformation parameters that may be poorly documented; (4) Sampling and preparation protocols may be unknown or different from current standards. The CP must disclose all these limitations, assess the impact on Resource confidence, and may need to downgrade classification of areas relying primarily on historical data. Twinning programs can partially address these concerns.",
     "key_concept": "Historical data integration requires addressing QA/QC gaps, digitisation errors, datum conversion, and unknown protocols",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -686,11 +686,11 @@
     "question": "A geologist uses a portable XRF (pXRF) device to assay RC chip samples in the field, reporting these as the primary grade data for an Exploration Target announcement. Under Table 1, a reviewer would note that:",
     "options": {
       "A": "pXRF results are equivalent to laboratory assays for all elements",
-      "B": "pXRF provides semi-quantitative results affected by sample preparation, moisture, particle size, surface irregularity, and matrix effects — it is not appropriate as the sole primary analytical method for public reporting and must be verified by conventional laboratory assays",
-      "C": "pXRF is only unreliable for gold but acceptable for all other elements",
-      "D": "pXRF results are always higher than laboratory assays"
+      "B": "pXRF is only unreliable for gold but acceptable for all other elements",
+      "C": "pXRF results are always higher than laboratory assays",
+      "D": "pXRF provides semi-quantitative results affected by sample preparation, moisture, particle size, surface irregularity, and matrix effects — it is not appropriate as the sole primary analytical method for public reporting and must be verified by conventional laboratory assays"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Portable XRF is a valuable field tool for rapid screening, geological logging, and target prioritisation. However, it has significant limitations for public reporting: results are affected by sample heterogeneity, moisture content, particle size, surface roughness, and matrix effects (inter-element interference). Accuracy varies by element — lighter elements (e.g., Mg, Al) are poorly measured, while heavier elements (Cu, Zn, Pb) are more reliable but still less accurate than laboratory methods. Table 1 requires disclosure of analytical methods and their limitations. If pXRF data is reported, it must be clearly identified as such, and the CP must explain its limitations and the plan for laboratory verification.",
     "key_concept": "pXRF is a screening tool only — not a substitute for laboratory assays in public reporting",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -702,12 +702,12 @@
     "domain": "jorc",
     "question": "Under Table 1, sample security during transport from the drill site to the laboratory should include:",
     "options": {
-      "A": "No special measures are required if the laboratory is nearby",
-      "B": "Documented chain of custody including numbered security seals on sample bags or bulka bags, transport by a trusted courier or company vehicle, sample submission forms listing all sample numbers, and confirmation of receipt by the laboratory",
-      "C": "Only verbal confirmation from the truck driver",
-      "D": "Security measures are only required for gold samples, not base metals"
+      "A": "Security measures are only required for gold samples, not base metals",
+      "B": "Only verbal confirmation from the truck driver",
+      "C": "Documented chain of custody including numbered security seals on sample bags or bulka bags, transport by a trusted courier or company vehicle, sample submission forms listing all sample numbers, and confirmation of receipt by the laboratory",
+      "D": "No special measures are required if the laboratory is nearby"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Sample security is a critical component of Table 1 reporting regardless of the commodity or distance to the laboratory. Robust procedures include: unique numbered sample bags, tamper-evident security seals on calico bags or bulka bags, a documented dispatch list (sample submission form) recording all sample numbers, transport by a company vehicle or reputable courier service, and written confirmation of receipt from the laboratory listing all samples received. Any discrepancies between dispatched and received samples must be investigated. These procedures prevent sample tampering, substitution, loss, or mix-up — all of which would compromise data integrity.",
     "key_concept": "Sample security requires seals, dispatch lists, trusted transport, and confirmed laboratory receipt",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -719,10 +719,10 @@
     "domain": "jorc",
     "question": "A CP is evaluating acid digestion methods for a lithium pegmatite deposit. Which digestion method provides the MOST complete dissolution of spodumene (LiAlSi₂O₆)?",
     "options": {
-      "A": "Aqua regia (HCl + HNO₃) — a partial digestion suitable for most applications",
+      "A": "Single-acid HCl digestion",
       "B": "Four-acid digestion (HF + HClO₄ + HNO₃ + HCl) or sodium peroxide fusion — these methods attack silicate minerals that resist weaker acid digestions",
-      "C": "Single-acid HCl digestion",
-      "D": "Cyanide leach (as used for gold)"
+      "C": "Cyanide leach (as used for gold)",
+      "D": "Aqua regia (HCl + HNO₃) — a partial digestion suitable for most applications"
     },
     "correct": "B",
     "explanation": "Spodumene is a lithium-bearing pyroxene (silicate mineral) that is highly resistant to partial acid digestions. Aqua regia cannot break down the silicate lattice and will significantly underestimate lithium content. Four-acid digestion (incorporating hydrofluoric acid, which attacks silicates) or sodium peroxide/lithium metaborate fusion provides near-total dissolution. For lithium deposits, the CP must ensure the digestion method achieves total or near-total dissolution of the host minerals. Using aqua regia for silicate-hosted lithium would be a fundamental analytical error. Table 1 requires disclosure of the analytical method and its appropriateness for the mineralogy. Note: lithium metaborate fusion cannot be used for lithium assay as the flux contains lithium.",
@@ -736,12 +736,12 @@
     "domain": "jorc",
     "question": "When sampling underground development faces (headings), the MOST important principle for obtaining representative chip or channel samples under Table 1 is:",
     "options": {
-      "A": "Collect random grab samples from the muck pile",
-      "B": "Cut a continuous channel sample across the full face at a consistent width and depth, perpendicular to the mineralisation orientation, with sample intervals matching the geological domains",
-      "C": "Only sample the visually high-grade portions of the face",
-      "D": "Use the blast hole cuttings as the assay sample"
+      "A": "Cut a continuous channel sample across the full face at a consistent width and depth, perpendicular to the mineralisation orientation, with sample intervals matching the geological domains",
+      "B": "Use the blast hole cuttings as the assay sample",
+      "C": "Collect random grab samples from the muck pile",
+      "D": "Only sample the visually high-grade portions of the face"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Underground face sampling requires systematic continuous channel sampling to be representative. The channel must be cut at a consistent width (typically 5-10cm) and depth (2-3cm) across the full face, oriented perpendicular to the mineralisation strike or dip direction. Sample intervals should correspond to geological boundaries (lithology contacts, vein margins) rather than arbitrary lengths. Grab samples from muck piles are biased by visual selection and blast fragmentation patterns. Blast hole cuttings are contaminated by drilling water and mixed by the drilling process. Selective sampling of high-grade portions violates representativity principles and inflates grade estimates. Table 1 requires disclosure of the sampling method and its appropriateness.",
     "key_concept": "Underground face sampling requires continuous channels across the full face, perpendicular to mineralisation",
     "source": "JORC Code 2012, Table 1 Section 1",
@@ -753,12 +753,12 @@
     "domain": "jorc",
     "question": "A modern drill program uses photographic core logging (high-resolution digital photography of all core trays) and digital data capture on field tablets. Under Table 1, the primary benefit of these practices for data verification is:",
     "options": {
-      "A": "They eliminate the need for a qualified geologist to log the core",
-      "B": "They create a permanent, auditable visual record of all core before sampling (which is destructive), enable remote review by the CP and independent reviewers, reduce transcription errors through direct digital data entry, and support reproducible geological interpretation",
-      "C": "Digital photographs replace the need for physical core storage",
-      "D": "Tablet-based logging is faster, which is the only relevant consideration"
+      "A": "They create a permanent, auditable visual record of all core before sampling (which is destructive), enable remote review by the CP and independent reviewers, reduce transcription errors through direct digital data entry, and support reproducible geological interpretation",
+      "B": "They eliminate the need for a qualified geologist to log the core",
+      "C": "Tablet-based logging is faster, which is the only relevant consideration",
+      "D": "Digital photographs replace the need for physical core storage"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Photographic logging and digital data capture provide multiple data quality benefits: (1) Permanent visual record — once core is sampled (half-core cut), the full core can never be reconstructed, so photographs preserve the pre-sampling condition for review; (2) Remote verification — the CP and independent reviewers can examine core without site visits; (3) Reduced transcription error — direct digital entry eliminates paper-to-database transcription; (4) Standardised logging — digital templates enforce consistent data capture. Table 1 requires data to be verifiable, and these tools enhance verifiability. However, they do not replace the need for qualified geological interpretation or physical core storage (retained half-core must be stored for future reference and verification assays).",
     "key_concept": "Digital photography and tablet logging create auditable records, enable remote review, and reduce transcription errors",
     "source": "JORC Code 2012, Table 1 Section 1",

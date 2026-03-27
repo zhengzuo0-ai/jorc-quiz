@@ -1,5 +1,6 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import type { ChapterStats } from '../types';
 import { chapters, jorcChapters, goldChapters } from '../data/chapters';
 import { useQuestions } from '../hooks/useQuestions';
 import { useProgress } from '../hooks/useProgress';
@@ -7,6 +8,105 @@ import { useErrorBook } from '../hooks/useErrorBook';
 import QuestionCard from '../components/QuestionCard';
 import ProgressBar from '../components/ProgressBar';
 import ChapterList from '../components/ChapterList';
+
+type DomainFilter = 'all' | 'jorc' | 'gold';
+
+function ChapterSelector({ getChapterStats }: { getChapterStats: (id: string) => ChapterStats }) {
+  const [search, setSearch] = useState('');
+  const [domainFilter, setDomainFilter] = useState<DomainFilter>('all');
+
+  const filteredJorc = useMemo(() => {
+    const q = search.toLowerCase().trim();
+    return jorcChapters.filter(c =>
+      !q || c.name.toLowerCase().includes(q) || c.nameEn.toLowerCase().includes(q) || c.id.includes(q)
+    );
+  }, [search]);
+
+  const filteredGold = useMemo(() => {
+    const q = search.toLowerCase().trim();
+    return goldChapters.filter(c =>
+      !q || c.name.toLowerCase().includes(q) || c.nameEn.toLowerCase().includes(q) || c.id.includes(q)
+    );
+  }, [search]);
+
+  return (
+    <div className="max-w-3xl mx-auto">
+      <h1
+        className="text-2xl font-semibold mb-2"
+        style={{ fontFamily: 'var(--font-display)', color: 'var(--navy-dark)' }}
+      >
+        练习
+      </h1>
+      <p className="text-sm mb-5" style={{ color: 'var(--text-muted)' }}>
+        选择一个章节开始练习
+      </p>
+
+      {/* Search and filter */}
+      <div className="flex flex-col sm:flex-row gap-3 mb-6">
+        <div className="flex-1 relative">
+          <input
+            type="text"
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            placeholder="搜索章节 Search chapters..."
+            className="w-full text-sm px-4 py-2 rounded-lg outline-none transition-all duration-200"
+            style={{
+              background: 'var(--white)',
+              border: '1px solid var(--border)',
+              color: 'var(--text-primary)',
+            }}
+            onFocus={e => { e.currentTarget.style.borderColor = 'var(--gold)'; }}
+            onBlur={e => { e.currentTarget.style.borderColor = 'var(--border)'; }}
+          />
+        </div>
+        <div className="flex gap-2">
+          {([['all', '全部'], ['jorc', 'JORC'], ['gold', 'Gold']] as const).map(([val, label]) => (
+            <button
+              key={val}
+              onClick={() => setDomainFilter(val)}
+              className="px-4 py-2 text-sm rounded-lg font-medium transition-all duration-200"
+              style={{
+                background: domainFilter === val ? 'var(--gold)' : 'var(--warm-gray)',
+                color: domainFilter === val ? 'var(--white)' : 'var(--text-secondary)',
+              }}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {(domainFilter === 'all' || domainFilter === 'jorc') && filteredJorc.length > 0 && (
+        <div className="mb-8">
+          <h2
+            className="text-xs font-semibold uppercase tracking-wider mb-3"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            JORC Code
+          </h2>
+          <ChapterList chapters={filteredJorc} getStats={getChapterStats} />
+        </div>
+      )}
+      {(domainFilter === 'all' || domainFilter === 'gold') && filteredGold.length > 0 && (
+        <div>
+          <h2
+            className="text-xs font-semibold uppercase tracking-wider mb-3"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            Gold Exploration
+          </h2>
+          <ChapterList chapters={filteredGold} getStats={getChapterStats} />
+        </div>
+      )}
+
+      {filteredJorc.length === 0 && filteredGold.length === 0 && (
+        <div className="text-sm text-center py-8" style={{ color: 'var(--text-muted)' }}>
+          没有匹配的章节
+        </div>
+      )}
+    </div>
+  );
+}
 
 interface SessionResult {
   total: number;
@@ -66,37 +166,7 @@ export default function Practice() {
 
   // Chapter selection view
   if (!chapterId) {
-    return (
-      <div className="max-w-3xl mx-auto">
-        <h1
-          className="text-2xl font-semibold mb-2"
-          style={{ fontFamily: 'var(--font-display)', color: 'var(--navy-dark)' }}
-        >
-          练习
-        </h1>
-        <p className="text-sm mb-6" style={{ color: 'var(--text-muted)' }}>
-          选择一个章节开始练习
-        </p>
-        <div className="mb-8">
-          <h2
-            className="text-xs font-semibold uppercase tracking-wider mb-3"
-            style={{ color: 'var(--text-muted)' }}
-          >
-            JORC Code
-          </h2>
-          <ChapterList chapters={jorcChapters} getStats={getChapterStats} />
-        </div>
-        <div>
-          <h2
-            className="text-xs font-semibold uppercase tracking-wider mb-3"
-            style={{ color: 'var(--text-muted)' }}
-          >
-            Gold Exploration
-          </h2>
-          <ChapterList chapters={goldChapters} getStats={getChapterStats} />
-        </div>
-      </div>
-    );
+    return <ChapterSelector getChapterStats={getChapterStats} />;
   }
 
   const chapter = chapters.find(c => c.id === chapterId);

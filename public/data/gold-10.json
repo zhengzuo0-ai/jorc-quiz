@@ -5,12 +5,12 @@
     "domain": "gold",
     "question": "Under the CDI Mining Code (Loi N° 2014-138), what is the maximum area that can be granted for an exploration permit?",
     "options": {
-      "A": "200 km²",
-      "B": "400 km²",
-      "C": "600 km²",
-      "D": "1,000 km²"
+      "A": "1,000 km²",
+      "B": "600 km²",
+      "C": "400 km²",
+      "D": "200 km²"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The CDI Mining Code caps the initial exploration permit area at 400 km². This limit is designed to prevent speculative land-banking and ensure that permit holders can adequately fund exploration across the entire concession. Neighbouring countries vary: Mali allows up to 500 km² and Guinea up to 250 km². The 400 km² limit strikes a balance between enabling meaningful regional exploration and encouraging efficient capital deployment.",
     "key_concept": "CDI exploration permit: maximum 400 km² initial area",
     "source": "Loi N° 2014-138 (CDI Mining Code)",
@@ -24,8 +24,8 @@
     "options": {
       "A": "3 years initial, 6 years maximum",
       "B": "4 years initial, 10 years maximum",
-      "C": "5 years initial, 12 years maximum",
-      "D": "4 years initial, 8 years maximum"
+      "C": "4 years initial, 8 years maximum",
+      "D": "5 years initial, 12 years maximum"
     },
     "correct": "B",
     "explanation": "CDI grants an initial exploration permit for 4 years, renewable for additional periods up to a total maximum of 10 years. Each renewal typically requires relinquishment of a portion of the permit area and demonstration of minimum expenditure commitments. This progressive reduction mechanism ensures that companies are actively exploring rather than sitting on ground. The 10-year cap forces a decision to either proceed to a mining permit application or release the ground.",
@@ -39,12 +39,12 @@
     "domain": "gold",
     "question": "What is the maximum duration of a mining exploitation permit in Côte d'Ivoire?",
     "options": {
-      "A": "10 years",
+      "A": "25 years",
       "B": "15 years",
-      "C": "20 years",
-      "D": "25 years"
+      "C": "10 years",
+      "D": "20 years"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "The CDI Mining Code provides for a mining exploitation permit of up to 20 years, which is generally sufficient to cover the life-of-mine for most gold deposits in the region. This term can be renewed if the deposit still has economic reserves. The 20-year term aligns with the typical payback and return horizon for a major gold mine investment, giving developers confidence in long-term tenure. By comparison, Guinea offers 15-year exploitation permits and Mali offers 20-year permits.",
     "key_concept": "CDI mining exploitation permit: up to 20 years, renewable",
     "source": "Loi N° 2014-138 (CDI Mining Code)",
@@ -56,12 +56,12 @@
     "domain": "gold",
     "question": "Under the CDI Mining Code, the government is entitled to a free carry interest in mining projects. What is the mandatory free carry percentage, and what additional interest may the government optionally acquire?",
     "options": {
-      "A": "5% free carry + 10% optional",
-      "B": "10% free carry + 15% optional",
-      "C": "15% free carry + 10% optional",
-      "D": "10% free carry + 10% optional"
+      "A": "10% free carry + 15% optional",
+      "B": "15% free carry + 10% optional",
+      "C": "10% free carry + 10% optional",
+      "D": "5% free carry + 10% optional"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The CDI state receives a mandatory 10% free carried interest at no cost, meaning it does not contribute to capital expenditure but receives 10% of dividends. The state may also acquire an additional 15% participating interest at market value, bringing its maximum stake to 25%. This structure is competitive regionally; Guinea requires a 15% free carry and Mali requires 10%. The free carry dilutes the developer's economic interest but is a standard cost of doing business in West Africa.",
     "key_concept": "CDI: 10% mandatory free carry + optional 15% participating interest = 25% max state equity",
     "source": "Loi N° 2014-138 (CDI Mining Code)",
@@ -73,12 +73,12 @@
     "domain": "gold",
     "question": "Under the 2025 CDI tax reforms, what is the unified gold royalty rate?",
     "options": {
-      "A": "3%",
-      "B": "5%",
-      "C": "8%",
-      "D": "10%"
+      "A": "8%",
+      "B": "10%",
+      "C": "5%",
+      "D": "3%"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "The 2025 CDI tax reforms unified the gold royalty at 8%, removing the previous sliding scale that varied with gold price. This flat rate simplifies compliance and revenue forecasting for both the state and operators. At a gold price of $2,000/oz, an 8% royalty on a 200,000 oz/yr producer means approximately $32 million in annual royalty payments. The unified rate positions CDI at the higher end of the West African range, where Mali charges 3% and Guinea charges 5%.",
     "key_concept": "CDI 2025 unified gold royalty: 8% flat rate",
     "source": "2025 CDI Tax Reform / Mining Code amendments",
@@ -90,12 +90,12 @@
     "domain": "gold",
     "question": "What is the corporate income tax rate applicable to mining companies in Côte d'Ivoire?",
     "options": {
-      "A": "20%",
-      "B": "25%",
-      "C": "30%",
-      "D": "35%"
+      "A": "25%",
+      "B": "35%",
+      "C": "20%",
+      "D": "30%"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "CDI applies a 25% corporate income tax (CIT) to mining companies. This is competitive within the WAEMU zone and globally. Stability clauses in Mining Conventions typically lock in this rate for the project life, protecting investors from future tax hikes. When combined with the 8% royalty, 10% free carry, and 0.5% community development fund, the overall government take in CDI is estimated at 55-65% of project economics depending on margins and capital structure.",
     "key_concept": "CDI mining corporate income tax: 25%",
     "source": "CDI General Tax Code / Mining Code",
@@ -107,12 +107,12 @@
     "domain": "gold",
     "question": "CDI requires mining companies to contribute to a community development fund. What percentage of turnover must be allocated?",
     "options": {
-      "A": "0.25%",
-      "B": "0.5%",
-      "C": "1.0%",
-      "D": "2.0%"
+      "A": "0.5%",
+      "B": "0.25%",
+      "C": "2.0%",
+      "D": "1.0%"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The CDI Mining Code mandates a 0.5% of turnover contribution to a community development fund. This fund supports local infrastructure, education, health, and economic development in communities directly affected by mining operations. While 0.5% sounds modest, for a mine generating $400M in annual revenue it translates to $2M per year. This statutory requirement is in addition to voluntary CSR spending, which typically adds another 1-2% of revenue for well-managed operations.",
     "key_concept": "CDI community development fund: 0.5% of mining company turnover",
     "source": "Loi N° 2014-138 (CDI Mining Code)",
@@ -125,8 +125,8 @@
     "question": "Under CDI local content requirements, what is the minimum target for Ivoirian nationals in a mining company's workforce?",
     "options": {
       "A": "50%",
-      "B": "70%",
-      "C": "80%",
+      "B": "80%",
+      "C": "70%",
       "D": "90%+"
     },
     "correct": "D",
@@ -141,12 +141,12 @@
     "domain": "gold",
     "question": "After the grant of a mining exploitation permit in CDI, within how many working days must the Mining Convention be signed between the state and the permit holder?",
     "options": {
-      "A": "30 working days",
-      "B": "45 working days",
-      "C": "60 working days",
-      "D": "90 working days"
+      "A": "90 working days",
+      "B": "60 working days",
+      "C": "45 working days",
+      "D": "30 working days"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "The CDI Mining Code stipulates that the Mining Convention must be signed within 60 working days of the exploitation permit grant. The Mining Convention is a detailed contractual agreement between the state and the mining company that specifies fiscal terms, environmental obligations, local content commitments, and stability provisions. Delays beyond 60 days can create legal uncertainty and signal bureaucratic or political friction, which is a red flag for investors conducting due diligence.",
     "key_concept": "CDI Mining Convention: must be signed within 60 working days of permit grant",
     "source": "Loi N° 2014-138 (CDI Mining Code)",
@@ -158,12 +158,12 @@
     "domain": "gold",
     "question": "A junior miner is evaluating CDI versus Mali for a new gold exploration project. Which of the following correctly compares the two jurisdictions' royalty and free carry provisions?",
     "options": {
-      "A": "CDI: 8% royalty, 10% free carry; Mali: 3% royalty, 10% free carry + 10% optional",
-      "B": "CDI: 5% royalty, 15% free carry; Mali: 5% royalty, 10% free carry",
-      "C": "CDI: 3% royalty, 10% free carry; Mali: 8% royalty, 15% free carry",
-      "D": "CDI: 8% royalty, 15% free carry; Mali: 3% royalty, 10% free carry"
+      "A": "CDI: 5% royalty, 15% free carry; Mali: 5% royalty, 10% free carry",
+      "B": "CDI: 8% royalty, 15% free carry; Mali: 3% royalty, 10% free carry",
+      "C": "CDI: 8% royalty, 10% free carry; Mali: 3% royalty, 10% free carry + 10% optional",
+      "D": "CDI: 3% royalty, 10% free carry; Mali: 8% royalty, 15% free carry"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "CDI's 2025 reforms set the gold royalty at a unified 8% with a 10% free carry (plus optional 15%), while Mali charges a 3% gold royalty with a 10% free carry plus an optional 10% participation. Mali's lower royalty rate makes it more attractive on paper, but CDI offers superior infrastructure, a more stable political environment, and a well-developed mining bureaucracy. The total fiscal package must be modelled alongside geology, logistics costs, and political risk to make a valid comparison.",
     "key_concept": "CDI (8% royalty, 10% free carry) vs Mali (3% royalty, 10% free carry + 10% optional)",
     "source": "CDI Mining Code / Mali Mining Code comparison",
@@ -176,11 +176,11 @@
     "question": "What are Guinea's gold royalty rate and government free carry interest?",
     "options": {
       "A": "3% royalty, 10% free carry",
-      "B": "5% royalty, 15% free carry",
+      "B": "4% royalty, 20% free carry",
       "C": "8% royalty, 10% free carry",
-      "D": "4% royalty, 20% free carry"
+      "D": "5% royalty, 15% free carry"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Guinea applies a 5% gold royalty and a 15% free carried interest for the state. Guinea's 15% free carry is the highest mandatory free carry among the major West African gold jurisdictions, reflecting the state's stronger negotiating position given Guinea's world-class mineral endowment. Combined with the 5% royalty, Guinea's front-end fiscal burden is moderate, but the large free carry significantly dilutes the developer's equity returns. The Simandou iron ore project negotiations illustrate Guinea's willingness to enforce these terms rigorously.",
     "key_concept": "Guinea: 5% gold royalty, 15% mandatory state free carry",
     "source": "Guinea Mining Code",
@@ -192,12 +192,12 @@
     "domain": "gold",
     "question": "What are Cameroon's gold royalty rate and government free carry interest?",
     "options": {
-      "A": "4% royalty, 10% free carry",
-      "B": "3% royalty, 15% free carry",
-      "C": "5% royalty, 10% free carry",
-      "D": "8% royalty, 5% free carry"
+      "A": "5% royalty, 10% free carry",
+      "B": "8% royalty, 5% free carry",
+      "C": "4% royalty, 10% free carry",
+      "D": "3% royalty, 15% free carry"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "Cameroon imposes a 4% gold royalty and a 10% government free carried interest. Cameroon's mining sector is less developed than CDI, Mali, or Guinea, and the relatively moderate fiscal terms reflect the government's strategy to attract initial investment and build a mining industry. However, Cameroon faces challenges including limited mining infrastructure, a less established permitting process, and security concerns in certain regions. The 4% royalty and 10% free carry make it fiscally competitive but these benefits must be weighed against higher exploration and development risk.",
     "key_concept": "Cameroon: 4% gold royalty, 10% government free carry",
     "source": "Cameroon Mining Code",
@@ -209,10 +209,10 @@
     "domain": "gold",
     "question": "A stability agreement in a Mining Convention is designed to:",
     "options": {
-      "A": "Guarantee the gold price will not fall below a specified floor",
+      "A": "Prevent the government from issuing new exploration permits in adjacent areas",
       "B": "Lock in the fiscal and regulatory terms for the project life, protecting against adverse changes in law",
-      "C": "Ensure the mining company cannot be acquired by a foreign entity",
-      "D": "Prevent the government from issuing new exploration permits in adjacent areas"
+      "C": "Guarantee the gold price will not fall below a specified floor",
+      "D": "Ensure the mining company cannot be acquired by a foreign entity"
     },
     "correct": "B",
     "explanation": "Stability agreements (or stabilization clauses) within Mining Conventions freeze the fiscal and regulatory framework applicable to a project for a defined period, typically the initial mine life. If the government later increases royalties or taxes, the mining company can rely on the stability clause to maintain the original terms. These clauses are critical for bankability because project finance lenders require predictable cash flows over 10-15 year debt tenors. Without stability provisions, sovereign risk premiums increase substantially.",
@@ -226,12 +226,12 @@
     "domain": "gold",
     "question": "Which international arbitration mechanism is most commonly specified in West African mining codes for resolving disputes between the state and foreign mining investors?",
     "options": {
-      "A": "ICC (International Chamber of Commerce)",
-      "B": "LCIA (London Court of International Arbitration)",
-      "C": "ICSID (International Centre for Settlement of Investment Disputes)",
-      "D": "UNCITRAL ad hoc arbitration"
+      "A": "ICSID (International Centre for Settlement of Investment Disputes)",
+      "B": "ICC (International Chamber of Commerce)",
+      "C": "UNCITRAL ad hoc arbitration",
+      "D": "LCIA (London Court of International Arbitration)"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "ICSID, administered by the World Bank Group, is the most commonly referenced dispute resolution mechanism in West African mining codes and bilateral investment treaties (BITs). CDI, Mali, Guinea, and Cameroon are all ICSID signatory states. ICSID awards are enforceable in all member states without requiring local court recognition, which is a critical advantage over other arbitration regimes. Mining companies routinely insist on ICSID jurisdiction as a condition of major capital investment in frontier jurisdictions.",
     "key_concept": "ICSID (World Bank): standard dispute resolution for West African mining investments",
     "source": "ICSID Convention / West African mining codes",
@@ -243,12 +243,12 @@
     "domain": "gold",
     "question": "MIGA political risk insurance for mining projects in West Africa can cover up to what maximum amount?",
     "options": {
-      "A": "$50 million",
-      "B": "$100 million",
-      "C": "$250 million",
-      "D": "$500 million"
+      "A": "$100 million",
+      "B": "$500 million",
+      "C": "$50 million",
+      "D": "$250 million"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "The Multilateral Investment Guarantee Agency (MIGA), a World Bank Group member, provides political risk insurance for cross-border investments with coverage up to $250 million per project. MIGA insurance covers expropriation, currency transfer restrictions, breach of contract, and war/civil disturbance. For a $400M gold mine development in CDI, MIGA coverage can insulate over 60% of the equity investment. MIGA involvement also creates a deterrent effect: host governments are less likely to take adverse actions against projects backed by a World Bank entity.",
     "key_concept": "MIGA political risk insurance: up to $250M per project",
     "source": "MIGA / World Bank Group",
@@ -262,10 +262,10 @@
     "options": {
       "A": "Reconnaissance permit",
       "B": "Exploration permit",
-      "C": "Beneficiation licence",
-      "D": "Mining exploitation permit"
+      "C": "Mining exploitation permit",
+      "D": "Beneficiation licence"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "West African mining codes typically provide three main licence types: reconnaissance permits (for regional-scale surveying), exploration permits (for detailed prospecting including drilling), and mining exploitation permits (for commercial production). A 'beneficiation licence' is not a standard category. Reconnaissance permits are low-cost, short-duration, and non-exclusive, while exploration permits grant exclusive rights within a defined area. The progression from reconnaissance to exploration to mining exploitation is the standard pathway in CDI, Mali, Guinea, and Cameroon.",
     "key_concept": "Three standard West African licence types: reconnaissance, exploration, mining exploitation",
     "source": "West African mining codes",
@@ -277,12 +277,12 @@
     "domain": "gold",
     "question": "Security of tenure in mining law refers to:",
     "options": {
-      "A": "The physical security measures required at a mine site",
-      "B": "The legal assurance that a permit holder's rights will be respected and cannot be arbitrarily revoked",
-      "C": "The requirement to post a reclamation bond before commencing mining",
-      "D": "Insurance coverage against theft of gold doré from the mine site"
+      "A": "Insurance coverage against theft of gold doré from the mine site",
+      "B": "The physical security measures required at a mine site",
+      "C": "The legal assurance that a permit holder's rights will be respected and cannot be arbitrarily revoked",
+      "D": "The requirement to post a reclamation bond before commencing mining"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Security of tenure is a foundational principle in mining law meaning that licence holders have legal certainty that their exploration and mining rights will be upheld, transferred, and renewed according to transparent, predictable rules. Without security of tenure, companies will not invest the hundreds of millions of dollars required for mine development. The Fraser Institute's annual mining survey consistently ranks security of tenure as the single most important policy factor influencing investment decisions. Jurisdictions that have undermined tenure security, such as Tanzania in 2017, have experienced sharp declines in foreign investment.",
     "key_concept": "Security of tenure: legal certainty that mining rights will be respected and not arbitrarily revoked",
     "source": "International mining law / Fraser Institute survey",
@@ -294,12 +294,12 @@
     "domain": "gold",
     "question": "The US Foreign Corrupt Practices Act (FCPA) is relevant to gold mining in West Africa because it:",
     "options": {
-      "A": "Sets environmental standards for US-listed mining companies operating abroad",
-      "B": "Prohibits US-listed companies and their agents from making corrupt payments to foreign government officials to obtain or retain business",
-      "C": "Requires US companies to pay a minimum royalty rate in all foreign jurisdictions",
-      "D": "Mandates that all gold mined by US companies must be refined in LBMA-certified facilities"
+      "A": "Requires US companies to pay a minimum royalty rate in all foreign jurisdictions",
+      "B": "Mandates that all gold mined by US companies must be refined in LBMA-certified facilities",
+      "C": "Sets environmental standards for US-listed mining companies operating abroad",
+      "D": "Prohibits US-listed companies and their agents from making corrupt payments to foreign government officials to obtain or retain business"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The FCPA prohibits US-listed companies, their subsidiaries, and their agents from paying bribes to foreign government officials to secure business advantages such as mining permits. Given that gold mining in West Africa involves extensive government interaction for permits, customs, and tax matters, FCPA compliance is paramount. Violations carry severe penalties: Och-Ziff paid $412M in 2016 for corruption in Africa. The FCPA has both anti-bribery provisions and accounting provisions requiring accurate books and records. Companies listed on US exchanges or with US operations are subject to FCPA jurisdiction regardless of where the corrupt act occurs.",
     "key_concept": "FCPA: prohibits bribery of foreign officials by US-connected companies, severe penalties",
     "source": "US Foreign Corrupt Practices Act (1977, as amended)",
@@ -311,12 +311,12 @@
     "domain": "gold",
     "question": "How does the UK Bribery Act differ from the FCPA in its scope of application?",
     "options": {
-      "A": "The UK Bribery Act only applies to government officials, whereas the FCPA covers both public and private sector bribery",
-      "B": "The UK Bribery Act applies to any company with a UK connection and criminalizes both public and private sector bribery, whereas the FCPA focuses on bribery of foreign government officials",
-      "C": "The UK Bribery Act has weaker penalties than the FCPA",
-      "D": "The UK Bribery Act only covers companies listed on the London Stock Exchange"
+      "A": "The UK Bribery Act applies to any company with a UK connection and criminalizes both public and private sector bribery, whereas the FCPA focuses on bribery of foreign government officials",
+      "B": "The UK Bribery Act has weaker penalties than the FCPA",
+      "C": "The UK Bribery Act only covers companies listed on the London Stock Exchange",
+      "D": "The UK Bribery Act only applies to government officials, whereas the FCPA covers both public and private sector bribery"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The UK Bribery Act 2010 is broader than the FCPA in two key respects: it covers bribery of both public officials and private individuals, and it applies to any organization that carries on business or part of a business in the UK, regardless of where the bribery occurs. It also creates a corporate offence of 'failure to prevent bribery,' which reverses the burden of proof onto the company. For gold miners listed on the LSE AIM or with UK subsidiaries, the Bribery Act creates strict liability risk. The only defence is demonstrating 'adequate procedures' to prevent bribery, making robust compliance programs essential.",
     "key_concept": "UK Bribery Act: broader than FCPA, covers public + private bribery, strict corporate liability",
     "source": "UK Bribery Act 2010",
@@ -328,12 +328,12 @@
     "domain": "gold",
     "question": "The Extractive Industries Transparency Initiative (EITI) requires participating countries to:",
     "options": {
-      "A": "Cap mining royalties at 5%",
-      "B": "Publish reconciled reports of payments made by extractive companies and revenues received by the government",
+      "A": "Publish reconciled reports of payments made by extractive companies and revenues received by the government",
+      "B": "Adopt JORC-compliant resource reporting standards",
       "C": "Grant automatic mining permits to EITI-compliant companies",
-      "D": "Adopt JORC-compliant resource reporting standards"
+      "D": "Cap mining royalties at 5%"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "EITI is a global standard requiring participating countries to publish detailed, reconciled reports showing what extractive companies pay to governments and what governments receive. This dual reporting creates transparency and helps identify discrepancies that may indicate corruption or revenue leakage. CDI, Mali, and Guinea are all EITI-compliant countries. For investors, EITI compliance signals a baseline level of fiscal governance. EITI reports also provide invaluable data on actual tax and royalty payments, which is useful for benchmarking and due diligence.",
     "key_concept": "EITI: mandatory publication of reconciled extractive industry payment and revenue data",
     "source": "Extractive Industries Transparency Initiative",
@@ -346,8 +346,8 @@
     "question": "A CDI-focused gold junior is calculating its total government take. Which combination of fiscal obligations is correct for a producing mine under the 2025 regime?",
     "options": {
       "A": "8% royalty + 25% CIT + 10% free carry + 0.5% community fund",
-      "B": "5% royalty + 30% CIT + 15% free carry + 1.0% community fund",
-      "C": "3% royalty + 25% CIT + 10% free carry + 0.5% community fund",
+      "B": "3% royalty + 25% CIT + 10% free carry + 0.5% community fund",
+      "C": "5% royalty + 30% CIT + 15% free carry + 1.0% community fund",
       "D": "8% royalty + 30% CIT + 15% free carry + 0.25% community fund"
     },
     "correct": "A",
@@ -362,10 +362,10 @@
     "domain": "gold",
     "question": "A company discovers gold in CDI and applies for an exploitation permit in 2025. Its feasibility study shows a 15-year mine life. During Year 8, the government passes a law increasing the gold royalty to 12%. The company's Mining Convention includes a stability clause. What is the most likely legal outcome?",
     "options": {
-      "A": "The company must pay the new 12% royalty immediately",
+      "A": "The dispute is automatically referred to the CDI Supreme Court",
       "B": "The stability clause protects the company at the original 8% rate for the project's agreed term",
-      "C": "The company must renegotiate the Mining Convention within 90 days",
-      "D": "The dispute is automatically referred to the CDI Supreme Court"
+      "C": "The company must pay the new 12% royalty immediately",
+      "D": "The company must renegotiate the Mining Convention within 90 days"
     },
     "correct": "B",
     "explanation": "A stability clause in the Mining Convention freezes the applicable fiscal regime at the terms in effect when the Convention was signed. If the CDI government unilaterally increases the gold royalty to 12%, the mining company can invoke the stability clause to maintain the 8% rate. If the government refuses to honour the clause, the company would pursue international arbitration under ICSID. Stability clauses are negotiated precisely for this scenario and are a fundamental risk mitigation tool. Without them, project finance lenders would not extend credit, as they need predictable cash flows to service debt over 10-15 year repayment periods.",
@@ -381,10 +381,10 @@
     "options": {
       "A": "No exposure, because the company did not directly make the payment",
       "B": "Exposure only if the agent acted on written instructions from the company",
-      "C": "Full liability under the FCPA's anti-bribery provisions, because companies are responsible for the actions of their agents",
-      "D": "Exposure only if the company is also listed on the LSE"
+      "C": "Exposure only if the company is also listed on the LSE",
+      "D": "Full liability under the FCPA's anti-bribery provisions, because companies are responsible for the actions of their agents"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Under the FCPA, companies are liable for corrupt payments made by their agents, consultants, and intermediaries, even without direct knowledge if the company was willfully blind to the corruption. The 'agency' doctrine means that a local facilitator's bribe is imputed to the principal company. Canadian-listed companies with US investors, US ADRs, or transactions through US banks can fall under FCPA jurisdiction. The penalty exposure includes criminal fines up to $25M for the company, imprisonment up to 5 years for individuals, and disgorgement of profits obtained through the corrupt act. This is why robust third-party due diligence programs are essential for West African operations.",
     "key_concept": "FCPA agent liability: companies liable for agents' bribes even without direct knowledge",
     "source": "US Foreign Corrupt Practices Act / DOJ enforcement guidance",
@@ -396,12 +396,12 @@
     "domain": "gold",
     "question": "A gold mining company is evaluating four West African jurisdictions for a new project. Ranking solely by royalty rate from lowest to highest, which order is correct?",
     "options": {
-      "A": "Mali (3%) → Cameroon (4%) → Guinea (5%) → CDI (8%)",
-      "B": "Cameroon (4%) → Mali (3%) → CDI (8%) → Guinea (5%)",
-      "C": "Guinea (5%) → CDI (8%) → Mali (3%) → Cameroon (4%)",
-      "D": "CDI (8%) → Guinea (5%) → Cameroon (4%) → Mali (3%)"
+      "A": "Cameroon (4%) → Mali (3%) → CDI (8%) → Guinea (5%)",
+      "B": "Guinea (5%) → CDI (8%) → Mali (3%) → Cameroon (4%)",
+      "C": "CDI (8%) → Guinea (5%) → Cameroon (4%) → Mali (3%)",
+      "D": "Mali (3%) → Cameroon (4%) → Guinea (5%) → CDI (8%)"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "Ranked by gold royalty from lowest to highest: Mali at 3%, Cameroon at 4%, Guinea at 5%, and CDI at 8% (post-2025 reform). However, royalty rate alone is misleading. Mali's 3% royalty is the lowest, but Mali also has security challenges in the north and a recent military government. Guinea's 15% free carry is the highest in the region. CDI's 8% royalty is the steepest but comes with the best infrastructure and most stable business environment. A CEO must model the total cost of doing business, including logistics, security, political risk premiums, and time-to-permit alongside headline fiscal rates.",
     "key_concept": "West Africa gold royalty ranking: Mali 3% < Cameroon 4% < Guinea 5% < CDI 8%",
     "source": "Comparative West African mining codes",
@@ -413,12 +413,12 @@
     "domain": "gold",
     "question": "A mid-tier gold producer with a $300M development project in CDI is structuring its political risk mitigation. Which combination of measures represents best practice?",
     "options": {
-      "A": "MIGA insurance only, relying on the World Bank deterrent effect",
-      "B": "MIGA insurance (up to $250M), Mining Convention with stability clause and ICSID arbitration, bilateral investment treaty protection, and EITI participation",
+      "A": "Listing on the TSX-V to gain Canadian diplomatic protection and avoiding formal agreements with the government",
+      "B": "MIGA insurance only, relying on the World Bank deterrent effect",
       "C": "Private political risk insurance, community development spending, and a letter from the CDI President",
-      "D": "Listing on the TSX-V to gain Canadian diplomatic protection and avoiding formal agreements with the government"
+      "D": "MIGA insurance (up to $250M), Mining Convention with stability clause and ICSID arbitration, bilateral investment treaty protection, and EITI participation"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Best-practice political risk mitigation is a layered approach. MIGA insurance (up to $250M) provides direct financial coverage and a World Bank deterrent effect. The Mining Convention with a stability clause locks in fiscal terms. ICSID arbitration provides an enforceable dispute resolution mechanism. Bilateral investment treaty (BIT) protection between the home country and CDI adds a treaty-level guarantee. EITI participation ensures fiscal transparency. No single measure is sufficient on its own. The layered approach creates multiple legal and diplomatic pressure points that make it extremely costly for a host government to take adverse action against the project.",
     "key_concept": "Best practice: layered political risk mitigation (MIGA + stability clause + ICSID + BIT + EITI)",
     "source": "International mining investment best practice",
@@ -430,12 +430,12 @@
     "domain": "gold",
     "question": "An exploration company holds a CDI permit for 400 km² that was granted in 2020. It has already renewed once. By what year must it either apply for a mining exploitation permit or relinquish the ground entirely?",
     "options": {
-      "A": "2026",
-      "B": "2028",
-      "C": "2030",
-      "D": "2032"
+      "A": "2032",
+      "B": "2030",
+      "C": "2028",
+      "D": "2026"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "With a 4-year initial term starting in 2020 and a maximum total exploration period of 10 years, the permit expires in 2030 at the latest. The first renewal would have been in 2024, and subsequent renewals extend to the 10-year cap of 2030. At each renewal, a portion of the area must be relinquished. By 2030, the company must have either progressed to a mining exploitation permit application supported by a feasibility study, or released the ground. This mechanism prevents indefinite exploration licences and ensures the state's mineral resources are either developed or made available to other operators.",
     "key_concept": "CDI permit timeline: 2020 grant + 10-year max = 2030 deadline for exploitation permit or relinquishment",
     "source": "Loi N° 2014-138 (CDI Mining Code)",
@@ -448,11 +448,11 @@
     "question": "Which of the following statements about reconnaissance permits in West African mining codes is correct?",
     "options": {
       "A": "Reconnaissance permits grant exclusive rights and allow drilling",
-      "B": "Reconnaissance permits are non-exclusive, short-duration, and typically limited to non-invasive survey methods",
-      "C": "Reconnaissance permits are required before applying for an exploration permit",
+      "B": "Reconnaissance permits are required before applying for an exploration permit",
+      "C": "Reconnaissance permits are non-exclusive, short-duration, and typically limited to non-invasive survey methods",
       "D": "Reconnaissance permits allow trial mining of up to 10,000 tonnes"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Reconnaissance permits are the most basic licence type in West African mining codes. They are typically non-exclusive, granted for 1-2 years, and limited to non-invasive methods such as geological mapping, airborne geophysical surveys, and stream sediment sampling. Drilling is not permitted under reconnaissance. These permits are relatively inexpensive and allow companies to conduct regional-scale assessments before committing to the higher costs and obligations of an exclusive exploration permit. A reconnaissance permit is not a prerequisite for an exploration permit; companies can apply directly for exploration rights if they have sufficient geological justification.",
     "key_concept": "Reconnaissance permits: non-exclusive, short-term, non-invasive survey methods only",
     "source": "West African mining codes",
@@ -464,12 +464,12 @@
     "domain": "gold",
     "question": "Under the Mali Mining Code, what is the government's free carry percentage and optional participation?",
     "options": {
-      "A": "10% free carry + 10% optional participation",
-      "B": "15% free carry + 5% optional participation",
-      "C": "10% free carry + 15% optional participation",
+      "A": "10% free carry + 15% optional participation",
+      "B": "10% free carry + 10% optional participation",
+      "C": "15% free carry + 5% optional participation",
       "D": "5% free carry + 10% optional participation"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "Mali's Mining Code provides the government with a 10% free carried interest plus the option to acquire an additional 10% participating interest, for a potential total state equity of 20%. This is less dilutive than Guinea's 15% mandatory free carry but similar to CDI's 10% free carry structure. Mali's lower royalty (3%) combined with the 10% + 10% equity structure makes it one of the more fiscally attractive jurisdictions in West Africa on paper. However, Mali's political instability, ongoing security challenges, and the 2020-2021 military coups have increased country risk premiums significantly.",
     "key_concept": "Mali: 10% free carry + 10% optional participation = 20% max state equity",
     "source": "Mali Mining Code",
@@ -481,12 +481,12 @@
     "domain": "gold",
     "question": "The CDI Code Minier 2014 (Loi N° 2014-138) establishes specific environmental obligations for permit holders. Which obligation is triggered at the exploration stage — before any mining production begins?",
     "options": {
-      "A": "Posting a full mine-closure rehabilitation bond equivalent to 100% of estimated reclamation costs",
-      "B": "Preparing and submitting an Environmental and Social Impact Assessment (ESIA) prior to any ground-disturbing exploration activity",
-      "C": "Establishing a community development fund contribution of 1% of exploration expenditure",
-      "D": "Planting replacement trees at a ratio of 5:1 for any vegetation cleared during drilling"
+      "A": "Planting replacement trees at a ratio of 5:1 for any vegetation cleared during drilling",
+      "B": "Establishing a community development fund contribution of 1% of exploration expenditure",
+      "C": "Preparing and submitting an Environmental and Social Impact Assessment (ESIA) prior to any ground-disturbing exploration activity",
+      "D": "Posting a full mine-closure rehabilitation bond equivalent to 100% of estimated reclamation costs"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Under Loi N° 2014-138, exploration permit holders must prepare an Environmental and Social Impact Assessment (ESIA) before commencing any ground-disturbing activities such as drilling, trenching, or bulk sampling. The ESIA must be approved by the Ministry of Environment and the Ministry of Mines before work begins. This obligation applies at the exploration stage, well before production. The rehabilitation bond and community fund obligations attach at the exploitation permit stage. CDI's early-stage ESIA requirement is consistent with the IFC Performance Standards that international project finance lenders require, making it easier to align national and international compliance obligations.",
     "key_concept": "CDI Code Minier 2014: ESIA required before ground-disturbing exploration activity",
     "source": "Loi N° 2014-138 (CDI Mining Code), Articles on environmental obligations",
@@ -498,12 +498,12 @@
     "domain": "gold",
     "question": "Under the CDI Code Minier 2014, what are the mine closure and site rehabilitation provisions that a mining company must comply with at the end of the exploitation permit?",
     "options": {
-      "A": "The company must transfer the mine infrastructure to the state at no cost and has no further rehabilitation obligations",
-      "B": "The company must submit a mine closure plan approved by the government, fund a rehabilitation bond progressively during operations, and restore the site to a condition agreed with authorities",
-      "C": "Rehabilitation is optional if the government certifies the mine site has alternative industrial use",
-      "D": "Mine closure obligations are capped at 2% of total project capital expenditure regardless of actual remediation costs"
+      "A": "Mine closure obligations are capped at 2% of total project capital expenditure regardless of actual remediation costs",
+      "B": "Rehabilitation is optional if the government certifies the mine site has alternative industrial use",
+      "C": "The company must submit a mine closure plan approved by the government, fund a rehabilitation bond progressively during operations, and restore the site to a condition agreed with authorities",
+      "D": "The company must transfer the mine infrastructure to the state at no cost and has no further rehabilitation obligations"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Loi N° 2014-138 requires that prior to commencing operations, the permit holder submit a Mine Closure and Site Rehabilitation Plan approved by the Ministry of Mines and the Ministry of Environment. During the operational life, the company must progressively fund a rehabilitation bond held in a designated account, ensuring resources are available for closure regardless of the company's financial position at end-of-mine. At closure, the site must be restored to a condition agreed with the relevant authorities, addressing land stability, water quality, and vegetation. These provisions were strengthened after early mines in CDI left unrehabilitated sites that created ongoing environmental liabilities. International lenders now require closure plans aligned with IFC and ICMM Good Practice standards.",
     "key_concept": "CDI mine closure: approved closure plan + progressive rehabilitation bond + site restoration required",
     "source": "Loi N° 2014-138 (CDI Mining Code); IFC Performance Standard 6",
@@ -515,12 +515,12 @@
     "domain": "gold",
     "question": "Mali enacted a new Mining Code in 2023 that introduced significant changes from its predecessor. Which of the following represents a key new provision introduced by the 2023 Mali Mining Code that directly affects foreign investors?",
     "options": {
-      "A": "Reduction of the state free carry from 10% to 5% to attract investment after the military transition",
-      "B": "Introduction of an increased mandatory state participation requiring up to 35% equity in large gold projects, alongside enhanced local content and domestic processing obligations",
-      "C": "Elimination of royalties for projects with capital expenditure exceeding $500 million",
-      "D": "Automatic ICSID jurisdiction replacing all other dispute resolution mechanisms"
+      "A": "Introduction of an increased mandatory state participation requiring up to 35% equity in large gold projects, alongside enhanced local content and domestic processing obligations",
+      "B": "Automatic ICSID jurisdiction replacing all other dispute resolution mechanisms",
+      "C": "Reduction of the state free carry from 10% to 5% to attract investment after the military transition",
+      "D": "Elimination of royalties for projects with capital expenditure exceeding $500 million"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Mali's 2023 Mining Code, enacted under the transitional military government, increased state participation provisions significantly. The Code allows the state to hold up to 35% equity in strategic large-scale gold projects, up from the 20% maximum (10% free carry + 10% optional) under the previous regime. The new code also strengthened local content requirements, mandated domestic processing of a greater proportion of mineral output, and introduced more stringent environmental bonds. These changes increased the fiscal burden and operational complexity for foreign investors at a time when Mali's security situation was already deteriorating. Several major miners, including Barrick Gold, faced heightened pressure to renegotiate conventions under the new framework.",
     "key_concept": "Mali 2023 Mining Code: state participation up to 35%, stronger local content and processing obligations",
     "source": "Mali Code Minier 2023; Barrick Gold / Mali government negotiations 2023-2024",
@@ -532,12 +532,12 @@
     "domain": "gold",
     "question": "A gold developer holds a convention signed under Mali's previous mining code that includes a stability clause. The 2023 Mali Mining Code increases state equity requirements beyond what the convention specifies. What is the investor's most defensible legal position?",
     "options": {
-      "A": "The investor must comply immediately with the 2023 Code as national law always supersedes contractual agreements",
-      "B": "The stability clause protects the investor from the new provisions for the convention's agreed term; non-compliance by the state can be pursued via ICSID arbitration",
+      "A": "The stability clause protects the investor from the new provisions for the convention's agreed term; non-compliance by the state can be pursued via ICSID arbitration",
+      "B": "The investor must comply immediately with the 2023 Code as national law always supersedes contractual agreements",
       "C": "The investor must renegotiate the convention within 6 months or forfeit the mining permit",
       "D": "The investor can seek protection only if they hold political risk insurance through MIGA"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "A properly drafted stability clause in a Mining Convention signed under Mali's prior code freezes the applicable legal and fiscal framework for the term of the convention. When a new mining code purports to alter those terms, the investor can invoke the stability clause to maintain original conditions. The Malian government's obligation to honour the convention is reinforced by: (1) the ICSID Convention (Mali is a signatory), (2) any applicable bilateral investment treaty between Mali and the investor's home country, and (3) general principles of international investment law protecting legitimate expectations. In practice, the Barrick Gold/Mali negotiations in 2023-2024 illustrate this tension — Barrick initially refused to accept the new code's terms, relying on its convention stability protections before ultimately reaching a negotiated settlement.",
     "key_concept": "Mali convention stability clause: protects investors from 2023 Mining Code changes; ICSID remedy available",
     "source": "Mali Mining Code 2023; Barrick Gold / Mali dispute; ICSID Convention",
@@ -549,10 +549,10 @@
     "domain": "gold",
     "question": "Guinea's mining legislation requires a 15% free carry for the state. In the context of the Simandou iron ore project, what precedent did Guinea's enforcement of equity provisions set for gold miners evaluating the jurisdiction?",
     "options": {
-      "A": "Guinea agreed to waive the free carry for Simandou given the project's exceptional capital requirements, signalling flexibility for future gold projects",
+      "A": "The Simandou project was exempt from equity provisions as it was classified as an infrastructure rather than a mining project",
       "B": "Guinea enforced and extended state equity participation beyond the statutory 15% through convention renegotiation, demonstrating willingness to use leverage on world-class assets",
-      "C": "The Simandou project was exempt from equity provisions as it was classified as an infrastructure rather than a mining project",
-      "D": "Guinea capped its Simandou equity at 10% to attract Chinese financing, establishing a lower benchmark for other projects"
+      "C": "Guinea capped its Simandou equity at 10% to attract Chinese financing, establishing a lower benchmark for other projects",
+      "D": "Guinea agreed to waive the free carry for Simandou given the project's exceptional capital requirements, signalling flexibility for future gold projects"
     },
     "correct": "B",
     "explanation": "The Simandou iron ore project — one of the world's largest untapped iron ore deposits — became a defining test case for Guinea's approach to resource nationalism. Guinea negotiated and enforced state equity participation beyond the statutory 15%, leveraging the asset's world-class status to extract improved terms including infrastructure co-ownership, enhanced local content requirements, and domestic processing obligations. For gold miners in Guinea, Simandou's precedent signals that the government views its statutory minimums as a floor, not a ceiling, for strategic assets. Companies with significant deposits can expect sustained pressure to grant additional equity, accelerate local employment, and fund infrastructure well beyond minimum legal requirements. Robust legal structuring, early MIGA coverage, and convention stability provisions are essential defences.",
@@ -566,12 +566,12 @@
     "domain": "gold",
     "question": "An analyst is modelling the economic impact of Guinea's 15% free carry on a proposed gold mine with a projected IRR of 18% before considering state equity. Which of the following best describes the dilution effect of the free carry on the developer's equity IRR?",
     "options": {
-      "A": "The free carry has no impact on IRR because the state does not contribute capital, so all costs and revenues remain proportional",
-      "B": "The free carry reduces the developer's equity IRR because the developer funds 100% of capital expenditure but receives only 85% of cash flows after state dividends, compressing returns",
-      "C": "The free carry increases IRR by reducing the developer's total capital at risk",
-      "D": "The free carry only affects IRR if the mine achieves production above 200,000 oz/yr"
+      "A": "The free carry increases IRR by reducing the developer's total capital at risk",
+      "B": "The free carry only affects IRR if the mine achieves production above 200,000 oz/yr",
+      "C": "The free carry has no impact on IRR because the state does not contribute capital, so all costs and revenues remain proportional",
+      "D": "The free carry reduces the developer's equity IRR because the developer funds 100% of capital expenditure but receives only 85% of cash flows after state dividends, compressing returns"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "A free carry is economically equivalent to giving the state an option on project cash flows that costs the developer real money. The developer funds 100% of capital expenditure (CAPEX) and operating costs, but only receives 85% of dividends after paying the state its 15% free carry share. This creates a wedge: the developer's effective capital deployment is 100% of costs but their economic entitlement is capped at 85% of upside. On a typical West African gold mine with $300M CAPEX and a pre-free-carry equity IRR of 18%, modelling shows the free carry can reduce the developer's equity IRR by 2-4 percentage points to approximately 14-16%, depending on the project's cash flow profile and payback period. The dilution effect is most pronounced in early years when capital intensity is highest relative to production. Analysts must explicitly model free carry in their DCF assumptions — many junior company presentations neglect this adjustment.",
     "key_concept": "Free carry dilution: developer funds 100% of CAPEX but receives only 85% of cash flows, compressing IRR by 2-4 percentage points",
     "source": "Mining project finance modelling practice; Guinea Mining Code",
@@ -583,12 +583,12 @@
     "domain": "gold",
     "question": "Which of the following best describes a 'hybrid' stabilization clause in a Mining Convention, as opposed to a 'freezing' clause or an 'economic equilibrium' clause?",
     "options": {
-      "A": "A hybrid clause freezes all laws applicable to the project permanently for its entire mine life",
-      "B": "A hybrid clause combines elements of both: it freezes core fiscal terms (royalty, CIT rate) but allows application of new environmental or social laws while requiring economic compensation if new laws increase the investor's cost burden",
-      "C": "A hybrid clause applies only to changes in environmental law and has no fiscal protection component",
-      "D": "A hybrid clause requires automatic renegotiation every 5 years regardless of whether the legal framework has changed"
+      "A": "A hybrid clause requires automatic renegotiation every 5 years regardless of whether the legal framework has changed",
+      "B": "A hybrid clause freezes all laws applicable to the project permanently for its entire mine life",
+      "C": "A hybrid clause combines elements of both: it freezes core fiscal terms (royalty, CIT rate) but allows application of new environmental or social laws while requiring economic compensation if new laws increase the investor's cost burden",
+      "D": "A hybrid clause applies only to changes in environmental law and has no fiscal protection component"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Stabilization clauses in mining conventions fall into three main types. A 'freezing' clause locks the entire legal framework — fiscal, environmental, and social — at the date of signing, preventing application of any new law to the project. An 'economic equilibrium' clause allows new laws to apply but requires the government to compensate the investor if new measures increase costs or reduce returns. A 'hybrid' clause combines both approaches: it freezes core fiscal terms (royalties, tax rates) to provide certainty for debt service, but allows new environmental, health, and safety laws to apply — while requiring financial compensation if those new laws materially increase the investor's cost burden. Hybrid clauses are now the international best practice standard recommended by institutions such as the OECD and the International Bar Association, as they balance investor protection with the host state's legitimate regulatory evolution. Modern Mining Conventions in CDI and Guinea increasingly use hybrid formulations.",
     "key_concept": "Hybrid stabilization clause: freezes fiscal terms + allows new regulatory law + requires compensation for cost increases",
     "source": "OECD Investment Policy Framework; International Bar Association Mining Law Committee; CDI Mining Convention practice",
@@ -600,12 +600,12 @@
     "domain": "gold",
     "question": "A gold company operating in an EITI-compliant West African country is preparing for its annual EITI reporting. Which of the following is a direct operational benefit of EITI compliance for the company, beyond reputational value?",
     "options": {
-      "A": "EITI compliance grants the company a 50% reduction in royalties as a reward for transparency",
-      "B": "EITI reports provide independently reconciled data on taxes, royalties, and other payments that can be used by the company to validate its own records and identify discrepancies that may indicate internal control failures or government misapplication of payments",
-      "C": "EITI compliance replaces the need for annual external audits of financial statements",
-      "D": "EITI membership automatically enrolls the company in the MIGA political risk insurance programme"
+      "A": "EITI membership automatically enrolls the company in the MIGA political risk insurance programme",
+      "B": "EITI compliance replaces the need for annual external audits of financial statements",
+      "C": "EITI reports provide independently reconciled data on taxes, royalties, and other payments that can be used by the company to validate its own records and identify discrepancies that may indicate internal control failures or government misapplication of payments",
+      "D": "EITI compliance grants the company a 50% reduction in royalties as a reward for transparency"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "EITI's reconciliation process — where company-reported payments are matched against government-reported receipts by an independent administrator — provides a valuable operational benefit beyond reputational signalling. The reconciliation can reveal discrepancies indicating: (1) payments that left the company but were not credited to the correct government account (potential fraud or misallocations); (2) government agencies applying different tax interpretations from what the company paid; or (3) internal company accounting errors. For investors and lenders, operating in an EITI-compliant country also reduces due diligence cost because EITI reports provide reliable third-party verified data on actual tax and royalty burdens. CDI, Mali, and Guinea are all EITI compliant, and their EITI reports are available through the EITI website and are frequently cited in research on West African mining fiscal regimes.",
     "key_concept": "EITI operational benefit: independently reconciled payment data validates company records and identifies control failures",
     "source": "Extractive Industries Transparency Initiative (EITI) Standard 2023",
@@ -617,12 +617,12 @@
     "domain": "gold",
     "question": "Beneficial ownership transparency requirements in West African mining jurisdictions are designed to prevent which specific risk?",
     "options": {
-      "A": "Companies disclosing more mineral resources than they actually hold",
-      "B": "Politically exposed persons (PEPs) and government officials covertly holding equity interests in mining companies while granting those companies favourable permits or fiscal terms",
-      "C": "Foreign companies repatriating profits without paying withholding tax",
-      "D": "Junior companies overvaluing their projects during IPO roadshows"
+      "A": "Foreign companies repatriating profits without paying withholding tax",
+      "B": "Junior companies overvaluing their projects during IPO roadshows",
+      "C": "Companies disclosing more mineral resources than they actually hold",
+      "D": "Politically exposed persons (PEPs) and government officials covertly holding equity interests in mining companies while granting those companies favourable permits or fiscal terms"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Beneficial ownership transparency requirements — which mandate that mining permit applicants disclose the ultimate natural persons who own or control the company — are specifically designed to prevent conflicts of interest and corruption. The core risk is that a government official or politically exposed person (PEP) secretly holds an economic interest in a mining company while simultaneously exercising regulatory authority over that company's permits, tax assessments, or operational approvals. This creates a structural corruption risk. CDI introduced beneficial ownership disclosure requirements aligned with FATF recommendations. Guinea's 2022 Mining Code reform strengthened BO provisions following revelations about PEP interests in mineral-linked entities. Across West Africa, EITI now requires beneficial ownership reporting as part of its standard, and the African Union's African Mining Vision endorses BO transparency as a governance prerequisite.",
     "key_concept": "Beneficial ownership transparency: prevents PEPs from covertly holding mining interests while exercising regulatory authority",
     "source": "EITI Beneficial Ownership Standard; FATF Recommendations; CDI and Guinea mining code reforms",
@@ -635,11 +635,11 @@
     "question": "A Community Development Agreement (CDA) between a gold mine and local communities typically includes which three core components?",
     "options": {
       "A": "A share sale agreement, a confidentiality clause, and a non-compete restriction on community members",
-      "B": "A funding mechanism (specifying annual community investment amounts), a governance structure (joint committee with community representation), and agreed priority development programs (infrastructure, health, education, livelihoods)",
+      "B": "A commitment to hire only community members, a prohibition on expatriate managers, and a fixed gold price guarantee for community artisanal miners",
       "C": "A royalty sharing arrangement, a land title transfer, and a resettlement compensation schedule",
-      "D": "A commitment to hire only community members, a prohibition on expatriate managers, and a fixed gold price guarantee for community artisanal miners"
+      "D": "A funding mechanism (specifying annual community investment amounts), a governance structure (joint committee with community representation), and agreed priority development programs (infrastructure, health, education, livelihoods)"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "A Community Development Agreement is a legally binding or quasi-binding framework governing the relationship between a mining company and affected communities beyond statutory requirements. Its three core components are: (1) a funding mechanism — typically a percentage of revenue, a fixed annual amount, or a formula tied to production, specifying how community investment funds are calculated and disbursed; (2) a governance structure — a joint committee or trust with representation from both the company and community leaders, including accountability and transparency requirements for how funds are spent; and (3) agreed priority programs — identified through community consultation, typically targeting local infrastructure (roads, water, electricity), health facilities, schools, and livelihood diversification projects. Well-structured CDAs reduce the risk of community conflict that can disrupt operations. In CDI, the 0.5% community development fund mandated by the Mining Code is often operationalized through a CDA framework to ensure transparent management and community buy-in.",
     "key_concept": "CDA core components: funding mechanism + joint governance committee + agreed priority development programs",
     "source": "IFC Performance Standard 1; ICMM Community Development Toolkit; CDI Mining Code",
@@ -651,12 +651,12 @@
     "domain": "gold",
     "question": "A mining company in CDI is audited by the tax authority, which claims that intra-group management fees paid to a parent company in Canada are excessive and should be reclassified as constructive dividends subject to withholding tax. What transfer pricing principle does the tax authority most likely rely on?",
     "options": {
-      "A": "The 'source country taxation' principle, which requires all fees to be taxed at the source regardless of their nature",
-      "B": "The 'arm's length principle', which requires related-party transactions to be priced as they would be between independent parties in comparable circumstances",
-      "C": "The 'thin capitalization rule', which limits deductible interest to a fixed ratio of debt to equity",
-      "D": "The 'ring-fencing principle', which prevents profits from one mining permit from offsetting costs of another"
+      "A": "The 'thin capitalization rule', which limits deductible interest to a fixed ratio of debt to equity",
+      "B": "The 'ring-fencing principle', which prevents profits from one mining permit from offsetting costs of another",
+      "C": "The 'arm's length principle', which requires related-party transactions to be priced as they would be between independent parties in comparable circumstances",
+      "D": "The 'source country taxation' principle, which requires all fees to be taxed at the source regardless of their nature"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The arm's length principle — the cornerstone of international transfer pricing rules as codified in OECD Transfer Pricing Guidelines and implemented in CDI's General Tax Code — requires that transactions between related parties (such as a mine subsidiary paying management fees to its Canadian parent) be priced as they would be between independent, unrelated parties. If the management fees are deemed excessive relative to the services actually provided — a common issue in mining where intra-group fees can be a tax base erosion tool — the tax authority can disallow the excess deduction, increasing taxable income in CDI. The excess may also be recharacterized as a constructive dividend, attracting withholding tax. Mining companies should maintain transfer pricing documentation demonstrating the commercial rationale and market comparability of all intra-group charges. The OECD Base Erosion and Profit Shifting (BEPS) project has strengthened transfer pricing enforcement in WAEMU jurisdictions.",
     "key_concept": "Transfer pricing arm's length principle: intra-group fees must reflect what independent parties would charge",
     "source": "OECD Transfer Pricing Guidelines; CDI General Tax Code; OECD BEPS Action Plans 8-10",
@@ -668,9 +668,9 @@
     "domain": "gold",
     "question": "Ring-fencing of a mining operation for tax purposes means:",
     "options": {
-      "A": "Physically enclosing the mine site with security fencing to prevent unauthorized access",
+      "A": "Restricting the transfer of mining profits to offshore bank accounts",
       "B": "Treating each mining permit as a separate tax entity, preventing losses or deductions from one permit area being used to offset profits from another",
-      "C": "Restricting the transfer of mining profits to offshore bank accounts",
+      "C": "Physically enclosing the mine site with security fencing to prevent unauthorized access",
       "D": "Requiring all gold produced within a defined geographic area to be sold to the central bank at a regulated price"
     },
     "correct": "B",
@@ -685,12 +685,12 @@
     "domain": "gold",
     "question": "A CDI gold mine pays dividends to its Australian parent company. Under CDI's tax rules, what withholding tax rate typically applies to dividend repatriation, and how might a tax treaty affect this rate?",
     "options": {
-      "A": "CDI imposes no withholding tax on dividends; all profits can be repatriated tax-free",
-      "B": "CDI typically imposes a 15% withholding tax on dividends paid to foreign shareholders, but bilateral tax treaties with countries such as France can reduce this to 10% or lower",
-      "C": "CDI imposes a flat 30% withholding tax on all cross-border payments including dividends, interest, and fees",
-      "D": "Withholding tax applies only after the mine has been in production for more than 10 years"
+      "A": "Withholding tax applies only after the mine has been in production for more than 10 years",
+      "B": "CDI imposes a flat 30% withholding tax on all cross-border payments including dividends, interest, and fees",
+      "C": "CDI typically imposes a 15% withholding tax on dividends paid to foreign shareholders, but bilateral tax treaties with countries such as France can reduce this to 10% or lower",
+      "D": "CDI imposes no withholding tax on dividends; all profits can be repatriated tax-free"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "CDI imposes a withholding tax of approximately 15% on dividends paid to non-resident shareholders. However, bilateral double taxation agreements (DTAs) can reduce this rate. CDI has DTAs with France and several other countries that lower withholding tax on dividends to 10% or below for qualifying shareholders. Australia does not have a DTA with CDI, so an Australian parent would typically face the full 15% rate. This creates a meaningful structuring consideration: routing investment through a holding company in a jurisdiction that has a favourable DTA with CDI (such as France or a WAEMU member state with treaty access) can reduce overall withholding tax leakage. Withholding taxes on interest payments to foreign lenders and management fees to foreign service providers are also material, typically at 15-20%, and must be factored into project finance cost modelling and Mining Convention negotiations.",
     "key_concept": "CDI withholding tax on dividends: ~15%; tax treaties (e.g., France-CDI) can reduce rate; structure holding company accordingly",
     "source": "CDI General Tax Code; CDI-France bilateral tax treaty; Mining Convention practice",
@@ -719,10 +719,10 @@
     "domain": "gold",
     "question": "A gold mine in CDI is approaching the end of its mine life. The rehabilitation bond held in trust is insufficient to cover actual restoration costs, which have escalated due to expanded operations. Who bears the shortfall risk, and how should this have been managed?",
     "options": {
-      "A": "The CDI government bears the full shortfall; the company's liability is capped at the bond amount lodged",
+      "A": "Insurance companies bear the shortfall if the operator held an approved mine closure insurance policy",
       "B": "The mining company bears the shortfall; the bond is a minimum floor not a liability cap. The company should have updated its closure cost estimate annually and adjusted the bond accordingly",
-      "C": "The shortfall is shared equally between the company and the community development fund",
-      "D": "Insurance companies bear the shortfall if the operator held an approved mine closure insurance policy"
+      "C": "The CDI government bears the full shortfall; the company's liability is capped at the bond amount lodged",
+      "D": "The shortfall is shared equally between the company and the community development fund"
     },
     "correct": "B",
     "explanation": "Under CDI's mining legislation, the rehabilitation bond is a financial assurance mechanism — a minimum floor ensuring funds exist for closure — but it does not cap the company's total rehabilitation liability. The mining company remains fully liable for all actual costs of restoring the site to the agreed standard, regardless of whether the bond is sufficient. If the bond is insufficient, the company must fund the difference from its own resources. To manage this risk, companies should: (1) commission annual or biennial updates of the Life of Mine Closure Cost Estimate (CCE) by qualified environmental engineers; (2) adjust the bond amount upward as operations expand or new reclamation obligations arise; (3) escalate the CCE for inflation and changing regulatory standards; and (4) incorporate closure liability as a provision in financial statements. Failure to properly manage closure cost estimates has resulted in significant liabilities for companies in post-mining jurisdictions globally, and CDI regulators are increasing scrutiny of bond adequacy.",
@@ -736,12 +736,12 @@
     "domain": "gold",
     "question": "West African governments have implemented artisanal and small-scale mining (ASM) formalization policies. Which of the following best describes the primary goal and a key challenge of ASM formalization in the context of industrial gold mining?",
     "options": {
-      "A": "The goal is to eliminate artisanal mining entirely; the challenge is that artisanal miners are politically well-organized",
-      "B": "The goal is to bring artisanal miners into a regulated framework to improve safety, reduce illegal activity, and capture tax revenue; the challenge is that formalization requirements (registration, equipment, compliance costs) often exceed the financial capacity of artisanal miners, driving them back to informality",
-      "C": "The goal is to convert artisanal miners into employees of industrial mines; the challenge is resistance from mining companies unwilling to absorb the workforce",
-      "D": "The goal is to grant artisanal miners priority access to the most prospective ground before industrial companies can apply; the challenge is determining geological prospectivity"
+      "A": "The goal is to convert artisanal miners into employees of industrial mines; the challenge is resistance from mining companies unwilling to absorb the workforce",
+      "B": "The goal is to grant artisanal miners priority access to the most prospective ground before industrial companies can apply; the challenge is determining geological prospectivity",
+      "C": "The goal is to bring artisanal miners into a regulated framework to improve safety, reduce illegal activity, and capture tax revenue; the challenge is that formalization requirements (registration, equipment, compliance costs) often exceed the financial capacity of artisanal miners, driving them back to informality",
+      "D": "The goal is to eliminate artisanal mining entirely; the challenge is that artisanal miners are politically well-organized"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "ASM formalization policies in CDI, Mali, Guinea, and other West African states aim to transition artisanal miners from the informal sector into a regulated framework. The benefits include: improved miner safety (artisanal mining has extremely high fatality rates), reduction in mercury use (a major environmental hazard), capture of royalties and taxes from artisanal production, and prevention of illegal mining (orpaillage clandestin) on industrial concessions. However, formalization consistently fails to achieve its goals when registration requirements, equipment standards, and compliance costs are set too high for artisanal miners' economic reality. Studies across West Africa show that formalization schemes with fees exceeding 2-3 months of an artisanal miner's net income result in less than 10% registration rates. Successful formalization requires simplified, low-cost pathways, extension services providing technical and financial support, and dedicated ASM zones that do not conflict with industrial concessions. Conflict between artisanal and industrial miners over concession boundaries is a recurring operational challenge for major gold producers in CDI and Mali.",
     "key_concept": "ASM formalization goal: regulated framework for safety/tax capture; challenge: compliance costs drive miners back to informality",
     "source": "World Bank ASM Formalization Reports; OECD-DAC Mining and Development; CDI and Mali ASM policies",

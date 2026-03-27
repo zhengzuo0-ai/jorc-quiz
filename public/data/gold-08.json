@@ -7,10 +7,10 @@
     "options": {
       "A": "Jig concentrator",
       "B": "Spiral concentrator",
-      "C": "Shaking table",
-      "D": "Sluice box"
+      "C": "Sluice box",
+      "D": "Shaking table"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "The shaking table is often called the 'king of concentration' because it can achieve very high separation efficiency, recovering over 95% of coarse free gold with excellent concentrate grades. It works by combining a thin film of flowing water with asymmetric reciprocating motion across a riffled deck, separating particles by density and size. Its primary limitation is low throughput, making it a finishing device rather than a bulk concentrator. In West African ASM operations, shaking tables are increasingly used as an alternative to mercury amalgamation for final gold concentration.",
     "key_concept": "The shaking table achieves over 95% coarse gold recovery and is called the 'king of concentration.'",
     "source": "Gold processing practice",
@@ -22,12 +22,12 @@
     "domain": "gold",
     "question": "What is the Elsner equation in gold cyanidation?",
     "options": {
-      "A": "A formula for calculating gold price fluctuations",
-      "B": "The chemical equation describing gold dissolution in cyanide: 4Au + 8NaCN + O2 + 2H2O → 4Na[Au(CN)2] + 4NaOH",
-      "C": "A formula for calculating mill throughput",
-      "D": "The equation for gold electrowinning efficiency"
+      "A": "The equation for gold electrowinning efficiency",
+      "B": "A formula for calculating mill throughput",
+      "C": "The chemical equation describing gold dissolution in cyanide: 4Au + 8NaCN + O2 + 2H2O → 4Na[Au(CN)2] + 4NaOH",
+      "D": "A formula for calculating gold price fluctuations"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The Elsner equation describes the fundamental chemistry of gold dissolution in alkaline cyanide solution. It shows that gold dissolves in the presence of sodium cyanide and oxygen to form the soluble gold cyanide complex Na[Au(CN)2]. The reaction requires both cyanide and dissolved oxygen, which is why leach tanks are aerated. The equation also produces sodium hydroxide, which helps maintain the alkaline pH needed to prevent formation of deadly hydrogen cyanide gas. Understanding this chemistry is essential for optimizing leach conditions and troubleshooting recovery problems.",
     "key_concept": "Elsner equation: gold dissolves in cyanide with oxygen to form soluble gold cyanide complex.",
     "source": "Gold processing practice",
@@ -41,8 +41,8 @@
     "options": {
       "A": "To increase the gold dissolution rate",
       "B": "To prevent the formation of deadly hydrogen cyanide (HCN) gas, which forms at lower pH values",
-      "C": "To reduce reagent consumption",
-      "D": "To precipitate copper from solution"
+      "C": "To precipitate copper from solution",
+      "D": "To reduce reagent consumption"
     },
     "correct": "B",
     "explanation": "Maintaining pH at 10-11 using lime (CaO) or caustic soda (NaOH) is a critical safety requirement in cyanide leaching. At lower pH values, the cyanide ion (CN-) converts to hydrogen cyanide gas (HCN), which is extremely toxic and can be lethal at concentrations as low as 300 ppm in air. The pKa of HCN is 9.3, meaning at pH 9.3, half the cyanide exists as HCN gas. Maintaining pH above 10 ensures over 99% of cyanide remains in the safe ionic form. This is the most important safety control in any cyanidation circuit and is monitored continuously.",
@@ -56,12 +56,12 @@
     "domain": "gold",
     "question": "What is the typical NaCN concentration used in gold leaching?",
     "options": {
-      "A": "10-50 ppm",
-      "B": "200-500 ppm",
+      "A": "200-500 ppm",
+      "B": "50,000-100,000 ppm",
       "C": "5,000-10,000 ppm",
-      "D": "50,000-100,000 ppm"
+      "D": "10-50 ppm"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Sodium cyanide (NaCN) is typically maintained at 200-500 ppm (0.02-0.05%) in gold leaching circuits. This concentration provides sufficient cyanide for efficient gold dissolution while managing reagent costs and environmental liability. Higher concentrations increase gold dissolution rate but also increase costs, cyanide destruction requirements, and environmental risk. Lower concentrations slow dissolution and may leave gold unleached. The optimal concentration depends on the ore mineralogy, particularly the presence of cyanide-consuming minerals like copper sulfides and reactive iron minerals common in West African ores.",
     "key_concept": "NaCN concentration of 200-500 ppm balances gold dissolution rate against cost and environmental impact.",
     "source": "Gold processing practice",
@@ -74,11 +74,11 @@
     "question": "What is the key difference between CIL and CIP processing circuits?",
     "options": {
       "A": "CIL uses carbon while CIP does not",
-      "B": "In CIL, activated carbon is added directly into the leach tanks for simultaneous leaching and adsorption, while in CIP, leaching and carbon adsorption occur in separate sequential stages",
+      "B": "CIL uses cyanide while CIP uses acid",
       "C": "CIP is always more expensive than CIL",
-      "D": "CIL uses cyanide while CIP uses acid"
+      "D": "In CIL, activated carbon is added directly into the leach tanks for simultaneous leaching and adsorption, while in CIP, leaching and carbon adsorption occur in separate sequential stages"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "CIL (Carbon-in-Leach) adds activated carbon granules directly into the leach tanks, so gold dissolves and adsorbs onto carbon simultaneously. CIP (Carbon-in-Pulp) first leaches the ore in cyanide solution without carbon, then passes the gold-bearing slurry through a series of tanks containing carbon for adsorption. CIL is preferred when the ore contains naturally occurring carbonaceous material (preg-robbing) that would adsorb gold before the carbon can, because immediate carbon contact competes with the natural carbon. CIP offers slightly higher gold loading on carbon because adsorption occurs from already-dissolved gold solutions.",
     "key_concept": "CIL combines leaching and adsorption simultaneously; CIP separates them into sequential stages.",
     "source": "Gold processing practice",
@@ -90,12 +90,12 @@
     "domain": "gold",
     "question": "What type of activated carbon is preferred for gold adsorption in CIL/CIP circuits?",
     "options": {
-      "A": "Coal-based activated carbon",
-      "B": "Coconut shell activated carbon",
+      "A": "Bamboo activated carbon",
+      "B": "Coal-based activated carbon",
       "C": "Wood-based activated carbon",
-      "D": "Bamboo activated carbon"
+      "D": "Coconut shell activated carbon"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Coconut shell activated carbon is the industry standard for gold adsorption due to its superior hardness, high surface area, and micropore structure ideal for gold cyanide complex adsorption. Its hardness (>95% on the ball-pan hardness test) minimizes carbon attrition losses as the carbon circulates through the high-shear environment of agitated tanks and pumps. Softer carbon types break down faster, creating fine carbon particles that pass through screens and carry adsorbed gold to the tailings. Coconut shell carbon also has excellent thermal reactivation characteristics, allowing it to be recycled many times through the circuit.",
     "key_concept": "Coconut shell carbon is preferred for its hardness, high surface area, and ideal pore structure for gold adsorption.",
     "source": "Gold processing practice",
@@ -107,12 +107,12 @@
     "domain": "gold",
     "question": "What is heap leaching and for what grade range of gold ore is it typically used?",
     "options": {
-      "A": "A high-grade processing method for ore above 10 g/t Au",
-      "B": "A low-grade processing method for ore grading 0.3-1.5 g/t Au, achieving 50-75% recovery at lower capital cost",
-      "C": "A laboratory assay technique for testing gold samples",
+      "A": "A low-grade processing method for ore grading 0.3-1.5 g/t Au, achieving 50-75% recovery at lower capital cost",
+      "B": "A laboratory assay technique for testing gold samples",
+      "C": "A high-grade processing method for ore above 10 g/t Au",
       "D": "A method for processing platinum group metals"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Heap leaching involves stacking crushed or run-of-mine ore on a lined pad and irrigating it with dilute cyanide solution that percolates through the heap, dissolving gold over weeks to months. It is used for low-grade oxide ores (typically 0.3-1.5 g/t Au) that would not be economic to process through a conventional CIL plant. Recovery rates are lower (50-75%) compared to CIL (85-95%), but the significantly lower capital and operating costs make these marginal ores economic. Heap leaching is widely used in West Africa for oxide cap material above deeper primary deposits.",
     "key_concept": "Heap leaching treats low-grade 0.3-1.5 g/t ore with 50-75% recovery at low capital cost.",
     "source": "Gold processing practice",
@@ -124,12 +124,12 @@
     "domain": "gold",
     "question": "What G-force range do centrifugal concentrators like Knelson and Falcon units operate at?",
     "options": {
-      "A": "1-5 G",
+      "A": "60-200 G",
       "B": "10-30 G",
-      "C": "60-200 G",
+      "C": "1-5 G",
       "D": "500-1,000 G"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "Centrifugal concentrators such as the Knelson and Falcon operate at 60 to 200 times the force of gravity (60-200 G), created by spinning a bowl or cone at high speed. This enhanced gravitational field dramatically improves the separation of fine gold particles that would be inefficiently recovered by conventional gravity devices. They are particularly effective for recovering free gold down to approximately 30 microns in size. Centrifugal concentrators are commonly installed in the grinding circuit ahead of CIL leaching, recovering free gold early and reducing the load on the cyanidation circuit.",
     "key_concept": "Centrifugal concentrators operate at 60-200 G to recover fine free gold particles.",
     "source": "Gold processing practice",
@@ -141,10 +141,10 @@
     "domain": "gold",
     "question": "What is a refractory gold ore?",
     "options": {
-      "A": "An ore that is very easy to process with high recovery",
+      "A": "An ore that can only be processed using gravity methods",
       "B": "An ore where gold is locked within sulfide minerals or carbonaceous material, preventing cyanide from dissolving it without pre-treatment",
-      "C": "An ore that can only be processed using gravity methods",
-      "D": "An ore found exclusively in volcanic rocks"
+      "C": "An ore found exclusively in volcanic rocks",
+      "D": "An ore that is very easy to process with high recovery"
     },
     "correct": "B",
     "explanation": "Refractory gold ore resists standard cyanide leaching because the gold is physically encapsulated within sulfide minerals (typically arsenopyrite and pyrite) or because naturally occurring carbonaceous material re-adsorbs dissolved gold from solution (preg-robbing). Without pre-treatment, cyanide recovery from refractory ores may be as low as 20-50%. Pre-treatment options include oxidative roasting, pressure oxidation (POX), biological oxidation (BIOX), and ultra-fine grinding. The choice depends on the specific refractory mechanism, mineralogy, and project economics. Many deep gold deposits in the Ashanti Belt of Ghana are highly refractory.",
@@ -158,12 +158,12 @@
     "domain": "gold",
     "question": "What is the AARL elution process?",
     "options": {
-      "A": "A method for drilling exploration boreholes",
-      "B": "A process for stripping adsorbed gold from loaded carbon using hot caustic cyanide solution at atmospheric pressure",
-      "C": "A technique for crushing ore to fine particles",
-      "D": "A method for analyzing gold content in rock samples"
+      "A": "A method for analyzing gold content in rock samples",
+      "B": "A technique for crushing ore to fine particles",
+      "C": "A process for stripping adsorbed gold from loaded carbon using hot caustic cyanide solution at atmospheric pressure",
+      "D": "A method for drilling exploration boreholes"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The AARL (Anglo American Research Laboratories) elution process strips gold from loaded activated carbon using a hot dilute caustic cyanide solution at atmospheric pressure and temperatures of 90-110 degrees Celsius. The process involves an acid wash to remove inorganics, followed by elution with hot NaCN/NaOH solution. The pregnant eluate containing dissolved gold is then sent to electrowinning for gold recovery. The AARL method is widely used in African gold operations because it is simpler and requires less capital than the alternative Zadra pressure elution process, while achieving efficient gold stripping in 12-18 hours.",
     "key_concept": "AARL elution strips gold from carbon using hot caustic cyanide solution at atmospheric pressure.",
     "source": "Gold processing practice",
@@ -175,12 +175,12 @@
     "domain": "gold",
     "question": "What is electrowinning in gold processing?",
     "options": {
-      "A": "A method of using electricity to heat the smelting furnace",
-      "B": "The process of depositing gold from the pregnant eluate solution onto steel wool cathodes using direct electrical current",
-      "C": "An electrical method for measuring gold grade in ore",
-      "D": "The process of generating electricity from mine waste"
+      "A": "The process of generating electricity from mine waste",
+      "B": "A method of using electricity to heat the smelting furnace",
+      "C": "The process of depositing gold from the pregnant eluate solution onto steel wool cathodes using direct electrical current",
+      "D": "An electrical method for measuring gold grade in ore"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Electrowinning recovers gold from the pregnant eluate solution (produced by AARL elution) by passing direct current through the solution in electrowinning cells. Gold deposits onto steel wool cathodes, which are then removed, washed, and smelted to produce gold dore bars. The process typically operates at 2-5 volts and recovers over 99% of the gold from solution. The steel wool cathodes provide a large surface area for gold deposition. Electrowinning is the standard gold recovery step between carbon elution and smelting in virtually all CIL/CIP plants worldwide.",
     "key_concept": "Electrowinning deposits gold from eluate onto steel wool cathodes using direct current.",
     "source": "Gold processing practice",
@@ -193,11 +193,11 @@
     "question": "What is the borax smelting method and why is it significant for ASM?",
     "options": {
       "A": "An industrial refining process used only in large smelters",
-      "B": "A mercury-free smelting technique using borax as a flux at 1,100-1,200 degrees Celsius, promoted as a safer alternative to mercury amalgamation for artisanal miners",
+      "B": "A technique for dissolving gold in acid",
       "C": "A method for testing ore hardness",
-      "D": "A technique for dissolving gold in acid"
+      "D": "A mercury-free smelting technique using borax as a flux at 1,100-1,200 degrees Celsius, promoted as a safer alternative to mercury amalgamation for artisanal miners"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The borax smelting method uses sodium tetraborate (borax) as a flux to lower the melting point of gold concentrate, allowing it to be smelted at 1,100-1,200 degrees Celsius in a simple crucible. The borax combines with silicate gangue minerals to form a glass slag, separating gold as a molten bead at the bottom. This method eliminates the need for mercury amalgamation, avoiding the severe health and environmental impacts of mercury. The Minamata Convention on Mercury has accelerated the promotion of borax smelting in West African ASM communities as a practical, affordable, and safer alternative.",
     "key_concept": "Borax smelting at 1,100-1,200 degrees C is a mercury-free alternative for ASM gold recovery.",
     "source": "Gold processing practice",
@@ -209,12 +209,12 @@
     "domain": "gold",
     "question": "What is pressure oxidation (POX) and when is it used?",
     "options": {
-      "A": "A method of pressurizing drill holes for groundwater testing",
-      "B": "An autoclave process operating at 190-225 degrees Celsius and high pressure to oxidize refractory sulfide minerals, liberating encapsulated gold for subsequent cyanide leaching",
-      "C": "A technique for compressing gold into bars",
-      "D": "A method for pressurizing cyanide leach tanks"
+      "A": "A method for pressurizing cyanide leach tanks",
+      "B": "A technique for compressing gold into bars",
+      "C": "A method of pressurizing drill holes for groundwater testing",
+      "D": "An autoclave process operating at 190-225 degrees Celsius and high pressure to oxidize refractory sulfide minerals, liberating encapsulated gold for subsequent cyanide leaching"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Pressure oxidation (POX) uses an autoclave operating at 190-225 degrees Celsius and 2,000-3,200 kPa total pressure to oxidize sulfide minerals (pyrite, arsenopyrite) that encapsulate gold particles. The oxidation reaction is exothermic and self-sustaining above a critical sulfide sulfur content. Once the sulfides are destroyed, the liberated gold is amenable to conventional cyanide leaching, typically achieving 90-95% recovery. POX is the preferred treatment for highly refractory sulfide ores and is used at several major African gold operations. It has high capital cost but excellent metallurgical performance and environmental control compared to roasting.",
     "key_concept": "POX uses autoclaves at 190-225 degrees C to oxidize refractory sulfides and liberate gold for cyanide leaching.",
     "source": "Gold processing practice",
@@ -226,10 +226,10 @@
     "domain": "gold",
     "question": "What is BIOX and how does it treat refractory gold ores?",
     "options": {
-      "A": "A brand of activated carbon for gold adsorption",
+      "A": "A process for producing biofuel from mine waste",
       "B": "A biological oxidation process using naturally occurring bacteria (Acidithiobacillus) to oxidize sulfide minerals at ambient temperature and pressure",
       "C": "A biological method for growing gold crystals",
-      "D": "A process for producing biofuel from mine waste"
+      "D": "A brand of activated carbon for gold adsorption"
     },
     "correct": "B",
     "explanation": "BIOX is a biological oxidation technology that uses naturally occurring acidophilic bacteria (primarily Acidithiobacillus ferrooxidans and Acidithiobacillus thiooxidans) to oxidize sulfide minerals at ambient temperatures (40-45 degrees Celsius) and atmospheric pressure. The bacteria catalyze the oxidation of sulfides to sulfates, liberating encapsulated gold for subsequent cyanide leaching. BIOX has lower capital and operating costs than POX but requires longer retention times (4-6 days) and is sensitive to temperature and feed variability. It has been successfully implemented at several African gold mines including Fairview and Kokpatas.",
@@ -243,12 +243,12 @@
     "domain": "gold",
     "question": "What purity does the Miller chlorination process achieve, and how does it work?",
     "options": {
-      "A": "99.99% purity by electrolysis",
-      "B": "99.5% purity by passing chlorine gas through molten gold to oxidize base metal impurities into chloride slag",
-      "C": "90% purity by gravity separation",
-      "D": "99.9% purity by cyanide dissolution"
+      "A": "90% purity by gravity separation",
+      "B": "99.99% purity by electrolysis",
+      "C": "99.9% purity by cyanide dissolution",
+      "D": "99.5% purity by passing chlorine gas through molten gold to oxidize base metal impurities into chloride slag"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The Miller process refines gold dore to 99.5% purity by bubbling chlorine gas (Cl2) through molten gold at approximately 1,100 degrees Celsius. Base metal impurities (copper, iron, zinc, lead) and silver react with chlorine to form volatile or slag-forming chlorides that separate from the gold. Silver chloride forms a molten layer on top that is skimmed off. The Miller process is faster and cheaper than the Wohlwill electrolytic process and is used as the primary refining step at most gold refineries. For higher purity (99.99%), the Wohlwill electrolytic process is used as a subsequent step.",
     "key_concept": "Miller process uses Cl2 gas in molten gold to achieve 99.5% purity by chlorinating impurities.",
     "source": "Gold processing practice",
@@ -261,11 +261,11 @@
     "question": "What purity does the Wohlwill electrolytic refining process achieve?",
     "options": {
       "A": "95%",
-      "B": "99.5%",
-      "C": "99.99% (four nines fine)",
-      "D": "99.9%"
+      "B": "99.99% (four nines fine)",
+      "C": "99.9%",
+      "D": "99.5%"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "The Wohlwill process achieves 99.99% gold purity (four nines fine) through electrolytic refining. Impure gold anodes are dissolved in a hydrochloric acid/gold chloride electrolyte, and pure gold deposits on titanium or gold cathodes. Silver and platinum group metals do not dissolve and fall to the bottom as anode slime, which is separately processed. The Wohlwill process is the final refining step for producing London Good Delivery bars and investment-grade gold. It is more expensive and slower than the Miller process, so the two are typically used in sequence: Miller first to 99.5%, then Wohlwill to 99.99%.",
     "key_concept": "Wohlwill electrolytic refining produces 99.99% pure gold, the highest standard for investment bars.",
     "source": "Gold processing practice",
@@ -277,12 +277,12 @@
     "domain": "gold",
     "question": "What is the Minamata Convention and how does it relate to gold mining?",
     "options": {
-      "A": "A trade agreement governing gold exports",
-      "B": "An international treaty to protect human health and the environment from mercury emissions, requiring signatory nations to reduce and eliminate mercury use in ASM",
-      "C": "A mining safety standard for underground operations",
+      "A": "A mining safety standard for underground operations",
+      "B": "A trade agreement governing gold exports",
+      "C": "An international treaty to protect human health and the environment from mercury emissions, requiring signatory nations to reduce and eliminate mercury use in ASM",
       "D": "A convention establishing gold price fixing mechanisms"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The Minamata Convention on Mercury is a global treaty that entered into force in 2017, named after the Japanese city devastated by mercury pollution. It addresses mercury use across all sectors, with artisanal and small-scale gold mining identified as the largest global source of mercury emissions. Signatory nations must develop National Action Plans to reduce and where feasible eliminate mercury use in ASM. This is particularly relevant in West Africa where millions of artisanal miners use mercury amalgamation. The convention promotes alternatives such as borax smelting, direct smelting of gravity concentrates, and chemical leaching.",
     "key_concept": "Minamata Convention requires nations to reduce mercury use in ASM, the world's largest mercury emission source.",
     "source": "Gold processing practice",
@@ -294,12 +294,12 @@
     "domain": "gold",
     "question": "A gold plant processes 2 million tonnes per year at a head grade of 2.5 g/t Au with 92% recovery. How many ounces of gold are produced annually?",
     "options": {
-      "A": "Approximately 148,000 oz",
-      "B": "Approximately 75,000 oz",
-      "C": "Approximately 250,000 oz",
+      "A": "Approximately 250,000 oz",
+      "B": "Approximately 148,000 oz",
+      "C": "Approximately 75,000 oz",
       "D": "Approximately 50,000 oz"
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "Gold produced = Tonnes x Grade x Recovery / 31.1035 (grams per troy ounce). So: 2,000,000 x 2.5 x 0.92 / 31.1035 = 4,600,000 / 31.1035 = approximately 147,900 ounces, or roughly 148,000 oz. This calculation is fundamental to mine economics. The three levers for increasing gold production are throughput (tonnes processed), head grade (g/t delivered to the plant), and metallurgical recovery (percentage of gold extracted). Each of these parameters is closely monitored and optimized throughout the mine's life.",
     "key_concept": "Gold ounces = Tonnes x Grade x Recovery / 31.1035 g/oz.",
     "source": "Gold processing practice",
@@ -311,12 +311,12 @@
     "domain": "gold",
     "question": "What is ultra-fine grinding (UFG) as a pre-treatment for refractory gold ores?",
     "options": {
-      "A": "Standard ball mill grinding to 75 microns",
-      "B": "Grinding ore to below 10-15 microns using stirred mills to physically liberate gold locked in sulfide particles without chemical oxidation",
-      "C": "Crushing ore to minus 10 mm for heap leaching",
-      "D": "A technique for grinding carbon to fine particles"
+      "A": "A technique for grinding carbon to fine particles",
+      "B": "Crushing ore to minus 10 mm for heap leaching",
+      "C": "Grinding ore to below 10-15 microns using stirred mills to physically liberate gold locked in sulfide particles without chemical oxidation",
+      "D": "Standard ball mill grinding to 75 microns"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Ultra-fine grinding (UFG) uses high-intensity stirred mills (such as IsaMill or Stirred Media Detritor) to grind ore or concentrate to a particle size below 10-15 microns. At this fineness, gold particles locked within sulfide grains are physically exposed to cyanide solution without requiring chemical oxidation. UFG is attractive because it avoids the high capital cost and environmental complexity of POX or roasting. However, it is effective only when gold is finely disseminated in sulfides and can be liberated by size reduction. Energy consumption is significant, making it most economic when applied to flotation concentrates rather than whole ore.",
     "key_concept": "Ultra-fine grinding to below 10-15 microns physically liberates gold from sulfides using stirred mills.",
     "source": "Gold processing practice",
@@ -330,8 +330,8 @@
     "options": {
       "A": "The assay laboratory made an error",
       "B": "The ore is refractory, with gold locked in sulfide minerals or being re-adsorbed by carbonaceous matter, requiring pre-treatment before cyanide leaching",
-      "C": "The cyanide solution is too concentrated",
-      "D": "The gold grade is too high for cyanidation to work"
+      "C": "The gold grade is too high for cyanidation to work",
+      "D": "The cyanide solution is too concentrated"
     },
     "correct": "B",
     "explanation": "A 35% cyanide-soluble recovery against a 5 g/t total gold assay is a classic indicator of refractory ore. The gold exists in the ore but is inaccessible to cyanide solution, either because it is physically encapsulated within sulfide minerals (arsenopyrite, pyrite) or because naturally occurring carbonaceous material adsorbs dissolved gold from solution (preg-robbing). Diagnostic metallurgical tests including sequential leaching, mineralogical examination, and pre-oxidation tests would identify the specific refractory mechanism. The treatment path (POX, BIOX, roasting, or UFG) depends on the mineralogical diagnosis and economic evaluation.",
@@ -346,11 +346,11 @@
     "question": "What is preg-robbing and how is it managed in gold processing?",
     "options": {
       "A": "Theft of gold dore bars from the processing plant",
-      "B": "The re-adsorption of dissolved gold from cyanide solution by naturally occurring carbonaceous material in the ore, managed by using CIL with excess activated carbon",
-      "C": "The loss of gold during smelting",
-      "D": "The dissolution of gold by acid rather than cyanide"
+      "B": "The dissolution of gold by acid rather than cyanide",
+      "C": "The re-adsorption of dissolved gold from cyanide solution by naturally occurring carbonaceous material in the ore, managed by using CIL with excess activated carbon",
+      "D": "The loss of gold during smelting"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Preg-robbing occurs when naturally occurring carbonaceous material (kerogen, graphite, or activated organic carbon) in the ore adsorbs dissolved gold from the cyanide leach solution, effectively stealing it back from solution and sending it to tailings. This is managed primarily by using CIL (Carbon-in-Leach) rather than CIP, because the activated carbon in the leach tanks competes with the natural carbon for dissolved gold. The manufactured activated carbon has a higher adsorption affinity than most natural carbon. Additional strategies include blanking agents, pre-flotation to remove carbonaceous material, and roasting to destroy the organic carbon.",
     "key_concept": "Preg-robbing is gold re-adsorption by natural carbon, managed with CIL and competitive activated carbon.",
     "source": "Gold processing practice",
@@ -363,11 +363,11 @@
     "question": "What is the function of a sluice box in alluvial gold processing?",
     "options": {
       "A": "To dissolve gold using chemical reagents",
-      "B": "To separate gold from lighter sediments using flowing water over a series of riffles that trap dense gold particles",
-      "C": "To crush hard rock ore into fine particles",
-      "D": "To smelt gold concentrate into bars"
+      "B": "To crush hard rock ore into fine particles",
+      "C": "To smelt gold concentrate into bars",
+      "D": "To separate gold from lighter sediments using flowing water over a series of riffles that trap dense gold particles"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "A sluice box is a gravity separation device consisting of a sloped trough with transverse riffles (barriers) along its length. As water carries sediment through the sluice, dense gold particles settle behind the riffles while lighter material washes over and out. Sluice boxes are one of the oldest and simplest gold recovery devices, widely used in West African alluvial operations from small artisanal operations to mechanized plants. They are effective for recovering coarse gold but lose efficiency for fine gold below about 100 microns. Carpet or matting beneath the riffles helps capture finer particles.",
     "key_concept": "Sluice boxes use flowing water and riffles to trap dense gold particles from lighter sediments.",
     "source": "Gold processing practice",
@@ -379,10 +379,10 @@
     "domain": "gold",
     "question": "A CIL plant is experiencing a steady decline in gold recovery from 93% to 82% over three months with no change in ore type. Which of the following is the most likely cause?",
     "options": {
-      "A": "The gold price has decreased",
+      "A": "The mine has switched to open pit from underground",
       "B": "Carbon fouling or blinding from organic matter, calcium carbonate scaling, or fine particles reducing the carbon's adsorption capacity",
-      "C": "The mine has switched to open pit from underground",
-      "D": "Ambient temperature has increased"
+      "C": "Ambient temperature has increased",
+      "D": "The gold price has decreased"
     },
     "correct": "B",
     "explanation": "A gradual decline in CIL recovery with consistent ore feed strongly suggests deterioration of carbon performance. Carbon fouling can occur from organic compounds (oils, flotation reagents), calcium carbonate precipitation, or fine mineral particles blocking the micropores where gold adsorption occurs. This reduces the carbon's loading capacity and rate of gold uptake from solution. The remedy involves improved carbon screening to remove fines, acid washing to remove inorganic deposits, thermal reactivation at 650-750 degrees Celsius to burn off organic contaminants, and review of the carbon management circuit. Regular carbon activity testing (such as the K-value test) should be part of routine plant monitoring.",
@@ -398,8 +398,8 @@
     "options": {
       "A": "Heating ore to 100 degrees Celsius to dry it before grinding",
       "B": "Heating sulfide ore to 600-700 degrees Celsius in air to oxidize sulfide minerals to oxite, liberating encapsulated gold and destroying carbonaceous material",
-      "C": "Melting gold at 1,064 degrees Celsius",
-      "D": "Heating cyanide solution to improve leaching kinetics"
+      "C": "Heating cyanide solution to improve leaching kinetics",
+      "D": "Melting gold at 1,064 degrees Celsius"
     },
     "correct": "B",
     "explanation": "Oxidative roasting heats refractory sulfide ore or concentrate to 600-700 degrees Celsius in a controlled air atmosphere (typically in a fluidized bed roaster). The sulfide minerals oxidize to iron oxide (hematite) and sulfur dioxide gas, breaking open the sulfide crystal lattice and exposing the previously encapsulated gold to subsequent cyanide leaching. Roasting also destroys carbonaceous material that causes preg-robbing. The main environmental challenge is managing sulfur dioxide emissions, which require scrubbing or conversion to sulfuric acid. Roasting has been used at several major West African gold operations for decades.",
@@ -413,10 +413,10 @@
     "domain": "gold",
     "question": "How does a jig concentrator work in gold processing?",
     "options": {
-      "A": "By dissolving gold in a pulsating cyanide solution",
+      "A": "By magnetically separating gold from gangue minerals",
       "B": "By using repeated pulsations of water through a bed of ore, causing dense gold particles to settle through the bed and lighter particles to rise",
-      "C": "By spinning ore in a centrifuge at high speed",
-      "D": "By magnetically separating gold from gangue minerals"
+      "C": "By dissolving gold in a pulsating cyanide solution",
+      "D": "By spinning ore in a centrifuge at high speed"
     },
     "correct": "B",
     "explanation": "A jig concentrator uses repeated vertical pulsations of water through a bed of ore particles to create a cyclic expansion and contraction of the bed. During the upstroke (pulsion), the bed expands and loosens, allowing dense gold particles to settle through the lighter gangue. During the downstroke (suction), the bed compresses and lighter particles migrate upward. Over many cycles, the ore stratifies by density with gold collecting at the bottom. Jigs have higher throughput than shaking tables but lower separation efficiency. They are widely used as primary rougher concentrators in alluvial gold plants across West Africa.",
@@ -430,12 +430,12 @@
     "domain": "gold",
     "question": "What is the typical gold recovery range for a well-operated CIL plant processing non-refractory oxide ore?",
     "options": {
-      "A": "50-60%",
-      "B": "70-80%",
-      "C": "90-95%",
-      "D": "99-100%"
+      "A": "70-80%",
+      "B": "99-100%",
+      "C": "50-60%",
+      "D": "90-95%"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "A well-operated CIL plant processing non-refractory oxide ore typically achieves 90-95% gold recovery. This high recovery reflects the effectiveness of cyanide leaching for free-milling gold combined with efficient carbon adsorption. Recovery depends on ore mineralogy, grind size, cyanide concentration, oxygen availability, leach retention time, and carbon management. Oxide ores from the laterite weathering profile in West Africa are generally free-milling and achieve the upper end of this range. Recovery drops for transitional and fresh sulfide ores, where refractory characteristics begin to appear.",
     "key_concept": "Well-operated CIL plants achieve 90-95% recovery on non-refractory oxide gold ores.",
     "source": "Gold processing practice",
@@ -447,12 +447,12 @@
     "domain": "gold",
     "question": "What is the role of a spiral concentrator in gold processing?",
     "options": {
-      "A": "To grind ore into fine particles using a spiral motion",
-      "B": "To separate gold from lighter minerals using a helical trough where differential settling and centrifugal forces sort particles by density",
-      "C": "To transport ore uphill using a screw conveyor",
+      "A": "To transport ore uphill using a screw conveyor",
+      "B": "To grind ore into fine particles using a spiral motion",
+      "C": "To separate gold from lighter minerals using a helical trough where differential settling and centrifugal forces sort particles by density",
       "D": "To mix cyanide solution in leach tanks"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Spiral concentrators use a helical trough (typically 5-7 turns) down which a slurry of ore and water flows. As the slurry descends, the combination of gravity, centrifugal force, and fluid drag separates particles by density. Dense gold particles migrate to the inner edge of the spiral while lighter gangue moves to the outer edge. Splitters at the base separate the concentrate, middlings, and tailings streams. Spirals are efficient, low-maintenance gravity devices with no moving parts, processing 1-3 tonnes per hour per start. They are commonly used in alluvial and hard-rock gold circuits as rougher or scavenger concentrators.",
     "key_concept": "Spirals separate by density using helical flow, with gold reporting to the inner edge.",
     "source": "Gold processing practice",
@@ -464,12 +464,12 @@
     "domain": "gold",
     "question": "In a SAG (Semi-Autogenous Grinding) mill circuit, what provides the primary grinding action?",
     "options": {
-      "A": "Steel rods arranged in parallel along the mill length",
-      "B": "A combination of the ore itself (autogenous) and a small charge of steel balls (typically 6-15% volume)",
-      "C": "High-pressure water jets that shatter ore against the mill shell",
-      "D": "Ceramic grinding media that avoids iron contamination"
+      "A": "A combination of the ore itself (autogenous) and a small charge of steel balls (typically 6-15% volume)",
+      "B": "Ceramic grinding media that avoids iron contamination",
+      "C": "Steel rods arranged in parallel along the mill length",
+      "D": "High-pressure water jets that shatter ore against the mill shell"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "SAG mills are called semi-autogenous because they rely on the ore itself as the primary grinding medium, supplemented by a charge of large steel balls (typically 100-125 mm diameter) filling 6-15% of mill volume. The ore tumbles within the rotating drum, with larger rocks acting as grinding media that break down smaller particles through impact and abrasion. SAG mills accept run-of-mine or primary-crushed feed (up to 200-300 mm) and typically reduce it to 1-2 mm. They are the workhorse of modern gold processing plants, often paired with a ball mill in a SAG-Ball Mill-Crusher (SABC) circuit. SAG mills in large gold operations can be 36-40 feet in diameter and draw 15-25 MW of power.",
     "key_concept": "SAG mills use the ore itself plus a small steel ball charge for grinding, accepting coarse feed and producing a product suitable for downstream ball milling.",
     "source": "Wills' Mineral Processing Technology, 8th Edition",
@@ -481,12 +481,12 @@
     "domain": "gold",
     "question": "The Bond Work Index (Wi) is a fundamental parameter in ball mill circuit design. What does it represent?",
     "options": {
-      "A": "The maximum particle size that a ball mill can accept as feed",
-      "B": "The energy (in kWh/t) required to reduce material from theoretically infinite size to 80% passing 100 micrometres",
-      "C": "The ratio of mill power draw to mill volume, expressed in kW/m³",
-      "D": "The number of hours a ball mill can operate before liner replacement is required"
+      "A": "The energy (in kWh/t) required to reduce material from theoretically infinite size to 80% passing 100 micrometres",
+      "B": "The maximum particle size that a ball mill can accept as feed",
+      "C": "The number of hours a ball mill can operate before liner replacement is required",
+      "D": "The ratio of mill power draw to mill volume, expressed in kW/m³"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The Bond Work Index, developed by Fred Bond in 1952, is the industry-standard measure of ore grindability. It represents the energy in kilowatt-hours per tonne (kWh/t) required to reduce material from theoretically infinite feed size to 80% passing 100 micrometres. Typical gold ores have Bond Work Indices ranging from 12 to 20 kWh/t, though some hard siliceous ores can exceed 22 kWh/t. The Bond equation (W = 10Wi × (1/√P₈₀ − 1/√F₈₀)) is used to calculate the specific energy required for a given size reduction. Accurate determination of Wi through laboratory ball mill grindability tests is essential for sizing mills and estimating power consumption during feasibility studies.",
     "key_concept": "Bond Work Index measures ore grindability as the energy needed to reduce material to 80% passing 100 μm, essential for mill sizing.",
     "source": "Wills' Mineral Processing Technology, 8th Edition",
@@ -498,12 +498,12 @@
     "domain": "gold",
     "question": "Why is froth flotation used as a concentration step for sulfide-hosted gold ores before cyanide leaching?",
     "options": {
-      "A": "Flotation dissolves the sulfide minerals so gold can be directly recovered from solution",
-      "B": "Flotation selectively concentrates sulfide minerals (pyrite, arsenopyrite) that host fine gold, producing a smaller mass for downstream oxidative pretreatment and leaching",
+      "A": "Flotation selectively concentrates sulfide minerals (pyrite, arsenopyrite) that host fine gold, producing a smaller mass for downstream oxidative pretreatment and leaching",
+      "B": "Flotation is used solely to remove carbon from the ore to prevent preg-robbing",
       "C": "Flotation replaces gravity concentration because it recovers coarser gold particles more efficiently",
-      "D": "Flotation is used solely to remove carbon from the ore to prevent preg-robbing"
+      "D": "Flotation dissolves the sulfide minerals so gold can be directly recovered from solution"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "In sulfide-hosted refractory gold ores, much of the gold is locked within sulfide minerals such as pyrite and arsenopyrite at a very fine grain size. Direct cyanidation of the whole ore gives poor recovery because cyanide cannot contact the encapsulated gold. Froth flotation uses chemical collectors (typically xanthates) that selectively attach to sulfide mineral surfaces, making them hydrophobic so they report to the froth concentrate. This concentrates the gold-bearing sulfides into a much smaller mass (often 5-15% of the original feed), which can then be economically treated by oxidative pretreatment (POX, BIOX, or roasting) followed by cyanide leaching. Flotation can achieve 85-95% gold recovery into the sulfide concentrate.",
     "key_concept": "Flotation concentrates gold-bearing sulfide minerals into a small mass fraction, enabling economic oxidative pretreatment of refractory ores.",
     "source": "Marsden & House, The Chemistry of Gold Extraction, 2nd Edition",
@@ -515,12 +515,12 @@
     "domain": "gold",
     "question": "What is the primary purpose of a thickener in gold plant tailings management?",
     "options": {
-      "A": "To heat the tailings slurry before discharge to the tailings storage facility",
-      "B": "To add flocculant and settle solids from slurry, recovering clear water for recycling while producing a dense underflow for disposal",
-      "C": "To grind tailings particles finer to prevent seepage through the TSF liner",
-      "D": "To neutralize cyanide by mixing tailings with sulfuric acid"
+      "A": "To neutralize cyanide by mixing tailings with sulfuric acid",
+      "B": "To heat the tailings slurry before discharge to the tailings storage facility",
+      "C": "To add flocculant and settle solids from slurry, recovering clear water for recycling while producing a dense underflow for disposal",
+      "D": "To grind tailings particles finer to prevent seepage through the TSF liner"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Thickeners are large circular settling tanks (often 20-50 m diameter) that use gravity and flocculant addition to separate solids from water in tailings slurry. The feed slurry (typically 30-40% solids) enters the central feedwell, where flocculant (usually anionic polyacrylamide) promotes particle aggregation. The clear overflow water is recycled to the process plant, reducing fresh water consumption by 60-80%. The thickened underflow (50-65% solids) is pumped to the tailings storage facility. High-rate and paste thickeners can achieve even higher underflow densities (65-75% solids), reducing the volume of water reporting to the TSF and improving geotechnical stability. Water recovery is particularly important in arid regions of West Africa and Australia.",
     "key_concept": "Thickeners settle tailings solids to recover process water for recycling and produce dense underflow for disposal.",
     "source": "Wills' Mineral Processing Technology, 8th Edition",
@@ -532,12 +532,12 @@
     "domain": "gold",
     "question": "The INCO SO₂/air process is widely used for cyanide destruction in gold plant tailings. What is the primary reaction mechanism?",
     "options": {
-      "A": "Sulfur dioxide reduces cyanide to methane gas, which is vented to atmosphere",
-      "B": "SO₂ and air (oxygen) oxidize free and WAD cyanide to the less toxic cyanate (OCN⁻), catalysed by soluble copper",
-      "C": "SO₂ precipitates cyanide as solid copper cyanide, which settles in the thickener",
-      "D": "Air strips the cyanide from solution as HCN gas, and SO₂ neutralizes the gas"
+      "A": "SO₂ and air (oxygen) oxidize free and WAD cyanide to the less toxic cyanate (OCN⁻), catalysed by soluble copper",
+      "B": "Sulfur dioxide reduces cyanide to methane gas, which is vented to atmosphere",
+      "C": "Air strips the cyanide from solution as HCN gas, and SO₂ neutralizes the gas",
+      "D": "SO₂ precipitates cyanide as solid copper cyanide, which settles in the thickener"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The INCO SO₂/air process (now Cyanco-licensed) is the most widely used cyanide detoxification method in the gold industry. It works by oxidizing free cyanide and weak-acid-dissociable (WAD) metal-cyanide complexes to the much less toxic cyanate ion (OCN⁻). The reaction requires SO₂ (supplied as sodium metabisulfite or liquid SO₂), air (as the oxygen source), and a soluble copper catalyst (typically 10-50 mg/L Cu²⁺). The reaction occurs at pH 8-9, maintained by lime addition. The process can reduce WAD cyanide from 100-500 mg/L to below 1 mg/L, meeting International Cyanide Management Code discharge standards. The process is relatively simple to operate and has moderate reagent costs.",
     "key_concept": "The SO₂/air process oxidizes cyanide to cyanate using SO₂ and oxygen with copper catalyst, achieving regulatory discharge limits.",
     "source": "Marsden & House, The Chemistry of Gold Extraction, 2nd Edition",
@@ -549,12 +549,12 @@
     "domain": "gold",
     "question": "Which of the following is the greatest engineering risk associated with tailings storage facilities (TSFs) at gold mines?",
     "options": {
-      "A": "Excessive evaporation causing the tailings to dry out and blow away as dust",
-      "B": "Embankment failure due to inadequate design, overtopping, or liquefaction, potentially causing catastrophic downstream release of tailings",
-      "C": "Spontaneous combustion of sulfide minerals within the tailings",
-      "D": "Biological growth of algae making the water unsuitable for recycling"
+      "A": "Biological growth of algae making the water unsuitable for recycling",
+      "B": "Spontaneous combustion of sulfide minerals within the tailings",
+      "C": "Embankment failure due to inadequate design, overtopping, or liquefaction, potentially causing catastrophic downstream release of tailings",
+      "D": "Excessive evaporation causing the tailings to dry out and blow away as dust"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "TSF embankment failure is the single greatest catastrophic risk at gold mining operations. Historical failures such as Mount Polley (2014), Samarco (2015), and Brumadinho (2019) released millions of cubic metres of tailings, causing fatalities, environmental devastation, and billions of dollars in damages. Key failure modes include overtopping during extreme rainfall events, static or seismic liquefaction of saturated tailings, foundation failure, and internal erosion (piping). The Global Industry Standard on Tailings Management (GISTM), published in 2020, now requires independent review, consequence-based classification, and robust monitoring systems. Modern TSF design emphasizes filtered (dry-stack) tailings, underdrainage, piezometer monitoring, and conservative factors of safety. For JORC-compliant projects, TSF design must be addressed in the Modifying Factors of a feasibility study.",
     "key_concept": "TSF embankment failure is the greatest catastrophic risk at gold mines, driving adoption of the GISTM and filtered tailings.",
     "source": "Global Industry Standard on Tailings Management (GISTM), 2020",
@@ -566,12 +566,12 @@
     "domain": "gold",
     "question": "In the Merrill-Crowe process, how is gold recovered from pregnant cyanide solution?",
     "options": {
-      "A": "By adding activated carbon to adsorb gold cyanide complexes from solution",
-      "B": "By de-aerating the solution and adding zinc dust, which cements (precipitates) gold from the gold cyanide complex",
-      "C": "By evaporating the solution to crystallize gold cyanide salts",
+      "A": "By de-aerating the solution and adding zinc dust, which cements (precipitates) gold from the gold cyanide complex",
+      "B": "By evaporating the solution to crystallize gold cyanide salts",
+      "C": "By adding activated carbon to adsorb gold cyanide complexes from solution",
       "D": "By passing the solution through an ion exchange resin column"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The Merrill-Crowe process, developed in the early 1900s, recovers gold from clarified pregnant cyanide solution through zinc cementation. The process involves three key steps: first, the solution is clarified by filtration to remove suspended solids; second, dissolved oxygen is removed using a vacuum de-aeration tower (oxygen would consume zinc unproductively); third, fine zinc dust is added, which precipitates gold (and silver) according to the reaction 2Au(CN)₂⁻ + Zn → 2Au + Zn(CN)₄²⁻. The precipitate is filtered, dried, and smelted to produce dore bullion. Merrill-Crowe is preferred over CIP/CIL when the gold solution is naturally clear (e.g., heap leach operations) or when high silver content makes carbon adsorption less effective. Lead nitrate is often added to improve cementation kinetics.",
     "key_concept": "Merrill-Crowe uses zinc dust cementation on de-aerated, clarified cyanide solution to precipitate gold, favoured for heap leach and high-silver ores.",
     "source": "SME Mineral Processing and Extractive Metallurgy Handbook",
@@ -584,11 +584,11 @@
     "question": "What is a typical composition of a gold dore bar produced in the gold room of a processing plant?",
     "options": {
       "A": "99.99% gold with trace impurities removed by electrolysis",
-      "B": "A crude alloy typically containing 70-90% gold and 5-25% silver, with minor base metal impurities, requiring refinery processing",
+      "B": "Pure metallic gold powder compressed into bar form without melting",
       "C": "50% gold and 50% copper, intentionally alloyed for transport durability",
-      "D": "Pure metallic gold powder compressed into bar form without melting"
+      "D": "A crude alloy typically containing 70-90% gold and 5-25% silver, with minor base metal impurities, requiring refinery processing"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Dore bars are the semi-refined product of a gold processing plant's gold room. After electrowinning or zinc precipitation, the gold-bearing sludge is dried, fluxed (with borax, soda ash, silica, and niter), and smelted in an induction or gas-fired furnace at approximately 1100-1200°C. The resulting dore bar is a crude alloy typically containing 70-90% gold, 5-25% silver, and minor amounts of base metals (copper, iron, lead). The exact composition depends on the ore mineralogy and upstream process. Dore bars are sampled, assayed, and shipped to a refinery (e.g., Rand Refinery, Perth Mint, or Metalor) where they are refined to 99.99% purity by the Miller chlorination or Wohlwill electrolytic process. Gold room operations require strict security protocols including cameras, controlled access, and chain-of-custody documentation.",
     "key_concept": "Dore bars are crude gold-silver alloy (70-90% Au) produced on-site, requiring further refining to 99.99% purity at a dedicated refinery.",
     "source": "Marsden & House, The Chemistry of Gold Extraction, 2nd Edition",
@@ -600,10 +600,10 @@
     "domain": "gold",
     "question": "Why is process water recycling critical in gold plant operations, and what is a typical water recycling rate?",
     "options": {
-      "A": "Recycling is done primarily to recover dissolved gold lost in tailings water, achieving 99% gold recovery from water",
+      "A": "Process water is recycled solely to maintain cyanide concentration, as fresh water would dilute the leach solution",
       "B": "Well-managed plants recycle 60-85% of process water from tailings thickeners and TSF return water, reducing fresh water demand and managing cyanide-bearing solutions",
-      "C": "Water recycling is only relevant in tropical climates where excess rainfall must be managed",
-      "D": "Process water is recycled solely to maintain cyanide concentration, as fresh water would dilute the leach solution"
+      "C": "Recycling is done primarily to recover dissolved gold lost in tailings water, achieving 99% gold recovery from water",
+      "D": "Water recycling is only relevant in tropical climates where excess rainfall must be managed"
     },
     "correct": "B",
     "explanation": "Process water recycling is a cornerstone of sustainable gold plant operation. Well-managed CIL/CIP plants typically recycle 60-85% of their water from thickener overflow, TSF decant return water, and various plant drains. This reduces fresh water abstraction, which is critical in water-scarce regions of West Africa, Australia, and the Middle East. Recycled water contains residual cyanide (reducing NaCN consumption), lime (reducing pH adjustment costs), and process heat. However, recycled water also accumulates deleterious species such as thiocyanate, calcium, and suspended solids that must be managed. A comprehensive water balance model is required for feasibility studies and JORC reporting, accounting for rainfall, evaporation, seepage, and process demands across all seasons.",
@@ -618,11 +618,11 @@
     "question": "What is the purpose of carbon regeneration (thermal reactivation) in a CIL/CIP circuit?",
     "options": {
       "A": "To dissolve residual gold from the carbon so it can be returned to leach tanks",
-      "B": "To restore the adsorptive capacity of activated carbon by heating it to 650-750°C in a rotary kiln, burning off organic contaminants and reopening pore structure",
-      "C": "To convert granular carbon into powdered carbon for use in water treatment",
+      "B": "To convert granular carbon into powdered carbon for use in water treatment",
+      "C": "To restore the adsorptive capacity of activated carbon by heating it to 650-750°C in a rotary kiln, burning off organic contaminants and reopening pore structure",
       "D": "To sterilize the carbon by removing bacterial growth that impairs gold loading"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Activated carbon in CIL/CIP circuits progressively loses its gold adsorption capacity due to fouling by organic compounds (flotation reagents, humic acids, oil), calcium carbonate scale, and fine mineral particles that block the internal pore structure. After elution (stripping) of gold, the carbon is thermally reactivated in a rotary kiln or vertical tube furnace at 650-750°C under a controlled steam atmosphere. This burns off organic contaminants and thermally decomposes inorganic scale, restoring 90-95% of the original activity. Without regeneration, carbon activity declines steadily, requiring higher carbon inventories and reducing gold recovery. Typical regeneration rates match the elution cycle, with carbon passing through the kiln every 5-7 days. Carbon losses during the circuit (attrition, screen losses) are made up with fresh virgin carbon, typically 20-50 g per tonne of ore processed.",
     "key_concept": "Thermal reactivation at 650-750°C restores carbon adsorptive capacity by removing organic and inorganic fouling from pores.",
     "source": "Marsden & House, The Chemistry of Gold Extraction, 2nd Edition",
@@ -634,12 +634,12 @@
     "domain": "gold",
     "question": "What causes acid mine drainage (AMD) from gold mine tailings, and why is it an environmental concern?",
     "options": {
-      "A": "AMD is caused by the addition of excess hydrochloric acid during processing, which leaches out through the tailings",
-      "B": "AMD occurs when sulfide minerals (especially pyrite) in tailings oxidize on exposure to air and water, generating sulfuric acid and mobilizing heavy metals",
-      "C": "AMD results from cyanide reacting with limestone in tailings to form carbonic acid",
-      "D": "AMD is caused by organic matter decomposition in tailings producing acetic acid"
+      "A": "AMD results from cyanide reacting with limestone in tailings to form carbonic acid",
+      "B": "AMD is caused by organic matter decomposition in tailings producing acetic acid",
+      "C": "AMD occurs when sulfide minerals (especially pyrite) in tailings oxidize on exposure to air and water, generating sulfuric acid and mobilizing heavy metals",
+      "D": "AMD is caused by the addition of excess hydrochloric acid during processing, which leaches out through the tailings"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Acid mine drainage is one of the most significant long-term environmental legacies of gold mining. It occurs when sulfide minerals, principally pyrite (FeS₂), in tailings are exposed to atmospheric oxygen and water. The oxidation reaction produces sulfuric acid (H₂SO₄) and ferrous iron, which further oxidizes to ferric iron—a process accelerated by iron-oxidizing bacteria (Acidithiobacillus ferrooxidans). The resulting acidic conditions (pH 2-4) mobilize heavy metals such as arsenic, copper, lead, and zinc from the tailings, contaminating surface water and groundwater. AMD can persist for decades or centuries after mine closure. Prevention strategies include underwater disposal, dry covers, and limestone neutralization. JORC-compliant feasibility studies must address AMD potential through geochemical characterization (acid-base accounting) of waste materials.",
     "key_concept": "AMD results from pyrite oxidation producing sulfuric acid and mobilizing heavy metals, requiring long-term management strategies.",
     "source": "SME Mineral Processing and Extractive Metallurgy Handbook",
@@ -651,12 +651,12 @@
     "domain": "gold",
     "question": "Where is the gravity recovery circuit typically placed within a gold processing plant's grinding circuit?",
     "options": {
-      "A": "Before the primary crusher, treating run-of-mine ore directly",
-      "B": "On the cyclone underflow (circulating load) of the grinding circuit, where liberated coarse gold particles are concentrated",
-      "C": "After the CIL circuit, as a final scavenger of dissolved gold",
-      "D": "In the tailings thickener underflow, recovering gold lost to tailings"
+      "A": "After the CIL circuit, as a final scavenger of dissolved gold",
+      "B": "In the tailings thickener underflow, recovering gold lost to tailings",
+      "C": "Before the primary crusher, treating run-of-mine ore directly",
+      "D": "On the cyclone underflow (circulating load) of the grinding circuit, where liberated coarse gold particles are concentrated"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "In modern gold processing plants, the gravity recovery circuit (typically centrifugal concentrators such as Knelson or Falcon units) is positioned to treat the cyclone underflow of the grinding circuit. The cyclone underflow represents the circulating load—partially ground material returned to the ball mill for further size reduction. This stream is ideal for gravity recovery because it contains the highest concentration of liberated, coarse free gold particles that have been ground free from the host rock but are too dense to report to the cyclone overflow. The gravity concentrate is typically upgraded on a shaking table before being smelted directly, providing early gold recovery and reducing the gold load on the downstream CIL circuit. Gravity recovery can account for 30-70% of total gold recovery in ores with significant free gold.",
     "key_concept": "Gravity circuits treat cyclone underflow where liberated coarse gold concentrates, recovering 30-70% of gold before CIL.",
     "source": "Wills' Mineral Processing Technology, 8th Edition",
@@ -668,10 +668,10 @@
     "domain": "gold",
     "question": "What are the typical phases of a metallurgical test work program for a gold project progressing toward feasibility?",
     "options": {
-      "A": "A single bulk test run on one sample is sufficient for bankable feasibility",
+      "A": "Full-scale plant construction followed by optimisation during the first year of production",
       "B": "Phased program: scoping (bench-scale characterisation), pre-feasibility (variability testing and locked-cycle tests), and feasibility (pilot plant and continuous circuit testing)",
-      "C": "Only computer simulation is needed; physical testing is obsolete with modern software",
-      "D": "Full-scale plant construction followed by optimisation during the first year of production"
+      "C": "A single bulk test run on one sample is sufficient for bankable feasibility",
+      "D": "Only computer simulation is needed; physical testing is obsolete with modern software"
     },
     "correct": "B",
     "explanation": "Metallurgical test work for gold projects follows a phased approach aligned with JORC study stages. At scoping level, bench-scale tests on composite samples characterise the ore (Bond Work Index, gravity recoverable gold, cyanide leach kinetics, and diagnostic leach to identify refractory components). At pre-feasibility, variability testing on domain-specific samples establishes the range of metallurgical responses, and locked-cycle tests simulate continuous CIL/CIP performance. At feasibility (bankable) level, pilot plant campaigns confirm flowsheet performance, reagent consumptions, and equipment sizing at continuous operation scale. Each phase generates increasingly reliable data for JORC-compliant Modifying Factors. The Competent Person must ensure test samples are representative of the orebody and that all geometallurgical domains are adequately tested.",
@@ -685,12 +685,12 @@
     "domain": "gold",
     "question": "In a gold plant comminution circuit, what percentage of total plant operating costs does energy consumption typically represent?",
     "options": {
-      "A": "Less than 5%, as grinding is a low-energy process",
-      "B": "Approximately 30-50% of total operating costs, making comminution the single largest energy consumer and cost centre",
-      "C": "Over 90%, with all other costs being negligible by comparison",
-      "D": "Energy cost is fixed regardless of throughput and ore hardness"
+      "A": "Over 90%, with all other costs being negligible by comparison",
+      "B": "Energy cost is fixed regardless of throughput and ore hardness",
+      "C": "Approximately 30-50% of total operating costs, making comminution the single largest energy consumer and cost centre",
+      "D": "Less than 5%, as grinding is a low-energy process"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Comminution (crushing and grinding) is by far the most energy-intensive process in a gold plant, typically consuming 30-50% of total plant operating costs and accounting for approximately 60-70% of total electrical energy consumption. A typical SAG-ball mill circuit treating 5-10 Mtpa of hard gold ore may draw 20-40 MW of power. Energy efficiency is therefore a critical economic driver, influencing mill selection, circuit configuration, and operating strategy. Measures to optimise comminution energy include high-pressure grinding rolls (HPGR) as an alternative to SAG mills, optimised ball charge and mill speed, classification circuit efficiency, and ore-sorting to reject waste before grinding. For JORC feasibility studies, comminution energy costs must be estimated using site-specific Bond Work Index data and local power tariffs.",
     "key_concept": "Comminution consumes 30-50% of gold plant operating costs, making energy efficiency a key economic driver.",
     "source": "Wills' Mineral Processing Technology, 8th Edition",
@@ -703,11 +703,11 @@
     "question": "What is plant availability, and what level is typically targeted for a mature gold CIL plant?",
     "options": {
       "A": "Plant availability is the percentage of gold recovered, and mature plants target 99%",
-      "B": "Plant availability is the percentage of scheduled time that the plant is operational, with mature CIL plants targeting 90-93% availability through planned maintenance strategies",
-      "C": "Plant availability measures the number of employees present on shift, targeting 100% attendance",
+      "B": "Plant availability measures the number of employees present on shift, targeting 100% attendance",
+      "C": "Plant availability is the percentage of scheduled time that the plant is operational, with mature CIL plants targeting 90-93% availability through planned maintenance strategies",
       "D": "Plant availability refers to the percentage of ore reserves accessible for mining, unrelated to processing"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Plant availability is the percentage of total scheduled operating time during which the plant is actually running and processing ore. It is reduced by both planned maintenance shutdowns (scheduled mill relining, screen replacements, pump overhauls) and unplanned breakdowns. Mature, well-managed gold CIL plants typically achieve 90-93% availability, equivalent to approximately 8,000-8,150 operating hours per year. Throughput optimisation combines availability with utilisation (the fraction of available time at design capacity) to maximise annual ore processed. Key strategies to improve availability include predictive maintenance programs, critical spares management, and redundancy in key equipment (e.g., standby pumps and spare cyclones). For JORC feasibility studies, the assumed plant availability directly impacts annual production forecasts and project economics.",
     "key_concept": "Plant availability of 90-93% is targeted for mature CIL plants, directly impacting annual throughput and project economics.",
     "source": "SME Mineral Processing and Extractive Metallurgy Handbook",
@@ -736,10 +736,10 @@
     "domain": "gold",
     "question": "A gold project has a refractory sulfide ore containing arsenopyrite-hosted gold with 15% sulfide sulfur. The project is in a remote location with limited infrastructure and strict arsenic emission regulations. Which oxidative pretreatment is most appropriate?",
     "options": {
-      "A": "Roasting, because it is the simplest technology and works for all sulfide levels",
-      "B": "Ultra-fine grinding (UFG) alone, as it can liberate all gold regardless of sulfide content",
+      "A": "Ultra-fine grinding (UFG) alone, as it can liberate all gold regardless of sulfide content",
+      "B": "Pressure oxidation (POX), because it always gives the highest gold recovery regardless of other factors",
       "C": "BIOX (biological oxidation), because it avoids gaseous arsenic emissions, operates at atmospheric pressure, has moderate capital cost, and is proven at remote sites in West Africa and elsewhere",
-      "D": "Pressure oxidation (POX), because it always gives the highest gold recovery regardless of other factors"
+      "D": "Roasting, because it is the simplest technology and works for all sulfide levels"
     },
     "correct": "C",
     "explanation": "For this scenario, BIOX is the most appropriate choice. Roasting of arsenopyrite produces arsenic trioxide (As₂O₃) fumes that require expensive gas cleaning to meet strict emission regulations, making it problematic. POX, while effective, has very high capital costs (>US$200M for autoclave systems), requires specialised high-pressure equipment, and is difficult to maintain in remote locations with limited technical support. BIOX operates at atmospheric pressure and temperatures of 40-45°C, using naturally occurring bacteria (Acidithiobacillus and Leptospirillum species) to oxidize sulfide minerals. It produces a stable, environmentite iron arsenate precipitate rather than gaseous arsenic emissions. BIOX has been successfully deployed at remote sites including Obuasi (Ghana), Kokpatas (Uzbekistan), and Fairview (South Africa). Capital costs are moderate compared to POX, and operations can be staffed with locally trained personnel.",
@@ -753,12 +753,12 @@
     "domain": "gold",
     "question": "You are the metallurgical manager commissioning a new 3 Mtpa CIL gold plant in West Africa. During the first month of operation, gold recovery is 78% versus the design target of 92%. Leach residue assays show significant unleached gold. What is the most systematic approach to diagnose and resolve the recovery shortfall?",
     "options": {
-      "A": "Immediately double the cyanide concentration and leach time, as this will always fix low recovery",
+      "A": "Conduct a systematic audit: check grind size (P₈₀ vs design), dissolved oxygen levels, cyanide and lime dosages, carbon activity, residence time, and slurry density; perform diagnostic leach tests on residue to identify if gold is locked in sulfides, coarse particles, or preg-robbed",
       "B": "Shut down the plant completely and conduct a full 6-month pilot plant study before restarting",
-      "C": "Conduct a systematic audit: check grind size (P₈₀ vs design), dissolved oxygen levels, cyanide and lime dosages, carbon activity, residence time, and slurry density; perform diagnostic leach tests on residue to identify if gold is locked in sulfides, coarse particles, or preg-robbed",
+      "C": "Immediately double the cyanide concentration and leach time, as this will always fix low recovery",
       "D": "Replace all the activated carbon with fresh carbon, as fouled carbon is always the cause of low recovery in new plants"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "Commissioning recovery shortfalls require a systematic diagnostic approach rather than single-variable changes. The first step is to verify that the grind size (P₈₀) matches the design specification, as coarser-than-design grind is the most common cause of low recovery during commissioning—if the cyclones are not properly configured, coarse gold-bearing particles pass through unleached. Next, check dissolved oxygen (target 8-20 ppm), free cyanide concentration (200-500 ppm), and pH (10.2-10.8) in each leach tank. Verify carbon activity and loading rates to ensure adequate gold adsorption. Perform a diagnostic leach test on the CIL residue: sequential gravity, cyanide, and acid-digest steps reveal whether residual gold is free, locked in sulfides, associated with carbonaceous matter (preg-robbing), or encapsulated in silicates. This data-driven approach identifies the root cause and enables targeted corrective action, which is essential for projects where early production directly impacts loan covenants and investor confidence.",
     "key_concept": "Systematic commissioning audits check grind, O₂, CN, carbon, and use diagnostic leach tests to identify root causes of recovery shortfalls.",
     "source": "SME Mineral Processing and Extractive Metallurgy Handbook; Gold plant commissioning best practice",

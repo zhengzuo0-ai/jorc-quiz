@@ -5,12 +5,12 @@
     "domain": "jorc",
     "question": "ASIC Regulatory Guide 111 (RG 111) primarily governs:",
     "options": {
-      "A": "The geological estimation of Mineral Resources",
-      "B": "The content requirements for mining entity reports, including forward-looking statements and production targets",
-      "C": "The design of processing plants",
-      "D": "Environmental impact assessments for mining projects"
+      "A": "The content requirements for mining entity reports, including forward-looking statements and production targets",
+      "B": "Environmental impact assessments for mining projects",
+      "C": "The geological estimation of Mineral Resources",
+      "D": "The design of processing plants"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "ASIC RG 111 sets out the regulatory framework for how mining entities report to investors, particularly regarding forward-looking statements, production targets, and financial forecasts. It requires that production targets and forecast financial information be based on appropriate grounds (typically Ore Reserves, or a combination of Reserves and Resources with proper caveats). RG 111 works alongside the JORC Code and ASX Listing Rules to prevent misleading reporting. It is the securities regulator's overlay on top of the technical reporting framework provided by JORC.",
     "key_concept": "RG 111 regulates mining entity reporting, especially production targets and forward-looking statements",
     "source": "ASIC Regulatory Guide 111",
@@ -22,12 +22,12 @@
     "domain": "jorc",
     "question": "Under ASX Listing Rules Chapter 5, which of the following is a common compliance failure?",
     "options": {
-      "A": "Reporting a Mineral Resource with full Table 1 compliance",
-      "B": "Using the term 'ore' to describe Mineral Resources that have not been converted to Ore Reserves",
-      "C": "Disclosing the Competent Person's qualifications",
-      "D": "Providing a JORC Table 1 checklist with the announcement"
+      "A": "Using the term 'ore' to describe Mineral Resources that have not been converted to Ore Reserves",
+      "B": "Reporting a Mineral Resource with full Table 1 compliance",
+      "C": "Providing a JORC Table 1 checklist with the announcement",
+      "D": "Disclosing the Competent Person's qualifications"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Using the term 'ore' to describe Mineral Resources is one of the most common compliance failures. Under the JORC Code and ASX Listing Rules Chapter 5, 'ore' is a specific term that implies economic extractability — it should only be used in the context of Ore Reserves. Applying it to Resources implies a level of economic confidence that has not been demonstrated. For example, saying '10 million tonnes of gold ore at 2 g/t' when referring to a Resource misleads investors into believing the material is economically mineable. The correct term for Resource material is 'mineralisation' or 'mineralised material.'",
     "key_concept": "'Ore' can only describe Reserve material — using it for Resources implies undemonstrated economic viability",
     "source": "JORC Code 2012, ASX Listing Rules Chapter 5",
@@ -39,12 +39,12 @@
     "domain": "jorc",
     "question": "ASX Guidance Note 31 (GN31) provides detailed guidance on:",
     "options": {
-      "A": "How to conduct geological field mapping",
-      "B": "The disclosure requirements for mining entities under Chapter 5 of the ASX Listing Rules, including the format and content of announcements",
-      "C": "How to calculate Net Present Value for mining projects",
-      "D": "The requirements for environmental rehabilitation bonds"
+      "A": "The disclosure requirements for mining entities under Chapter 5 of the ASX Listing Rules, including the format and content of announcements",
+      "B": "How to calculate Net Present Value for mining projects",
+      "C": "The requirements for environmental rehabilitation bonds",
+      "D": "How to conduct geological field mapping"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "GN31 is the ASX's interpretive guidance on how Chapter 5 of the Listing Rules should be applied in practice. It covers the format and content requirements for announcements of Exploration Results, Resources, and Reserves, including the requirement for JORC Table 1 compliance, Competent Person consent, and the presentation of material information. GN31 also addresses common compliance issues such as selective reporting, inappropriate use of terminology, and the treatment of historical estimates. It is essential reading for any person responsible for market announcements at a mining company.",
     "key_concept": "GN31 provides practical guidance on ASX Chapter 5 disclosure requirements for mining entities",
     "source": "ASX Guidance Note 31",
@@ -56,8 +56,8 @@
     "domain": "jorc",
     "question": "A company publishes a production target of 100,000 oz/year for a project based entirely on Inferred Resources. Under RG 111, this is:",
     "options": {
-      "A": "Acceptable if the Competent Person consents",
-      "B": "Acceptable with no conditions",
+      "A": "Acceptable with no conditions",
+      "B": "Acceptable if the Competent Person consents",
       "C": "Potentially non-compliant — production targets based predominantly on Inferred Resources require prominent cautionary statements and may not satisfy the 'reasonable grounds' test",
       "D": "Prohibited under all circumstances"
     },
@@ -73,12 +73,12 @@
     "domain": "jorc",
     "question": "The Competent Person's consent requirement under ASX Listing Rules means:",
     "options": {
-      "A": "The CP must review and approve the final form of the market announcement before it is released, including how their work is presented",
+      "A": "The CP's consent is implied if they are an employee of the company",
       "B": "The CP only needs to sign the technical report",
       "C": "The CP must approve the company's marketing materials",
-      "D": "The CP's consent is implied if they are an employee of the company"
+      "D": "The CP must review and approve the final form of the market announcement before it is released, including how their work is presented"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "ASX Listing Rules Chapter 5 (Rule 5.22) requires that a Competent Person provide written consent to the inclusion of their work in the public report in the form and context in which it appears. This means the CP must review the actual announcement — not just the technical report — to ensure their work is not misrepresented, taken out of context, or selectively quoted. The CP's consent is not implied by their employment or by having provided a technical report. If the announcement misrepresents the CP's findings, the CP should withhold consent. This requirement protects both investors and the CP's professional reputation.",
     "key_concept": "CP must consent to the form and context of how their work appears in the final announcement",
     "source": "ASX Listing Rules, Rule 5.22",
@@ -90,12 +90,12 @@
     "domain": "jorc",
     "question": "Which of the following would most likely trigger an ASX trading halt for a mining company?",
     "options": {
-      "A": "Routine quarterly exploration report",
-      "B": "Discovery of a material mineral deposit, pending announcement of results that could significantly affect the share price",
+      "A": "Discovery of a material mineral deposit, pending announcement of results that could significantly affect the share price",
+      "B": "Routine quarterly exploration report",
       "C": "Appointment of a new company secretary",
       "D": "Renewal of an existing exploration licence"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "An ASX trading halt is applied when a company has price-sensitive information that has not yet been disclosed to the market. The discovery of a material mineral deposit, a significant change in Resources or Reserves, or any event that would materially affect the company's value requires immediate disclosure under ASX continuous disclosure rules (Listing Rule 3.1). If the company needs time to prepare the announcement (e.g., awaiting assay results, preparing the JORC Table 1), a trading halt prevents uninformed trading. Routine operational matters do not trigger halts. The ASX can also impose suspension if the company fails to comply with its disclosure obligations.",
     "key_concept": "Trading halts prevent uninformed trading while price-sensitive mining information is prepared for disclosure",
     "source": "ASX Listing Rules, Rule 3.1, 17.1",
@@ -107,12 +107,12 @@
     "domain": "jorc",
     "question": "Selective reporting of exploration results — such as highlighting only high-grade holes — can result in:",
     "options": {
-      "A": "No consequences as long as the results are accurate",
-      "B": "A breach of ASX Listing Rules, ASIC enforcement action, CP disciplinary proceedings, and potential trading halt or suspension",
-      "C": "Only an informal warning from the ASX",
-      "D": "Consequences only if the company is in the ASX 200"
+      "A": "Consequences only if the company is in the ASX 200",
+      "B": "No consequences as long as the results are accurate",
+      "C": "A breach of ASX Listing Rules, ASIC enforcement action, CP disciplinary proceedings, and potential trading halt or suspension",
+      "D": "Only an informal warning from the ASX"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Selective reporting violates the JORC Code's Transparency and Materiality principles (Clause 19), ASX Listing Rule 5.6 (which requires balanced reporting), and potentially the Corporations Act prohibition on misleading conduct. Consequences can include: ASX query letters and potential trading halt or suspension, ASIC investigation and enforcement action (including infringement notices and civil penalties), disciplinary proceedings against the Competent Person by their professional body (AusIMM, AIG), and reputational damage. The severity of consequences depends on the degree of misleading conduct and whether investors suffered losses. Company size is irrelevant.",
     "key_concept": "Selective reporting triggers multi-layered consequences: ASX, ASIC, professional body, and legal",
     "source": "JORC Code 2012, Clause 19; ASX Listing Rule 5.6",
@@ -124,12 +124,12 @@
     "domain": "jorc",
     "question": "Under the professional body disciplinary process (e.g., AusIMM), a Competent Person found to have signed off on a materially misleading report may face:",
     "options": {
-      "A": "No consequences — only the company is liable",
+      "A": "Criminal prosecution by the professional body",
       "B": "A written warning only",
-      "C": "Sanctions ranging from reprimand to suspension or expulsion from the professional body, effectively ending their ability to act as a CP",
-      "D": "Criminal prosecution by the professional body"
+      "C": "No consequences — only the company is liable",
+      "D": "Sanctions ranging from reprimand to suspension or expulsion from the professional body, effectively ending their ability to act as a CP"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Professional bodies such as the AusIMM and AIG have ethics committees and disciplinary processes for members who breach professional standards. Sanctions can range from a formal reprimand, to suspension from membership, to permanent expulsion. Since Competent Person status under JORC requires membership of a recognised professional body, expulsion effectively ends the person's ability to sign JORC reports. Professional bodies cannot criminally prosecute (that is ASIC's role), but the reputational and career consequences of disciplinary action are severe. The CP has a personal professional obligation independent of any corporate pressure to report accurately.",
     "key_concept": "CPs face personal professional sanctions up to expulsion, ending their ability to sign JORC reports",
     "source": "AusIMM Code of Ethics; JORC Code 2012, Clause 11",
@@ -141,12 +141,12 @@
     "domain": "jorc",
     "question": "The relationship between the ASX Listing Rules and the JORC Code is best described as:",
     "options": {
-      "A": "The JORC Code replaces the ASX Listing Rules for mining companies",
-      "B": "The ASX Listing Rules (Chapter 5) incorporate the JORC Code by reference — JORC provides the technical reporting standard and ASX provides the disclosure and compliance framework",
-      "C": "They are entirely independent and unrelated",
-      "D": "The JORC Code is only voluntary guidance, while ASX rules are mandatory"
+      "A": "The JORC Code is only voluntary guidance, while ASX rules are mandatory",
+      "B": "They are entirely independent and unrelated",
+      "C": "The ASX Listing Rules (Chapter 5) incorporate the JORC Code by reference — JORC provides the technical reporting standard and ASX provides the disclosure and compliance framework",
+      "D": "The JORC Code replaces the ASX Listing Rules for mining companies"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "ASX Listing Rules Chapter 5 incorporates the JORC Code by reference as the mandatory technical standard for reporting Exploration Results, Mineral Resources, and Ore Reserves. The JORC Code provides the technical content standards (what must be reported and how), while the ASX rules provide the disclosure framework (when it must be reported, continuous disclosure obligations, consequences of non-compliance). Together they form a two-layer system: JORC ensures technical quality and the ASX ensures market disclosure. A company cannot comply with one while ignoring the other — both are mandatory for ASX-listed mining entities.",
     "key_concept": "ASX Chapter 5 incorporates JORC by reference — technical standard + disclosure framework",
     "source": "ASX Listing Rules Chapter 5; JORC Code 2012",
@@ -158,12 +158,12 @@
     "domain": "jorc",
     "question": "Continuous disclosure obligations for ASX-listed mining companies require:",
     "options": {
-      "A": "Disclosure only in annual reports",
-      "B": "Immediate disclosure of any information that a reasonable person would expect to have a material effect on the price or value of the company's securities",
+      "A": "Immediate disclosure of any information that a reasonable person would expect to have a material effect on the price or value of the company's securities",
+      "B": "Monthly disclosure of all exploration activities",
       "C": "Disclosure only when the company is raising capital",
-      "D": "Monthly disclosure of all exploration activities"
+      "D": "Disclosure only in annual reports"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "ASX Listing Rule 3.1 requires immediate disclosure of any information that a reasonable person would expect to have a material effect on the price or value of the entity's securities. For mining companies, this includes significant exploration results, changes to Resource or Reserve estimates, material changes to project economics, loss of key tenements, and material operational issues. 'Immediately' means as soon as the entity becomes aware of the information. Failure to comply can result in ASX suspension, ASIC enforcement action, and potentially class action lawsuits from investors who traded without material information.",
     "key_concept": "Continuous disclosure requires immediate release of price-sensitive mining information",
     "source": "ASX Listing Rule 3.1; Corporations Act s674",
@@ -175,12 +175,12 @@
     "domain": "jorc",
     "question": "A mining company's quarterly activities report under ASX Listing Rule 5.3 must include:",
     "options": {
-      "A": "Only the company's cash position",
-      "B": "A summary of mining production, development activities, exploration results, and a comparison with previous quarters and targets",
+      "A": "Only significant exploration results",
+      "B": "Only the company's cash position",
       "C": "Only a narrative description of activities with no quantitative data",
-      "D": "Only significant exploration results"
+      "D": "A summary of mining production, development activities, exploration results, and a comparison with previous quarters and targets"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "ASX Listing Rule 5.3 requires mining entities to lodge quarterly activities reports that include: mining production and development activities with quantitative data, a summary of exploration activities and expenditure, details of any farm-in or farm-out agreements, and a comparison of actual performance against targets and previous quarters. The report must also include a cash flow statement (Appendix 5B). For mining producers, this includes production quantities, grades, and recovery rates. The quarterly report is a key continuous disclosure document that allows the market to track the company's operational performance and exploration progress between annual reports.",
     "key_concept": "Quarterly reports must cover production, development, exploration, and financials with quantitative data",
     "source": "ASX Listing Rule 5.3",
@@ -192,12 +192,12 @@
     "domain": "jorc",
     "question": "ASIC can take enforcement action against a mining company for misleading market reporting. The most severe consequence is:",
     "options": {
-      "A": "A warning letter",
-      "B": "Civil penalties, criminal prosecution of directors, and in extreme cases, company deregistration",
-      "C": "A requirement to re-issue the report",
+      "A": "Civil penalties, criminal prosecution of directors, and in extreme cases, company deregistration",
+      "B": "A requirement to re-issue the report",
+      "C": "A warning letter",
       "D": "A fine not exceeding $10,000"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "ASIC's enforcement powers under the Corporations Act are extensive. For misleading market reporting by mining entities, consequences can include: infringement notices and fines, civil penalty orders (substantial financial penalties), criminal prosecution of directors and officers under sections 1041E-1041H (misleading or deceptive conduct in relation to a financial product), court-ordered injunctions, enforceable undertakings, and in extreme cases, action to wind up the company. Individual directors can face personal liability including fines and imprisonment for the most serious offences. ASIC has increasingly focused on mining sector disclosure as a compliance priority.",
     "key_concept": "ASIC enforcement ranges from fines to criminal prosecution of directors for misleading mining reports",
     "source": "Corporations Act 2001, ss1041E-1041H; ASIC Regulatory Guide 111",
@@ -210,11 +210,11 @@
     "question": "A company publishes a scoping study with a production target and economic projections based on 70% Inferred Resources. Under RG 111, what specific disclosures are required?",
     "options": {
       "A": "No additional disclosures beyond the normal JORC requirements",
-      "B": "A prominent statement of the proportion of Inferred Resources, a caution that Inferred Resources are insufficient for Reserve conversion, and a statement that there is no certainty the targets will be achieved",
+      "B": "The scoping study must be withdrawn entirely",
       "C": "Only a footnote mentioning Inferred Resources",
-      "D": "The scoping study must be withdrawn entirely"
+      "D": "A prominent statement of the proportion of Inferred Resources, a caution that Inferred Resources are insufficient for Reserve conversion, and a statement that there is no certainty the targets will be achieved"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "RG 111 requires that where production targets include a material proportion of Inferred Resources, the announcement must include: (1) a prominent statement of the proportion of production target based on each Resource category, (2) a statement that Inferred Resources have insufficient geological confidence for Modifying Factors to be applied and are not convertible to Reserves, (3) a statement that there is no certainty the production target will be achieved, and (4) the statement must not be buried in footnotes but be given appropriate prominence. These requirements ensure investors understand the speculative nature of projections based on low-confidence resource categories.",
     "key_concept": "Inferred Resource-based production targets require prominent cautionary statements under RG 111",
     "source": "ASIC Regulatory Guide 111",
@@ -226,12 +226,12 @@
     "domain": "jorc",
     "question": "A junior explorer's announcement states: 'The company is confident it has discovered a world-class gold deposit.' The total data supporting this claim is three drill holes. This announcement most likely violates:",
     "options": {
-      "A": "Only the company's internal communications policy",
-      "B": "ASX Listing Rules (misleading disclosure), ASIC RG 111 (forward-looking statements without reasonable grounds), and JORC Code (materiality and transparency)",
-      "C": "Only the JORC Code",
-      "D": "No rules, as the company can express confidence"
+      "A": "ASX Listing Rules (misleading disclosure), ASIC RG 111 (forward-looking statements without reasonable grounds), and JORC Code (materiality and transparency)",
+      "B": "No rules, as the company can express confidence",
+      "C": "Only the company's internal communications policy",
+      "D": "Only the JORC Code"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "This announcement violates multiple regulatory frameworks. The ASX Listing Rules require that announcements not be misleading — three drill holes cannot support a 'world-class' characterisation. ASIC RG 111 requires reasonable grounds for forward-looking statements — three holes provide no basis for such a claim. The JORC Code's Materiality principle requires balanced reporting. The term 'world-class' has specific connotations in mining (typically deposits of exceptional size and grade) and using it based on three holes grossly overstates the data. The CP should not consent to such an announcement. This type of promotional language is a frequent cause of ASX query letters.",
     "key_concept": "Promotional language unsupported by adequate data violates ASX, ASIC, and JORC requirements simultaneously",
     "source": "ASX Listing Rules Chapter 5; ASIC RG 111; JORC Code 2012",
@@ -243,12 +243,12 @@
     "domain": "jorc",
     "question": "When the ASX issues a 'price query' or 'aware letter' to a mining company, it typically means:",
     "options": {
-      "A": "The ASX is complimenting the company's disclosure practices",
-      "B": "The ASX has noticed unusual trading activity (price or volume) and is asking whether the company has any undisclosed material information",
-      "C": "The company is being delisted",
+      "A": "The ASX has noticed unusual trading activity (price or volume) and is asking whether the company has any undisclosed material information",
+      "B": "The company is being delisted",
+      "C": "The ASX is complimenting the company's disclosure practices",
       "D": "The company must immediately halt all exploration activities"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "ASX price queries and aware letters are issued when the ASX monitoring team detects unusual trading patterns — significant price movements or volume spikes — that may indicate information leakage or undisclosed material information. The company must respond by either confirming it has no undisclosed material information, or by requesting a trading halt to prepare an announcement. Failure to respond adequately can result in suspension. For mining companies, price queries often follow exploration announcements (where selective leaking is suspected) or ahead of expected results. The query does not imply wrongdoing but requires the company to confirm its continuous disclosure compliance.",
     "key_concept": "ASX price queries investigate unusual trading and require confirmation of continuous disclosure compliance",
     "source": "ASX Listing Rule 3.1, 18.7A",
@@ -260,12 +260,12 @@
     "domain": "jorc",
     "question": "A company re-reports a historical Mineral Resource estimate originally prepared under the 2004 JORC Code. Under current ASX rules, what is required?",
     "options": {
-      "A": "The historical estimate can be reported without modification",
-      "B": "The historical estimate must be updated to comply with the 2012 JORC Code, or clearly identified as a historical estimate with specific cautionary statements",
-      "C": "Historical estimates from the 2004 Code are automatically grandfathered",
-      "D": "Only the tonnage can be reported, not the grade"
+      "A": "Only the tonnage can be reported, not the grade",
+      "B": "The historical estimate can be reported without modification",
+      "C": "The historical estimate must be updated to comply with the 2012 JORC Code, or clearly identified as a historical estimate with specific cautionary statements",
+      "D": "Historical estimates from the 2004 Code are automatically grandfathered"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "ASX Listing Rule 5.12 and GN31 require that Mineral Resource and Ore Reserve estimates comply with the current JORC Code (2012 edition). If a company wishes to reference a historical estimate that has not been updated, it must be clearly identified as a 'historical estimate' or 'foreign estimate' and accompanied by statements that: (1) the estimate was prepared under a previous code, (2) a Competent Person has not done sufficient work to classify the estimate under JORC 2012, (3) it is uncertain whether the estimate would remain valid under current requirements, and (4) the company's plans to verify or update the estimate. There is no automatic grandfathering.",
     "key_concept": "Historical estimates must be updated to JORC 2012 or flagged with specific cautionary statements",
     "source": "ASX Listing Rule 5.12; GN31",
@@ -277,12 +277,12 @@
     "domain": "jorc",
     "question": "Which of the following constitutes 'inadequate CP disclosure' — a common compliance failure?",
     "options": {
-      "A": "Naming the CP and listing their qualifications",
-      "B": "Failing to identify the Competent Person, their qualifications, relevant experience, professional membership, and their relationship to the issuer",
+      "A": "Failing to identify the Competent Person, their qualifications, relevant experience, professional membership, and their relationship to the issuer",
+      "B": "Identifying the CP but not their shoe size",
       "C": "Providing too much detail about the CP's experience",
-      "D": "Identifying the CP but not their shoe size"
+      "D": "Naming the CP and listing their qualifications"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "ASX Listing Rules and the JORC Code require that the Competent Person be identified by name, with their qualifications, relevant experience for the specific mineralisation type, professional body membership, and their relationship to the issuing company (employee, consultant, independent). Common failures include: not naming the CP at all, naming the CP but not disclosing qualifications or experience, not stating the professional body membership, and not disclosing whether the CP is an employee or consultant of the company. Full CP disclosure allows readers to assess the competence and independence of the person behind the technical work.",
     "key_concept": "Full CP disclosure requires name, qualifications, experience, professional membership, and company relationship",
     "source": "JORC Code 2012, Clause 11; ASX Listing Rule 5.22",
@@ -295,11 +295,11 @@
     "question": "Under ASX Listing Rules, a mining company that has been suspended for failing to comply with Chapter 5 requirements faces what ultimate consequence if compliance is not achieved?",
     "options": {
       "A": "An unlimited period of suspension with no further consequences",
-      "B": "Removal from the official list (delisting) if the company remains non-compliant after the ASX's requirements are not met within the specified timeframe",
-      "C": "Automatic transfer to another exchange",
-      "D": "Reduction of the company's share price by the ASX"
+      "B": "Reduction of the company's share price by the ASX",
+      "C": "Removal from the official list (delisting) if the company remains non-compliant after the ASX's requirements are not met within the specified timeframe",
+      "D": "Automatic transfer to another exchange"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "If a mining company is suspended for non-compliance with Chapter 5 requirements and fails to rectify the situation within the timeframe specified by the ASX (typically 6-12 months, but at ASX discretion), the ASX can remove the entity from the official list (delist the company). This is the most severe market consequence — delisted companies lose access to public equity markets, their shares become illiquid, and the company's ability to raise capital is severely impaired. The path typically follows: ASX query → suspension → compliance requirements → delisting if non-compliant. The ASX does not set share prices — these are determined by market trading.",
     "key_concept": "Persistent Chapter 5 non-compliance can lead to ASX suspension and ultimately delisting",
     "source": "ASX Listing Rule 17.3",
@@ -311,12 +311,12 @@
     "domain": "jorc",
     "question": "A company director instructs the Competent Person to exclude unfavourable metallurgical test results from the public report. The CP complies. Who bears responsibility?",
     "options": {
-      "A": "Only the director",
-      "B": "Only the Competent Person",
-      "C": "Both the director and the Competent Person — the director for directing misleading disclosure, and the CP for breaching their professional obligation of independent reporting",
+      "A": "Only the Competent Person",
+      "B": "Both the director and the Competent Person — the director for directing misleading disclosure, and the CP for breaching their professional obligation of independent reporting",
+      "C": "Only the director",
       "D": "Neither — the company entity alone is responsible"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Both parties bear responsibility. The director is liable under the Corporations Act for directing misleading disclosure and potentially for breaching their duty of care under section 180. ASIC can pursue civil penalties or criminal charges against directors who direct misleading reporting. The Competent Person is independently liable under their professional code of ethics (AusIMM/AIG) for failing to report material information — the CP's obligation is to the investing public, not to the company's management. The CP should have refused the instruction and, if necessary, withdrawn consent to the report. The JORC Code (Clause 11) specifically requires CPs to act with integrity and disclose all material information.",
     "key_concept": "Both directors and CPs bear personal liability — the CP's professional duty overrides management instructions",
     "source": "JORC Code 2012, Clause 11; Corporations Act s180, s1041E",
@@ -328,10 +328,10 @@
     "domain": "jorc",
     "question": "A company includes the following statement in an ASX announcement: 'The deposit contains 2 million ounces of gold.' No Resource classification is provided. This statement is non-compliant because:",
     "options": {
-      "A": "The ounce figure should be in metric tonnes",
+      "A": "The statement should include the gold price",
       "B": "Mineral Resources must be reported by classification category (Measured, Indicated, Inferred) — an unclassified statement of contained metal is misleading",
-      "C": "Only kilograms can be used under JORC",
-      "D": "The statement should include the gold price"
+      "C": "The ounce figure should be in metric tonnes",
+      "D": "Only kilograms can be used under JORC"
     },
     "correct": "B",
     "explanation": "ASX Listing Rules Chapter 5 and the JORC Code require that Mineral Resources be reported by classification category (Measured, Indicated, Inferred) with associated tonnes and grade. Reporting only a total contained metal figure without classification conceals the confidence level — 2 million ounces that is 90% Measured is fundamentally different from 2 million ounces that is 90% Inferred. Investors cannot assess the reliability of the estimate without classification. This is a common compliance failure that the ASX actively monitors and queries. The announcement must break down the figure into its component classifications.",
@@ -345,12 +345,12 @@
     "domain": "jorc",
     "question": "Under GN31, when a company reports exploration results that include a JORC Table 1, the Table 1 must:",
     "options": {
-      "A": "Be included in a separate document that only institutional investors can access",
-      "B": "Be lodged with the ASX announcement and address all relevant criteria, with explanations where criteria are not applicable",
-      "C": "Be submitted only to the ASX, not included in the public announcement",
-      "D": "Only cover the criteria the Competent Person considers relevant"
+      "A": "Be lodged with the ASX announcement and address all relevant criteria, with explanations where criteria are not applicable",
+      "B": "Be included in a separate document that only institutional investors can access",
+      "C": "Only cover the criteria the Competent Person considers relevant",
+      "D": "Be submitted only to the ASX, not included in the public announcement"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "GN31 requires that the JORC Table 1 be included as part of the ASX announcement and be publicly accessible. All criteria in the relevant section of Table 1 must be addressed — where a criterion is not applicable, the CP must explain why it is not relevant rather than simply leaving it blank. This prevents companies from avoiding disclosure by claiming inapplicability without justification. The Table 1 is not a private regulatory document — it is a public transparency tool that allows all investors (not just institutional investors) to assess the quality and reliability of the reported results.",
     "key_concept": "Table 1 must be public, lodged with the announcement, and address all criteria with explanations",
     "source": "ASX Guidance Note 31",
@@ -379,12 +379,12 @@
     "domain": "jorc",
     "question": "Which of the following is NOT a valid reason for the ASX to impose a trading halt on a mining company?",
     "options": {
-      "A": "The company is about to release a significant Resource upgrade",
-      "B": "The company has requested a halt to prepare a market-sensitive announcement",
-      "C": "The company's exploration geologist has taken annual leave",
-      "D": "The company has failed to respond to an ASX price query"
+      "A": "The company has requested a halt to prepare a market-sensitive announcement",
+      "B": "The company is about to release a significant Resource upgrade",
+      "C": "The company has failed to respond to an ASX price query",
+      "D": "The company's exploration geologist has taken annual leave"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Trading halts are imposed for material, price-sensitive events. A significant Resource upgrade (A) may trigger a halt if the company needs time to prepare the announcement. A company may request a halt (B) to ensure orderly disclosure of material information. Failure to respond to a price query (D) can result in the ASX imposing a suspension. However, a staff member's annual leave (C) is a routine operational matter that does not affect the company's securities or disclosure obligations. The test for a trading halt is always whether there is material price-sensitive information that requires managed disclosure.",
     "key_concept": "Trading halts require material price-sensitive events — routine operations do not qualify",
     "source": "ASX Listing Rules, Rules 17.1-17.2",
@@ -396,12 +396,12 @@
     "domain": "jorc",
     "question": "A mining company CEO asks: 'Can we report our Inferred Resources as Indicated to make our upcoming capital raise more attractive?' Under the compliance framework, this request is:",
     "options": {
-      "A": "Acceptable if the CP agrees",
-      "B": "A serious compliance breach — deliberate over-classification of Resources is misleading conduct that can result in ASIC prosecution, ASX sanctions, and CP disciplinary action",
-      "C": "Acceptable if disclosed in a footnote",
-      "D": "Only a problem if the company is in the ASX 300"
+      "A": "Only a problem if the company is in the ASX 300",
+      "B": "Acceptable if the CP agrees",
+      "C": "A serious compliance breach — deliberate over-classification of Resources is misleading conduct that can result in ASIC prosecution, ASX sanctions, and CP disciplinary action",
+      "D": "Acceptable if disclosed in a footnote"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Deliberately over-classifying Resources is one of the most serious compliance breaches in mining reporting. It constitutes misleading conduct under the Corporations Act (s1041E), breaches ASX Listing Rules Chapter 5, violates the JORC Code's Competence and Transparency principles, and if the CP complies, breaches their professional ethics. If done to influence a capital raise, it may also constitute securities fraud. The consequences include: ASIC civil and criminal penalties for directors, ASX suspension, CP disciplinary action including potential expulsion from their professional body, and potential class action by investors who relied on the misclassified resource. The CP must refuse this request.",
     "key_concept": "Deliberate over-classification is securities fraud — it triggers ASIC prosecution, ASX sanctions, and CP discipline",
     "source": "Corporations Act s1041E; JORC Code 2012; ASX Listing Rules Chapter 5",
@@ -414,11 +414,11 @@
     "question": "Under the compliance framework, what is the key difference between how ASIC and the ASX enforce mining reporting standards?",
     "options": {
       "A": "There is no difference — they perform identical roles",
-      "B": "The ASX enforces Listing Rules through market oversight (queries, halts, suspension, delisting), while ASIC enforces the Corporations Act through civil penalties, criminal prosecution, and regulatory action",
-      "C": "ASIC enforces the Listing Rules and the ASX enforces the Corporations Act",
+      "B": "ASIC enforces the Listing Rules and the ASX enforces the Corporations Act",
+      "C": "The ASX enforces Listing Rules through market oversight (queries, halts, suspension, delisting), while ASIC enforces the Corporations Act through civil penalties, criminal prosecution, and regulatory action",
       "D": "Only ASIC has enforcement powers; the ASX has no enforcement capability"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The enforcement system has two complementary layers. The ASX operates as the market supervisor — it monitors announcements and trading, issues query letters, can halt or suspend trading, and ultimately delist non-compliant companies. Its powers are administrative and market-focused. ASIC operates as the securities regulator — it investigates potential breaches of the Corporations Act, can issue infringement notices, bring civil penalty proceedings, and refer matters for criminal prosecution. ASIC can also take action against individuals (directors, CPs) whereas the ASX primarily deals with the listed entity. Both may act on the same matter — an ASX suspension may trigger an ASIC investigation.",
     "key_concept": "ASX enforces market rules (halt/suspend/delist); ASIC enforces law (penalties/prosecution)",
     "source": "ASX Listing Rules; Corporations Act 2001; ASIC Act 2001",
@@ -430,12 +430,12 @@
     "domain": "jorc",
     "question": "A company references exploration results from a neighbouring tenement held by a different company. Under ASX rules, this reference must:",
     "options": {
-      "A": "Include the full JORC Table 1 for the neighbouring tenement",
-      "B": "Clearly identify the source, state that the company has not independently verified the information, and include a cautionary statement that the results may not be indicative of mineralisation on the company's tenement",
-      "C": "Be approved by the neighbouring company's CP",
+      "A": "Be approved by the neighbouring company's CP",
+      "B": "Include the full JORC Table 1 for the neighbouring tenement",
+      "C": "Clearly identify the source, state that the company has not independently verified the information, and include a cautionary statement that the results may not be indicative of mineralisation on the company's tenement",
       "D": "Not be included under any circumstances"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "GN31 allows companies to reference third-party exploration results for context, but requires strict disclosure: the source must be clearly identified, the company must state it has not independently verified the data, and a cautionary statement must be included noting that results on neighbouring tenements may not be indicative of mineralisation on the company's own ground. This prevents companies from using high-profile neighbouring results to promote their own tenements by association. Geological continuity across tenement boundaries cannot be assumed without the company's own data. The reference must not be presented in a misleading way that implies the company's tenement shares the same mineralisation.",
     "key_concept": "Third-party results require source identification, non-verification disclosure, and cautionary statements",
     "source": "ASX Guidance Note 31",
@@ -447,12 +447,12 @@
     "domain": "jorc",
     "question": "Under ASX Listing Rule 5.8, a company that has previously reported a Mineral Resource or Ore Reserve estimate must provide an update on that estimate:",
     "options": {
-      "A": "Only when the estimate changes by more than 20%",
-      "B": "Annually, within the company's annual report or as a standalone ASX announcement, confirming the estimate remains current or providing a revised estimate",
-      "C": "Every three years, or when the company commences production",
-      "D": "Only when requested by the ASX in a query letter"
+      "A": "Every three years, or when the company commences production",
+      "B": "Only when the estimate changes by more than 20%",
+      "C": "Only when requested by the ASX in a query letter",
+      "D": "Annually, within the company's annual report or as a standalone ASX announcement, confirming the estimate remains current or providing a revised estimate"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "ASX Listing Rule 5.8 imposes a mandatory annual update obligation on companies that hold Mineral Resource or Ore Reserve estimates. The company must either confirm that the previously reported estimate remains current and has not materially changed, or provide a new JORC-compliant estimate. This annual affirmation requirement is separate from the obligation to report material changes on an immediate basis under the continuous disclosure rules. Its purpose is to prevent companies from 'sitting on' stale resource estimates that may have become outdated due to new drilling, changed assumptions, or price movements. The update must be lodged with the ASX and must reference the Competent Person responsible.",
     "key_concept": "ASX Listing Rule 5.8 requires annual affirmation or update of all Mineral Resource and Ore Reserve estimates",
     "source": "ASX Listing Rules, Rule 5.8; ASX Guidance Note 31",
@@ -464,12 +464,12 @@
     "domain": "jorc",
     "question": "A company preparing an asset valuation for an acquisition announcement includes its Mineral Resources at 100% of their in-situ value without any modifying factor adjustments. An ASIC compliance reviewer would be concerned because:",
     "options": {
-      "A": "Resources can only be valued using the comparable transactions method",
-      "B": "Inferred and Indicated Resources carry higher geological uncertainty than Reserves, and valuing them at 100% of in-situ value without applying appropriate risk or conversion discounts may create a misleading impression of asset value",
-      "C": "Mineral Resources cannot be included in valuation disclosures under any circumstances",
-      "D": "Only a registered mining valuer can include Resources in a valuation"
+      "A": "Mineral Resources cannot be included in valuation disclosures under any circumstances",
+      "B": "Only a registered mining valuer can include Resources in a valuation",
+      "C": "Resources can only be valued using the comparable transactions method",
+      "D": "Inferred and Indicated Resources carry higher geological uncertainty than Reserves, and valuing them at 100% of in-situ value without applying appropriate risk or conversion discounts may create a misleading impression of asset value"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Mineral Resources — particularly Inferred Resources — carry significant geological and economic uncertainty. Unlike Ore Reserves, they have not been assessed against Modifying Factors and do not have demonstrated economic viability. Using 100% of in-situ metal value for Resources in a company valuation without risk-weighting or conversion discounts overstates the economic worth of the asset. ASIC RG 111 requires that forward-looking statements and financial forecasts have reasonable grounds, and using Resources as if they were equivalent to Reserves fails this test. Industry-accepted valuation methods for Resources (e.g., discounted cash flow with probability adjustments, comparable transactions, or the yardstick method) inherently apply significant discounts to account for technical and economic uncertainty. Including Resources at face value in investor-facing valuations is misleading.",
     "key_concept": "Resources require risk-weighted or discounted valuations — treating them as equivalent to Reserves is misleading",
     "source": "ASIC RG 111; JORC Code 2012, Clause 20; VALMIN Code 2015",
@@ -481,12 +481,12 @@
     "domain": "jorc",
     "question": "An Australian mining company is dual-listed on both the ASX and the Toronto Stock Exchange (TSX). When releasing a new Mineral Resource estimate, which of the following best describes its disclosure obligations?",
     "options": {
-      "A": "The company must choose one exchange's reporting standard and apply it exclusively",
-      "B": "The company must comply with ASX Listing Rules and the JORC Code for its ASX disclosure, and simultaneously comply with TSX and NI 43-101 requirements for its Canadian disclosure — both must be filed simultaneously or in immediate sequence",
-      "C": "The TSX standard (NI 43-101) automatically satisfies ASX Chapter 5 requirements",
-      "D": "Only the home exchange standard is required; the secondary exchange accepts the home standard automatically"
+      "A": "Only the home exchange standard is required; the secondary exchange accepts the home standard automatically",
+      "B": "The TSX standard (NI 43-101) automatically satisfies ASX Chapter 5 requirements",
+      "C": "The company must choose one exchange's reporting standard and apply it exclusively",
+      "D": "The company must comply with ASX Listing Rules and the JORC Code for its ASX disclosure, and simultaneously comply with TSX and NI 43-101 requirements for its Canadian disclosure — both must be filed simultaneously or in immediate sequence"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "A dual-listed company bears the full compliance obligations of both exchanges independently. The ASX requires JORC Code compliance with a Competent Person consent statement and Table 1 checklist under Chapter 5 and GN31. The TSX requires NI 43-101 compliance with a Qualified Person (QP) sign-off. These standards have important differences: NI 43-101 requires a full Technical Report in certain circumstances, uses different resource classification thresholds, and has distinct disclosure trigger rules. The ASX's continuous disclosure rules mean that any material information released to the TSX must be simultaneously or immediately released to the ASX as well, to avoid information asymmetry between investor markets. The company must manage both sets of obligations concurrently, often using a dual-format announcement or addendum.",
     "key_concept": "Dual-listed companies must satisfy both exchanges' standards independently and simultaneously under continuous disclosure",
     "source": "ASX Listing Rules Chapter 5, Rule 15.7; NI 43-101; ASX Guidance Note 31",
@@ -498,12 +498,12 @@
     "domain": "jorc",
     "question": "A company is dual-listed on the ASX and TSX. Its NI 43-101 Technical Report uses slightly different classification criteria, resulting in the same deposit being reported as 'Measured' under NI 43-101 but only 'Indicated' under JORC. How should the company handle this in its ASX announcement?",
     "options": {
-      "A": "Use the higher NI 43-101 classification for the ASX announcement as it is more favourable",
-      "B": "Use only the JORC classification in the ASX announcement, clearly noting that the NI 43-101 Technical Report for TSX purposes reports the same deposit differently, and include a reconciliation table explaining the classification difference",
-      "C": "Omit the TSX classification entirely from the ASX announcement",
-      "D": "Use an average of the two classifications"
+      "A": "Omit the TSX classification entirely from the ASX announcement",
+      "B": "Use the higher NI 43-101 classification for the ASX announcement as it is more favourable",
+      "C": "Use an average of the two classifications",
+      "D": "Use only the JORC classification in the ASX announcement, clearly noting that the NI 43-101 Technical Report for TSX purposes reports the same deposit differently, and include a reconciliation table explaining the classification difference"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "ASX Listing Rules and GN31 are unequivocal: any resource or reserve estimate reported on the ASX must comply with the JORC Code. The ASX does not recognise NI 43-101 classifications as equivalent to JORC classifications. The company cannot 'upgrade' its JORC Indicated Resource to Measured simply because the NI 43-101 Qualified Person classified it as Measured. The appropriate approach is to present the JORC-compliant classification in the ASX announcement (Indicated) and separately note — in a transparent reconciliation — that the TSX-facing NI 43-101 Technical Report classifies the same material differently, along with a brief explanation of why (e.g., different confidence thresholds, additional drilling taken into account under NI 43-101 criteria). This transparency prevents investor confusion and avoids implied misrepresentation by omission.",
     "key_concept": "ASX announcements must use JORC classifications; NI 43-101 differences must be disclosed with reconciliation",
     "source": "ASX Listing Rules Chapter 5; ASX Guidance Note 31; NI 43-101 Section 1.1",
@@ -516,9 +516,9 @@
     "question": "Under ASIC RG 111, the 'reasonable grounds' test for a production target that includes Inferred Resources requires the company to demonstrate:",
     "options": {
       "A": "That the Inferred Resources are geologically plausible, that they are explicitly identified and quantified in the announcement, that sensitivity analysis has been performed, and that a cautionary statement acknowledging the higher uncertainty of Inferred material is included",
-      "B": "Simply that a Competent Person has signed off on the production target",
-      "C": "That the deposit has at least 10 years of mine life",
-      "D": "That a feasibility study has been completed for the Inferred component"
+      "B": "That the deposit has at least 10 years of mine life",
+      "C": "That a feasibility study has been completed for the Inferred component",
+      "D": "Simply that a Competent Person has signed off on the production target"
     },
     "correct": "A",
     "explanation": "ASIC RG 111.69–111.73 sets out a detailed reasonable grounds test for production targets that incorporate Inferred Resources. The company must: (1) clearly identify the proportion of the production target derived from Inferred Resources versus Reserves and higher-confidence Resources; (2) explain the geological basis for including the Inferred material (e.g., drill pattern consistency, structural continuity); (3) provide sensitivity analysis showing what the production target looks like if the Inferred material does not convert to Reserves; and (4) include a prominent cautionary statement warning investors that there is no guarantee the Inferred Resources will convert to higher-confidence categories. Simply having a CP sign off does not satisfy these requirements — the CP's consent relates to the technical accuracy of the estimate, not the reasonableness of the forward-looking projection derived from it.",
@@ -532,12 +532,12 @@
     "domain": "jorc",
     "question": "A mining company announces a production forecast of 150,000 oz gold per year for 10 years, derived entirely from its Ore Reserves. Under ASIC RG 111, what additional disclosure is required?",
     "options": {
-      "A": "No additional disclosure is required because the target is based entirely on Ore Reserves",
-      "B": "The announcement must state the basis for the forecast (i.e., that it is Reserve-based), identify the key assumptions underpinning the production forecast (mining method, recovery rates, gold price used), and include a statement that actual production may differ from forecasts",
-      "C": "The announcement must obtain ASIC pre-approval before release",
-      "D": "The forecast must be limited to a maximum of three years when lodged on the ASX"
+      "A": "The forecast must be limited to a maximum of three years when lodged on the ASX",
+      "B": "The announcement must obtain ASIC pre-approval before release",
+      "C": "The announcement must state the basis for the forecast (i.e., that it is Reserve-based), identify the key assumptions underpinning the production forecast (mining method, recovery rates, gold price used), and include a statement that actual production may differ from forecasts",
+      "D": "No additional disclosure is required because the target is based entirely on Ore Reserves"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Even when a production target is based entirely on Ore Reserves — which are already subject to Modifying Factors and economic assessment — ASIC RG 111 still requires disclosure of the material assumptions underpinning the forecast. This is because the production forecast is a forward-looking statement subject to s728 of the Corporations Act, and investors are entitled to understand the key variables that could cause actual production to differ. Required disclosures include: the gold price assumption, the processing recovery rate, the mining dilution factor, the method used (underground vs open pit), and any assumptions about processing capacity ramp-up. A standard 'forward-looking statements may differ from actuals' caveat is also required. This disclosure framework gives investors the ability to assess and stress-test the forecast themselves.",
     "key_concept": "Reserve-based production forecasts still require disclosure of material assumptions and forward-looking caveats under RG 111",
     "source": "ASIC RG 111; Corporations Act s728",
@@ -549,12 +549,12 @@
     "domain": "jorc",
     "question": "Under ASX continuous disclosure rules (Listing Rule 3.1), a company whose Mineral Resource estimate has materially decreased due to revised geological modelling must:",
     "options": {
-      "A": "Wait until the annual report to disclose the revision, as it is a technical matter not subject to continuous disclosure",
-      "B": "Immediately notify the ASX of the material change and release a revised JORC-compliant resource estimate with full Table 1 disclosure and Competent Person consent",
-      "C": "Only disclose the revision if the company has active capital market activity such as a capital raise",
+      "A": "Immediately notify the ASX of the material change and release a revised JORC-compliant resource estimate with full Table 1 disclosure and Competent Person consent",
+      "B": "Only disclose the revision if the company has active capital market activity such as a capital raise",
+      "C": "Wait until the annual report to disclose the revision, as it is a technical matter not subject to continuous disclosure",
       "D": "Disclose the revision in the next quarterly activities report"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "A material decrease in a Mineral Resource estimate is unambiguously price-sensitive information that must be disclosed immediately under ASX Listing Rule 3.1. Listing Rule 3.1 requires disclosure of information that a reasonable person would expect to have a material effect on the price or value of securities. A significant reduction in resource tonnage or grade directly affects the company's fundamental asset base, its ability to execute its business plan, and its attractiveness to investors. Deferring disclosure to a quarterly report or annual report would constitute a continuous disclosure breach, exposing the company and its directors to ASIC enforcement action. The revised estimate must meet all JORC Code requirements, including a new Table 1 and fresh CP consent, as the estimate has materially changed.",
     "key_concept": "Material Resource estimate reductions trigger immediate ASX continuous disclosure obligations under Listing Rule 3.1",
     "source": "ASX Listing Rules, Rule 3.1; ASX Guidance Note 8; JORC Code 2012",
@@ -566,12 +566,12 @@
     "domain": "jorc",
     "question": "A company's geologist discovers a high-grade gold intercept while processing assay data on a Friday afternoon. The assay data has not yet been publicly released. The geologist purchases 50,000 company shares before the market closes. This conduct constitutes:",
     "options": {
-      "A": "Acceptable personal investment since the geologist works for the company",
-      "B": "Insider trading under Part 7.10 of the Corporations Act — the geologist holds material non-public price-sensitive information and used it to trade",
-      "C": "A minor disclosure irregularity that can be remedied by retrospective disclosure",
+      "A": "Insider trading under Part 7.10 of the Corporations Act — the geologist holds material non-public price-sensitive information and used it to trade",
+      "B": "A minor disclosure irregularity that can be remedied by retrospective disclosure",
+      "C": "Acceptable personal investment since the geologist works for the company",
       "D": "Only problematic if the CEO was also aware of the results"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "This is a textbook insider trading scenario under Part 7.10 of the Corporations Act (ss1042A–1043A). The geologist is an 'insider' — they are connected to the issuer and possess information that is: (1) not generally available (it has not been released to the market); (2) material and price-sensitive (a high-grade gold intercept can significantly re-rate a junior miner); and (3) specific (a concrete assay result, not general industry knowledge). Trading on this information before it is publicly released constitutes insider trading regardless of the geologist's employment status. The offence applies to any person who possesses the information — not just senior management. Penalties include criminal prosecution (up to 15 years imprisonment), civil penalties, and disgorgement of profits. Companies should have clear insider trading policies and blackout periods around material exploration results.",
     "key_concept": "Unreleased exploration assay results constitute material non-public information — trading on them is insider trading under Part 7.10",
     "source": "Corporations Act 2001, ss1042A, 1043A; Part 7.10",
@@ -583,12 +583,12 @@
     "domain": "jorc",
     "question": "A Competent Person is asked to sign off on a Resource estimate for a company in which they hold 200,000 shares. Under the JORC Code and professional ethics requirements, which of the following is correct?",
     "options": {
-      "A": "Share ownership of any amount disqualifies a CP from signing off on a Resource estimate",
-      "B": "The CP must disclose their shareholding in the announcement; the company's board must assess whether the holding creates a material conflict of interest; if a conflict exists, an independent CP should be engaged",
-      "C": "Share ownership by a CP is specifically permitted under the JORC Code as it aligns their interests with shareholders",
-      "D": "A CP can hold shares provided they are sold within 30 days of signing the announcement"
+      "A": "The CP must disclose their shareholding in the announcement; the company's board must assess whether the holding creates a material conflict of interest; if a conflict exists, an independent CP should be engaged",
+      "B": "Share ownership by a CP is specifically permitted under the JORC Code as it aligns their interests with shareholders",
+      "C": "A CP can hold shares provided they are sold within 30 days of signing the announcement",
+      "D": "Share ownership of any amount disqualifies a CP from signing off on a Resource estimate"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The JORC Code requires Competent Persons to be independent and impartial. While share ownership does not automatically disqualify a CP, it creates a potential conflict of interest that must be managed transparently. GN31 and the JORC Code require the CP's material interests (including shareholdings) to be disclosed in the announcement so investors can assess the independence of the estimate. Where a significant shareholding could materially bias the CP's judgement — for example, where the CP's financial wellbeing is significantly tied to the company's share price — the board should engage an independent third-party CP to provide the estimate. For small share parcels, disclosure is typically sufficient. The professional obligation is on both the CP (to self-assess and disclose) and the company (to verify independence). This is governed by both the JORC Code and the professional ethics codes of AUSIMM and AIG.",
     "key_concept": "CP shareholdings must be disclosed; material conflicts require engagement of an independent CP",
     "source": "JORC Code 2012, Section 1 (Competent Person definition); ASX Guidance Note 31; AUSIMM Code of Ethics",
@@ -600,12 +600,12 @@
     "domain": "jorc",
     "question": "An ASX-listed mining company holds a foreign resource estimate prepared under PERC (the Pan-European standard) for a project in Eastern Europe. It wishes to include this estimate in an ASX market announcement. Under ASX Listing Rules, this estimate:",
     "options": {
-      "A": "Can be reported as-is, since PERC is an internationally recognised standard",
-      "B": "Must be converted to JORC 2012 compliance by a JORC-qualified Competent Person before it can be reported as a Mineral Resource in an ASX announcement; alternatively, it can be reported as a 'foreign estimate' with extensive cautionary disclosure",
+      "A": "Cannot be reported on the ASX under any circumstances",
+      "B": "Can be reported as-is, since PERC is an internationally recognised standard",
       "C": "Can be reported using the PERC classification categories, provided a footnote explains the difference",
-      "D": "Cannot be reported on the ASX under any circumstances"
+      "D": "Must be converted to JORC 2012 compliance by a JORC-qualified Competent Person before it can be reported as a Mineral Resource in an ASX announcement; alternatively, it can be reported as a 'foreign estimate' with extensive cautionary disclosure"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "ASX Listing Rule 5.7 and GN31 are clear that ASX announcements must use JORC 2012 as the reporting standard for Mineral Resources and Ore Reserves. Estimates prepared under non-JORC international standards (such as PERC, SAMREC, NI 43-101, or CIM) are not automatically ASX-compliant, even though these standards share common origins through the CRIRSCO template. To report the estimate as a JORC Mineral Resource, a qualified Australian CP (or equivalent as recognised by JORC) must review and re-certify the estimate under the JORC framework. If the company wishes to reference the foreign estimate without converting it, it must be reported as a 'foreign estimate' under ASX Listing Rule 5.10, with prominent disclosure that the estimate was not prepared under the JORC Code, that the estimate has not been independently verified, and a cautionary statement advising investors not to rely on the estimate as a JORC-compliant resource.",
     "key_concept": "Non-JORC foreign estimates must be either converted by a CP or disclosed as foreign estimates with cautionary statements under ASX Rule 5.10",
     "source": "ASX Listing Rules, Rules 5.7, 5.10; ASX Guidance Note 31",
@@ -617,12 +617,12 @@
     "domain": "jorc",
     "question": "A junior mining company is lodging a prospectus for its Initial Public Offering (IPO) on the ASX. The prospectus includes an Exploration Target (not a JORC Mineral Resource) as a key value proposition. Under Corporations Act and ASX prospectus requirements, which of the following must be included?",
     "options": {
-      "A": "The Exploration Target must be converted to a JORC Resource before the IPO",
-      "B": "The Exploration Target must be presented as a range of tonnage and grade, must state clearly that it is conceptual in nature and that insufficient exploration has been conducted to estimate a Mineral Resource, must include a cautionary statement that there is no certainty the target will be confirmed by future exploration, and must be reviewed by the CP named in the prospectus",
-      "C": "Exploration Targets can be presented without restriction in prospectuses as they are not subject to JORC requirements",
-      "D": "The Exploration Target must be independently verified by a second CP before being included in a prospectus"
+      "A": "The Exploration Target must be independently verified by a second CP before being included in a prospectus",
+      "B": "Exploration Targets can be presented without restriction in prospectuses as they are not subject to JORC requirements",
+      "C": "The Exploration Target must be converted to a JORC Resource before the IPO",
+      "D": "The Exploration Target must be presented as a range of tonnage and grade, must state clearly that it is conceptual in nature and that insufficient exploration has been conducted to estimate a Mineral Resource, must include a cautionary statement that there is no certainty the target will be confirmed by future exploration, and must be reviewed by the CP named in the prospectus"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "JORC 2012 Clause 17 and ASX Listing Rule 5.9 govern the reporting of Exploration Targets. An Exploration Target is a conceptual range of potential mineralisation quantity and grade, and must be presented as a range (not a single number), must explicitly state it is conceptual in nature and that insufficient exploration has been done to estimate a Mineral Resource, and must include a mandatory JORC cautionary statement. In a prospectus context, the Corporations Act s728 overlay requires that all forward-looking statements have reasonable grounds — which means the geological basis for the Exploration Target range must be disclosed and substantiated. Prospectuses receive heightened scrutiny because they are used to raise funds from retail investors who may give significant weight to exploration potential. Including an unsupported Exploration Target in a prospectus could constitute misleading or deceptive conduct. The CP named in the prospectus must take responsibility for the geological statements relating to the target.",
     "key_concept": "Prospectus Exploration Targets require range presentation, conceptual nature disclosure, cautionary statements, and CP responsibility",
     "source": "JORC Code 2012, Clause 17; ASX Listing Rules, Rule 5.9; Corporations Act s728",
@@ -634,10 +634,10 @@
     "domain": "jorc",
     "question": "Company A is acquiring Company B using an all-scrip (share-for-share) exchange. Company A's target consideration is based partly on Company B's Mineral Resource estimate. An independent expert report is required for the transaction. What are the specific JORC compliance obligations in this context?",
     "options": {
-      "A": "No special JORC obligations apply to scrip-based acquisitions",
+      "A": "The transaction only requires JORC compliance if Company B is ASX-listed",
       "B": "The independent expert must assess Company B's Resources under JORC 2012, and if the existing estimate is not JORC-compliant or is outdated, a new CP-certified estimate must be obtained; all resource assumptions underpinning the valuation must be disclosed in the scheme booklet or bidder's statement",
-      "C": "The acquiring company's CP can re-classify Company B's Resources without independent verification",
-      "D": "The transaction only requires JORC compliance if Company B is ASX-listed"
+      "C": "No special JORC obligations apply to scrip-based acquisitions",
+      "D": "The acquiring company's CP can re-classify Company B's Resources without independent verification"
     },
     "correct": "B",
     "explanation": "Scrip-based acquisitions require Company A to issue a bidder's statement (for a takeover) or a scheme booklet (for a scheme of arrangement), both of which are disclosure documents subject to the Corporations Act. If Company B's Mineral Resources are a material component of the transaction value, the independent expert must apply JORC 2012 standards to assess those resources. If the existing estimates are stale, non-compliant, or under a non-JORC standard, a fresh CP-certified estimate is required. The VALMIN Code governs the independent valuation of mineral assets in these transactions and requires that any Mineral Resource underpinning a valuation be JORC 2012 compliant. All material resource assumptions (cut-off grade, classification rationale, modifying factors) must be disclosed in the transaction document. Investors in Company A are being asked to approve the issue of new shares, and they are entitled to understand the quality of the resource assets they are acquiring.",
@@ -651,10 +651,10 @@
     "domain": "jorc",
     "question": "A mining company presents new exploration results at an investor conference. The presentation includes drill results not yet lodged with the ASX. Under ASX continuous disclosure rules, this conduct:",
     "options": {
-      "A": "Is acceptable because investor conferences are informal settings not subject to ASX rules",
+      "A": "Is only a problem if the information is also posted on the company website",
       "B": "Is a serious breach of Listing Rule 3.1 — material information disclosed to a selected audience at a conference must be simultaneously or immediately lodged with the ASX to prevent selective disclosure",
       "C": "Is acceptable if the presentation is marked 'confidential'",
-      "D": "Is only a problem if the information is also posted on the company website"
+      "D": "Is acceptable because investor conferences are informal settings not subject to ASX rules"
     },
     "correct": "B",
     "explanation": "ASX Listing Rule 3.1 prohibits selective disclosure — disclosing material price-sensitive information to a select audience (even at a conference) before it is made available to all market participants simultaneously. Drill results from a mining company can be highly material and price-sensitive. GN31 and ASX Guidance Note 8 both confirm that presentations at conferences, roadshows, or investor days that include new material information must be lodged simultaneously with the ASX (via the Announcements Platform) to ensure equal access by all market participants. Marking a presentation 'confidential' has no legal effect on ASX disclosure obligations. The rule applies regardless of whether the conference is formal or informal, or how many people are in the room. The company's market disclosure officer bears primary responsibility for ensuring all material presentations are cleared for release before they are delivered.",
@@ -668,10 +668,10 @@
     "domain": "jorc",
     "question": "A mining company CEO posts on their personal LinkedIn account: 'Very excited — assays just came back from our flagship project, results much better than we expected!' The company has not yet lodged an ASX announcement. Which of the following best describes the compliance risk?",
     "options": {
-      "A": "There is no compliance risk — personal social media posts are not subject to ASX rules",
+      "A": "The post is only a problem if the CEO names the specific assay values",
       "B": "The post may constitute selective disclosure of material non-public information under ASX Listing Rule 3.1, and the CEO may also be at insider trading risk if they traded before the announcement; ASIC has specifically warned that social media posts can trigger continuous disclosure obligations",
-      "C": "The post is only a problem if the CEO names the specific assay values",
-      "D": "The post is compliant because it does not give specific numbers"
+      "C": "The post is compliant because it does not give specific numbers",
+      "D": "There is no compliance risk — personal social media posts are not subject to ASX rules"
     },
     "correct": "B",
     "explanation": "ASIC and the ASX have both issued guidance confirming that social media platforms — including LinkedIn, Twitter/X, Facebook, and company blogs — are subject to the same continuous disclosure and misleading conduct rules as formal announcements. A CEO's personal social media account can be attributed to the company if the CEO is posting in their capacity as CEO about company matters. The statement 'results much better than we expected' conveys positive material non-public information to whoever sees the post before it is lodged with the ASX — this is selective disclosure under Listing Rule 3.1. Additionally, if the CEO holds shares and trades after making the post (or before the formal announcement), they risk insider trading liability. Even vague qualitative statements ('better than expected') about unreleased exploration results can be material. Companies should have social media policies that prohibit executives from disclosing any information about exploration results before formal ASX lodgement.",
@@ -685,12 +685,12 @@
     "domain": "jorc",
     "question": "Following a significant share price collapse linked to a downgrade in Mineral Resources, a group of institutional investors commences a class action against the mining company. The investors allege the company failed to disclose the resource downgrade in a timely manner. The company's primary defence is likely to be:",
     "options": {
-      "A": "That Resource estimates are inherently uncertain and therefore cannot give rise to liability",
-      "B": "That it falls within the ASX Listing Rule 3.1A exception — specifically that the information was confidential, was a matter of supposition, and that a reasonable person would not expect the information to be disclosed at the relevant time",
-      "C": "That the CP who signed off on the original estimate bears sole liability",
+      "A": "That the CP who signed off on the original estimate bears sole liability",
+      "B": "That Resource estimates are inherently uncertain and therefore cannot give rise to liability",
+      "C": "That it falls within the ASX Listing Rule 3.1A exception — specifically that the information was confidential, was a matter of supposition, and that a reasonable person would not expect the information to be disclosed at the relevant time",
       "D": "That investors should have conducted their own due diligence"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The primary exception to ASX Listing Rule 3.1 (the continuous disclosure obligation) is contained in Rule 3.1A, which excuses non-disclosure when three conditions are met simultaneously: (1) the information is confidential; (2) it would be a breach of law or contractual obligation to disclose it, OR it is incomplete or a matter of supposition; and (3) a reasonable person would not expect the information to be disclosed. In a resource downgrade scenario, the company might argue that the revised geological modelling was still being verified (making it incomplete or supposition) and that it was reasonable to wait for the CP to complete their re-estimation before disclosing. However, courts have found that this exception has a narrow application — once the company's senior management has a sufficient level of certainty about the materiality of the change, continuous disclosure obligations are triggered. Directors may also face personal liability under s1041H (misleading conduct) and s674 (continuous disclosure) if they knowingly allowed a delay in disclosure.",
     "key_concept": "Listing Rule 3.1A provides narrow exceptions to continuous disclosure; courts strictly scrutinise timing of resource downgrade disclosures",
     "source": "ASX Listing Rules, Rules 3.1, 3.1A; Corporations Act ss674, 1041H",
@@ -702,12 +702,12 @@
     "domain": "jorc",
     "question": "Under the Corporations Act 2001, a director of a mining company that publishes a materially misleading Resource estimate in a market announcement may face personal liability under which provision?",
     "options": {
-      "A": "Directors cannot be held personally liable for technical resource estimates — only the Competent Person bears liability",
-      "B": "Section 1041E (false or misleading statements), s674 (continuous disclosure), and potentially s184 (criminal breach of director's duties) — directors have personal responsibility to ensure the accuracy of market announcements and cannot simply rely on the CP",
-      "C": "Directors are only liable if they have geology qualifications",
-      "D": "Liability is limited to the company's auditors under the financial reporting framework"
+      "A": "Directors are only liable if they have geology qualifications",
+      "B": "Directors cannot be held personally liable for technical resource estimates — only the Competent Person bears liability",
+      "C": "Liability is limited to the company's auditors under the financial reporting framework",
+      "D": "Section 1041E (false or misleading statements), s674 (continuous disclosure), and potentially s184 (criminal breach of director's duties) — directors have personal responsibility to ensure the accuracy of market announcements and cannot simply rely on the CP"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Directors bear non-delegable governance obligations under the Corporations Act regardless of their technical expertise. Section 1041E creates liability for false or misleading statements in connection with a financial product — including ASX market announcements about Resources. Section 674 imposes civil penalties for breaches of continuous disclosure obligations, and recent reforms (effective May 2021) allow ASIC to seek civil penalties for a company's failure to disclose without needing to prove investor reliance. Section 184 covers criminal liability for reckless or dishonest breaches of director duties. Critically, the defence 'I relied on the CP' is insufficient — directors must apply their minds to the content of announcements, ask probing questions, and seek independent validation if they have reason to doubt the CP's conclusions. The CP's role is to certify technical accuracy; the director's role is to ensure the announcement is not misleading in context. Both can bear liability for the same announcement.",
     "key_concept": "Directors face personal liability under ss1041E, 674, and 184 — reliance on the CP is not a complete defence",
     "source": "Corporations Act 2001, ss1041E, 674, 184; ASIC v Fortescue Metals (misleading conduct precedent)",
@@ -720,9 +720,9 @@
     "question": "ASX Listing Rule 5.8 requires an annual report to include a summary of the company's Mineral Resources and Ore Reserves. Which of the following best describes the governance requirements for this disclosure?",
     "options": {
       "A": "The summary must be signed off by the board of directors, each estimate must be attributed to a named Competent Person, any material change from the prior year must be explained, and the CP's relevant qualifications and membership of a Recognised Professional Organisation (RPO) must be stated",
-      "B": "A general statement that resources have not changed since the prior year is sufficient",
+      "B": "The annual report resource table does not require Competent Person attribution if the full estimate was released separately during the year",
       "C": "Only the CEO's signature is required on the resource table",
-      "D": "The annual report resource table does not require Competent Person attribution if the full estimate was released separately during the year"
+      "D": "A general statement that resources have not changed since the prior year is sufficient"
     },
     "correct": "A",
     "explanation": "The annual report Mineral Resources and Ore Reserves summary is a key governance document that must meet the same standards as a standalone ASX announcement. Under ASX Listing Rule 5.8 and GN31, the summary must: (1) be approved by the board; (2) identify the CP for each estimate by name, with qualifications and RPO membership; (3) provide comparative data against the prior year; (4) explain any material movements (e.g., 'Resource decreased by 15% due to revised geological model following infill drilling'); and (5) include the standard JORC cautionary statements. The annual report is a statutory document read by a wider audience than daily ASX announcements — including retail shareholders, lenders, and potential acquirers — so governance standards are if anything higher than for routine announcements. Omitting CP attribution in the annual report is a specific compliance failure identified in ASX enforcement actions.",
@@ -737,11 +737,11 @@
     "question": "The audit committee of an ASX-listed mining company is reviewing its governance framework for Mineral Resource reporting. Which of the following represents best practice for audit committee oversight of resource estimates?",
     "options": {
       "A": "The audit committee has no role in resource reporting — this is purely a technical matter for the geology team",
-      "B": "The audit committee should review the independence and qualifications of the Competent Person, review the process and assumptions underpinning the estimate, consider whether the estimate is consistent with the company's overall business disclosures, and recommend the resource table to the board for approval",
+      "B": "The audit committee should conduct its own independent geological assessment of the Resource",
       "C": "The audit committee should only review resource estimates that have financial statement implications",
-      "D": "The audit committee should conduct its own independent geological assessment of the Resource"
+      "D": "The audit committee should review the independence and qualifications of the Competent Person, review the process and assumptions underpinning the estimate, consider whether the estimate is consistent with the company's overall business disclosures, and recommend the resource table to the board for approval"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Best practice corporate governance recognises that Mineral Resource estimates are material assets of a mining company that directly affect shareholder value, financial reporting, and strategic decision-making. The ASX Corporate Governance Principles (Principle 4 — Safeguard Integrity in Corporate Reporting) and the Australasian Institute of Mining and Metallurgy's guidance both support audit committee involvement in resource governance. The committee's role is not to second-guess the geology (which is a technical matter for the CP), but to provide independent governance oversight by: checking that the CP is qualified and independent; reviewing whether the assumptions and methodology are consistent with prior periods and industry practice; ensuring the resource statement is consistent with the company's other disclosures (e.g., mine plans, financial statements); and formally recommending the resource table to the full board. This oversight helps prevent errors, bias, or manipulation from slipping through unchallenged.",
     "key_concept": "Audit committees should oversee CP independence, process integrity, and disclosure consistency — not perform geological review",
     "source": "ASX Corporate Governance Principles, Principle 4; AUSIMM Resource Governance Guidance; ASX Listing Rules Chapter 5",
@@ -753,12 +753,12 @@
     "domain": "jorc",
     "question": "The ASX has received multiple queries about a mining company's Resource estimate following unusual trading activity. It considers requiring the company to obtain an independent expert report on the Resource. Under ASX Listing Rules, the ASX has the power to:",
     "options": {
-      "A": "Only request additional information from the company — it cannot require an independent expert report",
-      "B": "Require the company to obtain an independent expert report on the Resource under ASX Listing Rule 18.7, and can impose a trading halt or suspension pending the outcome if it considers the market is not properly informed",
+      "A": "Require the company to obtain an independent expert report on the Resource under ASX Listing Rule 18.7, and can impose a trading halt or suspension pending the outcome if it considers the market is not properly informed",
+      "B": "Only request additional information from the company — it cannot require an independent expert report",
       "C": "Require an independent expert report only if the company has previously been found to have breached the Listing Rules",
       "D": "Require the State geological survey to review the estimate at the company's cost"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "ASX Listing Rule 18.7 gives the ASX broad discretionary power to require a listed entity to provide information that the ASX considers appropriate to protect investors or ensure the proper functioning of the market. This includes the power to require a company to commission and release an independent expert report — for example, an independent technical assessment of a Mineral Resource where the ASX has concerns about the accuracy or reliability of the company's own estimate. In conjunction with Rule 18.7, the ASX can also impose a trading halt under Rule 17.1 or suspend trading under Rule 17.3 while the independent review is being conducted, to prevent uninformed trading. This power has been used in cases where the ASX suspects resource inflation, where there has been a public dispute between the company's CP and a third party, or where the market is reacting in an unusual way that suggests information asymmetry. The independent expert in such cases is typically a senior geologist appointed with ASX oversight.",
     "key_concept": "ASX Rule 18.7 empowers the ASX to require independent expert reports on Resources and to impose trading halts pending review",
     "source": "ASX Listing Rules, Rules 17.1, 17.3, 18.7; ASX Guidance Note 31",

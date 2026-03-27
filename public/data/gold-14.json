@@ -22,12 +22,12 @@
     "domain": "gold",
     "question": "What is the ownership split in the Nevada Gold Mines joint venture between Barrick and Newmont?",
     "options": {
-      "A": "Barrick 50% / Newmont 50%",
-      "B": "Barrick 61.5% / Newmont 38.5%",
-      "C": "Barrick 70% / Newmont 30%",
+      "A": "Barrick 70% / Newmont 30%",
+      "B": "Barrick 50% / Newmont 50%",
+      "C": "Barrick 61.5% / Newmont 38.5%",
       "D": "Newmont 61.5% / Barrick 38.5%"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The Nevada Gold Mines JV, formed in 2019, is owned 61.5% by Barrick Gold (as operator) and 38.5% by Newmont. This historic partnership combined the two companies' Nevada assets — including Goldstrike, Cortez, Turquoise Ridge, and Long Canyon — into the world's largest single gold-producing complex, generating approximately 3 million ounces per year.",
     "key_concept": "Nevada Gold Mines: Barrick 61.5% (operator) / Newmont 38.5%, formed 2019",
     "source": "Barrick Gold / Newmont JV structure",
@@ -39,12 +39,12 @@
     "domain": "gold",
     "question": "Which company is the world's largest gold producer by annual output following its 2023 acquisition of Newcrest Mining?",
     "options": {
-      "A": "Barrick Gold",
-      "B": "AngloGold Ashanti",
-      "C": "Newmont Corporation",
-      "D": "Gold Fields"
+      "A": "Newmont Corporation",
+      "B": "Barrick Gold",
+      "C": "Gold Fields",
+      "D": "AngloGold Ashanti"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "Newmont Corporation became the clear world's largest gold producer after acquiring Newcrest Mining for approximately $19.5 billion in 2023 — the largest deal in gold mining history. The acquisition boosted Newmont's annual production from roughly 4 million ounces to approximately 6 million ounces, significantly widening the gap with second-place Barrick Gold.",
     "key_concept": "Newmont: world's largest gold producer, ~6 Moz/year after Newcrest acquisition",
     "source": "Newmont / Newcrest acquisition 2023",
@@ -57,11 +57,11 @@
     "question": "Newmont's Cadia mine in Australia is renowned for having one of the lowest AISCs in the gold industry. What mining method is used at Cadia?",
     "options": {
       "A": "Open pit with heap leach",
-      "B": "Conventional underground cut-and-fill",
-      "C": "Large-scale underground block caving",
+      "B": "Large-scale underground block caving",
+      "C": "Conventional underground cut-and-fill",
       "D": "Placer dredging"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Cadia, located in New South Wales, Australia, uses large-scale block caving — a mass underground mining method where ore is undercut and allowed to collapse under its own weight. This high-volume, low-cost method is what enables Cadia's exceptionally low AISC (below $500/oz). The mine is a porphyry gold-copper deposit acquired through the Newcrest transaction.",
     "key_concept": "Cadia: block caving, porphyry Au-Cu, AISC < $500/oz, acquired via Newcrest",
     "source": "Newcrest/Newmont Cadia operations",
@@ -73,12 +73,12 @@
     "domain": "gold",
     "question": "Barrick's Goldstrike mine is located on which famous gold-producing geological trend in Nevada?",
     "options": {
-      "A": "Lachlan Fold Belt",
-      "B": "Carlin Trend",
+      "A": "Birimian Greenstone Belt",
+      "B": "Lachlan Fold Belt",
       "C": "Abitibi Greenstone Belt",
-      "D": "Birimian Greenstone Belt"
+      "D": "Carlin Trend"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Goldstrike is located on the Carlin Trend in northeastern Nevada, one of the most prolific gold-producing regions in the world. Carlin-type gold deposits are characterized by fine-grained, disseminated gold hosted in carbonate and siliceous rocks, where gold is often invisible to the naked eye ('invisible gold'). The Carlin Trend has produced over 80 million ounces of gold since the 1960s.",
     "key_concept": "Goldstrike on the Carlin Trend; Carlin-type deposits with invisible gold in carbonate rocks",
     "source": "Nevada gold geology",
@@ -90,12 +90,12 @@
     "domain": "gold",
     "question": "The Obuasi gold mine in Ghana, operated by AngloGold Ashanti, has been in production since approximately what year?",
     "options": {
-      "A": "1960",
-      "B": "1897",
-      "C": "1935",
-      "D": "2004"
+      "A": "1935",
+      "B": "1960",
+      "C": "2004",
+      "D": "1897"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Obuasi has been mined since approximately 1897, making it one of the oldest continuously operated gold mines in the world with over 125 years of history. Originally developed by Ashanti Goldfields, it became part of AngloGold Ashanti after the 2004 merger. The mine was closed for redevelopment and has been modernized with underground mining methods, now producing 300,000-350,000 ounces per year.",
     "key_concept": "Obuasi: mining since 1897, 125+ year history, Birimian shear-zone hosted gold",
     "source": "AngloGold Ashanti / Obuasi history",
@@ -107,10 +107,10 @@
     "domain": "gold",
     "question": "Which gold company was formed in 2004 through the merger of AngloGold and Ashanti Goldfields?",
     "options": {
-      "A": "Gold Fields",
-      "B": "Newmont",
+      "A": "Newmont",
+      "B": "B2Gold",
       "C": "AngloGold Ashanti",
-      "D": "B2Gold"
+      "D": "Gold Fields"
     },
     "correct": "C",
     "explanation": "AngloGold Ashanti was created in 2004 through the merger of AngloGold (the gold arm of Anglo American) and Ashanti Goldfields (a historic Ghanaian gold producer). This combination created a diversified gold producer with assets across Africa, the Americas, and Australia. The company has since moved its primary listing and headquarters from Johannesburg to the United States.",
@@ -124,12 +124,12 @@
     "domain": "gold",
     "question": "What was the approximate acquisition price Newmont paid for Newcrest Mining in 2023?",
     "options": {
-      "A": "$7.1 billion",
-      "B": "$3.4 billion",
-      "C": "$19.5 billion",
-      "D": "$34 billion"
+      "A": "$3.4 billion",
+      "B": "$34 billion",
+      "C": "$7.1 billion",
+      "D": "$19.5 billion"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Newmont acquired Newcrest Mining for approximately $19.5 billion in 2023, making it the largest merger and acquisition transaction in gold mining history. The deal brought world-class assets including Cadia (Australia), Lihir (Papua New Guinea), and Red Chris (Canada) into Newmont's portfolio, pushing annual production to approximately 6 million ounces.",
     "key_concept": "Newcrest acquisition: ~$19.5B, largest gold M&A deal ever",
     "source": "Newmont/Newcrest M&A",
@@ -141,12 +141,12 @@
     "domain": "gold",
     "question": "B2Gold's name derives from its connection to which predecessor company?",
     "options": {
-      "A": "Barrick Gold",
-      "B": "Bema Gold",
-      "C": "Banro Corporation",
-      "D": "Buenaventura"
+      "A": "Bema Gold",
+      "B": "Barrick Gold",
+      "C": "Buenaventura",
+      "D": "Banro Corporation"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "B2Gold was founded in 2007 by the former management team of Bema Gold — the 'B2' stands for 'the successor to Bema.' Led by founder and former CEO Clive Johnson, the team leveraged their experience in developing mines in challenging jurisdictions to build B2Gold into a million-ounce producer within approximately a decade, a remarkable growth trajectory for a startup mining company.",
     "key_concept": "B2Gold = successor to Bema Gold, founded 2007 by Clive Johnson",
     "source": "B2Gold corporate history",
@@ -160,10 +160,10 @@
     "options": {
       "A": "Namibia",
       "B": "Philippines",
-      "C": "Mali",
-      "D": "Ghana"
+      "C": "Ghana",
+      "D": "Mali"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Fekola is located in southern Mali and is B2Gold's largest and most important mine, producing over 600,000 ounces per year at an AISC of approximately $800-900/oz. The deposit is a shear-zone controlled gold deposit within the Birimian greenstone belt. Fekola was built on time and on budget — a significant achievement in the mining industry and a key reason for B2Gold's strong reputation with investors.",
     "key_concept": "Fekola: Mali, 600k+ oz/year, AISC ~$800-900/oz, built on time/budget",
     "source": "B2Gold Fekola operations",
@@ -175,12 +175,12 @@
     "domain": "gold",
     "question": "Gold Fields' South Deep mine contains reserves exceeding 30 million ounces, yet it was historically unprofitable. What is the primary reason?",
     "options": {
-      "A": "The gold grade is too low for economic extraction",
-      "B": "Extreme depth, technical complexity, and high operating costs of deep-level underground mining",
-      "C": "The South African government nationalized the mine",
-      "D": "The deposit contains mostly silver, not gold"
+      "A": "The South African government nationalized the mine",
+      "B": "The deposit contains mostly silver, not gold",
+      "C": "Extreme depth, technical complexity, and high operating costs of deep-level underground mining",
+      "D": "The gold grade is too low for economic extraction"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "South Deep is one of the world's deepest gold mines, facing extreme rock pressure, high temperatures, and technical challenges associated with mechanized mining at great depth. These factors drove costs far above initial projections for decades, making the mine a 'value trap' despite its enormous reserve base. This illustrates an important lesson: large reserves do not automatically equal high value if extraction costs are prohibitive.",
     "key_concept": "South Deep: massive reserves but value trap due to deep mining costs; reserves ≠ value",
     "source": "Gold Fields South Deep operations",
@@ -192,12 +192,12 @@
     "domain": "gold",
     "question": "Which company operates the Gruyere gold mine in Western Australia as a 50/50 joint venture with Gold Road Resources?",
     "options": {
-      "A": "Newmont",
+      "A": "Kinross",
       "B": "Barrick Gold",
-      "C": "Gold Fields",
-      "D": "Kinross"
+      "C": "Newmont",
+      "D": "Gold Fields"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Gruyere is a 50/50 joint venture between Gold Fields (operator) and Gold Road Resources, located in Western Australia. Commissioned in 2019, Gruyere is one of Australia's largest new gold mines, producing approximately 300,000 ounces per year via open-pit mining. This JV structure is a model of how a smaller explorer (Gold Road) can partner with a major producer to develop a large-scale project.",
     "key_concept": "Gruyere: Gold Fields 50% (operator) / Gold Road 50%, ~300koz/year, 2019 start",
     "source": "Gold Fields Gruyere JV",
@@ -209,10 +209,10 @@
     "domain": "gold",
     "question": "Kinross Gold acquired the Tasiast mine in Mauritania through the purchase of which company in 2010?",
     "options": {
-      "A": "Bema Gold",
-      "B": "Newcrest Mining",
+      "A": "Newcrest Mining",
+      "B": "Ashanti Goldfields",
       "C": "Red Back Mining",
-      "D": "Ashanti Goldfields"
+      "D": "Bema Gold"
     },
     "correct": "C",
     "explanation": "Kinross acquired Tasiast through its $7.1 billion purchase of Red Back Mining in 2010 — a price widely considered to be a significant overpayment at the time. However, through years of expansion and operational improvement (the Tasiast 24k project increasing throughput to 24,000 tonnes per day), Tasiast eventually became a low-cost producer at approximately 500,000 ounces per year with an AISC of $800-900/oz.",
@@ -226,12 +226,12 @@
     "domain": "gold",
     "question": "Why did Kinross Gold exit Russia in 2022, selling its Kupol and Dvoinoye mines?",
     "options": {
-      "A": "The mines were fully depleted",
-      "B": "Russia imposed a ban on foreign mining companies before the war",
-      "C": "Geopolitical risk following the Russia-Ukraine war made continued operations untenable",
-      "D": "Kinross merged with a Russian state-owned mining company"
+      "A": "Geopolitical risk following the Russia-Ukraine war made continued operations untenable",
+      "B": "Kinross merged with a Russian state-owned mining company",
+      "C": "The mines were fully depleted",
+      "D": "Russia imposed a ban on foreign mining companies before the war"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "Following Russia's invasion of Ukraine in 2022, Kinross was forced to sell its Russian assets (Kupol and Dvoinoye, producing approximately 400,000 ounces per year) for roughly $340 million — far below their intrinsic value. This is a textbook case of geopolitical risk materializing: sanctions, reputational concerns, and operational uncertainty made continued ownership impossible. The episode underscores the importance of geographic diversification and country risk assessment.",
     "key_concept": "Kinross Russia exit: sold ~400koz production for ~$340M; geopolitical risk case study",
     "source": "Kinross Gold Russia divestiture 2022",
@@ -243,12 +243,12 @@
     "domain": "gold",
     "question": "Newmont is the only gold mining company included in which major US stock market index?",
     "options": {
-      "A": "Dow Jones Industrial Average",
-      "B": "NASDAQ-100",
-      "C": "S&P 500",
-      "D": "Russell 2000"
+      "A": "NASDAQ-100",
+      "B": "S&P 500",
+      "C": "Russell 2000",
+      "D": "Dow Jones Industrial Average"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Newmont is the only gold producer included in the S&P 500, the benchmark index tracking the 500 largest US-listed companies by market capitalization. This S&P 500 membership provides Newmont with unique advantages: inclusion in index-tracking funds that automatically buy its shares, higher institutional ownership, greater analyst coverage, and superior liquidity compared to peers.",
     "key_concept": "Newmont: only gold producer in S&P 500; benefits from index fund flows and liquidity",
     "source": "Newmont market position",
@@ -260,10 +260,10 @@
     "domain": "gold",
     "question": "What does AISC stand for in the context of gold mining cost metrics?",
     "options": {
-      "A": "Adjusted Internal Sustaining Calculation",
+      "A": "Asset Impairment and Sunk Cost",
       "B": "All-In Sustaining Cost",
       "C": "Annual Investment and Spending Costs",
-      "D": "Asset Impairment and Sunk Cost"
+      "D": "Adjusted Internal Sustaining Calculation"
     },
     "correct": "B",
     "explanation": "AISC stands for All-In Sustaining Cost, a standardized metric introduced by the World Gold Council in 2013. AISC includes site-level operating costs, sustaining capital expenditure, exploration costs, general and administrative expenses, and royalties. It is the single most important metric for comparing the operational efficiency of gold mines and producers, typically expressed in US dollars per ounce of gold produced.",
@@ -278,11 +278,11 @@
     "question": "B2Gold's Otjikoto mine holds special significance because it was:",
     "options": {
       "A": "The first gold mine ever built in West Africa",
-      "B": "Namibia's first large-scale commercial gold mine",
+      "B": "A joint venture with the Chinese government",
       "C": "The deepest gold mine in Africa",
-      "D": "A joint venture with the Chinese government"
+      "D": "Namibia's first large-scale commercial gold mine"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Otjikoto was Namibia's first large-scale commercial gold mine, developed entirely by B2Gold from exploration through to production. Located in northern Namibia, it uses both open-pit and underground mining methods, producing approximately 150,000-200,000 ounces per year. The mine demonstrated B2Gold's ability to discover, develop, and operate a mine from greenfield stage in a previously non-gold-producing country.",
     "key_concept": "Otjikoto: Namibia's first large commercial gold mine, B2Gold from discovery to production",
     "source": "B2Gold Otjikoto operations",
@@ -294,12 +294,12 @@
     "domain": "gold",
     "question": "Barrick Gold's Loulo-Gounkoto mine complex is located in which West African country?",
     "options": {
-      "A": "Guinea",
-      "B": "Ghana",
-      "C": "Mali",
-      "D": "Burkina Faso"
+      "A": "Burkina Faso",
+      "B": "Mali",
+      "C": "Ghana",
+      "D": "Guinea"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Loulo-Gounkoto is located in western Mali, near the Senegal border, and is one of the highest-quality gold operations in West Africa, producing over 500,000 ounces per year. It is a joint venture with the Mali government. Both Barrick (Loulo-Gounkoto) and B2Gold (Fekola) operate major mines in Mali, making it one of Africa's most important gold-producing countries despite its political instability.",
     "key_concept": "Loulo-Gounkoto: Mali, 500k+ oz/year, Barrick JV with Mali government",
     "source": "Barrick Gold Mali operations",
@@ -311,12 +311,12 @@
     "domain": "gold",
     "question": "Which lesson from AngloGold Ashanti's exit from South African deep-level mines is most relevant for PMH?",
     "options": {
-      "A": "Always invest in the deepest possible mining operations for maximum reserves",
-      "B": "Do not hold onto unprofitable assets due to historical sentiment; prioritize cost-effective operations",
-      "C": "Deep-level mining is always more profitable than open-pit mining",
-      "D": "South African mining regulations are the model for all African countries"
+      "A": "South African mining regulations are the model for all African countries",
+      "B": "Always invest in the deepest possible mining operations for maximum reserves",
+      "C": "Do not hold onto unprofitable assets due to historical sentiment; prioritize cost-effective operations",
+      "D": "Deep-level mining is always more profitable than open-pit mining"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "AngloGold Ashanti's strategic exit from most of its South African deep-level mines (including selling Mponeng, which operates at over 3,800 metres depth) demonstrates that large reserves in high-cost, technically complex environments can destroy value rather than create it. The lesson for PMH is clear: do not hold onto assets out of historical attachment. Focus capital and management attention on operations with favorable cost structures and manageable technical risks.",
     "key_concept": "Exit unprofitable assets regardless of history; cost structure matters more than reserve size",
     "source": "AngloGold Ashanti strategic restructuring",
@@ -329,11 +329,11 @@
     "question": "Kinross Gold's Paracatu mine in Brazil is notable for processing extremely large volumes of ore at what approximate grade?",
     "options": {
       "A": "10 g/t Au",
-      "B": "3 g/t Au",
-      "C": "0.4 g/t Au",
+      "B": "0.4 g/t Au",
+      "C": "3 g/t Au",
       "D": "25 g/t Au"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Paracatu processes ore at approximately 0.4 g/t Au, which is very low grade by global standards. However, the mine compensates with massive throughput volumes, making it one of the world's largest gold mines by ore processed. Paracatu produces approximately 500,000 ounces per year and illustrates the principle that low-grade deposits can be economically viable if they offer sufficient scale, favorable metallurgy, and low strip ratios.",
     "key_concept": "Paracatu: ~0.4 g/t Au, massive volume compensates for low grade, ~500koz/year",
     "source": "Kinross Paracatu operations",
@@ -345,10 +345,10 @@
     "domain": "gold",
     "question": "Who is the current CEO of Gold Fields, known for previously leading Anglo American Platinum?",
     "options": {
-      "A": "Mark Bristow",
-      "B": "Tom Palmer",
+      "A": "Tom Palmer",
+      "B": "Clive Johnson",
       "C": "Chris Griffith",
-      "D": "Clive Johnson"
+      "D": "Mark Bristow"
     },
     "correct": "C",
     "explanation": "Chris Griffith became CEO of Gold Fields after previously serving as CEO of Anglo American Platinum (Amplats), the world's largest platinum producer. His experience managing large-scale mechanized mining operations at Amplats has been applied to Gold Fields' turnaround of the troubled South Deep mine and the company's broader operational improvement program.",
@@ -363,11 +363,11 @@
     "question": "Newmont's Ahafo mine is located in which West African country?",
     "options": {
       "A": "Mali",
-      "B": "Guinea",
-      "C": "Ghana",
-      "D": "Senegal"
+      "B": "Ghana",
+      "C": "Senegal",
+      "D": "Guinea"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Ahafo is located in the Brong Ahafo region of Ghana and is one of Newmont's most important African operations, producing approximately 400,000-500,000 ounces per year. It includes both Ahafo South (mature open-pit and underground operations) and Ahafo North (a newer development project). Ghana's well-established mining regulatory framework and the government's standard 10% free-carried interest make it one of Africa's most attractive gold mining destinations.",
     "key_concept": "Ahafo: Ghana, 400-500koz/year, Ahafo South + North, Ghana 10% free-carried interest",
     "source": "Newmont Ghana operations",
@@ -379,12 +379,12 @@
     "domain": "gold",
     "question": "What is the key lesson from B2Gold's growth trajectory that is most applicable to PMH as a small but growing gold company?",
     "options": {
-      "A": "Focus exclusively on acquiring mature producing mines from larger companies",
-      "B": "Experienced management, on-time/on-budget mine construction, strong government relations, and conservative balance sheet management",
-      "C": "Rely solely on high gold prices for profitability",
+      "A": "Rely solely on high gold prices for profitability",
+      "B": "Focus exclusively on acquiring mature producing mines from larger companies",
+      "C": "Experienced management, on-time/on-budget mine construction, strong government relations, and conservative balance sheet management",
       "D": "Avoid operating in developing countries due to political risk"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "B2Gold grew from a startup in 2007 to a million-ounce producer within approximately a decade by combining four key elements: (1) an experienced management team with a proven track record in developing-country operations, (2) rigorous project execution that delivered Fekola on time and on budget, (3) strong relationships with host governments including accepting standard equity participation terms, and (4) conservative financial management that avoided excessive debt. This combination is directly applicable to PMH's growth strategy.",
     "key_concept": "B2Gold growth model: experienced team + execution discipline + government relations + financial prudence",
     "source": "B2Gold corporate strategy",
@@ -396,12 +396,12 @@
     "domain": "gold",
     "question": "AngloGold Ashanti's Geita mine, one of the largest gold mines in East Africa, is located in which country?",
     "options": {
-      "A": "Kenya",
-      "B": "Democratic Republic of Congo",
-      "C": "Tanzania",
-      "D": "Mozambique"
+      "A": "Democratic Republic of Congo",
+      "B": "Kenya",
+      "C": "Mozambique",
+      "D": "Tanzania"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Geita is located near Lake Victoria in Tanzania and is one of the largest gold mines in East Africa, producing approximately 500,000 ounces per year using both open-pit and underground mining methods. Tanzania has become an increasingly important gold-producing country in Africa, though it has periodically introduced challenging regulatory changes including export bans and increased government participation requirements.",
     "key_concept": "Geita: Tanzania, ~500koz/year, near Lake Victoria, largest in East Africa",
     "source": "AngloGold Ashanti Geita operations",
@@ -415,8 +415,8 @@
     "options": {
       "A": "2015",
       "B": "2019",
-      "C": "2010",
-      "D": "2022"
+      "C": "2022",
+      "D": "2010"
     },
     "correct": "B",
     "explanation": "Nevada Gold Mines was formed in 2019, combining Barrick's and Newmont's overlapping operations in Nevada into the world's largest gold-producing complex. The JV was a pragmatic solution after Barrick's hostile takeover bid for Newmont failed — both companies recognized that a focused Nevada partnership would unlock more value through operational synergies than a full corporate merger. The JV produces approximately 3 million ounces annually.",
@@ -430,12 +430,12 @@
     "domain": "gold",
     "question": "What is the approximate market capitalization of Newmont, the world's largest gold producer?",
     "options": {
-      "A": "$4-6 billion",
-      "B": "$10-15 billion",
-      "C": "$50-60 billion",
-      "D": "$200 billion"
+      "A": "$200 billion",
+      "B": "$4-6 billion",
+      "C": "$10-15 billion",
+      "D": "$50-60 billion"
     },
-    "correct": "C",
+    "correct": "D",
     "explanation": "Newmont's market capitalization is approximately $50-60 billion (varying with gold price), making it by far the most valuable gold mining company in the world. For context, B2Gold — a successful million-ounce producer — has a market cap of approximately $4-6 billion. This scale differential illustrates the massive valuation premium that comes with being the industry leader and the only gold stock in the S&P 500.",
     "key_concept": "Newmont market cap ~$50-60B vs B2Gold ~$4-6B; scale creates valuation premium",
     "source": "Gold company market capitalizations",
@@ -447,12 +447,12 @@
     "domain": "gold",
     "question": "Barrick's Pueblo Viejo mine in the Dominican Republic is a joint venture with Newmont. What is Barrick's ownership percentage?",
     "options": {
-      "A": "50%",
-      "B": "60%",
-      "C": "40%",
-      "D": "75%"
+      "A": "60%",
+      "B": "50%",
+      "C": "75%",
+      "D": "40%"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Pueblo Viejo is a 60/40 joint venture with Barrick as the 60% owner and operator, and Newmont holding 40%. The mine is a high-sulphidation epithermal gold deposit producing approximately 800,000 ounces per year on a 100% basis. This is the second major JV between Barrick and Newmont (alongside Nevada Gold Mines), demonstrating how the two largest gold companies can maintain competitive strategies while collaborating on specific assets.",
     "key_concept": "Pueblo Viejo: Barrick 60% / Newmont 40%, ~800koz/year, Dominican Republic",
     "source": "Barrick Pueblo Viejo operations",
@@ -464,10 +464,10 @@
     "domain": "gold",
     "question": "Gold Fields operates two major mines in Ghana's Tarkwa gold belt. Which pair of mines are they?",
     "options": {
-      "A": "Obuasi and Ahafo",
+      "A": "Fekola and Loulo",
       "B": "Tarkwa and Damang",
-      "C": "Siguiri and Geita",
-      "D": "Fekola and Loulo"
+      "C": "Obuasi and Ahafo",
+      "D": "Siguiri and Geita"
     },
     "correct": "B",
     "explanation": "Gold Fields operates both Tarkwa (approximately 500,000 oz/year) and Damang (approximately 200,000 oz/year) in Ghana's Tarkwa gold belt. The proximity of these two mines allows Gold Fields to achieve operational synergies through shared infrastructure, management, and workforce. The Damang Reinvestment Project extended the mine's life through a pushback of the main pit. This clustering strategy is relevant for PMH when considering how to develop multiple deposits within a single geological belt.",
@@ -481,12 +481,12 @@
     "domain": "gold",
     "question": "Peter Munk's counter-cyclical acquisition strategy at Barrick Gold is best described as:",
     "options": {
-      "A": "Buying gold mines only when gold prices are at all-time highs",
-      "B": "Never making acquisitions and focusing solely on organic growth",
-      "C": "Acquiring undervalued assets during periods of low gold prices and market pessimism",
-      "D": "Hedging 100% of gold production to lock in forward prices"
+      "A": "Hedging 100% of gold production to lock in forward prices",
+      "B": "Acquiring undervalued assets during periods of low gold prices and market pessimism",
+      "C": "Never making acquisitions and focusing solely on organic growth",
+      "D": "Buying gold mines only when gold prices are at all-time highs"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Peter Munk built Barrick by buying quality gold assets when prices were depressed and sellers were desperate — the exact opposite of what most companies do (buying at cycle peaks when competition is fierce and prices are inflated). This counter-cyclical discipline meant Barrick paid lower acquisition costs and generated superior returns when gold prices recovered. For PMH, this principle suggests maintaining financial capacity to act when opportunities arise during market downturns.",
     "key_concept": "Counter-cyclical acquisition: buy quality assets cheap during market pessimism",
     "source": "Barrick Gold / Peter Munk strategy",
@@ -498,12 +498,12 @@
     "domain": "gold",
     "question": "AngloGold Ashanti's Siguiri mine operates in which West African country, processing Birimian greenstone-hosted gold?",
     "options": {
-      "A": "Senegal",
-      "B": "Sierra Leone",
-      "C": "Guinea",
-      "D": "Côte d'Ivoire"
+      "A": "Côte d'Ivoire",
+      "B": "Guinea",
+      "C": "Senegal",
+      "D": "Sierra Leone"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Siguiri is located in northeastern Guinea and processes both oxide and sulphide ore from the Birimian greenstone belt, producing approximately 300,000 ounces per year via open-pit mining. Guinea is an important but under-explored gold jurisdiction in West Africa, with significant geological potential along the same Birimian structures that host major deposits in Mali and Ghana. For PMH, Siguiri's operational experience in Guinea provides insights into working within that country's regulatory environment.",
     "key_concept": "Siguiri: Guinea, ~300koz/year, Birimian greenstone, open pit oxide + sulphide",
     "source": "AngloGold Ashanti Siguiri operations",
@@ -515,12 +515,12 @@
     "domain": "gold",
     "question": "A junior gold explorer is debating whether to pursue assets across multiple continents or concentrate on a single region. Mark Bristow's Randgold Resources strategy would most likely recommend:",
     "options": {
-      "A": "Diversify across as many countries as possible to reduce risk",
-      "B": "Focus exclusively on Tier 1 assets in Africa, accepting only deposits that can produce 500,000+ ounces at low cost over long mine lives",
-      "C": "Acquire as many small deposits as possible to build a large resource base",
-      "D": "Avoid Africa entirely due to political risk and focus on developed jurisdictions"
+      "A": "Avoid Africa entirely due to political risk and focus on developed jurisdictions",
+      "B": "Acquire as many small deposits as possible to build a large resource base",
+      "C": "Focus exclusively on Tier 1 assets in Africa, accepting only deposits that can produce 500,000+ ounces at low cost over long mine lives",
+      "D": "Diversify across as many countries as possible to reduce risk"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Mark Bristow built Randgold Resources into Africa's most successful gold company by applying extreme discipline: he refused to develop any deposit that did not meet his Tier 1 criteria (500,000+ oz/year, 10+ year mine life, bottom-half cost curve). This focus on quality over quantity meant Randgold operated fewer mines but generated industry-leading returns. Bristow became an Africa specialist, building deep relationships with governments in Mali, Côte d'Ivoire, and the DRC. His strategy proved so successful that Barrick acquired Randgold in 2019 and appointed Bristow as CEO of the combined company.",
     "key_concept": "Bristow's Randgold: Tier 1 only, Africa specialist, quality over quantity",
     "source": "Randgold Resources / Mark Bristow strategy",
@@ -532,12 +532,12 @@
     "domain": "gold",
     "question": "In the mid-1980s, Peter Munk acquired the Goldstrike property on Nevada's Carlin Trend for approximately $62 million. At the time, what was the prevailing gold market sentiment?",
     "options": {
-      "A": "Gold was at an all-time high and everyone wanted to buy gold assets",
-      "B": "Gold prices were depressed after falling from 1980 highs, and most companies were avoiding new acquisitions",
-      "C": "Central banks were buying gold aggressively, driving prices up",
+      "A": "Gold prices were depressed after falling from 1980 highs, and most companies were avoiding new acquisitions",
+      "B": "Central banks were buying gold aggressively, driving prices up",
+      "C": "Gold was at an all-time high and everyone wanted to buy gold assets",
       "D": "Gold mining had just been banned by the US government"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Peter Munk's acquisition of Goldstrike in the mid-1980s is one of the greatest deals in mining history. Gold had crashed from its 1980 peak of $850/oz to around $300-350/oz, and the mining industry was deeply pessimistic. Munk bought Goldstrike cheaply because sellers were desperate and few buyers existed. The property turned out to contain over 30 million ounces of gold, generating tens of billions of dollars in value over subsequent decades. This acquisition became the template for Munk's counter-cyclical playbook: buy when others are fearful.",
     "key_concept": "Goldstrike acquired ~$62M in depressed market; became 30+ Moz deposit; counter-cyclical masterclass",
     "source": "Barrick Gold / Goldstrike acquisition history",
@@ -551,8 +551,8 @@
     "options": {
       "A": "Regulatory authorities required asset sales as a condition of merger approval",
       "B": "Portfolio rationalization — selling non-core or higher-cost assets to reduce debt, focus on Tier 1 mines, and demonstrate capital discipline to investors",
-      "C": "Newmont discovered that all Newcrest assets were worthless",
-      "D": "Newmont needed to sell assets to pay dividends to shareholders"
+      "C": "Newmont needed to sell assets to pay dividends to shareholders",
+      "D": "Newmont discovered that all Newcrest assets were worthless"
     },
     "correct": "B",
     "explanation": "Newmont's post-Newcrest divestiture program targeted $2+ billion in asset sales, disposing of non-core mines that did not meet the company's Tier 1 criteria. This is standard practice after large M&A deals: the acquirer keeps the crown jewels (Cadia, Lihir) and sells assets that are too small, too high-cost, or in non-strategic jurisdictions. The proceeds reduce the debt taken on to fund the acquisition, and the smaller portfolio allows management to focus attention on fewer, higher-quality operations. This integration lesson is critical for any company pursuing growth through M&A.",
@@ -566,12 +566,12 @@
     "domain": "gold",
     "question": "A mining analyst is evaluating B2Gold's track record and notes that Fekola was delivered on time and on budget. Why is this achievement particularly significant in the gold mining industry?",
     "options": {
-      "A": "Most gold mines are delivered ahead of schedule",
-      "B": "On-time/on-budget delivery is extremely rare in mining; most projects suffer major cost overruns and delays, so B2Gold's execution record is a key competitive advantage",
-      "C": "It only matters because Fekola is a small mine",
-      "D": "On-time delivery is standard practice and not noteworthy"
+      "A": "It only matters because Fekola is a small mine",
+      "B": "On-time delivery is standard practice and not noteworthy",
+      "C": "Most gold mines are delivered ahead of schedule",
+      "D": "On-time/on-budget delivery is extremely rare in mining; most projects suffer major cost overruns and delays, so B2Gold's execution record is a key competitive advantage"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The mining industry has a notorious track record of cost overruns and schedule delays — studies show that the average mining project exceeds its budget by 40-80%. B2Gold's ability to deliver Fekola on time and on budget in Mali (a challenging operating environment) demonstrated exceptional project execution capability. This track record, combined with strong community engagement and a conservative balance sheet, earned B2Gold a valuation premium among mid-tier producers. For any emerging gold company, demonstrating execution discipline is one of the fastest ways to build investor credibility.",
     "key_concept": "On-time/on-budget delivery is rare in mining; B2Gold's execution is a competitive moat",
     "source": "B2Gold operational track record",
@@ -584,11 +584,11 @@
     "question": "Gold Fields' South Deep mine was historically a 'value trap' but has shown significant improvement in recent years. What was the key operational change that drove the turnaround?",
     "options": {
       "A": "Converting from underground to open-pit mining",
-      "B": "Transitioning from conventional labour-intensive methods to fully mechanized mining, combined with workforce restructuring and realistic production targets",
-      "C": "Selling the mine to the South African government",
+      "B": "Selling the mine to the South African government",
+      "C": "Transitioning from conventional labour-intensive methods to fully mechanized mining, combined with workforce restructuring and realistic production targets",
       "D": "Flooding the mine to use solution mining techniques"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "South Deep's turnaround under Chris Griffith involved three critical changes: (1) full mechanization of mining operations to reduce reliance on manual labour at extreme depths, (2) painful workforce restructuring that reduced headcount while improving productivity per employee, and (3) setting realistic, achievable production targets instead of the chronically over-promised guidance of previous years. By 2023-2024, South Deep finally achieved consistent profitability and production of 300,000+ ounces per year. The lesson is that even the most challenged assets can be turned around with the right leadership and honest operational assessment.",
     "key_concept": "South Deep turnaround: mechanization + labour restructuring + realistic targets = profitability",
     "source": "Gold Fields South Deep turnaround",
@@ -600,12 +600,12 @@
     "domain": "gold",
     "question": "A streaming company like Franco-Nevada provides upfront capital to a mine developer in exchange for the right to purchase a percentage of future gold production at a fixed, below-market price. How does this differ from a traditional royalty?",
     "options": {
-      "A": "There is no difference; streaming and royalties are identical",
-      "B": "A stream involves purchasing physical metal at a predetermined price, while a royalty is a percentage payment on revenue or production without purchasing the metal",
-      "C": "A royalty requires the holder to operate the mine",
+      "A": "A stream involves purchasing physical metal at a predetermined price, while a royalty is a percentage payment on revenue or production without purchasing the metal",
+      "B": "A royalty requires the holder to operate the mine",
+      "C": "There is no difference; streaming and royalties are identical",
       "D": "Streaming companies only invest in exploration-stage projects"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "In a streaming agreement, the streaming company pays an upfront deposit plus an ongoing per-ounce payment (typically $400-500/oz for gold) to purchase a fixed percentage of a mine's production — they take physical delivery of the metal and sell it at market price, profiting from the spread. A royalty, by contrast, is simply a percentage of revenue (NSR royalty) or production value paid to the holder without any metal changing hands. Streaming companies like Franco-Nevada and Wheaton Precious Metals benefit from leverage to gold prices, no operating risk, and portfolio diversification across dozens of mines.",
     "key_concept": "Stream = buy metal at fixed low price; Royalty = % of revenue; both avoid operating risk",
     "source": "Streaming and royalty business models",
@@ -634,12 +634,12 @@
     "domain": "gold",
     "question": "Wheaton Precious Metals is primarily known for streaming agreements on which two metals?",
     "options": {
-      "A": "Copper and zinc",
-      "B": "Gold and silver",
-      "C": "Platinum and palladium",
-      "D": "Iron ore and nickel"
+      "A": "Platinum and palladium",
+      "B": "Iron ore and nickel",
+      "C": "Copper and zinc",
+      "D": "Gold and silver"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Wheaton Precious Metals (formerly Silver Wheaton) built its business primarily on silver streaming agreements with base metal mines where silver is produced as a by-product. The company later expanded aggressively into gold streams. Wheaton's portfolio includes streams on major mines such as Salobo (Vale, Brazil — gold), Peñasquito (Newmont, Mexico — silver/gold), and Constancia (Hudbay, Peru — silver/gold). The by-product streaming model is particularly clever because it provides capital to base metal miners who are often willing to sell their precious metals by-product streams at attractive terms.",
     "key_concept": "Wheaton: gold + silver streams, often on by-product production from base metal mines",
     "source": "Wheaton Precious Metals portfolio",
@@ -651,10 +651,10 @@
     "domain": "gold",
     "question": "Agnico Eagle Mines has differentiated itself from other major gold producers by primarily operating in which type of jurisdictions?",
     "options": {
-      "A": "Exclusively in sub-Saharan Africa",
+      "A": "Only in South America",
       "B": "Low-risk, politically stable jurisdictions — primarily Canada, Finland, Australia, and Mexico",
-      "C": "Only in South America",
-      "D": "Exclusively in the United States"
+      "C": "Exclusively in the United States",
+      "D": "Exclusively in sub-Saharan Africa"
     },
     "correct": "B",
     "explanation": "Agnico Eagle has built a reputation as a 'safe jurisdiction' gold producer, with the majority of its production coming from Canada (Meadowbank, Meliadine, LaRonde, Detour Lake, Canadian Malartic), Finland (Kittilä), and Australia (acquired via the Kirkland Lake Gold merger in 2022). This geographic focus on politically stable, mining-friendly jurisdictions earns Agnico Eagle a valuation premium from investors who are willing to pay more for lower geopolitical risk. The company produces approximately 3.4 million ounces per year, making it the third-largest gold producer globally.",
@@ -685,12 +685,12 @@
     "domain": "gold",
     "question": "In early 2019, Barrick Gold launched an unsolicited hostile takeover bid for Newmont. The bid was ultimately withdrawn. What was the key outcome of this failed bid?",
     "options": {
-      "A": "Barrick and Newmont became permanent enemies and refused to cooperate",
-      "B": "The failed bid led directly to the formation of the Nevada Gold Mines joint venture, which achieved the operational synergies Barrick sought without the complexity and cost of a full merger",
-      "C": "Newmont was forced to accept the takeover at a higher price",
-      "D": "Barrick was acquired by Newmont instead"
+      "A": "The failed bid led directly to the formation of the Nevada Gold Mines joint venture, which achieved the operational synergies Barrick sought without the complexity and cost of a full merger",
+      "B": "Barrick and Newmont became permanent enemies and refused to cooperate",
+      "C": "Barrick was acquired by Newmont instead",
+      "D": "Newmont was forced to accept the takeover at a higher price"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Barrick's hostile bid for Newmont in February 2019 was driven by Mark Bristow's recognition that the two companies' overlapping Nevada operations could generate billions in synergies. When Newmont rejected the bid and shareholders showed limited enthusiasm for a full merger, both companies pivoted to the more targeted solution of combining only their Nevada assets into a 61.5/38.5 JV. This outcome actually delivered better value than a full merger would have — it captured the Nevada synergies without the integration risks, cultural clashes, and regulatory hurdles of combining two global companies. The lesson: sometimes a focused partnership beats a full acquisition.",
     "key_concept": "Failed hostile bid led to Nevada JV — focused partnership beat full merger",
     "source": "Barrick hostile bid for Newmont 2019",
@@ -702,12 +702,12 @@
     "domain": "gold",
     "question": "After completing the Newcrest acquisition, Newmont announced plans to divest $2+ billion in non-core assets. Which of the following best describes the types of assets Newmont targeted for sale?",
     "options": {
-      "A": "Only the former Newcrest assets that Newmont did not want",
-      "B": "Both legacy Newmont and former Newcrest assets that did not meet Tier 1 criteria — including smaller, higher-cost, or shorter-life mines across both portfolios",
-      "C": "All Australian operations",
-      "D": "Only exploration-stage projects with no production"
+      "A": "All Australian operations",
+      "B": "Only exploration-stage projects with no production",
+      "C": "Both legacy Newmont and former Newcrest assets that did not meet Tier 1 criteria — including smaller, higher-cost, or shorter-life mines across both portfolios",
+      "D": "Only the former Newcrest assets that Newmont did not want"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Newmont's divestiture program was portfolio-wide, targeting non-core assets from both the legacy Newmont and former Newcrest portfolios. Assets identified for sale included operations like Telfer (Australia), Akyem (Ghana), and several others that were either too small, too high-cost, or approaching end-of-life. Importantly, this was not just about shedding Newcrest assets — Newmont used the merger as an opportunity to rationalize its entire portfolio. Proceeds were directed toward debt reduction, returning capital to shareholders, and funding growth at the retained Tier 1 assets.",
     "key_concept": "Newmont divested non-Tier 1 assets from both portfolios; $2B+ in sales for debt reduction",
     "source": "Newmont post-Newcrest divestiture program",
@@ -721,8 +721,8 @@
     "options": {
       "A": "Rely entirely on acquisitions to replace depleted reserves",
       "B": "A balanced approach combining near-mine exploration (brownfield), greenfield exploration, and selective M&A to replace reserves at a cost well below the value created",
-      "C": "Stop exploring and focus only on mining existing reserves as fast as possible",
-      "D": "Only invest in greenfield exploration in unexplored regions"
+      "C": "Only invest in greenfield exploration in unexplored regions",
+      "D": "Stop exploring and focus only on mining existing reserves as fast as possible"
     },
     "correct": "B",
     "explanation": "Major gold producers face a constant challenge: every ounce mined depletes their reserve base, and finding replacement ounces is becoming increasingly difficult and expensive globally. The most successful companies use a three-pronged approach: (1) near-mine brownfield exploration, which has the highest success rate and lowest cost per ounce discovered, (2) greenfield exploration for longer-term pipeline development, and (3) selective acquisitions when external resources can be purchased at below replacement cost. Companies like Barrick and Agnico Eagle that maintain strong brownfield programs consistently outperform those reliant solely on M&A.",
@@ -736,12 +736,12 @@
     "domain": "gold",
     "question": "The gold industry uses the concept of a 'Tier 1 asset' as a benchmark for world-class mines. Which combination of criteria best defines a Tier 1 gold asset?",
     "options": {
-      "A": "Any mine that has been in production for more than 50 years",
-      "B": "Annual production of 500,000+ ounces, mine life exceeding 10 years, and AISC in the lower half of the global cost curve",
-      "C": "Any mine located in a Tier 1 jurisdiction like Canada or Australia",
+      "A": "Any mine located in a Tier 1 jurisdiction like Canada or Australia",
+      "B": "Any mine that has been in production for more than 50 years",
+      "C": "Annual production of 500,000+ ounces, mine life exceeding 10 years, and AISC in the lower half of the global cost curve",
       "D": "A mine with reserves exceeding 100 million ounces regardless of cost"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The Tier 1 gold asset definition, popularized by Mark Bristow at Randgold and now widely used across the industry, requires three simultaneous criteria: (1) annual production capacity of 500,000+ ounces, providing meaningful scale, (2) remaining mine life of 10+ years, ensuring long-term cash flow generation, and (3) AISC in the lower half of the industry cost curve, ensuring profitability through commodity price cycles. Very few deposits globally meet all three criteria — perhaps only 15-20 mines worldwide qualify. This is why Tier 1 assets command premium valuations and why companies like Barrick and Newmont structure their entire strategy around owning them.",
     "key_concept": "Tier 1 = 500koz+/year + 10yr+ life + lower-half AISC; only ~15-20 mines globally qualify",
     "source": "Tier 1 asset definition / Randgold-Barrick framework",
@@ -753,12 +753,12 @@
     "domain": "gold",
     "question": "Kinross Gold's $7.1 billion acquisition of Red Back Mining in 2010 is widely cited as a cautionary tale in gold M&A. What was the primary mistake?",
     "options": {
-      "A": "Red Back's mines had no gold resources at all",
-      "B": "Kinross paid a massive premium at near-peak gold prices for assets (Tasiast, Chirano) whose development costs and technical challenges were severely underestimated, resulting in billions in subsequent write-downs",
-      "C": "Kinross acquired Red Back during a period of very low gold prices",
+      "A": "Kinross paid a massive premium at near-peak gold prices for assets (Tasiast, Chirano) whose development costs and technical challenges were severely underestimated, resulting in billions in subsequent write-downs",
+      "B": "Kinross acquired Red Back during a period of very low gold prices",
+      "C": "Red Back's mines had no gold resources at all",
       "D": "The acquisition was blocked by regulators and never completed"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Kinross paid $7.1 billion for Red Back Mining in 2010 when gold was trading near $1,200/oz and heading toward its 2011 peak. The Tasiast mine in Mauritania required far more capital investment than anticipated — the expansion project ballooned in cost and timeline, forcing Kinross to take over $3 billion in write-downs. This is the exact opposite of Peter Munk's counter-cyclical approach: Kinross bought at the top of the cycle, overpaid based on optimistic assumptions, and suffered when reality proved far more costly. The lesson for any acquiring company is to stress-test acquisition economics against conservative gold price and capital cost assumptions, not optimistic ones.",
     "key_concept": "Red Back: $7.1B at cycle peak, $3B+ write-downs; never buy on optimistic assumptions",
     "source": "Kinross Gold / Red Back Mining acquisition lessons",

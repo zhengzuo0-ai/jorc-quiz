@@ -6,6 +6,7 @@ import Review from './pages/Review';
 import Exam from './pages/Exam';
 import Concepts from './pages/Concepts';
 import Progress from './pages/Progress';
+import StudyPlan from './pages/StudyPlan';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="concepts" element={<Concepts />} />
         <Route path="concepts/:chapterId" element={<Concepts />} />
         <Route path="progress" element={<Progress />} />
+        <Route path="study-plan" element={<StudyPlan />} />
       </Route>
     </Routes>
   );

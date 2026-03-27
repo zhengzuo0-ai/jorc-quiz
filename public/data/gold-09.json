@@ -5,12 +5,12 @@
     "domain": "gold",
     "question": "What does AISC stand for in gold mining cost reporting?",
     "options": {
-      "A": "Annual Investment in Sustaining Capital",
-      "B": "All-In Sustaining Cost",
+      "A": "Accumulated Interest on Sunk Capital",
+      "B": "Annual Investment in Sustaining Capital",
       "C": "Average Industry Standard Cost",
-      "D": "Accumulated Interest on Sunk Capital"
+      "D": "All-In Sustaining Cost"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "AISC stands for All-In Sustaining Cost, the industry-standard metric for comparing the total cost of producing an ounce of gold across different operations. AISC equals C1 cash cost plus sustaining capital expenditure plus corporate general and administrative costs. It was introduced by the World Gold Council in 2013 to provide a more comprehensive and comparable cost measure than the older C1 cash cost metric. AISC excludes growth capital, making it distinct from AIC (All-In Cost). The global median AISC is approximately $1,400 per ounce, with well-run West African alluvial operations achieving $800-1,200 per ounce.",
     "key_concept": "AISC = C1 cash cost + sustaining capex + corporate G&A; the standard gold industry cost metric.",
     "source": "Mine economics practice",
@@ -39,12 +39,12 @@
     "domain": "gold",
     "question": "What is AIC (All-In Cost) and how does it differ from AISC?",
     "options": {
-      "A": "AIC and AISC are the same metric",
-      "B": "AIC equals AISC plus growth capital expenditure, representing the total cost of running and expanding the operation",
-      "C": "AIC is the cost per tonne while AISC is the cost per ounce",
+      "A": "AIC equals AISC plus growth capital expenditure, representing the total cost of running and expanding the operation",
+      "B": "AIC is the cost per tonne while AISC is the cost per ounce",
+      "C": "AIC and AISC are the same metric",
       "D": "AIC excludes royalties while AISC includes them"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "All-In Cost (AIC) is the most comprehensive cost metric, equaling AISC plus non-sustaining (growth) capital expenditure such as new mine development, plant expansions, and major infrastructure. AIC captures the full economic cost of operating and growing the business. While AISC is the standard for comparing operating efficiency between mines, AIC is more relevant for assessing the total cash requirements and true profitability of a mining company. A mine with low AISC but high growth capex may have a high AIC, meaning its total cash outflow exceeds what AISC alone would suggest.",
     "key_concept": "AIC = AISC + growth capex; the most comprehensive measure of total gold production cost.",
     "source": "Mine economics practice",
@@ -56,10 +56,10 @@
     "domain": "gold",
     "question": "What discount rate range is typically used for NPV analysis of gold mining projects?",
     "options": {
-      "A": "0-2%",
+      "A": "15-25%",
       "B": "5-8%",
-      "C": "15-25%",
-      "D": "30-50%"
+      "C": "30-50%",
+      "D": "0-2%"
     },
     "correct": "B",
     "explanation": "Gold mining projects typically use real (inflation-adjusted) discount rates of 5-8% for NPV (Net Present Value) calculations. This rate reflects the time value of money, the risk profile of the mining industry, and the project's cost of capital. Lower rates (5%) may be applied to low-risk, permitted operations in stable jurisdictions, while higher rates (8% or above) reflect greater political, technical, or permitting risk. Some analysts use 10% for projects in higher-risk African jurisdictions. The discount rate significantly impacts NPV, especially for long-life mines where later cash flows are heavily discounted.",
@@ -73,12 +73,12 @@
     "domain": "gold",
     "question": "What minimum IRR do mining investors typically require for a gold project to proceed?",
     "options": {
-      "A": "2-5%",
-      "B": "5-10%",
-      "C": "15-25%",
+      "A": "5-10%",
+      "B": "15-25%",
+      "C": "2-5%",
       "D": "50-75%"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "Mining investors typically require an Internal Rate of Return (IRR) of at least 15-25% for a gold project to be considered investable. The IRR is the discount rate that makes the NPV equal to zero. Junior companies exploring in West Africa often need IRRs above 25% to attract financing given perceived country risk, while established producers with existing infrastructure may accept 15-20%. The IRR hurdle rate varies by company, jurisdiction risk, project stage, and capital market conditions. Projects with IRRs below 15% generally struggle to secure funding unless they have exceptional strategic value.",
     "key_concept": "Mining investors require 15-25% IRR minimum, with higher hurdles for riskier jurisdictions.",
     "source": "Mine economics practice",
@@ -90,12 +90,12 @@
     "domain": "gold",
     "question": "What is the typical mining cost range per tonne for open pit gold operations?",
     "options": {
-      "A": "$0.10-0.50/t",
-      "B": "$2-8/t",
+      "A": "$200-500/t",
+      "B": "$0.10-0.50/t",
       "C": "$50-100/t",
-      "D": "$200-500/t"
+      "D": "$2-8/t"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Open pit mining costs typically range from $2 to $8 per tonne of material moved, encompassing drilling, blasting, loading, hauling, and mine infrastructure maintenance. The cost depends on rock hardness, haul distance, bench height, strip ratio (affecting total material moved per tonne of ore), and labor costs. West African operations tend to be on the lower end for oxide material ($2-4/t) where blasting may not be required, and higher for fresh hard rock ($5-8/t). This cost applies to all material moved, so the mining cost per tonne of ore equals the cost per tonne moved multiplied by (strip ratio + 1).",
     "key_concept": "Open pit mining costs $2-8 per tonne moved, varying with rock type, haul distance, and region.",
     "source": "Mine economics practice",
@@ -108,11 +108,11 @@
     "question": "What is the typical processing cost range for a CIL gold plant?",
     "options": {
       "A": "$1-3/t",
-      "B": "$15-35/t",
-      "C": "$100-200/t",
+      "B": "$100-200/t",
+      "C": "$15-35/t",
       "D": "$500-1,000/t"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "CIL (Carbon-in-Leach) processing costs typically range from $15 to $35 per tonne of ore processed. This includes grinding (the largest single cost component due to energy consumption), cyanide and lime reagents, carbon management, labor, and maintenance. The cost varies with ore hardness (affecting grinding energy), reagent consumption (influenced by ore mineralogy), plant throughput (economies of scale), and power costs. Gravity-only processing is much cheaper at $3-8/t, while adding refractory ore pre-treatment (POX, BIOX) can push costs above $40/t. Power costs are often the largest variable in West African operations.",
     "key_concept": "CIL processing costs $15-35/t, with grinding energy being the largest cost component.",
     "source": "Mine economics practice",
@@ -124,12 +124,12 @@
     "domain": "gold",
     "question": "What is a sensitivity analysis in mine economics?",
     "options": {
-      "A": "An environmental assessment of the mine's impact on sensitive habitats",
-      "B": "A systematic evaluation of how changes in key input variables (gold price, grade, costs, recovery) affect project economics (NPV, IRR)",
+      "A": "A systematic evaluation of how changes in key input variables (gold price, grade, costs, recovery) affect project economics (NPV, IRR)",
+      "B": "An environmental assessment of the mine's impact on sensitive habitats",
       "C": "A test of equipment sensitivity to vibration",
       "D": "An assessment of community sensitivity to mining activities"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Sensitivity analysis systematically varies key input parameters one at a time (or in combination) to assess their impact on project economics. Typical variables tested include gold price (+/-20%), head grade (+/-15%), operating costs (+/-15%), capital costs (+/-20%), and metallurgical recovery (+/-5%). The results are often displayed as spider diagrams or tornado charts showing which variables have the greatest impact on NPV and IRR. Gold price and head grade are almost always the most sensitive parameters. Sensitivity analysis is a required component of feasibility studies and helps investors understand project risk and robustness.",
     "key_concept": "Sensitivity analysis tests how changes in gold price, grade, costs, and recovery affect NPV and IRR.",
     "source": "Mine economics practice",
@@ -141,12 +141,12 @@
     "domain": "gold",
     "question": "What is the EV/resource ounce valuation range for a gold project at the advanced exploration stage?",
     "options": {
-      "A": "$5-20/oz",
-      "B": "$20-150/oz",
+      "A": "$20-150/oz",
+      "B": "$5-20/oz",
       "C": "$150-400/oz",
       "D": "$500-1,000/oz"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Enterprise Value per resource ounce (EV/oz) is a market-based valuation metric for gold companies. At the advanced exploration stage (defined resource with preliminary economic studies), projects typically trade at $20-150 per resource ounce. This compares to grassroots exploration at $5-20/oz, development stage at $100-250/oz, and producing mines at $150-400/oz. The wide range reflects differences in resource quality (grade, metallurgy, scale), jurisdiction risk, infrastructure access, and permitting status. West African projects may trade at a discount to the range due to perceived country risk, offset by typically lower operating costs.",
     "key_concept": "Advanced exploration gold projects are valued at $20-150 per resource ounce based on project quality and risk.",
     "source": "Mine economics practice",
@@ -175,10 +175,10 @@
     "domain": "gold",
     "question": "What is an NSR royalty?",
     "options": {
-      "A": "A royalty based on the company's net share register",
+      "A": "A royalty based on the number of employees",
       "B": "A Net Smelter Return royalty calculated as a percentage of revenue after deducting refining, smelting, and transport costs",
-      "C": "A royalty paid only on silver production",
-      "D": "A royalty based on the number of employees"
+      "C": "A royalty based on the company's net share register",
+      "D": "A royalty paid only on silver production"
     },
     "correct": "B",
     "explanation": "A Net Smelter Return (NSR) royalty is calculated as a percentage of the mine's net revenue after deducting allowable costs for smelting, refining, and transportation of the metal to market. NSR is the most common royalty structure used by private royalty holders (as opposed to government royalties, which are typically ad valorem). For example, a 2% NSR on a mine selling gold at $2,000/oz with $20/oz deductions would pay $2,000-$20 = $1,980 x 2% = $39.60 per ounce. NSR royalties are attractive to holders because they are less affected by operating cost inflation than NPI (Net Profit Interest) royalties.",
@@ -193,11 +193,11 @@
     "question": "What is Mali's government gold mining royalty rate?",
     "options": {
       "A": "1%",
-      "B": "3%",
-      "C": "10%",
-      "D": "20%"
+      "B": "10%",
+      "C": "20%",
+      "D": "3%"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Mali charges a 3% ad valorem royalty on gold production, meaning the royalty is calculated as a percentage of gross revenue (gold sales value). This is relatively competitive compared to other West African gold-producing nations. Guinea charges 5%, Cote d'Ivoire charges 3-5% depending on the mining code version, and Cameroon charges 4%. Government royalties are distinct from corporate income tax and are typically the first charge on revenue, payable regardless of profitability. Royalty rates are a key consideration in project economics and can significantly impact cut-off grades and mine life decisions.",
     "key_concept": "Mali charges a 3% ad valorem royalty on gold production, competitive within the West African region.",
     "source": "Mine economics practice",
@@ -209,12 +209,12 @@
     "domain": "gold",
     "question": "What is break-even analysis in mine economics?",
     "options": {
-      "A": "Determining the point at which the mine physically breaks through the rock",
-      "B": "Calculating the minimum gold price, grade, or production rate at which the project generates zero NPV or zero cash margin",
-      "C": "Analyzing when mining equipment needs replacement",
-      "D": "Comparing the performance of different mining stocks"
+      "A": "Analyzing when mining equipment needs replacement",
+      "B": "Determining the point at which the mine physically breaks through the rock",
+      "C": "Comparing the performance of different mining stocks",
+      "D": "Calculating the minimum gold price, grade, or production rate at which the project generates zero NPV or zero cash margin"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Break-even analysis determines the critical threshold values for key economic parameters at which the project just covers its costs. The break-even gold price is the price at which NPV equals zero (or operating cash flow equals zero for short-term decisions). The break-even grade is the minimum grade that covers all costs (equivalent to the economic cut-off grade). Break-even analysis is essential for understanding downside risk: if the current gold price is 40% above the break-even price, the project has a significant margin of safety. Feasibility studies routinely report break-even values for gold price, grade, and key cost items.",
     "key_concept": "Break-even analysis identifies minimum gold price, grade, or production needed for economic viability.",
     "source": "Mine economics practice",
@@ -228,8 +228,8 @@
     "options": {
       "A": "The time required to repay bank loans",
       "B": "The time required for cumulative project cash flows to recover the initial capital investment",
-      "C": "The length of the mining permit",
-      "D": "The time between gold pours"
+      "C": "The time between gold pours",
+      "D": "The length of the mining permit"
     },
     "correct": "B",
     "explanation": "The payback period is the time from the start of production until cumulative net cash flows equal the initial capital investment. Mining investors prefer short payback periods (typically 3-5 years) because they reduce exposure to long-term risks such as gold price declines, political instability, and geological uncertainty. The discounted payback period uses discounted cash flows and is always longer than the undiscounted payback. In West Africa, where political risk is a consideration, many investors require a payback period of 3 years or less. The payback period complements NPV and IRR by providing a simple measure of capital recovery speed.",
@@ -243,12 +243,12 @@
     "domain": "gold",
     "question": "A gold mine produces 100,000 oz/year with C1 cash costs of $900/oz, sustaining capex of $150/oz, and corporate G&A of $50/oz. What is the AISC?",
     "options": {
-      "A": "$900/oz",
-      "B": "$1,050/oz",
-      "C": "$1,100/oz",
-      "D": "$1,200/oz"
+      "A": "$1,200/oz",
+      "B": "$1,100/oz",
+      "C": "$1,050/oz",
+      "D": "$900/oz"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "AISC = C1 cash cost + sustaining capex + corporate G&A = $900 + $150 + $50 = $1,100 per ounce. At a gold price of $2,000/oz, this mine generates an AISC margin of $900 per ounce, or $90 million per year. This AISC of $1,100/oz is below the global median of approximately $1,400/oz, indicating a cost-competitive operation. The mine would remain cash-flow positive at gold prices above $1,100/oz. Understanding the AISC breakdown helps identify where cost reduction efforts should focus, whether on mining efficiency (reducing C1), extending equipment life (reducing sustaining capex), or streamlining overhead (reducing G&A).",
     "key_concept": "AISC = C1 + sustaining capex + corporate G&A; $1,100/oz is below the global median.",
     "source": "Mine economics practice",
@@ -260,12 +260,12 @@
     "domain": "gold",
     "question": "What is Guinea's government gold mining royalty rate?",
     "options": {
-      "A": "2%",
-      "B": "3%",
-      "C": "5%",
-      "D": "10%"
+      "A": "5%",
+      "B": "10%",
+      "C": "2%",
+      "D": "3%"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "Guinea charges a 5% ad valorem royalty on gold production, the highest among the major West African gold producers. This compares to Mali at 3%, Cote d'Ivoire at 3-5%, and Cameroon at 4%. The higher royalty rate in Guinea reflects the government's desire to capture a larger share of mining revenue from the country's significant mineral wealth. This 5% royalty must be factored into cut-off grade calculations and economic evaluations, as it effectively reduces the net gold price received by the miner. Some mining agreements in Guinea may negotiate reduced rates during initial production years.",
     "key_concept": "Guinea charges 5% ad valorem gold royalty, the highest among major West African producers.",
     "source": "Mine economics practice",
@@ -277,12 +277,12 @@
     "domain": "gold",
     "question": "What is a NPI (Net Profit Interest) royalty?",
     "options": {
-      "A": "A royalty calculated on net revenue before any deductions",
-      "B": "A royalty calculated as a percentage of net profit after deducting all allowable operating costs and capital expenditures from revenue",
+      "A": "A royalty calculated as a percentage of net profit after deducting all allowable operating costs and capital expenditures from revenue",
+      "B": "A tax on gold exploration activities",
       "C": "The interest rate on a mining company's bank loans",
-      "D": "A tax on gold exploration activities"
+      "D": "A royalty calculated on net revenue before any deductions"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "A Net Profit Interest (NPI) royalty is calculated as a percentage of the mine's net profit after deducting all allowable operating costs, capital expenditures, depreciation, and sometimes financing costs from revenue. Unlike NSR royalties, NPI royalties only generate payments when the mine is profitable, providing natural downside protection for the miner but lower certainty for the royalty holder. NPI royalties are less common than NSR because they require the holder to trust the operator's cost reporting and can be manipulated through capital allocation decisions. They are more common in government fiscal regimes than private royalty agreements.",
     "key_concept": "NPI royalty is based on net profit after cost deductions, only payable when the mine is profitable.",
     "source": "Mine economics practice",
@@ -294,10 +294,10 @@
     "domain": "gold",
     "question": "What is the typical AISC range for well-run alluvial gold operations in West Africa?",
     "options": {
-      "A": "$200-500/oz",
+      "A": "$1,500-2,000/oz",
       "B": "$800-1,200/oz",
-      "C": "$1,500-2,000/oz",
-      "D": "$2,500-3,000/oz"
+      "C": "$2,500-3,000/oz",
+      "D": "$200-500/oz"
     },
     "correct": "B",
     "explanation": "Well-operated alluvial gold mines in West Africa typically achieve AISC of $800-1,200 per ounce, below the global median of approximately $1,400/oz. Lower costs are driven by the absence of blasting in soft alluvial material, simpler gravity-based processing (no expensive cyanide or grinding circuits), lower strip ratios, and competitive labor costs. However, alluvial operations face challenges including lower and more variable grades, higher ore loss and dilution, seasonal production losses during the rainy season, and limited mine life as alluvial deposits are typically smaller. The cost advantage makes alluvial gold an attractive investment when deposits of sufficient scale can be identified.",
@@ -311,12 +311,12 @@
     "domain": "gold",
     "question": "A gold project has a capital cost of $200 million, a 10-year mine life producing 150,000 oz/year, AISC of $1,100/oz, and the gold price is $2,000/oz. What is the approximate annual pre-tax operating cash flow?",
     "options": {
-      "A": "$45 million",
-      "B": "$135 million",
-      "C": "$300 million",
-      "D": "$15 million"
+      "A": "$15 million",
+      "B": "$300 million",
+      "C": "$45 million",
+      "D": "$135 million"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Annual pre-tax operating cash flow = Production x (Gold price - AISC) = 150,000 oz x ($2,000 - $1,100) = 150,000 x $900 = $135 million. Note that AISC already includes sustaining capex and corporate G&A, so this represents the cash available for taxes, debt service, growth capital, and dividends. With $200 million initial capex and $135 million annual cash flow, the simple (undiscounted) payback period is approximately 1.5 years, which is excellent. The actual payback will be somewhat longer after accounting for taxes, ramp-up, and the time value of money. This type of quick calculation is essential for initial project screening.",
     "key_concept": "Operating cash flow = Production x (Gold price - AISC); $135M/year indicates a highly economic project.",
     "source": "Mine economics practice",
@@ -328,12 +328,12 @@
     "domain": "gold",
     "question": "How does a 10% increase in gold price typically compare in NPV impact to a 10% decrease in operating costs?",
     "options": {
-      "A": "They have exactly the same NPV impact",
-      "B": "The gold price increase has a larger NPV impact because it applies to total revenue, while cost reduction only applies to the cost base which is smaller than revenue",
+      "A": "The gold price increase has a larger NPV impact because it applies to total revenue, while cost reduction only applies to the cost base which is smaller than revenue",
+      "B": "Neither affects NPV significantly",
       "C": "The cost reduction always has a larger impact",
-      "D": "Neither affects NPV significantly"
+      "D": "They have exactly the same NPV impact"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "A 10% increase in gold price has a greater NPV impact than a 10% decrease in operating costs because the price increase applies to the entire revenue line (price x ounces produced), while the cost reduction applies only to the operating cost base, which is always smaller than revenue for a profitable mine. For example, at $2,000/oz and $1,100/oz AISC, a 10% price increase adds $200/oz to margin ($200 x ounces), while a 10% cost decrease adds only $110/oz ($1,100 x 10%). This is why sensitivity analyses consistently show gold price as the most impactful variable. It also explains why investors focus heavily on gold price outlook when evaluating mining equities.",
     "key_concept": "Gold price changes impact NPV more than equal percentage cost changes because revenue exceeds the cost base.",
     "source": "Mine economics practice",
@@ -345,12 +345,12 @@
     "domain": "gold",
     "question": "What is the typical gravity-only processing cost range per tonne?",
     "options": {
-      "A": "$3-8/t",
-      "B": "$15-35/t",
-      "C": "$50-100/t",
-      "D": "$100-200/t"
+      "A": "$50-100/t",
+      "B": "$100-200/t",
+      "C": "$3-8/t",
+      "D": "$15-35/t"
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "Gravity-only processing plants cost approximately $3-8 per tonne of ore, making them the cheapest processing option for gold. These plants use screening, jigs, spirals, shaking tables, and/or centrifugal concentrators without chemical leaching. The low cost reflects the simplicity of the equipment, minimal reagent consumption, low energy requirements, and reduced environmental management needs. However, gravity-only plants are limited to deposits with coarse free gold and typically achieve lower overall recovery than CIL. They are ideal for alluvial gold operations in West Africa where coarse gold dominates and the economics favor low-cost, lower-recovery processing.",
     "key_concept": "Gravity processing costs $3-8/t, the cheapest option but limited to coarse free gold deposits.",
     "source": "Mine economics practice",
@@ -362,10 +362,10 @@
     "domain": "gold",
     "question": "What is the EV/resource ounce valuation range for a producing gold mine?",
     "options": {
-      "A": "$5-20/oz",
-      "B": "$20-100/oz",
+      "A": "$1,000-2,000/oz",
+      "B": "$5-20/oz",
       "C": "$150-400/oz",
-      "D": "$1,000-2,000/oz"
+      "D": "$20-100/oz"
     },
     "correct": "C",
     "explanation": "Producing gold mines typically trade at $150-400 per resource ounce of enterprise value, reflecting the de-risked nature of an operating asset with proven cash flow generation. This significant premium over exploration ($5-20/oz) and development ($100-250/oz) stage projects compensates for the capital already invested, the technical and permitting risk already overcome, and the established production track record. Within this range, higher-quality mines (lower AISC, longer life, favorable jurisdiction) command premium valuations. Producers with mines in stable West African jurisdictions with strong infrastructure typically trade in the middle to upper portion of this range.",
@@ -379,12 +379,12 @@
     "domain": "gold",
     "question": "A company is evaluating two gold projects: Project A has an NPV of $300M and IRR of 35%, while Project B has an NPV of $500M and IRR of 18%. Capital is not constrained. Which project should be preferred and why?",
     "options": {
-      "A": "Project A, because it has the higher IRR",
-      "B": "Project B, because it has the higher NPV which maximizes shareholder value when capital is not the binding constraint",
-      "C": "Both projects are equally attractive",
-      "D": "Neither project should be selected without knowing the gold price"
+      "A": "Project B, because it has the higher NPV which maximizes shareholder value when capital is not the binding constraint",
+      "B": "Neither project should be selected without knowing the gold price",
+      "C": "Project A, because it has the higher IRR",
+      "D": "Both projects are equally attractive"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "When capital is not constrained, NPV is the superior decision criterion because it measures absolute value creation. Project B creates $200M more value for shareholders despite its lower IRR. IRR is more useful for ranking projects when capital is limited and only one can be selected per dollar invested. The conflict between NPV and IRR often arises when projects differ in scale or timing. Project A may be smaller or shorter-lived, generating a high return on a smaller capital base. In practice, mining companies should maximize NPV subject to meeting minimum IRR hurdles (15-25%). Both projects exceed typical hurdle rates.",
     "key_concept": "NPV maximizes value when capital is unconstrained; IRR is better for capital-rationed ranking.",
     "source": "Mine economics practice",
@@ -396,12 +396,12 @@
     "domain": "gold",
     "question": "What is Cote d'Ivoire's government gold mining royalty rate range?",
     "options": {
-      "A": "1-2%",
-      "B": "3-5%",
-      "C": "8-10%",
-      "D": "15-20%"
+      "A": "3-5%",
+      "B": "15-20%",
+      "C": "1-2%",
+      "D": "8-10%"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Cote d'Ivoire charges a gold mining royalty of 3-5%, depending on the applicable mining code and specific mining convention. The 2014 mining code established a tiered system with rates varying based on the gold price and the specific terms negotiated in each mining convention. This places Cote d'Ivoire in the middle of the West African range, between Mali (3%) and Guinea (5%). The royalty is calculated on an ad valorem basis (percentage of gross revenue). Mining companies must factor the applicable royalty rate into their economic models, as the difference between 3% and 5% on a 200,000 oz/year operation at $2,000/oz gold represents $8 million per year.",
     "key_concept": "Cote d'Ivoire charges 3-5% gold royalty, varying by mining code version and convention terms.",
     "source": "Mine economics practice",
@@ -413,12 +413,12 @@
     "domain": "gold",
     "question": "What is Cameroon's government gold mining royalty rate?",
     "options": {
-      "A": "2%",
-      "B": "4%",
-      "C": "7%",
-      "D": "12%"
+      "A": "4%",
+      "B": "7%",
+      "C": "12%",
+      "D": "2%"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Cameroon charges a 4% ad valorem royalty on gold production under its mining code. This positions Cameroon between Mali (3%) and Guinea (5%) in the West African royalty landscape. The 4% royalty, combined with corporate income tax and other fiscal charges, forms the government's total take from mining operations. For a project evaluation in Cameroon, the royalty directly reduces net revenue and must be included in cut-off grade calculations, cash flow models, and economic sensitivity analyses. Understanding the fiscal regime of each target country is essential for accurate project valuation and comparison across jurisdictions.",
     "key_concept": "Cameroon charges a 4% ad valorem gold royalty, mid-range among West African producers.",
     "source": "Mine economics practice",
@@ -430,10 +430,10 @@
     "domain": "gold",
     "question": "What is the typical G&A cost range per tonne for gold mining operations?",
     "options": {
-      "A": "$0.50-1/t",
+      "A": "$200-300/t",
       "B": "$5-15/t",
-      "C": "$50-100/t",
-      "D": "$200-300/t"
+      "C": "$0.50-1/t",
+      "D": "$50-100/t"
     },
     "correct": "B",
     "explanation": "General and administrative (G&A) costs for gold mining operations typically range from $5 to $15 per tonne of ore processed. G&A includes site management, accounting, human resources, security, camp and catering, community relations, environmental monitoring, and other overhead costs not directly attributable to mining or processing. In remote West African locations, G&A costs tend to be at the higher end due to expatriate staff costs, security requirements, camp infrastructure, and fly-in/fly-out logistics. G&A is relatively fixed in total, so it decreases per tonne as throughput increases, providing economies of scale for larger operations.",
@@ -447,10 +447,10 @@
     "domain": "gold",
     "question": "What is an ad valorem royalty?",
     "options": {
-      "A": "A royalty based on the volume of material mined",
+      "A": "A royalty based on the number of mining permits held",
       "B": "A royalty calculated as a fixed percentage of the gross market value (revenue) of the mineral produced",
-      "C": "A royalty based on the number of mining permits held",
-      "D": "A royalty paid only when gold prices exceed a set threshold"
+      "C": "A royalty paid only when gold prices exceed a set threshold",
+      "D": "A royalty based on the volume of material mined"
     },
     "correct": "B",
     "explanation": "An ad valorem royalty is calculated as a percentage of the gross market value (revenue) of the mineral produced, without deductions for costs. It is the simplest and most common government royalty structure because it is easy to administer and provides predictable revenue regardless of the mine's profitability. For gold, it is typically calculated as: Royalty = Gold ounces produced x Gold price x Royalty rate. The disadvantage for miners is that the royalty is payable even when the mine is unprofitable, as it is based on revenue, not profit. Most West African gold-producing nations use ad valorem royalties: Mali 3%, Cameroon 4%, Guinea 5%.",
@@ -464,10 +464,10 @@
     "domain": "gold",
     "question": "How is the break-even cut-off grade for a gold mine typically calculated?",
     "options": {
-      "A": "Cut-off grade = Total resource tonnes / Mine life in years",
+      "A": "Cut-off grade = Gold price / AISC per ounce",
       "B": "Cut-off grade = Total processing cost per tonne / (Gold price x Recovery)",
-      "C": "Cut-off grade = Gold price / AISC per ounce",
-      "D": "Cut-off grade = Ore reserve grade / Stripping ratio"
+      "C": "Cut-off grade = Ore reserve grade / Stripping ratio",
+      "D": "Cut-off grade = Total resource tonnes / Mine life in years"
     },
     "correct": "B",
     "explanation": "The break-even cut-off grade is calculated by dividing the total cost of mining and processing a tonne of ore by the revenue obtainable from one gram of gold (gold price multiplied by metallurgical recovery). Expressed as: COG (g/t) = Total cost per tonne / (Gold price per gram x Recovery). For example, if total cost is $50/t, gold price is $60/g, and recovery is 90%, the COG = 50 / (60 x 0.90) = 0.93 g/t. Any material above this grade generates positive margin and is classified as ore. This calculation is fundamental to resource estimation and mine planning, as it directly determines the tonnage and grade of economically extractable material.",
@@ -481,12 +481,12 @@
     "domain": "gold",
     "question": "What does Taylor's Rule estimate in mine planning?",
     "options": {
-      "A": "The optimal gold recovery rate based on ore hardness",
-      "B": "The relationship between ore reserve tonnage and optimal daily production rate (and hence mine life)",
+      "A": "The relationship between ore reserve tonnage and optimal daily production rate (and hence mine life)",
+      "B": "The discount rate to apply for NPV calculations in different countries",
       "C": "The maximum allowable stripping ratio for open pit mines",
-      "D": "The discount rate to apply for NPV calculations in different countries"
+      "D": "The optimal gold recovery rate based on ore hardness"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Taylor's Rule is an empirical relationship that estimates the optimal daily production rate and mine life based on the total ore reserve tonnage. The commonly used form states: Mine life (years) ≈ 0.2 x (Reserve tonnes in millions)^0.25 x 5, or alternatively that daily tonnage ≈ Reserve tonnes / (Mine life x operating days). In practice, a deposit of 10 Mt might support roughly 3,000 tpd over a 10-year life, while a 100 Mt deposit might run at 20,000 tpd over 15 years. Taylor's Rule provides an initial sizing estimate for feasibility studies, ensuring that the production rate is neither too aggressive (high capital, short life) nor too conservative (poor economics from underutilization). It is widely used as a starting point before detailed optimization.",
     "key_concept": "Taylor's Rule relates ore reserve tonnage to optimal production rate and mine life, providing initial project sizing.",
     "source": "SME Mining Engineering Handbook, 3rd Edition",
@@ -499,8 +499,8 @@
     "question": "In a gold streaming agreement, what does the mining company typically receive?",
     "options": {
       "A": "A large upfront payment in exchange for the right to purchase a percentage of future gold production at a fixed, below-market price",
-      "B": "A guaranteed gold price for the life of mine, eliminating price risk entirely",
-      "C": "Free equity financing with no obligation to deliver gold",
+      "B": "Free equity financing with no obligation to deliver gold",
+      "C": "A guaranteed gold price for the life of mine, eliminating price risk entirely",
       "D": "A government subsidy to offset exploration costs"
     },
     "correct": "A",
@@ -515,12 +515,12 @@
     "domain": "gold",
     "question": "What is the primary purpose of a gold offtake or forward sales agreement?",
     "options": {
-      "A": "To guarantee that all gold produced is sold to the host government",
-      "B": "To lock in a future selling price for a portion of production, providing revenue certainty for project financing",
-      "C": "To eliminate all operating costs through pre-payment",
-      "D": "To transfer mine ownership to the buyer at a future date"
+      "A": "To eliminate all operating costs through pre-payment",
+      "B": "To transfer mine ownership to the buyer at a future date",
+      "C": "To lock in a future selling price for a portion of production, providing revenue certainty for project financing",
+      "D": "To guarantee that all gold produced is sold to the host government"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "An offtake or forward sales agreement commits a producer to sell a defined quantity of gold at a predetermined price at a future date. These contracts are commonly required by lenders to de-risk project finance for new mine developments, as they provide revenue certainty that supports debt service coverage ratios. In West Africa, forward sales are often structured for 2-3 years covering 30-50% of production. The trade-off is that the miner forgoes upside if spot prices rise above the forward price, but gains downside protection. Forward sales differ from streaming in that they typically cover a shorter period and do not involve a large upfront payment, instead functioning more like a price-hedging mechanism.",
     "key_concept": "Offtake/forward sales lock in a future gold price for a portion of production, supporting project finance bankability.",
     "source": "World Gold Council — Gold hedging and forward sales",
@@ -532,10 +532,10 @@
     "domain": "gold",
     "question": "What is the typical corporate income tax rate applied to gold mining companies in major West African producing countries?",
     "options": {
-      "A": "0-5%, as most countries offer full tax holidays for miners",
+      "A": "A flat 10% worldwide standard for extractive industries",
       "B": "25-30%, often with additional provisions for accelerated depreciation and loss carry-forward",
       "C": "50-60%, reflecting the high profitability of gold mining",
-      "D": "A flat 10% worldwide standard for extractive industries"
+      "D": "0-5%, as most countries offer full tax holidays for miners"
     },
     "correct": "B",
     "explanation": "Corporate income tax rates for gold mining in West Africa typically range from 25-30%. Mali applies 30%, Guinea 30%, Côte d'Ivoire 25%, and Burkina Faso 27.5%. Most mining codes provide fiscal incentives during the construction/development phase, including tax holidays of 3-5 years, accelerated depreciation on capital assets, and loss carry-forward provisions. These provisions are negotiated within mining conventions (conventions minières) that are specific to each project and may deviate from the standard code. Understanding the full fiscal regime — including royalties, taxes, duties, and government participation — is essential for accurate NPV modelling in feasibility studies.",
@@ -549,12 +549,12 @@
     "domain": "gold",
     "question": "What does 'government free-carried interest' mean in the context of West African mining?",
     "options": {
-      "A": "The government provides free financing for mine construction",
-      "B": "The government receives a percentage equity stake in the mining project at no cost, entitling it to dividends",
+      "A": "The government receives a percentage equity stake in the mining project at no cost, entitling it to dividends",
+      "B": "The government provides free financing for mine construction",
       "C": "The government carries all environmental rehabilitation liability",
       "D": "The government exempts the project from all taxes in exchange for equity"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Government free-carried interest is a mandatory equity participation where the host government receives a percentage ownership stake in the mining company or project without contributing to capital expenditure. This is standard across West Africa: Mali requires 10% (with an option to acquire up to 20%), Guinea mandates 15%, and Côte d'Ivoire requires 10%. The government stake entitles it to a proportional share of dividends once the project is in production. This 'free carry' is distinct from the government's option to purchase additional shares at market value. For feasibility study purposes, the free-carried interest dilutes the project sponsor's economic interest and must be modelled into the financial analysis alongside royalties and taxes.",
     "key_concept": "Government free-carried interest grants the state a no-cost equity stake (10-15% in West Africa), diluting sponsor economics.",
     "source": "West African mining codes — Government participation provisions",
@@ -566,12 +566,12 @@
     "domain": "gold",
     "question": "What does 'operating leverage' mean for a gold mining operation?",
     "options": {
-      "A": "The use of mechanical levers and heavy equipment in mining operations",
-      "B": "The degree to which a mine's profits change relative to changes in gold price, driven by the proportion of fixed vs variable costs",
-      "C": "The ratio of debt to equity in the mine's capital structure",
-      "D": "The number of operating shifts per day at the mine site"
+      "A": "The number of operating shifts per day at the mine site",
+      "B": "The ratio of debt to equity in the mine's capital structure",
+      "C": "The degree to which a mine's profits change relative to changes in gold price, driven by the proportion of fixed vs variable costs",
+      "D": "The use of mechanical levers and heavy equipment in mining operations"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Operating leverage in gold mining refers to the sensitivity of profits to changes in gold price (or production volume), which is driven by the high proportion of fixed costs in mining operations. A typical gold mine has 60-70% fixed costs (labour, equipment leases, power infrastructure, G&A) and only 30-40% variable costs. This means that a 10% increase in gold price can result in a 30-50% increase in operating profit, because revenue rises while most costs remain constant. Conversely, a gold price decline has a similarly amplified negative effect on margins. High-cost mines near their break-even point have the highest operating leverage — they can swing from loss to significant profit with modest price changes. Understanding operating leverage is critical for risk assessment in feasibility studies.",
     "key_concept": "Operating leverage amplifies profit swings relative to gold price changes due to the high fixed-cost nature of mining.",
     "source": "CIM — Mining economics and financial analysis",
@@ -583,12 +583,12 @@
     "domain": "gold",
     "question": "What is 'capital intensity' in gold mining and what is a typical range?",
     "options": {
-      "A": "The ratio of operating cost to revenue, typically 40-60%",
-      "B": "The initial capital expenditure required per annual ounce of production capacity, typically $3,000-8,000/oz for new projects",
+      "A": "The initial capital expenditure required per annual ounce of production capacity, typically $3,000-8,000/oz for new projects",
+      "B": "The ratio of operating cost to revenue, typically 40-60%",
       "C": "The number of capital raises required before first production, typically 2-4",
       "D": "The percentage of capital expenditure funded by debt, typically 50-70%"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Capital intensity measures the upfront capital investment required per annual ounce of gold production capacity. It is calculated as: Capital Intensity = Initial Capex / Annual Steady-State Production (oz). For modern gold projects, this typically ranges from $3,000-8,000 per annual ounce, depending on scale, location, and complexity. A 200,000 oz/year project with $800M capex has a capital intensity of $4,000/oz. West African projects tend to sit at the lower end of this range due to favourable geology (oxide ores, shallow deposits) and lower construction costs compared to Arctic or deep underground operations. Capital intensity is a key metric for comparing project economics and is closely watched by investors and analysts when evaluating development-stage companies.",
     "key_concept": "Capital intensity ($3,000-8,000/oz annual production) measures upfront capex efficiency and is key for project comparison.",
     "source": "World Gold Council — Gold mine cost benchmarking",
@@ -617,10 +617,10 @@
     "domain": "gold",
     "question": "How are mine closure costs typically handled in a gold mine's financial model?",
     "options": {
-      "A": "Closure costs are ignored until the mine actually closes",
+      "A": "The government pays all closure costs from royalty revenue",
       "B": "A provision is accrued progressively over the mine life, and a financial assurance (bond or guarantee) is often required by the regulator",
-      "C": "The government pays all closure costs from royalty revenue",
-      "D": "Closure costs are paid entirely by the next operator who acquires the site"
+      "C": "Closure costs are paid entirely by the next operator who acquires the site",
+      "D": "Closure costs are ignored until the mine actually closes"
     },
     "correct": "B",
     "explanation": "Mine closure and rehabilitation costs are provisioned progressively over the life of mine through annual accruals in the financial statements, following accounting standards (IAS 37 / IFRS). A typical gold mine closure cost ranges from $20-80 million depending on the scale and environmental sensitivity of the operation. Most jurisdictions, including West African countries, require the mining company to provide financial assurance — typically a bank guarantee, insurance bond, or cash deposit — to ensure funds are available for rehabilitation even if the company becomes insolvent. The closure plan covers dismantling of infrastructure, tailings dam stabilization, pit lake management, revegetation, and long-term water monitoring. These costs must be included in the feasibility study financial model as they directly affect project NPV and are a regulatory requirement for mining permit approval.",
@@ -634,12 +634,12 @@
     "domain": "gold",
     "question": "Why is 'social license to operate' considered a critical economic factor for West African gold mines?",
     "options": {
-      "A": "It is a formal government permit that costs a fixed annual fee",
-      "B": "Community opposition can halt operations, delay permits, and increase costs, making ongoing community investment and engagement an economic necessity",
-      "C": "Social license only matters for artisanal mining, not industrial operations",
-      "D": "It refers to the mine's social media marketing strategy"
+      "A": "It refers to the mine's social media marketing strategy",
+      "B": "Social license only matters for artisanal mining, not industrial operations",
+      "C": "It is a formal government permit that costs a fixed annual fee",
+      "D": "Community opposition can halt operations, delay permits, and increase costs, making ongoing community investment and engagement an economic necessity"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Social license to operate refers to the ongoing acceptance and approval of a mining operation by the local community and broader stakeholders. In West Africa, community opposition has led to blockades, permit delays, and even project cancellations — representing a material economic risk. Mining companies typically allocate 1-3% of revenue to community development programs including schools, clinics, water supply, roads, and local employment. Artisanal mining communities are particularly sensitive, as industrial operations may displace existing small-scale miners. IFC Performance Standards and the Equator Principles (required by most project finance lenders) mandate social impact assessment, community consultation, and benefit-sharing. The economic cost of losing social license — through project delays, security incidents, or legal challenges — far exceeds the cost of proactive community investment.",
     "key_concept": "Social license requires ongoing community investment (1-3% of revenue) to prevent costly disruptions in West African mining.",
     "source": "IFC Performance Standards; ICMM Community Development Toolkit",
@@ -653,8 +653,8 @@
     "options": {
       "A": "It has no effect because gold is always sold in local currency",
       "B": "Revenue is in USD (gold priced globally in dollars) while a significant portion of operating costs are in local currency, creating a natural mismatch",
-      "C": "All mining costs in West Africa are denominated in USD, so there is no currency risk",
-      "D": "Currency risk only affects the gold price, not operating costs"
+      "C": "Currency risk only affects the gold price, not operating costs",
+      "D": "All mining costs in West Africa are denominated in USD, so there is no currency risk"
     },
     "correct": "B",
     "explanation": "Gold mining in West Africa faces inherent currency risk because gold is priced and sold in US dollars, while 30-50% of operating costs (local labour, fuel taxes, community payments, local supplies) are denominated in local currencies such as the West African CFA franc (XOF), Guinean franc (GNF), or Ghanaian cedi (GHS). When the local currency depreciates against the USD, the mine's cost base falls in dollar terms, improving margins — this acts as a natural hedge. Conversely, local currency appreciation increases dollar-equivalent costs. The CFA franc is pegged to the Euro, providing some stability for operations in Mali, Côte d'Ivoire, Burkina Faso, and Senegal. Financial models should include sensitivity analysis on exchange rate assumptions, and some companies hedge currency exposure through forward contracts.",
@@ -702,10 +702,10 @@
     "domain": "gold",
     "question": "What accuracy range does the AACE classify a Definitive Feasibility Study (DFS) capital cost estimate?",
     "options": {
-      "A": "±50-100% (order of magnitude)",
-      "B": "±30-50% (conceptual/scoping level)",
+      "A": "±30-50% (conceptual/scoping level)",
+      "B": "±1-2% (exact construction cost)",
       "C": "±10-15% (Class 2-3 estimate, suitable for final investment decision)",
-      "D": "±1-2% (exact construction cost)"
+      "D": "±50-100% (order of magnitude)"
     },
     "correct": "C",
     "explanation": "The AACE (Association for the Advancement of Cost Engineering) International classifies cost estimates into five classes. A Definitive Feasibility Study (DFS/BFS) typically produces a Class 2-3 estimate with an accuracy range of ±10-15%. A Pre-Feasibility Study (PFS) produces a Class 3-4 estimate at ±15-25%, while a Scoping Study yields a Class 4-5 estimate at ±30-50%. The DFS accuracy level is considered sufficient for a final investment decision (FID) and for securing project finance. Achieving this accuracy requires detailed engineering design (typically 30-70% complete), firm equipment quotes, site-specific geotechnical data, and definitive process flow diagrams. Under JORC Code Table 1 Section 4 requirements, the Competent Person must state the level of engineering and accuracy of cost estimates when reporting Ore Reserves.",
@@ -720,11 +720,11 @@
     "question": "A mid-tier gold producer is evaluating the acquisition of a single-asset company with a West African mine producing 120,000 oz/year at AISC of $1,150/oz, with 8 years of remaining mine life and a 2.5 Moz resource. Gold price is $1,950/oz. The target's enterprise value is $600M. Which metric combination best assesses whether this is a fair acquisition price?",
     "options": {
       "A": "Only compare the gold price to AISC to determine if the mine is profitable",
-      "B": "Calculate EV/resource oz ($240/oz), P/NAV at the buyer's discount rate, and EV/annual production ($5,000/oz) and compare to peer transactions",
-      "C": "Assess only the mine's annual revenue against the purchase price",
-      "D": "Compare the mine's closure costs to the acquisition price"
+      "B": "Assess only the mine's annual revenue against the purchase price",
+      "C": "Compare the mine's closure costs to the acquisition price",
+      "D": "Calculate EV/resource oz ($240/oz), P/NAV at the buyer's discount rate, and EV/annual production ($5,000/oz) and compare to peer transactions"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Evaluating a gold mine acquisition requires multiple valuation metrics. EV/resource oz ($600M / 2.5Moz = $240/oz) is compared to precedent transactions (typically $50-300/oz depending on jurisdiction and project stage). EV/annual production ($600M / 120,000 oz = $5,000/oz) benchmarks against producing mine transactions (typically $3,000-7,000/oz). P/NAV (Price to Net Asset Value) is calculated by running the buyer's own DCF model at their required discount rate — producing mines typically trade at 0.8-1.2x NAV. The acquirer must also consider: remaining mine life risk, resource upside potential, country risk, synergies with existing operations, and the fiscal regime (royalties, taxes, government free carry). No single metric is sufficient; triangulation across multiple methods provides the best assessment of fair value.",
     "key_concept": "Acquisition valuation requires triangulating EV/resource oz, EV/production oz, and P/NAV against peer transactions.",
     "source": "CIM — Mineral property valuation methods",
@@ -737,11 +737,11 @@
     "question": "A West African open pit gold mine has been using a cut-off grade of 0.6 g/t Au at a gold price of $1,500/oz. The gold price has risen to $2,000/oz. Processing cost remains $30/t, mining cost $4/t, G&A $6/t, and recovery is 92%. What is the optimal economic response?",
     "options": {
       "A": "Keep the same cut-off grade because the resource model is already defined",
-      "B": "Raise the cut-off grade to mine only the highest-grade material and maximize short-term cash flow",
-      "C": "Lower the cut-off grade to incorporate more marginal material, increasing total ore tonnes and extending mine life",
-      "D": "Shut down the mine until gold prices return to normal levels"
+      "B": "Lower the cut-off grade to incorporate more marginal material, increasing total ore tonnes and extending mine life",
+      "C": "Shut down the mine until gold prices return to normal levels",
+      "D": "Raise the cut-off grade to mine only the highest-grade material and maximize short-term cash flow"
     },
-    "correct": "C",
+    "correct": "B",
     "explanation": "When gold price increases, the break-even cut-off grade decreases because previously sub-economic material becomes profitable. At $1,500/oz ($48.23/g), COG = $40/t / ($48.23/g x 0.92) = 0.90 g/t. At $2,000/oz ($64.30/g), COG = $40/t / ($64.30/g x 0.92) = 0.68 g/t. The lower COG means more material in the resource model qualifies as ore, increasing total mineable tonnes and potentially extending mine life. However, this optimization requires re-running the mine plan, pit optimization (using updated Whittle or Pseudoflow shells), and updated reserve estimation. The mine may also resequence mining to defer high-grade blocks and process marginal material while prices are elevated. This dynamic cut-off grade optimization is a key value lever that the Competent Person should consider when economic conditions change materially.",
     "key_concept": "Rising gold prices lower the economic cut-off grade, allowing more material to be classified as ore and extending mine life.",
     "source": "SME Mining Engineering Handbook — Cut-off grade optimization",
@@ -754,11 +754,11 @@
     "question": "A feasibility study for a 3 Mtpa gold project in Guinea is comparing owner mining versus contractor mining. Owner mining capex is $45M for fleet purchase with operating cost of $3.50/t moved. Contractor mining requires no fleet capex but costs $5.50/t moved. Total material movement is 15 Mtpa over a 10-year mine life. Which analysis best determines the optimal choice?",
     "options": {
       "A": "Simply compare the per-tonne operating cost — owner mining is always cheaper so it is always preferred",
-      "B": "Compare total life-of-mine cost including fleet capex, replacement, maintenance, and residual value for owner mining against the total contractor cost, considering NPV, financing constraints, and operational risk transfer",
-      "C": "Choose whichever option the government prefers",
+      "B": "Choose whichever option the government prefers",
+      "C": "Compare total life-of-mine cost including fleet capex, replacement, maintenance, and residual value for owner mining against the total contractor cost, considering NPV, financing constraints, and operational risk transfer",
       "D": "Always use contractor mining because it avoids equipment maintenance"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "The owner vs contractor mining decision requires a comprehensive NPV comparison over the full mine life. Owner mining: $45M capex + ($3.50/t x 15Mtpa x 10 years) = $45M + $525M = $570M undiscounted. Contractor mining: $5.50/t x 15 Mtpa x 10 years = $825M undiscounted. Owner mining appears $255M cheaper on an undiscounted basis, but the analysis must also include fleet replacement (typically at year 5-6), maintenance facilities, additional skilled personnel, spare parts inventory, and residual value. Contractor mining transfers operational risk, provides workforce flexibility, avoids large upfront capex (preserving capital for the processing plant), and may be preferred for the initial 2-3 years until steady-state production is achieved. Many West African operations use a hybrid approach: contractor mining during pre-stripping and ramp-up, transitioning to owner mining once the operation is established and local operators are trained.",
     "key_concept": "Owner vs contractor mining requires full NPV comparison including capex, replacement, risk transfer, and financing considerations.",
     "source": "SME Mining Engineering Handbook — Mining methods and contractor selection",

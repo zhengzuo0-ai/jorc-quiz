@@ -6,11 +6,11 @@
     "question": "What is the most important airborne geophysical method for gold exploration in West Africa?",
     "options": {
       "A": "Airborne gravity",
-      "B": "Airborne magnetics",
-      "C": "Airborne radar",
-      "D": "Airborne seismic"
+      "B": "Airborne seismic",
+      "C": "Airborne magnetics",
+      "D": "Airborne radar"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Airborne magnetics is the single most important geophysical tool for gold exploration in West Africa. It maps the subsurface magnetic susceptibility, revealing: (1) lithological boundaries — mafic volcanic rocks are magnetic while granites and sediments are less so; (2) structural corridors — faults and shear zones appear as linear breaks or offsets in magnetic patterns; (3) intrusions — granitoid bodies show as distinct magnetic anomalies. In laterite-covered terrain where bedrock exposure is minimal, airborne magnetics effectively 'sees through' the cover to map the geology controlling gold. The method is cost-effective at $20-50 per line-km for large survey areas.",
     "key_concept": "Airborne magnetics: most important geophysical tool for West African gold; maps geology under laterite",
     "source": "Exploration geophysics, West African methodology",
@@ -22,12 +22,12 @@
     "domain": "gold",
     "question": "In soil geochemistry sampling for gold in West Africa, which soil horizon should be targeted?",
     "options": {
-      "A": "A horizon (organic topsoil)",
-      "B": "B or C horizon (mineral soil, typically 30-100 cm depth)",
+      "A": "B or C horizon (mineral soil, typically 30-100 cm depth)",
+      "B": "A horizon (organic topsoil)",
       "C": "Bedrock surface at 40+ meters depth",
       "D": "The water table"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The B or C soil horizon (typically 30-100 cm depth) is the standard target for gold soil geochemistry in West Africa. The B horizon (subsoil) and C horizon (weathered parent material) provide the most representative geochemical response because they are below the zone of organic interference and surface contamination but above the laterite duricrust that can redistribute elements. Samples are typically collected by hand auger or soil probe. The A horizon (topsoil) is avoided because organic material and surface processes dilute and redistribute trace element signatures. In deep laterite areas, deeper auger sampling (1-3 m) may be required to penetrate the ferricrete cap.",
     "key_concept": "Sample B/C horizon (30-100 cm depth); avoids organic interference and surface contamination",
     "source": "Exploration geochemistry field methods",
@@ -39,9 +39,9 @@
     "domain": "gold",
     "question": "What mesh size is standard for stream sediment sampling in gold exploration?",
     "options": {
-      "A": "-10 mesh (very coarse, >2 mm)",
+      "A": "-400 mesh (<38 μm)",
       "B": "-80 mesh (<180 μm)",
-      "C": "-400 mesh (<38 μm)",
+      "C": "-10 mesh (very coarse, >2 mm)",
       "D": "No sieving required"
     },
     "correct": "B",
@@ -56,12 +56,12 @@
     "domain": "gold",
     "question": "What geophysical method is most effective for detecting sulfide-associated gold mineralization beneath laterite cover?",
     "options": {
-      "A": "Magnetic survey (detects magnetic minerals only)",
-      "B": "Induced Polarization (IP) survey (detects chargeable sulfide minerals)",
-      "C": "GPS survey (detects position only)",
+      "A": "GPS survey (detects position only)",
+      "B": "Magnetic survey (detects magnetic minerals only)",
+      "C": "Induced Polarization (IP) survey (detects chargeable sulfide minerals)",
       "D": "Seismic refraction (detects velocity contrasts)"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Induced Polarization (IP) is the most effective geophysical method for detecting sulfide-associated gold mineralization. IP measures the chargeability of subsurface materials — disseminated sulfide minerals (pyrite, pyrrhotite, arsenopyrite) produce strong IP anomalies because they store and release electrical charge. Since gold in orogenic systems is commonly associated with sulfide minerals, IP anomalies can indicate zones of sulfide alteration that may host gold. IP is particularly valuable in West Africa where thick laterite masks bedrock geology. However, IP detects sulfides, not gold directly — not all IP anomalies contain gold, and not all gold deposits produce IP anomalies.",
     "key_concept": "IP detects chargeability from sulfides; indicates potential gold-bearing sulfide zones under cover",
     "source": "Exploration geophysics, IP methodology",
@@ -74,11 +74,11 @@
     "question": "Which satellite provides free multispectral imagery at 10-20 m resolution, useful for gold exploration?",
     "options": {
       "A": "WorldView-3 (commercial, expensive)",
-      "B": "Sentinel-2 (ESA, free, 10-20 m resolution)",
-      "C": "IKONOS (commercial, 1 m resolution)",
+      "B": "IKONOS (commercial, 1 m resolution)",
+      "C": "Sentinel-2 (ESA, free, 10-20 m resolution)",
       "D": "Hubble Space Telescope"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Sentinel-2, operated by the European Space Agency (ESA), provides free multispectral imagery at 10-20 m resolution with 13 spectral bands, including visible, near-infrared, and shortwave infrared bands useful for mineral mapping. With a 5-day revisit time, it provides frequent cloud-free coverage of West African exploration areas. Sentinel-2 data is adequate for regional-scale alteration mapping, vegetation anomaly detection, and structural interpretation. Landsat (USGS, free, 30 m resolution) provides a longer historical archive but lower resolution. For detailed mineral discrimination, commercial WorldView-3 (1.2 m multispectral with 8 SWIR bands) is superior but costs significantly more.",
     "key_concept": "Sentinel-2: free, 10-20 m, 13 bands, 5-day revisit; excellent for regional exploration",
     "source": "Remote sensing for mineral exploration",
@@ -90,12 +90,12 @@
     "domain": "gold",
     "question": "What does ASTER satellite data offer for gold exploration that standard RGB imagery does not?",
     "options": {
-      "A": "Higher spatial resolution for building mapping",
-      "B": "Multispectral bands in VNIR, SWIR, and TIR regions that enable alteration mineral mapping (iron oxides, clays, carbonates)",
-      "C": "Night vision capability for underground mine surveys",
-      "D": "Real-time gold grade measurement from orbit"
+      "A": "Night vision capability for underground mine surveys",
+      "B": "Higher spatial resolution for building mapping",
+      "C": "Real-time gold grade measurement from orbit",
+      "D": "Multispectral bands in VNIR, SWIR, and TIR regions that enable alteration mineral mapping (iron oxides, clays, carbonates)"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer) provides 14 spectral bands spanning VNIR (15 m), SWIR (30 m), and TIR (90 m) wavelength regions. This multi-wavelength coverage enables detection of specific alteration minerals associated with gold systems: iron oxides (goethite, hematite) in VNIR bands, hydroxyl/clay minerals (kaolinite, sericite, alunite) and carbonates in SWIR bands, and silicification in TIR bands. Standard RGB imagery only captures visible light and cannot discriminate alteration minerals. ASTER data is free (NASA) and has been a workhorse for mineral exploration globally, though its SWIR sensor failed in 2008.",
     "key_concept": "ASTER: 14 bands (VNIR/SWIR/TIR); maps alteration minerals — iron oxide, clay, carbonate, silica",
     "source": "ASTER remote sensing for mineral exploration",
@@ -107,12 +107,12 @@
     "domain": "gold",
     "question": "Which commercial satellite provides the best mineral discrimination capability for gold-related alteration mapping?",
     "options": {
-      "A": "Landsat 9 (free, 30 m, 9 bands)",
-      "B": "WorldView-3 (commercial, 1.2 m multispectral, 8 SWIR bands at 3.7 m)",
-      "C": "Sentinel-1 (radar, C-band SAR)",
-      "D": "MODIS (250 m, regional coverage)"
+      "A": "Sentinel-1 (radar, C-band SAR)",
+      "B": "MODIS (250 m, regional coverage)",
+      "C": "WorldView-3 (commercial, 1.2 m multispectral, 8 SWIR bands at 3.7 m)",
+      "D": "Landsat 9 (free, 30 m, 9 bands)"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "WorldView-3 is the gold standard for mineral discrimination from space, offering 8 SWIR bands at 3.7 m resolution — unprecedented spectral and spatial detail for satellite-based mineral mapping. Its SWIR bands can distinguish between specific clay minerals (kaolinite vs illite vs montmorillonite), carbonates, and sulfate minerals (alunite, jarosite) that define alteration halos around gold deposits. The 1.2 m multispectral resolution allows mapping at the scale of individual outcrops and alteration zones. While significantly more expensive than free alternatives (Landsat, Sentinel-2, ASTER), WorldView-3 is justified for detailed target delineation on high-priority projects.",
     "key_concept": "WorldView-3: 8 SWIR bands at 3.7 m; best satellite for specific mineral discrimination",
     "source": "Commercial remote sensing for exploration",
@@ -124,10 +124,10 @@
     "domain": "gold",
     "question": "In remote sensing for gold exploration, iron oxide minerals (goethite, hematite) are best detected using which wavelength region?",
     "options": {
-      "A": "Thermal infrared (TIR, 8-12 μm)",
+      "A": "Ultraviolet (0.1-0.4 μm)",
       "B": "Visible to near-infrared (VNIR, 0.4-1.0 μm)",
       "C": "Microwave/radar (1-100 cm)",
-      "D": "Ultraviolet (0.1-0.4 μm)"
+      "D": "Thermal infrared (TIR, 8-12 μm)"
     },
     "correct": "B",
     "explanation": "Iron oxide minerals (goethite, hematite, jarosite) have diagnostic absorption features in the visible to near-infrared (VNIR) wavelength region, approximately 0.4-1.0 μm. Ferric iron (Fe³⁺) produces characteristic absorption at ~0.48 μm (blue) and ~0.87 μm (near-infrared), giving iron-rich rocks and soils their distinctive red-brown colors. VNIR-based iron oxide mapping is one of the most effective remote sensing techniques for gold exploration because: (1) iron oxide gossans mark weathered sulfide zones that may contain gold, and (2) laterite iron oxide intensity can indicate underlying bedrock alteration. Even basic Landsat and Sentinel-2 data can map iron oxides effectively.",
@@ -141,12 +141,12 @@
     "domain": "gold",
     "question": "What wavelength region is used to detect clay and hydroxyl minerals (kaolinite, sericite) associated with gold alteration?",
     "options": {
-      "A": "Visible (0.4-0.7 μm)",
-      "B": "Shortwave infrared (SWIR, 1.0-2.5 μm)",
-      "C": "Longwave infrared (LWIR, 15-30 μm)",
-      "D": "Radio wave (>1 m)"
+      "A": "Longwave infrared (LWIR, 15-30 μm)",
+      "B": "Visible (0.4-0.7 μm)",
+      "C": "Radio wave (>1 m)",
+      "D": "Shortwave infrared (SWIR, 1.0-2.5 μm)"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "The shortwave infrared (SWIR, 1.0-2.5 μm) region contains diagnostic absorption features for clay minerals, hydroxyl minerals, and carbonates — all critical alteration indicators in gold systems. Key absorption features include: kaolinite at 2.16 and 2.21 μm, sericite/illite at 2.20 μm, alunite at 2.17 μm, and carbonate (calcite/dolomite) at 2.33 μm. SWIR data from ASTER, WorldView-3, and field spectrometers (e.g., ASD TerraSpec) can map these minerals to delineate alteration halos around gold deposits. In porphyry and epithermal systems, SWIR mineral mapping can distinguish phyllic (sericite), argillic (kaolinite), and advanced argillic (alunite) alteration zones.",
     "key_concept": "SWIR (1.0-2.5 μm): detects clays, hydroxyl minerals, carbonates; key for alteration mapping",
     "source": "SWIR spectroscopy for mineral exploration",
@@ -158,12 +158,12 @@
     "domain": "gold",
     "question": "What is a GIS multi-layer integration approach to gold target generation?",
     "options": {
-      "A": "Using only one data type (e.g., magnetics alone) to select drill targets",
-      "B": "Overlaying 4+ data layers (geology, structure, geochemistry, geophysics) in a GIS to identify coincident anomalies as high-priority targets",
-      "C": "Printing geological maps on multiple layers of transparent paper",
-      "D": "A method of stacking drill core boxes for storage"
+      "A": "A method of stacking drill core boxes for storage",
+      "B": "Printing geological maps on multiple layers of transparent paper",
+      "C": "Overlaying 4+ data layers (geology, structure, geochemistry, geophysics) in a GIS to identify coincident anomalies as high-priority targets",
+      "D": "Using only one data type (e.g., magnetics alone) to select drill targets"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "GIS multi-layer integration involves overlaying multiple exploration datasets — typically geology/lithology, structure (faults, shear zones), geochemistry (soil/stream anomalies), and geophysics (magnetics, IP) — in a Geographic Information System. Targets are ranked based on the number of coincident favorable indicators. A classic 4-layer approach identifies locations where: (1) favorable host rock (geology) + (2) structural corridor (structure) + (3) gold anomaly (geochemistry) + (4) sulfide anomaly (IP geophysics) overlap. Targets with 3-4 coincident layers are prioritized for drilling. This evidence-based targeting dramatically improves drill success rates compared to single-dataset approaches.",
     "key_concept": "GIS integration: overlay geology + structure + geochemistry + geophysics; coincident anomalies = best targets",
     "source": "GIS-based exploration targeting",
@@ -175,10 +175,10 @@
     "domain": "gold",
     "question": "What is the approximate cost and analysis time for a portable XRF (pXRF) analyzer used in gold exploration?",
     "options": {
-      "A": "$500, 1 second per analysis",
+      "A": "$5,000, 1 minute per analysis but only works on pure metals",
       "B": "$25,000-$50,000, 30-120 seconds per analysis",
-      "C": "$1 million, 24 hours per analysis",
-      "D": "$5,000, 1 minute per analysis but only works on pure metals"
+      "C": "$500, 1 second per analysis",
+      "D": "$1 million, 24 hours per analysis"
     },
     "correct": "B",
     "explanation": "Portable XRF analyzers cost $25,000-$50,000 and provide elemental analysis in 30-120 seconds per measurement. In gold exploration, pXRF is used for real-time multi-element geochemistry on soil samples, drill chips, and rock specimens. While pXRF cannot reliably measure gold at exploration-relevant concentrations (detection limit ~5-10 ppm, too high for most purposes), it excels at measuring pathfinder elements (As, Cu, Zn, Fe, Mn, Pb, Bi) that indicate proximity to gold mineralization. This allows field geologists to make real-time decisions about sample selection, drill core logging, and target prioritization without waiting weeks for laboratory results.",
@@ -193,11 +193,11 @@
     "question": "Electromagnetic (EM) surveys in gold exploration are primarily used to detect:",
     "options": {
       "A": "Gold particles directly through their electromagnetic signature",
-      "B": "Electrically conductive zones such as massive sulfide bodies, graphitic shear zones, or saline groundwater",
-      "C": "The exact depth to the water table",
-      "D": "GPS coordinates of drill hole locations"
+      "B": "GPS coordinates of drill hole locations",
+      "C": "Electrically conductive zones such as massive sulfide bodies, graphitic shear zones, or saline groundwater",
+      "D": "The exact depth to the water table"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "EM surveys detect electrically conductive zones in the subsurface. In gold exploration, relevant conductors include: massive sulfide lenses (VMS deposits), graphitic shear zones (often associated with orogenic gold in Birimian terrains), sulfide-rich alteration halos, and conductive paleochannels that may host alluvial gold. EM does not detect gold directly — gold is not conductive at typical exploration concentrations. Both airborne EM (VTEM, SkyTEM) and ground EM (fixed-loop, moving-loop) are used. In West Africa, airborne EM combined with magnetics is an efficient reconnaissance tool for mapping graphitic shear zones that commonly host orogenic gold.",
     "key_concept": "EM detects conductors: massive sulfides, graphitic shears, conductive paleochannels; not gold directly",
     "source": "EM geophysics for gold exploration",
@@ -210,11 +210,11 @@
     "question": "What role does ALOS PALSAR radar data play in West African gold exploration?",
     "options": {
       "A": "It directly detects gold deposits from orbit",
-      "B": "It provides radar imagery that penetrates cloud cover and vegetation to reveal structural lineaments and terrain morphology",
-      "C": "It measures gold purity remotely",
-      "D": "It is only useful for offshore oil exploration"
+      "B": "It is only useful for offshore oil exploration",
+      "C": "It provides radar imagery that penetrates cloud cover and vegetation to reveal structural lineaments and terrain morphology",
+      "D": "It measures gold purity remotely"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "ALOS PALSAR (L-band Synthetic Aperture Radar) provides radar imagery that penetrates cloud cover, haze, and to some degree vegetation canopy — critical advantages in West Africa's tropical climate where optical satellite coverage is often limited by persistent cloud cover. Radar data reveals structural lineaments, drainage patterns, and terrain morphology that are difficult to see in optical imagery. L-band radar (longer wavelength) penetrates vegetation better than C-band radar (Sentinel-1). Radar-derived digital elevation models also support geomorphological analysis for alluvial gold targeting. ALOS PALSAR data is freely available from JAXA (Japan Aerospace Exploration Agency).",
     "key_concept": "ALOS PALSAR: L-band radar penetrates clouds/vegetation; reveals structure and morphology",
     "source": "Radar remote sensing for tropical exploration",
@@ -226,12 +226,12 @@
     "domain": "gold",
     "question": "Landsat satellite imagery has been a workhorse of mineral exploration since the 1970s. What is its spatial resolution and cost?",
     "options": {
-      "A": "30 m multispectral resolution, free (USGS archive)",
-      "B": "1 m resolution, $10,000 per scene",
-      "C": "500 m resolution, free but low quality",
-      "D": "5 m resolution, $1,000 per scene"
+      "A": "500 m resolution, free but low quality",
+      "B": "5 m resolution, $1,000 per scene",
+      "C": "1 m resolution, $10,000 per scene",
+      "D": "30 m multispectral resolution, free (USGS archive)"
     },
-    "correct": "A",
+    "correct": "D",
     "explanation": "Landsat provides 30 m multispectral resolution imagery completely free of charge from the USGS archive, with continuous coverage from 1972 to present. The current Landsat 9 has 11 spectral bands including visible, near-infrared, shortwave infrared, and thermal infrared. The 50+ year archive enables change detection and time-series analysis. For gold exploration, Landsat data supports: regional geological mapping, iron oxide and clay mineral mapping (using band ratios), structural lineament interpretation, and vegetation anomaly detection. While lower resolution than commercial alternatives, Landsat's free availability and global coverage make it the first remote sensing dataset consulted in any exploration program.",
     "key_concept": "Landsat: 30 m, free, 50+ year archive; first-look remote sensing for any exploration project",
     "source": "Landsat for mineral exploration",
@@ -243,12 +243,12 @@
     "domain": "gold",
     "question": "What is the purpose of rock chip sampling in gold exploration?",
     "options": {
-      "A": "To collect decorative rock specimens for museum display",
-      "B": "To obtain representative grade samples from outcrops, trenches, and artisanal workings to assess gold content of exposed bedrock",
-      "C": "To test the hardness of rocks for crushing plant design",
-      "D": "To measure the specific gravity of host rocks for gravity surveys"
+      "A": "To test the hardness of rocks for crushing plant design",
+      "B": "To measure the specific gravity of host rocks for gravity surveys",
+      "C": "To obtain representative grade samples from outcrops, trenches, and artisanal workings to assess gold content of exposed bedrock",
+      "D": "To collect decorative rock specimens for museum display"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Rock chip sampling involves collecting representative pieces of exposed bedrock from outcrops, road cuts, trenches, or artisanal workings for gold assay. It provides direct measurement of gold grades in bedrock — more definitive than soil geochemistry but limited to areas with exposure. Sampling methods include: continuous chip channels (most representative, 1-2 m intervals), grab samples (selective, can bias high), and panel samples (large area composites). In West Africa, artisanal mining pits and trenches often provide the best bedrock exposure through laterite cover. Rock chip results must be interpreted carefully — channel samples are more reliable than grab samples for grade estimation.",
     "key_concept": "Rock chip sampling: direct bedrock grade measurement; channel > grab for representativeness",
     "source": "Exploration sampling methods",
@@ -260,12 +260,12 @@
     "domain": "gold",
     "question": "How is termite mound sampling used in gold exploration in laterite-covered terrain?",
     "options": {
-      "A": "Termite mounds are drilled to 100 m depth for core samples",
-      "B": "Material from termite mounds is assayed because termites excavate from 10-50 m depth, bringing deep geochemical signatures to the surface",
+      "A": "Material from termite mounds is assayed because termites excavate from 10-50 m depth, bringing deep geochemical signatures to the surface",
+      "B": "Termite mounds are used as survey markers for drill hole locations",
       "C": "Termites are collected and their gold content is measured",
-      "D": "Termite mounds are used as survey markers for drill hole locations"
+      "D": "Termite mounds are drilled to 100 m depth for core samples"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Termite mound sampling is an innovative geochemical technique exploiting the burrowing behavior of termites, which excavate clay and soil from depths of 10-50 meters to build their mounds. In West African laterite terrain where thick cover obscures bedrock geochemistry, termite mounds provide a natural window into sub-surface chemistry. Samples (1-2 kg) are collected from the mound matrix, dried, sieved, and analyzed by standard fire assay or multi-element ICP methods. Anomalous gold and pathfinder elements in termite mounds can indicate buried mineralization undetectable by surface soil sampling. This technique is significantly cheaper than augering or drilling for geochemical reconnaissance.",
     "key_concept": "Termite mounds: natural deep sampling (10-50 m) through laterite; cheap reconnaissance tool",
     "source": "Innovative exploration geochemistry",
@@ -277,12 +277,12 @@
     "domain": "gold",
     "question": "What is the role of AI and machine learning in modern gold exploration?",
     "options": {
-      "A": "AI has completely replaced geologists and all exploration decisions are automated",
-      "B": "AI/ML analyzes large multi-parameter datasets to identify patterns and predict prospective targets that human analysis might miss",
-      "C": "AI is only used for social media marketing of mining companies",
-      "D": "Machine learning can measure gold grade from satellite imagery"
+      "A": "AI/ML analyzes large multi-parameter datasets to identify patterns and predict prospective targets that human analysis might miss",
+      "B": "AI is only used for social media marketing of mining companies",
+      "C": "Machine learning can measure gold grade from satellite imagery",
+      "D": "AI has completely replaced geologists and all exploration decisions are automated"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "AI and machine learning are increasingly applied to gold exploration, analyzing large, multi-dimensional datasets (geochemistry, geophysics, geology, remote sensing, drilling) to identify patterns and prospectivity indicators that traditional analysis may overlook. Companies like KoBold Metals and Goldspot Discoveries have pioneered data-driven exploration approaches. ML algorithms can: (1) integrate dozens of data layers simultaneously, (2) identify subtle geochemical or geophysical signatures in noisy data, (3) rank prospects across large areas, and (4) optimize drill targeting. However, AI supplements rather than replaces geological expertise — domain knowledge is essential for training models and validating outputs.",
     "key_concept": "AI/ML: integrates multi-parameter data to predict targets; supplements geological expertise",
     "source": "AI in mineral exploration",
@@ -294,12 +294,12 @@
     "domain": "gold",
     "question": "What drone applications are most relevant to gold exploration?",
     "options": {
-      "A": "Drone delivery of gold bars from mine to refinery",
-      "B": "High-resolution photogrammetry, magnetic surveys, LiDAR terrain mapping, and multispectral imaging at low cost and high resolution",
+      "A": "High-resolution photogrammetry, magnetic surveys, LiDAR terrain mapping, and multispectral imaging at low cost and high resolution",
+      "B": "Autonomous underground mining by drone swarms",
       "C": "Drone drilling of exploration boreholes",
-      "D": "Autonomous underground mining by drone swarms"
+      "D": "Drone delivery of gold bars from mine to refinery"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Drones (UAVs) are transforming gold exploration by providing several capabilities: (1) high-resolution photogrammetry — centimeter-resolution terrain models and orthophotos for geological mapping and pit survey; (2) drone-borne magnetometer surveys — higher resolution than fixed-wing airborne at lower cost for small areas; (3) LiDAR — laser terrain mapping that penetrates forest canopy to reveal structural lineaments invisible in optical imagery; (4) multispectral/hyperspectral imaging — alteration mapping at sub-meter resolution. Drones are particularly valuable in West Africa for rapid, safe surveying of artisanal mining areas, and for repeatable monitoring of exploration and mine sites at a fraction of traditional survey costs.",
     "key_concept": "Drones: photogrammetry, magnetics, LiDAR, multispectral; high-resolution, low-cost surveys",
     "source": "UAV technology in mineral exploration",
@@ -311,12 +311,12 @@
     "domain": "gold",
     "question": "A CEO is evaluating an exploration target with the following evidence: (1) gold-in-soil anomaly >200 ppb over 2 km, (2) strong IP chargeability anomaly, (3) magnetic lineament break suggesting a shear zone, (4) favorable Birimian metavolcanic host rock. How should this target be ranked?",
     "options": {
-      "A": "Low priority — only one indicator is present",
-      "B": "Medium priority — geochemistry alone justifies drilling",
-      "C": "High priority — four coincident favorable indicators from independent datasets make this a compelling drill target",
-      "D": "No priority — these indicators are contradictory"
+      "A": "High priority — four coincident favorable indicators from independent datasets make this a compelling drill target",
+      "B": "No priority — these indicators are contradictory",
+      "C": "Low priority — only one indicator is present",
+      "D": "Medium priority — geochemistry alone justifies drilling"
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "This target exhibits the ideal combination of four coincident favorable indicators from independent datasets: (1) strong gold geochemical anomaly (direct evidence of gold enrichment); (2) IP chargeability (indicating sulfide mineralization at depth); (3) magnetic structure (suggesting a shear zone fluid conduit); (4) favorable host rock (Birimian metavolcanics provide chemical trap for gold precipitation). The GIS multi-layer integration principle dictates that targets with 3-4 coincident layers are highest priority. Each dataset independently supports the gold potential, and together they dramatically increase the probability of a drill discovery. This target should be prioritized for immediate drill testing.",
     "key_concept": "4-layer coincidence (geochem + IP + structure + lithology) = highest-priority drill target",
     "source": "Integrated exploration targeting",
@@ -328,12 +328,12 @@
     "domain": "gold",
     "question": "What is the thermal infrared (TIR) wavelength region used to detect in mineral exploration?",
     "options": {
-      "A": "Gold nuggets on the surface",
-      "B": "Silicification (quartz enrichment) associated with gold-bearing veins and alteration zones",
+      "A": "Silicification (quartz enrichment) associated with gold-bearing veins and alteration zones",
+      "B": "Forest fire risk near exploration camps",
       "C": "Underground water flow paths",
-      "D": "Forest fire risk near exploration camps"
+      "D": "Gold nuggets on the surface"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The thermal infrared (TIR, 8-12 μm) region is used to detect silicification — enrichment of quartz (SiO₂) associated with hydrothermal alteration and gold-bearing vein systems. Quartz has a distinctive spectral absorption feature (Reststrahlen band) at approximately 8.5 and 12.5 μm that distinguishes it from other minerals. Silicified zones appear as spectral anomalies in TIR data from ASTER (90 m resolution) or airborne thermal surveys. In gold exploration, silicification mapping helps identify: quartz vein corridors, silicified shear zones, silica caps over epithermal systems, and jasperoid replacement bodies in Carlin-type systems. TIR complements VNIR (iron oxides) and SWIR (clays/carbonates).",
     "key_concept": "TIR (8-12 μm): detects silicification (quartz enrichment) from hydrothermal alteration",
     "source": "Thermal infrared spectroscopy for mineral mapping",
@@ -362,12 +362,12 @@
     "domain": "gold",
     "question": "In the context of AI-driven exploration, what approach does KoBold Metals use?",
     "options": {
-      "A": "Replacing all field geologists with robots",
-      "B": "Machine learning integration of geological, geochemical, geophysical, and remote sensing datasets to generate and rank exploration targets",
-      "C": "Using AI to negotiate mining permits with governments",
-      "D": "Automated gold panning using robotic arms"
+      "A": "Machine learning integration of geological, geochemical, geophysical, and remote sensing datasets to generate and rank exploration targets",
+      "B": "Automated gold panning using robotic arms",
+      "C": "Replacing all field geologists with robots",
+      "D": "Using AI to negotiate mining permits with governments"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "KoBold Metals pioneered the application of machine learning and data science to mineral exploration at scale. Their approach involves: (1) assembling massive datasets from public and proprietary geological, geochemical, geophysical, and remote sensing sources; (2) training ML algorithms to recognize patterns associated with known deposits; (3) applying these trained models to generate and rank prospective targets in underexplored areas. KoBold has attracted significant investment from Bill Gates' Breakthrough Energy Ventures and others. While initially focused on battery metals, the approach is directly applicable to gold exploration. Goldspot Discoveries applies similar data-driven methods across precious and base metals.",
     "key_concept": "KoBold Metals: ML integration of multi-source data for target generation; data-driven exploration",
     "source": "AI-driven exploration companies",
@@ -379,12 +379,12 @@
     "domain": "gold",
     "question": "What is the primary limitation of gravity surveys in gold exploration?",
     "options": {
-      "A": "Gravity surveys are too expensive for any exploration company",
-      "B": "Gold deposits rarely produce a measurable gravity anomaly because the gold content is too small relative to the host rock volume",
-      "C": "Gravity surveys can only be done underground",
-      "D": "Gravity instruments cannot function in tropical climates"
+      "A": "Gravity surveys can only be done underground",
+      "B": "Gravity surveys are too expensive for any exploration company",
+      "C": "Gravity instruments cannot function in tropical climates",
+      "D": "Gold deposits rarely produce a measurable gravity anomaly because the gold content is too small relative to the host rock volume"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "While gold itself has a very high density (19.3 g/cm³), the actual gold content in an ore body is minuscule relative to the host rock volume — even a bonanza 20 g/t deposit contains only 0.002% gold by weight. The density contrast created by gold is far too small to produce a measurable gravity anomaly. Gravity surveys in gold exploration are instead used for: mapping lithological contacts (dense mafic vs lighter felsic rocks), defining structural geometry (fault offsets creating density discontinuities), and detecting massive sulfide accumulations. Gravity is more useful as a geological mapping tool than as a direct gold detection method in most contexts.",
     "key_concept": "Gravity cannot detect gold directly (grade too low for density contrast); used for geological mapping",
     "source": "Gravity geophysics limitations in gold exploration",
@@ -396,12 +396,12 @@
     "domain": "gold",
     "question": "What are pathfinder elements in gold exploration, and why are they useful?",
     "options": {
-      "A": "Elements used to calibrate GPS receivers in the field",
-      "B": "Elements that accompany gold mineralization (As, Sb, Bi, Te, W, Mo) and form broader geochemical halos more easily detected than gold itself",
-      "C": "Elements that physically point toward gold deposits like a compass",
-      "D": "Rare earth elements found only in gold ore"
+      "A": "Rare earth elements found only in gold ore",
+      "B": "Elements that physically point toward gold deposits like a compass",
+      "C": "Elements that accompany gold mineralization (As, Sb, Bi, Te, W, Mo) and form broader geochemical halos more easily detected than gold itself",
+      "D": "Elements used to calibrate GPS receivers in the field"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Pathfinder elements are elements that are geochemically associated with gold mineralization and form geochemical halos or footprints that are larger, more coherent, and more easily detected than gold alone. Common gold pathfinders include: arsenic (As), antimony (Sb), bismuth (Bi), tellurium (Te), tungsten (W), molybdenum (Mo), mercury (Hg), and silver (Ag). These elements are useful because: (1) they are typically more uniformly distributed than erratic coarse gold, reducing the nugget effect; (2) their halos extend beyond the gold ore body, providing a larger target; (3) they can be measured by portable XRF in the field. The specific pathfinder suite varies by deposit type — As is nearly universal for orogenic gold.",
     "key_concept": "Pathfinders (As, Sb, Bi, Te, W): broader halos than gold, easier to detect, pXRF-measurable",
     "source": "Exploration geochemistry, pathfinder element theory",
@@ -413,12 +413,12 @@
     "domain": "gold",
     "question": "A West African exploration company is planning first-pass geochemical reconnaissance of a 500 km² tenement with thick laterite cover. Which combination of methods would be most cost-effective?",
     "options": {
-      "A": "Diamond drilling on a 100 m grid across the entire tenement",
-      "B": "Stream sediment sampling for drainage geochemistry combined with termite mound sampling in interfluves, supported by free Sentinel-2 and ALOS PALSAR interpretation",
+      "A": "Stream sediment sampling for drainage geochemistry combined with termite mound sampling in interfluves, supported by free Sentinel-2 and ALOS PALSAR interpretation",
+      "B": "Diamond drilling on a 100 m grid across the entire tenement",
       "C": "Ground-based IP survey of the entire 500 km²",
       "D": "Hand-held XRF scanning of every square meter"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "For reconnaissance of a large (500 km²) laterite-covered tenement, the most cost-effective approach combines: (1) stream sediment sampling — provides catchment-integrated geochemistry, efficiently covering large areas with widely spaced samples (1-2 per km²); (2) termite mound sampling — accesses sub-surface geochemistry in areas between drainages; (3) free satellite data interpretation (Sentinel-2 for multispectral, ALOS PALSAR for structure) — zero data acquisition cost. This combination might cost $200-500K versus millions for grid-based soil sampling or drilling. Results identify anomalous catchments and prospective structural corridors for follow-up with closer-spaced soil sampling and ground geophysics.",
     "key_concept": "Reconnaissance: stream sediment + termite mounds + free satellite data; $200-500K for 500 km²",
     "source": "Cost-effective exploration strategy, West African methods",
@@ -430,12 +430,12 @@
     "domain": "gold",
     "question": "What is the principal advantage of airborne magnetics over ground magnetics for regional gold exploration?",
     "options": {
-      "A": "Airborne data has higher accuracy than ground data",
-      "B": "Airborne surveys cover large areas rapidly (500-1,000 line-km/day) at consistent altitude, providing uniform regional coverage that would take months on the ground",
+      "A": "Airborne surveys cover large areas rapidly (500-1,000 line-km/day) at consistent altitude, providing uniform regional coverage that would take months on the ground",
+      "B": "Ground magnetics is completely useless for gold exploration",
       "C": "Airborne magnetics detects gold directly while ground magnetics cannot",
-      "D": "Ground magnetics is completely useless for gold exploration"
+      "D": "Airborne data has higher accuracy than ground data"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Airborne magnetic surveys cover 500-1,000 line-km per day at consistent altitude and line spacing, providing uniform regional coverage of even the most rugged or vegetated terrain. A regional survey of 10,000 km² can be completed in 2-4 weeks from the air versus many months on foot. The consistent altitude ensures uniform data quality, unlike ground surveys that are affected by terrain, obstacles, and operator fatigue. However, ground magnetics provides higher resolution (closer to the source) and is used for detailed follow-up on targets identified from airborne data. The optimal approach uses airborne magnetics for regional screening followed by ground magnetics for target definition.",
     "key_concept": "Airborne magnetics: 500-1,000 line-km/day, uniform coverage; ground magnetics for detail follow-up",
     "source": "Airborne vs ground geophysics comparison",
@@ -447,10 +447,10 @@
     "domain": "gold",
     "question": "When interpreting exploration data, what does the concept of 'false positive' mean and why is it critical for a CEO to understand?",
     "options": {
-      "A": "A positive gold assay result from a sample that was incorrectly labeled",
+      "A": "A financial audit finding that is later reversed",
       "B": "An anomaly that looks like a gold target based on available data but turns out not to be mineralized when drilled — representing wasted capital if not managed",
       "C": "A positive press release about a non-existent gold discovery",
-      "D": "A financial audit finding that is later reversed"
+      "D": "A positive gold assay result from a sample that was incorrectly labeled"
     },
     "correct": "B",
     "explanation": "A false positive in exploration is an anomaly that appears prospective based on available data (geochemistry, geophysics, geology) but is not associated with economic gold mineralization when drilled. Examples include: soil anomalies from transported cover rather than bedrock, IP anomalies from barren pyrite or graphite, or magnetic anomalies from non-mineralized mafic rocks. False positives are inevitable in exploration — typically 50-70% of drill-tested anomalies fail to return economic mineralization. CEOs must understand this rate to: (1) budget for expected failures, (2) demand multi-layer coincident targeting to reduce false positives, and (3) avoid the temptation to stop exploring after the first failure.",
@@ -464,12 +464,12 @@
     "domain": "gold",
     "question": "In West African laterite-covered terrains, what is the primary purpose of auger drilling during early-stage gold exploration?",
     "options": {
-      "A": "To extract diamond core samples for metallurgical testing",
-      "B": "To penetrate laterite cover and sample the saprolite or bedrock interface where residual gold anomalies may be preserved",
+      "A": "To penetrate laterite cover and sample the saprolite or bedrock interface where residual gold anomalies may be preserved",
+      "B": "To determine the grade of an ore deposit for a feasibility study",
       "C": "To install groundwater monitoring wells for environmental baseline studies",
-      "D": "To determine the grade of an ore deposit for a feasibility study"
+      "D": "To extract diamond core samples for metallurgical testing"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Auger drilling is a rapid, low-cost method used to penetrate laterite and transported cover (typically 5-30 m thick in West Africa) and collect samples from the saprolite-bedrock interface where residual geochemical anomalies are best preserved. Unlike surface soil sampling, which may be affected by transported material or laterite cementation, auger drilling accesses the in-situ weathered profile where gold and pathfinder elements remain closer to their bedrock source. Programs typically use truck- or hand-held motorized augers on grid spacings of 200-400 m line spacing with 25-50 m sample spacing along lines. The technique is widely used across the Birimian greenstone belts of Guinea, Mali, Burkina Faso, and Ghana as a cost-effective first-pass tool before committing to more expensive RC or diamond drilling.",
     "key_concept": "Auger drilling penetrates laterite cover to sample the saprolite-bedrock interface for residual gold anomalies",
     "source": "Butt & Zeegers, Regolith Exploration Geochemistry in Tropical and Subtropical Terrains",
@@ -483,8 +483,8 @@
     "options": {
       "A": "It is the cheapest exploration method available and requires no equipment",
       "B": "It provides continuous bedrock exposure for geological mapping, structural measurement, and channel sampling across a mineralized zone",
-      "C": "It is the only method that can determine gold grade at depth",
-      "D": "It replaces the need for any subsequent drilling programs"
+      "C": "It replaces the need for any subsequent drilling programs",
+      "D": "It is the only method that can determine gold grade at depth"
     },
     "correct": "B",
     "explanation": "Trenching involves excavating shallow cuts (typically 1-3 m deep) across a target zone to expose bedrock for direct geological observation. The key advantage is that it provides continuous exposure allowing geologists to map lithology, alteration, structure, and vein orientations in context — information that isolated drill holes cannot provide as effectively. Channel samples cut perpendicular to strike give true-width grade estimates across the mineralized zone. In areas of shallow laterite cover common in West African savanna terrains, trenching is highly effective and cost-efficient (US$50-150 per linear metre vs US$80-150 per metre for RC drilling). The technique is particularly valuable for understanding structural controls on orogenic gold systems before designing a drill program.",
@@ -498,10 +498,10 @@
     "domain": "gold",
     "question": "In airborne radiometric (gamma-ray spectrometric) surveys, what three naturally occurring radioactive elements are measured, and how does this data assist gold exploration?",
     "options": {
-      "A": "Uranium, thorium, and radium — used to directly detect gold mineralization at depth",
+      "A": "Lead, bismuth, and radon — used to trace pathfinder element dispersion from gold deposits",
       "B": "Potassium (K), thorium (Th), and uranium (U) — used for lithological discrimination and mapping alteration halos such as potassic alteration associated with some gold systems",
-      "C": "Carbon-14, strontium, and rubidium — used for dating rocks to determine exploration priority",
-      "D": "Lead, bismuth, and radon — used to trace pathfinder element dispersion from gold deposits"
+      "C": "Uranium, thorium, and radium — used to directly detect gold mineralization at depth",
+      "D": "Carbon-14, strontium, and rubidium — used for dating rocks to determine exploration priority"
     },
     "correct": "B",
     "explanation": "Airborne gamma-ray spectrometry measures the natural emissions from potassium-40, thorium-232, and uranium-238 decay series in the top 30-50 cm of the Earth's surface. For gold exploration, the technique is primarily used for lithological mapping and identifying alteration. Potassic alteration (elevated K) can be associated with hydrothermal systems in some gold deposit types. The K/Th ratio is particularly useful because thorium is relatively immobile during alteration, so elevated K/Th ratios can highlight zones of potassic metasomatism. In laterite-covered terrains of West Africa, radiometric data helps map regolith types, distinguish residual from transported cover, and identify lithological boundaries hidden under cover. Combined with magnetics, radiometrics form the standard airborne geophysical survey package for early-stage exploration.",
@@ -515,12 +515,12 @@
     "domain": "gold",
     "question": "When designing a geochemical soil sampling grid for gold exploration over a 10 km strike-length target in a Birimian greenstone belt, what is the recommended approach for grid spacing?",
     "options": {
-      "A": "Use a uniform 25 m × 25 m grid across the entire 10 km target for maximum resolution",
-      "B": "Use a reconnaissance grid of 400 m line spacing × 50 m sample spacing for initial coverage, then infill to 100-200 m × 25 m over anomalous zones",
-      "C": "Sample only along roads and tracks to minimize environmental disturbance",
-      "D": "Use random sampling locations selected by statistical software to eliminate bias"
+      "A": "Use random sampling locations selected by statistical software to eliminate bias",
+      "B": "Sample only along roads and tracks to minimize environmental disturbance",
+      "C": "Use a reconnaissance grid of 400 m line spacing × 50 m sample spacing for initial coverage, then infill to 100-200 m × 25 m over anomalous zones",
+      "D": "Use a uniform 25 m × 25 m grid across the entire 10 km target for maximum resolution"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Effective geochemical grid design follows a phased approach that balances coverage against cost. For a 10 km strike-length target in a Birimian greenstone belt, a reconnaissance phase at 400 m line spacing perpendicular to geological strike with 50 m sample spacing along lines provides adequate coverage to detect anomalies at reasonable cost (approximately 500 samples per km of strike). This spacing is designed to detect anomalies with a minimum strike length of 200-400 m, which is appropriate for orogenic gold targets. Anomalous zones are then infilled to 100-200 m line spacing × 25 m sample spacing to better define targets for drill testing. As Moon et al. (2006) emphasize, grid orientation must be perpendicular to expected strike direction to maximize the probability of intersecting anomalies, and the sample spacing along lines should be half the expected anomaly width.",
     "key_concept": "Phased grid design: 400 m × 50 m reconnaissance, then infill to 100-200 m × 25 m over anomalies; lines perpendicular to strike",
     "source": "Moon, Whateley & Evans, Introduction to Mineral Exploration",
@@ -532,12 +532,12 @@
     "domain": "gold",
     "question": "What is an orientation survey in geochemical exploration, and why is it essential before committing to a full sampling program?",
     "options": {
-      "A": "A survey to determine the compass bearing of geological structures before mapping begins",
-      "B": "A small-scale study conducted over a known mineralized zone and adjacent barren ground to determine the optimal sample medium, depth, fraction, and analytical method that best distinguish anomalous from background populations",
-      "C": "A survey of local communities to orient the exploration team on land access permissions",
-      "D": "A calibration test of the GPS equipment to ensure accurate sample location coordinates"
+      "A": "A calibration test of the GPS equipment to ensure accurate sample location coordinates",
+      "B": "A survey of local communities to orient the exploration team on land access permissions",
+      "C": "A small-scale study conducted over a known mineralized zone and adjacent barren ground to determine the optimal sample medium, depth, fraction, and analytical method that best distinguish anomalous from background populations",
+      "D": "A survey to determine the compass bearing of geological structures before mapping begins"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "An orientation survey is a critical but sometimes overlooked step in geochemical exploration. It involves collecting multiple sample types (soil horizons, different size fractions, laterite fragments, saprolite) from a traverse over known mineralization and into barren background. Each sample type is analyzed by multiple methods to determine which combination produces the best contrast between anomalous and background values. For example, in West African laterite terrains, an orientation survey might reveal that the -80 mesh fraction of B-horizon soil analyzed by aqua regia digest gives a 10× anomaly contrast for gold, while BLEG on the same samples gives 20× contrast. Without this step, an entire sampling program could use a suboptimal method and miss real anomalies. As Butt and Zeegers (1992) demonstrate, the correct sample medium varies dramatically between residual, erosional, and depositional landscape settings even within a single project area.",
     "key_concept": "Orientation surveys test sample media, fractions, and methods over known mineralization to optimize anomaly detection before full programs",
     "source": "Butt & Zeegers, Regolith Exploration Geochemistry in Tropical and Subtropical Terrains",
@@ -549,12 +549,12 @@
     "domain": "gold",
     "question": "In a typical West African laterite profile, what are the main regolith zones from surface to bedrock, and which zone is most important for geochemical sampling?",
     "options": {
-      "A": "Topsoil → gravel → sand → clay → bedrock; the gravel zone is most important",
-      "B": "Laterite duricrust → mottled zone → saprolite → saprock → fresh bedrock; the saprolite zone preserves the best residual geochemical anomalies",
+      "A": "Laterite duricrust → mottled zone → saprolite → saprock → fresh bedrock; the saprolite zone preserves the best residual geochemical anomalies",
+      "B": "Topsoil → gravel → sand → clay → bedrock; the gravel zone is most important",
       "C": "Alluvium → colluvium → weathered rock → bedrock; alluvium is the primary sampling target",
       "D": "Humus → laterite → granite → ore; the granite contact is the key sampling zone"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "The typical laterite weathering profile in West Africa comprises (from top): laterite duricrust (ferricrete, 1-5 m), mottled zone (2-10 m) with iron-stained clays, saprolite (5-30 m) of thoroughly weathered but texturally preserved rock, saprock (partially weathered), and fresh bedrock. For geochemical exploration, the saprolite zone is generally considered the most important target because it represents in-situ weathering of bedrock where gold and pathfinder elements remain relatively undispersed from their bedrock source. The laterite duricrust can also carry anomalies but these may be diluted or complicated by Fe-accumulation processes. The mottled zone is typically depleted in many elements due to leaching. Understanding this profile is critical for interpreting auger drilling results and designing effective sampling programs. Regolith mapping — distinguishing residual from transported cover — is a fundamental first step in tropical exploration, as anomalies in transported material may be displaced from their source.",
     "key_concept": "West African laterite profile: duricrust → mottled → saprolite → saprock → bedrock; saprolite preserves best residual anomalies",
     "source": "Anand & Paine, Regolith Geology of the Yilgarn Craton; Butt & Zeegers (1992)",
@@ -566,9 +566,9 @@
     "domain": "gold",
     "question": "How can structural information be interpreted from magnetic geophysical data in a gold exploration context?",
     "options": {
-      "A": "Magnetic data can only detect magnetic ore bodies and has no application for structural interpretation",
+      "A": "Structural interpretation requires seismic data; magnetic data can only map lithology",
       "B": "Linear breaks, offsets in magnetic trends, and truncations of magnetic units can reveal faults, shear zones, and fold axes — structures that often control orogenic gold emplacement",
-      "C": "Structural interpretation requires seismic data; magnetic data can only map lithology",
+      "C": "Magnetic data can only detect magnetic ore bodies and has no application for structural interpretation",
       "D": "Magnetic data shows surface topography which indirectly indicates structural features"
     },
     "correct": "B",
@@ -584,8 +584,8 @@
     "question": "What are the three essential types of quality assurance/quality control (QAQC) samples that must be inserted into every exploration geochemical sample batch, and what does each monitor?",
     "options": {
       "A": "Duplicates to check reproducibility, blanks to detect contamination, and certified reference materials (standards) to verify analytical accuracy",
-      "B": "Large samples for grade estimation, small samples for trace elements, and composite samples for bulk analysis",
-      "C": "Wet samples for moisture content, dry samples for density, and crushed samples for particle size",
+      "B": "Wet samples for moisture content, dry samples for density, and crushed samples for particle size",
+      "C": "Large samples for grade estimation, small samples for trace elements, and composite samples for bulk analysis",
       "D": "Field duplicates for sampling error, pulp duplicates for crushing error, and coarse reject duplicates for splitting error"
     },
     "correct": "A",
@@ -600,12 +600,12 @@
     "domain": "gold",
     "question": "A junior mining company has a US$2 million exploration budget for a grassroots gold project in Guinea. Approximately how should this budget be allocated across major exploration activities, and what is a reasonable cost per anomaly to advance to drill testing?",
     "options": {
-      "A": "Spend 100% on drilling — geochemistry and geophysics are unnecessary for modern gold exploration",
-      "B": "Allocate roughly 20% to desktop/GIS/remote sensing, 30% to geochemistry and geophysics for target generation, and 50% to first-pass drilling of priority targets; a reasonable cost to generate and rank a drillable anomaly is US$50,000-150,000",
-      "C": "Spend 90% on airborne geophysics and 10% on report writing; anomaly generation costs should be under US$1,000 each",
-      "D": "Allocate 50% to community relations and 50% to environmental baseline; target generation occurs in Year 2"
+      "A": "Allocate 50% to community relations and 50% to environmental baseline; target generation occurs in Year 2",
+      "B": "Spend 100% on drilling — geochemistry and geophysics are unnecessary for modern gold exploration",
+      "C": "Allocate roughly 20% to desktop/GIS/remote sensing, 30% to geochemistry and geophysics for target generation, and 50% to first-pass drilling of priority targets; a reasonable cost to generate and rank a drillable anomaly is US$50,000-150,000",
+      "D": "Spend 90% on airborne geophysics and 10% on report writing; anomaly generation costs should be under US$1,000 each"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Exploration budgeting requires systematic allocation across sequential phases. For a US$2M grassroots budget in West Africa, a typical allocation would be: desktop studies, GIS compilation, and remote sensing (15-20%, ~US$300-400K) to compile existing data, acquire satellite imagery, and define initial target areas; field geochemistry and geophysics (25-35%, ~US$500-700K) including soil/auger sampling, ground geophysics, and trenching to generate and rank anomalies; and first-pass drilling (40-50%, ~US$800-1M) to test the highest-priority 5-8 targets. Industry benchmarks suggest that generating a well-defined, drill-ready anomaly through the geochemistry-geophysics pipeline costs approximately US$50,000-150,000 depending on terrain and cover thickness. This means a US$2M budget can realistically generate 8-15 anomalies and drill-test the best 5-8 of these. Understanding these unit economics is critical for CEOs to evaluate whether exploration spending is efficient.",
     "key_concept": "Budget split: ~20% desktop/remote, ~30% geochem/geophysics, ~50% drilling; cost per drillable anomaly US$50-150K",
     "source": "Lord, Etheridge & Willson, Effective Exploration Planning; AusIMM Mineral Economics",
@@ -617,12 +617,12 @@
     "domain": "gold",
     "question": "What are the key differences between reverse circulation (RC) drilling and diamond (core) drilling for gold exploration, and when is each method preferred?",
     "options": {
-      "A": "RC and diamond drilling produce identical samples; the choice is purely based on rig availability",
-      "B": "RC drilling produces rock chip samples via compressed air at lower cost (US$80-150/m) and is preferred for first-pass testing of anomalies; diamond drilling produces continuous core at higher cost (US$150-350/m) and is required for geological understanding, structural measurement, and resource estimation",
-      "C": "Diamond drilling is always preferred because RC drilling cannot detect gold mineralization",
-      "D": "RC drilling is deeper and more accurate than diamond drilling in all geological settings"
+      "A": "RC drilling is deeper and more accurate than diamond drilling in all geological settings",
+      "B": "Diamond drilling is always preferred because RC drilling cannot detect gold mineralization",
+      "C": "RC drilling produces rock chip samples via compressed air at lower cost (US$80-150/m) and is preferred for first-pass testing of anomalies; diamond drilling produces continuous core at higher cost (US$150-350/m) and is required for geological understanding, structural measurement, and resource estimation",
+      "D": "RC and diamond drilling produce identical samples; the choice is purely based on rig availability"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "RC drilling uses a dual-wall drill string with compressed air to return rock chips from a face-sampling hammer bit, producing 1 m composite samples at typical costs of US$80-150 per metre in West Africa. It is faster (60-120 m/day) and cheaper, making it ideal for first-pass drill testing of geochemical anomalies and defining zones of mineralization. Diamond drilling (DD) uses a rotating diamond-impregnated bit to cut continuous cylindrical core samples (NQ, HQ sizes), typically at US$150-350 per metre and rates of 20-50 m/day. DD is preferred when: geological context is needed (lithology, alteration, structure, vein orientation), metallurgical test samples are required, or resource estimation demands continuous core for accurate geological modeling. A common exploration strategy is to use RC for first-pass testing and follow up significant intercepts with diamond tails or dedicated DD holes. JORC Table 1 requires disclosure of drilling methods and sample types, and the Competent Person must assess whether the drilling method is appropriate for the style of mineralization.",
     "key_concept": "RC: chips, US$80-150/m, fast first-pass testing; DD: continuous core, US$150-350/m, geological context and resource estimation",
     "source": "Marjoribanks, Geological Methods in Mineral Exploration and Mining; JORC Code 2012",
@@ -635,11 +635,11 @@
     "question": "How does 3D geological modeling assist in gold exploration, and what software and data inputs are typically required?",
     "options": {
       "A": "3D modeling is only used after a mine is in production and has no role in exploration",
-      "B": "3D geological modeling integrates drill hole data, surface mapping, geophysical inversions, and geochemistry to build a spatial framework of geology and mineralization that guides targeting and drill planning — using software such as Leapfrog, Micromine, or Datamine",
-      "C": "3D modeling requires only satellite imagery and does not use drill hole data",
-      "D": "3D modeling is a visual presentation tool with no analytical capability for exploration decision-making"
+      "B": "3D modeling requires only satellite imagery and does not use drill hole data",
+      "C": "3D modeling is a visual presentation tool with no analytical capability for exploration decision-making",
+      "D": "3D geological modeling integrates drill hole data, surface mapping, geophysical inversions, and geochemistry to build a spatial framework of geology and mineralization that guides targeting and drill planning — using software such as Leapfrog, Micromine, or Datamine"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "3D geological modeling has become standard practice in modern gold exploration, even at relatively early stages. Software platforms like Leapfrog Geo, Micromine, Datamine, and Surpac allow geologists to integrate multiple data types: drill hole assays and lithological logs, surface mapping and structural measurements, geophysical data (magnetics, gravity, IP) including 3D inversions, geochemical grids, and topographic surfaces. The resulting 3D model provides spatial understanding of: (1) the geometry and continuity of mineralized zones, (2) structural controls and plunge of ore shoots, (3) lithological and alteration controls, and (4) untested targets where model geometry suggests potential extensions. For exploration, implicit modeling tools in Leapfrog are particularly valuable as they can rapidly update models as new drill data is acquired, enabling real-time decision-making on drill hole placement. This iterative approach to drill planning is far more efficient than 2D section-based planning.",
     "key_concept": "3D modeling integrates drill, mapping, geophysics data in platforms like Leapfrog for spatial understanding and iterative drill targeting",
     "source": "Cowan et al., Practical Implicit Geological Modelling; AusIMM Monograph 14",
@@ -651,10 +651,10 @@
     "domain": "gold",
     "question": "What is the potential application of ground penetrating radar (GPR) in gold exploration, and what are its main limitations?",
     "options": {
-      "A": "GPR can detect gold nuggets at depths exceeding 500 m with no limitations",
+      "A": "GPR measures gamma radiation reflected from subsurface gold deposits",
       "B": "GPR uses electromagnetic pulses to image shallow subsurface features (typically <30 m depth) such as quartz veins, paleochannels, and regolith boundaries, but is limited by depth penetration in conductive materials like wet clay or saline soils",
-      "C": "GPR is exclusively used for locating underground utilities and has no geological application",
-      "D": "GPR measures gamma radiation reflected from subsurface gold deposits"
+      "C": "GPR can detect gold nuggets at depths exceeding 500 m with no limitations",
+      "D": "GPR is exclusively used for locating underground utilities and has no geological application"
     },
     "correct": "B",
     "explanation": "Ground penetrating radar transmits high-frequency electromagnetic pulses (typically 25-1000 MHz) into the ground and records reflections from subsurface interfaces where dielectric properties change. In gold exploration, GPR can be used to: (1) map the base of laterite and depth to bedrock in covered terrains, (2) image quartz vein systems in the shallow subsurface, (3) delineate paleochannel geometry for alluvial/eluvial gold targets, and (4) map structural features like faults and shear zones at shallow depth. However, GPR has significant limitations: depth penetration is severely reduced in conductive materials (wet clays, saline soils, laterite) — often to less than 5 m versus 20-30 m in resistive materials like dry sand or fresh rock. In West African laterite terrains, the conductive, clay-rich mottled zone often limits GPR effectiveness. The technique works best in dry, sandy or rocky environments and is most useful when targeting shallow features in favourable ground conditions.",
@@ -668,10 +668,10 @@
     "domain": "gold",
     "question": "What is biogeochemistry in mineral exploration, and under what conditions might vegetation sampling be used for gold exploration?",
     "options": {
-      "A": "Biogeochemistry is the study of bacterial leaching of gold ore and is only relevant to processing",
+      "A": "Biogeochemistry is the study of ancient biological fossils to locate gold-bearing formations",
       "B": "Biogeochemistry involves sampling and analyzing plant tissues (leaves, twigs, bark) that have absorbed metals from the soil through their root systems, providing a surface expression of buried mineralization — particularly useful where thick transported cover obscures conventional soil anomalies",
-      "C": "Biogeochemistry uses genetically modified organisms to detect gold in groundwater",
-      "D": "Biogeochemistry is the study of ancient biological fossils to locate gold-bearing formations"
+      "C": "Biogeochemistry is the study of bacterial leaching of gold ore and is only relevant to processing",
+      "D": "Biogeochemistry uses genetically modified organisms to detect gold in groundwater"
     },
     "correct": "B",
     "explanation": "Biogeochemistry exploits the fact that plants absorb metals from soil and groundwater through their root systems, concentrating these elements in their tissues. By sampling specific plant species (leaves, twigs, bark, or roots) and analyzing them for gold and pathfinder elements (As, Sb, Bi, W), geochemists can detect anomalies related to buried mineralization. The technique is particularly valuable in areas where thick transported cover (alluvium, colluvium, aeolian sand) masks conventional soil anomalies — plant roots can penetrate 10-30 m to access the residual weathering profile or groundwater that has interacted with mineralized bedrock. In Australian exploration, Eucalyptus species have been successfully used to detect gold anomalies through up to 40 m of transported cover. In West Africa, certain tree species in savanna environments (e.g., Combretum, Terminalia) may serve a similar role, though calibration through orientation surveys is essential. Detection limits for gold in vegetation are typically 1-10 ppb, requiring sensitive analytical techniques such as INAA or ICP-MS after ashing.",
@@ -686,11 +686,11 @@
     "question": "What is multi-element association analysis, and how does it improve gold target ranking compared to using gold values alone?",
     "options": {
       "A": "It involves analyzing only for gold but using multiple laboratories for comparison",
-      "B": "Multi-element analysis examines suites of pathfinder and associated elements (e.g., As, Sb, Bi, W, Te, Ag, Cu) alongside gold to identify coherent geochemical signatures characteristic of specific deposit types, distinguish bedrock-sourced anomalies from spurious results, and rank targets by their geochemical maturity",
-      "C": "It replaces gold analysis entirely with cheaper proxy elements to save laboratory costs",
-      "D": "Multi-element analysis is only relevant for base metal deposits, not gold"
+      "B": "It replaces gold analysis entirely with cheaper proxy elements to save laboratory costs",
+      "C": "Multi-element analysis is only relevant for base metal deposits, not gold",
+      "D": "Multi-element analysis examines suites of pathfinder and associated elements (e.g., As, Sb, Bi, W, Te, Ag, Cu) alongside gold to identify coherent geochemical signatures characteristic of specific deposit types, distinguish bedrock-sourced anomalies from spurious results, and rank targets by their geochemical maturity"
     },
-    "correct": "B",
+    "correct": "D",
     "explanation": "Multi-element association analysis involves analyzing soil, rock, or drill samples for a suite of 30-50+ elements rather than gold alone. This approach improves exploration effectiveness in several ways: (1) Pathfinder elements like arsenic (As), antimony (Sb), bismuth (Bi), and tungsten (W) form broader, more coherent dispersion halos than gold itself (which is often erratically distributed due to the nugget effect), making anomalies easier to detect. (2) Specific element associations are characteristic of particular deposit types — for example, Au-As-Sb-W is typical of mesothermal/orogenic gold, while Au-Cu-Ag-Mo suggests intrusion-related systems. (3) Multi-element signatures help distinguish bedrock-sourced anomalies from contamination or spurious high gold values. (4) Statistical techniques such as principal component analysis (PCA) and factor analysis applied to multi-element data can identify coherent geochemical populations and rank targets by their geochemical maturity. Modern multi-element ICP-MS analysis costs only marginally more than gold-only assays, making it a high-value, low-cost enhancement to any geochemical program.",
     "key_concept": "Multi-element suites (As, Sb, Bi, W, Te) form broader halos than gold, indicate deposit type, and distinguish real anomalies from noise",
     "source": "Moon, Whateley & Evans, Introduction to Mineral Exploration; Govett, Rock Geochemistry in Mineral Exploration",
@@ -703,11 +703,11 @@
     "question": "Scenario: Your soil geochemistry program at the PMH Mandiana project has returned a 1.2 km long gold-in-soil anomaly (>100 ppb Au) with coincident arsenic. You have budget for 2,000 m of first-pass drilling. How should you design the drill program?",
     "options": {
       "A": "Drill a single deep diamond hole at the centre of the anomaly to test for a large orebody at 500 m depth",
-      "B": "Design a series of angled RC holes (e.g., 8-10 holes at 150-200 m depth) on 2-3 cross-sections spaced 400-600 m apart, oriented perpendicular to the anomaly strike and dipping opposite to the expected mineralization dip, with holes collared 50-100 m either side of the anomaly axis to test for dipping targets",
-      "C": "Drill 40 vertical holes at 50 m depth spaced every 30 m along the anomaly to create a continuous shallow intercept",
-      "D": "Delay drilling and conduct two more years of soil sampling to refine the anomaly further before any drill testing"
+      "B": "Delay drilling and conduct two more years of soil sampling to refine the anomaly further before any drill testing",
+      "C": "Design a series of angled RC holes (e.g., 8-10 holes at 150-200 m depth) on 2-3 cross-sections spaced 400-600 m apart, oriented perpendicular to the anomaly strike and dipping opposite to the expected mineralization dip, with holes collared 50-100 m either side of the anomaly axis to test for dipping targets",
+      "D": "Drill 40 vertical holes at 50 m depth spaced every 30 m along the anomaly to create a continuous shallow intercept"
     },
-    "correct": "B",
+    "correct": "C",
     "explanation": "Designing a first-pass drill program from a soil anomaly requires systematic thinking. With 2,000 m of RC budget and a 1.2 km anomaly: (1) Design 2-3 cross-sections spaced 400-600 m apart across the anomaly strike to test the full length while providing meaningful cross-section information. (2) Place 3-4 holes per section (8-10 holes total at 150-200 m depth each, totalling ~1,600-2,000 m), angled at 50-60° to intersect expected steeply-dipping orogenic mineralization as close to perpendicular as possible. (3) Collar holes 50-100 m either side of the anomaly axis to account for possible dip of mineralization and dispersion of the soil anomaly. (4) Include holes on both sides of the anomaly on at least one section to determine dip direction. (5) Orient sections perpendicular to the strike of the anomaly and underlying geological trend. The coincident As anomaly strengthens the target as it indicates a coherent bedrock source rather than nugget effect or contamination. This design provides maximum geological information per metre drilled while testing the most important question: is there mineralized bedrock beneath the soil anomaly?",
     "key_concept": "First-pass drill design: 2-3 sections across anomaly strike, angled RC holes perpendicular to expected dip, holes both sides of anomaly axis",
     "source": "Marjoribanks, Geological Methods in Mineral Exploration and Mining; AusIMM drill program design",
@@ -719,12 +719,12 @@
     "domain": "gold",
     "question": "Scenario: At a prospect in southwest Mali, your soil geochemistry shows a strong gold anomaly (200 ppb Au) but the IP survey over the same area shows no chargeability anomaly. A colleague argues this means the target should be downgraded. How should you interpret this contradictory data?",
     "options": {
-      "A": "The colleague is correct — any real gold target must show both a geochemical and geophysical response, so this target should be abandoned",
-      "B": "The geochemical anomaly should be given priority because not all gold mineralization styles produce an IP response — oxide-zone gold, free gold in quartz veins with low sulphide content, or leached saprolite-hosted gold may be geochemically anomalous without generating chargeability anomalies",
+      "A": "The geochemical anomaly should be given priority because not all gold mineralization styles produce an IP response — oxide-zone gold, free gold in quartz veins with low sulphide content, or leached saprolite-hosted gold may be geochemically anomalous without generating chargeability anomalies",
+      "B": "The IP survey must be defective and should be repeated with different equipment before any interpretation",
       "C": "Both datasets are unreliable and should be discarded in favour of a new airborne survey",
-      "D": "The IP survey must be defective and should be repeated with different equipment before any interpretation"
+      "D": "The colleague is correct — any real gold target must show both a geochemical and geophysical response, so this target should be abandoned"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Contradictory geochemical and geophysical data is common in gold exploration and requires careful interpretation rather than automatic downgrading. IP chargeability responds to disseminated sulphides (primarily pyrite in gold systems), but not all gold mineralization is associated with significant sulphide content. Scenarios where gold anomalies may lack an IP response include: (1) oxide-zone gold where sulphides have been destroyed by weathering, leaving gold in laterite or saprolite without chargeability contrast — very common in West African laterite terrains where oxidation extends to 30-80 m depth; (2) free gold in quartz veins with minimal sulphide gangue; (3) gold concentrated at the saprolite-bedrock interface in a reduced-sulphide orogenic system. The correct approach is to evaluate each dataset on its own merits, understand the geological reasons for the discrepancy, and consider additional data (magnetics, mapping, pathfinder elements) before making a drill decision. A coherent Au-As soil anomaly with geological support (favourable structure, lithology) remains a valid target even without an IP response.",
     "key_concept": "Not all gold targets produce IP anomalies; oxide-zone, low-sulphide vein, or saprolite-hosted gold may lack chargeability response",
     "source": "Dentith & Mudge, Geophysics for the Mineral Exploration Geoscientist; Butt & Zeegers (1992)",
@@ -736,10 +736,10 @@
     "domain": "gold",
     "question": "Why is a well-structured exploration database critical for gold projects, and what are the key requirements for an effective data management system?",
     "options": {
-      "A": "Databases are only needed for producing mines; exploration projects can manage data in spreadsheets indefinitely",
+      "A": "Exploration databases are primarily marketing tools for investor presentations and do not affect technical work",
       "B": "An exploration database must provide secure, validated, auditable storage of all sample, assay, survey, and geological data in a relational structure — using systems like acQuire, Datashed, or MX Deposit — because JORC, NI 43-101, and due diligence processes require verifiable data chains from field collection to resource estimation",
-      "C": "Exploration databases are primarily marketing tools for investor presentations and do not affect technical work",
-      "D": "Data management is the responsibility of the assay laboratory and requires no attention from the exploration company"
+      "C": "Data management is the responsibility of the assay laboratory and requires no attention from the exploration company",
+      "D": "Databases are only needed for producing mines; exploration projects can manage data in spreadsheets indefinitely"
     },
     "correct": "B",
     "explanation": "Exploration data management is a foundational requirement that directly impacts the credibility and value of a gold project. A properly structured database using industry-standard platforms (acQuire, Datashed, MX Deposit, or well-designed SQL databases) provides: (1) Validation rules that prevent entry of erroneous data (e.g., assays without matching sample records, drill holes with impossible survey data); (2) A complete audit trail from field sample collection through laboratory analysis to resource estimation — essential for JORC Table 1 compliance and due diligence; (3) Relational structure linking sample locations, lithological logs, assay results, QAQC data, and survey data in a consistent framework; (4) Secure, backed-up storage with access controls to protect what is often the most valuable asset of an exploration company. Poor data management has caused significant value destruction in the mining industry — examples include mislocated drill holes, undetected laboratory errors, and lost historical data that necessitated expensive re-drilling. JORC 2012 specifically requires Competent Persons to verify data integrity, making database quality a compliance matter.",
@@ -753,12 +753,12 @@
     "domain": "gold",
     "question": "How does geochemical dispersion differ in tropical laterite environments compared to temperate glaciated terrains, and why does this matter for gold exploration in West Africa?",
     "options": {
-      "A": "There is no difference — geochemical dispersion processes are identical regardless of climate",
-      "B": "In tropical laterite environments, intense chemical weathering produces thick residual profiles where gold and pathfinder elements are vertically redistributed through the regolith — concentrated at the stone line, in ferruginous duricrust, and at the saprolite-bedrock interface — while lateral dispersion is limited, producing narrow anomalies close to source that require tight sample spacing to detect",
+      "A": "In tropical laterite environments, intense chemical weathering produces thick residual profiles where gold and pathfinder elements are vertically redistributed through the regolith — concentrated at the stone line, in ferruginous duricrust, and at the saprolite-bedrock interface — while lateral dispersion is limited, producing narrow anomalies close to source that require tight sample spacing to detect",
+      "B": "There is no difference — geochemical dispersion processes are identical regardless of climate",
       "C": "Tropical environments produce wider dispersion halos than glaciated terrains, making gold easier to find",
       "D": "Geochemical sampling is impossible in tropical laterite environments due to leaching of all elements"
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "Geochemical dispersion in tropical laterite environments is fundamentally different from temperate or glaciated terrains, and understanding this is essential for effective exploration in West Africa. In tropical settings: (1) Deep chemical weathering (50-100+ m) breaks down primary minerals and redistributes elements vertically through the regolith profile. Gold is relatively immobile during weathering and tends to concentrate at specific horizons — the stone line (base of laterite), within ferruginous duricrust through accumulation over millions of years, and at the saprolite-bedrock interface. (2) Lateral mechanical dispersion is limited because the landscape is dominated by in-situ weathering rather than glacial transport, meaning anomalies are typically narrow and close to their bedrock source. This requires tighter sample spacing (25-50 m) compared to glaciated terrains where glacial dispersion can spread anomalies over hundreds of metres. (3) However, some secondary dispersion occurs through groundwater transport and biogenic cycling (termite activity, tree root uptake), which can create subtle surface anomalies above buried mineralization. Understanding these processes — as documented by Butt and Zeegers (1992) for tropical terrains — is critical for selecting the appropriate sample medium, depth, and spacing for West African gold exploration.",
     "key_concept": "Tropical laterite: vertical redistribution in thick profiles, limited lateral dispersion, narrow anomalies requiring tight sample spacing",
     "source": "Butt & Zeegers, Regolith Exploration Geochemistry in Tropical and Subtropical Terrains; CRC LEME",
