@@ -90,7 +90,16 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
         >
           Q{index + 1}/{total}
         </span>
-        <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{question.chapterId}</span>
+        <div className="flex items-center gap-2">
+          <span className={`text-[10px] px-1.5 py-0.5 rounded font-medium ${
+            question.difficulty === 1 ? 'bg-green-100 text-green-700' :
+            question.difficulty === 2 ? 'bg-yellow-100 text-yellow-700' :
+            'bg-red-100 text-red-700'
+          }`}>
+            {question.difficulty === 1 ? '基础' : question.difficulty === 2 ? '应用' : '综合'}
+          </span>
+          <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{question.chapterId}</span>
+        </div>
       </div>
 
       {/* Question stem */}
