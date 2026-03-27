@@ -51,7 +51,9 @@
 - 全球化运营管理 — 跨时区、跨文化团队协作
 - ESG领先实践 — 可持续发展报告标准
 
-### Barrick Gold — 并购之王
+### Barrick Gold — 并购之王 & 马里争端的教训
+
+*数据来源: [Barrick Q4 2024 Results](https://www.barrick.com/English/news/news-details/2025/q4-2024-results/default.aspx), [Globe and Mail](https://www.theglobeandmail.com/business/article-barrick-gold-earnings-mali-loulo-gounkoto/), [Mining.com](https://www.mining.com/barrick-ceo-expects-deal-with-mali-on-new-mining-code-by-year-end/)*
 
 **发家历史:**
 - 1983年由 **Peter Munk** 创立 (加拿大匈牙利裔企业家)
@@ -61,11 +63,28 @@
 - 2019年与 Randgold Resources 合并
 - **Mark Bristow** (原Randgold CEO) 成为新Barrick CEO
 
-**关键数据:**
-- 市值: ~$35B
-- 年产量: ~4.0 Moz Au + 铜
+**关键数据 (2024):**
+- 金储量: **89 Moz Au** (P&P)
 - 核心资产: **Nevada Gold Mines** (与Newmont 38.5% JV) — 世界最大金矿综合体
-- **Loulo-Gounkoto** (马里) — Barrick在西非的旗舰矿山
+- 2025年指导产量: 3.15-3.5 Moz Au (**不含**Loulo-Gounkoto)
+
+**Loulo-Gounkoto (马里) — 重大争端案例:**
+- 29年累计投资超 **$10B** 在马里
+- 2024年产量: **723,000 oz** (创历史新高!)
+- AISC: $1,150-1,250/oz (2024指导)
+- 8,000员工中 **97%是马里人**
+- 贡献马里GDP的 **5-10%**，2023年贡献超$1B
+
+**⚠️ 2024-2025危机 (PMH必须了解的教训):**
+1. 马里政府要求更高的经济分成
+2. 2024年12月: 马里军政府对CEO **Mark Bristow发出逮捕令** (指控洗钱)
+3. 政府限制黄金出口
+4. 2025年1月: Barrick被迫**暂停Loulo-Gounkoto运营**
+5. Barrick减记约 **$10亿** 资产
+6. Loulo-Gounkoto占Barrick总产量的 **~15%**，暂停造成巨大财务缺口
+7. 2025年11月: 最终达成和解 — Barrick支付约 **$4.3亿** 换取恢复运营
+
+> **PMH教训**: 即使是全球最大的矿企，在西非也可能面临被逮捕、被迫停产、被迫支付巨额和解金的风险。政府关系管理不是"锦上添花"，而是"生死攸关"。B2Gold的温和谈判策略(2024年9月达成协议)对比Barrick的对抗策略，结果截然不同。
 
 **Mark Bristow — CEO的传奇:**
 - 地质学家出身，在非洲丛林中亲自勘探
