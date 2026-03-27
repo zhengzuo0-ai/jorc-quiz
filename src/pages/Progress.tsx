@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { chapters } from '../data/chapters';
 import { useProgress } from '../hooks/useProgress';
 import { useErrorBook } from '../hooks/useErrorBook';
@@ -19,14 +19,16 @@ export default function Progress() {
   const { entries: errorEntries, dueEntries } = useErrorBook();
   const conceptReads = storage.get<ConceptReadRecord[]>('conceptReads', []);
 
+  const [now] = useState(() => Date.now());
+
   const { streak, activeDays } = useMemo(() => {
     const days = new Set(answers.map(a => getDayKey(a.answeredAt)));
     conceptReads.forEach(r => days.add(getDayKey(r.lastRead)));
 
     const sorted = [...days].sort().reverse();
     let streak = 0;
-    const today = getDayKey(Date.now());
-    const yesterday = getDayKey(Date.now() - 86400000);
+    const today = getDayKey(now);
+    const yesterday = getDayKey(now - 86400000);
 
     if (sorted[0] !== today && sorted[0] !== yesterday) return { streak: 0, activeDays: days.size };
 
@@ -41,7 +43,7 @@ export default function Progress() {
       }
     }
     return { streak, activeDays: days.size };
-  }, [answers, conceptReads]);
+  }, [answers, conceptReads, now]);
 
   const recentActivity = useMemo(() => {
     const items: { type: string; label: string; time: number }[] = [];

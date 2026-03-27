@@ -14,6 +14,11 @@ interface Props {
 
 export default function QuestionCard({ question, index, total, onAnswer, onNext }: Props) {
   const [selected, setSelected] = useState<OptionKey | null>(null);
+  const [trackedId, setTrackedId] = useState(question.id);
+  if (trackedId !== question.id) {
+    setTrackedId(question.id);
+    setSelected(null);
+  }
   const answered = selected !== null;
   const isCorrect = selected === question.correct;
 
@@ -25,11 +30,6 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
     },
     [answered, question, onAnswer]
   );
-
-  // Reset when question changes
-  useEffect(() => {
-    setSelected(null);
-  }, [question.id]);
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -65,7 +65,7 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
     return { borderColor: 'var(--border)', color: 'var(--text-muted)' };
   }
 
-  function optionClass(_key: OptionKey): string {
+  function optionClass(): string {
     const base = 'w-full text-left px-4 py-3.5 rounded-lg border text-sm transition-all duration-200';
     if (!answered) {
       return `${base} cursor-pointer`;
@@ -90,7 +90,16 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
         >
           Q{index + 1}/{total}
         </span>
-        <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{question.chapterId}</span>
+        <div className="flex items-center gap-2">
+          <span className={`text-[10px] px-1.5 py-0.5 rounded font-medium ${
+            question.difficulty === 1 ? 'bg-green-100 text-green-700' :
+            question.difficulty === 2 ? 'bg-yellow-100 text-yellow-700' :
+            'bg-red-100 text-red-700'
+          }`}>
+            {question.difficulty === 1 ? '基础' : question.difficulty === 2 ? '应用' : '综合'}
+          </span>
+          <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{question.chapterId}</span>
+        </div>
       </div>
 
       {/* Question stem */}
@@ -108,7 +117,7 @@ export default function QuestionCard({ question, index, total, onAnswer, onNext 
             key={key}
             onClick={() => handleSelect(key)}
             disabled={answered}
-            className={optionClass(key)}
+            className={optionClass()}
             style={{
               borderColor: 'var(--border)',
               ...optionStyle(key),

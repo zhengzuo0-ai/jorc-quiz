@@ -31,11 +31,37 @@ export default function Home() {
           className="text-3xl font-semibold mb-1"
           style={{ fontFamily: 'var(--font-display)', color: 'var(--navy-dark)' }}
         >
-          Mining Knowledge Hub
+          PMH Mining
         </h1>
-        <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
+        <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+          矿业知识学习平台 · Mining Knowledge Platform
+        </p>
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }} className="mt-1">
           总进度: {totalAnswered} 题 · 正确率 {overallAccuracy}%
         </p>
+
+        {/* Quick start for new users */}
+        {totalAnswered === 0 && (
+          <div
+            className="mt-4 p-4 rounded-xl text-sm"
+            style={{ background: 'var(--gold-dim)', border: '1px solid rgba(184,150,78,0.2)' }}
+          >
+            <p style={{ color: 'var(--text-primary)' }} className="font-medium mb-2">
+              欢迎！从这里开始学习 👇
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <Link to="/concepts/learning-path" className="px-3 py-1.5 rounded-lg text-xs font-medium" style={{ background: 'var(--gold)', color: 'var(--white)' }}>
+                📋 5周学习路径
+              </Link>
+              <Link to="/concepts/gold-01" className="px-3 py-1.5 rounded-lg text-xs font-medium" style={{ background: 'var(--navy-dark)', color: 'var(--text-light)' }}>
+                📖 从黄金基础开始
+              </Link>
+              <Link to="/concepts/glossary" className="px-3 py-1.5 rounded-lg text-xs font-medium" style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
+                📚 术语表
+              </Link>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Error book reminder */}

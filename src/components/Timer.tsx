@@ -9,7 +9,9 @@ interface Props {
 export default function Timer({ totalSeconds, onTimeUp, running }: Props) {
   const [remaining, setRemaining] = useState(totalSeconds);
   const onTimeUpRef = useRef(onTimeUp);
-  onTimeUpRef.current = onTimeUp;
+  useEffect(() => {
+    onTimeUpRef.current = onTimeUp;
+  }, [onTimeUp]);
 
   useEffect(() => {
     setRemaining(totalSeconds);

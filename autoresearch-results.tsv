@@ -1,0 +1,9 @@
+# metric_direction: higher_is_better (chapters + tests)
+iteration	commit	chapters	tests	lint	status	description
+0	f9e0872	31	21	0	baseline	31 chapters, 21 tests, 0 lint errors
+1	c40f18a	32	21	0	keep	add jorc-09 Table 1 Section 2 exploration results reporting
+2	15825fe	33	21	0	keep	add jorc-10 resource estimation reporting
+3	252f3b4	34	21	0	keep	add jorc-11 reserve estimation with cut-off formula
+4	5dda76d	35	21	0	keep	add jorc-12 ASIC compliance — ALL 12 JORC chapters complete!
+5	84bc5a2	35	27	0	keep	add 6 calcAccuracy tests — 27 total
+6	a425175	36	27	0	keep	add West Africa gold company comparison

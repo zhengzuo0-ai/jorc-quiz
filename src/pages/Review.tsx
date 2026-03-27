@@ -17,6 +17,7 @@ export default function Review() {
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
 
+  const [now] = useState(() => Date.now());
   const displayEntries = filter === 'due' ? dueEntries : activeEntries;
 
   const startReview = useCallback(async () => {
@@ -197,7 +198,7 @@ export default function Review() {
           {displayEntries.map(entry => {
             const chapter = chapters.find(c => c.id === entry.chapterId);
             const nextDate = new Date(entry.nextReview);
-            const isOverdue = entry.nextReview <= Date.now();
+            const isOverdue = entry.nextReview <= now;
             return (
               <div
                 key={entry.questionId}

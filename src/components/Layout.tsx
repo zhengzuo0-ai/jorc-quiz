@@ -42,7 +42,7 @@ export default function Layout() {
             className="text-xl font-semibold tracking-wide"
             style={{ fontFamily: 'var(--font-display)', color: 'var(--text-light)' }}
           >
-            <span style={{ color: 'var(--gold)' }}>⛏</span> JORC Quiz
+            <span style={{ color: 'var(--gold)' }}>⛏</span> PMH Mining
           </h1>
           <div className="mt-3 h-px" style={{ background: 'linear-gradient(to right, var(--gold), transparent)' }} />
         </div>
@@ -63,7 +63,7 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      {/* Mobile bottom tab bar */}
+      {/* Mobile bottom tab bar — show only 5 key items */}
       <nav
         className="md:hidden fixed bottom-0 left-0 right-0 flex border-t"
         style={{
@@ -71,7 +71,7 @@ export default function Layout() {
           borderColor: 'var(--navy-light)',
         }}
       >
-        {navItems.map(item => (
+        {navItems.filter(item => ['/', '/concepts', '/practice', '/review', '/progress'].includes(item.to)).map(item => (
           <NavLink
             key={item.to}
             to={item.to}

@@ -126,11 +126,27 @@ body::before {
   background: var(--gold-dim);
   border-radius: 0 0.5rem 0.5rem 0;
 }
+/* Wrap tables for mobile scroll */
+.concept-prose .table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1rem 0;
+}
 .concept-prose table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0;
   font-size: 0.9rem;
+  min-width: 400px;
+}
+
+/* Mobile readability */
+@media (max-width: 640px) {
+  .concept-prose { font-size: 0.9375rem; }
+  .concept-prose h1 { font-size: 1.5rem; }
+  .concept-prose h2 { font-size: 1.2rem; }
+  .concept-prose h3 { font-size: 1.05rem; }
+  .concept-prose pre { font-size: 0.75rem; padding: 0.875rem; }
+  .concept-prose table { font-size: 0.8rem; }
 }
 .concept-prose th {
   background: var(--navy-dark);
