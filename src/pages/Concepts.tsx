@@ -160,16 +160,38 @@ function ConceptViewer({ chapterId }: { chapterId: string }) {
       {error && <p style={{ color: 'var(--error)' }} className="text-sm">{error}</p>}
 
       {!loading && !error && (
-        <article
-          className="concept-prose rounded-xl p-6 md:p-8"
-          style={{
-            background: 'var(--white)',
-            border: '1px solid var(--border)',
-            boxShadow: '0 4px 12px rgba(0,0,0,0.06)',
-          }}
-        >
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
-        </article>
+        <>
+          <article
+            className="concept-prose rounded-xl p-6 md:p-8"
+            style={{
+              background: 'var(--white)',
+              border: '1px solid var(--border)',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.06)',
+            }}
+          >
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
+          </article>
+
+          {/* Bottom navigation */}
+          <div className="flex items-center justify-between mt-6 pb-8">
+            <Link
+              to="/concepts"
+              className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+              style={{ color: 'var(--text-secondary)', border: '1px solid var(--border)' }}
+            >
+              ← 返回目录
+            </Link>
+            {chapter && (
+              <Link
+                to={`/practice/${chapterId}`}
+                className="text-sm font-medium px-5 py-2 rounded-lg transition-colors"
+                style={{ background: 'var(--gold)', color: 'var(--white)' }}
+              >
+                去做练习题 →
+              </Link>
+            )}
+          </div>
+        </>
       )}
     </div>
   );
