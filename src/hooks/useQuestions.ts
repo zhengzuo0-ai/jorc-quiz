@@ -62,7 +62,7 @@ export function useMultiChapterQuestions(chapterIds: string[], count: number) {
     });
     }
     load();
-  }, [chapterIds.join(','), count]);
+  }, [chapterIds, count]);
 
   return { questions, loading };
 }
