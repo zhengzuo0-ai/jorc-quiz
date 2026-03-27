@@ -125,22 +125,34 @@
 
 ### Endeavour Mining — 西非之王
 
-**与PMH最相关的公司之一**
+*数据来源: [Endeavour FY-2024 Results](https://www.endeavourmining.com/news-and-media/news/endeavour-reports-strong-fy-2024-results/), [Endeavour官网](https://www.endeavourmining.com/)*
 
-- 专注西非黄金开采
-- 在科特迪瓦、塞内加尔、布基纳法索、几内亚运营
-- CEO: **Ian Cockerill** (资深矿业高管)
+**与PMH最相关的公司之一** — 专注西非黄金开采
 
-**关键特点:**
-- 在西非有 5 座运营矿山
-- 年产 ~1.1 Moz Au
-- AISC: ~$1,000/oz (西非运营成本优势)
-- 强大的勘探管线 (exploration pipeline)
+**2024年关键数据:**
+- 年产量: **1,103 koz Au** (Q4达363koz，创季度新高)
+- AISC: **$1,218/oz** (行业领先的低成本)
+- 调整后EBITDA: **$1,325M** (Q4同比增72%)
+- 自由现金流: Q4创纪录 **$268M**
+- 储量增长: +4.5 Moz (+32%，相当于年消耗量的3倍以上)
+- 股东回报: $277M (股息$240M + 回购$37M)
+
+**运营矿山 (全部在西非):**
+| 矿山 | 国家 | 年产量 | 特点 |
+|---|---|---|---|
+| Houndé | 布基纳法索 | ~250 koz | 旗舰矿，10+年寿命 |
+| Ity | 科特迪瓦 | 创纪录 | 2024年产量最高 |
+| Sabodala-Massawa | 塞内加尔 | ~250 koz | BIOX扩建完成，增产1.35Moz |
+| Lafigué | 科特迪瓦 | 96 koz (首年) | 2024年新投产 |
+| Mana | 布基纳法索 | 可变 | 成熟矿山 |
+
+**2025年展望**: 产量 **1,110-1,260 koz** (增长~15%), AISC $1,150-1,350/oz
 
 **PMH可学习的:**
 - 如何在西非建立勘探-开发-生产的完整价值链
-- 当地政府关系管理
+- 当地政府关系管理 — 在5个西非国家成功运营
 - 人才本地化策略
+- 通过并购快速成长 (2021年收购Teranga Gold → 获得Sabodala)
 
 ## 关注国家深度分析 Country Deep Dives
 
