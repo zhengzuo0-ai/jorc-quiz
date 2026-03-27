@@ -474,5 +474,294 @@
     "key_concept": "Sovereign and political risk must be assessed under the governmental Modifying Factor",
     "source": "JORC Code 2012, Clause 29",
     "difficulty": 3
+  },
+  {
+    "id": "jorc-06-029",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A CP is estimating Ore Reserves for an open pit gold mine. Compared to an underground operation on the same deposit, the open pit Reserve estimate would typically show:",
+    "options": {
+      "A": "Higher grade and lower tonnage due to selective mining",
+      "B": "Lower grade and higher tonnage because the open pit captures more dilution and lower-grade material within the pit shell",
+      "C": "Identical grade and tonnage since the geology is the same",
+      "D": "No difference — mining method does not affect Reserve estimates"
+    },
+    "correct": "B",
+    "explanation": "The mining method is a critical Modifying Factor (Clause 29) that fundamentally shapes the Reserve. Open pit mining is non-selective — the pit shell optimisation (e.g., Lerchs-Grossmann or Whittle) captures all material within the economic shell, including lower-grade halos and dilution from waste contacts. This produces higher tonnage at lower average grade compared to underground selective mining, which targets higher-grade zones with narrower stope widths. The CP must ensure the Reserve reflects the actual mining method's selectivity, dilution, and ore loss characteristics. Using underground-style assumptions for an open pit (or vice versa) would produce a materially misleading Reserve.",
+    "key_concept": "Mining method dictates Reserve tonnage-grade profile: open pit = higher tonnage, lower grade; underground = lower tonnage, higher grade",
+    "source": "JORC Code 2012, Clause 29, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-030",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "An in-situ leach (ISL) uranium project has Measured Resources, but the hydrogeological properties of the orebody (permeability, aquifer confinement) have only been tested in a small pilot area. What Reserve classification is most appropriate?",
+    "options": {
+      "A": "Proved Reserve for the entire deposit, since Resources are Measured",
+      "B": "Proved Reserve for the pilot-tested area and Probable Reserve for the remainder, reflecting the mining Modifying Factor uncertainty in untested zones",
+      "C": "No Reserve can be declared for ISL projects under JORC",
+      "D": "Probable Reserve for the pilot area only; no Reserve elsewhere"
+    },
+    "correct": "B",
+    "explanation": "For ISL operations, hydrogeological performance (permeability, aquifer confinement, lixiviant flow) is the dominant mining Modifying Factor. Where pilot testing has demonstrated successful leaching, the CP may have sufficient confidence for Proved status if the underlying Resource is Measured. However, for untested zones, Modifying Factor uncertainty in leach performance should reduce confidence to Probable under Clause 32, even if geological confidence is Measured. JORC does not prohibit ISL Reserves — it requires that the Modifying Factor assessment be realistic for the extraction method.",
+    "key_concept": "ISL Reserves require hydrogeological confidence — untested zones warrant Probable even with Measured Resources",
+    "source": "JORC Code 2012, Clauses 29, 31, 32, Table 1 Section 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-031",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A CP is assessing the infrastructure Modifying Factor for an open pit mine in an arid region. Water supply is limited and the nearest reliable source is 80 km away. How should this affect the Reserve estimate?",
+    "options": {
+      "A": "Water supply is an environmental issue, not a Modifying Factor for Reserves",
+      "B": "The CP must assess whether a technically feasible and economically viable water supply solution exists; if not, the Reserve may need to be reduced or removed",
+      "C": "The Reserve should be reported at full tonnage with a footnote about water risk",
+      "D": "Water constraints only affect processing recovery, not Reserve tonnage"
+    },
+    "correct": "B",
+    "explanation": "Water management falls under both infrastructure and environmental Modifying Factors (Clause 29). Mining and processing require water for dust suppression, ore processing, tailings management, and workforce needs. If no feasible water supply solution exists (pipeline, desalination, recycling, borefield), or if the cost is prohibitive, the deposit cannot be economically mined regardless of geological confidence. The CP must quantify the water requirement, assess supply options and costs, and include these in the economic model. A project that is technically excellent but has no water is not an Ore Reserve.",
+    "key_concept": "Water supply is a critical Modifying Factor — no water, no Reserve, regardless of geological confidence",
+    "source": "JORC Code 2012, Clause 29, Table 1 Sections 4-5",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-032",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A mine closure cost estimate of $500 million has been included in the Feasibility Study for a project with a total Reserve value (undiscounted revenue minus operating costs) of $600 million. How should the CP handle this?",
+    "options": {
+      "A": "Closure costs are post-mining and do not affect Reserve estimates",
+      "B": "The CP must include closure and rehabilitation costs in the economic Modifying Factor assessment; if closure costs render the project uneconomic, the Reserve must be reduced or removed",
+      "C": "Closure costs should be excluded because they are government obligations",
+      "D": "The CP should defer closure costs to a future study and report the Reserve at full tonnage"
+    },
+    "correct": "B",
+    "explanation": "Closure and rehabilitation costs are legitimate project costs that must be included in the economic assessment of Ore Reserves under the environmental Modifying Factor (Clause 29). Table 1 Section 4 specifically asks about environmental and closure considerations. A project where closure costs consume 83% of the operating margin ($500M of $600M) is economically marginal at best. The CP must include these costs in the discounted cash flow analysis. If the project returns a negative NPV after closure costs, the Reserve fails the 'economically mineable' test. Deferring or ignoring closure costs would violate the Materiality and Transparency principles.",
+    "key_concept": "Closure/rehabilitation costs must be included in Reserve economics — they can render a project unviable",
+    "source": "JORC Code 2012, Clause 29, Table 1 Section 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-033",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A gold mine in Australia has operating costs denominated in AUD but revenue in USD. The Reserve was estimated using an AUD:USD exchange rate of 0.65. If the AUD appreciates to 0.80, the most likely impact on the Reserve is:",
+    "options": {
+      "A": "No impact — exchange rates are not relevant to Reserve estimation",
+      "B": "The Reserve increases because a stronger AUD means more revenue",
+      "C": "The Reserve may decrease because AUD-denominated revenue per ounce falls when the AUD strengthens, potentially pushing marginal material below the economic cut-off",
+      "D": "Exchange rates only affect corporate reporting, not technical Reserve estimates"
+    },
+    "correct": "C",
+    "explanation": "For Australian gold miners, revenue is received in USD (gold is priced in USD) and converted to AUD. When the AUD strengthens (0.65 to 0.80), each USD of gold revenue converts to fewer AUD, while AUD-denominated costs remain the same. This squeezes margins. At 0.65 AUD:USD, gold at US$2,000/oz = A$3,077/oz; at 0.80, the same gold = A$2,500/oz — a 19% revenue reduction in local currency. Marginal Reserve blocks that were economic at A$3,077/oz may become uneconomic at A$2,500/oz, requiring Reserve reduction. Exchange rate assumptions are a key component of the economic Modifying Factor and must be disclosed under Table 1.",
+    "key_concept": "Exchange rate is a material economic Modifying Factor — AUD strength reduces AUD gold revenue and can shrink Reserves",
+    "source": "JORC Code 2012, Clause 29, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-034",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A CP applies 10% mining dilution and 5% ore loss to an underground Reserve estimate. A peer reviewer notes that comparable operations in similar geological settings report 15-20% dilution. What should the reviewer recommend?",
+    "options": {
+      "A": "Accept the CP's figures — dilution assumptions are solely at the CP's discretion",
+      "B": "Challenge the assumptions and request justification, as the dilution appears optimistic compared to industry benchmarks; if unsupported, recommend increasing dilution to a defensible level",
+      "C": "Automatically apply 20% dilution as an industry standard",
+      "D": "Ignore dilution because it is captured in reconciliation"
+    },
+    "correct": "B",
+    "explanation": "Dilution and ore loss are critical mining Modifying Factors that directly affect Reserve grade and tonnage. While the CP has professional discretion, assumptions must be defensible and consistent with the mining method, orebody geometry, ground conditions, and comparable operations. If the CP claims 10% dilution when analogous operations achieve 15-20%, the reviewer should request supporting evidence — such as narrow-vein mining equipment, paste backfill, or detailed stope design justifying the lower figure. Unsupported optimism in dilution assumptions overstates Reserve grade and contained metal, misleading investors. Table 1 Section 4 requires disclosure of mining dilution and ore loss assumptions.",
+    "key_concept": "Dilution and ore loss must be benchmarked against comparable operations — unsupported optimism overstates Reserves",
+    "source": "JORC Code 2012, Clause 29, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-035",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A mining company has a geologist CP (Reserve) sign the Ore Reserve statement and a separate geologist CP (Resource) sign the Mineral Resource statement. A peer reviewer notices that neither CP has mining engineering or metallurgical qualifications. What is the compliance concern?",
+    "options": {
+      "A": "No concern — any CP can sign any statement as long as they are AusIMM members",
+      "B": "The Resource CP does not need mining engineering expertise, but the Reserve CP must have relevant experience in the Modifying Factors applied, which typically requires mining engineering, metallurgical, or economic expertise — not just geological competence",
+      "C": "Both CPs must be mining engineers",
+      "D": "The company needs a third CP for metallurgy only"
+    },
+    "correct": "B",
+    "explanation": "Clause 11 requires the CP to have relevant experience in the style of mineralisation and type of deposit AND in the activity for which they are taking responsibility. For Ore Reserves, the 'activity' includes application of Modifying Factors — mining, processing, metallurgical, infrastructure, and economic assessment. A geologist may be competent for Resource estimation but may lack the mining engineering, metallurgical, or economic evaluation expertise needed for Reserve estimation. The Reserve CP should have demonstrable experience in mine planning, economic analysis, and Modifying Factor assessment. In practice, Reserve CPs are often mining engineers or have multidisciplinary teams supporting them.",
+    "key_concept": "Reserve CP needs Modifying Factor competence (mining, processing, economics) — different skill set from Resource CP",
+    "source": "JORC Code 2012, Clauses 11-12",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-036",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Under JORC, what level of study is the MINIMUM requirement to support an Ore Reserve declaration?",
+    "options": {
+      "A": "Scoping Study (order-of-magnitude)",
+      "B": "Pre-Feasibility Study at minimum, though a Feasibility Study provides higher confidence",
+      "C": "Feasibility Study (Bankable) only — no Reserve can be declared at Pre-Feasibility level",
+      "D": "No study is required if the CP has sufficient experience"
+    },
+    "correct": "B",
+    "explanation": "Clause 29 states that appropriate assessments and studies must be carried out to a Pre-Feasibility Study or Feasibility Study level to convert Resources to Reserves. A Pre-Feasibility Study (PFS) is the minimum — it establishes that extraction is technically achievable and economically viable at a level of detail sufficient for Reserve declaration. However, a PFS carries more uncertainty than a Definitive Feasibility Study (DFS), which may influence Reserve classification (e.g., Probable rather than Proved). A Scoping Study is insufficient because its accuracy (typically +/- 35-50%) does not provide the confidence needed for Reserve status.",
+    "key_concept": "Pre-Feasibility Study is the minimum for Reserves; Feasibility Study provides higher confidence",
+    "source": "JORC Code 2012, Clause 29",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-037",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "An operating mine reports Ore Reserves annually. In Year 3, production depleted 2 Mt of Reserve, but the Reserve statement shows a 5 Mt increase from Year 2. What is the most likely explanation?",
+    "options": {
+      "A": "An accounting error — Reserves should always decrease by the amount mined",
+      "B": "The increase reflects a combination of factors: additional drilling upgrading Resources to Reserves, updated commodity price assumptions, mine plan optimisation, or revised Modifying Factors, which more than offset the 2 Mt depletion",
+      "C": "The CP inflated the Reserve to meet market expectations",
+      "D": "Production does not affect Reserve statements"
+    },
+    "correct": "B",
+    "explanation": "Annual Reserve changes result from multiple factors: depletion (mining), additions (new drilling, Resource upgrades, acquisitions), price assumption changes, mine plan optimisation, and Modifying Factor revisions. A net increase despite depletion is legitimate when additions exceed mining. The JORC Code (Clauses 27, 34) requires transparent reconciliation of year-on-year changes, disclosing each factor's contribution. Best practice is a Reserve 'waterfall' chart showing: opening balance, depletion, new drilling, price changes, design changes, and closing balance. Without this breakdown, investors cannot assess whether the increase is genuine or due to assumption changes.",
+    "key_concept": "Annual Reserve changes must be reconciled: depletion, additions, price changes, and design revisions all contribute",
+    "source": "JORC Code 2012, Clauses 27, 34, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-038",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A mining company has 5 Mt of low-grade stockpiled ore on surface that was mined in previous years but not processed. Under JORC, this stockpile material:",
+    "options": {
+      "A": "Cannot be included in an Ore Reserve statement because it has already been mined",
+      "B": "May be included in the Ore Reserve if it meets the definition — the material is available for processing and has been demonstrated to be economically extractable after applying relevant Modifying Factors",
+      "C": "Must be classified as an Inferred Resource",
+      "D": "Should be reported as waste material since it was not processed when mined"
+    },
+    "correct": "B",
+    "explanation": "Stockpiled material that has been mined and is available for processing may be included in an Ore Reserve statement if it satisfies the Reserve definition under Clause 29. The key requirements are: (1) the material has been adequately sampled and its grade characterised (Resource confidence), (2) processing testwork confirms economic recovery, and (3) the material can be re-handled and processed at a profit. The CP must assess the stockpile's grade, tonnage, rehandling costs, and processing economics. Table 1 Section 4 specifically includes stockpiles as a matter for Reserve reporting. Stockpiles should be reported separately from in-situ Reserves for transparency.",
+    "key_concept": "Stockpiles may be included in Reserves if sampled, characterised, and demonstrated to be economic — report separately",
+    "source": "JORC Code 2012, Clause 29, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-039",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "Company A holds a 40% joint venture interest in a mining project. When reporting Ore Reserves, Company A should:",
+    "options": {
+      "A": "Report 100% of the project's Reserve since it is a joint venture partner",
+      "B": "Report only its 40% attributable share of the Reserve",
+      "C": "Report 100% of the Reserve with a clear statement of its percentage interest, or alternatively report its attributable share — but the basis must be clearly disclosed",
+      "D": "Not report any Reserve because it is a minority partner"
+    },
+    "correct": "C",
+    "explanation": "The JORC Code (Clause 35) requires that when reporting Reserves for joint ventures, the company must clearly disclose the basis of reporting. Two acceptable approaches exist: (1) report 100% of the project Reserve with a clear statement of the company's percentage interest, or (2) report only the attributable share. The critical requirement is transparency — investors must be able to determine both the total project Reserve and the reporting entity's interest. Reporting 100% without disclosing the JV interest would be misleading and breach the Transparency principle. Many companies report both the 100% figure and their attributable share for clarity.",
+    "key_concept": "JV Reserves: report 100% with interest disclosed, or attributable share — transparency is mandatory",
+    "source": "JORC Code 2012, Clauses 34-35",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-040",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "When estimating Ore Reserves for a coal deposit, which Modifying Factor consideration is MOST specific to coal (compared to metallic mineral deposits)?",
+    "options": {
+      "A": "Mining dilution",
+      "B": "Coal quality parameters such as ash content, volatile matter, moisture, sulphur, calorific value, and washability characteristics that determine product specification and marketability",
+      "C": "Commodity price assumptions",
+      "D": "Environmental approval requirements"
+    },
+    "correct": "B",
+    "explanation": "While all Modifying Factors apply to coal, coal quality parameters are uniquely critical and coal-specific. Unlike metals where grade (% or g/t) is the primary quality measure, coal Reserves require assessment of multiple interrelated quality parameters: raw and product ash content, volatile matter, fixed carbon, moisture (inherent and total), sulphur content, calorific value (energy content), Hardgrove Grindability Index, and crucially, washability data that determines the yield of saleable product at different ash levels. The processing Modifying Factor for coal centres on the washplant yield curve — what percentage of ROM coal can be upgraded to saleable product at target quality specifications. This multi-parameter quality framework makes coal Reserve estimation distinct from metallic deposits.",
+    "key_concept": "Coal Reserves depend on multi-parameter quality (ash, CV, moisture, sulphur, washability) — not just grade",
+    "source": "JORC Code 2012, Clause 29, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-041",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A polymetallic deposit produces copper as the primary product and molybdenum as a by-product. When estimating the Ore Reserve, the CP should treat by-product revenue by:",
+    "options": {
+      "A": "Ignoring by-product revenue — only the primary metal determines Reserve viability",
+      "B": "Including by-product revenue as a credit in the economic model, which may lower the effective cut-off grade and increase the Reserve tonnage",
+      "C": "Reporting separate Reserves for each metal",
+      "D": "Only including by-product revenue if it exceeds 50% of primary metal revenue"
+    },
+    "correct": "B",
+    "explanation": "By-product revenue is a legitimate component of the economic Modifying Factor assessment. The CP should include by-product credits (molybdenum, gold, silver, etc.) in the cash flow model, which reduces the net cost per unit of primary metal produced. This effectively lowers the economic cut-off grade for the primary metal, potentially increasing the Reserve tonnage. However, the CP must use defensible by-product price assumptions and recovery estimates. Table 1 Section 4 requires disclosure of how by-product credits are treated. The Reserve is reported as a single integrated estimate, not separate Reserves per metal, though contained metal for each element should be reported.",
+    "key_concept": "By-product credits lower effective cut-off grade and may increase Reserve — must use defensible price assumptions",
+    "source": "JORC Code 2012, Clause 29, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-042",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A company holds a mining licence that is conditional upon completing a final Environmental Impact Statement (EIS) and receiving ministerial approval. The EIS has been submitted but not yet approved. Can the CP declare an Ore Reserve?",
+    "options": {
+      "A": "Yes — the legal Modifying Factor is satisfied because the licence has been granted",
+      "B": "No — an Ore Reserve can never be declared until all permits are final and unconditional",
+      "C": "The CP must assess the likelihood of approval; a Reserve may be declared if there are reasonable grounds to expect the conditions will be satisfied, but the conditionality must be disclosed as a material risk",
+      "D": "The Reserve should be declared at 50% of the estimated tonnage to reflect permit uncertainty"
+    },
+    "correct": "C",
+    "explanation": "The JORC Code does not require all permits to be final before a Reserve is declared, but the legal and governmental Modifying Factors require the CP to assess the likelihood of obtaining necessary approvals. If the CP has reasonable grounds to believe the EIS will be approved (based on the project's environmental management plan, government feedback, precedent, and compliance with requirements), a Reserve may be declared. However, the Transparency principle (Clause 4) requires clear disclosure of the conditional status and the risk that approval may not be granted. If approval is uncertain or unlikely, the Reserve must be reduced or removed for the affected portions.",
+    "key_concept": "Conditional permits allow Reserve declaration if approval is reasonably expected — but conditionality must be disclosed",
+    "source": "JORC Code 2012, Clauses 4, 29, Table 1 Section 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-043",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A CP is asked to consider climate change and ESG factors in a Reserve assessment for a coal mine with a 25-year life. Which approach is most consistent with JORC principles?",
+    "options": {
+      "A": "Climate and ESG factors are outside the scope of the JORC Code and should be ignored",
+      "B": "The CP should assess long-term demand risk for thermal coal, carbon pricing scenarios, physical climate risks (flooding, water scarcity), and evolving regulatory requirements as part of the economic, environmental, and governmental Modifying Factors",
+      "C": "The CP should apply a blanket 30% reduction to coal Reserves for climate risk",
+      "D": "ESG factors only apply to investor relations, not technical Reserve estimates"
+    },
+    "correct": "B",
+    "explanation": "While the JORC Code 2012 does not explicitly mention 'ESG' or 'climate change,' its Modifying Factor framework is broad enough to encompass these risks. For a 25-year coal mine: the economic Modifying Factor should consider long-term thermal coal demand and carbon pricing; the environmental Modifying Factor should address physical climate risks (increased flood frequency, water scarcity) and tightening emission regulations; and the governmental Modifying Factor should assess the risk of policy changes restricting coal mining or exports. The Materiality principle (Clause 5) requires that any information reasonably expected to influence investment decisions be disclosed — and climate/ESG risks clearly meet this threshold for a long-life coal asset.",
+    "key_concept": "Climate/ESG risks fit within existing Modifying Factors — economic (demand/carbon price), environmental (physical risk), governmental (policy)",
+    "source": "JORC Code 2012, Clauses 4, 5, 29",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-06-044",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A company discovers a small satellite deposit 15 km from its existing processing plant. The satellite deposit has Indicated Resources but no standalone economic viability. The CP proposes to include it in the Ore Reserve by trucking ore to the existing plant. Under JORC, this is:",
+    "options": {
+      "A": "Not permitted — each deposit must be economically viable on a standalone basis",
+      "B": "Permitted if the combined economics (including satellite haulage costs) demonstrate the satellite material is economically mineable when processed through existing infrastructure, and the CP documents this in the Modifying Factor assessment",
+      "C": "Only permitted if the satellite deposit also has Measured Resources",
+      "D": "Permitted without restriction since the company owns both deposits"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code does not require each deposit to be independently viable. Satellite deposits that leverage existing infrastructure (processing plant, tailings dam, workforce) can be included in Ore Reserves if the incremental economics are positive. The CP must demonstrate that the satellite ore, after accounting for additional haulage costs, mining costs, and any blending considerations, generates positive cash flow when processed through the existing plant. The infrastructure Modifying Factor assessment should include haulage distance, road construction, fleet requirements, and the impact on plant throughput and recovery. This integrated approach is common in mining and consistent with JORC, provided it is transparently documented.",
+    "key_concept": "Satellite deposits can be Reserves if incrementally economic using existing infrastructure — standalone viability not required",
+    "source": "JORC Code 2012, Clause 29, Table 1 Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-06-045",
+    "chapterId": "jorc-06",
+    "domain": "jorc",
+    "question": "A large copper project has a staged development plan: Stage 1 (Years 1-5) processes oxide ore via heap leach, Stage 2 (Years 6-20) processes sulphide ore via a concentrator requiring $2 billion additional capital. The CP proposes to declare Reserves for both stages. Under JORC, what is the key requirement?",
+    "options": {
+      "A": "Only Stage 1 Reserves can be declared because Stage 2 capital has not been committed",
+      "B": "Both stages may be included in the Reserve if the overall project economics (including Stage 2 capital) are positive and the CP has reasonable grounds to expect Stage 2 will proceed, but each stage's assumptions and economics must be transparently disclosed",
+      "C": "Stage 2 must be reported as a Resource only until the concentrator is under construction",
+      "D": "Staged development is not permitted under JORC — all Reserves must be based on a single-phase mine plan"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code does not prohibit staged development Reserves, and many large projects are developed in phases. The CP may declare Reserves for both stages provided: (1) a Pre-Feasibility or Feasibility Study covers both stages, (2) the integrated project economics demonstrate viability, (3) there are reasonable grounds to expect Stage 2 development will proceed (considering financing, market conditions, and corporate commitment), and (4) the assumptions for each stage are transparently disclosed under Table 1. The CP should disclose that Stage 2 is contingent on future capital investment and may present a sensitivity analysis showing the impact of Stage 2 delay or cancellation. Capital commitment is not a prerequisite for Reserve declaration, but the economic and technical feasibility must be demonstrated.",
+    "key_concept": "Staged development Reserves are permitted if each stage is studied to PFS/FS level and integrated economics are positive",
+    "source": "JORC Code 2012, Clause 29, Table 1 Section 4",
+    "difficulty": 3
   }
 ]

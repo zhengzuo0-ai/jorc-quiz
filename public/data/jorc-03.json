@@ -474,5 +474,294 @@
     "key_concept": "The Resource-to-Reserve arrow represents application of Modifying Factors",
     "source": "JORC Code 2012, Figure 1, Clause 28",
     "difficulty": 1
+  },
+  {
+    "id": "jorc-03-029",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A copper deposit previously classified as Measured Resource is re-drilled with infill holes that reveal unexpected structural complexity and grade variability. The Competent Person should:",
+    "options": {
+      "A": "Retain the Measured classification because the data density has actually increased",
+      "B": "Downgrade some or all of the material to Indicated or Inferred, reflecting reduced confidence in geological and grade continuity",
+      "C": "Remove the material from the Resource entirely since continuity has been disproven",
+      "D": "Maintain Measured status but add a cautionary footnote"
+    },
+    "correct": "B",
+    "explanation": "New drilling data that reveals unexpected geological complexity or grade variability can reduce confidence in continuity, warranting a downgrade from Measured to Indicated or even Inferred. Clause 24 requires that Measured Resources have geological and grade continuity 'confirmed' — if new data undermines that confirmation, the classification must be revised downward. More data does not always mean higher confidence; it can expose previously unrecognised complexity. The CP has an obligation to reflect current geological understanding, not maintain historical classifications.",
+    "key_concept": "New negative data can downgrade Resources — more drilling does not always increase confidence",
+    "source": "JORC Code 2012, Clauses 23-24",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-03-030",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "Infill drilling on a nickel sulphide deposit returns several holes with significantly lower grades than predicted by the existing Indicated Resource model. The CP should:",
+    "options": {
+      "A": "Exclude the new low-grade holes as outliers to preserve the existing estimate",
+      "B": "Incorporate all new data, re-estimate the resource, and potentially downgrade affected blocks to Inferred where continuity can no longer be reasonably assumed",
+      "C": "Wait until additional drilling is completed before making any changes",
+      "D": "Maintain the Indicated classification but lower the reported grade"
+    },
+    "correct": "B",
+    "explanation": "All valid data must be incorporated into resource estimates — selectively excluding unfavourable results would violate the principle of transparency (Clause 4) and the requirement for Mineral Resources to reflect the best available data. If new drilling shows that geological and grade continuity cannot be 'reasonably assumed' as required by Clause 23, the affected portion must be downgraded to Inferred. Simply adjusting the grade while retaining the Indicated classification would misrepresent the confidence level in the estimate.",
+    "key_concept": "Negative drill results must be incorporated and may trigger classification downgrades",
+    "source": "JORC Code 2012, Clauses 4, 22-23",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-031",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A junior explorer reports an 'Exploration Target of 50-100 Mt at 0.5-1.0% Cu' for an early-stage project. Under JORC, which of the following statements MUST accompany this disclosure?",
+    "options": {
+      "A": "A Table 1 report with all Section 1-3 criteria addressed",
+      "B": "A statement that the Exploration Target is not a Mineral Resource and that it is conceptual in nature with insufficient exploration to estimate a Mineral Resource",
+      "C": "A Competent Person's consent form lodged with the ASX",
+      "D": "An independent audit confirming the tonnage and grade ranges"
+    },
+    "correct": "B",
+    "explanation": "Clause 17 requires that any Exploration Target disclosure must include a cautionary statement that the potential quantity and grade is conceptual in nature, that there has been insufficient exploration to estimate a Mineral Resource, and that it is uncertain if further exploration will result in the estimation of a Mineral Resource. The ranges must be stated as ranges (not single figures), and the basis for the ranges must be disclosed. This prevents investors from confusing Exploration Targets with the more rigorous Mineral Resource classifications.",
+    "key_concept": "Exploration Targets must carry a mandatory cautionary statement — they are NOT Resources",
+    "source": "JORC Code 2012, Clause 17",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-032",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A gold mine has a run-of-mine stockpile of 2 Mt at 1.2 g/t Au that has been surveyed and sampled. Under JORC, this stockpile material can be:",
+    "options": {
+      "A": "Reported only as Ore Reserve since it has already been mined",
+      "B": "Classified as a Mineral Resource (typically Measured or Indicated) if it satisfies the reasonable prospects test and has been adequately characterised",
+      "C": "Not reported under JORC because it is no longer 'in or on the Earth's crust'",
+      "D": "Reported as an Exploration Target only"
+    },
+    "correct": "B",
+    "explanation": "Stockpile material can be classified as a Mineral Resource provided it meets the definition requirements. Since stockpiles have been mined and are on surface, they can be physically surveyed and sampled, often supporting Measured or Indicated confidence. The material must still satisfy the 'reasonable prospects for eventual economic extraction' test under Clause 20. The CP must consider factors such as re-handling costs, residual grade, metallurgical characteristics, and whether the stockpile will actually be processed. Stockpiles are commonly reported in operating mine resource statements.",
+    "key_concept": "Stockpiles can be classified as Mineral Resources if adequately characterised and economically viable",
+    "source": "JORC Code 2012, Clause 20; Table 1 Section 3",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-033",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A mining company is evaluating whether historical tailings storage facility (TSF) material can be reported as a Mineral Resource. The CP should consider which of the following as the MOST critical factor?",
+    "options": {
+      "A": "Whether the tailings are older than 20 years",
+      "B": "Whether reasonable prospects for eventual economic extraction exist, considering reprocessing costs, residual grades, metallurgical amenability, and environmental/regulatory constraints",
+      "C": "Whether the original mine had a JORC-compliant resource estimate",
+      "D": "Whether the tailings dam has been independently audited for structural stability"
+    },
+    "correct": "B",
+    "explanation": "Like any Mineral Resource, tailings must satisfy the 'reasonable prospects for eventual economic extraction' test (Clause 20). The CP must evaluate whether the residual grade is sufficient, whether metallurgical reprocessing is technically feasible, whether the costs of re-mining and reprocessing are economic, and whether environmental and regulatory approvals for reprocessing are achievable. Structural stability of the TSF is a relevant safety consideration but is not the primary JORC classification criterion. The age of the tailings and whether the original mine had JORC resources are not determinative.",
+    "key_concept": "Tailings can be Resources if they pass the reasonable prospects test including reprocessing viability",
+    "source": "JORC Code 2012, Clause 20; Table 1 Sections 1-3",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-03-034",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "Gold prices fall 40% from the level used in the most recent resource estimate. The Competent Person should:",
+    "options": {
+      "A": "Automatically reclassify all Ore Reserves as Mineral Resources",
+      "B": "Re-evaluate whether Mineral Resources still satisfy the 'reasonable prospects for eventual economic extraction' test, and whether Ore Reserves remain economic under revised commodity price assumptions",
+      "C": "Take no action because resource classification is based on geological confidence, not commodity prices",
+      "D": "Suspend all resource and reserve reporting until prices recover"
+    },
+    "correct": "B",
+    "explanation": "While Mineral Resource classification is primarily geological, the 'reasonable prospects for eventual economic extraction' test (Clause 20) has an economic component. A major price decline may cause marginal-grade material to fail this test, requiring removal from the Resource. For Ore Reserves, the impact is more direct — Reserves must be economic under the assumptions used (Clause 28), so a 40% price drop would likely reduce Reserve tonnages significantly. The CP must exercise judgement about long-term price assumptions rather than reacting mechanically to spot prices.",
+    "key_concept": "Commodity price changes affect both Resources (reasonable prospects test) and Reserves (economic viability)",
+    "source": "JORC Code 2012, Clauses 20, 28-29",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-035",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A company reports Mineral Resources EXCLUSIVE of Ore Reserves. The total Resource is 80 Mt and Ore Reserve is 50 Mt. What is the total project mineral inventory?",
+    "options": {
+      "A": "80 Mt",
+      "B": "130 Mt",
+      "C": "50 Mt",
+      "D": "Cannot be determined from the information given"
+    },
+    "correct": "B",
+    "explanation": "When Resources are reported exclusive of Reserves, the two figures represent different material — the 80 Mt Resource is additional to the 50 Mt Reserve, giving a total mineral inventory of 130 Mt. This contrasts with inclusive reporting where the Resource figure already contains the Reserve tonnage. Clause 25 requires companies to clearly state the reporting convention used. Misunderstanding this distinction is one of the most common errors investors make when evaluating mineral project inventories. Always check whether reporting is inclusive or exclusive before adding figures.",
+    "key_concept": "Exclusive reporting: Resource + Reserve = total inventory; Inclusive: Resource IS the total",
+    "source": "JORC Code 2012, Clause 25",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-036",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A polymetallic deposit contains zinc, lead, silver, and copper. The Competent Person is estimating Mineral Resources. Which approach to classification is MOST appropriate under JORC?",
+    "options": {
+      "A": "Classify based on the primary commodity only and ignore secondary elements",
+      "B": "Classify each element independently — the deposit may have Measured zinc but Inferred copper in the same block",
+      "C": "Apply classification based on the element with the lowest confidence across all reported elements, or use a composite approach that reflects overall geological confidence in the block",
+      "D": "Average the confidence levels across all elements to determine a single classification"
+    },
+    "correct": "C",
+    "explanation": "For multi-element deposits, classification should reflect the overall confidence in the reported estimate. If grade continuity for one significant element is poorly understood while another is well-constrained, the CP must consider whether the block's classification should be governed by the least-confident element or a holistic assessment. In practice, many CPs adopt a conservative approach where the classification reflects the weakest significant element, since reporting a block as Measured for all metals when one metal's grade continuity is only Inferred would be misleading. The CP must document their approach in Table 1.",
+    "key_concept": "Multi-element classification must reflect confidence across all significant reported elements",
+    "source": "JORC Code 2012, Clauses 22-24; Table 1 Section 3",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-03-037",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A company extracts a 10,000-tonne bulk sample from an alluvial diamond deposit for grade estimation purposes. Can the bulk-sampled area be classified as Measured Resource?",
+    "options": {
+      "A": "Yes — bulk sampling always provides Measured-level confidence",
+      "B": "Only if the bulk sample results, combined with other data, confirm geological and grade continuity with a high level of confidence as required by Clause 24",
+      "C": "No — bulk sampling is classified as Exploration Results, not Resources",
+      "D": "Only if the bulk sample exceeds 50,000 tonnes"
+    },
+    "correct": "B",
+    "explanation": "Bulk sampling can contribute to Resource classification at any level, but the classification depends on whether the results, combined with other geological data, meet the confidence requirements of the relevant category. For Measured (Clause 24), geological and grade continuity must be confirmed. In alluvial/placer deposits, where grade is often highly variable, bulk sampling helps reduce uncertainty but must be assessed together with geological understanding of the deposit. A single bulk sample in one location does not automatically confirm continuity across the deposit. The CP must evaluate the representativeness and spatial coverage of all data.",
+    "key_concept": "Bulk sampling contributes to classification but does not automatically confer Measured status",
+    "source": "JORC Code 2012, Clauses 22-24; Table 1 Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-038",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "Coal resource classification under JORC differs from metallic mineral classification primarily because:",
+    "options": {
+      "A": "Coal does not use the Inferred/Indicated/Measured framework",
+      "B": "Coal classification relies more heavily on seam correlation and continuity, with quality parameters (ash, moisture, energy, sulphur) alongside tonnage considerations",
+      "C": "Coal resources do not require a Competent Person",
+      "D": "Coal resources cannot be converted to Ore Reserves"
+    },
+    "correct": "B",
+    "explanation": "While coal uses the same Inferred/Indicated/Measured framework as metals, the practical application differs significantly. Coal classification emphasises seam identification, correlation between boreholes, seam thickness continuity, and coal quality parameters (ash content, volatile matter, moisture, sulphur, calorific value) rather than metallic grade. Geological confidence in coal depends heavily on the ability to correlate seams across the deposit. The same JORC classification principles apply (Clauses 22-24), but Table 1 Section 3 requires reporting of coal-specific quality parameters. Coal Reserves are termed 'Coal Reserves' rather than 'Ore Reserves.'",
+    "key_concept": "Coal classification uses the same JORC framework but emphasises seam continuity and quality parameters",
+    "source": "JORC Code 2012, Clauses 22-24; Table 1 Section 3; ASX Listing Rules Chapter 5",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-039",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A gold Inferred Resource is estimated at 12.7 Mt at 1.83 g/t for 747 koz contained gold. What is the MOST appropriate way to report these figures?",
+    "options": {
+      "A": "Report exactly as calculated — 12.7 Mt at 1.83 g/t for 747 koz",
+      "B": "Round to reflect the low confidence: approximately 13 Mt at 1.8 g/t for approximately 750 koz, with a statement acknowledging Inferred uncertainty",
+      "C": "Round heavily to 10 Mt at 2 g/t for 700 koz to show the estimate is uncertain",
+      "D": "Report only tonnage and grade — contained metal should never be reported for Inferred Resources"
+    },
+    "correct": "B",
+    "explanation": "The precision of reported figures should reflect the underlying confidence of the estimate. Reporting an Inferred Resource to three significant figures (747 koz) implies a spurious precision that the Inferred category does not support. JORC recommends that reported figures be rounded to appropriately reflect the order of accuracy of the estimate (Clause 25). For Inferred Resources, moderate rounding (e.g., to 2-3 significant figures for tonnage, 2 for grade) is appropriate. Excessive rounding (to 1 significant figure) may lose useful information, while insufficient rounding overstates confidence.",
+    "key_concept": "Reported precision should match classification confidence — avoid spurious precision for Inferred Resources",
+    "source": "JORC Code 2012, Clause 25",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-040",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A uranium deposit's Mineral Resource was estimated when U3O8 was US$80/lb. The price has since fallen to US$25/lb and shows no signs of recovery. The deposit is deep, narrow, and remote. The CP should:",
+    "options": {
+      "A": "Maintain the Resource and wait for prices to recover",
+      "B": "Downgrade the Resource from Measured to Indicated to reflect economic uncertainty",
+      "C": "Consider removing the Resource entirely if the material no longer satisfies the 'reasonable prospects for eventual economic extraction' test under Clause 20",
+      "D": "Convert the Resource to an Exploration Target"
+    },
+    "correct": "C",
+    "explanation": "If material no longer has reasonable prospects for eventual economic extraction (Clause 20), it should not be reported as a Mineral Resource regardless of geological confidence. A deep, narrow, remote uranium deposit at US$25/lb with no recovery in sight may fail this test. The CP must exercise judgement about long-term commodity outlook, but if there is no reasonable basis for expecting prices to recover to levels that would make the deposit viable, the Resource should be removed. Note that economic concerns do not change geological classification (Measured/Indicated/Inferred) — they affect whether the material qualifies as a Resource at all.",
+    "key_concept": "Resources must be removed entirely if they fail the reasonable prospects for economic extraction test",
+    "source": "JORC Code 2012, Clause 20",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-03-041",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A porphyry copper deposit has a well-defined high-grade core surrounded by a diffuse, lower-grade halo. Drill spacing is 50m x 50m in the core and 200m x 200m in the halo. Near the boundary between the two geological domains, the CP should:",
+    "options": {
+      "A": "Apply the higher classification from the core domain across the boundary",
+      "B": "Apply a single classification across the entire deposit based on average drill spacing",
+      "C": "Classify each domain independently based on its own data density and geological characteristics, with particular care at boundaries where confidence transitions",
+      "D": "Leave a buffer zone around the boundary with no classification"
+    },
+    "correct": "C",
+    "explanation": "Resource classification should respect geological domain boundaries. Different domains may have different geological characteristics, grade variability, and data density, warranting different classifications. The core with 50m spacing may support Indicated or Measured, while the halo at 200m spacing may only support Inferred. At boundaries, the CP must exercise particular care — the transition from one domain to another often involves changes in mineralisation style, grade continuity, and data confidence. Simply extending a high-confidence classification across a domain boundary without supporting data would violate Clauses 22-24.",
+    "key_concept": "Classification must respect geological domains — do not extend confidence across domain boundaries",
+    "source": "JORC Code 2012, Clauses 22-24; Table 1 Section 3",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-03-042",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A resource geologist uses kriging variance (or conditional simulation) to support resource classification boundaries. Under JORC, this geostatistical approach is:",
+    "options": {
+      "A": "Mandatory for all resource estimates",
+      "B": "One valid tool among several that can support classification decisions, but the CP must also consider geological factors and not rely solely on statistical measures",
+      "C": "Not permitted — classification must be based purely on drill spacing",
+      "D": "Only acceptable for gold deposits due to their high nugget effect"
+    },
+    "correct": "B",
+    "explanation": "Geostatistical measures such as kriging variance, slope of regression, or conditional simulation can provide useful quantitative support for classification decisions. However, JORC does not mandate any specific classification method. The CP should consider multiple factors: data spacing and distribution, geological complexity, grade continuity and variability, estimation quality metrics, and overall geological confidence. A purely statistical classification that ignores geological reality (e.g., classifying material as Measured solely because kriging variance is low, despite geological uncertainty) would not meet the intent of the Code. The CP's geological judgement remains paramount.",
+    "key_concept": "Geostatistics support classification but geological judgement remains the primary driver",
+    "source": "JORC Code 2012, Clauses 22-24; Table 1 Section 3",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-03-043",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A company acquires a project with a historical estimate of '5 Mt at 3% Zn' prepared in 1985 under no recognised reporting code. Under JORC, this historical estimate:",
+    "options": {
+      "A": "Can be directly reported as a JORC Mineral Resource",
+      "B": "Cannot be reported at all under any circumstances",
+      "C": "Can be reported as a 'Historical Estimate' with specific qualifying statements, but cannot be classified as a JORC Mineral Resource until verified by a Competent Person",
+      "D": "Must be inflated by 20% to account for historical underestimation practices"
+    },
+    "correct": "C",
+    "explanation": "ASX Listing Rule 5.12 and JORC guidance allow reporting of historical (foreign or pre-JORC) estimates provided they are clearly identified as historical, the source and date are disclosed, the reporting standard (if any) is stated, the relevance of the estimate is discussed, and a CP comments on the reliability and whether the estimate can be verified. The historical estimate must NOT be described as a Mineral Resource or Ore Reserve. To achieve JORC classification, the CP would need to verify the data, estimation methodology, and parameters, and potentially re-estimate the resource using current standards.",
+    "key_concept": "Historical estimates can be reported with qualifications but are not JORC Resources until verified",
+    "source": "JORC Code 2012, Clause 18; ASX Listing Rule 5.12",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-044",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "Two Competent Persons disagree on whether a portion of a deposit should be classified as Indicated or Measured. Under JORC, the final classification decision rests with:",
+    "options": {
+      "A": "The company's board of directors",
+      "B": "An independent auditor appointed by the ASX",
+      "C": "The Competent Person who takes responsibility for the resource estimate and signs the public report",
+      "D": "A majority vote of all geologists who worked on the project"
+    },
+    "correct": "C",
+    "explanation": "Under Clause 11, the Competent Person who takes responsibility for the Mineral Resource estimate has the final say on classification. Classification is fundamentally a matter of professional judgement, and the CP who signs the report bears personal and professional responsibility for that judgement. While the CP should consider input from colleagues and may consult with other experts, the decision and accountability rest with the named CP. If a company disagrees with the CP's classification, it cannot override the CP — it can only engage a different CP who may reach a different professional conclusion.",
+    "key_concept": "The named Competent Person has final authority and responsibility for classification decisions",
+    "source": "JORC Code 2012, Clauses 11-12",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-03-045",
+    "chapterId": "jorc-03",
+    "domain": "jorc",
+    "question": "A company dual-listed on the ASX and the Hong Kong Stock Exchange (HKEX) wants to report JORC-compliant Mineral Resources in Hong Kong. Under HKEX rules, JORC is:",
+    "options": {
+      "A": "Not recognised — HKEX has its own completely separate mineral reporting code",
+      "B": "One of several CRIRSCO-aligned codes accepted by the HKEX for mineral reporting, alongside CIM, SAMREC, and others",
+      "C": "The only code accepted by HKEX",
+      "D": "Accepted only for Australian-domiciled companies"
+    },
+    "correct": "B",
+    "explanation": "The HKEX accepts mineral resource and reserve reports prepared under CRIRSCO-aligned reporting codes including JORC, CIM (NI 43-101), SAMREC, SME, and PERC. This reflects the international recognition of CRIRSCO-aligned frameworks and facilitates cross-border listings. Companies reporting under JORC on the HKEX must still comply with HKEX-specific disclosure requirements, which may include additional information beyond JORC's Table 1. The key principle is that CRIRSCO alignment provides the technical framework for classification, while each exchange may impose additional listing rule requirements for disclosure and governance.",
+    "key_concept": "JORC is internationally accepted via CRIRSCO alignment — many exchanges recognise CRIRSCO-family codes",
+    "source": "JORC Code 2012, Clause 8; CRIRSCO International Reporting Template; HKEX Chapter 18",
+    "difficulty": 2
   }
 ]

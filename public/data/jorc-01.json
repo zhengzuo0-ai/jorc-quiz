@@ -474,5 +474,294 @@
     "key_concept": "Promotional language in reports undermines Transparency by overstating certainty",
     "source": "JORC Code 2012, Clauses 4, 19",
     "difficulty": 3
+  },
+  {
+    "id": "jorc-01-029",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A Competent Person employed by a mining company is asked to sign off on a resource estimate for a deposit in which the CP holds 50,000 shares of the company. Under Clause 11, what should the CP do?",
+    "options": {
+      "A": "Refuse to act as CP because any shareholding is an absolute disqualification",
+      "B": "Proceed but disclose the nature and extent of the shareholding in the Public Report so readers can assess potential bias",
+      "C": "Proceed without disclosure because employee share ownership is normal in the mining industry",
+      "D": "Transfer the shares to a family member before signing the report"
+    },
+    "correct": "B",
+    "explanation": "Clause 11 does not prohibit a CP from having a financial interest in the company, but it requires full disclosure of any relationship that could be perceived as a conflict of interest. The key is transparency about the potential conflict so that readers can assess whether the CP's judgement may be influenced. Transferring shares to a family member would be deceptive and would not remove the actual conflict. The JORC Code recognises that many CPs are company employees with share-based compensation, but demands disclosure rather than prohibition.",
+    "key_concept": "CP conflicts of interest require disclosure, not automatic disqualification",
+    "source": "JORC Code 2012, Clause 11",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-030",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A polymetallic deposit requires expertise in both geology and metallurgy for a Public Report covering Mineral Resources and Ore Reserves. Under the JORC Code, how should Competent Person responsibilities be handled?",
+    "options": {
+      "A": "A single CP must take responsibility for the entire report to ensure consistency",
+      "B": "Multiple CPs can be appointed, each taking responsibility for the sections relevant to their area of expertise",
+      "C": "The company's Chief Geologist is automatically the CP for all sections",
+      "D": "An external consulting firm must be appointed as the sole CP"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code explicitly allows multiple Competent Persons for a single Public Report, with each CP taking responsibility for the specific sections within their area of competence (Clause 11). For a polymetallic deposit, one CP might cover geological interpretation and resource estimation while another covers metallurgical assumptions and reserve conversion. Each CP must be named and must consent to the form and context of their respective sections. This ensures the Competence principle is genuinely satisfied across all technical disciplines.",
+    "key_concept": "Multiple CPs can share responsibility, each covering their area of expertise",
+    "source": "JORC Code 2012, Clauses 9, 11",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-031",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A company's investor presentation includes the statement: 'Based on our exploration success, we anticipate defining a resource of 2-3 million ounces of gold within 12 months.' Under the JORC Code, this forward-looking statement is:",
+    "options": {
+      "A": "Acceptable because it uses the word 'anticipate' rather than 'confirm'",
+      "B": "Problematic because it quantifies a potential future resource without the data or CP sign-off to support such a specific estimate, and may mislead investors",
+      "C": "Acceptable as long as it is in an investor presentation rather than an ASX announcement",
+      "D": "Only problematic if the company fails to define the resource within 12 months"
+    },
+    "correct": "B",
+    "explanation": "Forward-looking statements that quantify potential future resources can be misleading if they lack a proper technical basis. Under JORC, any statement about potential quantity and grade of mineralisation that does not meet the requirements for an Exploration Target (Clause 17) or a formal Mineral Resource risks misleading investors. The specificity of '2-3 million ounces' implies a level of technical certainty that exploration results alone cannot support. Both the Transparency and Materiality principles require that such statements be properly qualified and supported by competent technical work.",
+    "key_concept": "Forward-looking resource statements must meet Exploration Target or Resource requirements",
+    "source": "JORC Code 2012, Clauses 4, 5, 17",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-01-032",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A company discovers that 15% of its drill samples from a gold exploration programme returned grades below the detection limit. The CP must decide whether to include this information in the Public Report. Under the Materiality principle, the correct approach is:",
+    "options": {
+      "A": "Omit the below-detection-limit results because they add no value to the resource estimate",
+      "B": "Include the information because the proportion of barren or low-grade holes is material to a reasonable investor's understanding of the deposit's continuity and grade distribution",
+      "C": "Report only if the proportion exceeds 25% of total samples",
+      "D": "Mention it only in Table 1 footnotes where investors rarely look"
+    },
+    "correct": "B",
+    "explanation": "The Materiality principle (Clause 5) requires reporting all information a reasonable investor would need for a balanced judgement. Below-detection-limit results are directly relevant to understanding mineralisation continuity, grade variability, and overall deposit character. Omitting them would present a misleadingly positive picture. Clause 19 specifically warns against selective reporting of exploration results. Even when results are negative, they inform the investor about what the deposit is NOT, which is just as important as what it is.",
+    "key_concept": "Negative or low-grade results are material and must not be selectively omitted",
+    "source": "JORC Code 2012, Clauses 5, 19",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-033",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A Competent Person signed off on an ASX announcement two days ago. The announcement has been published, but the CP now realises that a significant data error was included. Under the JORC Code, what should the CP do?",
+    "options": {
+      "A": "Nothing — once published, the CP's obligation is discharged",
+      "B": "Quietly correct the error in the next quarterly report",
+      "C": "Immediately notify the company and recommend prompt correction or withdrawal of the report, as the published information is misleading",
+      "D": "Wait for the ASX to identify the error during routine review"
+    },
+    "correct": "C",
+    "explanation": "The CP's obligation to the Transparency and Materiality principles does not end at publication. If a CP discovers that a published report contains a material error, they have a professional and ethical obligation to notify the company immediately and recommend corrective action. Under ASX Listing Rule 3.1, the company has a continuous disclosure obligation to correct misleading information. The CP should consider withdrawing consent to the report if the company refuses to act. Delay or concealment compounds the original breach.",
+    "key_concept": "CP obligations continue after publication — errors require prompt correction",
+    "source": "JORC Code 2012, Clauses 4, 9, 11; ASX Listing Rule 3.1",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-01-034",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "An ASX-listed Australian company acquires a project in Mongolia where prior exploration was conducted under Russian geological standards. The company wishes to report the Mongolian project's results on ASX. What is required?",
+    "options": {
+      "A": "The Russian-standard resource estimate can be reported directly since JORC recognises all foreign codes",
+      "B": "The results must be re-evaluated and reported in compliance with the JORC Code by a Competent Person, with appropriate disclosure of data limitations from the legacy data",
+      "C": "Only a disclaimer noting the original reporting standard is required",
+      "D": "The company must wait until all legacy data is re-drilled and verified before making any report"
+    },
+    "correct": "B",
+    "explanation": "For ASX reporting, the JORC Code must be applied regardless of where the deposit is located or what standards were used historically. Legacy data from non-CRIRSCO-aligned codes (such as Russian GKZ classifications) cannot be directly reported as JORC-compliant. A Competent Person must evaluate the underlying data, assess its reliability and applicability to JORC categories, and apply appropriate caveats. Table 1 requires disclosure of data quality issues, including limitations of historical data. The CP need not re-drill everything but must transparently address data quality concerns.",
+    "key_concept": "Foreign legacy data must be re-evaluated under JORC by a CP for ASX reporting",
+    "source": "JORC Code 2012, Clauses 1, 4, 11; Table 1",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-01-035",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A securities regulator investigates a mining company for a misleading resource announcement. The company argues it complied with the JORC Code. Which statement best describes the relationship between JORC compliance and securities law?",
+    "options": {
+      "A": "JORC compliance is a complete defence against securities law claims for misleading disclosure",
+      "B": "JORC compliance is relevant but not necessarily a complete defence — securities law imposes additional obligations that may go beyond JORC requirements",
+      "C": "Securities law does not apply to mineral resource disclosures; only JORC applies",
+      "D": "JORC and securities law are entirely separate regimes with no overlap"
+    },
+    "correct": "B",
+    "explanation": "JORC compliance is an important element of a company's disclosure obligations but does not provide automatic immunity from securities law liability. The Corporations Act and ASX Listing Rules impose continuous disclosure obligations, misleading and deceptive conduct prohibitions, and prospectus disclosure requirements that may extend beyond JORC's scope. A report could technically comply with JORC's minimum requirements while still being misleading in the broader legal sense if, for example, commercial context or risk factors are omitted. JORC itself acknowledges in its foreword that the Code supplements rather than replaces legal requirements.",
+    "key_concept": "JORC compliance supplements but does not replace securities law obligations",
+    "source": "JORC Code 2012, Foreword; Corporations Act 2001 (Cth) s674, s1041H",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-01-036",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "Table 1 of the JORC Code uses an 'if not, why not' framework. What is the primary purpose of this approach?",
+    "options": {
+      "A": "To reduce the CP's workload by allowing them to skip irrelevant sections",
+      "B": "To create a transparency mechanism where the CP must either provide the requested information or explain why it is not available or not applicable, ensuring nothing is silently omitted",
+      "C": "To provide a legal safe harbour for companies that cannot afford comprehensive reporting",
+      "D": "To standardise report length across all mining companies"
+    },
+    "correct": "B",
+    "explanation": "The 'if not, why not' framework in Table 1 is a powerful transparency mechanism. For each checklist item, the CP must either provide the requested information or explicitly explain why it has not been provided. This prevents silent omission — a reader can immediately identify what information is missing and understand the reason. It shifts the burden from the reader (who might not know what to look for) to the CP (who must actively justify any gaps). This directly serves the Transparency principle by making omissions visible and accountable.",
+    "key_concept": "Table 1's 'if not why not' makes omissions visible and requires justification",
+    "source": "JORC Code 2012, Table 1; Clause 4",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-037",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A company's CEO gives a television interview and states: 'Our drilling has confirmed at least 500,000 ounces of gold at our tenement.' No ASX announcement or CP-attributed report has been released. Under the JORC Code, at what point does this become a Public Report?",
+    "options": {
+      "A": "It is not a Public Report because it was spoken rather than written",
+      "B": "It becomes a Public Report only when the ASX is formally notified",
+      "C": "It is effectively a Public Report the moment it is broadcast to the investing public, and should have been JORC-compliant before being made",
+      "D": "It is only a Public Report if the CEO is also a Competent Person"
+    },
+    "correct": "C",
+    "explanation": "Under Clause 9, a Public Report is any report prepared for informing investors or potential investors. The definition is not limited to written documents — a televised statement about mineral quantities that reaches the investing public functions as a Public Report. The CEO's statement quantifies gold ounces without CP attribution, Table 1 disclosure, or proper caveats, violating Transparency and Competence principles. The company should have issued a JORC-compliant ASX announcement before or simultaneously with any public statement of this nature.",
+    "key_concept": "Public Reports include any medium that communicates mineral information to investors",
+    "source": "JORC Code 2012, Clauses 1, 9",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-038",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A CP employed by a mid-tier gold company is instructed by the Managing Director to 'make the numbers work' to support a resource upgrade needed for a financing round. The CP believes the data does not support the upgrade. Under the JORC Code, the CP's primary obligation is to:",
+    "options": {
+      "A": "Follow the MD's instructions because the employer has legitimate business reasons",
+      "B": "Negotiate a compromise resource figure between the CP's estimate and the MD's target",
+      "C": "Maintain professional independence by reporting the resource that the data supports, and refuse to sign a report the CP believes is not a fair representation of the technical work",
+      "D": "Resign immediately without engaging further on the matter"
+    },
+    "correct": "C",
+    "explanation": "The Competence principle exists precisely to protect against commercial pressure overriding technical integrity. Under Clause 11, the CP must have relevant experience and exercise professional judgement. Under Clause 9, the CP must consent to the form and context of the report. If the data does not support the upgrade, the CP must not sign off on inflated numbers regardless of employer pressure. The CP's obligation is to investors and the integrity of the market, not to corporate financing needs. Negotiating a compromise figure that splits the difference between data and desire has no technical basis and would violate the Code.",
+    "key_concept": "CP independence from employer pressure is fundamental to the Competence principle",
+    "source": "JORC Code 2012, Clauses 9, 11",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-039",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A company reports an 'Exploration Target' of 10-20 Mt at 0.5-1.0% copper. Under JORC Clause 17, which of the following statements MUST accompany this disclosure?",
+    "options": {
+      "A": "The name and qualifications of the Competent Person who estimated the target",
+      "B": "A cautionary statement that the potential quantity and grade is conceptual in nature, that there has been insufficient exploration to estimate a Mineral Resource, and that it is uncertain if further exploration will result in the estimation of a Mineral Resource",
+      "C": "A bankable feasibility study confirming economic viability",
+      "D": "A minimum of 20 drill holes supporting the estimate"
+    },
+    "correct": "B",
+    "explanation": "Clause 17 requires that any Exploration Target statement must include the mandated cautionary language: that the potential quantity and grade is conceptual in nature, insufficient exploration has been done to estimate a Mineral Resource, and it is uncertain whether further exploration will lead to a Mineral Resource being estimated. This is a critical Transparency requirement distinguishing an Exploration Target (speculative) from a Mineral Resource (which has reasonable prospects of economic extraction). The statement must express ranges for both tonnage and grade and must not be reported in a way that could be mistaken for a Resource.",
+    "key_concept": "Exploration Targets require mandatory cautionary statements under Clause 17",
+    "source": "JORC Code 2012, Clause 17",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-040",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A company reported an Indicated Mineral Resource of 50 Mt at 2.0 g/t gold three years ago. No new work has been done on the deposit since. The company continues to include this estimate in its annual reports. Under JORC, what obligation exists regarding previously reported estimates?",
+    "options": {
+      "A": "No obligation — once reported, a JORC estimate is valid indefinitely",
+      "B": "The company should annually review the estimate to determine if it remains a fair representation given any changed circumstances, and disclose the date of the original estimate",
+      "C": "The estimate must be formally re-estimated by a new CP every two years",
+      "D": "The estimate automatically downgrades to Inferred after three years without new data"
+    },
+    "correct": "B",
+    "explanation": "While the JORC Code does not mandate automatic expiry of resource estimates, Clause 15 and ASX Listing Rule 5.8 require that companies annually review their reported Mineral Resources and Ore Reserves. The review should confirm the estimates remain valid in light of any changed assumptions (commodity prices, costs, mining methods, legislative changes, or new technical data). If circumstances have materially changed, the company must update or qualify the estimate. Simply republishing stale estimates without review may violate the Materiality principle if conditions have changed materially.",
+    "key_concept": "Previously reported estimates require annual review for continued validity",
+    "source": "JORC Code 2012, Clause 15; ASX Listing Rule 5.8",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-041",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A company's infill drilling programme reveals that a previously reported Indicated Resource zone has lower grades and less geological continuity than originally estimated. The CP determines the data no longer supports an Indicated classification. What is the correct course of action?",
+    "options": {
+      "A": "Maintain the Indicated classification until the next scheduled annual review",
+      "B": "Downgrade the affected portion to Inferred, reduce the overall Resource, and promptly disclose the material change to the market",
+      "C": "Average the old and new data to maintain the Indicated classification at a lower grade",
+      "D": "Delay reporting until additional drilling might recover the grades"
+    },
+    "correct": "B",
+    "explanation": "When new data demonstrates that a previously reported resource classification is no longer supported, the CP must act on the current data. Both the Competence and Materiality principles require honest reassessment. The affected portion should be downgraded to the classification the data supports (in this case, Inferred or possibly removed entirely). Under continuous disclosure obligations, a material reduction in a reported Resource must be promptly disclosed to the market. Delaying or averaging to preserve a classification that data no longer supports violates the Transparency and Materiality principles and could constitute misleading disclosure.",
+    "key_concept": "Resources must be downgraded when new data no longer supports the classification",
+    "source": "JORC Code 2012, Clauses 4, 5, 20-25; ASX Listing Rule 3.1",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-01-042",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "An ASX-listed company commissions an independent consulting firm to prepare a technical report on its flagship project. The consulting firm's report is then attached to an ASX announcement. Under JORC, who bears Competent Person responsibility?",
+    "options": {
+      "A": "The consulting firm as an entity, because it prepared the report",
+      "B": "The named individual Competent Person(s) within the consulting firm who sign the report and consent to its inclusion",
+      "C": "The company's board of directors exclusively, because they commissioned the report",
+      "D": "The ASX compliance team who approved the announcement"
+    },
+    "correct": "B",
+    "explanation": "Under the JORC Code, Competent Person responsibility always rests with named individuals, never with firms or companies as entities (Clause 11). When a consulting firm prepares a report, the specific individual(s) who qualify as CPs must be named, must consent to the form and context in which the report appears in the ASX announcement (Clause 9), and must accept personal professional responsibility. The consulting firm may have contractual liability, but JORC compliance attaches to the named CP. This ensures that a real person with real professional accountability stands behind every Public Report.",
+    "key_concept": "CP responsibility attaches to named individuals, not firms or entities",
+    "source": "JORC Code 2012, Clauses 9, 11",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-043",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A mining company posts a short video on its social media showing visible gold in drill core, captioned 'Bonanza grades — stay tuned for assay results!' The post receives widespread attention from retail investors. Under JORC, this social media post is:",
+    "options": {
+      "A": "Acceptable because it does not contain any numerical data or resource estimates",
+      "B": "Outside JORC's scope because social media is not a regulated disclosure channel",
+      "C": "Problematic because it is a communication to investors about exploration results that uses promotional language, lacks CP attribution, and may create a misleading impression before assay confirmation",
+      "D": "Acceptable as long as the company also plans to release a JORC-compliant announcement later"
+    },
+    "correct": "C",
+    "explanation": "JORC's definition of a Public Report (Clause 9) encompasses any communication to investors about Exploration Results, regardless of the platform. A social media post showing visible gold with 'bonanza grades' language is designed to reach and influence investors. It lacks CP consent, uses promotional language that may mislead (visible gold does not always correlate with high assay grades), and creates expectations before results are verified. The Transparency principle requires that investor-facing communications be supported by proper data and not be misleading. The timing of a subsequent compliant announcement does not retrospectively cure the misleading social media post.",
+    "key_concept": "Social media posts about mineral results must comply with JORC if they reach investors",
+    "source": "JORC Code 2012, Clauses 1, 4, 9, 19",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-044",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A copper-gold project has significant silver and molybdenum by-product credits that substantially improve the project's economics. The company's Public Report discusses only the copper and gold grades. Under JORC's Materiality principle, this approach is:",
+    "options": {
+      "A": "Acceptable because copper and gold are the primary commodities",
+      "B": "Deficient because by-product credits that materially affect project economics are information a reasonable investor would need, and their omission could create a misleading picture of the deposit's value",
+      "C": "Acceptable as long as the by-products are mentioned in the Ore Reserve (not the Resource) report",
+      "D": "Only required if the by-products contribute more than 50% of revenue"
+    },
+    "correct": "B",
+    "explanation": "The Materiality principle (Clause 5) requires inclusion of all information that a reasonable investor would need for a balanced judgement. If by-product credits materially affect project economics — whether positively or negatively — they must be disclosed. There is no threshold percentage below which material by-products can be ignored. For a copper-gold project where silver and molybdenum meaningfully improve NPV or reduce net costs, omitting these credits misrepresents the project's economic character. Table 1 requires disclosure of all elements with material impact on the deposit's value.",
+    "key_concept": "Material by-product credits must be reported if they affect project economics",
+    "source": "JORC Code 2012, Clause 5; Table 1 Sections 1, 3",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-01-045",
+    "chapterId": "jorc-01",
+    "domain": "jorc",
+    "question": "A Competent Person consented to a Public Report six months ago. The company now wishes to reissue the same report in a new investor presentation with additional promotional commentary and modified graphics added by the marketing team. Under the JORC Code, the original CP consent:",
+    "options": {
+      "A": "Covers any future use of the report since the CP already signed off on the underlying data",
+      "B": "Does not extend to the modified version — the CP must review and consent to the new form and context before it can be published as a JORC-compliant report",
+      "C": "Is automatically valid for 12 months from the original date of consent",
+      "D": "Only needs to be renewed if the underlying resource estimate has changed"
+    },
+    "correct": "B",
+    "explanation": "Under Clause 9, the Competent Person must consent to the form and context in which their work appears in each Public Report. Consent is specific to a particular document in a particular form — it does not grant blanket permission for future modified versions. If the marketing team adds promotional commentary or modifies graphics, the CP must review the new version to ensure it still fairly represents their technical work and does not mislead. Modified graphics could change geological interpretations, and promotional commentary could overstate certainty. The CP's consent is a living safeguard, not a one-time rubber stamp.",
+    "key_concept": "CP consent is specific to the form and context of each individual report",
+    "source": "JORC Code 2012, Clauses 4, 9",
+    "difficulty": 3
   }
 ]

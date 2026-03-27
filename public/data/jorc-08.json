@@ -474,5 +474,294 @@
     "key_concept": "Sample composite length must match mineralisation width to avoid internal dilution",
     "source": "JORC Code 2012, Table 1 Section 1",
     "difficulty": 3
+  },
+  {
+    "id": "jorc-08-029",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A diamond drill hole deviates significantly from planned orientation at depth. Under Table 1, which downhole survey method provides the MOST reliable measurement of hole azimuth and inclination in a magnetically challenging environment (e.g., massive magnetite)?",
+    "options": {
+      "A": "Single-shot Eastman camera",
+      "B": "Electronic multi-shot magnetic tool (e.g., Reflex EZ-Shot)",
+      "C": "North-seeking gyroscopic tool (e.g., Reflex Gyro Sprint or Axis Mining Gyro)",
+      "D": "No survey is required if the hole was collared at the correct orientation"
+    },
+    "correct": "C",
+    "explanation": "In magnetically challenging environments such as massive magnetite or banded iron formation (BIF) deposits, magnetic-based survey tools produce unreliable azimuth readings because the local magnetic field is distorted by the rock mass. North-seeking gyroscopic tools determine true north using the Earth's rotation rather than its magnetic field, making them immune to magnetic interference. Table 1 requires disclosure of downhole survey methods, their accuracy, and any limitations. Using magnetic tools in magnetic rocks without disclosure is a significant data quality issue that can result in drill holes being incorrectly plotted in 3D space, directly affecting the geological model.",
+    "key_concept": "Gyroscopic surveys are essential in magnetic rocks — magnetic tools give unreliable azimuth readings",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-08-030",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "Core orientation is performed on diamond drill core to determine the true spatial position of structural features. Which of the following BEST describes why core orientation is important for Resource estimation?",
+    "options": {
+      "A": "It increases core recovery percentage",
+      "B": "It allows the geologist to determine the true dip and strike of mineralisation controls (veins, faults, contacts), enabling correct geological domain interpretation and appropriate drill hole spacing design",
+      "C": "It reduces drilling costs by allowing shorter holes",
+      "D": "It is only needed for geotechnical studies, not Resource estimation"
+    },
+    "correct": "B",
+    "explanation": "Core orientation (using tools such as Reflex ACT III, Ori-Mark, or the Ballmark system) marks a known reference line on the core, allowing structural measurements (dip direction and dip angle) of planar features like veins, faults, and lithological contacts to be converted from core-relative angles to true spatial orientations. This is critical for understanding the geometry of mineralisation controls, designing optimal drill hole orientations, and building accurate geological domain models. Without orientation data, structural interpretations rely on assumptions that may introduce significant error into the Resource estimate. Table 1 requires reporting on core orientation methods where used.",
+    "key_concept": "Core orientation reveals true geometry of structures controlling mineralisation",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-031",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A CP needs to determine bulk density for a porous, vesicular basalt-hosted copper deposit. Which measurement method is MOST appropriate?",
+    "options": {
+      "A": "Water immersion method on unwaxed core",
+      "B": "Water immersion method on wax-coated core (or caliper-measured volume for regular shapes)",
+      "C": "Assumed density values from published literature",
+      "D": "Downhole gamma-gamma density logging only"
+    },
+    "correct": "B",
+    "explanation": "For porous or vesicular rocks, unwaxed water immersion underestimates volume (water enters pores, reducing apparent displaced volume) and therefore overestimates density. Wax-coating the core seals the pores so the immersion method measures the true bulk volume including voids. Alternatively, caliper measurement of regular core pieces provides direct volume. Using assumed values from literature is not acceptable for Resource estimation — Table 1 requires actual measurements. Downhole gamma-gamma logging provides useful continuous data but should be calibrated against physical measurements. The CP must disclose the method used and its appropriateness for the rock type.",
+    "key_concept": "Porous rocks require wax-coated immersion to prevent water infiltration and density overestimation",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-032",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "According to Gy's sampling theory, the fundamental sampling error is primarily controlled by:",
+    "options": {
+      "A": "The colour of the mineral grains",
+      "B": "The maximum particle size of the material being sampled relative to the mass of the sample taken — larger particles and smaller sample masses increase the error",
+      "C": "The temperature at which the sample is dried",
+      "D": "The brand of sample bags used"
+    },
+    "correct": "B",
+    "explanation": "Pierre Gy's Theory of Sampling demonstrates that the fundamental sampling error (FSE) is proportional to the cube of the maximum particle diameter (d³) and inversely proportional to the sample mass (Ms). The relationship is approximately: FSE² = Cd³/Ms, where C is a mineralogical constant incorporating liberation factor, shape factor, size range factor, and density/grade contrast. This means that reducing particle size (by crushing) dramatically reduces FSE, while increasing sample mass also reduces FSE. Table 1 requires that sample sizes be assessed for appropriateness relative to the grain size of the mineralisation — this is the practical application of Gy's theory.",
+    "key_concept": "Gy's theory: sampling error scales with particle size³ and inversely with sample mass",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-08-033",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A CP must decide between half-core and quarter-core sampling for a diamond drilling program in a narrow vein gold deposit. The primary advantage of half-core over quarter-core sampling is:",
+    "options": {
+      "A": "Half-core is cheaper to prepare",
+      "B": "Half-core provides a larger, more representative sample mass and retains the other half as a permanent reference — quarter-core should only be used when a second assay split is required from a limited core diameter",
+      "C": "Quarter-core always provides more accurate results",
+      "D": "There is no practical difference between half-core and quarter-core"
+    },
+    "correct": "B",
+    "explanation": "Half-core sampling provides twice the sample mass of quarter-core, improving representativity (per Gy's theory, larger mass reduces fundamental sampling error). The retained half serves as a permanent reference for re-logging, verification assays, and metallurgical testwork. Quarter-core sampling halves the available mass and introduces additional splitting error. It should only be used when a second independent assay split is needed (e.g., for umpire analysis) and the core diameter is too small to provide adequate mass from a sixth of the core. For narrow vein gold deposits where the nugget effect is a concern, maximising sample mass through half-core sampling is preferred. Table 1 requires disclosure of sampling method and sample sizes.",
+    "key_concept": "Half-core preferred for mass and representativity; quarter-core only when second split is essential",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-034",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "An RC drilling program encounters the water table at 40m depth. Below this level, samples become visibly wet and sticky. Under Table 1, the CP should be concerned because:",
+    "options": {
+      "A": "Wet RC samples are always higher grade than dry samples",
+      "B": "Water ingress causes fine particles (which may carry disproportionate grade) to be lost in the cyclone and sample collection system, potentially introducing a systematic grade bias — sample recovery and quality must be monitored and reported",
+      "C": "Wet samples cannot be assayed by any method",
+      "D": "The water table depth is not a Table 1 reporting item"
+    },
+    "correct": "B",
+    "explanation": "When RC drilling penetrates the water table, groundwater mixes with the drill cuttings. Wet samples tend to stick in the cyclone and sample collection system, causing preferential loss of fine particles. In many deposits, fine particles carry higher grades than coarse particles (particularly for disseminated mineralisation), so this loss introduces a negative grade bias. Additionally, wet samples may not split representatively. The CP must: monitor sample recovery (by weighing each metre), note the water table depth, compare sample weights and grades above vs. below the water table, and consider using auxiliary compressors or converting to diamond drilling at depth. This is a required Table 1 disclosure.",
+    "key_concept": "Wet RC samples lose fines in cyclone, causing potential negative grade bias below water table",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-035",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "For a base metal exploration program (Cu-Zn-Pb), a CP is selecting between AAS (Atomic Absorption Spectrophotometry), ICP-MS (Inductively Coupled Plasma Mass Spectrometry), and handheld XRF. Which statement is MOST accurate?",
+    "options": {
+      "A": "Handheld XRF is suitable as the primary assay method for Resource estimation",
+      "B": "AAS is a single-element technique providing good precision for major elements; ICP-MS provides multi-element data at very low detection limits; handheld XRF is useful for screening but not as a primary Resource-grade analytical method",
+      "C": "ICP-MS cannot detect copper or zinc",
+      "D": "All three methods are interchangeable with identical precision and accuracy"
+    },
+    "correct": "B",
+    "explanation": "AAS analyses one element at a time with good precision and accuracy for major and minor elements — it is a well-established method for base metals. ICP-MS provides simultaneous multi-element analysis at parts-per-billion detection limits, making it excellent for trace elements and pathfinder geochemistry. Handheld (portable) XRF provides rapid semi-quantitative field results useful for geological logging and target prioritisation, but it lacks the precision, accuracy, and sample preparation rigour required for Resource estimation. Table 1 requires disclosure of analytical methods and their appropriateness. A CP should understand the strengths and limitations of each technique when selecting methods for different project stages.",
+    "key_concept": "AAS = single-element precision; ICP-MS = multi-element trace sensitivity; pXRF = screening only",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-036",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A CP analysing a gold-copper porphyry deposit requests multi-element ICP-MS analysis in addition to fire assay for gold. The primary reason for requesting multi-element data is:",
+    "options": {
+      "A": "To increase the assay cost and demonstrate thoroughness",
+      "B": "To identify pathfinder element halos (e.g., As, Mo, Bi, Te) that may extend beyond the ore zone, aid geological domain interpretation, and detect potential deleterious elements (e.g., As, Hg) that affect processing and environmental management",
+      "C": "Multi-element analysis is a regulatory requirement for all deposits",
+      "D": "ICP-MS replaces the need for fire assay for gold"
+    },
+    "correct": "B",
+    "explanation": "Multi-element geochemistry in porphyry systems identifies pathfinder element halos that reflect hydrothermal zonation (e.g., Mo in the core, As-Sb on the periphery). These halos assist with geological domain interpretation and vectoring toward higher-grade zones. Additionally, multi-element data identifies deleterious elements (arsenic, mercury, fluorine) that may affect ore processing, concentrate quality, and environmental compliance. ICP-MS does not replace fire assay for gold — fire assay remains the industry standard for gold due to its complete decomposition of the sample. Table 1 requires reporting of all analytical methods used and the elements analysed.",
+    "key_concept": "Multi-element analysis identifies pathfinder halos, domain controls, and deleterious elements",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-037",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "For iron ore (Fe) Resource estimation, the most common primary analytical method is:",
+    "options": {
+      "A": "Fire assay with AAS finish",
+      "B": "X-Ray Fluorescence (XRF) on fused glass discs, providing whole-rock major oxide analysis including Fe₂O₃, SiO₂, Al₂O₃, P, LOI, and other penalty elements",
+      "C": "ICP-MS after aqua regia digestion",
+      "D": "Gravimetric analysis only"
+    },
+    "correct": "B",
+    "explanation": "Iron ore characterisation requires whole-rock major element analysis because the value and processing characteristics depend on the complete chemical composition — not just iron grade. XRF on fused glass discs (borate fusion) is the industry standard, providing accurate analysis of Fe₂O₃, SiO₂, Al₂O₃, MnO, P, S, TiO₂, CaO, MgO, K₂O, Na₂O, and Loss on Ignition (LOI). Penalty elements like P, S, Al₂O₃, and SiO₂ directly affect product pricing and salability. Fire assay is for precious metals; aqua regia ICP-MS provides incomplete dissolution of refractory iron oxides. Table 1 requires that the analytical method be appropriate for the commodity and deposit type.",
+    "key_concept": "Iron ore uses XRF on fused discs for whole-rock analysis including penalty elements",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-038",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A CP is assessing drill hole spacing for classification of a sediment-hosted zinc deposit. Current drilling is on 80m x 80m centres and the CP classifies the Resource as Indicated. An independent reviewer challenges the classification. Under Table 1 and JORC Clause 26, the CP's best justification would include:",
+    "options": {
+      "A": "80m spacing is industry standard for all zinc deposits",
+      "B": "Demonstrated geological and grade continuity at 80m spacing supported by variogram ranges, cross-validation statistics, and consistent geological interpretation between drill holes — the spacing must be sufficient for the specific deposit's geological complexity",
+      "C": "The company cannot afford closer-spaced drilling",
+      "D": "Indicated classification requires only 200m spacing"
+    },
+    "correct": "B",
+    "explanation": "Drill hole spacing for Resource classification is deposit-specific — there is no universal 'correct' spacing. Under JORC Clause 26, an Indicated Resource requires sufficient geological evidence and sampling to assume geological and grade continuity. The CP must demonstrate this through: variogram analysis showing spatial correlation at the drill spacing, cross-validation statistics showing acceptable prediction error, consistent geological interpretation between drill holes, and comparison with analogous deposits. Table 1 requires reporting of drill hole spacing and its relationship to the dimensions and continuity of the mineralised structures. Financial constraints do not justify classification decisions.",
+    "key_concept": "Drill spacing must be justified by demonstrated geological/grade continuity, not arbitrary standards",
+    "source": "JORC Code 2012, Table 1 Section 1, Clause 26",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-08-039",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A twinning program involves drilling new holes within 5-10m of existing historical holes. The primary purpose of a twinning program under Table 1 is to:",
+    "options": {
+      "A": "Double the number of drill holes to improve Resource confidence",
+      "B": "Verify the reliability of historical data by comparing new results (using modern methods and QA/QC) with the historical assays and geological logs at the same location",
+      "C": "Provide samples for metallurgical testing only",
+      "D": "Satisfy regulatory requirements for a minimum number of holes"
+    },
+    "correct": "B",
+    "explanation": "Twinning programs are a critical data verification tool when historical drill data forms a significant proportion of the Resource database. By drilling new holes adjacent to historical holes using current best-practice methods (modern QA/QC, certified laboratory, digital logging), the CP can assess whether historical grades and geological interpretations are reliable. Systematic differences between twin and historical results may indicate historical data quality issues (sampling bias, assay method differences, or poor sample handling). Table 1 requires reporting of data verification methods, and twinning is one of the most robust approaches for validating legacy data.",
+    "key_concept": "Twinning verifies historical data reliability by comparing modern and legacy results at the same location",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-040",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A company acquires a project with historical data from the 1970s including drill logs on paper, assays from a now-closed laboratory, and collar surveys in a local grid system. Under Table 1, the MOST significant challenge for integrating this data is:",
+    "options": {
+      "A": "The data is too old to be useful under any circumstances",
+      "B": "Multiple compounding issues: unverifiable assay quality (no QA/QC), potential transcription errors during digitisation, coordinate transformation uncertainty from local grid to standard datum, and unknown sampling/preparation protocols — all requiring disclosure and risk assessment",
+      "C": "The paper logs will have faded and be unreadable",
+      "D": "Historical data automatically qualifies as Measured Resource"
+    },
+    "correct": "B",
+    "explanation": "Integrating historical data presents multiple simultaneous challenges that compound uncertainty: (1) Assay quality cannot be verified retrospectively if no QA/QC was performed and the laboratory no longer exists; (2) Digitising paper logs introduces transcription errors; (3) Converting from local grid to MGA/WGS84 requires transformation parameters that may be poorly documented; (4) Sampling and preparation protocols may be unknown or different from current standards. The CP must disclose all these limitations, assess the impact on Resource confidence, and may need to downgrade classification of areas relying primarily on historical data. Twinning programs can partially address these concerns.",
+    "key_concept": "Historical data integration requires addressing QA/QC gaps, digitisation errors, datum conversion, and unknown protocols",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-08-041",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A geologist uses a portable XRF (pXRF) device to assay RC chip samples in the field, reporting these as the primary grade data for an Exploration Target announcement. Under Table 1, a reviewer would note that:",
+    "options": {
+      "A": "pXRF results are equivalent to laboratory assays for all elements",
+      "B": "pXRF provides semi-quantitative results affected by sample preparation, moisture, particle size, surface irregularity, and matrix effects — it is not appropriate as the sole primary analytical method for public reporting and must be verified by conventional laboratory assays",
+      "C": "pXRF is only unreliable for gold but acceptable for all other elements",
+      "D": "pXRF results are always higher than laboratory assays"
+    },
+    "correct": "B",
+    "explanation": "Portable XRF is a valuable field tool for rapid screening, geological logging, and target prioritisation. However, it has significant limitations for public reporting: results are affected by sample heterogeneity, moisture content, particle size, surface roughness, and matrix effects (inter-element interference). Accuracy varies by element — lighter elements (e.g., Mg, Al) are poorly measured, while heavier elements (Cu, Zn, Pb) are more reliable but still less accurate than laboratory methods. Table 1 requires disclosure of analytical methods and their limitations. If pXRF data is reported, it must be clearly identified as such, and the CP must explain its limitations and the plan for laboratory verification.",
+    "key_concept": "pXRF is a screening tool only — not a substitute for laboratory assays in public reporting",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-042",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "Under Table 1, sample security during transport from the drill site to the laboratory should include:",
+    "options": {
+      "A": "No special measures are required if the laboratory is nearby",
+      "B": "Documented chain of custody including numbered security seals on sample bags or bulka bags, transport by a trusted courier or company vehicle, sample submission forms listing all sample numbers, and confirmation of receipt by the laboratory",
+      "C": "Only verbal confirmation from the truck driver",
+      "D": "Security measures are only required for gold samples, not base metals"
+    },
+    "correct": "B",
+    "explanation": "Sample security is a critical component of Table 1 reporting regardless of the commodity or distance to the laboratory. Robust procedures include: unique numbered sample bags, tamper-evident security seals on calico bags or bulka bags, a documented dispatch list (sample submission form) recording all sample numbers, transport by a company vehicle or reputable courier service, and written confirmation of receipt from the laboratory listing all samples received. Any discrepancies between dispatched and received samples must be investigated. These procedures prevent sample tampering, substitution, loss, or mix-up — all of which would compromise data integrity.",
+    "key_concept": "Sample security requires seals, dispatch lists, trusted transport, and confirmed laboratory receipt",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-043",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A CP is evaluating acid digestion methods for a lithium pegmatite deposit. Which digestion method provides the MOST complete dissolution of spodumene (LiAlSi₂O₆)?",
+    "options": {
+      "A": "Aqua regia (HCl + HNO₃) — a partial digestion suitable for most applications",
+      "B": "Four-acid digestion (HF + HClO₄ + HNO₃ + HCl) or sodium peroxide fusion — these methods attack silicate minerals that resist weaker acid digestions",
+      "C": "Single-acid HCl digestion",
+      "D": "Cyanide leach (as used for gold)"
+    },
+    "correct": "B",
+    "explanation": "Spodumene is a lithium-bearing pyroxene (silicate mineral) that is highly resistant to partial acid digestions. Aqua regia cannot break down the silicate lattice and will significantly underestimate lithium content. Four-acid digestion (incorporating hydrofluoric acid, which attacks silicates) or sodium peroxide/lithium metaborate fusion provides near-total dissolution. For lithium deposits, the CP must ensure the digestion method achieves total or near-total dissolution of the host minerals. Using aqua regia for silicate-hosted lithium would be a fundamental analytical error. Table 1 requires disclosure of the analytical method and its appropriateness for the mineralogy. Note: lithium metaborate fusion cannot be used for lithium assay as the flux contains lithium.",
+    "key_concept": "Silicate-hosted Li requires 4-acid or fusion digestion — aqua regia gives incomplete dissolution",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-08-044",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "When sampling underground development faces (headings), the MOST important principle for obtaining representative chip or channel samples under Table 1 is:",
+    "options": {
+      "A": "Collect random grab samples from the muck pile",
+      "B": "Cut a continuous channel sample across the full face at a consistent width and depth, perpendicular to the mineralisation orientation, with sample intervals matching the geological domains",
+      "C": "Only sample the visually high-grade portions of the face",
+      "D": "Use the blast hole cuttings as the assay sample"
+    },
+    "correct": "B",
+    "explanation": "Underground face sampling requires systematic continuous channel sampling to be representative. The channel must be cut at a consistent width (typically 5-10cm) and depth (2-3cm) across the full face, oriented perpendicular to the mineralisation strike or dip direction. Sample intervals should correspond to geological boundaries (lithology contacts, vein margins) rather than arbitrary lengths. Grab samples from muck piles are biased by visual selection and blast fragmentation patterns. Blast hole cuttings are contaminated by drilling water and mixed by the drilling process. Selective sampling of high-grade portions violates representativity principles and inflates grade estimates. Table 1 requires disclosure of the sampling method and its appropriateness.",
+    "key_concept": "Underground face sampling requires continuous channels across the full face, perpendicular to mineralisation",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-08-045",
+    "chapterId": "jorc-08",
+    "domain": "jorc",
+    "question": "A modern drill program uses photographic core logging (high-resolution digital photography of all core trays) and digital data capture on field tablets. Under Table 1, the primary benefit of these practices for data verification is:",
+    "options": {
+      "A": "They eliminate the need for a qualified geologist to log the core",
+      "B": "They create a permanent, auditable visual record of all core before sampling (which is destructive), enable remote review by the CP and independent reviewers, reduce transcription errors through direct digital data entry, and support reproducible geological interpretation",
+      "C": "Digital photographs replace the need for physical core storage",
+      "D": "Tablet-based logging is faster, which is the only relevant consideration"
+    },
+    "correct": "B",
+    "explanation": "Photographic logging and digital data capture provide multiple data quality benefits: (1) Permanent visual record — once core is sampled (half-core cut), the full core can never be reconstructed, so photographs preserve the pre-sampling condition for review; (2) Remote verification — the CP and independent reviewers can examine core without site visits; (3) Reduced transcription error — direct digital entry eliminates paper-to-database transcription; (4) Standardised logging — digital templates enforce consistent data capture. Table 1 requires data to be verifiable, and these tools enhance verifiability. However, they do not replace the need for qualified geological interpretation or physical core storage (retained half-core must be stored for future reference and verification assays).",
+    "key_concept": "Digital photography and tablet logging create auditable records, enable remote review, and reduce transcription errors",
+    "source": "JORC Code 2012, Table 1 Section 1",
+    "difficulty": 2
   }
 ]

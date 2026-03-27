@@ -474,5 +474,294 @@
     "key_concept": "Confidence hierarchy: Inferred (lowest) → Indicated → Measured (highest)",
     "source": "JORC Code 2012, Clauses 21-23",
     "difficulty": 1
+  },
+  {
+    "id": "jorc-05-029",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A CP is estimating a Mineral Resource for a large porphyry copper-gold deposit with relatively uniform, disseminated mineralisation over a 1km x 1km footprint. Drill spacing is 100m x 100m. Compared to an orogenic gold deposit with narrow, high-grade veins at the same drill spacing, the porphyry deposit is more likely to support:",
+    "options": {
+      "A": "Lower classification because porphyry deposits always have lower grades",
+      "B": "Higher classification because the disseminated nature means geological and grade continuity is more predictable at 100m spacing",
+      "C": "Identical classification because drill spacing alone determines the category",
+      "D": "No Resource classification because porphyry deposits require 50m spacing as a minimum"
+    },
+    "correct": "B",
+    "explanation": "Under Clause 24, classification depends on the CP's assessment of geological and grade continuity, not drill spacing alone. Disseminated porphyry mineralisation typically shows smoother grade distributions and more predictable geological continuity than narrow vein-hosted orogenic gold systems. At 100m spacing, variography in a porphyry system often shows well-structured variograms with ranges exceeding the drill spacing, supporting Indicated or even Measured classification. In contrast, narrow high-grade gold veins can show extreme grade variability, meaning the same drill spacing may only support Inferred classification. Deposit style is a critical factor in classification decisions.",
+    "key_concept": "Deposit style affects classification — disseminated systems are more predictable than narrow vein systems at equivalent drill spacing",
+    "source": "JORC Code 2012, Clauses 22, 23, 24",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-030",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "An operating mine has extracted 2 Mt from a previously reported 20 Mt Indicated Mineral Resource. When the company next reports its Mineral Resource, the CP should:",
+    "options": {
+      "A": "Report the original 20 Mt with a footnote about mining depletion",
+      "B": "Report the Resource inclusive of Ore Reserves, depleted by the 2 Mt mined, along with any changes from new data, and clearly disclose the basis of the reconciliation",
+      "C": "Report 18 Mt without explanation since depletion is self-evident",
+      "D": "Not report Resources at all once mining has commenced"
+    },
+    "correct": "B",
+    "explanation": "Clause 27 requires that material changes from prior reports be disclosed and explained. Mining depletion is a material change that must be accounted for. The Resource must be reduced by the tonnes mined and, if applicable, updated with any new geological information gained during mining (grade control data, new exposures). The reconciliation between mined tonnes and the resource model should be discussed because it provides evidence of model reliability. Simply subtracting tonnes without explanation, or reporting the original figure, both fail JORC's Transparency requirement (Clause 4).",
+    "key_concept": "Mined tonnes must be depleted from Resources and reconciliation disclosed",
+    "source": "JORC Code 2012, Clauses 4, 27",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-031",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company discovers a hard-rock lithium (spodumene) deposit in a remote location with no processing infrastructure within 500 km. The CP must assess 'reasonable prospects for eventual economic extraction' under Clause 20. Which factor is MOST critical to this assessment?",
+    "options": {
+      "A": "The current spot price of lithium carbonate must exceed the estimated production cost",
+      "B": "The deposit must be within 100 km of existing infrastructure to qualify",
+      "C": "The CP must consider whether the deposit's grade, scale, and the growing demand trajectory for lithium make it plausible that infrastructure could be developed or concentrate transported economically",
+      "D": "Lithium deposits are exempt from the reasonable prospects test due to strategic mineral status"
+    },
+    "correct": "C",
+    "explanation": "Clause 20's 'eventual' qualifier allows consideration of future developments, including infrastructure buildout. For lithium and other battery minerals with strong long-term demand drivers, the CP can consider the likelihood that infrastructure will be developed as the market matures. However, the assessment must remain reasonable — a tiny, low-grade deposit in an inaccessible location with no realistic infrastructure pathway would fail the test regardless of commodity. The CP must document how grade, tonnage, and logistical factors combine to support eventual extraction. No commodity is exempt from this test.",
+    "key_concept": "Reasonable prospects for emerging commodities considers foreseeable demand and infrastructure development, not just current economics",
+    "source": "JORC Code 2012, Clause 20",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-032",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company holds a mining tenement that expires in 18 months with no guarantee of renewal. The CP is asked to report a Mineral Resource on this tenement. Under JORC, the CP should:",
+    "options": {
+      "A": "Refuse to report any Resource because the tenement may expire",
+      "B": "Report the Resource but clearly disclose the tenement status, expiry risk, and any impact on 'reasonable prospects for eventual economic extraction'",
+      "C": "Report only Inferred Resources because the tenure uncertainty limits confidence",
+      "D": "Report the Resource without mentioning tenement status since it is a legal, not geological, matter"
+    },
+    "correct": "B",
+    "explanation": "Tenement status is directly relevant to Clause 20's 'reasonable prospects for eventual economic extraction' test. If a tenement could expire before extraction occurs, the CP must assess and disclose whether renewal is likely (considering the jurisdiction's track record, company compliance, etc.). The CP is not required to refuse reporting — many jurisdictions routinely renew tenements — but the risk must be transparently disclosed. Classification (Measured/Indicated/Inferred) is a geological confidence matter and should not be downgraded solely due to tenure risk, but the reasonable prospects assessment must address it.",
+    "key_concept": "Tenement expiry risk must be disclosed as it affects reasonable prospects, but does not automatically prevent Resource reporting",
+    "source": "JORC Code 2012, Clauses 4, 20; Table 1 Section 3",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-033",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A CP reports a copper Resource at a 0.3% Cu cut-off grade but does not disclose the sensitivity of the Resource to changes in cut-off grade. Under Table 1, Section 3 (Estimation and Reporting of Mineral Resources), this omission is:",
+    "options": {
+      "A": "Acceptable because cut-off grade sensitivity is only required for Ore Reserves",
+      "B": "A material deficiency — Table 1 requires discussion of cut-off grade parameters and, where material, the sensitivity of the Resource to the choice of cut-off",
+      "C": "Acceptable if the CP states the cut-off grade was based on current commodity prices",
+      "D": "Only required if the Resource will be converted to Reserves within 12 months"
+    },
+    "correct": "B",
+    "explanation": "Table 1, Section 3 explicitly requires reporting of the basis for cut-off grades and any material assumptions (commodity price, costs, metallurgical recovery) used to derive them. Where the Resource tonnage and grade are sensitive to the choice of cut-off — which is nearly always the case — this sensitivity should be disclosed, often through a grade-tonnage table at varying cut-offs. Without this disclosure, readers cannot assess how robust the Resource is to changes in economic assumptions. This is a Transparency (Clause 4) and Materiality (Clause 5) issue.",
+    "key_concept": "Cut-off grade basis and sensitivity must be disclosed under Table 1",
+    "source": "JORC Code 2012, Table 1 Section 3; Clauses 4, 5",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-034",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A CP estimates a gold Resource using ordinary kriging but does not report any measure of estimation uncertainty (e.g., kriging efficiency, slope of regression, or confidence intervals). Under JORC's Transparency principle, this approach is:",
+    "options": {
+      "A": "Fully compliant because JORC does not require uncertainty reporting",
+      "B": "Acceptable if the CP verbally communicated uncertainty to the company's board",
+      "C": "Deficient — while JORC does not mandate a specific uncertainty measure, Table 1 requires discussion of estimation methodology, validation, and confidence, which implicitly demands some quantification or communication of estimation uncertainty",
+      "D": "Only a concern if the Resource exceeds 10 Mt"
+    },
+    "correct": "C",
+    "explanation": "Table 1, Section 3 requires reporting on estimation methodology, data validation, and the basis for classification. Classification under Clause 24 inherently involves assessing confidence, which requires the CP to have evaluated estimation uncertainty. While no specific metric is mandated, best practice (and Table 1 expectations) include reporting measures such as kriging neighbourhood analysis, comparison of estimation methods, block model validation, and/or confidence intervals. Failing to address uncertainty in any form undermines the reader's ability to assess the estimate's reliability, violating Clause 4's Transparency principle.",
+    "key_concept": "Estimation uncertainty should be communicated — Table 1 expects discussion of confidence and validation",
+    "source": "JORC Code 2012, Table 1 Section 3; Clauses 4, 24",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-035",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A CP uses inverse distance weighting (IDW) to estimate a polymetallic VMS deposit, despite the deposit showing strong spatial anisotropy and grade trends. A reviewer suggests geostatistical methods (e.g., ordinary kriging) would be more appropriate. Under JORC, which statement is correct?",
+    "options": {
+      "A": "JORC mandates ordinary kriging for all Resource estimates",
+      "B": "IDW is prohibited under the JORC Code",
+      "C": "The JORC Code does not prescribe estimation methods, but the CP must justify the chosen method's appropriateness for the deposit's geology and demonstrate it produces reasonable results through validation",
+      "D": "Deterministic methods like IDW are only permitted for Inferred Resources"
+    },
+    "correct": "C",
+    "explanation": "The JORC Code does not mandate specific estimation methods. However, Table 1, Section 3 requires the CP to describe and justify the estimation methodology. For a deposit with strong anisotropy and grade trends, a method like IDW that does not inherently model spatial correlation or anisotropy may underperform relative to kriging-based methods. The CP must demonstrate through validation (visual comparison, swath plots, global bias checks, comparison with alternative methods) that the chosen method produces reliable results. If validation shows IDW introduces material bias or fails to capture grade trends, the CP has an obligation under Clause 4 to adopt a more appropriate method.",
+    "key_concept": "No method is mandated, but the chosen method must be justified and validated for the deposit's characteristics",
+    "source": "JORC Code 2012, Table 1 Section 3; Clause 4",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-036",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A nickel laterite project reports an in-situ Mineral Resource of 50 Mt at 1.2% Ni. The deposit is amenable to heap leach extraction but metallurgical testwork shows only 60% nickel recovery at pilot scale. Under JORC, how should this recovery information be handled in the Resource report?",
+    "options": {
+      "A": "Metallurgical recovery is only relevant at the Ore Reserve stage and need not be mentioned in the Resource report",
+      "B": "The Resource should be reported as 50 Mt at 0.72% Ni (applying the 60% recovery to the grade)",
+      "C": "The Resource should be reported at in-situ grades (1.2% Ni) but the metallurgical recovery must be disclosed and considered in the 'reasonable prospects' assessment under Clause 20",
+      "D": "The low recovery means no Resource can be declared"
+    },
+    "correct": "C",
+    "explanation": "Mineral Resources are reported at in-situ grades — recovery factors are not applied to Resource grades, as that adjustment occurs at the Ore Reserve stage via Modifying Factors. However, metallurgical recovery is directly relevant to Clause 20's 'reasonable prospects for eventual economic extraction' test. A 60% recovery for heap leach may still be economic depending on operating costs and nickel price, but the CP must consider and disclose this. Table 1, Section 3 also requires discussion of metallurgical factors affecting reasonable prospects. Silently ignoring poor recovery would breach Transparency (Clause 4).",
+    "key_concept": "Resources use in-situ grades, but metallurgical recovery must be disclosed and considered in reasonable prospects",
+    "source": "JORC Code 2012, Clauses 4, 20; Table 1 Section 3",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-037",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company has engaged two Competent Persons: CP-A is responsible for the oxide Resource domain and CP-B for the sulphide domain. Under the JORC Code, how should the Public Report handle this arrangement?",
+    "options": {
+      "A": "Only one CP can sign off on a Resource — the company must choose one",
+      "B": "Both CPs must be named, their respective areas of responsibility clearly stated, and each must consent to the inclusion of their work in the form and context in which it appears",
+      "C": "The company can aggregate both domains and attribute them to a single fictitious CP name",
+      "D": "Multiple CPs are only permitted for Ore Reserves, not Mineral Resources"
+    },
+    "correct": "B",
+    "explanation": "Clause 11 requires that each Competent Person be named and their area of responsibility clearly defined. Where multiple CPs contribute to a Resource estimate, each must consent to the inclusion of their respective work in the report (Clause 9). This ensures accountability — readers can identify which CP is responsible for which portion of the estimate. The arrangement is common in complex deposits where different geological domains require different specialist expertise (e.g., oxide vs sulphide metallurgical characteristics, or different mineralisation styles). Fabricating a single CP name would be a serious breach of the Code.",
+    "key_concept": "Multiple CPs are permitted; each must be named with clearly defined responsibilities and individual consent",
+    "source": "JORC Code 2012, Clauses 9, 11",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-038",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "An operating gold mine has produced 500,000 oz over 5 years. The original Resource model predicted 520,000 oz would be extracted from the mined areas. The reconciliation shows the model overestimated contained gold by approximately 4%. Under JORC, this reconciliation data is MOST relevant to:",
+    "options": {
+      "A": "Nothing — reconciliation is a mining engineering concern, not a Resource reporting issue",
+      "B": "Validating the Resource model and informing the confidence level assigned to remaining Resources, which should be discussed in subsequent Resource reports",
+      "C": "Automatically downgrading all remaining Resources by one category",
+      "D": "Recalling the original CP's professional membership"
+    },
+    "correct": "B",
+    "explanation": "Reconciliation of production data against the resource model is one of the most powerful validation tools available. Table 1, Section 3 explicitly includes reconciliation as a factor to discuss. A 4% overestimation is relatively minor and actually supports confidence in the model's reliability. This data should be reported in subsequent Resource statements as evidence supporting (or questioning) the classification. Systematic biases would require model revision, while good reconciliation can support maintaining or even upgrading classification. There is no automatic category downgrade rule — the CP must exercise judgement (Clause 24).",
+    "key_concept": "Production reconciliation validates the Resource model and informs classification confidence",
+    "source": "JORC Code 2012, Table 1 Section 3; Clause 24",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-039",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A mineral sands deposit in a coastal area can only be drilled during dry season (6 months per year) due to environmental restrictions on nesting bird habitat. The CP has sufficient data to estimate a Resource but cannot conduct planned infill drilling for another 8 months. Under JORC, the CP should:",
+    "options": {
+      "A": "Delay all reporting until infill drilling is complete, regardless of the current data adequacy",
+      "B": "Report the Resource based on current data at the classification level the existing data supports, and disclose the seasonal constraints and planned infill programme in the Table 1 summary",
+      "C": "Report the Resource at a higher classification than the data supports, anticipating the infill results",
+      "D": "Environmental constraints invalidate any Resource reporting on the tenement"
+    },
+    "correct": "B",
+    "explanation": "The JORC Code requires that classification reflect the current state of knowledge, not anticipated future data (Clause 24). If the existing data supports a Resource at a given classification level, the CP should report it. Environmental or seasonal constraints on future work are operational matters that do not prevent reporting but should be disclosed under Table 1 as they may affect the timeline for upgrading confidence. Anticipating infill results to assign a higher classification would violate the Code's requirement that classification reflect actual, not expected, geological confidence.",
+    "key_concept": "Classification reflects current data, not anticipated future drilling — seasonal constraints should be disclosed",
+    "source": "JORC Code 2012, Clauses 4, 24; Table 1",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-040",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A CP is estimating a Mineral Resource for a thermal coal deposit. Compared to a metallic mineral deposit, which additional parameter is MOST important for the CP to report under Table 1?",
+    "options": {
+      "A": "The coal's colour and visual appearance",
+      "B": "Quality parameters such as calorific value, ash content, moisture, sulphur, and volatile matter, as these define the coal's marketability and are equivalent to 'grade' for metals",
+      "C": "The stratigraphic age of the coal seams, since older coal is always more valuable",
+      "D": "Coal Resources do not require Table 1 reporting"
+    },
+    "correct": "B",
+    "explanation": "For coal, 'grade' is replaced by a suite of quality parameters that define marketability: calorific value (energy content), ash, moisture, sulphur, volatile matter, and potentially hardgrove grindability index, ash fusion temperature, and phosphorus content. Table 1, Section 1 requires reporting of relevant quality parameters, and for coal these are critical to the reasonable prospects assessment (Clause 20) because they determine which markets the coal can access. A high-ash, high-sulphur coal may fail environmental regulations in target markets, directly affecting reasonable prospects. The CP must report these parameters with the same rigour as metal grades.",
+    "key_concept": "Coal Resources require quality parameters (CV, ash, moisture, sulphur) as equivalents to metallic grade",
+    "source": "JORC Code 2012, Table 1 Sections 1, 3; Clause 20",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-041",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A Scoping Study for a copper project includes 30 Mt of Inferred Mineral Resources in its mine plan and cash flow model, representing 45% of the project's total feed. Under the JORC Code, this is:",
+    "options": {
+      "A": "A violation — Inferred Resources cannot appear in any economic study",
+      "B": "Permitted for a Scoping Study provided it is clearly stated that Inferred Resources are insufficiently confident to guarantee inclusion, that the study is based on low-level technical and economic assessments, and that there is no certainty that further work will convert Inferred to higher categories",
+      "C": "Permitted without any caveats because Scoping Studies are preliminary",
+      "D": "Only permitted if Inferred Resources represent less than 25% of total feed"
+    },
+    "correct": "B",
+    "explanation": "Clause 38 permits the use of Inferred Resources in production targets within Scoping Studies, but imposes strict disclosure requirements. The report must clearly state that the Inferred Resources are insufficiently confident to guarantee they will be upgraded, that the Scoping Study is based on low-level technical and economic assessments, and include appropriate cautionary language. There is no prescribed percentage limit, but the level of Inferred dependency must be transparent. At Pre-Feasibility and Feasibility level, Inferred Resources must not be the determining factor in project viability (Clause 39).",
+    "key_concept": "Inferred Resources can be used in Scoping Studies with mandatory cautionary statements",
+    "source": "JORC Code 2012, Clauses 38, 39",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-042",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company previously reported a Mineral Resource of 10 Mt at 2.0 g/t Au. New drilling reveals that a fault zone displaces the deposit, materially reducing the Resource to 7 Mt at 1.8 g/t Au. Under the JORC Code, the company must:",
+    "options": {
+      "A": "Wait until the next annual report to disclose the change",
+      "B": "Immediately report the material change, including the reasons for the reduction, and provide an updated Table 1 summary explaining the impact of the newly identified fault",
+      "C": "Only report the change if the stock exchange specifically requests it",
+      "D": "Suppress the negative information until a positive offset (e.g., new discovery) can be announced simultaneously"
+    },
+    "correct": "B",
+    "explanation": "Under Clause 27 and the Transparency principle (Clause 4), material changes to a Mineral Resource must be reported promptly. A 30% tonnage reduction and grade decrease is clearly material. Additionally, ASX Listing Rules require continuous disclosure of material information. The CP and company have an obligation to report negative changes with the same rigour and timeliness as positive ones. The report must explain the geological basis (fault displacement), quantify the impact, and provide updated Table 1 documentation. Delaying or suppressing adverse results would violate both JORC and securities law.",
+    "key_concept": "Material Resource reductions must be reported promptly with full explanation — same rigour as positive changes",
+    "source": "JORC Code 2012, Clauses 4, 5, 27",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-043",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A CP uses conditional simulation to generate 100 realisations of a copper block model. The results show that at the Indicated classification boundary, 90% of simulated realisations fall within plus or minus 15% of the estimated grade. Under Clause 24, conditional simulation results are BEST used for:",
+    "options": {
+      "A": "Replacing the CP's skilled judgement entirely — simulation results define classification",
+      "B": "Informing and supporting the CP's classification decision by quantifying local estimation uncertainty, but not as the sole criterion",
+      "C": "Only validating the global resource tonnage, not classification",
+      "D": "Marketing purposes to demonstrate model accuracy to investors"
+    },
+    "correct": "B",
+    "explanation": "Conditional simulation is a powerful tool for quantifying estimation uncertainty at the block level, which directly informs classification. However, Clause 24 is clear that classification relies on the CP's skilled judgement considering multiple factors — no single tool or criterion should be the sole determinant. Simulation results can strengthen classification arguments (e.g., demonstrating that estimation uncertainty decreases with data density), but the CP must also consider geological interpretation quality, data reliability, domain boundary confidence, and practical mining considerations. Simulation is an input to judgement, not a substitute for it.",
+    "key_concept": "Conditional simulation informs classification but cannot replace the CP's holistic skilled judgement",
+    "source": "JORC Code 2012, Clause 24",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-05-044",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A company wants to report a Mineral Resource for a dimension stone (granite) quarry. Unlike metallic minerals, the key quality factors for dimension stone include block size, colour consistency, and absence of fractures. Under JORC, the CP should:",
+    "options": {
+      "A": "Not report a Resource because JORC only applies to metallic minerals and coal",
+      "B": "Report using standard metal grade fields and convert block size to a numerical 'grade equivalent'",
+      "C": "Apply JORC principles using quality parameters relevant to dimension stone (block size distribution, colour, fracture frequency, recovery factor) in place of traditional grade, and clearly define these parameters in the Table 1 summary",
+      "D": "Use a separate reporting code because industrial minerals are excluded from JORC"
+    },
+    "correct": "C",
+    "explanation": "The JORC Code applies to all solid minerals, including industrial minerals and dimension stone (Clause 1). For dimension stone, traditional 'grade' is replaced by quality parameters that determine marketability: block size and shape, colour consistency, fracture frequency, weathering grade, and likely recovery of saleable blocks from in-situ rock. The CP must define these parameters clearly in the Table 1 summary and explain how they relate to the reasonable prospects assessment (Clause 20). The classification principles (Clauses 21-24) still apply — confidence in geological and quality continuity determines the category, just as for metallic deposits.",
+    "key_concept": "JORC applies to all solid minerals — quality parameters replace grade for industrial minerals like dimension stone",
+    "source": "JORC Code 2012, Clauses 1, 20; Table 1 Sections 1, 3",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-05-045",
+    "chapterId": "jorc-05",
+    "domain": "jorc",
+    "question": "A rare earths deposit has a total rare earth oxide (TREO) grade of 3.5%, but only 0.8% consists of the high-value magnet rare earths (Nd, Pr, Dy, Tb). The CP reports the Resource using only the TREO grade. A reviewer challenges this. Under JORC's Materiality principle (Clause 5), the reviewer's concern is MOST likely that:",
+    "options": {
+      "A": "Rare earth Resources cannot be reported under JORC",
+      "B": "Reporting only TREO is potentially misleading because it obscures the proportion of valuable vs low-value rare earth elements — the individual REO distribution should be disclosed as it materially affects the reasonable prospects assessment",
+      "C": "Only individual element grades can be reported, never total grades",
+      "D": "The TREO grade is too low for a Resource to be declared"
+    },
+    "correct": "B",
+    "explanation": "For rare earth deposits, the economic value is heavily concentrated in a subset of elements (particularly the magnet rare earths Nd, Pr, Dy, Tb). Reporting only TREO creates a misleading impression of value because cerium and lanthanum (often the bulk of TREO) have significantly lower economic value. Under Clause 5 (Materiality), the CP must disclose information that could reasonably affect an investor's assessment. This includes the individual REO distribution, or at minimum a breakdown by value-driving elements versus the total. The reasonable prospects assessment (Clause 20) must also consider whether the valuable elements justify processing given the metallurgical challenges of rare earth separation.",
+    "key_concept": "Rare earth Resources must disclose individual element distribution — TREO alone can be misleading about economic value",
+    "source": "JORC Code 2012, Clauses 5, 20; Table 1 Section 3",
+    "difficulty": 3
   }
 ]
