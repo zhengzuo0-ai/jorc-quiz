@@ -508,5 +508,260 @@
     "key_concept": "Siguiri: Guinea, ~300koz/year, Birimian greenstone, open pit oxide + sulphide",
     "source": "AngloGold Ashanti Siguiri operations",
     "difficulty": 2
+  },
+  {
+    "id": "gold-14-031",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "A junior gold explorer is debating whether to pursue assets across multiple continents or concentrate on a single region. Mark Bristow's Randgold Resources strategy would most likely recommend:",
+    "options": {
+      "A": "Diversify across as many countries as possible to reduce risk",
+      "B": "Focus exclusively on Tier 1 assets in Africa, accepting only deposits that can produce 500,000+ ounces at low cost over long mine lives",
+      "C": "Acquire as many small deposits as possible to build a large resource base",
+      "D": "Avoid Africa entirely due to political risk and focus on developed jurisdictions"
+    },
+    "correct": "B",
+    "explanation": "Mark Bristow built Randgold Resources into Africa's most successful gold company by applying extreme discipline: he refused to develop any deposit that did not meet his Tier 1 criteria (500,000+ oz/year, 10+ year mine life, bottom-half cost curve). This focus on quality over quantity meant Randgold operated fewer mines but generated industry-leading returns. Bristow became an Africa specialist, building deep relationships with governments in Mali, Côte d'Ivoire, and the DRC. His strategy proved so successful that Barrick acquired Randgold in 2019 and appointed Bristow as CEO of the combined company.",
+    "key_concept": "Bristow's Randgold: Tier 1 only, Africa specialist, quality over quantity",
+    "source": "Randgold Resources / Mark Bristow strategy",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-14-032",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "In the mid-1980s, Peter Munk acquired the Goldstrike property on Nevada's Carlin Trend for approximately $62 million. At the time, what was the prevailing gold market sentiment?",
+    "options": {
+      "A": "Gold was at an all-time high and everyone wanted to buy gold assets",
+      "B": "Gold prices were depressed after falling from 1980 highs, and most companies were avoiding new acquisitions",
+      "C": "Central banks were buying gold aggressively, driving prices up",
+      "D": "Gold mining had just been banned by the US government"
+    },
+    "correct": "B",
+    "explanation": "Peter Munk's acquisition of Goldstrike in the mid-1980s is one of the greatest deals in mining history. Gold had crashed from its 1980 peak of $850/oz to around $300-350/oz, and the mining industry was deeply pessimistic. Munk bought Goldstrike cheaply because sellers were desperate and few buyers existed. The property turned out to contain over 30 million ounces of gold, generating tens of billions of dollars in value over subsequent decades. This acquisition became the template for Munk's counter-cyclical playbook: buy when others are fearful.",
+    "key_concept": "Goldstrike acquired ~$62M in depressed market; became 30+ Moz deposit; counter-cyclical masterclass",
+    "source": "Barrick Gold / Goldstrike acquisition history",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-14-033",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "Following Newmont's $19.5 billion acquisition of Newcrest in 2023, the company announced a major asset divestiture program. What is the primary strategic rationale for selling assets immediately after a mega-acquisition?",
+    "options": {
+      "A": "Regulatory authorities required asset sales as a condition of merger approval",
+      "B": "Portfolio rationalization — selling non-core or higher-cost assets to reduce debt, focus on Tier 1 mines, and demonstrate capital discipline to investors",
+      "C": "Newmont discovered that all Newcrest assets were worthless",
+      "D": "Newmont needed to sell assets to pay dividends to shareholders"
+    },
+    "correct": "B",
+    "explanation": "Newmont's post-Newcrest divestiture program targeted $2+ billion in asset sales, disposing of non-core mines that did not meet the company's Tier 1 criteria. This is standard practice after large M&A deals: the acquirer keeps the crown jewels (Cadia, Lihir) and sells assets that are too small, too high-cost, or in non-strategic jurisdictions. The proceeds reduce the debt taken on to fund the acquisition, and the smaller portfolio allows management to focus attention on fewer, higher-quality operations. This integration lesson is critical for any company pursuing growth through M&A.",
+    "key_concept": "Post-M&A portfolio rationalization: sell non-core assets, reduce debt, focus on Tier 1",
+    "source": "Newmont post-Newcrest integration strategy",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-14-034",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "A mining analyst is evaluating B2Gold's track record and notes that Fekola was delivered on time and on budget. Why is this achievement particularly significant in the gold mining industry?",
+    "options": {
+      "A": "Most gold mines are delivered ahead of schedule",
+      "B": "On-time/on-budget delivery is extremely rare in mining; most projects suffer major cost overruns and delays, so B2Gold's execution record is a key competitive advantage",
+      "C": "It only matters because Fekola is a small mine",
+      "D": "On-time delivery is standard practice and not noteworthy"
+    },
+    "correct": "B",
+    "explanation": "The mining industry has a notorious track record of cost overruns and schedule delays — studies show that the average mining project exceeds its budget by 40-80%. B2Gold's ability to deliver Fekola on time and on budget in Mali (a challenging operating environment) demonstrated exceptional project execution capability. This track record, combined with strong community engagement and a conservative balance sheet, earned B2Gold a valuation premium among mid-tier producers. For any emerging gold company, demonstrating execution discipline is one of the fastest ways to build investor credibility.",
+    "key_concept": "On-time/on-budget delivery is rare in mining; B2Gold's execution is a competitive moat",
+    "source": "B2Gold operational track record",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-14-035",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "Gold Fields' South Deep mine was historically a 'value trap' but has shown significant improvement in recent years. What was the key operational change that drove the turnaround?",
+    "options": {
+      "A": "Converting from underground to open-pit mining",
+      "B": "Transitioning from conventional labour-intensive methods to fully mechanized mining, combined with workforce restructuring and realistic production targets",
+      "C": "Selling the mine to the South African government",
+      "D": "Flooding the mine to use solution mining techniques"
+    },
+    "correct": "B",
+    "explanation": "South Deep's turnaround under Chris Griffith involved three critical changes: (1) full mechanization of mining operations to reduce reliance on manual labour at extreme depths, (2) painful workforce restructuring that reduced headcount while improving productivity per employee, and (3) setting realistic, achievable production targets instead of the chronically over-promised guidance of previous years. By 2023-2024, South Deep finally achieved consistent profitability and production of 300,000+ ounces per year. The lesson is that even the most challenged assets can be turned around with the right leadership and honest operational assessment.",
+    "key_concept": "South Deep turnaround: mechanization + labour restructuring + realistic targets = profitability",
+    "source": "Gold Fields South Deep turnaround",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-14-036",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "A streaming company like Franco-Nevada provides upfront capital to a mine developer in exchange for the right to purchase a percentage of future gold production at a fixed, below-market price. How does this differ from a traditional royalty?",
+    "options": {
+      "A": "There is no difference; streaming and royalties are identical",
+      "B": "A stream involves purchasing physical metal at a predetermined price, while a royalty is a percentage payment on revenue or production without purchasing the metal",
+      "C": "A royalty requires the holder to operate the mine",
+      "D": "Streaming companies only invest in exploration-stage projects"
+    },
+    "correct": "B",
+    "explanation": "In a streaming agreement, the streaming company pays an upfront deposit plus an ongoing per-ounce payment (typically $400-500/oz for gold) to purchase a fixed percentage of a mine's production — they take physical delivery of the metal and sell it at market price, profiting from the spread. A royalty, by contrast, is simply a percentage of revenue (NSR royalty) or production value paid to the holder without any metal changing hands. Streaming companies like Franco-Nevada and Wheaton Precious Metals benefit from leverage to gold prices, no operating risk, and portfolio diversification across dozens of mines.",
+    "key_concept": "Stream = buy metal at fixed low price; Royalty = % of revenue; both avoid operating risk",
+    "source": "Streaming and royalty business models",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-14-037",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "Franco-Nevada, the world's largest gold-focused royalty and streaming company, was founded in 1986 by Pierre Lassonde and Seymour Schulich. What was their key business model innovation?",
+    "options": {
+      "A": "They invented open-pit gold mining",
+      "B": "They created the gold royalty/streaming model — providing capital to mine developers in exchange for perpetual production-linked payments, without taking on any mining operational risk",
+      "C": "They built the first gold ETF",
+      "D": "They discovered the Carlin Trend in Nevada"
+    },
+    "correct": "B",
+    "explanation": "Lassonde and Schulich recognized that the most profitable position in gold mining is not operating mines (which carries enormous capital, technical, and political risk) but financing them in exchange for perpetual royalties. Franco-Nevada's model generates high margins (70-80%+), requires minimal employees, and provides diversified exposure to gold through hundreds of royalty and streaming agreements worldwide. The company's market capitalization ($25-30 billion) often exceeds that of much larger gold producers, proving that the royalty model creates superior risk-adjusted returns.",
+    "key_concept": "Franco-Nevada: royalty model pioneer, high margins, no operating risk, superior returns",
+    "source": "Franco-Nevada corporate history / Lassonde & Schulich",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-14-038",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "Wheaton Precious Metals is primarily known for streaming agreements on which two metals?",
+    "options": {
+      "A": "Copper and zinc",
+      "B": "Gold and silver",
+      "C": "Platinum and palladium",
+      "D": "Iron ore and nickel"
+    },
+    "correct": "B",
+    "explanation": "Wheaton Precious Metals (formerly Silver Wheaton) built its business primarily on silver streaming agreements with base metal mines where silver is produced as a by-product. The company later expanded aggressively into gold streams. Wheaton's portfolio includes streams on major mines such as Salobo (Vale, Brazil — gold), Peñasquito (Newmont, Mexico — silver/gold), and Constancia (Hudbay, Peru — silver/gold). The by-product streaming model is particularly clever because it provides capital to base metal miners who are often willing to sell their precious metals by-product streams at attractive terms.",
+    "key_concept": "Wheaton: gold + silver streams, often on by-product production from base metal mines",
+    "source": "Wheaton Precious Metals portfolio",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-14-039",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "Agnico Eagle Mines has differentiated itself from other major gold producers by primarily operating in which type of jurisdictions?",
+    "options": {
+      "A": "Exclusively in sub-Saharan Africa",
+      "B": "Low-risk, politically stable jurisdictions — primarily Canada, Finland, Australia, and Mexico",
+      "C": "Only in South America",
+      "D": "Exclusively in the United States"
+    },
+    "correct": "B",
+    "explanation": "Agnico Eagle has built a reputation as a 'safe jurisdiction' gold producer, with the majority of its production coming from Canada (Meadowbank, Meliadine, LaRonde, Detour Lake, Canadian Malartic), Finland (Kittilä), and Australia (acquired via the Kirkland Lake Gold merger in 2022). This geographic focus on politically stable, mining-friendly jurisdictions earns Agnico Eagle a valuation premium from investors who are willing to pay more for lower geopolitical risk. The company produces approximately 3.4 million ounces per year, making it the third-largest gold producer globally.",
+    "key_concept": "Agnico Eagle: safe-jurisdiction focus (Canada, Finland, Australia), ~3.4 Moz/year, valuation premium",
+    "source": "Agnico Eagle Mines corporate profile",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-14-040",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "The SPDR Gold Shares ETF (GLD) holds over 800 tonnes of physical gold in trust. How do gold ETFs like GLD and iShares Gold Trust (IAU) affect gold mining company valuations?",
+    "options": {
+      "A": "They have no effect on mining company valuations",
+      "B": "They compete with mining stocks for investment capital — when ETFs attract inflows, money that might have gone to mining equities is diverted to physical gold exposure instead",
+      "C": "They guarantee higher share prices for all gold miners",
+      "D": "ETFs only invest in gold mining companies, not physical gold"
+    },
+    "correct": "B",
+    "explanation": "Gold ETFs like GLD and IAU allow investors to gain gold exposure without the operational risks, management execution concerns, and jurisdictional risks inherent in mining stocks. This has been a double-edged sword for gold companies: while ETF inflows generally support the gold price (benefiting miners), they also divert investment capital away from mining equities. Before gold ETFs existed (pre-2004), investors who wanted gold exposure had little choice but to buy mining stocks. Today, gold mining companies must demonstrate clear value-add over simply holding physical gold to attract investment.",
+    "key_concept": "Gold ETFs compete with mining stocks for capital; miners must prove value beyond gold exposure",
+    "source": "Gold ETF market dynamics (GLD, IAU)",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-14-041",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "In early 2019, Barrick Gold launched an unsolicited hostile takeover bid for Newmont. The bid was ultimately withdrawn. What was the key outcome of this failed bid?",
+    "options": {
+      "A": "Barrick and Newmont became permanent enemies and refused to cooperate",
+      "B": "The failed bid led directly to the formation of the Nevada Gold Mines joint venture, which achieved the operational synergies Barrick sought without the complexity and cost of a full merger",
+      "C": "Newmont was forced to accept the takeover at a higher price",
+      "D": "Barrick was acquired by Newmont instead"
+    },
+    "correct": "B",
+    "explanation": "Barrick's hostile bid for Newmont in February 2019 was driven by Mark Bristow's recognition that the two companies' overlapping Nevada operations could generate billions in synergies. When Newmont rejected the bid and shareholders showed limited enthusiasm for a full merger, both companies pivoted to the more targeted solution of combining only their Nevada assets into a 61.5/38.5 JV. This outcome actually delivered better value than a full merger would have — it captured the Nevada synergies without the integration risks, cultural clashes, and regulatory hurdles of combining two global companies. The lesson: sometimes a focused partnership beats a full acquisition.",
+    "key_concept": "Failed hostile bid led to Nevada JV — focused partnership beat full merger",
+    "source": "Barrick hostile bid for Newmont 2019",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-14-042",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "After completing the Newcrest acquisition, Newmont announced plans to divest $2+ billion in non-core assets. Which of the following best describes the types of assets Newmont targeted for sale?",
+    "options": {
+      "A": "Only the former Newcrest assets that Newmont did not want",
+      "B": "Both legacy Newmont and former Newcrest assets that did not meet Tier 1 criteria — including smaller, higher-cost, or shorter-life mines across both portfolios",
+      "C": "All Australian operations",
+      "D": "Only exploration-stage projects with no production"
+    },
+    "correct": "B",
+    "explanation": "Newmont's divestiture program was portfolio-wide, targeting non-core assets from both the legacy Newmont and former Newcrest portfolios. Assets identified for sale included operations like Telfer (Australia), Akyem (Ghana), and several others that were either too small, too high-cost, or approaching end-of-life. Importantly, this was not just about shedding Newcrest assets — Newmont used the merger as an opportunity to rationalize its entire portfolio. Proceeds were directed toward debt reduction, returning capital to shareholders, and funding growth at the retained Tier 1 assets.",
+    "key_concept": "Newmont divested non-Tier 1 assets from both portfolios; $2B+ in sales for debt reduction",
+    "source": "Newmont post-Newcrest divestiture program",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-14-043",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "A gold company's reserve base is declining by 5% per year due to mining depletion. Which reserve replacement strategy is most sustainable for a major gold producer?",
+    "options": {
+      "A": "Rely entirely on acquisitions to replace depleted reserves",
+      "B": "A balanced approach combining near-mine exploration (brownfield), greenfield exploration, and selective M&A to replace reserves at a cost well below the value created",
+      "C": "Stop exploring and focus only on mining existing reserves as fast as possible",
+      "D": "Only invest in greenfield exploration in unexplored regions"
+    },
+    "correct": "B",
+    "explanation": "Major gold producers face a constant challenge: every ounce mined depletes their reserve base, and finding replacement ounces is becoming increasingly difficult and expensive globally. The most successful companies use a three-pronged approach: (1) near-mine brownfield exploration, which has the highest success rate and lowest cost per ounce discovered, (2) greenfield exploration for longer-term pipeline development, and (3) selective acquisitions when external resources can be purchased at below replacement cost. Companies like Barrick and Agnico Eagle that maintain strong brownfield programs consistently outperform those reliant solely on M&A.",
+    "key_concept": "Reserve replacement: brownfield (cheapest) + greenfield (pipeline) + selective M&A = sustainability",
+    "source": "Gold industry reserve replacement strategies",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-14-044",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "The gold industry uses the concept of a 'Tier 1 asset' as a benchmark for world-class mines. Which combination of criteria best defines a Tier 1 gold asset?",
+    "options": {
+      "A": "Any mine that has been in production for more than 50 years",
+      "B": "Annual production of 500,000+ ounces, mine life exceeding 10 years, and AISC in the lower half of the global cost curve",
+      "C": "Any mine located in a Tier 1 jurisdiction like Canada or Australia",
+      "D": "A mine with reserves exceeding 100 million ounces regardless of cost"
+    },
+    "correct": "B",
+    "explanation": "The Tier 1 gold asset definition, popularized by Mark Bristow at Randgold and now widely used across the industry, requires three simultaneous criteria: (1) annual production capacity of 500,000+ ounces, providing meaningful scale, (2) remaining mine life of 10+ years, ensuring long-term cash flow generation, and (3) AISC in the lower half of the industry cost curve, ensuring profitability through commodity price cycles. Very few deposits globally meet all three criteria — perhaps only 15-20 mines worldwide qualify. This is why Tier 1 assets command premium valuations and why companies like Barrick and Newmont structure their entire strategy around owning them.",
+    "key_concept": "Tier 1 = 500koz+/year + 10yr+ life + lower-half AISC; only ~15-20 mines globally qualify",
+    "source": "Tier 1 asset definition / Randgold-Barrick framework",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-14-045",
+    "chapterId": "gold-14",
+    "domain": "gold",
+    "question": "Kinross Gold's $7.1 billion acquisition of Red Back Mining in 2010 is widely cited as a cautionary tale in gold M&A. What was the primary mistake?",
+    "options": {
+      "A": "Red Back's mines had no gold resources at all",
+      "B": "Kinross paid a massive premium at near-peak gold prices for assets (Tasiast, Chirano) whose development costs and technical challenges were severely underestimated, resulting in billions in subsequent write-downs",
+      "C": "Kinross acquired Red Back during a period of very low gold prices",
+      "D": "The acquisition was blocked by regulators and never completed"
+    },
+    "correct": "B",
+    "explanation": "Kinross paid $7.1 billion for Red Back Mining in 2010 when gold was trading near $1,200/oz and heading toward its 2011 peak. The Tasiast mine in Mauritania required far more capital investment than anticipated — the expansion project ballooned in cost and timeline, forcing Kinross to take over $3 billion in write-downs. This is the exact opposite of Peter Munk's counter-cyclical approach: Kinross bought at the top of the cycle, overpaid based on optimistic assumptions, and suffered when reality proved far more costly. The lesson for any acquiring company is to stress-test acquisition economics against conservative gold price and capital cost assumptions, not optimistic ones.",
+    "key_concept": "Red Back: $7.1B at cycle peak, $3B+ write-downs; never buy on optimistic assumptions",
+    "source": "Kinross Gold / Red Back Mining acquisition lessons",
+    "difficulty": 3
   }
 ]

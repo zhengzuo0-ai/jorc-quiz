@@ -440,5 +440,328 @@
     "key_concept": "Loco London: OTC gold market, unallocated bank entries, basis for global gold pricing",
     "source": "LBMA market structure",
     "difficulty": 3
+  },
+  {
+    "id": "gold-11-027",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "A mine processing refractory sulphide ore produces doré averaging 60% Au, while a neighbouring oxide ore mine produces 88% Au doré. Which statement best explains this difference?",
+    "options": {
+      "A": "Refractory ore mines use inferior equipment that cannot achieve high purity",
+      "B": "Refractory sulphide processing routes (roasting or pressure oxidation) liberate gold but leave more sulphide residues and silver in the doré, reducing gold grade",
+      "C": "Oxide ore mines add silver deliberately to lower the melting point of doré",
+      "D": "LBMA rules require refractory gold mines to ship lower-purity doré"
+    },
+    "correct": "B",
+    "explanation": "Doré composition varies significantly by ore type and processing method. Oxide ores processed via conventional cyanide leaching and carbon-in-pulp (CIP) circuits typically yield high-purity doré (80-92% Au) because cyanide selectively dissolves gold and silver, and the electrowinning or Merrill-Crowe precipitation step produces relatively clean bullion. Refractory sulphide ores require pre-treatment (roasting, pressure oxidation, or bio-oxidation) to break down sulphide minerals encapsulating gold. These processes liberate sulphur and arsenic compounds but also introduce more base metal and silver into the final doré, typically yielding 55-75% Au. The lower doré grade from refractory circuits increases refinery treatment charges and logistics costs per ounce of contained gold.",
+    "key_concept": "Doré purity varies by ore type: oxide CIP → 80-92% Au; refractory sulphide → 55-75% Au",
+    "source": "Gold metallurgy and processing practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-028",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "In the Miller chlorination process, which operational parameter is most critical for preventing gold losses through over-chlorination?",
+    "options": {
+      "A": "Furnace temperature must be maintained above 1,200°C",
+      "B": "Chlorine gas flow rate and timing must be carefully controlled to stop before gold itself begins to chlorinate",
+      "C": "The gold must be stirred continuously to ensure even distribution of chlorine",
+      "D": "The slag must be removed every 30 minutes to prevent back-reaction"
+    },
+    "correct": "B",
+    "explanation": "In the Miller process, chlorine gas is introduced into molten gold at ~1,100°C to react with impurities. The key operational challenge is that chlorine reacts with base metals and silver first, but if over-applied, it will begin to form gold chloride (AuCl₃) — a volatile compound that causes gold losses through evaporation or entrainment in the slag. Refiners monitor the reaction progress by observing the colour of fumes and the slag character, and by sampling the molten bath. Chlorine flow is terminated as soon as assay indicates base metals and silver have been removed to the desired level. Throughput rates at major refineries are typically 1,000-2,000 kg of gold per Miller furnace cycle (4-8 hours), with gold recoveries exceeding 99.5% when properly controlled.",
+    "key_concept": "Miller process: chlorine flow must stop before gold itself chlorinates; >99.5% Au recovery when controlled",
+    "source": "Gold refining metallurgy",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-029",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "In the Wohlwill electrolytic process, what current density is typically applied, and how does it affect cathode purity?",
+    "options": {
+      "A": "500-1,000 A/m²; higher current density improves purity by forcing more gold to deposit",
+      "B": "500-2,000 A/m²; excessively high current density causes co-deposition of impurities, reducing purity below 99.99%",
+      "C": "50-100 A/m²; lower current density is required to prevent the electrolyte from overheating",
+      "D": "5,000+ A/m²; only very high current densities achieve four-nines gold"
+    },
+    "correct": "B",
+    "explanation": "The Wohlwill process typically operates at current densities of 500-2,000 A/m². Maintaining the correct current density is critical: if current density is too high, impurities such as silver and platinum-group metals can co-deposit on the cathode, reducing purity below the target 99.99%. If too low, the process is inefficient and throughput suffers. The electrolyte is a chloroauric acid (HAuCl₄) solution maintained at 50-70°C and a specific pH. Cathode deposits are thin sheets of high-purity gold that are periodically stripped, melted, and cast into 99.99% fine bars or granules. The process produces anode slime containing silver chloride, platinum-group metals, and other impurities that are processed separately for additional value recovery.",
+    "key_concept": "Wohlwill electrolysis: 500-2,000 A/m²; excessive current density causes impurity co-deposition below 99.99%",
+    "source": "Gold refining metallurgy / electrochemistry",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-030",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "An LBMA-accredited refinery is under review for a suspected compliance breach. Which of the following actions could result in its suspension from the Good Delivery List?",
+    "options": {
+      "A": "Processing more than 500 tonnes of gold per year without LBMA approval",
+      "B": "Failure to conduct adequate due diligence on a gold shipment later found to be linked to a sanctioned entity",
+      "C": "Shipping Good Delivery bars directly to central banks without using a bullion bank intermediary",
+      "D": "Producing bars that exceed the 430 troy ounce maximum weight by more than 1%"
+    },
+    "correct": "B",
+    "explanation": "LBMA accreditation requires refineries to meet ongoing compliance obligations under the LBMA Responsible Gold Guidance, which mandates KYC due diligence, anti-money laundering controls, and trade sanctions screening. A refinery that fails to identify and reject a shipment from a sanctioned entity or conflict zone risks suspension or removal from the Good Delivery List following an LBMA proactive monitoring review. The LBMA conducts annual monitoring visits and can suspend a refinery pending investigation of a compliance breach. Suspension is commercially devastating as it prevents the refinery from producing LBMA-accredited bars, effectively locking it out of the mainstream market. Reinstatement requires demonstrating remediation of all identified deficiencies.",
+    "key_concept": "LBMA suspension: failure of KYC/AML/sanctions compliance; annual proactive monitoring visits",
+    "source": "LBMA Good Delivery Rules / Responsible Gold Guidance",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-031",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "How does the electronic LBMA Gold Price auction mechanism determine the clearing price each session?",
+    "options": {
+      "A": "The largest bullion bank sets the price based on its order book at 10:30 AM and 3:00 PM",
+      "B": "IBA publishes a price based on the average of COMEX futures prices at the time of the auction",
+      "C": "Participants submit buy and sell orders in iterative rounds; IBA adjusts the indicative price until net volume imbalance falls within a $20,000 tolerance",
+      "D": "The Bank of England sets the price based on its gold reserves and daily open market operations"
+    },
+    "correct": "C",
+    "explanation": "The LBMA Gold Price auction, administered by ICE Benchmark Administration (IBA), uses a multi-round iterative process. At 10:30 AM and 3:00 PM London time, IBA publishes an opening indicative price. Participants (direct and indirect) submit buy and sell orders in troy ounces. If the difference between total buy and sell volume exceeds the tolerance threshold (currently $20,000 net imbalance per round equivalent), IBA adjusts the price up or down by a set increment and opens the next round. The auction continues until imbalance falls within tolerance, at which point the price is fixed. The process typically takes 3-10 rounds and 5-15 minutes. Participants include LBMA market-making banks, and the fix is used as a reference in thousands of gold contracts globally.",
+    "key_concept": "LBMA Gold Price: IBA multi-round auction, price adjusts until net imbalance ≤ $20,000 tolerance",
+    "source": "ICE Benchmark Administration / LBMA Gold Price methodology",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-032",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What is the primary role of the Shanghai Gold Exchange (SGE) in the global gold market?",
+    "options": {
+      "A": "It is a futures exchange where Chinese banks hedge gold price risk internationally",
+      "B": "It is the domestic physical gold exchange through which essentially all gold imported into China must flow, and it sets the benchmark RMB gold price",
+      "C": "It is a joint venture between the LBMA and the People's Bank of China for clearing London gold trades",
+      "D": "It operates as China's central bank gold reserve manager"
+    },
+    "correct": "B",
+    "explanation": "The Shanghai Gold Exchange (SGE), established in 2002, is the domestic physical gold exchange through which virtually all gold entering China — whether imported or domestically mined — must flow. Members (primarily banks) import LBMA Good Delivery bars and withdraw kilobars (1 kg, 9999 fineness) for domestic sale. The SGE sets the benchmark Shanghai gold price in RMB per gram, which trades at a premium or discount to the international USD price (the 'SGE premium'). In 2014, the SGE launched the Shanghai International Gold Exchange (SGEI) to allow offshore participation. China's ~1,700 tonne annual gold demand, channelled through the SGE, makes it the world's largest physical gold exchange by trading volume, accounting for over 40% of global physical settlement.",
+    "key_concept": "SGE: all gold entering China flows through it; sets RMB benchmark price; kilobar (1 kg, 9999) standard",
+    "source": "Shanghai Gold Exchange / World Gold Council",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-033",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "An investor purchases shares in the SPDR Gold Shares ETF (GLD). Which statement correctly describes the ETF's structure?",
+    "options": {
+      "A": "GLD is a closed-end fund that trades at a fixed premium to the gold spot price",
+      "B": "GLD holds physical gold in HSBC's London vaults; authorised participants can create or redeem large share baskets in exchange for physical gold, keeping the ETF price close to NAV",
+      "C": "GLD invests in gold mining stocks rather than physical gold to provide leveraged exposure",
+      "D": "GLD is backed by gold futures contracts that are rolled monthly, introducing contango costs"
+    },
+    "correct": "B",
+    "explanation": "The SPDR Gold Shares ETF (GLD), launched in 2004, is a physically-backed gold ETF. Each share represents approximately 1/10th of a troy ounce of gold. Physical gold is held in allocated form in HSBC's London vaults (and sub-custodians). The creation/redemption mechanism involves authorised participants (large financial institutions) who can create new ETF shares by delivering physical gold to the custodian, or redeem existing shares to receive physical gold, in minimum baskets of typically 100,000 shares. This mechanism arbitrages away any significant premium or discount to net asset value (NAV). IAU (iShares Gold Trust) uses a similar structure but at 1/100th oz per share. The two funds together held approximately 1,800-2,000 tonnes of gold at their peak, representing a major component of investment demand.",
+    "key_concept": "GLD: physically backed (1/10 oz/share), HSBC London vaults, authorised participant creation/redemption in-kind",
+    "source": "World Gold Council / SPDR Gold Shares prospectus",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-034",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "The Ashanti Goldfields hedging crisis of 1999 is a cautionary tale about gold forward sales. What was the core lesson?",
+    "options": {
+      "A": "Hedging eliminates all gold price risk and should always be maximised",
+      "B": "Excessive forward sales (hedging years of future production) created massive mark-to-market losses and margin calls when the gold price surged, threatening the company's solvency",
+      "C": "Ashanti failed because it sold gold below the spot price in its forward contracts",
+      "D": "The crisis was caused by physical gold theft from Ashanti's vaults"
+    },
+    "correct": "B",
+    "explanation": "In 1999, when central banks announced the Washington Agreement on Gold (limiting official gold sales), the gold price spiked. Ashanti Goldfields had an enormous hedge book — forward sales contracts representing years of future production at fixed prices. When gold prices rose sharply, Ashanti faced massive mark-to-market losses and margin calls from its counterparty bullion banks that it could not meet from cash flow. The company nearly became insolvent and was ultimately taken over by AngloGold. The lesson was stark: while modest forward hedging provides price certainty, excessive hedging creates a derivative liability that can exceed the company's net worth during gold price rallies. The 'hedge book problem' subsequently caused many major gold miners to de-hedge aggressively in the 2000s, paying significant premiums to close out positions.",
+    "key_concept": "Ashanti 1999: excessive hedging → margin calls on mark-to-market losses when gold surged; near-insolvency",
+    "source": "Ashanti Goldfields / gold hedging history",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-035",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "A mining company signs a gold streaming deal. Which of the following correctly describes the economic structure?",
+    "options": {
+      "A": "The streamer lends money to the miner at a fixed interest rate, repaid from gold sales proceeds",
+      "B": "The streamer provides an upfront cash payment to the miner in exchange for the right to purchase a fixed percentage of future gold production at a predetermined low price (e.g., $400/oz or 20% of spot)",
+      "C": "The streamer takes equity ownership of the mine in exchange for providing refining services",
+      "D": "The streamer buys gold futures on behalf of the miner to hedge price risk"
+    },
+    "correct": "B",
+    "explanation": "In a gold streaming deal, a streaming company (such as Franco-Nevada, Royal Gold, or Wheaton Precious Metals) provides a large upfront cash payment to a mining company — often used for project construction — in exchange for the contractual right to purchase a percentage of the mine's future gold production at a fixed low price (e.g., $400/oz, or 15-20% of the prevailing spot price at delivery). The miner receives capital without diluting equity or taking on traditional debt. The streamer profits from the difference between the spot price and the contracted purchase price over the life of the mine. Streaming agreements are perpetual or long-term, covering the mine's life and sometimes including expansions. They do not constitute a loan — if the mine fails, the streamer has no debt claim.",
+    "key_concept": "Streaming: upfront cash payment for right to buy % of future production at fixed low price (e.g., $400/oz)",
+    "source": "Gold streaming industry structure",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-036",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "How does a gold royalty company's business model differ from a streaming company's model?",
+    "options": {
+      "A": "Royalty companies receive a percentage of mine revenue or production (NSR or NPI), without the obligation to purchase gold; streamers must buy gold at a contracted price",
+      "B": "Royalty companies operate mines directly, while streamers are passive investors",
+      "C": "Royalty companies only invest in exploration-stage projects; streamers only fund producing mines",
+      "D": "There is no material difference; royalty and streaming companies are functionally identical"
+    },
+    "correct": "A",
+    "explanation": "Gold royalty companies (e.g., Royal Gold, Sandstorm Gold) hold royalty interests — typically a Net Smelter Return (NSR) royalty, which entitles them to a percentage (e.g., 1-3%) of the mine's gross revenue from gold sales, or a Net Profit Interest (NPI) based on mine profits. They receive cash payments tied to production and price but do not purchase physical gold. Streaming companies (e.g., Wheaton Precious Metals, Franco-Nevada) must fund ongoing gold purchases at the contracted price per ounce. Both models provide mine financing without equity dilution, but royalties are simpler and carry no purchase obligation. Streaming companies have higher upside per ounce (as the metal price rises above their purchase price), while royalty companies have lower administrative complexity.",
+    "key_concept": "Royalty (NSR/NPI %): cash payment from revenue; Streaming: must buy physical gold at contracted price",
+    "source": "Gold royalty and streaming industry",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-037",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "Since 2010, central banks globally have been net buyers of gold. Which countries have been the largest accumulators of gold reserves?",
+    "options": {
+      "A": "USA, UK, and Germany — traditional gold reserve holders repatriating overseas gold",
+      "B": "China, Russia, Turkey, India, and Kazakhstan — emerging market central banks diversifying away from USD",
+      "C": "Japan, South Korea, and Taiwan — Asian export powerhouses converting trade surpluses into gold",
+      "D": "Brazil, Mexico, and Colombia — Latin American central banks responding to regional currency crises"
+    },
+    "correct": "B",
+    "explanation": "Central banks turned from net sellers to net buyers of gold in 2010, and purchases accelerated significantly after 2022 following Russia's asset freeze. The largest accumulators have been emerging market central banks — China (official PBoC purchases), Russia (until sanctions), Turkey, India, and Kazakhstan — motivated by the desire to diversify foreign reserves away from USD-denominated assets, reduce exposure to US sanctions risk, and anchor reserve credibility. In 2022 and 2023, net central bank purchases exceeded 1,000 tonnes annually, a multi-decade high. These purchases represent a structural shift in the gold demand landscape. Developed market central banks (USA, Germany, France, Italy) hold large legacy reserves but have not been significant buyers.",
+    "key_concept": "Net central bank buyers since 2010: China, Russia, Turkey, India, Kazakhstan; >1,000 t/yr in 2022-23",
+    "source": "World Gold Council / central bank gold reserve data",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-038",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "What is the Gold Forward Offered Rate (GOFO), and how is it related to the gold lease rate?",
+    "options": {
+      "A": "GOFO is the price premium for buying gold forward; the gold lease rate is the LIBOR minus GOFO",
+      "B": "GOFO was the rate at which bullion banks offered to lend gold against USD collateral; the gold lease rate approximately equals LIBOR minus GOFO, representing the cost of borrowing gold",
+      "C": "GOFO is the London gold spot price in USD; the lease rate is a percentage markup charged by the LBMA",
+      "D": "GOFO is a forward price benchmark set by the COMEX; lease rates are unrelated to GOFO"
+    },
+    "correct": "B",
+    "explanation": "Historically, the Gold Forward Offered Rate (GOFO) was the rate at which LBMA member banks were willing to lend gold against USD at a fixed term — effectively the interest rate for borrowing USD using gold as collateral. GOFO was published daily until 2015. The gold lease rate — the implied cost of borrowing gold itself — was approximately: Lease Rate ≈ LIBOR − GOFO. When GOFO fell (gold demand for borrowing increased), the lease rate rose, indicating that holding physical gold commanded a premium. Central banks historically leased gold to bullion banks at the lease rate to generate income on idle reserves; bullion banks then lent the gold to mining companies or jewellery manufacturers who needed gold for short periods. Today, equivalent information is derived from gold forward rates (FORWARD) and overnight indexed swap rates.",
+    "key_concept": "Gold lease rate ≈ LIBOR − GOFO; GOFO = USD borrowing rate using gold as collateral",
+    "source": "LBMA / gold lending market",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-11-039",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "An investor holds unallocated gold at a London bullion bank. What is the key risk difference compared to holding allocated gold?",
+    "options": {
+      "A": "Unallocated gold earns a higher interest rate, making it more attractive for long-term investors",
+      "B": "Unallocated gold is an unsecured liability of the bullion bank — the investor is a creditor and bears counterparty risk; allocated gold is the investor's legal property stored in a vault",
+      "C": "Unallocated gold cannot be sold or transferred without physical delivery",
+      "D": "Allocated gold incurs a VAT charge on purchase, while unallocated gold does not"
+    },
+    "correct": "B",
+    "explanation": "The critical distinction between unallocated and allocated gold lies in legal ownership. Unallocated gold is an unsecured claim on a bullion bank — like a bank deposit — where the bank owes the investor a quantity of gold but the investor does not own specific bars. If the bullion bank becomes insolvent, the investor is an unsecured creditor and may lose their gold. In contrast, allocated gold consists of specific, numbered bars held in a vault on the investor's behalf; the bars are the investor's legal property and are off the bank's balance sheet. Most gold traded in the loco London OTC market is unallocated, which enables efficient high-volume trading. Central banks typically hold their gold in allocated form through custodian central banks (e.g., the Bank of England). Investors seeking true gold ownership should hold allocated gold, accepting the associated storage fees.",
+    "key_concept": "Unallocated: unsecured bank liability (counterparty risk); Allocated: investor's legal property (specific bars)",
+    "source": "LBMA / gold custody law",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-040",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "A COMEX gold futures contract specifies delivery of 100 troy ounces. A trader holds a long December contract and does not close it before the first notice day. What happens next?",
+    "options": {
+      "A": "The contract automatically expires worthless",
+      "B": "The trader may receive a delivery notice and must pay for and accept 100 troy ounces of gold meeting COMEX specifications",
+      "C": "The exchange automatically rolls the contract into the next month at no cost",
+      "D": "The trader must sell the contract immediately at the prevailing futures price"
+    },
+    "correct": "B",
+    "explanation": "COMEX gold futures contracts (symbol GC) specify delivery of 100 troy ounces of gold with minimum fineness of 995.0, in the form of one 100 troy ounce bar or three 1-kilogram bars (meeting specific assay requirements). If a long position holder does not close (sell) their contract before the first notice day (typically the last business day of the month preceding the delivery month), the exchange may assign them a delivery notice. Upon receiving the notice, the holder must pay the full contract value and accept physical delivery of the gold into a COMEX-approved depository. In practice, over 95% of COMEX gold futures are cash-settled or rolled before delivery. The existence of a physical delivery mechanism anchors COMEX prices to the physical gold market and prevents persistent price divergence.",
+    "key_concept": "COMEX GC: 100 troy oz, 995.0 fineness; physical delivery via COMEX depository if held to first notice day",
+    "source": "CME Group / COMEX Gold Futures specifications",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-041",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "Which of the following correctly identifies the primary macroeconomic drivers of the gold price?",
+    "options": {
+      "A": "Global oil prices, US stock market performance, and agricultural commodity prices",
+      "B": "US real interest rates, US dollar strength, and inflation expectations — all negatively correlated with gold",
+      "C": "China GDP growth, global jewellery demand, and mine supply changes",
+      "D": "The Federal Reserve's gold reserves, LBMA trading volume, and central bank lease rates"
+    },
+    "correct": "B",
+    "explanation": "Gold price movements are most strongly driven by three interconnected macro factors: (1) US real interest rates (nominal Treasury yields minus inflation expectations) — when real rates rise, the opportunity cost of holding non-yielding gold increases, reducing gold's appeal; (2) US dollar strength — as gold is priced in USD, a stronger dollar makes gold more expensive for non-USD buyers, reducing demand; (3) inflation expectations — gold is traditionally viewed as an inflation hedge, so rising inflation expectations increase gold demand. These three factors are typically negatively correlated with gold: rising real rates, a strengthening USD, and falling inflation expectations all tend to suppress the gold price. Conversely, negative real rates, a weaker USD, and elevated inflation expectations are historically associated with gold bull markets (e.g., 2001-2011, 2018-2024).",
+    "key_concept": "Gold price drivers: US real rates (negative), USD strength (negative), inflation expectations (positive)",
+    "source": "World Gold Council / gold price analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-042",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "A mining company wants to demonstrate its gold is 'conflict-free' and responsibly sourced. Which certification framework most directly addresses chain-of-custody from mine to refinery?",
+    "options": {
+      "A": "ISO 9001 quality management certification",
+      "B": "The OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas, implemented through LBMA Responsible Gold Guidance and schemes like RGI (Responsible Gold Initiative)",
+      "C": "The Kimberley Process Certification Scheme",
+      "D": "The Dodd-Frank Act Section 1502 conflict minerals reporting requirements"
+    },
+    "correct": "B",
+    "explanation": "The gold responsible sourcing framework centres on the OECD Due Diligence Guidance, which provides a five-step framework for companies to identify and address risks in their supply chains. For gold, this is operationalised through the LBMA Responsible Gold Guidance (mandatory for all Good Delivery refineries), the Responsible Gold Initiative (RGI) for large-scale miners, and the Responsible Jewellery Council (RJC) for the jewellery industry. These frameworks require chain-of-custody documentation from the mine through transport, refining, and trading. The Kimberley Process addresses diamonds (not gold). Dodd-Frank 1502 covers 3TG minerals (tantalum, tin, tungsten, gold) but focuses on SEC reporting by US-listed companies, not physical chain-of-custody certification. For a West African mine, LBMA-aligned responsible sourcing is the key market access requirement.",
+    "key_concept": "Responsible gold: OECD Due Diligence Guidance → LBMA Responsible Gold Guidance (mandatory for GD refineries)",
+    "source": "OECD / LBMA Responsible Gold Guidance",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-043",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "Approximately what percentage of annual gold supply comes from recycling (secondary supply), and what are the primary sources?",
+    "options": {
+      "A": "5-10%; primarily electronic waste from circuit boards",
+      "B": "25-30%; primarily jewellery scrap, with smaller contributions from electronics and dental gold",
+      "C": "50-60%; primarily industrial recycling from automotive catalytic converters",
+      "D": "Less than 5%; gold is almost entirely mined as primary production"
+    },
+    "correct": "B",
+    "explanation": "Gold recycling (secondary supply) typically contributes 25-30% of total annual gold supply, amounting to approximately 1,200-1,400 tonnes per year. The dominant source is jewellery scrap (approximately 80% of recycled gold), where consumers sell gold jewellery when prices are high or during financial stress. Electronics recycling (e-waste) is the second largest source, recovering gold from printed circuit boards, connectors, and semiconductors — though gold content per tonne of e-waste is only 200-300 grams, requiring concentrated collection and sophisticated processing. Dental gold recycling is minor but historically significant. Unlike mine production, recycling is highly responsive to the gold price: when prices spike, consumers and scrap dealers sell holdings, providing a countercyclical supply buffer. At $2,000/oz, the entire above-ground gold stock of ~212,000 tonnes is theoretically recyclable.",
+    "key_concept": "Gold recycling: ~25-30% of supply (~1,200-1,400 t/yr); jewellery scrap ~80%, electronics and dental remainder",
+    "source": "World Gold Council / gold supply data",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-044",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "Gold's use in electronics is primarily valued for which physical property, and approximately how much gold is used in global electronics annually?",
+    "options": {
+      "A": "Its magnetic properties; approximately 5,000 tonnes per year",
+      "B": "Its exceptional electrical conductivity and resistance to corrosion/oxidation, ensuring reliable contact performance; approximately 250-300 tonnes per year",
+      "C": "Its transparency to X-rays for semiconductor lithography; approximately 50 tonnes per year",
+      "D": "Its high melting point for high-temperature electrical contacts; approximately 1,000 tonnes per year"
+    },
+    "correct": "B",
+    "explanation": "Gold is used in electronics primarily because of its combination of excellent electrical conductivity (third after silver and copper), complete resistance to oxidation and corrosion at the contact surface, and ease of bonding. In high-reliability applications — semiconductors, connectors, printed circuit boards, bonding wires in chips — gold ensures consistent, corrosion-free electrical contact over the product's lifetime. Gold bonding wire connects semiconductor chips to leadframes with wires as fine as 18 microns. Approximately 250-300 tonnes of gold are used in electronics annually. Medical applications (e.g., pacemaker components, cancer drug delivery using gold nanoparticles) and aerospace (reflective coatings on satellite visors and optics) together account for another 30-50 tonnes. Technology demand is relatively price-inelastic because gold's value per device is small but performance-critical.",
+    "key_concept": "Gold in electronics: conductivity + corrosion resistance; ~250-300 t/yr; bonding wire, connectors, PCBs",
+    "source": "World Gold Council / electronics industry",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-11-045",
+    "chapterId": "gold-11",
+    "domain": "gold",
+    "question": "Approximately how much gold has been mined throughout human history (above-ground stocks), and how is it allocated across major categories?",
+    "options": {
+      "A": "50,000 tonnes total: 60% jewellery, 20% investment, 10% central banks, 10% industrial",
+      "B": "212,000 tonnes total: approximately 46% jewellery, 22% investment (bars/coins/ETFs), 17% central banks, 15% other/industrial",
+      "C": "500,000 tonnes total: 80% jewellery, 10% investment, 5% central banks, 5% industrial",
+      "D": "100,000 tonnes total: 50% central banks, 30% jewellery, 20% industrial"
+    },
+    "correct": "B",
+    "explanation": "The World Gold Council estimates total above-ground gold stocks at approximately 212,000 tonnes (as of 2024), accumulated over thousands of years of mining. This is allocated roughly as follows: jewellery ~46% (~97,000 tonnes), the largest single category reflecting gold's enduring role in personal adornment across cultures; private investment (bars, coins, ETFs) ~22% (~47,000 tonnes); central bank reserves ~17% (~36,000 tonnes); other/industrial uses ~15% (~32,000 tonnes, including technology applications). The entire above-ground stock, if consolidated, would form a cube approximately 22 metres on each side. Annual mine production (~3,600 tonnes) represents only about 1.7% of existing stocks, meaning the gold market is driven more by investment demand and recycling flows than by new mine supply — a key structural difference from most commodities.",
+    "key_concept": "Above-ground gold: ~212,000 tonnes; 46% jewellery, 22% investment, 17% central banks, 15% industrial/other",
+    "source": "World Gold Council / historical gold supply data",
+    "difficulty": 2
   }
 ]

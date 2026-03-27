@@ -474,5 +474,294 @@
     "key_concept": "PFS-to-DFS cost increases are common as engineering detail reveals underestimated items",
     "source": "JORC Code 2012, Clauses 39, 40",
     "difficulty": 3
+  },
+  {
+    "id": "jorc-07-029",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A copper project is at PFS stage. The deposit is located in a region with complex groundwater hydrology. Which geotechnical and hydrogeological requirements must the PFS satisfy under JORC Clause 39 Modifying Factors?",
+    "options": {
+      "A": "Only a desktop review of published geological maps is required",
+      "B": "Pit slope angles may be assumed from analogous projects; no site-specific data is needed until DFS",
+      "C": "PFS requires site-specific geotechnical investigations sufficient to establish preliminary pit slope angles, and a hydrogeological assessment identifying the water inflow rates and dewatering strategy",
+      "D": "Full geotechnical and hydrogeological studies are only required after the final investment decision"
+    },
+    "correct": "C",
+    "explanation": "Under JORC Clause 39, a PFS must address all Modifying Factors at a level sufficient to support Reserve conversion. Geotechnical requirements at PFS level include site-specific investigations (drill core logging, laboratory strength testing) sufficient to establish preliminary inter-ramp and overall slope angles for pit design. Hydrogeological assessments must characterise aquifer properties and estimate dewatering volumes and rates to size dewatering infrastructure. Using only analogous project data without site-specific investigation would be insufficient for PFS-level confidence, as ground conditions and hydrogeology are site-specific. DFS then refines these with more detailed modelling.",
+    "key_concept": "PFS requires site-specific geotechnical slope data and hydrogeological dewatering assessment",
+    "source": "JORC Code 2012, Clause 39; Table 1 Modifying Factors",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-030",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "At a Scoping Study level, how should geotechnical assumptions for an open pit mine typically be handled?",
+    "options": {
+      "A": "Detailed geotechnical modelling with site-specific data is required even at Scoping level",
+      "B": "Default slope angles based on rock mass classification from analogous deposits may be used, with appropriate caveats about the preliminary nature of the assumption",
+      "C": "Slope angles must be independently verified by a geotechnical engineer before the Scoping Study is completed",
+      "D": "Geotechnical assumptions do not affect Scoping Study economics and can be omitted"
+    },
+    "correct": "B",
+    "explanation": "At Scoping Study level (Clause 38), it is acceptable to use industry-standard or analogous-project slope angles with appropriate caveats, because the study's ±35-50% accuracy does not warrant the expense of site-specific geotechnical campaigns. However, the CP must disclose the basis for the assumed slope angles and note that they are preliminary and subject to revision as site-specific data is collected. Geotechnical assumptions do affect strip ratio and therefore economics, so they cannot be omitted entirely. The cautionary statement required by Clause 38 implicitly covers such preliminary assumptions.",
+    "key_concept": "Scoping Studies may use analogy-based slope angles with caveats; site-specific data comes at PFS stage",
+    "source": "JORC Code 2012, Clause 38; Table 1 Modifying Factors",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-031",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS for an underground gold mine must include environmental studies. Which of the following best describes the required level of environmental integration at DFS stage under JORC Clause 40?",
+    "options": {
+      "A": "A brief desktop environmental review is sufficient for a DFS",
+      "B": "Environmental baseline studies must be substantially complete, enabling quantification of environmental capital and operating costs, closure costs, and identification of all material permits required before construction",
+      "C": "Environmental studies are a regulatory matter and are not considered part of the JORC Modifying Factors",
+      "D": "Environmental costs can be estimated as a percentage of total capex without site-specific baseline data"
+    },
+    "correct": "B",
+    "explanation": "JORC Clause 40 requires that a DFS addresses all Modifying Factors with sufficient rigour to support a final investment decision. Environmental factors are explicit Modifying Factors under Table 1, encompassing environmental approvals, mine closure, and rehabilitation. At DFS level, environmental baseline studies (flora, fauna, water quality, air quality, cultural heritage) must be substantially complete to: (1) size and cost water treatment and management infrastructure; (2) estimate closure and rehabilitation costs with ±10-15% confidence; and (3) identify all permits on the critical path. Using percentage-of-capex estimates without site-specific baseline data would be insufficient for DFS-level environmental cost confidence.",
+    "key_concept": "DFS environmental integration requires complete baseline studies and quantified closure costs",
+    "source": "JORC Code 2012, Clause 40; Table 1 Modifying Factors (Environmental)",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-032",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A mining company is preparing a PFS for a remote iron ore project. The PFS includes a closure cost estimate of '$15-25M based on preliminary rehabilitation concepts'. A reviewer notes this range is adequate for PFS. What closure cost estimation approach is required by the time the project reaches DFS stage?",
+    "options": {
+      "A": "The same range is acceptable at DFS since closure costs are speculative",
+      "B": "DFS requires detailed closure cost estimates based on approved closure plans, specific rehabilitation methods, and current unit rates — typically within the ±10-15% accuracy of the DFS",
+      "C": "Closure costs at DFS can still be estimated at ±25-30% as they are a minor component",
+      "D": "Closure costs are excluded from DFS capital estimates as they occur at end of mine life"
+    },
+    "correct": "B",
+    "explanation": "As studies progress from Scoping (conceptual closure concepts) to PFS (preliminary closure plan and cost range) to DFS (detailed closure cost estimate), the accuracy and specificity of closure costing must increase to match the study level. At DFS stage under Clause 40, closure costs must be estimated based on: a detailed rehabilitation and closure plan; specific methods for landform reconstruction, revegetation, and water management; current market unit rates for earthworks, revegetation, and monitoring; and all ongoing post-closure monitoring obligations. Vague percentage-based or wide-range estimates are inappropriate at DFS level and would undermine the financial modelling accuracy. Many jurisdictions also require closure cost bonds that rely on DFS-level closure cost estimates.",
+    "key_concept": "DFS closure cost estimates must be detailed and within ±10-15%, based on an approved closure plan",
+    "source": "JORC Code 2012, Clause 40; Table 1 Modifying Factors (Environmental/Closure)",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-033",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS for a remote lithium project requires assessment of power and water supply. The project is 150 km from the grid and 80 km from the nearest reliable water source. How should these infrastructure items be treated in a JORC-compliant DFS?",
+    "options": {
+      "A": "Power and water are off-site infrastructure and do not need to be included in the DFS capital estimate",
+      "B": "Power and water supply must be assessed and costed as part of the DFS infrastructure capital, with options evaluated (e.g., grid connection vs. on-site gas/solar hybrid for power; pipeline vs. bore field for water)",
+      "C": "Power and water cost estimates can be deferred to the construction phase",
+      "D": "Only power supply needs to be assessed in a DFS; water can be addressed later"
+    },
+    "correct": "B",
+    "explanation": "Under JORC Clause 40, a DFS must address infrastructure as a Modifying Factor, which explicitly includes power and water supply. For a remote project, these are frequently among the largest capital items and must be fully assessed and costed in the DFS. The DFS should evaluate alternatives (e.g., gas-fired vs. solar-diesel hybrid vs. grid extension for power; pipeline from surface water vs. groundwater bore field for water) through trade-off studies, select the preferred option, and include the full capital and operating cost in the DFS financial model. Excluding or deferring these items would make the DFS incomplete and potentially misleading to investors.",
+    "key_concept": "DFS must fully assess and cost power and water supply infrastructure including alternative options",
+    "source": "JORC Code 2012, Clause 40; Table 1 Modifying Factors (Infrastructure)",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-034",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A PFS for a nickel sulphide project includes a trade-off study comparing three processing options: conventional flotation, HPAL (high-pressure acid leach), and heap leach. What is the correct role of a trade-off study in the context of JORC Clause 39?",
+    "options": {
+      "A": "Trade-off studies are optional at PFS level and only required if the CP requests them",
+      "B": "A trade-off study systematically evaluates alternative technical options against defined criteria (capital cost, operating cost, recovery, risk, schedule) to select the preferred option that forms the basis of the PFS — ensuring the study reflects a technically defensible and reasonable approach",
+      "C": "Trade-off studies are only valid for processing options, not for mining method selection",
+      "D": "The preferred option in a trade-off study must be the lowest capital cost option"
+    },
+    "correct": "B",
+    "explanation": "Trade-off studies are a fundamental component of PFS and DFS methodology. Under Clause 39, the PFS must establish a preferred technical approach for each key aspect of the project. A trade-off study achieves this by: (1) defining evaluation criteria with weightings (capex, opex, recovery, technical risk, schedule, social/environmental); (2) developing each option to comparable levels of definition; (3) scoring and ranking options against the criteria; and (4) selecting the preferred option with documented rationale. The preferred option does not need to be lowest capex — it must be the best overall option meeting the project's objectives. Omitting trade-off studies risks selecting a suboptimal approach or being unable to justify the chosen option, which would undermine the Reasonableness requirement of Clause 39.",
+    "key_concept": "Trade-off studies systematically evaluate alternatives to select the technically defensible preferred option for PFS/DFS",
+    "source": "JORC Code 2012, Clause 39; Table 1 Modifying Factors (Processing/Infrastructure)",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-035",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS for a large open pit copper mine uses Monte Carlo simulation to quantify project risk. The simulation models 10,000 iterations using probability distributions for ore grade, recovery, copper price, and capital cost. What is the primary value of Monte Carlo simulation in a DFS context under JORC Clause 40?",
+    "options": {
+      "A": "Monte Carlo simulation replaces the need for sensitivity analysis in a DFS",
+      "B": "It provides a deterministic NPV that eliminates uncertainty",
+      "C": "It integrates multiple uncertain variables simultaneously to produce a probability distribution of project outcomes (e.g., P10/P50/P90 NPV), enabling more informed risk assessment than single-variable sensitivity analysis",
+      "D": "Monte Carlo simulation is only applicable to commodity price risk, not technical risks"
+    },
+    "correct": "C",
+    "explanation": "Monte Carlo simulation is a powerful risk quantification tool appropriate for DFS-level studies. Unlike single-variable sensitivity analysis (which varies one parameter at a time), Monte Carlo simultaneously samples from probability distributions for multiple uncertain inputs, producing a full probability distribution of NPV, IRR, and payback outcomes. This allows the CP and Board to understand: (1) the probability of achieving positive NPV; (2) P10/P50/P90 outcome ranges; (3) which variables drive the greatest outcome uncertainty (tornado diagrams); and (4) correlations between uncertain variables. A DFS-level risk register combined with Monte Carlo simulation meets the rigour expected under Clause 40 for a project proceeding to investment decision. Monte Carlo supplements, rather than replaces, sensitivity analysis.",
+    "key_concept": "Monte Carlo simulation in DFS provides probability-weighted outcome distributions for multi-variable risk assessment",
+    "source": "JORC Code 2012, Clause 40; Table 1 Modifying Factors (Risk)",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-036",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS capital cost estimate of $500M includes direct costs, indirect costs, and contingency, but a reviewer notes that 'owner's costs' are not separately identified. Why is the separate identification of owner's costs important in a DFS, and what items does it typically include?",
+    "options": {
+      "A": "Owner's costs are irrelevant to DFS capital estimates and are typically excluded",
+      "B": "Owner's costs should be included in the contingency line item to avoid separate tracking",
+      "C": "Owner's costs must be separately identified in a DFS capital estimate as they represent real project expenditure often totalling 5-15% of direct capital; they include project management, owner's team salaries, land acquisition, pre-production working capital, and first fills",
+      "D": "Owner's costs only apply to projects using an EPCM contractor model"
+    },
+    "correct": "C",
+    "explanation": "Owner's costs are a mandatory component of a complete DFS capital estimate and are frequently underestimated or omitted, leading to cost overruns post-FID. Under Clause 40, the DFS must present a comprehensive capital cost with all components identified. Owner's costs typically include: (1) owner's project management team salaries and expenses during design and construction; (2) land acquisition and compensation; (3) pre-production operating costs before first saleable production; (4) first fills of reagents, consumables, and spare parts; (5) training costs; (6) working capital; and (7) financing costs if capitalised. These items can represent 5-15% of direct construction capital and must be separately identified and estimated to achieve DFS accuracy of ±10-15%. Burying them in contingency masks the project's true capital requirement.",
+    "key_concept": "DFS must separately identify owner's costs (PM team, land, pre-production opex, first fills, working capital) — typically 5-15% of direct capital",
+    "source": "JORC Code 2012, Clause 40; Table 1 Modifying Factors (Capital Cost)",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-037",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A PFS for a coal mine compares owner-operated mining versus contract mining. Which factors should the trade-off study consider when assessing contractor versus owner-operated mining for inclusion in the PFS?",
+    "options": {
+      "A": "Only the unit mining cost ($/tonne) should be compared between the two options",
+      "B": "The trade-off should consider unit cost, capital requirements, operational control, flexibility to scale, contractor availability, management complexity, and alignment with long-term mine life",
+      "C": "Contract mining is always preferred at PFS stage because it reduces capital",
+      "D": "Owner-operated mining is always preferred because it provides better operational control"
+    },
+    "correct": "B",
+    "explanation": "The contractor vs. owner-operated mining decision is a material trade-off that affects both capital and operating costs, project risk, and operational control. A PFS-level trade-off study under Clause 39 should evaluate: (1) unit mining cost differences (contractor typically higher opex but lower capex); (2) fleet capital requirements for owner-operated (significant upfront capex vs. contractor-provided equipment); (3) operational control and flexibility to adjust to grade variability; (4) contractor availability and market pricing in the region; (5) management capacity and capability; (6) ability to scale production up or down; and (7) whether the mine life supports the capital investment required for owner-operated mining. There is no universally correct answer — the decision depends on project-specific factors, which is why a structured trade-off study is required.",
+    "key_concept": "Contractor vs. owner-operated mining trade-offs must consider cost, capital, control, flexibility, and mine life",
+    "source": "JORC Code 2012, Clause 39; Table 1 Modifying Factors (Mining)",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-038",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS for a gold project is selecting between two processing flowsheets: (1) conventional CIL (carbon-in-leach) at 92% gold recovery, and (2) a gravity-CIL hybrid at 93.5% recovery but with higher capital cost. How should the flowsheet selection process be documented in the DFS to meet JORC Clause 40 requirements?",
+    "options": {
+      "A": "Only the preferred flowsheet needs to be described in the DFS; rejected alternatives do not require documentation",
+      "B": "The DFS should document: the flowsheet selection criteria used, the trade-off study results comparing both options on NPV, capex, opex, and technical risk, the preferred flowsheet rationale, and the metallurgical testwork supporting the selected recovery assumptions",
+      "C": "Flowsheet selection is a technical matter and does not need to be disclosed in a JORC-compliant DFS",
+      "D": "The CP can select either flowsheet without a trade-off study as long as the metallurgical recovery is supported by testwork"
+    },
+    "correct": "B",
+    "explanation": "Processing flowsheet selection is a fundamental Modifying Factor under JORC Table 1 (Metallurgical Factors) that directly affects Reserve economics. Clause 40 requires that a DFS presents the preferred option with sufficient rigour to support a final investment decision. This requires documenting: (1) the selection criteria and their relative weightings; (2) trade-off study results comparing NPV impact of higher recovery versus higher capital; (3) the technical basis (metallurgical testwork type and scale) supporting the assumed recoveries; (4) the risk assessment for each option; and (5) the rationale for the final selection. Transparency (Clause 4) requires that the basis for key technical decisions be disclosed so a competent technical reader can assess their reasonableness. Documenting only the preferred option without showing the evaluation process would not meet this standard.",
+    "key_concept": "DFS flowsheet selection must be documented through a trade-off study with criteria, comparison, and rationale",
+    "source": "JORC Code 2012, Clauses 4, 40; Table 1 Metallurgical Factors",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-039",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A PFS includes a tailings storage facility (TSF) design. What level of TSF design detail is required at PFS stage compared to DFS stage?",
+    "options": {
+      "A": "TSF design requirements are the same at PFS and DFS — both require a detailed geotechnical investigation",
+      "B": "PFS requires a conceptual TSF layout and preliminary volume estimate based on mine plan; DFS requires a detailed TSF design with geotechnical site investigation, dam break analysis, and construction cost estimate at ±10-15% accuracy",
+      "C": "TSF design is only required at DFS stage — PFS can ignore tailings management entirely",
+      "D": "Both PFS and DFS can use a percentage-of-capex estimate for the TSF"
+    },
+    "correct": "B",
+    "explanation": "TSF design must progress with each study level as it is a major capital item and a significant environmental and safety risk. At PFS stage (Clause 39), a conceptual TSF design is required — sufficient to establish the footprint, volume, and preliminary capital estimate (±25-30%) — including identification of the preferred TSF location and construction method (upstream, centreline, or downstream). Site-specific geotechnical investigation of the TSF foundation is expected to be initiated at PFS. At DFS stage (Clause 40), a detailed TSF design is required based on completed geotechnical investigations, dam stability analysis, dam break inundation mapping, seepage assessment, environmental modelling, and detailed capital and operating cost estimation. The DFS TSF design must be sufficient to support permit applications and meet the required ±10-15% accuracy.",
+    "key_concept": "TSF design progresses from conceptual layout (PFS) to detailed geotechnical and stability design (DFS)",
+    "source": "JORC Code 2012, Clauses 39, 40; Table 1 Modifying Factors (Environmental/Infrastructure)",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-040",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS for a remote manganese project includes road and port infrastructure. The project will require 180 km of sealed road and a dedicated port facility. How should transport and logistics infrastructure be addressed in the DFS under JORC Clause 40?",
+    "options": {
+      "A": "Transport and logistics costs can be assumed from analogous projects at DFS level",
+      "B": "Road and port infrastructure must be included in the DFS capital estimate with detailed design sufficient to achieve ±10-15% cost accuracy, with route surveys completed, port layout designed, and transport logistics modelled",
+      "C": "Transport infrastructure is a government responsibility and does not need to be included in the DFS capital estimate",
+      "D": "Only the operating cost of transport needs to be in the DFS; capital infrastructure can be deferred"
+    },
+    "correct": "B",
+    "explanation": "Infrastructure is an explicit Modifying Factor under JORC Table 1. For a project with major transport infrastructure requirements, the DFS under Clause 40 must include a fully costed infrastructure plan. This requires: (1) route surveys and geotechnical assessment along the road corridor; (2) preliminary road design with earthworks, drainage, and surfacing specifications; (3) port layout with berth design, storage areas, and ship-loading facilities; (4) transport logistics modelling to validate throughput; and (5) capital cost estimates at ±10-15% accuracy. Even if the government ultimately builds or co-funds the infrastructure, the DFS must demonstrate that viable transport exists and that the company understands the full cost. Omitting major infrastructure items would materially understate project capital and could render the DFS's financial analysis misleading.",
+    "key_concept": "DFS transport and logistics infrastructure must be fully designed and costed at ±10-15% accuracy",
+    "source": "JORC Code 2012, Clause 40; Table 1 Modifying Factors (Infrastructure)",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-041",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A company is preparing a PFS for a phosphate mine in a region with Indigenous communities. What social baseline and community engagement requirements must be addressed in the PFS to satisfy JORC Clause 39 Modifying Factors?",
+    "options": {
+      "A": "Social factors are not Modifying Factors under JORC and do not need to be addressed in a PFS",
+      "B": "A basic media review of community sentiment is sufficient for a PFS",
+      "C": "The PFS must address social factors including: identification of affected communities, preliminary social baseline (demographics, livelihoods, cultural heritage), engagement activities conducted, land access arrangements required, and the potential social costs and risks that could affect project economics or schedule",
+      "D": "Social baseline studies are only required at DFS stage; PFS can proceed without community engagement"
+    },
+    "correct": "C",
+    "explanation": "Social factors, including community relations, land access, and social licence to operate, are Modifying Factors under JORC Table 1 because they can materially affect project economics, timing, and viability. Under Clause 39, a PFS must address social factors at a level commensurate with study maturity. This includes: (1) identifying all communities potentially affected by mining, processing, and infrastructure; (2) completing a preliminary social baseline assessing livelihoods, cultural heritage, land use, and demographics; (3) documenting community engagement undertaken and key issues raised; (4) identifying land access requirements and native title or customary land rights; and (5) assessing social risks that could delay construction, require compensation payments, or affect operating conditions. Early engagement avoids the scenario where a technically viable project fails due to unmanaged social risk, which would be a material omission from the PFS.",
+    "key_concept": "PFS must address social baseline, community engagement, and land access as Modifying Factors",
+    "source": "JORC Code 2012, Clause 39; Table 1 Modifying Factors (Social/Environmental)",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-042",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A DFS project schedule shows first production in 36 months from FID. The schedule includes 6 months for government approvals (environmental permit and mining licence). A reviewer questions whether the approval timeline is realistic. How should government approval timelines be handled in a JORC-compliant DFS project schedule?",
+    "options": {
+      "A": "Government approval timelines are outside the company's control and should not be included in the DFS schedule",
+      "B": "The DFS schedule should include realistic government approval timelines based on engagement with regulators, historical approval durations in the jurisdiction, and an assessment of potential delays — with approval milestones identified as critical path items if applicable",
+      "C": "A standard 3-month approval period is appropriate for all jurisdictions",
+      "D": "Government approvals can be assumed as complete for DFS purposes since they are regulatory rather than technical matters"
+    },
+    "correct": "B",
+    "explanation": "Government approval timelines are a material Modifying Factor under JORC Table 1 (Legal/Government Factors). For a DFS under Clause 40, the project schedule must realistically reflect the time required to obtain all necessary approvals, including environmental impact assessment approval, mining licences, water licences, and construction permits. Realistic timelines require: (1) engagement with relevant regulators to understand their requirements and processing times; (2) review of historical approval durations for comparable projects in the same jurisdiction; (3) identification of which approvals are on the critical path; and (4) risk assessment of potential approval delays and their schedule impact. Using an unrealistically short approval period would understate project risk and could mislead investors about the project schedule and associated financing requirements.",
+    "key_concept": "DFS project schedules must include realistic, regulator-informed government approval timelines as critical path items",
+    "source": "JORC Code 2012, Clause 40; Table 1 Modifying Factors (Legal/Government)",
+    "difficulty": 2
+  },
+  {
+    "id": "jorc-07-043",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A mining company completes a DFS internally using its own engineering team without external review. A CP is asked to sign off on the Ore Reserve. What should the CP consider regarding independent peer review of the DFS in the context of JORC Code obligations?",
+    "options": {
+      "A": "Independent peer review is never required under JORC — the CP's sign-off is sufficient",
+      "B": "The CP must consider whether the DFS has been subject to appropriate independent technical review of key assumptions; if the DFS was prepared entirely in-house without external review, the CP should assess whether this creates a material risk of unidentified errors or bias that could undermine the Reserve's reliability",
+      "C": "Independent peer review is required by JORC for all DFS studies before a Reserve can be declared",
+      "D": "Peer review is only required if the project is above $500M capital"
+    },
+    "correct": "B",
+    "explanation": "JORC does not mandate independent peer review of DFS studies as a blanket requirement. However, the CP signing off on an Ore Reserve has personal and professional obligations under Clauses 9-12 to ensure the Reserve is based on work of sufficient quality and rigour. An in-house DFS without independent review may carry elevated risks of systematic bias, optimism, or unidentified errors — particularly in key areas such as capital cost estimation, geotechnical assumptions, metallurgical recovery, and closure costs. The CP should assess: whether the in-house team has the depth of experience required; whether any critical technical assumptions have been independently verified; and whether the absence of external review is a material risk factor that should be disclosed. Many stock exchanges and financing institutions require independent review of DFS results regardless of JORC requirements, and the CP should consider these expectations in their assessment.",
+    "key_concept": "JORC does not mandate DFS peer review but CPs must assess whether in-house studies carry material bias risk",
+    "source": "JORC Code 2012, Clauses 9, 10, 11, 40",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-044",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "During DFS optimisation, a value engineering exercise identifies that switching from a conventional SAG-Ball mill circuit to a HPGR (high-pressure grinding roll) circuit would reduce power consumption by 15% and save $8M per year in operating costs, but requires $25M more in capital. How should value engineering findings be incorporated into a JORC-compliant DFS?",
+    "options": {
+      "A": "Value engineering findings identified after DFS commencement cannot be incorporated without restarting the study",
+      "B": "The HPGR option should be implemented in the DFS if the value engineering analysis demonstrates superior project economics, provided the metallurgical testwork and engineering design are advanced sufficiently to support the ±10-15% accuracy requirement",
+      "C": "Value engineering is only appropriate during Scoping Study and not during DFS",
+      "D": "The CP should ignore value engineering recommendations and proceed with the originally scoped design"
+    },
+    "correct": "B",
+    "explanation": "Value engineering is an integral part of DFS optimisation, not a disruption to it. Under Clause 40, the DFS must identify and adopt the optimal project design that maximises value within technical, environmental, and social constraints. If a value engineering exercise identifies a superior option (in this case, a net present value improvement from the HPGR switch: ~$100M NPV benefit from opex savings at a 10% discount rate vs. $25M additional capital), the DFS team should evaluate it rigorously and, if technically supportable with sufficient testwork and engineering, incorporate it into the DFS base case. This requires: (1) confirming the HPGR performance assumptions with testwork; (2) advancing the HPGR design to sufficient detail for ±10-15% capital accuracy; and (3) documenting the trade-off analysis. The goal of the DFS is to present the optimal project, not to lock in the first concept.",
+    "key_concept": "Value engineering improvements should be incorporated into DFS base case if technically supportable and economically superior",
+    "source": "JORC Code 2012, Clause 40; Table 1 Modifying Factors (Processing/Capital Cost)",
+    "difficulty": 3
+  },
+  {
+    "id": "jorc-07-045",
+    "chapterId": "jorc-07",
+    "domain": "jorc",
+    "question": "A mining company uses a mix of consultants and in-house specialists to prepare a DFS. The ore reserve estimation is done in-house, capital cost estimation by an EPCM contractor, environmental assessment by an independent consultant, and geotechnical work by a specialist firm. Which of the following best describes the CP's responsibilities in this multi-contributor DFS context under JORC Clauses 9-12?",
+    "options": {
+      "A": "Each consultant is responsible for their own section; the CP only needs to sign off on the geological and Reserve components",
+      "B": "The CP who signs off on the Ore Reserve takes overall professional responsibility for the Reserve declaration, which requires reviewing the work of all contributors to ensure their assumptions are reasonable and consistent, even if specialists produced individual sections",
+      "C": "The CP can disclaim responsibility for sections prepared by external consultants",
+      "D": "A separate CP must sign off on each section of the DFS independently"
+    },
+    "correct": "B",
+    "explanation": "Under JORC Clauses 9-12, the CP declaring an Ore Reserve takes overall responsibility for the Reserve statement. The Reserve depends on the DFS Modifying Factors — including capital and operating costs, geotechnical assumptions, environmental costs, and schedule — prepared by specialists and consultants. The CP cannot disclaim responsibility for these inputs by pointing to the consultants who produced them. Instead, the CP must: (1) review the contributions of all specialists to ensure their assumptions are reasonable, internally consistent, and appropriate for the study level; (2) identify where specialist assumptions materially affect the Reserve economics or classification; (3) satisfy themselves that contributors are appropriately qualified; and (4) ensure the integrated DFS fairly represents the project. If the CP is not qualified to assess a particular specialist area, they must engage another appropriately qualified person to review it on their behalf, but responsibility for the overall Reserve declaration remains with the signing CP.",
+    "key_concept": "The CP declaring a Reserve is responsible for the reasonableness of all DFS inputs regardless of which consultants or in-house teams produced them",
+    "source": "JORC Code 2012, Clauses 9, 10, 11, 12, 40",
+    "difficulty": 3
   }
 ]

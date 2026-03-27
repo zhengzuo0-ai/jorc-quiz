@@ -474,5 +474,294 @@
     "key_concept": "Optimal deposit = sufficient tonnage at high grade; grade drives margins, tonnage drives mine life",
     "source": "Mining economics, deposit evaluation",
     "difficulty": 3
+  },
+  {
+    "id": "gold-01-029",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A jeweler offers two wedding rings: one in 18K yellow gold and one in 18K white gold. Both are stamped '750'. Which statement best explains the difference?",
+    "options": {
+      "A": "White gold contains more gold (higher karat) than yellow gold",
+      "B": "Both contain 75% gold, but white gold is alloyed with palladium or nickel instead of copper/silver",
+      "C": "White gold is pure gold treated with a bleaching agent",
+      "D": "The 750 stamp only applies to yellow gold; white gold uses a different system"
+    },
+    "correct": "B",
+    "explanation": "Both 18K yellow and white gold contain exactly 75% pure gold (750 fineness) — the karat designation refers only to gold purity, not alloy composition. Yellow gold is typically alloyed with silver and copper, which preserve the warm golden hue. White gold is alloyed with palladium or nickel, which mask gold's yellow color to produce a silvery-white appearance. Most commercial white gold jewelry is then plated with rhodium for additional whiteness and scratch resistance. Understanding alloy compositions is important when evaluating recovered gold in scrap or e-waste streams, where alloy type affects refining economics.",
+    "key_concept": "18K yellow and white gold both contain 75% Au; alloy metals (Cu/Ag vs Pd/Ni) determine color",
+    "source": "Gold alloy metallurgy, World Gold Council",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-030",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A piece of jewellery is stamped '585'. What karat is this, and approximately what percentage of gold does it contain?",
+    "options": {
+      "A": "10K — 41.7% gold",
+      "B": "14K — 58.5% gold",
+      "C": "18K — 75.0% gold",
+      "D": "22K — 91.7% gold"
+    },
+    "correct": "B",
+    "explanation": "A fineness stamp of 585 means 585 parts per thousand, or 58.5% pure gold, which corresponds to 14 karat (14/24 = 0.5833). The 14K standard is the most common gold purity in the United States and is popular because it offers a good balance of gold content, durability, and affordability. The karat-to-fineness conversion is straightforward: multiply karats by 1000/24. Common benchmarks: 10K = 417, 14K = 585, 18K = 750, 22K = 916, 24K = 999. Mining executives evaluating gold scrap recycling streams must understand these purity levels to estimate gold content accurately.",
+    "key_concept": "585 fineness = 14K = 58.5% Au; karat x (1000/24) = fineness",
+    "source": "Precious metals purity standards, jewellery industry",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-031",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A geochemist recommends BLEG (Bulk Leach Extractable Gold) sampling rather than conventional fire assay for a regional stream sediment survey. What is the primary reason?",
+    "options": {
+      "A": "BLEG is cheaper than fire assay for routine rock samples",
+      "B": "BLEG can detect ultra-low gold concentrations (sub-ppb) over large areas using cyanide leaching of bulk sediment",
+      "C": "BLEG is required by JORC Code for all stream sediment programs",
+      "D": "BLEG provides more accurate results than fire assay for high-grade samples"
+    },
+    "correct": "B",
+    "explanation": "BLEG uses dilute cyanide to leach gold from large bulk sediment samples (typically 1-5 kg), then analyses the solution by AAS or ICP-MS. It excels at detecting gold at parts-per-trillion levels in drainage catchments covering many square kilometres, making it highly efficient for first-pass regional exploration over large areas. Conventional fire assay uses much smaller samples (25-50 g) and is better suited to detailed follow-up sampling or resource definition drilling. BLEG results flag anomalous catchments but cannot pinpoint the source — follow-up soil and rock sampling is required. The technique was developed in Australia in the 1980s and is widely used in West Africa.",
+    "key_concept": "BLEG = bulk cyanide leach of stream sediment; detects sub-ppb Au over large catchment areas",
+    "source": "Exploration geochemistry, Hale & Plant (1994)",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-032",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A laboratory offers fire assay and ICP-MS as options for analysing gold in rock samples. When would a geologist choose fire assay over ICP-MS?",
+    "options": {
+      "A": "When a large suite of elements (Cu, Zn, Pb, As) are also needed from the same sample",
+      "B": "When the highest accuracy for gold specifically is required, particularly for resource estimation samples",
+      "C": "When turnaround time is the priority, as fire assay is faster than ICP-MS",
+      "D": "When samples contain high sulfide content that interferes with the fusion process"
+    },
+    "correct": "B",
+    "explanation": "Fire assay remains the gold standard (literally) for gold analysis because it uses a large 30-50 gram sample charge fused with lead oxide flux, concentrating all gold into a tiny lead button before cupellation and final measurement. This large sample size dramatically reduces sampling error from coarse gold particles (the nugget effect). ICP-MS, while excellent for multi-element analysis at low detection limits, uses only 0.1-0.5 g of dissolved sample, making it susceptible to nugget effect errors. For resource definition drilling where gold accuracy is paramount, fire assay is mandatory. ICP-MS is preferred when multi-element pathfinder data or very low detection limits for trace elements are needed alongside gold.",
+    "key_concept": "Fire assay preferred for Au accuracy (large 30-50 g sample); ICP-MS preferred for multi-element suites",
+    "source": "Analytical geochemistry, SGS/ALS laboratory guidelines",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-033",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A heavy mineral concentrate from a placer sampling program contains several unknown minerals. A mineralogist measures one mineral's specific gravity at 15.6. What is the most likely identity?",
+    "options": {
+      "A": "Magnetite (SG 5.2)",
+      "B": "Pyrite (SG 5.0)",
+      "C": "Electrum (natural gold-silver alloy, SG 12-19 depending on Ag content)",
+      "D": "Cassiterite (SG 6.8-7.1)"
+    },
+    "correct": "C",
+    "explanation": "Specific gravity of 15.6 falls within the range for electrum, the natural gold-silver alloy. Pure gold has SG 19.3, pure silver has SG 10.5, and electrum grades continuously between them depending on the silver content. Electrum with approximately 45-50% silver would have an SG around 15-16. This is significantly higher than all iron sulfides (pyrite SG 5.0, pyrrhotite SG 4.6), oxide minerals (magnetite SG 5.2, cassiterite SG 6.8-7.1), or most gangue minerals. Specific gravity measurement is a rapid, non-destructive screening tool in placer and heavy mineral investigations before more expensive fire assay confirmation.",
+    "key_concept": "SG measurement identifies minerals; electrum SG 12-19 depending on Au:Ag ratio",
+    "source": "Mineralogy, placer mineral identification",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-034",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "Your company is evaluating an urban mining opportunity — processing old printed circuit boards (PCBs) from discarded electronics. Why is this potentially attractive compared to primary gold mining?",
+    "options": {
+      "A": "PCBs contain no other valuable metals, simplifying the recovery process",
+      "B": "PCBs can contain 200-400 g/t gold, far higher grade than most gold mines, plus recoverable platinum group metals and copper",
+      "C": "E-waste recycling is exempt from environmental regulations, reducing costs",
+      "D": "Gold in electronics is in a pure form that requires no further refining"
+    },
+    "correct": "B",
+    "explanation": "High-grade PCBs from computers and smartphones can contain 200-400 g/t gold — an extraordinary concentration compared to even the best hard-rock deposits (typically 5-20 g/t). A tonne of mobile phones yields roughly 300 g of gold, 3 kg of silver, and over 100 kg of copper. Urban mining is driven by this grade advantage, plus the co-recovery of palladium, copper, and other valuable metals. The World Gold Council estimates secondary supply (recycling) contributes approximately 25-30% of annual gold supply. Environmental considerations still apply, but e-waste processing avoids the exploration, development, and land disturbance costs of primary mining.",
+    "key_concept": "PCBs contain 200-400 g/t Au; urban mining exploits grade advantage over primary mines",
+    "source": "World Gold Council, e-waste recycling industry data",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-035",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "Which country holds the largest official gold reserves, and what is the primary reason central banks hold gold?",
+    "options": {
+      "A": "China; to back its currency with a gold standard",
+      "B": "United States; as a reserve asset that holds value independent of any government's creditworthiness",
+      "C": "Germany; to fund domestic gold mining operations",
+      "D": "Switzerland; because Swiss law requires gold backing for the Swiss Franc"
+    },
+    "correct": "B",
+    "explanation": "The United States holds the world's largest official gold reserves at approximately 8,133 tonnes (as of 2024), stored primarily at Fort Knox and the Federal Reserve Bank of New York. Central banks hold gold because it is a reserve asset with no counterparty risk — unlike bonds or currencies, gold cannot be defaulted on by a government. Gold provides portfolio diversification, acts as a hedge against currency debasement and inflation, and maintains confidence during financial crises. Since the end of the Bretton Woods gold standard in 1971, gold is no longer used to directly back currencies, but central banks (especially in Russia, China, and emerging markets) have been net buyers, adding thousands of tonnes since 2010.",
+    "key_concept": "US holds most gold (~8,133 t); central banks hold gold for reserve diversification and counterparty-risk-free status",
+    "source": "World Gold Council, IMF data",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-036",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "The gold-silver ratio is currently at 85:1. A precious metals trader interprets this as gold being historically expensive relative to silver. What does this ratio mean, and what is its typical historical range?",
+    "options": {
+      "A": "85 grams of gold equals 1 gram of silver; normal range is 50-80",
+      "B": "It takes 85 ounces of silver to buy 1 ounce of gold; the ratio has ranged from roughly 15:1 to over 120:1 historically",
+      "C": "Gold production is 85 times higher than silver production annually",
+      "D": "Silver is 85% as pure as gold in standard bullion bars"
+    },
+    "correct": "B",
+    "explanation": "The gold-silver ratio expresses how many ounces of silver are required to purchase one ounce of gold. At 85:1, gold at US$2,000/oz implies silver at approximately US$23.50/oz. The ratio has varied enormously: ancient Rome fixed it at 12:1, it ranged 15-20:1 under bimetallism, stayed near 16:1 under the US Coinage Act, and in modern markets has ranged from about 15:1 (1980 silver spike) to over 120:1 (March 2020 COVID crash). A high ratio suggests silver may be undervalued relative to gold. For mining executives, the ratio affects project economics when silver is a significant by-product credit alongside gold.",
+    "key_concept": "Gold-silver ratio = oz silver per oz gold; modern range roughly 40-120:1; affects by-product economics",
+    "source": "Precious metals market history, World Silver Survey",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-037",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A mining CFO asks about the difference between the 'spot price,' a 'futures price,' and the 'LBMA Gold Price' for gold. Which statement is most accurate?",
+    "options": {
+      "A": "The LBMA Gold Price is set by the Bank of England twice daily and overrides all other prices",
+      "B": "Spot price is the current market price for immediate delivery; futures prices reflect expected future prices; the LBMA Gold Price is a twice-daily benchmark set by auction among LBMA members",
+      "C": "Futures prices are always higher than spot prices due to storage costs",
+      "D": "The spot price and LBMA Gold Price are identical; futures prices are only used by speculators"
+    },
+    "correct": "B",
+    "explanation": "These are three distinct but related pricing mechanisms. The spot price is the real-time over-the-counter price for immediate delivery (within two business days), quoted continuously on electronic trading platforms like COMEX. The LBMA Gold Price (formerly the London Gold Fix) is established twice daily via an electronic auction administered by ICE Benchmark Administration, involving LBMA member banks — it serves as the reference price for most physical gold contracts globally. Gold futures (traded on COMEX) are standardized contracts for delivery on a specified future date; they typically trade at a premium to spot (contango) reflecting carry costs, but can trade at a discount (backwardation) during supply squeezes. Mining companies often use futures to hedge forward production.",
+    "key_concept": "Spot = immediate delivery price; LBMA fix = twice-daily benchmark auction; futures = forward delivery contracts",
+    "source": "LBMA, COMEX, gold market structure",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-038",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A laboratory analysis of a gold drill core returns anomalously high results. The geologist suspects 'coarse gold' is causing the problem and requests a screen fire assay. What does this procedure involve?",
+    "options": {
+      "A": "Crushing the entire sample to 75 microns, splitting it into sub-samples, and assaying each sub-sample separately",
+      "B": "Screening the pulverized sample on a fine mesh (e.g., 150 microns), fire assaying the coarse fraction and a split of the fine fraction separately, then calculating a combined grade",
+      "C": "Using a microscope screen to visually count gold particles before conventional fire assay",
+      "D": "Passing the sample through a cyanide screen to pre-dissolve fine gold before firing the coarse residue"
+    },
+    "correct": "B",
+    "explanation": "Screen fire assay (also called 'screen metallic fire assay') addresses the nugget effect by separating a sample into coarse and fine fractions using a mesh screen (commonly 100-150 microns). The entire coarse fraction is fire assayed because it may contain occasional large gold particles that would be severely under-represented in a conventional small sub-split. Multiple sub-splits of the fine fraction are fire assayed separately, and a weighted average combining coarse and fine fractions is calculated. This technique is essential for refractory or coarse gold deposits where conventional 30-50 g fire assay sub-splits may miss or over-represent occasional nuggets, and is the industry standard for evaluating samples with visible gold.",
+    "key_concept": "Screen fire assay: coarse and fine fractions assayed separately; required when visible or coarse gold present",
+    "source": "Analytical geochemistry, ALS/SGS laboratory procedures",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-039",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A metallurgist recommends commissioning a 'gold deportment study' before designing the processing plant for a new deposit. What information does this study provide?",
+    "options": {
+      "A": "The transport logistics for shipping gold dore from the mine site to the refinery",
+      "B": "The mineralogical and textural characterisation of how gold is distributed among mineral phases — free, locked, associated with sulfides — to predict recoveries and select the appropriate process route",
+      "C": "A legal study determining whether the gold can be exported under local mining regulations",
+      "D": "A geochemical survey mapping gold grade distribution across the deposit"
+    },
+    "correct": "B",
+    "explanation": "A gold deportment study uses automated mineralogy (QEMSCAN or MLA) and specialist assaying to characterise the physical and chemical state of gold in the ore: What proportion is free-milling (liberated), what is locked inside sulfide minerals (pyrite, arsenopyrite), what is finely disseminated in gangue, and what is associated with carbonaceous material? This directly determines the processing approach — free-milling gold responds to CIL/CIP cyanidation; sulfide-locked gold may require flotation concentration or pressure/bio-oxidation pre-treatment; carbonaceous ore requires pre-treatment to prevent preg-robbing. Without deportment data, process plant design is a costly guess.",
+    "key_concept": "Gold deportment = how Au is distributed mineralogically (free, sulfide-locked, fine-grained); drives process route selection",
+    "source": "Metallurgical testwork, Robb (2005) Introduction to Ore-Forming Processes",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-01-040",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A drill program in West Africa intersects a quartz vein with visible pale yellow mineral that looks like gold but is lower density and harder. Laboratory analysis confirms it is electrum. What is electrum?",
+    "options": {
+      "A": "A synthetic gold alloy manufactured for jewellery",
+      "B": "A naturally occurring gold-silver alloy containing typically 20-40% silver, with properties intermediate between the two metals",
+      "C": "A gold-copper alloy found only in porphyry copper deposits",
+      "D": "Fool's gold — iron pyrite with a golden appearance"
+    },
+    "correct": "B",
+    "explanation": "Electrum is a naturally occurring alloy of gold and silver containing typically 20-45% silver, though the ratio varies widely. Ancient sources from Lydia (modern Turkey) and Egypt contained 20-30% silver. Electrum has a lower SG (12-19 depending on Ag content), a paler yellow-white color, and slightly higher hardness than pure gold. It is reported in JORC disclosures as gold equivalent using the prevailing gold-silver price ratio. Electrum occurs in many orogenic and epithermal gold deposits — notably in West Africa (Loulo-Gounkoto, Sabodala) — and must be factored into metallurgical test programs because its refining behavior differs from high-purity gold.",
+    "key_concept": "Electrum = natural Au-Ag alloy (~20-45% Ag); paler, lower SG than pure gold; common in orogenic deposits",
+    "source": "Mineralogy, gold geology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-041",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "The average concentration of gold in seawater is approximately 13 parts per trillion (ppt). If the total volume of the world's oceans is about 1.335 × 10¹⁸ cubic metres, roughly how many tonnes of gold are dissolved in the oceans?",
+    "options": {
+      "A": "About 200 tonnes — less than one year of global mine production",
+      "B": "About 20,000 tonnes — similar to US Federal Reserve holdings",
+      "C": "About 20 million tonnes — more than all gold ever mined by humanity",
+      "D": "About 2 billion tonnes — essentially infinite supply"
+    },
+    "correct": "C",
+    "explanation": "At 13 ppt (13 × 10⁻¹² g/g) and a seawater density of ~1.025 kg/L: the ocean contains approximately 1.335 × 10²¹ litres. Total gold ≈ 13 × 10⁻¹² g/g × 1.025 kg/L × 1.335 × 10²¹ L ≈ 17-20 million tonnes. Total gold ever mined by humanity is approximately 200,000 tonnes, so the oceans contain roughly 100 times more gold than has ever been mined. Despite this enormous total, extraction is not economic — at 13 ppt the energy and chemical costs of processing vast volumes of seawater vastly exceed the value of gold recovered. Several attempts at seawater gold extraction have historically failed on economic grounds.",
+    "key_concept": "Ocean gold ≈ 20 Mt total (~13 ppt concentration); not economic to extract despite enormous total volume",
+    "source": "Goldschmidt (1954), oceanography gold concentration estimates",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-042",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A CEO asks the metallurgist to explain cyanidation — the most common gold recovery method. Which description is most accurate?",
+    "options": {
+      "A": "Gold is melted at high temperature and separated from gangue by centrifugal force",
+      "B": "Dilute cyanide solution (NaCN) dissolves gold in the presence of oxygen, forming a soluble gold-cyanide complex that is then recovered by adsorption onto activated carbon",
+      "C": "Gold is separated from sulfides using sulfuric acid leaching followed by electrolytic recovery",
+      "D": "High-pressure steam is used to dissolve gold at depth, then gold crystallizes at surface as pressure drops"
+    },
+    "correct": "B",
+    "explanation": "Cyanidation (the Elsner reaction, discovered 1887) is the dominant gold recovery method globally. In alkaline conditions (pH 10-11), dilute sodium cyanide (NaCN, typically 0.01-0.05% concentration) dissolves gold in the presence of dissolved oxygen: 4Au + 8NaCN + O₂ + 2H₂O → 4Na[Au(CN)₂] + 4NaOH. The soluble gold-cyanide complex is then adsorbed onto activated carbon in CIL or CIP circuits and stripped by hot caustic solution before electrowinning and smelting to dore. Process plants maintain high pH with lime to prevent HCN gas generation. Cyanide is toxic but breaks down naturally; management is strictly regulated under the International Cyanide Management Code (ICMC).",
+    "key_concept": "Cyanidation: NaCN + O₂ dissolves Au as Au(CN)₂⁻ complex; recovered on activated carbon at pH 10-11",
+    "source": "Elsner (1846), modern gold metallurgy textbooks",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-043",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A process engineer is deciding between carbon-in-leach (CIL) and carbon-in-pulp (CIP) for a new gold processing plant. What is the key operational difference between these two circuits?",
+    "options": {
+      "A": "CIL uses cyanide while CIP uses a different lixiviant (solvent)",
+      "B": "In CIL, leaching and carbon adsorption occur simultaneously in the same tanks; in CIP, leaching is completed first and carbon adsorption occurs in separate downstream tanks",
+      "C": "CIP is used only for alluvial gold while CIL is used for hard-rock deposits",
+      "D": "CIL requires higher cyanide concentrations than CIP, making it more expensive"
+    },
+    "correct": "B",
+    "explanation": "Both CIL and CIP use activated carbon to recover gold from cyanide leach solutions, but differ in configuration. In CIP, ore is fully leached in a series of agitated tanks first, then the gold-bearing solution contacts carbon in a separate adsorption circuit. In CIL, carbon is present directly in the leach tanks — leaching and adsorption happen simultaneously. CIL is preferred for carbonaceous ('preg-robbing') ores where natural carbonaceous material in the ore would compete with activated carbon to adsorb gold from solution. CIL is also common when gold dissolution is fast. CIP is favored when leach residence time is long and carbonaceous interference is minimal. Both use counter-current carbon transfer, with loaded carbon stripped and recycled.",
+    "key_concept": "CIL: simultaneous leach + adsorption (preferred for carbonaceous ores); CIP: leach first, then adsorption",
+    "source": "Gold metallurgy, Marsden & House (2006) 'The Chemistry of Gold Extraction'",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-044",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A gold-copper mine reports its resource as '3.2 Moz AuEq.' The deposit contains gold and copper. What does AuEq (gold equivalent ounces) mean, and why is this metric used?",
+    "options": {
+      "A": "AuEq means the resource was estimated using gold grades only; copper is reported separately",
+      "B": "AuEq converts the value of copper (and any other by-product metals) into an equivalent gold quantity using metal prices and recoveries, enabling a single number to express total in-situ economic value",
+      "C": "AuEq is a legal term required by JORC for polymetallic deposits",
+      "D": "AuEq means the copper in the deposit has been chemically converted into gold through smelting"
+    },
+    "correct": "B",
+    "explanation": "Gold equivalent ounces (AuEq) convert all metal values in a polymetallic deposit into a single gold-equivalent figure for simplified comparison and valuation. The formula is: AuEq = Au oz + (Cu tonnes × Cu price × Cu recovery) / (Au price × Au recovery). For example, with gold at US$2,000/oz, copper at US$9,000/t, and both at 90% recovery: 1 tonne of copper = US$8,100 recovered value = 4.05 oz AuEq. JORC Table 1 requires disclosure of the commodity prices and recoveries used in AuEq calculations for transparency. The metric simplifies investor communication but can be misleading if prices or recovery assumptions are unrealistic — always check the underlying assumptions.",
+    "key_concept": "AuEq converts by-product metal value to gold ounce equivalents using price and recovery ratios",
+    "source": "JORC Code 2012, mining industry valuation practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-01-045",
+    "chapterId": "gold-01",
+    "domain": "gold",
+    "question": "A gold mining company reports AISC of US$1,350/oz for the prior year. A gold price of US$1,900/oz implies what AISC margin, and what does AISC include that cash cost does not?",
+    "options": {
+      "A": "Margin of US$550/oz; AISC adds corporate G&A and income taxes to cash cost",
+      "B": "Margin of US$550/oz; AISC adds sustaining capital, corporate G&A, reclamation accruals, and share-based compensation to operating cash cost",
+      "C": "Margin of US$550/oz; AISC is identical to cash cost but expressed per tonne rather than per ounce",
+      "D": "Margin of US$550/oz; AISC only includes direct mining costs, excluding processing and administration"
+    },
+    "correct": "B",
+    "explanation": "At US$1,900/oz gold price and AISC of US$1,350/oz, the AISC margin is US$550/oz. All-In Sustaining Cost (AISC), defined by the World Gold Council in 2013, was developed to provide a more complete picture of the true cost of sustaining gold production than the previous 'cash cost' metric. AISC includes: operating cash costs (mining, processing, site G&A), sustaining capital (waste stripping, underground development, equipment replacement needed to maintain current production levels), corporate G&A, exploration expense sustaining operations, reclamation/rehabilitation accruals, and share-based compensation. It explicitly excludes growth capital (expansion projects). AISC is now the industry-standard cost metric used in annual reports, investor presentations, and analyst models. A company with AISC below US$1,200/oz in a US$2,000/oz gold environment is considered low-cost.",
+    "key_concept": "AISC = cash cost + sustaining capex + corporate G&A + reclamation + SBC; WGC standard since 2013",
+    "source": "World Gold Council AISC Guidance Note (2013, updated 2018)",
+    "difficulty": 2
   }
 ]

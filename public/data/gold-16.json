@@ -423,5 +423,345 @@
     "key_concept": "Post-coup Mali discount rates: 8-10% -> 12-15%, reflecting expropriation/tax/regulatory risk escalation",
     "source": "Mining sector risk analysis / investment banking research",
     "difficulty": 3
+  },
+  {
+    "id": "gold-16-026",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Mali's 2023 Mining Code revisions introduced a significant change to state equity participation. What is the new minimum government free-carried interest under the revised code?",
+    "options": {
+      "A": "10%, unchanged from the 2019 code",
+      "B": "20%, with an option to acquire up to 35%",
+      "C": "35%, with provisions for the state to acquire additional shares at fair market value",
+      "D": "51%, giving the government majority control"
+    },
+    "correct": "C",
+    "explanation": "The 2023 revisions to Mali's Mining Code increased the government's minimum free-carried interest from 10% to 35%, a dramatic escalation of state participation. The revised code also includes provisions allowing the state to acquire additional equity beyond 35% at fair market value, potentially increasing government ownership further. This change reflects the military junta's resource nationalist agenda and has created significant uncertainty for existing operators whose mining conventions were negotiated under more favorable terms. The retroactive application of these provisions to existing mines remains a contentious legal issue.",
+    "key_concept": "2023 Mining Code: 35% free carry (up from 10%), option for additional state equity, retroactivity disputed",
+    "source": "Mali 2023 Mining Code revisions / industry analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-027",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "A mining company operating in Mali since 2018 holds a stabilization clause in its mining convention guaranteeing fiscal terms for 15 years. The military government now demands compliance with the 2023 Mining Code's increased state equity provisions. What is the company's strongest legal defense?",
+    "options": {
+      "A": "International mining companies are exempt from host country legislation under UN charter",
+      "B": "The stabilization clause in the mining convention constitutes an international law obligation, potentially enforceable through international arbitration (e.g., ICSID)",
+      "C": "ECOWAS regulations override national mining codes in all member states",
+      "D": "The company can simply refuse to comply with no legal consequence"
+    },
+    "correct": "B",
+    "explanation": "Stabilization clauses in mining conventions are contractual provisions that freeze the fiscal and regulatory framework applicable to a project for a defined period. When backed by bilateral investment treaties (BITs), these clauses create international law obligations enforceable through international arbitration, typically at ICSID (International Centre for Settlement of Investment Disputes). B2Gold's Fekola mining convention, for example, contains a fiscal stabilization clause negotiated under the 2012 Mining Code. However, the practical enforceability of stabilization clauses against a sovereign government that controls physical access to the mine is limited, and arbitration is costly and time-consuming, often taking 3-5 years. Companies typically prefer negotiated settlements over adversarial arbitration.",
+    "key_concept": "Stabilization clauses: freeze fiscal terms, enforceable via ICSID arbitration, but practical leverage is limited",
+    "source": "Mining convention law / ICSID jurisprudence",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-16-028",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Since the 2020-2021 military coups, the Malian junta's approach to the mining sector is best characterized as:",
+    "options": {
+      "A": "Complete nationalization of all foreign-owned mining assets",
+      "B": "Progressive resource nationalism: increasing state equity, aggressive tax audits, and executive detentions to extract concessions while keeping mines operational",
+      "C": "A laissez-faire approach with reduced regulation to attract new investment",
+      "D": "Privatization of state mining interests to fund military operations"
+    },
+    "correct": "B",
+    "explanation": "The military government under Colonel Assimi Goita has pursued a strategy of progressive resource nationalism rather than outright nationalization. This includes increasing the mandated state equity from 10% to 35%, conducting aggressive retroactive tax audits resulting in multi-hundred-million-dollar demands, detaining senior executives (Resolute CEO in 2023, Barrick employees in 2024) as leverage in negotiations, and proposing new requirements for in-country gold refining. Crucially, the junta has not shut down or seized mines outright, recognizing that continued operation requires foreign technical expertise and capital. This calibrated approach maximizes revenue extraction while maintaining the production that generates over 70% of export earnings.",
+    "key_concept": "Progressive resource nationalism: higher equity, tax audits, executive detentions, but mines kept running",
+    "source": "International Crisis Group / mining industry analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-029",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "B2Gold's Fekola mine operates under a fiscal stabilization agreement negotiated under which mining code, and what is the practical significance of this agreement?",
+    "options": {
+      "A": "The 2023 Mining Code; B2Gold voluntarily adopted the new terms",
+      "B": "The 1999 Mining Code; Fekola is exempt from all subsequent legislation indefinitely",
+      "C": "The 2012 Mining Code; the stabilization clause protects agreed fiscal terms (tax rates, royalties, equity split) for the life of the mining convention",
+      "D": "No stabilization agreement exists; Fekola operates under whatever code is current"
+    },
+    "correct": "C",
+    "explanation": "B2Gold's Fekola mining convention was negotiated under Mali's 2012 Mining Code, which included a fiscal stabilization clause locking in the agreed tax rates, royalty structure, and government equity percentage for the duration of the convention. This means Fekola should theoretically be subject to the 10% free carry and fiscal terms of the 2012 code rather than the 35% demanded under the 2023 revisions. However, the military government has challenged the applicability of these stabilization provisions, arguing that sovereign legislative authority cannot be permanently constrained by contract. B2Gold has had to engage in extensive negotiations to defend its conventional rights while maintaining a workable operating relationship with Bamako.",
+    "key_concept": "Fekola stabilization: 2012 Mining Code terms, 10% free carry locked in, junta challenging applicability",
+    "source": "B2Gold corporate reports / mining convention analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-16-030",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "An exploration company is planning a drilling campaign in the Kayes region of Mali. Which of the following represents the most significant non-geological risk to project execution?",
+    "options": {
+      "A": "Excessive rainfall making drilling impossible year-round",
+      "B": "Lack of any known gold mineralization in the region",
+      "C": "Security threats from armed groups, combined with political instability affecting permitting timelines and community relations",
+      "D": "Inability to import drilling equipment due to permanent trade embargoes"
+    },
+    "correct": "C",
+    "explanation": "While the Kayes region in western Mali is less affected by jihadist insurgency than central and northern Mali, security remains a material exploration risk. Armed groups, banditry, and intercommunal violence can restrict access to exploration sites and require costly security arrangements. Political instability under the military government creates permitting delays, regulatory uncertainty about exploration license renewals, and unpredictable community relations as local populations may be emboldened by the government's nationalist rhetoric to demand greater concessions from exploration companies. Rainfall is seasonal (June-October) rather than year-round, and the Kayes region has well-documented gold mineralization. Trade embargoes have been intermittent rather than permanent.",
+    "key_concept": "Mali exploration risks: security threats, permitting delays, political instability, community tensions",
+    "source": "Mining risk assessment frameworks / Mali security analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-031",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Estimated annual gold smuggling out of Mali through informal channels accounts for approximately:",
+    "options": {
+      "A": "Less than 1 tonne, a negligible amount",
+      "B": "5-10 tonnes, mostly from abandoned industrial mines",
+      "C": "20-50 tonnes, primarily from artisanal mining, representing billions of dollars in lost state revenue",
+      "D": "Over 100 tonnes, exceeding total industrial production"
+    },
+    "correct": "C",
+    "explanation": "An estimated 20-50 tonnes of gold leaves Mali annually through informal and smuggling channels, predominantly originating from the artisanal mining sector. At a gold price of $2,000/oz, this represents $1.3-3.2 billion in gold value that largely bypasses official export channels, customs duties, and royalty payments. The primary smuggling routes run through Bamako to neighboring countries (Guinea, Senegal, Burkina Faso) and ultimately to Dubai, Togo, and other refining centers. This represents a massive fiscal loss for the Malian state, which collects royalties and taxes only on officially declared production. Efforts to formalize ASM and capture this production in official channels have had limited success due to the sector's dispersed nature and the involvement of powerful intermediary networks.",
+    "key_concept": "Gold smuggling: 20-50t/yr, $1.3-3.2B value, ASM-sourced, Dubai-bound, massive fiscal leakage",
+    "source": "OECD / FATF gold supply chain reports",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-032",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "The Direction Nationale de la Geologie et des Mines (DNGM) is Mali's geological survey agency. What is a key limitation affecting its effectiveness?",
+    "options": {
+      "A": "DNGM does not exist; Mali has no geological survey agency",
+      "B": "DNGM has adequate modern equipment but is legally prohibited from sharing data with private companies",
+      "C": "Chronic underfunding, limited modern geophysical and geochemical survey capacity, and insufficient trained geoscientists to cover Mali's vast prospective terrain",
+      "D": "DNGM only covers northern Mali; southern mining areas are surveyed by ECOWAS"
+    },
+    "correct": "C",
+    "explanation": "The DNGM (Direction Nationale de la Geologie et des Mines) is responsible for geological mapping, mineral resource assessment, and mining cadastre administration in Mali. However, it is severely constrained by chronic underfunding, with annual budgets insufficient to conduct modern airborne geophysical surveys, regional geochemical sampling programs, or systematic geological mapping at the 1:50,000 scale needed for effective exploration targeting. The agency has limited numbers of trained geoscientists, and many experienced staff have been recruited by private mining companies offering higher salaries. This capacity gap means that much of Mali's geological potential, particularly in less-explored areas of southern and eastern Mali, remains poorly characterized at the government level, increasing reliance on private exploration investment.",
+    "key_concept": "DNGM: underfunded, limited geophysical capacity, brain drain to private sector, vast unmapped terrain",
+    "source": "World Bank mining sector assessments / DNGM reports",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-033",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Barrick Gold's approach to managing its relationship with Mali's military government has primarily involved:",
+    "options": {
+      "A": "Immediately divesting all Malian assets after the 2020 coup",
+      "B": "Filing international arbitration claims and ceasing all payments to the government",
+      "C": "Continued operation while negotiating revised fiscal terms, making advance tax payments, and emphasizing the mutual economic dependency",
+      "D": "Transferring mine ownership entirely to the Malian government in exchange for a management fee"
+    },
+    "correct": "C",
+    "explanation": "Barrick Gold, as operator of Mali's largest gold complex (Loulo-Gounkoto), has pursued a pragmatic engagement strategy with the military government. This has included continued production to maintain revenue flows for both parties, negotiating revised fiscal arrangements including advance tax payments and adjusted equity structures, publicly emphasizing the mutual dependency between Barrick's technical and capital capabilities and Mali's need for mining revenue, and maintaining direct communication with senior government officials. Despite employee detentions in 2024 and multi-million-dollar tax disputes, Barrick has avoided adversarial actions such as production shutdowns or international arbitration, recognizing that its physical assets are within Mali's sovereign jurisdiction and that long-term relationship management is more productive than legal confrontation.",
+    "key_concept": "Barrick in Mali: pragmatic engagement, advance payments, mutual dependency emphasis, avoids arbitration",
+    "source": "Barrick Gold corporate reports / media analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-034",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Under Mali's mining tax regime, the corporate income tax rate applicable to mining companies is approximately:",
+    "options": {
+      "A": "10%, as a special incentive for extractive industries",
+      "B": "25-30%, broadly consistent with West African regional norms",
+      "C": "45%, the highest in West Africa",
+      "D": "0%, as Mali relies entirely on royalties for mining revenue"
+    },
+    "correct": "B",
+    "explanation": "Mining companies in Mali are subject to a corporate income tax rate of approximately 25-30%, which is broadly consistent with rates across West Africa (Ghana 35%, Burkina Faso 27.5%, Cote d'Ivoire 25%). This is applied alongside the sliding-scale royalty of 3-7% based on gold price, withholding taxes on dividends (10%) and management fees/technical services (various rates), and the government's free-carried equity interest. The cumulative fiscal take, including all taxes, royalties, and government equity, is estimated at 45-55% of pre-tax profits under the 2019 code, rising potentially to 60-65% under the 2023 revisions. Companies also face withholding tax on interest payments to foreign lenders, which affects project financing structures.",
+    "key_concept": "Corporate tax: 25-30%, plus royalties + WHT + state equity = 45-55% total fiscal take",
+    "source": "Mali Mining Code / PwC mining taxation guides",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-035",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Where does Mali rank among African gold-producing nations?",
+    "options": {
+      "A": "First, ahead of South Africa and Ghana",
+      "B": "Third, behind Ghana and South Africa, producing approximately 60-70 tonnes per year",
+      "C": "Tenth, a minor gold producer on the continent",
+      "D": "Fifth, behind Ghana, South Africa, Tanzania, and Sudan"
+    },
+    "correct": "B",
+    "explanation": "Mali is Africa's third-largest gold producer, behind Ghana (approximately 130 tonnes/year) and South Africa (approximately 100 tonnes/year, declining). Mali's combined industrial and artisanal production totals approximately 60-70 tonnes per year, with industrial mines (Fekola, Loulo-Gounkoto, Syama, and others) contributing roughly 60-65% and the ASM sector the remainder. Globally, Mali typically ranks among the top 15-20 gold producers. This ranking underscores both Mali's geological endowment and its strategic importance to the global gold supply chain, which in turn gives the Malian government significant leverage in negotiations with mining companies, as disruptions to Malian production would be felt in global markets.",
+    "key_concept": "Mali: 3rd in Africa, ~60-70t/yr total, top 15-20 globally, strategic supply chain importance",
+    "source": "World Gold Council / USGS mineral commodity summaries",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-036",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "The Manantali Dam on the Bafing River is significant for Mali's mining sector because:",
+    "options": {
+      "A": "It is the primary water source for all gold processing plants in Mali",
+      "B": "It provides hydroelectric power to western Mali's mining operations, reducing reliance on expensive diesel generation",
+      "C": "It was built specifically to service the Fekola mine",
+      "D": "It generates excess power that Mali exports to fund mining subsidies"
+    },
+    "correct": "B",
+    "explanation": "The Manantali Dam, a 200 MW hydroelectric facility on the Bafing River (a tributary of the Senegal River), is a shared resource between Mali, Senegal, and Mauritania managed by the OMVS (Organisation pour la Mise en Valeur du Fleuve Senegal). It provides grid electricity to western Mali, including the Kayes region where Fekola and Loulo-Gounkoto operate. Access to grid hydropower significantly reduces operating costs compared to diesel generation, which can cost $0.25-0.40/kWh versus $0.08-0.12/kWh for hydro. However, grid reliability remains a challenge, requiring mines to maintain backup diesel generators. Mines in southern Mali (Syama) are further from the grid and more reliant on on-site generation, making power one of their highest operating cost components.",
+    "key_concept": "Manantali Dam: 200 MW hydro, reduces mining power costs, but grid reliability issues require diesel backup",
+    "source": "OMVS / Mali energy infrastructure reports",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-037",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Resolute Mining's Syama underground automation project using Sandvik AutoMine faced operational challenges primarily related to:",
+    "options": {
+      "A": "Gold grades being too low to justify the capital investment",
+      "B": "Telecommunications bandwidth limitations, equipment maintenance in a remote tropical environment, and the need for specialized technicians not locally available",
+      "C": "Underground water inflow exceeding pump capacity",
+      "D": "Government opposition to automation due to its impact on local employment"
+    },
+    "correct": "B",
+    "explanation": "While the Syama automated underground mine was a technological milestone, its implementation faced persistent operational challenges. Reliable high-bandwidth telecommunications are essential for remote equipment control but difficult to maintain in a remote West African location. The automated loaders and trucks require specialized maintenance and spare parts with long lead times, and breakdowns reduce the benefit of continuous operation. Skilled automation technicians and software engineers needed for system optimization are scarce in Mali and expensive to fly in. These challenges contributed to lower-than-planned throughput in the early years of automated operation, demonstrating that cutting-edge mining technology requires robust supporting infrastructure and human capital that may not be readily available in remote developing-country settings.",
+    "key_concept": "Syama automation challenges: telecoms, remote maintenance, specialist skills shortage, below-plan throughput",
+    "source": "Resolute Mining operational updates / mining technology analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-16-038",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Under Mali's mining legislation, what environmental obligations apply at mine closure?",
+    "options": {
+      "A": "No closure obligations exist; mines can be abandoned when uneconomic",
+      "B": "Operators must submit a mine closure plan, establish a rehabilitation fund through progressive provisioning during operations, and rehabilitate disturbed land to an agreed post-mining land use",
+      "C": "The government assumes all closure liability in exchange for the 35% equity stake",
+      "D": "Closure obligations apply only to mines that operated for more than 25 years"
+    },
+    "correct": "B",
+    "explanation": "Mali's Mining Code requires operators to submit a mine closure and rehabilitation plan as part of the environmental impact assessment (EIA) process. Operators must establish a mine closure fund through progressive financial provisioning during the operational life of the mine, typically calculated as a fixed amount per tonne mined or per ounce produced. The closure plan must address removal of processing chemicals, tailings dam stabilization and revegetation, pit wall stabilization or flooding, removal of infrastructure not transferred to communities, and restoration of disturbed land to an agreed post-mining land use (typically agriculture or forestry). Enforcement of these provisions has historically been weak, and several legacy mines in Mali have inadequate closure provisioning, creating potential long-term environmental liabilities.",
+    "key_concept": "Mine closure: EIA-linked plan required, progressive fund provisioning, weak enforcement historically",
+    "source": "Mali Mining Code environmental provisions / World Bank extractives governance",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-039",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Mali's Mining Code requires mining companies to contribute to a community development fund. What is the typical basis for calculating these contributions?",
+    "options": {
+      "A": "A percentage of annual revenue or production value, typically 0.1-0.5%, directed to local community projects",
+      "B": "A one-time lump sum payment of $10 million at the start of mining",
+      "C": "No community development obligation exists in Malian law",
+      "D": "Companies must build one school per 1,000 ounces of gold produced"
+    },
+    "correct": "A",
+    "explanation": "Mali's Mining Code mandates that mining companies contribute to community development through a fund calculated as a percentage of annual revenue or production value, typically in the range of 0.1-0.5%. These funds are directed toward local development projects including schools, health clinics, water supply, roads, and agricultural support in communities within the mine's impact area. The fund is managed jointly by the mining company, local government, and community representatives. In practice, the effectiveness of these funds varies significantly: some operations (notably Barrick at Loulo-Gounkoto) have invested substantially in community infrastructure, while others have been criticized for inadequate consultation with communities about spending priorities and for poor project execution quality.",
+    "key_concept": "Community development fund: 0.1-0.5% of revenue, local projects, joint management, variable effectiveness",
+    "source": "Mali Mining Code / community development provisions",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-040",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "A foreign mining company operating in Mali wishes to repatriate dividends to its headquarters. Under current conditions, which factor poses the greatest challenge to capital repatriation?",
+    "options": {
+      "A": "Mali's membership in the CFA franc zone, which normally guarantees free capital movement but has been complicated by the junta's informal foreign exchange controls and banking restrictions",
+      "B": "A permanent ban on all foreign currency transactions in Mali",
+      "C": "Requirement to convert all profits to Bitcoin before repatriation",
+      "D": "Capital repatriation is unrestricted and faces no challenges"
+    },
+    "correct": "A",
+    "explanation": "Mali uses the CFA franc (XOF), pegged to the euro through the BCEAO (Central Bank of West African States), which theoretically guarantees free convertibility and capital movement within the franc zone. However, the military government has imposed informal restrictions on foreign exchange access, delayed central bank approvals for large dividend transfers, and used tax disputes as leverage to block capital outflows. During the ECOWAS sanctions period, banking channels were further disrupted. Mining companies have reported delays of months in obtaining authorization to repatriate dividends, and the government has used the approval process as a tool in fiscal negotiations. This combination of formal CFA zone guarantees and informal practical restrictions creates a complex and unpredictable environment for capital repatriation.",
+    "key_concept": "Capital repatriation: CFA franc zone guarantees undermined by informal junta controls, sanctions disruption",
+    "source": "BCEAO regulations / mining company operational reports",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-16-041",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "A fund manager is comparing Mali and Cote d'Ivoire (CDI) as gold investment destinations. Which statement best captures the comparative risk-reward profile?",
+    "options": {
+      "A": "Mali has superior political stability and lower taxes, making it a lower-risk destination than CDI",
+      "B": "CDI offers a more stable political and regulatory environment with a proven mining code, while Mali offers potentially higher geological upside but significantly elevated political, fiscal, and security risk under the military government",
+      "C": "Both countries have identical risk profiles as members of the CFA franc zone",
+      "D": "CDI has no gold mining industry, so the comparison is irrelevant"
+    },
+    "correct": "B",
+    "explanation": "Cote d'Ivoire has emerged as West Africa's preferred gold investment destination, offering political stability under President Ouattara since 2011, a competitive 2014 Mining Code, efficient permitting, improving infrastructure, and strong geological potential in underexplored Birimian belts. Mali, by contrast, offers a more mature gold mining sector with world-class deposits and proven geological endowment, but these advantages are offset by military government, resource nationalism (35% free carry), executive detentions, ECOWAS sanctions, jihadist insurgency in central/northern regions, and regulatory unpredictability. The result is that CDI attracts new exploration investment that might previously have gone to Mali, and assets in CDI trade at premium valuations (lower discount rates of 8-10%) compared to Malian assets (12-15%). Mali's geological potential remains compelling but is increasingly risk-discounted.",
+    "key_concept": "Mali vs CDI: Mali has geological pedigree but high political risk; CDI offers stability + upside, attracting capital",
+    "source": "Mining investment analysis / Fraser Institute survey",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-16-042",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "During the January-July 2022 ECOWAS sanctions on Mali, how did mining companies primarily maintain supply chain continuity for fuel and reagents?",
+    "options": {
+      "A": "Sanctions had no impact on mining supply chains",
+      "B": "Companies rerouted imports through non-ECOWAS ports (notably Conakry, Guinea, which had also experienced a coup) and increased on-site stockpiles of critical consumables",
+      "C": "All mining operations shut down for the duration of sanctions",
+      "D": "Companies manufactured all reagents and fuel on-site"
+    },
+    "correct": "B",
+    "explanation": "When ECOWAS imposed sanctions on Mali in January 2022 (lifted July 2022), including closure of borders with member states, mining companies faced immediate supply chain disruption for diesel fuel, cyanide, grinding media, and spare parts normally imported through Senegal and Cote d'Ivoire. Companies adapted by rerouting imports through Conakry, Guinea (itself under military rule following a September 2021 coup and thus not enforcing ECOWAS sanctions), increasing on-site strategic stockpiles from typical 2-week to 6-8 week supplies, and in some cases sourcing alternative suppliers. These adaptations increased logistics costs by an estimated 15-25% during the sanctions period. The experience highlighted the vulnerability of landlocked Mali's mining operations to regional political disruptions and prompted companies to maintain higher inventory levels going forward.",
+    "key_concept": "ECOWAS sanctions: supply chains rerouted via Guinea, stockpiles increased, 15-25% logistics cost increase",
+    "source": "Mining company operational updates / logistics analysis",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-043",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "The Kangaba and Bougouni greenstone belts in southern Mali represent:",
+    "options": {
+      "A": "Fully explored and exhausted mineral provinces with no remaining potential",
+      "B": "Non-Birimian geological terranes with no gold prospectivity",
+      "C": "Underexplored Birimian greenstone belts with significant gold discovery potential, benefiting from relatively better security conditions than northern Mali",
+      "D": "Areas reserved exclusively for artisanal mining with no industrial exploration permitted"
+    },
+    "correct": "C",
+    "explanation": "The Kangaba and Bougouni greenstone belts in southern Mali are Birimian-age volcanic-sedimentary sequences that remain significantly underexplored compared to the well-established Kenieba Window and Sikasso (Syama) areas. These belts host regional-scale shear zones and geological features analogous to those controlling major deposits elsewhere in the West African Birimian province. Southern Mali benefits from relatively better security conditions than the jihadist-affected central and northern regions, making field exploration more feasible. Several junior exploration companies have identified promising gold anomalies in these belts, but the challenging political environment has slowed investment in drilling programs. The geological potential is considered substantial based on regional geochemical and geophysical surveys, with multiple targets warranting systematic follow-up.",
+    "key_concept": "Kangaba/Bougouni: underexplored Birimian belts, good geological potential, better security, slowed by politics",
+    "source": "Geological surveys / junior exploration company reports",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-044",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "A metallurgist is reviewing the processing flowsheet for a Malian gold project transitioning from oxide to sulphide ore. The sulphide ore is identified as refractory with gold locked in arsenopyrite. Which processing route would be most appropriate?",
+    "options": {
+      "A": "Simple CIL without any pre-treatment, as standard for all gold ores",
+      "B": "Pre-treatment by oxidation (roasting, pressure oxidation, or bio-oxidation) followed by CIL, to break down sulphide minerals and liberate encapsulated gold",
+      "C": "Gravity separation alone, as refractory gold is always coarse-grained",
+      "D": "Direct smelting of run-of-mine ore without concentration"
+    },
+    "correct": "B",
+    "explanation": "Refractory sulphide ores containing gold locked within arsenopyrite require an oxidation pre-treatment step to break down the sulphide crystal lattice and expose the gold to cyanide leaching. Three main oxidation technologies are available: roasting (thermal oxidation at ~650°C, used at Syama), pressure oxidation or POX (autoclave treatment at high temperature and pressure), and bio-oxidation or BIOX (bacterial oxidation using Acidithiobacillus ferrooxidans). Each has different capital costs, operating costs, and environmental profiles. Without pre-treatment, CIL recovery from refractory ore typically drops below 50%, compared to 85-92% with pre-treatment. The oxide-to-sulphide transition is a critical inflection point for many Malian mines, as it fundamentally changes capital requirements, operating costs, and project economics.",
+    "key_concept": "Refractory ore processing: oxidation pre-treatment (roast/POX/BIOX) essential before CIL, recovery jumps from <50% to 85-92%",
+    "source": "Metallurgical engineering / refractory gold processing literature",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-16-045",
+    "chapterId": "gold-16",
+    "domain": "gold",
+    "question": "Looking at the 3-5 year outlook for Mali's gold mining sector, which scenario is most likely under current conditions?",
+    "options": {
+      "A": "A wave of new mine construction as international investors embrace the 2023 Mining Code",
+      "B": "Complete collapse of the gold mining industry as all companies exit Mali",
+      "C": "Continued production from existing large mines under negotiated terms, but a significant decline in new exploration investment and delayed development projects due to political and fiscal uncertainty",
+      "D": "Mali becomes the world's largest gold producer as the military government invests in state-owned mining operations"
+    },
+    "correct": "C",
+    "explanation": "The most probable 3-5 year outlook for Mali's gold mining sector is a scenario of maintained but not growing production. Existing large operations (Fekola, Loulo-Gounkoto, Syama) will continue to produce under individually negotiated fiscal arrangements, as both operators and the government have strong economic incentives to keep these mines running. However, new greenfield exploration investment will remain depressed due to the 35% free carry, regulatory unpredictability, security concerns, and the availability of more attractive jurisdictions (Cote d'Ivoire, Guinea, Burkina Faso). Development-stage projects will face delays as investors demand higher returns to compensate for elevated risk. The net effect is a gradual erosion of Mali's production pipeline, with declining reserves at mature mines not being replaced by new discoveries at the rate needed to sustain long-term output.",
+    "key_concept": "Mali outlook: existing mines continue, new investment deterred, pipeline erosion, gradual production decline risk",
+    "source": "Mining sector forecasts / investment banking research",
+    "difficulty": 3
   }
 ]

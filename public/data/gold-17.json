@@ -338,5 +338,430 @@
     "key_concept": "Mining Licence: 25 years + 15-year renewal = 40 years max, requires feasibility study + EIA/ECC",
     "source": "Minerals (Prospecting and Mining) Act, 1992",
     "difficulty": 3
+  },
+  {
+    "id": "gold-17-021",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "A geologist mapping the Northern Zone of the Damara Belt notes rocks dominated by low-grade metamorphic phyllites and slates with thrust-bounded copper occurrences. Which statement best characterises this zone's metallogenic distinction from the Central Zone?",
+    "options": {
+      "A": "The Northern Zone is characterised by high-grade gneissic basement and skarn gold deposits identical to those of the Central Zone",
+      "B": "The Northern Zone is a low-grade metamorphic thrust belt hosting sediment-hosted copper deposits in the Otavi and Swakop Groups, distinct from the granite-related gold and uranium systems of the Central Zone",
+      "C": "The Northern Zone is the primary locus of marine diamond deposits and has no hard-rock mineral potential",
+      "D": "The Northern Zone is composed exclusively of Archaean greenstone belts with no Damara Sequence stratigraphy"
+    },
+    "correct": "B",
+    "explanation": "The Damara Belt is subdivided into three structural-metamorphic zones with distinct metallogenic signatures. The Northern Zone is a thrust-and-fold belt dominated by low-grade (greenschist-facies) metamorphism of the Otavi Group carbonates and Swakop Group metasediments. Its principal mineralisation style is sediment-hosted stratiform copper, exemplified by occurrences along the Otavi Mountainland fold belt. The Central Zone, by contrast, underwent amphibolite- to granulite-facies metamorphism, contains abundant Pan-African granite intrusions, and hosts the granite-related gold (skarn and vein), uranium (alaskite-hosted), and base metal systems that characterise Namibia's most economically significant hard-rock deposits. The Southern Zone is a foreland thrust belt with mainly fold-hosted lead-zinc occurrences. Recognising these zone-specific metallogenic styles is essential when generating exploration targets and interpreting geochemical anomalies across the belt.",
+    "key_concept": "Northern Zone: low-grade metamorphism, thrust belt, sediment-hosted copper; contrasts with Central Zone granite-related gold/uranium",
+    "source": "Damara Belt structural zones and metallogenesis",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-022",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Dundee Precious Metals is evaluating an underground extension below the existing Navachab open pit. Which geological factor most strongly supports the economic potential of this underground extension?",
+    "options": {
+      "A": "The presence of disseminated porphyry-style copper-gold mineralisation at depth that is unrelated to the skarn system",
+      "B": "The continuity of high-grade skarn shoots along plunging fold hinges and shear intersections below the current open pit floor, demonstrated by deep drilling intersecting grades above 3 g/t Au",
+      "C": "The occurrence of shallow alluvial gold channels beneath the open pit that are amenable to hydraulic mining",
+      "D": "The absence of sulphide minerals at depth, which simplifies metallurgical processing"
+    },
+    "correct": "B",
+    "explanation": "Underground extension potential at Navachab is underpinned by the structural continuity of the skarn-hosted gold system along plunging fold hinge lines and shear zone intersections. Open-pit mining has confirmed that the highest-grade ore shoots are spatially associated with these structural traps, and deep drilling programmes have intercepted grades exceeding 3 g/t Au at vertical depths beyond the current pit limits. The fold hinges plunge at moderate angles into the subsurface, indicating that mineralised skarn bodies persist at depth. Underground selective mining methods (long-hole open stoping or sub-level caving) could allow higher cut-off grades than open pit mining, potentially improving recovered grade. This underground extension scenario is analogous to similar skarn mines globally where below-pit resources extend mine life by 10-20 years. The key feasibility risk is geotechnical ground conditions in the amphibolite-grade country rocks.",
+    "key_concept": "Navachab underground: plunging fold hinges/shear zones, >3 g/t Au intercepts at depth, extension potential below open pit",
+    "source": "Navachab mine geology and underground potential",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-023",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Otjikoto gold mine, operated by B2Gold Corp, is classified as which deposit type and what are its approximate annual production figures?",
+    "options": {
+      "A": "Skarn-type at a granite-marble contact, producing approximately 50,000 oz/yr",
+      "B": "Orogenic lode gold deposit hosted in shear zones cutting Damara Belt metasediments, producing approximately 170,000–200,000 oz/yr",
+      "C": "Carlin-type sediment-hosted deposit in Nama Group limestones, producing approximately 400,000 oz/yr",
+      "D": "Epithermal high-sulphidation deposit in Cenozoic volcanics, producing approximately 100,000 oz/yr"
+    },
+    "correct": "B",
+    "explanation": "The Otjikoto gold mine, located approximately 300 km north of Windhoek, is operated by B2Gold Corp and is classified as an orogenic lode gold deposit. Mineralisation is hosted in north-northwest-trending shear zones cutting the Damara Belt metasediments and granites. Open pit mining commenced in 2015, and the mine consistently produces approximately 170,000–200,000 ounces of gold per year, making it one of the most significant gold producers in sub-Saharan Africa outside South Africa and Ghana. B2Gold extended mine life through the discovery of the Wolfshag underground zone, a high-grade (>3 g/t Au) extension beneath the main Otjikoto open pit that is now being developed as an underground operation. Otjikoto demonstrates that world-class orogenic gold systems occur in the Damara Belt and validates the exploration potential of similar shear zone-hosted targets elsewhere in Namibia.",
+    "key_concept": "Otjikoto: B2Gold, orogenic lode gold, ~170–200 koz/yr, Wolfshag underground extension, Damara Belt shear zones",
+    "source": "B2Gold Otjikoto mine operations",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-024",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "B2Gold's Wolfshag underground zone at Otjikoto is significant because it:",
+    "options": {
+      "A": "Represents a new porphyry copper-gold discovery unrelated to the orogenic gold system",
+      "B": "Is a high-grade underground extension averaging >3 g/t Au that extends mine life beyond the open pit resources and requires more selective mining than the open pit",
+      "C": "Is a low-grade bulk tonnage zone at surface that lowers the overall mine grade",
+      "D": "Is an alluvial gold deposit in a buried river channel beneath the Otjikoto open pit"
+    },
+    "correct": "B",
+    "explanation": "The Wolfshag zone at Otjikoto was discovered during infill and exploration drilling below the main open pit. It represents a steeply plunging, high-grade (averaging greater than 3 g/t Au) orogenic gold shoot that is spatially and genetically related to the main Otjikoto deposit but extends to depths beyond viable open pit limits. B2Gold has been developing underground infrastructure—decline and level development—to access and mine this high-grade zone using methods such as long-hole stoping. The higher underground mining grade relative to the open pit grade improves mill feed quality and economics. Wolfshag's discovery illustrates a common pattern in orogenic gold systems globally where the highest-grade shoots plunge steeply at depth, and systematic below-pit drilling can reveal significant additional resource. The underground development materially extends Otjikoto's mine life into the late 2020s.",
+    "key_concept": "Wolfshag: high-grade underground extension >3 g/t Au, extends mine life, steeply plunging orogenic shoot below Otjikoto open pit",
+    "source": "B2Gold Otjikoto Wolfshag underground zone",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-025",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Rossing Uranium commenced production in 1976 as one of the world's first large-scale open pit uranium mines. What is the significance of its operational history for understanding Namibian mining?",
+    "options": {
+      "A": "Rossing demonstrated that underground block caving is the optimal method for low-grade uranium mining",
+      "B": "Rossing was the world's first mine to use in-situ leach uranium recovery, setting a global standard",
+      "C": "Rossing's nearly five decades of operation established Namibia's technical mining workforce, infrastructure, and institutional capacity, and it demonstrates the long-term viability of low-grade open pit mining in arid conditions",
+      "D": "Rossing was jointly owned by the United Nations until 2000, providing a governance model for resource-sovereign nations"
+    },
+    "correct": "C",
+    "explanation": "Rossing Uranium, operated since 1976 by Rio Tinto through Rossing Uranium Limited (with a significant Iranian shareholding historically), holds the distinction of being one of the world's longest-continuously operating large open pit uranium mines. Mining alaskite-hosted uranium at grades as low as 0.03–0.05% U₃O₈ has required world-class cost efficiency, large-scale equipment, and innovative acid heap leach and agitation leach processing. Over nearly five decades, Rossing built Namibia's technical mining workforce through systematic training programmes and contributed substantially to the country's royalty and tax revenues. The mine's existence in an arid environment near Swakopmund established critical infrastructure—roads, power transmission, water supply from the Erongo Desalination Plant—that now supports the broader Erongo mineral province. In 2019, China National Uranium Corporation (CNUC) acquired a controlling interest from Rio Tinto, marking a transition in Rossing's ownership.",
+    "key_concept": "Rossing: 1976–present, low-grade alaskite uranium (0.03–0.05% U₃O₈), workforce/infrastructure legacy, CNUC acquired controlling interest 2019",
+    "source": "Rossing Uranium mine history",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-026",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Langer Heinrich uranium mine restarted operations in 2023 after being placed on care and maintenance. What does this restart demonstrate about uranium project economics in Namibia?",
+    "options": {
+      "A": "Uranium projects in Namibia are immune to commodity price cycles due to long-term supply contracts",
+      "B": "The restart demonstrates that uranium project economics are highly sensitive to the uranium spot price; the mine was mothballed when prices fell below ~US$40/lb and restarted as prices recovered above ~US$70/lb",
+      "C": "Langer Heinrich restarted because it discovered a new gold zone that made the project economically viable independent of uranium prices",
+      "D": "The restart was mandated by the Namibian government as a condition of the Minerals Act regardless of market conditions"
+    },
+    "correct": "B",
+    "explanation": "Langer Heinrich, owned by Paladin Energy, is a calcrete-hosted uranium deposit located in the Namib Desert. It was one of several new uranium mines that entered production during the uranium price boom of the mid-2000s. After the 2011 Fukushima disaster triggered a collapse in uranium demand and prices, Langer Heinrich was placed on care and maintenance in 2018 when spot prices fell well below the mine's operating cost threshold of approximately US$40–45/lb U₃O₈. The recovery in uranium prices to above US$70/lb by 2023, driven by renewed interest in nuclear energy as a low-carbon power source, made restart economically viable. Langer Heinrich's mothballing and restart cycle provides a direct case study of how commodity price sensitivity, operating cost structure, and mine restart capital requirements interact in the feasibility analysis of Namibian mining projects—lessons directly applicable to gold and other commodity projects.",
+    "key_concept": "Langer Heinrich: calcrete-hosted uranium, mothballed 2018 at <~US$40/lb, restarted 2023 at >~US$70/lb, commodity price sensitivity case study",
+    "source": "Paladin Energy Langer Heinrich operations",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-027",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Trekkopje uranium project was developed by Areva but never reached sustained commercial production. What was the principal reason for this outcome?",
+    "options": {
+      "A": "The deposit was too small to justify the capital investment",
+      "B": "The project faced fatal geotechnical problems that prevented construction of the open pit",
+      "C": "Extremely low uranium grades (calcrete-hosted at ~100 ppm U₃O₈) combined with the capital-intensive desalination plant required for process water made the project uneconomic when uranium prices fell after 2011",
+      "D": "The Namibian government revoked the mining licence due to environmental violations"
+    },
+    "correct": "C",
+    "explanation": "The Trekkopje uranium project, located near Swakopmund and developed by Areva (now Orano), was based on a large-tonnage but very low-grade calcrete-hosted uranium deposit. The project required a dedicated seawater desalination plant—the Areva Desalination Plant—to supply process water in the hyper-arid Namib Desert, representing a substantial capital commitment. At peak uranium prices (~US$135/lb in 2007), the project appeared viable as a heap leach operation, and construction of the desalination plant proceeded. However, when uranium prices collapsed after Fukushima (2011), the project's already marginal economics became clearly unviable at grades as low as 80–120 ppm U₃O₈. Trekkopje was placed on care and maintenance in 2013 without achieving commercial production, serving as a cautionary example of how infrastructure cost, commodity grade, and price cycle timing can combine to defeat an otherwise technically feasible project.",
+    "key_concept": "Trekkopje: very low-grade calcrete uranium (~100 ppm U₃O₈), desalination plant capital intensity, uneconomic post-Fukushima, never reached commercial production",
+    "source": "Areva Trekkopje project history",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-028",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Husab uranium mine is described as strategically significant beyond its production figures. What is the broader geopolitical and investment significance of China's CGN controlling the Husab operation?",
+    "options": {
+      "A": "It represents China's first mineral investment anywhere in Africa, establishing a precedent for resource diplomacy",
+      "B": "CGN's investment through Swakop Uranium, totalling approximately US$5 billion, is one of the largest single Chinese mining investments in Africa, securing uranium supply for China's nuclear energy expansion programme and positioning China as a dominant player in Namibia's mineral sector",
+      "C": "The investment is primarily significant because Husab is the world's only uranium mine producing fuel-grade uranium without requiring enrichment",
+      "D": "CGN's investment is limited to a minority passive stake of less than 20%, with operational control remaining with Namibian government entities"
+    },
+    "correct": "B",
+    "explanation": "The Husab uranium mine represents one of the largest Chinese mining investments in Africa. CGN's subsidiary Swakop Uranium holds approximately 90% of the project (with Epangelo Mining Company, a Namibian state entity, holding 10%), and total project capital investment has been estimated at approximately US$4–5 billion. For China, Husab is strategically important as a long-term uranium supply source for its rapidly expanding civil nuclear energy programme, which plans to grow nuclear capacity from approximately 55 GW to over 150 GW by 2035. For Namibia, Husab provides royalties, corporate tax revenues, employment, and infrastructure development in the Erongo Region. For the global uranium market, Husab's production (approximately 3,400 t U₃O₈/yr at full capacity) materially increases global supply. The investment also demonstrates China's broader resource-security strategy of securing upstream mineral supply chains across Africa.",
+    "key_concept": "Husab/CGN: ~US$4–5 billion investment, ~90% CGN via Swakop Uranium, 10% Epangelo, ~3,400 t U₃O₈/yr, China nuclear supply security",
+    "source": "CGN Swakop Uranium Husab mine",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-029",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Debmarine Namibia operates specialized vessels to recover diamonds from the Atlantic seabed. Which technology do these vessels primarily use, and why is offshore marine mining increasingly important?",
+    "options": {
+      "A": "Vessels use bucket-wheel dredging to remove seabed sand, but this technology is being phased out because marine diamonds are of lower quality than onshore deposits",
+      "B": "Vessels use crawler-mounted seafloor mining units and riser systems to recover diamondiferous gravel from water depths of 90–200 m, and marine mining is increasingly important as onshore Orange River alluvial deposits are being depleted",
+      "C": "Vessels use underwater explosives to break up kimberlite pipes on the seabed, and marine diamonds account for less than 5% of Namibia's total production",
+      "D": "Marine mining uses sonar-guided autonomous underwater vehicles (AUVs) that hand-pick individual diamonds from the seafloor with robotic arms"
+    },
+    "correct": "B",
+    "explanation": "Debmarine Namibia operates a fleet of purpose-built mining vessels that deploy crawler-mounted seafloor mining machines (known as 'seafloor crawlers' or 'seabed mining machines') to the diamondiferous gravels on the Atlantic continental shelf at water depths typically ranging from 90 to 200 metres. These machines vacuum or mechanically scoop diamondiferous sediment into riser pipes that convey the material to the vessel's processing plant for concentration and diamond recovery. Marine diamond mining has become progressively more important as Namibia's onshore Orange River alluvial deposits—which were the original source of coastal placer diamonds transported seaward by river processes—become increasingly depleted after decades of intensive mining. Debmarine's fleet includes several named vessels such as MV Mafuta, SS Nujoma, and MV Peace in Africa, with the SS Nujoma (named after Namibia's founding president) being one of the most advanced diamond recovery vessels ever built.",
+    "key_concept": "Debmarine: seafloor crawlers + riser systems, 90–200 m water depth, marine mining grows as onshore Orange River alluvials deplete",
+    "source": "Debmarine Namibia operations",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-030",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Under Namibia's Minerals Act 1992, what is the foundational principle regarding ownership of mineral rights, and how does this differ from freehold land ownership?",
+    "options": {
+      "A": "Mineral rights attach to the surface title; the landowner owns all minerals beneath their property",
+      "B": "All mineral rights are vested in the State of Namibia, not in the surface landowner; any person wishing to prospect or mine must apply to the Ministry of Mines and Energy for the appropriate licence",
+      "C": "Mineral rights are privately owned and traded on the Namibian Stock Exchange like any other commodity",
+      "D": "Mineral rights are jointly owned by the State and the customary land authority in communal areas, with a 50:50 revenue split"
+    },
+    "correct": "B",
+    "explanation": "One of the most important foundational provisions of Namibia's Minerals (Prospecting and Mining) Act of 1992 is that all mineral rights are vested in the State of Namibia, irrespective of who owns the surface land. This means that a farmer or freehold landowner has no automatic right to the minerals beneath their property and cannot prevent the state from granting prospecting or mining rights to a third party—though occupiers' rights and compensation provisions do apply. Any individual or company wishing to prospect for or mine minerals must apply to the Ministry of Mines and Energy for the relevant licence (Reconnaissance Licence, Exclusive Prospecting Licence, or Mining Licence). This state ownership principle, enshrined at independence in 1990 and codified in the 1992 Act, reflects the resource sovereignty philosophy common across post-independence African nations and is the legal basis for the government's free carried interest rights.",
+    "key_concept": "Minerals Act 1992: all mineral rights vested in State, not landowner; must apply to Ministry for licences; state sovereignty principle",
+    "source": "Minerals (Prospecting and Mining) Act, 1992, Section 2",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-031",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "NEEEF (New Equitable Economic Empowerment Framework) contains six pillars beyond the headline 25% ownership requirement. A mining company's NEEEF scorecard is being reviewed. Which combination of pillars must be addressed?",
+    "options": {
+      "A": "Ownership, Management Control, Employment Equity, Skills Development, Enterprise and Supplier Development, Community Investment",
+      "B": "Ownership, Export Value, Environmental Compliance, Technology Transfer, Profit Repatriation, and Royalty Payment",
+      "C": "Ownership, Dividend Policy, Stock Exchange Listing, Board Composition, Foreign Debt Ratio, and Profit Sharing",
+      "D": "Ownership, Preferential Procurement, Community Equity, Wildlife Conservation, Language Policy, and Financial Auditing"
+    },
+    "correct": "A",
+    "explanation": "NEEEF is structured around six measurable pillars that together constitute a company's empowerment scorecard: (1) Ownership — minimum 25% by Previously Disadvantaged Namibians (PDNs); (2) Management Control — PDN representation at senior management and board level; (3) Employment Equity — workforce demographics reflecting PDN majority at all employment levels; (4) Human Resources and Skills Development — training programmes, learnerships, and bursaries for PDN employees; (5) Enterprise and Supplier Development — preferential procurement from PDN-owned businesses and development of PDN entrepreneurs in the supply chain; and (6) Community Investment — contributions to community development projects in areas affected by operations. While NEEEF has not been fully legislated as a binding scoring system, mining companies increasingly report against these pillars in their social responsibility disclosures and negotiate NEEEF-aligned structures proactively to maintain their social licence and government relations.",
+    "key_concept": "NEEEF six pillars: Ownership, Management Control, Employment Equity, Skills Development, Enterprise/Supplier Development, Community Investment",
+    "source": "NEEEF policy framework pillars",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-032",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "A junior company holds an EPL over a promising gold target in the Damara Belt. It has completed a scoping study confirming potential economic viability. What is the required process to convert the EPL to a Mining Licence (ML)?",
+    "options": {
+      "A": "The EPL automatically converts to an ML upon expiry of the EPL term without further application",
+      "B": "The company must submit an ML application including a feasibility study, Environmental Impact Assessment, draft Environmental Management Plan, and evidence of financial and technical capacity; the Ministry evaluates the application and, if approved, issues the ML with conditions",
+      "C": "A scoping study is sufficient to obtain an ML; no EIA is required for operations below 500,000 tonnes per annum",
+      "D": "The EPL holder must first list on the Namibian Stock Exchange to demonstrate financial capacity before applying for an ML"
+    },
+    "correct": "B",
+    "explanation": "Converting an EPL to a Mining Licence in Namibia is a multi-step process under the Minerals Act. The EPL holder must submit a formal ML application to the Ministry of Mines and Energy (MME) accompanied by: (1) a detailed feasibility study demonstrating the technical and economic viability of the proposed mining operation; (2) an Environmental Impact Assessment (EIA) that has been submitted to the Ministry of Environment, Forestry and Tourism (MEFT) for review, culminating in an Environmental Clearance Certificate (ECC); (3) a draft Environmental Management Plan (EMP) specifying mitigation measures; (4) a Rehabilitation Plan and Rehabilitation Bond to cover post-mining closure costs; and (5) evidence of the applicant's financial and technical capacity to execute the project. The MME evaluates the application—typically taking 12–24 months—and may impose conditions covering royalties, local content, employment, and reporting obligations. The EPL continues to protect the applicant's tenure during the ML application review period.",
+    "key_concept": "EPL-to-ML conversion: feasibility study + EIA/ECC + EMP + Rehabilitation Bond + financial capacity; 12–24 months review",
+    "source": "Minerals (Prospecting and Mining) Act, 1992",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-033",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Erongo Desalination Plant near Swakopmund was constructed primarily to address water supply challenges for which industry, and what is its broader significance for Namibian mining?",
+    "options": {
+      "A": "It was built to supply domestic drinking water to Walvis Bay and has no relevance to mining",
+      "B": "The plant was built primarily to supply process water to the Erongo Region's uranium mines (principally Rossing and Husab) and demonstrates the feasibility of desalination as a water source for mining in hyper-arid Namibia, providing a model for future gold and other mineral projects",
+      "C": "It was built exclusively for the Trekkopje project and was decommissioned when Trekkopje was mothballed in 2013",
+      "D": "The plant was funded entirely by international aid and is managed by the United Nations Environment Programme"
+    },
+    "correct": "B",
+    "explanation": "The Erongo Region's uranium mining operations, particularly the high-water-demand operations at Rossing and Husab, require large volumes of process water that cannot be sustainably sourced from the region's scarce groundwater. The Areva (Orano) desalination plant was constructed in association with the Trekkopje project and has been repurposed to supply water to the broader Erongo mining cluster. NamWater (Namibia Water Corporation) operates the national water infrastructure, including distribution networks, that deliver desalinated water to mining, municipal, and other users. The successful operation of desalination infrastructure in the Namib demonstrates that water scarcity, while a significant capital and operating cost item, is a solvable constraint for mining projects—not an insurmountable barrier. This precedent is important for evaluating gold and other projects in the Erongo Region and other arid parts of Namibia where desalination-supplemented supply may be the only viable water solution.",
+    "key_concept": "Erongo Desalination Plant: supplies uranium mines (Rossing/Husab), NamWater distributes, proves desalination viable for Namibian mining",
+    "source": "Namibia water infrastructure and Erongo uranium region",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-034",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "What is the role of the Geological Survey of Namibia (GSN), and what types of data does it make available to exploration companies?",
+    "options": {
+      "A": "The GSN is a private company that sells exploration licences; its data is proprietary and not publicly available",
+      "B": "The GSN is a government agency that produces and maintains national geoscience datasets including geological maps, geochemical databases, aeromagnetic surveys, and open-file company reports; this data is publicly available and provides a critical baseline for exploration targeting",
+      "C": "The GSN's mandate is restricted to groundwater and hydrogeological surveys; hard-rock mineral data is managed by a separate body",
+      "D": "The GSN was disbanded after independence in 1990; its functions were transferred to the Ministry of Finance"
+    },
+    "correct": "B",
+    "explanation": "The Geological Survey of Namibia (GSN), a directorate within the Ministry of Mines and Energy, is the national geoscience agency responsible for systematically mapping and characterising Namibia's geology. The GSN produces and maintains: (1) 1:250,000 and 1:50,000 scale geological maps covering the entire country; (2) national airborne magnetic and radiometric survey datasets; (3) the National Geochemical Database from systematic stream sediment and soil sampling; (4) open-file reports from historic exploration companies required to submit their drill logs, geochemical data, and reports upon licence surrender or expiry. Access to GSN data is critical for exploration companies conducting regional target generation, as it allows them to identify geochemical anomalies, structural trends, and geological contacts without incurring the full cost of acquiring this baseline data themselves. The GSN also publishes research on Namibia's mineral deposits, providing geological context for prospective investors.",
+    "key_concept": "GSN: national geoscience agency, geological maps, aeromagnetics, geochemical database, open-file exploration reports publicly available",
+    "source": "Geological Survey of Namibia mandate",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-035",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Namibia's corporate income tax rate for mining companies is 32%. How does this interact with the royalty rate and free carried interest to affect the overall fiscal burden on a gold mining project?",
+    "options": {
+      "A": "Royalties are fully deductible from corporate income tax, meaning the effective combined fiscal take is simply 32% of net profit",
+      "B": "The 3% gold royalty is charged on gross revenue (not profit), making it an effective cost that cannot be fully offset by deductions; combined with 32% corporate tax, 10% government carried interest, and NEEEF dilution, the effective total government take can substantially exceed 40% of project economics",
+      "C": "Namibia offers a special 15% mining tax rate for gold operations to encourage investment, with royalties only applying above a certain profit threshold",
+      "D": "The corporate tax rate of 32% applies only to profits repatriated overseas; Namibia-reinvested profits are taxed at 10%"
+    },
+    "correct": "B",
+    "explanation": "Namibia's fiscal regime for gold mining comprises multiple distinct layers: (1) A 3% royalty on gross revenue (gross sales value), which is revenue-based rather than profit-based, meaning it applies regardless of profitability and cannot be waived during loss years. (2) Corporate income tax at 32%, applied to taxable profit after allowable deductions (operating costs, capital allowances, exploration expenditure, but generally not royalties in full). (3) The government's up to 10% free carried interest, which effectively represents a 10% share of dividends without prior capital contribution. (4) NEEEF 25% ownership dilution, which reduces the foreign investor's share of dividends. The royalty is particularly impactful because it is imposed on revenue, making it effectively a 3% gross margin compression at all production levels. For a gold project with a 30% operating margin, the 3% revenue royalty represents approximately 10% of operating profit. When all fiscal instruments are considered, the total government take (royalties, taxes, and equity distributions) can substantially exceed 40% of the project's economic value, comparable to or slightly higher than peer African mining jurisdictions such as Tanzania and Zambia.",
+    "key_concept": "Fiscal regime: 32% corporate tax + 3% revenue royalty + 10% government carried interest + 25% NEEEF dilution; total government take >40%",
+    "source": "Namibia mining fiscal regime",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-036",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Karibib pegmatite field in the Central Damara Belt is of growing interest for which critical minerals, and how does this relate to the region's gold potential?",
+    "options": {
+      "A": "The Karibib field contains massive sulphide nickel-cobalt deposits unrelated to the pegmatite system",
+      "B": "The Karibib pegmatites host lithium (in spodumene and petalite pegmatites), cesium (in pollucite), tantalum, and rare earth elements; the same Pan-African granitic magmatism that generated these rare metal pegmatites also drove gold-bearing hydrothermal systems in the surrounding marble and schist units",
+      "C": "Karibib is exclusively a tin-tungsten district; all lithium and rare earth potential is confined to the Sperrgebiet",
+      "D": "The Karibib field contains only industrial minerals (kaolin and feldspar) used for ceramics, with no critical mineral significance"
+    },
+    "correct": "B",
+    "explanation": "The Karibib district in the Central Damara Belt contains one of the world's most diverse and well-documented rare metal pegmatite fields. The pegmatites, emplaced during Pan-African (550–500 Ma) magmatic differentiation, host lithium (spodumene and petalite), cesium (in pollucite at the Bikita-analogue Karibib deposits), tantalum (coltan), beryllium (beryl), and rare earth elements. The Uis tin mine, historically operated in the same regional context, reflects the broader lithophile metal endowment of the belt. Critically, the same granite magmatic events that generated these highly differentiated pegmatites also drove earlier, gold-transporting hydrothermal fluid events in the surrounding country rocks. Exploration companies working on gold targets in the Central Damara Belt are therefore well-positioned to assess the co-occurring pegmatite lithium and rare earth potential, adding exploration optionality to their project portfolios at a time when global demand for lithium battery materials is surging.",
+    "key_concept": "Karibib pegmatites: lithium (spodumene/petalite), cesium (pollucite), tantalum, REE; same Pan-African magmatism drives both pegmatite and gold hydrothermal systems",
+    "source": "Karibib pegmatite field geology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-037",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Otavi Mountainland in northern Namibia, historically centred on the Tsumeb mine, represents which metallogenic system, and what exploration lessons does Tsumeb's legacy offer?",
+    "options": {
+      "A": "Tsumeb was a Witwatersrand-type gold-uranium reef deposit; its legacy shows that Namibia's gold potential is confined to Palaeoproterozoic basement",
+      "B": "Tsumeb was a polymetallic carbonate replacement (MVT-analogue) deposit in Otavi Group dolomites, producing copper, lead, zinc, silver, vanadium, and germanium; its legacy demonstrates that the Otavi Group carbonates host world-class base metal systems that are structurally and stratigraphically controlled",
+      "C": "Tsumeb was a SEDEX (sedimentary exhalative) copper-zinc deposit in marine shales; its closure was due to water flooding rather than ore depletion",
+      "D": "Tsumeb was an iron oxide copper-gold (IOCG) deposit; its legacy is that IOCG systems are widespread throughout the Northern Damara Zone"
+    },
+    "correct": "B",
+    "explanation": "The Tsumeb mine, which operated from 1907 to 1996, was one of the world's most mineralogically complex and prolific mines, producing over 30 million tonnes of ore containing copper, lead, zinc, silver, cadmium, germanium, vanadium, and arsenic from a polymetallic carbonate-hosted pipe-like body in the Otavi Group dolomites of the Northern Damara Zone. While classified in various ways, its geological setting—carbonate replacement with structural and stratigraphic controls—shares characteristics with both Mississippi Valley Type (MVT) and carbonate-replacement deposits. Tsumeb's extraordinary mineral diversity (hundreds of unique mineral species, several named Tsumebite) and its closure in 1996 due to declining grades and ore complexity rather than total depletion illustrates the importance of mineral processing testwork in complex polymetallic systems. Ongoing exploration in the Otavi Mountainland targets analogous carbonate-hosted base metal mineralisation along known structural corridors, with exploration for deeper extensions and satellite deposits continuing.",
+    "key_concept": "Tsumeb: polymetallic carbonate-hosted (MVT-analogue) in Otavi Group dolomites, Cu-Pb-Zn-Ag-Ge-V, closed 1996, model for Otavi Mountainland exploration",
+    "source": "Tsumeb mine geological legacy",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-038",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "The Sperrgebiet ('Forbidden Territory') in southern Namibia is subject to access restrictions that have historically limited exploration. Why is this area legally restricted, and what mineral potential does it contain beyond diamonds?",
+    "options": {
+      "A": "The Sperrgebiet is restricted because it is a UNESCO World Heritage archaeological site containing San rock art; its mineral potential is negligible",
+      "B": "The Sperrgebiet is Namibia's primary military training zone; restrictions have prevented all geological mapping and it contains no known mineral deposits",
+      "C": "The Sperrgebiet (Diamond Area No. 1) was declared a restricted zone during the German colonial era to protect alluvial and marine diamond deposits; beyond diamonds, the area contains exposed Precambrian basement rocks and Nama Group sediments with potential for base metals, and some portions have been incorporated into the Sperrgebiet National Park with controlled access for research",
+      "D": "The Sperrgebiet is restricted due to nuclear contamination from historic uranium mining; entry is permanently prohibited and no mineral exploration will be permitted for 200 years"
+    },
+    "correct": "C",
+    "explanation": "The Sperrgebiet ('Forbidden Area' in German) was declared a restricted diamond area by German colonial authorities in 1908 following the discovery of alluvial diamonds near Lüderitz and Kolmanskop. After Namibian independence, portions of the Sperrgebiet were incorporated into the Sperrgebiet National Park (declared 2008), one of the world's largest coastal protected areas. Namdeb Holdings holds exclusive diamond rights over the remaining Sperrgebiet area, and access for non-Namdeb purposes is strictly regulated by the Ministry of Mines and Energy through special permits. Geologically, the Sperrgebiet exposes Precambrian basement (Richtersveld Subprovince), Gariep Belt metamorphics, and Nama Group sedimentary rocks, with reported occurrences of base metal mineralisation that have received limited systematic modern exploration due to access restrictions. The gradual rationalisation of access restrictions and the incorporation of research permits for scientific study provide limited but growing opportunities for non-diamond geological investigations.",
+    "key_concept": "Sperrgebiet: historic diamond-protection restriction since 1908, Namdeb exclusive diamond rights, some area now Sperrgebiet National Park, limited non-diamond exploration",
+    "source": "Sperrgebiet Diamond Area history and regulations",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-039",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Namibia is a member of the SADC Mining Protocol. What obligations does this membership create for Namibia's mining regulatory framework, and how does it benefit exploration investors?",
+    "options": {
+      "A": "SADC membership requires Namibia to nationalise all mining operations within its borders and transfer ownership to SADC collectively",
+      "B": "The SADC Mining Protocol (part of the SADC Protocol on Mining) commits member states to harmonise mining legislation, promote regional investment frameworks, share geological data, and facilitate cross-border infrastructure development; for investors, this provides greater policy predictability and enables regional project comparisons",
+      "C": "SADC membership in mining matters is purely ceremonial with no binding obligations on member states' domestic mining legislation",
+      "D": "The SADC Mining Protocol exclusively governs diamond trading and has no relevance to gold, uranium, or base metal mining operations"
+    },
+    "correct": "B",
+    "explanation": "The Southern African Development Community (SADC) Protocol on Mining, to which Namibia is a signatory, commits member states to a set of principles aimed at promoting sustainable mineral development across the region. Key commitments include: harmonising mining policies and legislation to reduce inconsistencies that create barriers to cross-border investment; creating an enabling environment for private sector participation; promoting the use of mineral resources for regional development; sharing geological and mineral information among member states; and facilitating infrastructure development (including transport, energy, and water) that supports mining across national boundaries. For exploration and mining investors, SADC membership signals Namibia's commitment to internationally recognised governance standards, provides a framework for dispute resolution at regional level, and allows project economics to be benchmarked against comparable jurisdictions (South Africa, Botswana, Zambia, Zimbabwe). The SADC framework also supports Walvis Bay's development as a regional logistics hub, benefiting Namibian mining exports.",
+    "key_concept": "SADC Mining Protocol: harmonised legislation, investment frameworks, geological data sharing, regional infrastructure; improves policy predictability for investors",
+    "source": "SADC Protocol on Mining, Namibia membership",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-040",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Artisanal and small-scale mining (ASM) is regulated in Namibia under the Minerals Act. A company discovers that artisanal miners are working informally on ground covered by their EPL. What is the correct legal position and practical approach?",
+    "options": {
+      "A": "The EPL holder has the right to immediately evict artisanal miners using private security forces without any legal process",
+      "B": "Artisanal miners working without a Minerals Act licence are operating illegally on the EPL holder's ground; the EPL holder should notify the Ministry of Mines and Energy and engage with the Ministry and local communities on formalisation pathways, as unilateral eviction may create community conflict",
+      "C": "Artisanal mining supersedes EPL rights; the EPL holder has no legal recourse and must negotiate a royalty-sharing agreement with the artisanal miners",
+      "D": "Under Namibian customary law, artisanal mining on communal land takes precedence over state-issued licences; EPL holders must accept co-existence indefinitely"
+    },
+    "correct": "B",
+    "explanation": "Under the Minerals Act of 1992, all prospecting and mining activities—including artisanal mining—require a valid licence from the Ministry of Mines and Energy. Artisanal miners operating without a licence are technically in breach of the Act. However, ASM communities are often economically marginalised, and unilateral enforcement by EPL holders without involving the Ministry and engaging with communities can generate serious social conflict that undermines the project's social licence to operate and attracts adverse media and regulatory attention. Best practice—aligned with the International Finance Corporation's Performance Standards and SADC guidelines—is to notify the Ministry of the situation, request that the Ministry engage with the artisanal miners, and simultaneously explore whether a formalised artisanal mining zone or small-scale mining licence area could be designated that coexists with (and does not compromise) the EPL holder's priority ground. This collaborative approach manages legal rights while preserving community relationships essential for future mining operations.",
+    "key_concept": "ASM on EPL ground: artisanal miners technically unlicensed/illegal; notify Ministry, engage community for formalisation; avoid unilateral eviction to protect social licence",
+    "source": "Minerals Act 1992, ASM regulation, IFC Performance Standards",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-041",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "A junior explorer in the Damara Belt reports discovering a 2 km long soil geochemical anomaly with peak values of 350 ppb Au, coincident with a magnetic low interpreted as a marble unit bounded by faults. Which next exploration step is most appropriate and why?",
+    "options": {
+      "A": "Immediately commence a 10,000 m diamond drilling programme to test for JORC-compliant Mineral Resources",
+      "B": "Conduct follow-up detailed soil sampling on a tighter grid to define the anomaly geometry, followed by an IP geophysical survey to detect sulphide haloes associated with gold mineralisation, before designing a targeted RC drilling programme",
+      "C": "Abandon the target because 350 ppb Au in soils is too low to indicate an economic deposit",
+      "D": "Apply directly for a Mining Licence based on the geochemical anomaly alone, as the Minerals Act permits ML applications at the anomaly stage"
+    },
+    "correct": "B",
+    "explanation": "A 2 km soil anomaly at 350 ppb Au coincident with a structurally controlled marble unit is a genuinely interesting early-stage gold target in the Damara Belt context, consistent with the footprint of skarn or vein-hosted mineralisation. However, immediate diamond drilling would be premature and capital-inefficient: the anomaly geometry is not yet well-defined, the sulphide distribution (an important ore vector in Damara skarn systems) is unknown, and the structural interpretation needs refinement. The appropriate next steps are: (1) Detailed soil sampling on a 50 m × 25 m or tighter grid to delineate the anomaly's core, extent, and orientation; (2) An induced polarisation (IP) survey across the anomaly to detect disseminated or massive sulphide zones, which in Damara skarn systems host the gold; (3) Possibly ground or drone magnetics to better constrain the granite contact geometry. Only after these steps will a geologically rational RC drill plan—targeting the intersection of the geochemical anomaly, IP chargeability high, and the structural trap—be ready for execution. This staged approach is both technically rigorous and consistent with JORC Code exploration reporting standards.",
+    "key_concept": "350 ppb Au anomaly workflow: tight-grid soil sampling → IP geophysics → RC drilling; staged approach before diamond drilling",
+    "source": "Damara Belt gold exploration methodology",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-042",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "Walvis Bay port and the TransNamib rail network are critical infrastructure for Namibian mining. How do these specifically benefit a hypothetical gold mine in the Damara Belt near Karibib?",
+    "options": {
+      "A": "Walvis Bay and TransNamib have no relevance to gold mining as gold doré is air-freighted directly from mine sites to refineries without passing through ports",
+      "B": "Walvis Bay provides a deep-water export port for bulk reagents (cyanide, lime, diesel), consumables, and equipment imported for mine operations, while the TransNamib railway line between Windhoek and Swakopmund passes through Karibib, enabling lower-cost bulk freight movement compared to road haulage alone",
+      "C": "TransNamib provides passenger rail services only; all freight in Namibia moves exclusively by road",
+      "D": "Walvis Bay port is exclusively dedicated to the fish processing industry and is not available for mining freight"
+    },
+    "correct": "B",
+    "explanation": "Karibib is located on the historic TransNamib main line railway that runs from Windhoek westward through Karibib to Swakopmund and Walvis Bay—a critical infrastructure advantage for mining operations. Walvis Bay is Namibia's principal deep-water port and the premier logistics hub for southern-central Africa, handling container, bulk, and break-bulk cargo. For a Damara Belt gold mine near Karibib, this infrastructure provides: (1) Import logistics for heavy mining equipment (mining trucks, mill components), reagents (sodium cyanide, lime, activated carbon for CIL/CIP circuits), and diesel fuel via Walvis Bay and rail; (2) Export logistics for gold doré bars (typically air-freighted due to high value and small volume, but project consumables and spares benefit from the port); (3) Rail connectivity reducing road transport costs, road wear, and diesel consumption for bulk freight. TransNamib's capacity constraints (aging rolling stock and track) are a known infrastructure risk, but ongoing investment in port expansion and rail rehabilitation as part of Namibia's Corridor Development Plans is improving freight reliability.",
+    "key_concept": "Walvis Bay: deep-water import/export hub; TransNamib rail through Karibib to Walvis Bay: bulk freight for reagents/equipment; infrastructure advantage for Central Damara mines",
+    "source": "Namibia transport infrastructure, TransNamib, Walvis Bay port",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-17-043",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "A gold exploration company announces a significant drilling discovery at a previously unknown shear zone in the Damara Belt, achieving intercepts of 25 m at 4.2 g/t Au. What JORC reporting obligations apply to the public announcement of these drill results?",
+    "options": {
+      "A": "No JORC reporting obligations apply in Namibia as it is not an ASX-listed company jurisdiction; any announcement style is acceptable",
+      "B": "The announcement must comply with JORC Code 2012 Table 1 reporting requirements: disclosing drill hole collar coordinates, azimuth and dip, downhole depths, sample intervals, assay methods, QAQC procedures, the basis for reporting mineralised width, and a statement that the results are not a Mineral Resource",
+      "C": "The company must first obtain a JORC certification stamp from the Namibian Ministry of Mines before publishing any drilling results",
+      "D": "Drilling results can be reported simply as 'significant gold intersected' without quantitative data until a Preliminary Economic Assessment is completed"
+    },
+    "correct": "B",
+    "explanation": "Whether or not a company is listed on the ASX, compliance with JORC Code 2012 is the globally recognised best-practice standard for reporting exploration results, and most international investors, stock exchanges (ASX, TSX, JSE, LSE), and financiers require it. For the announcement of drilling results, JORC Code 2012 Section 4 and Table 1 require: (1) Drill collar locations (UTM coordinates and datum), azimuth, dip; (2) Downhole depths reported as 'from-to' intervals; (3) Sample intervals and assay methods used; (4) Quality assurance/quality control (QAQC) procedures including standards, blanks, duplicates, and laboratory accreditation; (5) The basis for reporting true width versus downhole width (core/chip recovery, structural dip considerations); (6) A clear statement that reported intersections represent exploration results and do not constitute a JORC Mineral Resource estimate. Failure to include these disclosures would expose the company to regulatory action from its listing exchange, investor claims of misleading reporting, and reputational damage. A Competent Person's signature confirming their qualifications and consent to the report is also required.",
+    "key_concept": "JORC Code 2012 Table 1: collar coordinates, azimuth/dip, from-to intervals, assay methods, QAQC, true width basis, CP signature required for drill result announcements",
+    "source": "JORC Code 2012, Section 4 and Table 1",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-044",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "In reviewing historical exploration in the Damara Belt, a geologist notes that several companies conducted soil sampling and even drilling in the 1980s but abandoned their licences with inconclusive results. What are the most likely reasons these historical programmes failed to identify economic gold targets, and how should a modern explorer address these limitations?",
+    "options": {
+      "A": "Historical programmes were perfectly adequate; the absence of economic discoveries proves the Damara Belt has no gold potential beyond Navachab",
+      "B": "Historical failures likely reflect: (1) outdated geochemical methods with high detection limits that missed low-ppb Au anomalies; (2) drilling based on geological mapping alone without IP geophysics to identify sulphide targets; (3) poor QAQC protocols introducing assay contamination or sample loss; (4) insufficient drill depth to test below oxide zones. Modern exploration should apply ultra-low detection limit (<1 ppb Au) geochemistry, IP surveys, rigorous QAQC, and deeper drilling",
+      "C": "Historical programmes failed only because of political instability during the South African administration period; modern political stability alone guarantees exploration success",
+      "D": "Historical programmes all used diamond drilling which penetrates rock too slowly; modern RC drilling would have discovered the same targets faster and cheaper"
+    },
+    "correct": "B",
+    "explanation": "Historical exploration failures in the Damara Belt reflect several well-understood technical limitations of pre-1990 exploration practice: (1) Geochemical detection limits: Pre-1990 fire assay methods often had gold detection limits of 10–20 ppb, missing the subtle 2–5 ppb Au soil anomalies that modern ultra-trace methods (aqua regia digestion + ICP-MS, or fire assay with gravimetric finish) detect routinely. In an orogenic or skarn gold system, the soil anomaly footprint may be defined by values well below 10 ppb. (2) Geophysics: IP surveys were rarely conducted in the 1970s–1980s; without IP data, drilling was often positioned on geological contacts without identifying the sulphide-rich zones that host visible gold and represent the best drill targets. (3) QAQC: Pre-modern exploration routinely lacked blank, standard, and duplicate insertions, making assay results unreliable. (4) Depth: Many historical holes were <100 m, insufficient to test below the oxidised zone where gold in sulphides is most reliably preserved and detectable. Modern re-assessment of historical data—combined with new geochemistry, IP, and strategic deeper drilling—has reversed 'failed' exploration licences into discoveries across multiple African gold belts.",
+    "key_concept": "Historical failures: high detection limits, no IP geophysics, poor QAQC, shallow drilling; modern approach: <1 ppb Au geochem, IP surveys, rigorous QAQC, deeper drilling",
+    "source": "Exploration methodology review, Damara Belt",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-17-045",
+    "chapterId": "gold-17",
+    "domain": "gold",
+    "question": "An investor is comparing Namibia against Tanzania and Zambia as locations for a new gold exploration programme. Summarising Namibia's key competitive advantages and risks, which assessment is most accurate?",
+    "options": {
+      "A": "Namibia has no competitive advantages; Tanzania and Zambia have larger proven gold endowments and lower fiscal burdens, making Namibia uncompetitive",
+      "B": "Namibia's competitive advantages include: political stability (consistent top-three African governance ranking), established mining infrastructure (Walvis Bay port, TransNamib rail, power grid, skilled workforce from uranium/diamond sectors), transparent English-language legal system, and underexplored Central Damara Belt with proven gold (Navachab, Otjikoto). Key risks include: water scarcity, up to 35% equity dilution (NEEEF + government carry), relatively small land area limiting portfolio scale, and limited domestic capital markets for junior financing",
+      "C": "Namibia's only advantage is its currency peg to the South African Rand; in all other respects it is identical to its neighbours",
+      "D": "Namibia's key risk is volcanic activity that destroys exploration infrastructure annually, offset by a uniquely low 5% corporate tax rate for gold miners"
+    },
+    "correct": "B",
+    "explanation": "A rigorous comparative assessment of Namibia for gold exploration reveals a genuinely differentiated risk-reward profile. Competitive advantages: (1) Political and institutional stability — Namibia consistently ranks among Africa's top three most stable democracies (Ibrahim Index of African Governance), reducing sovereign risk. (2) Infrastructure — Walvis Bay deep-water port, TransNamib rail, national power grid (NamPower), and a technically skilled mining workforce built over decades of uranium and diamond operations. (3) Legal framework — the Minerals Act 1992 provides transparent, English-language tenure security with up to 40-year mining licences. (4) Underexplored geology — the Central Damara Belt's gold potential is demonstrated by Navachab and Otjikoto but large portions remain untested by modern methods. Key risks: (1) Water scarcity — most of Namibia receives <250 mm/yr rainfall, requiring water management solutions that add capital and operating cost. (2) Equity dilution — up to 35% combined NEEEF + government carry reduces investor returns. (3) Scale — Namibia's smaller land area and limited-demonstrated gold endowment compared to Tanzania (Geita, Bulyanhulu, North Mara) or Zambia (Copperbelt base metals) limits portfolio scale opportunities. (4) Junior financing — Namibia lacks a domestic junior equity market comparable to the ASX; international listings (TSX-V, LSE AIM) are required for junior fundraising.",
+    "key_concept": "Namibia advantages: governance, infrastructure, legal framework, underexplored Central Damara; risks: water scarcity, 35% equity dilution, scale, junior financing limitations",
+    "source": "Namibia investment environment comparative assessment",
+    "difficulty": 3
   }
 ]

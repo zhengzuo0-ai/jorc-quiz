@@ -440,5 +440,328 @@
     "key_concept": "ICMM: 10 principles, third-party assurance, signals robust ESG commitment to investors",
     "source": "ICMM principles and governance",
     "difficulty": 3
+  },
+  {
+    "id": "gold-12-027",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A mid-tier gold producer proposes an earn-in agreement with a junior explorer: the mid-tier will spend $15M on exploration over 4 years to earn a 60% interest in the junior's CDI project. What is the primary advantage of this structure for the junior?",
+    "options": {
+      "A": "The junior immediately receives $15M in cash to spend at its discretion",
+      "B": "The junior retains exposure to the project upside while having exploration funded by a well-capitalized partner, avoiding equity dilution",
+      "C": "The junior is guaranteed a buyout at the end of the earn-in period",
+      "D": "The mid-tier assumes all environmental liabilities from previous exploration"
+    },
+    "correct": "B",
+    "explanation": "Earn-in agreements allow a junior to advance its project without raising dilutive equity capital. The funding partner (typically a mid-tier or major) spends agreed amounts on exploration over a defined period to earn a percentage interest, usually 50-70%. The junior retains the remaining interest and benefits from any value created by the partner's expenditure. Critically, the funds must be spent on the project (not received as cash), so the junior cannot redirect them. If the partner fails to meet spending commitments, it forfeits its earn-in right. This structure is particularly valuable for juniors with multiple properties that lack the capital to advance all of them simultaneously.",
+    "key_concept": "Earn-in: partner funds exploration to earn project interest; junior avoids dilution, retains upside",
+    "source": "Mining joint venture and earn-in practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-028",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold company is about to close a $20M private placement. Its largest shareholder (18% stake) demands anti-dilution protection. Which mechanism most directly addresses this concern?",
+    "options": {
+      "A": "A full-ratchet anti-dilution clause that reprices the shareholder's original investment to the new placement price",
+      "B": "Pre-emptive rights allowing the shareholder to participate pro-rata in the new placement to maintain its 18% ownership percentage",
+      "C": "A share buyback program funded from exploration budget",
+      "D": "Converting common shares to preferred shares with liquidation preference"
+    },
+    "correct": "B",
+    "explanation": "Pre-emptive rights (also called pro-rata participation rights) are the most common dilution protection mechanism in junior mining. They give existing shareholders the right, but not the obligation, to subscribe for their proportional share of any new equity issuance. For an 18% holder in a $20M placement, this means the right to invest $3.6M to maintain their percentage. Unlike full-ratchet anti-dilution (more common in venture capital), pre-emptive rights require the shareholder to invest additional capital rather than receiving free repricing. Strategic investors and cornerstone shareholders typically negotiate these rights into their initial subscription agreements. TSX and ASX listing rules often require shareholder approval for placements that would breach certain dilution thresholds.",
+    "key_concept": "Pre-emptive rights: pro-rata participation in new issuances to maintain ownership percentage",
+    "source": "Mining equity finance / shareholder agreements",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-029",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior is evaluating two royalty financing offers for its development project: a 2% NSR or a 3% GRR (Gross Revenue Royalty). With projected AISC of $1,200/oz and gold at $2,200/oz, which royalty has a lower effective cost to the miner and why?",
+    "options": {
+      "A": "The 2% NSR is cheaper because NSR allows deductions for smelting, refining, and transport costs before applying the royalty percentage",
+      "B": "The 3% GRR is cheaper because it is calculated on a smaller revenue base",
+      "C": "Both are identical in cost because they apply to the same production",
+      "D": "The 3% GRR is cheaper because it does not apply to by-product metals"
+    },
+    "correct": "A",
+    "explanation": "An NSR (Net Smelter Return) royalty allows the miner to deduct smelting, refining, and transportation costs before applying the royalty rate. If gross revenue is $2,200/oz and allowable deductions total $50/oz, the NSR base is $2,150/oz, making a 2% NSR = $43/oz. A GRR (Gross Revenue Royalty) applies to total revenue with no deductions, so a 3% GRR = $66/oz. The NSR is significantly cheaper per ounce. GRRs are simpler to administer but more punitive to miners because they ignore costs. Royalty companies generally prefer GRRs for this reason, while miners prefer NSRs. In negotiations, the royalty type and rate must be evaluated together; a lower GRR rate may still cost more than a higher NSR rate depending on the allowable deductions.",
+    "key_concept": "NSR allows cost deductions before royalty calculation; GRR applies to gross revenue with no deductions",
+    "source": "Mining royalty finance comparison",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-030",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A private gold exploration company with a promising West African asset wants to become publicly listed but lacks the resources for a traditional IPO. What alternative listing strategy is commonly used by junior miners?",
+    "options": {
+      "A": "Direct listing on the NYSE without any capital raise",
+      "B": "A reverse takeover (RTO) of an existing listed shell company on the TSX-V, which provides a public listing without a full IPO process",
+      "C": "Listing through a government-sponsored mining exchange",
+      "D": "Converting to a real estate investment trust (REIT) structure"
+    },
+    "correct": "B",
+    "explanation": "A reverse takeover (RTO) is a widely used listing strategy for junior miners, particularly on the TSX-V. The private company acquires (or merges with) an existing publicly listed shell company that has few or no active operations. After the transaction, the private company's shareholders become the majority owners of the listed entity, effectively achieving a public listing. RTOs are faster and cheaper than traditional IPOs, typically costing $200K-$500K versus $1M+ for an IPO, and avoiding the lengthy prospectus process. The TSX-V has a well-established framework for RTOs, called Qualifying Transactions, specifically designed for this purpose. The trade-off is that RTOs often attract less initial investor attention than a marketed IPO.",
+    "key_concept": "RTO: acquire a listed shell to go public faster and cheaper than a traditional IPO",
+    "source": "TSX-V listing strategies / junior mining practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-031",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A major gold producer launches a hostile takeover bid for a junior with a 4Moz deposit. The junior's board believes the offer undervalues the asset. Which defense mechanism involves issuing rights to existing shareholders that make the acquisition prohibitively expensive?",
+    "options": {
+      "A": "A white knight defense",
+      "B": "A shareholder rights plan (poison pill) that triggers dilutive share issuance if the acquirer crosses an ownership threshold",
+      "C": "A crown jewel defense that sells the key asset to a third party",
+      "D": "A Pac-Man defense where the junior counter-bids for the major"
+    },
+    "correct": "B",
+    "explanation": "A shareholder rights plan, commonly called a poison pill, is the most widely used hostile bid defense in Canadian and Australian mining. It grants existing shareholders (excluding the hostile bidder) the right to purchase additional shares at a steep discount if any party acquires more than a specified threshold (typically 20%) of outstanding shares without board approval. This massive dilution makes the hostile acquisition economically unviable. In Canada, poison pills cannot permanently block a bid but buy the board time (typically 45-60 days) to seek alternatives, such as a competing bid from a white knight or a restructured deal. The TSX and securities regulators will generally cease-trade a poison pill if no superior alternative emerges within a reasonable timeframe.",
+    "key_concept": "Poison pill: dilutive rights triggered at ownership threshold, buys time for board to seek alternatives",
+    "source": "Mining M&A defense mechanisms",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-032",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold miner listed on the TSX-V is considering adding a secondary listing on the ASX. What is the primary strategic benefit of this dual listing?",
+    "options": {
+      "A": "It automatically doubles the company's market capitalization",
+      "B": "It provides access to a second pool of mining-specialist investors and complementary trading hours, improving liquidity and broadening the shareholder base",
+      "C": "It eliminates the need to comply with TSX-V regulations",
+      "D": "It guarantees eligibility for Australian government exploration grants"
+    },
+    "correct": "B",
+    "explanation": "Dual listing on the TSX and ASX provides access to two of the world's deepest pools of mining-focused capital. Canadian and Australian investors have different risk appetites, sector preferences, and portfolio construction approaches, so a dual listing broadens the potential shareholder base. Complementary time zones (Toronto and Sydney are roughly 14-15 hours apart) mean the stock can trade actively for a greater portion of each 24-hour cycle, improving price discovery and liquidity. Dual-listed companies also benefit from increased analyst coverage and institutional visibility. The costs include additional regulatory compliance, listing fees, and the need for transfer agents in both jurisdictions, which typically totals $150K-$300K annually in incremental expense.",
+    "key_concept": "Dual listing (TSX + ASX): broader investor access, complementary time zones, improved liquidity",
+    "source": "Mining capital markets / dual listing strategy",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-033",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold company raises $10M through a private placement at $0.50/share with each unit including one full warrant exercisable at $0.75 over 24 months. If the share price reaches $1.20 and all warrants are exercised, what additional capital does the company raise?",
+    "options": {
+      "A": "$7.5M",
+      "B": "$10M",
+      "C": "$15M",
+      "D": "$24M"
+    },
+    "correct": "C",
+    "explanation": "The company issued 20 million units at $0.50 each ($10M / $0.50 = 20M units). Each unit includes one full warrant at $0.75, so there are 20 million warrants. If all warrants are exercised: 20M x $0.75 = $15M in additional capital. Warrants are a critical financing tool for juniors because they provide a built-in follow-on funding mechanism. Investors accept a lower effective price on the initial placement because the warrants offer leveraged upside. For the company, warrants represent future dilution but also future capital inflow at a premium to the placement price. The 24-month term creates urgency for holders to exercise before expiry. Acceleration clauses (allowing the company to force early exercise if the share price exceeds a threshold, e.g., $1.00 for 20 consecutive days) are increasingly common and help companies manage dilution timing.",
+    "key_concept": "Warrants: built-in follow-on capital at premium to placement price; 20M warrants at $0.75 = $15M",
+    "source": "Junior mining equity finance / warrant structures",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-034",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A Canadian investor in the top marginal tax bracket purchases $100,000 of flow-through shares in a junior gold explorer. How do flow-through shares benefit both the investor and the company?",
+    "options": {
+      "A": "The investor receives free shares and the company receives a government subsidy",
+      "B": "The company renounces eligible exploration expenditures to the investor, who deducts them against personal income, effectively reducing the after-tax cost of the investment by the investor's marginal tax rate",
+      "C": "The investor receives guaranteed dividends from the company's future production",
+      "D": "Flow-through shares are exempt from capital gains tax when sold"
+    },
+    "correct": "B",
+    "explanation": "Flow-through shares are a uniquely Canadian tax mechanism where a mining company issues shares at a premium (typically 15-30% above market) and renounces eligible Canadian Exploration Expenses (CEE) or Canadian Development Expenses (CDE) to the investor. The investor deducts these expenses against personal income, generating immediate tax savings. At a 50% marginal rate, a $100,000 flow-through investment yields $50,000 in tax savings, reducing the effective cost to $50,000. The company benefits by raising capital at a premium to market and funding exploration with lower effective dilution. Flow-through financing is a cornerstone of Canadian junior mining and has no equivalent in most other jurisdictions, giving TSX-V listed explorers a structural funding advantage for Canadian exploration projects.",
+    "key_concept": "Flow-through shares: company renounces exploration expenses to investor for tax deduction; premium pricing",
+    "source": "Canadian Income Tax Act / flow-through share mechanism",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-035",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold company receives investment interest from both a major gold producer and a private equity fund. What is the key difference between a strategic investor and a financial investor?",
+    "options": {
+      "A": "Strategic investors always pay lower prices than financial investors",
+      "B": "A strategic investor (the major) seeks operational synergies, future acquisition optionality, and industry-specific value, while a financial investor (PE fund) seeks purely risk-adjusted financial returns within a defined time horizon",
+      "C": "Financial investors provide more technical expertise than strategic investors",
+      "D": "Strategic investors never take board seats while financial investors always do"
+    },
+    "correct": "B",
+    "explanation": "Strategic investors, such as major miners, invest in juniors for reasons beyond financial returns: they seek early access to acquisition targets, technical knowledge sharing, geographic diversification, and reserve pipeline development. A major taking a 15% stake in a junior often negotiates first-refusal or matching rights on any future sale. Financial investors like private equity funds are purely return-driven, targeting IRRs of 20-30%+ within 3-7 year holding periods. They add value through capital markets expertise and governance but lack operational mining capabilities. For a junior, strategic investment brings credibility and potential acquisition premium but may deter competing bidders. Financial investors preserve optionality but may push for exits that conflict with long-term project development timelines.",
+    "key_concept": "Strategic investor: synergies + acquisition option; Financial investor: pure returns within defined horizon",
+    "source": "Mining investment strategy",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-036",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold explorer needs to raise $8M and plans a private placement. The company's shares trade at $0.40. Under typical TSX-V rules, what is the maximum discount at which the placement can be priced?",
+    "options": {
+      "A": "No discount is permitted; placement must be at market price",
+      "B": "Up to 25% discount to market price, so the minimum placement price would be $0.30",
+      "C": "Up to 50% discount, so the minimum placement price would be $0.20",
+      "D": "There is no maximum discount; the company can set any price"
+    },
+    "correct": "B",
+    "explanation": "TSX-V rules generally permit private placements at up to a 25% discount to the market price, calculated based on the closing price or a volume-weighted average price over a defined period. For a stock trading at $0.40, the minimum placement price would be approximately $0.30. Placements at a greater discount require shareholder approval or exchange exemptions. Private placements are the most common fundraising method for TSX-V juniors because they are faster and cheaper than public offerings, typically closing within 2-4 weeks. The trade-off is that placement shares are usually subject to a 4-month hold period (resale restriction), and placements to insiders require additional disclosure and potentially disinterested shareholder approval.",
+    "key_concept": "TSX-V private placement: max 25% discount to market; 4-month hold period on placement shares",
+    "source": "TSX-V listing rules / private placement regulations",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-037",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold developer approaching construction secures an offtake agreement with a Swiss commodity trader. What does this agreement provide and why is it strategically important?",
+    "options": {
+      "A": "The trader finances the entire mine construction in exchange for all future production",
+      "B": "The agreement commits the buyer to purchase a defined quantity of gold concentrate or dore at market-linked pricing, providing revenue certainty that supports project finance lending",
+      "C": "The trader provides geological consulting services in exchange for first-refusal on gold sales",
+      "D": "The offtake agreement replaces the need for environmental permitting"
+    },
+    "correct": "B",
+    "explanation": "An offtake agreement is a binding contract where a buyer commits to purchasing a specified quantity of the mine's output (gold dore or concentrate) at prices typically linked to LBMA benchmarks, less treatment and refining charges. For project finance lenders, a signed offtake agreement is often a condition precedent to loan approval because it demonstrates a guaranteed sales channel and reduces revenue risk. Swiss commodity traders (Trafigura, Glencore, MKS PAMP) are dominant offtake counterparties for West African gold. Some offtake agreements include prepayment provisions where the trader advances $5-20M against future deliveries, providing additional development capital. The junior must carefully negotiate terms to avoid locking in unfavorable pricing adjustments or excessive penalties for delivery shortfalls.",
+    "key_concept": "Offtake: binding purchase commitment at market-linked prices; supports project finance approval",
+    "source": "Mining offtake and commodity trading practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-038",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "Two junior explorers each hold adjacent properties in a prospective gold belt. They agree to form a joint venture (JV) for combined exploration. How does a JV differ from an earn-in agreement?",
+    "options": {
+      "A": "There is no difference; JV and earn-in are interchangeable terms",
+      "B": "In a JV, both parties contribute capital and share costs proportionally from inception, while in an earn-in, one party funds exploration to earn its interest over time from zero",
+      "C": "A JV requires government approval while an earn-in does not",
+      "D": "JVs are only permitted between companies listed on the same exchange"
+    },
+    "correct": "B",
+    "explanation": "A joint venture involves two or more parties pooling assets and sharing exploration or development costs in proportion to their ownership interests from the outset. If Party A holds 60% and Party B holds 40%, they fund expenditures in that ratio. An earn-in is a mechanism where one party starts with 0% interest and earns up to a specified percentage by meeting defined expenditure commitments over time. JVs are common when both parties bring comparable assets (e.g., adjacent properties) or capabilities. Earn-ins are preferred when one party has the asset and the other has the capital. Many earn-in agreements convert to JVs once the earning party has vested its interest. Key JV governance issues include operator selection, work program approval, dilution provisions for non-contributing parties, and dispute resolution mechanisms.",
+    "key_concept": "JV: shared costs from inception proportional to ownership; Earn-in: spend to earn interest from zero",
+    "source": "Mining joint venture structures",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-039",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold company's CEO holds 5 million stock options at a $0.25 strike price. The stock trades at $0.80. Which concern should the board's compensation committee address regarding this incentive structure?",
+    "options": {
+      "A": "The CEO should be required to exercise all options immediately",
+      "B": "The large in-the-money position may incentivize the CEO to accept a low-premium takeover bid or take excessive short-term risks to boost the share price, rather than maximize long-term shareholder value",
+      "C": "Stock options are illegal for mining company executives",
+      "D": "The CEO should receive additional options to maintain motivation"
+    },
+    "correct": "B",
+    "explanation": "Management incentive alignment is a critical governance issue for junior miners. When a CEO holds deeply in-the-money options (worth $2.75M unrealized in this case), the incentive may shift toward crystallizing that value through a quick sale rather than pursuing the longer, riskier path of standalone development that could generate greater shareholder returns. Best-practice compensation now includes a mix of instruments: options for upside leverage, RSUs (Restricted Share Units) that vest over time for retention, and performance shares tied to specific milestones (e.g., resource growth, permitting, production). Share ownership requirements (requiring executives to hold shares equal to a multiple of salary) further align management with long-term shareholders. The compensation committee should also consider vesting schedules that reward multi-year value creation.",
+    "key_concept": "Incentive alignment: mix options, RSUs, and performance shares; avoid short-termism from in-the-money options",
+    "source": "Mining corporate governance / executive compensation",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-040",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold explorer with strong drill results is experiencing low trading volume despite positive news flow. What investor relations (IR) strategy should the company prioritize?",
+    "options": {
+      "A": "Reduce communication with the market to create an information scarcity premium",
+      "B": "Engage specialist mining IR consultants, attend key mining conferences (PDAC, Mines and Money, Diggers and Dealers), and develop relationships with mining-focused analysts and institutional investors to improve market awareness",
+      "C": "Focus exclusively on social media marketing to retail investors",
+      "D": "Issue press releases daily regardless of materiality to maintain visibility"
+    },
+    "correct": "B",
+    "explanation": "Effective investor relations is essential for juniors because many trade at discounts to intrinsic value due to low visibility. A structured IR program should include attendance at tier-one mining conferences (PDAC in Toronto, Mines and Money in London, Diggers and Dealers in Kalgoorlie), targeted institutional roadshows, and cultivation of relationships with mining-specialist analysts who can initiate coverage. Site visits for institutional investors and analysts are particularly powerful for West African projects, as seeing the asset firsthand overcomes jurisdictional skepticism. The company should maintain a consistent communication cadence through quarterly newsletters, corporate presentations, and timely news releases. IR spend of 2-5% of market capitalization is typical for juniors seeking to close the valuation gap.",
+    "key_concept": "IR strategy: conferences, analyst coverage, institutional roadshows, site visits to close valuation gap",
+    "source": "Junior mining investor relations practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-041",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold company with 500 million shares outstanding at $0.04 per share ($20M market cap) proposes a 10:1 share consolidation (reverse split). What is the expected outcome and strategic rationale?",
+    "options": {
+      "A": "The market cap doubles to $40M because fewer shares mean higher value",
+      "B": "Post-consolidation there will be 50 million shares at approximately $0.40 each, with the same $20M market cap, but the higher nominal share price may attract institutional investors who cannot hold sub-$0.50 stocks",
+      "C": "Shareholders lose 90% of their investment value",
+      "D": "The company must delist from the exchange before consolidating"
+    },
+    "correct": "B",
+    "explanation": "A share consolidation (reverse split) reduces the share count and proportionally increases the per-share price without changing total market capitalization. After a 10:1 consolidation, 500M shares at $0.04 become 50M shares at $0.40. The strategic rationale is that many institutional investors and funds have minimum share price thresholds (typically $0.50-$1.00) below which they cannot invest. A sub-$0.05 share price also carries a negative perception of being a 'penny stock.' However, consolidations are often viewed negatively by retail investors and can signal financial distress. The most successful consolidations are paired with a concurrent catalyst such as a new financing, a significant drill program, or a strategic transaction that provides positive momentum to offset the negative optics.",
+    "key_concept": "Reverse split: reduces share count, raises nominal price, same market cap; targets institutional thresholds",
+    "source": "Junior mining capital structure management",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-042",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold developer with a fully permitted project and AISC of $1,100/oz is considering hedging 30% of its first two years of production at $2,100/oz. What is the primary advantage and risk of this strategy?",
+    "options": {
+      "A": "Advantage: eliminates all commodity risk; Risk: the hedge is illegal under most mining codes",
+      "B": "Advantage: guarantees minimum revenue on hedged ounces, strengthening project finance bankability; Risk: if gold rises significantly above $2,100, the company forgoes upside on the hedged portion",
+      "C": "Advantage: the hedge generates immediate cash; Risk: the company must deliver physical gold to the hedge counterparty regardless of production",
+      "D": "Advantage: reduces operating costs; Risk: the hedge increases environmental liabilities"
+    },
+    "correct": "B",
+    "explanation": "Gold price hedging through forward sales or put options allows a developer to lock in minimum revenue on a portion of production, which is particularly valuable during the vulnerable construction and ramp-up phase. Lenders typically require hedging of 30-50% of the first 2-3 years of production as a condition of project finance, as it demonstrates debt serviceability even if gold prices decline. The risk is opportunity cost: if gold rises to $2,800/oz, the company sells hedged ounces at $2,100 and misses $700/oz of upside on 30% of production. Shareholders generally prefer unhedged gold exposure, so hedging should be limited to what is necessary for financing and presented transparently. The gold mining industry learned painful lessons from over-hedging in the early 2000s when companies like Barrick carried massive hedge books that destroyed shareholder value as gold rallied.",
+    "key_concept": "Hedging: secures minimum revenue for bankability; risk is foregone upside if gold rallies",
+    "source": "Mining finance / gold hedging strategy",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-043",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold company operating in a politically unstable West African country purchases political risk insurance from MIGA (Multilateral Investment Guarantee Agency). What risks does this insurance typically cover?",
+    "options": {
+      "A": "Geological risk such as lower-than-expected gold grades",
+      "B": "Expropriation, currency transfer restrictions, breach of contract by the host government, and war or civil disturbance",
+      "C": "Gold price declines below the project's breakeven cost",
+      "D": "Environmental remediation costs after mine closure"
+    },
+    "correct": "B",
+    "explanation": "MIGA, a member of the World Bank Group, provides political risk insurance covering four main categories: expropriation (nationalization or creeping expropriation through discriminatory regulation), currency inconvertibility and transfer restrictions, breach of contract by the host government (when the investor has no access to a competent forum), and war, terrorism, and civil disturbance. For juniors in West Africa, MIGA coverage is a powerful risk mitigation tool that also serves as a deterrent, since host governments are reluctant to take actions that would trigger a World Bank Group claim. MIGA premiums typically range from 0.5-1.5% of the insured amount annually. Coverage can be structured to protect equity, debt, or specific project assets and is often a condition of project finance from development finance institutions.",
+    "key_concept": "MIGA: political risk insurance covering expropriation, currency, breach of contract, war/civil disturbance",
+    "source": "MIGA / political risk insurance in mining",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-12-044",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "A junior gold company has a $50M market cap, $5M cash, and is about to enter DFS. Its capital structure includes 200M common shares, 30M warrants at $0.35, and 20M options at $0.20. What is the fully diluted share count, and why does this matter for project valuation?",
+    "options": {
+      "A": "200M shares; warrants and options are irrelevant",
+      "B": "250M fully diluted shares; investors must use fully diluted share count when calculating per-share metrics like NAV/share to avoid overstating value",
+      "C": "220M shares; only in-the-money options count",
+      "D": "300M shares; all potential dilution sources must be counted twice"
+    },
+    "correct": "B",
+    "explanation": "Fully diluted share count includes all common shares plus all potentially dilutive instruments: 200M shares + 30M warrants + 20M options = 250M fully diluted shares. Investors must use the fully diluted count when calculating per-share valuation metrics such as NAV per share. If the project NPV is $250M, the basic NAV/share is $1.25 (250M / 200M) but the fully diluted NAV/share is $1.00 (250M / 250M), a 20% difference. Additionally, the exercise of warrants and options would bring in $10.5M + $4M = $14.5M of additional cash. Sophisticated investors always evaluate juniors on a fully diluted basis and factor in the cash inflow from exercise. Capital structure optimization involves minimizing unnecessary dilutive instruments while maintaining enough incentive alignment and financing flexibility to advance the project.",
+    "key_concept": "Fully diluted shares: common + warrants + options; always use for per-share valuation metrics",
+    "source": "Mining equity analysis / capital structure",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-12-045",
+    "chapterId": "gold-12",
+    "domain": "gold",
+    "question": "An early-stage investor holds shares in a junior gold explorer that has now defined a 3Moz resource and completed a PFS. Which exit strategy would typically generate the highest return for this investor?",
+    "options": {
+      "A": "Selling shares on the open market during a period of low trading volume",
+      "B": "Waiting for a competitive takeover bid from multiple majors, which historically generates premiums of 29-67% and bidding wars can push premiums even higher",
+      "C": "Exercising a put option to sell shares back to the company at the original purchase price",
+      "D": "Converting shares to the acquiring company's stock at a 1:1 ratio"
+    },
+    "correct": "B",
+    "explanation": "For early-stage junior mining investors, the most lucrative exit is typically through a competitive takeover by a major producer. When multiple majors compete for the same asset, premiums can significantly exceed the 29-67% average observed in 2025, as bidding wars push valuations toward replacement cost. An investor who entered at the seed stage ($0.05/share) and exits through a takeover at $1.50/share realizes a 30x return. Alternative exits include selling on-market (which may be difficult for large positions due to liquidity constraints), secondary private sales to institutional investors, or in-specie distributions if the company's assets are acquired for shares. The optimal exit strategy depends on the investor's position size relative to daily volume, tax considerations, and conviction on whether the standalone development path could generate even greater returns than a near-term takeover premium.",
+    "key_concept": "Best exit: competitive takeover with multiple bidders; seed-to-acquisition can yield 10-30x returns",
+    "source": "Junior mining investment strategy / exit planning",
+    "difficulty": 3
   }
 ]

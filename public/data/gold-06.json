@@ -474,5 +474,294 @@
     "key_concept": "Porous laterite requires wax-coated immersion to prevent water absorption and ensure accurate density measurement.",
     "source": "Resource estimation practice",
     "difficulty": 3
+  },
+  {
+    "id": "gold-06-029",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "A resource geologist is designing a block model for a tabular gold deposit with average mineralised thickness of 3 m and planned open-pit bench height of 5 m. What is the most appropriate parent block size along the vertical dimension?",
+    "options": {
+      "A": "1 m, matching the minimum sample interval",
+      "B": "5 m, matching the planned mining bench height",
+      "C": "15 m, three times the bench height for maximum efficiency",
+      "D": "50 m, to minimize computation time"
+    },
+    "correct": "B",
+    "explanation": "Parent block dimensions should be aligned with the planned selective mining unit (SMU) dimensions wherever practical. Matching the vertical block size to the bench height (5 m) ensures that grade estimates in the model correspond to recoverable mining increments. A 1 m block would create an unnecessarily large model and may be smaller than the compositing length, causing artificial over-smoothing issues. A 15 m or 50 m block would be far larger than the deposit thickness, making it impossible to separate ore from waste. Sub-blocks can then be used to honour wireframe boundaries at partial intersections, preserving the accuracy of volume and tonnage calculations.",
+    "key_concept": "Parent block dimensions should align with the selective mining unit, typically matching planned bench height.",
+    "source": "Resource estimation practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-06-030",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "When defining search ellipse orientation for kriging in a deposit with a steeply dipping orebody striking north-south and plunging 20 degrees to the north, which orientation is most appropriate?",
+    "options": {
+      "A": "A spherical (isotropic) search with equal ranges in all directions",
+      "B": "An ellipse oriented with the major axis along the north-south strike, intermediate axis down-dip, and minor axis across strike, rotated to honour the 20-degree plunge",
+      "C": "An ellipse with the major axis vertical to capture the full down-plunge extent",
+      "D": "Orientation is irrelevant because kriging interpolates using all surrounding data equally"
+    },
+    "correct": "B",
+    "explanation": "The search ellipse should be aligned to reflect the geological anisotropy of the deposit. For a north-south striking, steeply dipping orebody with a 20-degree northward plunge, the major axis of the search ellipse should follow the along-strike direction (north-south), rotated 20 degrees from horizontal to track the plunge. The intermediate axis follows the down-dip direction, and the minor axis is shortest across the strike. This orientation ensures that the kriging system draws on samples that are geologically similar to the block being estimated, maximizing the relevance of nearby data and producing grade estimates that respect the structural geometry of the mineralisation.",
+    "key_concept": "Search ellipse orientation must reflect deposit anisotropy, aligning with strike, dip, and plunge directions.",
+    "source": "Resource estimation practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-06-031",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "A geologist reviewing assay data for a high-nugget gold deposit identifies that 3% of samples contribute 45% of total metal. Which top-cutting method best balances grade retention with outlier management?",
+    "options": {
+      "A": "No top-cutting is needed because all samples are valid",
+      "B": "Cap all samples at the 95th percentile of the raw data distribution",
+      "C": "Use the log-probability inflection point method to identify where the grade distribution changes slope, and test the metal-at-risk for candidate caps",
+      "D": "Cap at twice the mean grade of the domain"
+    },
+    "correct": "C",
+    "explanation": "The log-probability plot method identifies inflection points in the cumulative frequency distribution where the population changes character, typically marking the transition from background grades to outlier grades. Once candidate cap values are identified, the metal-at-risk calculation quantifies the percentage of total domain metal that would be removed at each candidate cap. If metal-at-risk is high (e.g., >15-20%), the cap may be too aggressive and could under-report resources. If metal-at-risk is low, the cap is conservative and justifiable. Coefficient of variation (CV) analysis before and after capping verifies that the distribution has been appropriately tamed. Capping at a fixed percentile or a multiple of the mean is statistically simplistic and ignores the actual distributional structure of the data.",
+    "key_concept": "Top-cutting uses log-probability inflection and metal-at-risk analysis to identify defensible cap values.",
+    "source": "Resource estimation practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-06-032",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "A resource geologist collects bulk density samples from three weathering zones: oxide (1.9 t/m3), transitional (2.3 t/m3), and fresh rock (2.65 t/m3). How should bulk density be applied in the block model?",
+    "options": {
+      "A": "Apply the average of all three zones (2.28 t/m3) uniformly across the entire model",
+      "B": "Apply zone-specific bulk density values linked to the geological domain coding of each block",
+      "C": "Use only the fresh rock density because it is the largest resource volume",
+      "D": "Bulk density is not required until the feasibility study"
+    },
+    "correct": "B",
+    "explanation": "Bulk density should be assigned on a domain-by-domain basis, reflecting the measured physical properties of each geological unit. Applying a uniform average across weathering zones would systematically overestimate tonnage in oxide zones and underestimate it in fresh rock, introducing significant errors in resource tonnage. The domain coding in the block model (oxide, transitional, fresh) should directly control which bulk density value is applied. Where density varies continuously within a zone, geostatistical estimation of density as a separate variable may be appropriate. JORC 2012 Table 1 specifically requires disclosure of how bulk density was determined and applied, recognising its material impact on tonnage.",
+    "key_concept": "Bulk density must be assigned per geological domain to accurately reflect physical properties and calculate correct tonnages.",
+    "source": "JORC Code 2012, Table 1; resource estimation practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-06-033",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "In the context of change of support, why does the grade distribution of larger mining blocks differ from that of drill hole composites?",
+    "options": {
+      "A": "Larger blocks always have lower grades due to dilution",
+      "B": "The variance of block grades is lower than composite variance because averaging over a larger volume reduces the spread of the distribution (volume-variance relationship)",
+      "C": "Block grades are higher because kriging adds a smoothing premium",
+      "D": "There is no difference; the distributions are identical"
+    },
+    "correct": "B",
+    "explanation": "The volume-variance relationship states that grade variance decreases as the support volume increases. A drill hole composite (small support) has high variance because it captures local-scale variability. A mining block (large support) represents an average over many composites, so extreme high and low values are smoothed out, compressing the grade distribution. This has practical consequences: directly using composite statistics to predict the grade-tonnage performance of mining blocks will overestimate tonnage above cut-off at high grades and underestimate it at low grades. Change of support corrections (e.g., affine correction, indirect lognormal, uniform conditioning, or simulation) are needed to transform the composite-support distribution to block-support before constructing grade-tonnage curves.",
+    "key_concept": "Grade variance decreases with increasing support volume; change of support corrections are required for accurate grade-tonnage prediction.",
+    "source": "Journel & Huijbregts (1978); Isaaks & Srivastava (1989)",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-06-034",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "Which combination of model validation techniques provides the most comprehensive check of a kriged gold block model?",
+    "options": {
+      "A": "Visual review of sections only",
+      "B": "Statistical comparison of mean grades only",
+      "C": "Visual review, global mean comparison, swath plots along mining directions, and cross-validation of the variogram model",
+      "D": "Recalculating the model with a different interpolation method and accepting it if results differ by less than 1%"
+    },
+    "correct": "C",
+    "explanation": "A robust validation programme uses multiple complementary methods. Visual validation (sections, plans) catches gross errors and confirms geological plausibility. Global mean comparison checks that the estimated block model mean is close to the declustered composite mean, flagging systematic bias. Swath plots slice the model along the main mining directions (easting, northing, elevation) and compare block grade profiles against composite profiles in each slice, revealing spatial trends missed by global statistics. Cross-validation removes each sample in turn and re-estimates it from its neighbours, revealing local bias and the appropriateness of search parameters. No single method is sufficient; the combination is required for a JORC-compliant validation.",
+    "key_concept": "Comprehensive model validation combines visual checks, global statistics, swath plots, and cross-validation.",
+    "source": "Resource estimation practice; JORC Code 2012, Table 1",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-06-035",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "A grade-tonnage curve for a West African oxide gold deposit shows that reducing the cut-off grade from 0.5 g/t to 0.3 g/t increases tonnage by 40% but only increases contained metal by 8%. What does this indicate?",
+    "options": {
+      "A": "The low-grade material is highly valuable and should all be processed",
+      "B": "The deposit has a large low-grade halo where the incremental material between 0.3 and 0.5 g/t is very dilutive and may not be economically viable to process",
+      "C": "The resource estimation is incorrect because tonnage and grade should increase proportionally",
+      "D": "The processing plant should be designed for the 0.3 g/t cut-off to maximise throughput"
+    },
+    "correct": "B",
+    "explanation": "The grade-tonnage relationship reveals that the material added between 0.3 and 0.5 g/t is very low grade, pulling the average grade down significantly. Adding 40% more tonnes for only 8% more metal means the average grade of that incremental material is approximately 0.2 g/t, which for many processing configurations would not cover mining and processing costs. Grade-tonnage sensitivity analysis is essential for identifying the economic optimum cut-off grade. A decision to mine at 0.3 g/t would require detailed economic modelling to confirm viability. This analysis also highlights the importance of reporting resources at multiple cut-off grades so users can assess economic sensitivity.",
+    "key_concept": "Grade-tonnage curves reveal the economic sensitivity of resources to cut-off grade selection.",
+    "source": "Resource estimation practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-06-036",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "What does a slope of regression significantly less than 1.0 in cross-validation of a kriged block model indicate?",
+    "options": {
+      "A": "The model is unbiased and well-conditioned",
+      "B": "The model is over-smoothed and conditionally biased: high-grade blocks are under-estimated and low-grade blocks are over-estimated",
+      "C": "The variogram sill has been set too high",
+      "D": "The number of samples used in each kriging estimate is too large"
+    },
+    "correct": "B",
+    "explanation": "The slope of regression in cross-validation is calculated by regressing true values (withheld samples) against estimated values. A slope of 1.0 indicates no conditional bias. A slope less than 1.0 means the kriging system is over-smoothing: it systematically underestimates high values and overestimates low values. This is a form of conditional bias where the estimates are regressed toward the mean. The causes include too large a search neighbourhood (too many samples diluting local information), a poor variogram model (e.g., excessive nugget), or smoothing inherent in ordinary kriging at sparse data configurations. Remedies include tightening the search neighbourhood, using fewer samples, or adopting a simulation approach for applications requiring local accuracy.",
+    "key_concept": "Slope of regression below 1.0 in cross-validation indicates conditional bias from over-smoothing.",
+    "source": "Vann et al. (2003), Kriging neighbourhood analysis; resource estimation practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-06-037",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "A reverse circulation drill programme intersects an oxide gold zone with variable intercept lengths ranging from 1 m to 8 m. The geologist wants to composite to a standard 2 m length. How should intercepts shorter than 2 m that occur at domain boundaries be handled?",
+    "options": {
+      "A": "Discard all samples shorter than 2 m to maintain consistent composite length",
+      "B": "Merge short samples with adjacent samples from outside the domain boundary to make up 2 m composites",
+      "C": "Retain short composites at domain boundaries as partial composites rather than mixing lithological or mineralisation domains",
+      "D": "Duplicate short samples to artificially create 2 m lengths"
+    },
+    "correct": "C",
+    "explanation": "Compositing should never cross geological domain boundaries because mixing samples from different mineralisation units destroys the geological integrity of the data. At the boundary of a domain (e.g., where oxide meets transitional material), the residual sample shorter than the composite length should be retained as a partial composite rather than diluted with material from outside the boundary. These short composites are given appropriate weights in the estimation process, often by the kriging system, which accounts for the actual sample length. Discarding short samples would introduce a systematic bias by removing boundary information. Duplicating samples is statistically invalid and would inflate grade estimates.",
+    "key_concept": "Compositing must not cross domain boundaries; short residual samples at boundaries should be retained as partial composites.",
+    "source": "Resource estimation practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-06-038",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "Beyond drill spacing, which additional factors are assessed when classifying a mineral resource as Indicated rather than Inferred under JORC 2012?",
+    "options": {
+      "A": "Only the drill spacing relative to variogram range",
+      "B": "Data quality (QAQC), geological continuity confidence, sample representativeness, bulk density data adequacy, and the Competent Person's confidence in the estimation method",
+      "C": "The current gold price and project economics",
+      "D": "Whether a feasibility study has been completed"
+    },
+    "correct": "B",
+    "explanation": "JORC 2012 explicitly states that resource classification is not solely based on drill spacing. The Competent Person must demonstrate confidence across multiple criteria including: data quality supported by QAQC results (blanks, standards, duplicates); geological understanding of the controls on mineralisation and confidence in the geological model; evidence that samples are representative of the mineralisation; adequate bulk density data for the material type; and a demonstrated understanding of the spatial continuity of grade. A resource may remain Inferred despite close drill spacing if, for example, QAQC data shows significant contamination, geological controls are poorly understood, or the estimation method is inappropriate for the deposit type.",
+    "key_concept": "Resource classification requires confidence in data quality, geological continuity, and estimation method, not just drill spacing.",
+    "source": "JORC Code 2012, Clauses 20-22",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-06-039",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "Multiple indicator kriging (MIK) is preferred over ordinary kriging for which type of gold deposit?",
+    "options": {
+      "A": "Porphyry gold deposits with near-normal grade distributions",
+      "B": "High-nugget alluvial or free-milling gold deposits where the grade distribution is highly skewed and multi-modal",
+      "C": "Deposits where only a small number of drill holes are available",
+      "D": "Deposits with perfect spatial continuity and no nugget effect"
+    },
+    "correct": "B",
+    "explanation": "MIK is designed for highly skewed, erratic grade distributions that cannot be adequately transformed to near-normality for conventional kriging. Rather than estimating grade directly, MIK estimates the probability of grade exceeding each of a series of indicator thresholds, building up a complete conditional distribution for each block. This approach is particularly valuable for high-nugget gold deposits (e.g., coarse alluvial gold, narrow high-grade vein systems) where a small number of extreme samples dominate the metal content. MIK captures the shape of the local grade distribution, allowing realistic recovery predictions at different cut-off grades. It is more computationally demanding and requires careful choice of indicator thresholds and post-processing to avoid order-relation violations.",
+    "key_concept": "MIK estimates conditional grade distributions at multiple thresholds, suited to highly skewed gold grade distributions.",
+    "source": "Vann & Guibal (2001); resource estimation practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-06-040",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "What problem does uniform conditioning (UC) solve that ordinary kriging cannot address for selective mining unit estimation?",
+    "options": {
+      "A": "UC eliminates the need for a variogram model",
+      "B": "UC provides a change of support correction that honours the local mean estimated by kriging while predicting the grade-tonnage distribution within panels at the SMU scale, avoiding the smoothing bias of kriged block grades",
+      "C": "UC is only used when sample data are insufficient for kriging",
+      "D": "UC calculates the exact grade of every individual SMU within a panel"
+    },
+    "correct": "B",
+    "explanation": "Ordinary kriging at the SMU scale suffers from the smoothing problem: estimated block grades are over-smoothed, meaning the predicted grade distribution has lower variance than reality, which leads to incorrect grade-tonnage predictions above cut-off. Uniform conditioning addresses this by working at two scales: large panels are estimated by kriging (honouring data configuration and spatial correlation), and within each panel, the SMU-scale grade-tonnage distribution is modelled using the within-panel variogram and change of support theory. The result is a recoverable resource estimate at the SMU scale that avoids the smoothing bias of direct SMU-scale kriging, while still being conditioned to the local kriged panel grades. UC does not predict individual SMU grades; it predicts the statistical distribution of grades within each panel.",
+    "key_concept": "Uniform conditioning predicts SMU-scale grade-tonnage distributions within kriged panels, correcting for smoothing without requiring block-scale kriging.",
+    "source": "Rivoirard (1994); Vann & Guibal (2001)",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-06-041",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "What is the purpose of Kriging Neighbourhood Analysis (KNA) and what parameter does it primarily optimise?",
+    "options": {
+      "A": "KNA optimises the variogram model by testing different range values",
+      "B": "KNA tests different search neighbourhood configurations (number of samples, maximum search distance, octant limits) to find the setting that minimises conditional bias as measured by the slope of regression",
+      "C": "KNA determines the minimum number of drill holes required before estimation can begin",
+      "D": "KNA calculates the optimal composite length for a given drill hole spacing"
+    },
+    "correct": "B",
+    "explanation": "KNA, described by Vann et al. (2003), is a systematic procedure to optimise the kriging search neighbourhood before full estimation. Different combinations of search ellipse size, minimum and maximum sample counts, and sector/octant constraints are tested. For each configuration, the kriging efficiency (ratio of kriging variance to a priori variance) and slope of regression between estimated and true values are calculated from cross-validation or jack-knifing. The target is a slope of regression close to 1.0 (no conditional bias) with acceptable kriging efficiency. Using too many samples produces over-smoothing (slope < 1.0), while too few produces over-fitting (kriging efficiency poor). KNA results directly inform the search parameters used in production estimation.",
+    "key_concept": "KNA optimises search neighbourhood parameters to achieve a slope of regression close to 1.0, minimising conditional bias.",
+    "source": "Vann, Jackson & Bertoli (2003), Quantitative Kriging Neighbourhood Analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-06-042",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "Before starting resource estimation, a geologist should perform data verification. Which of the following is NOT a standard QAQC check performed at this stage?",
+    "options": {
+      "A": "Reviewing certified reference material (CRM/standard) performance charts for systematic laboratory bias",
+      "B": "Checking coarse blank insertion results for cross-contamination between samples",
+      "C": "Comparing field duplicate results to assess sampling precision",
+      "D": "Recalculating the kriging weights for each sample to check for negative weights"
+    },
+    "correct": "D",
+    "explanation": "Standard QAQC checks before estimation focus on data quality: CRM or certified standard performance detects systematic laboratory bias (accuracy); blank samples detect contamination between samples during preparation or analysis; field duplicates assess sampling precision (repeatability) at the collection stage. These checks must be reviewed and any anomalous batches flagged before data is used in estimation. Kriging weights are an output of the estimation process itself, not a pre-estimation data quality check. Reviewing kriging weights (e.g., checking for negative weights) is a model validation step performed after estimation, not part of database verification.",
+    "key_concept": "Pre-estimation QAQC checks cover CRM accuracy, blank contamination, and duplicate precision; kriging weights are post-estimation diagnostics.",
+    "source": "JORC Code 2012, Table 1; Abzalov (2008), Quality control of assay data",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-06-043",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "Under JORC 2012, which of the following must be disclosed in the Mineral Resource estimate Table 1 regarding the estimation methodology?",
+    "options": {
+      "A": "Only the total resource tonnage and grade",
+      "B": "The estimation method, compositing approach, search parameters, variogram model parameters, validation methods, and the basis for classification",
+      "C": "The name of the software used and the date the estimate was completed",
+      "D": "Only the classification category and cut-off grade applied"
+    },
+    "correct": "B",
+    "explanation": "JORC 2012 Table 1 Section 4 (Estimation and Modelling Techniques) requires detailed disclosure of the nature and appropriateness of the estimation methodology, compositing procedures, top-cutting approach and justification, block model dimensions, variogram model parameters (nugget, sill, range, anisotropy), search ellipse and number of samples, validation methods applied, and the rationale for resource classification including the basis for confidence levels. This level of disclosure enables users of the public report to assess the quality and robustness of the estimate independently. Reporting only tonnage, grade, software name, or classification category without the underlying methodology is insufficient under the JORC transparency principle.",
+    "key_concept": "JORC 2012 Table 1 requires full disclosure of estimation methodology, variogram parameters, search strategy, validation, and classification rationale.",
+    "source": "JORC Code 2012, Table 1, Section 4",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-06-044",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "A West African gold project intends to list on the Toronto Stock Exchange (TSX) and also has a joint venture partner based in South Africa. How does the reporting obligation differ between JORC 2012, NI 43-101, and SAMREC?",
+    "options": {
+      "A": "All three codes are identical; any estimate prepared under one code automatically complies with the others",
+      "B": "JORC 2012 applies to ASX-listed companies, NI 43-101 applies to TSX-listed companies (requiring a Qualified Person), and SAMREC applies to JSE-listed companies; the codes share the CRIRSCO framework but have different disclosure formats and practitioner titles",
+      "C": "NI 43-101 requires a higher confidence level than JORC for Measured resources",
+      "D": "SAMREC is stricter than JORC and automatically supersedes JORC estimates for African projects"
+    },
+    "correct": "B",
+    "explanation": "JORC (Australia/ASX), NI 43-101 (Canada/TSX), and SAMREC (South Africa/JSE) are all members of the CRIRSCO family of international reporting codes and share the same fundamental framework: Resources classified as Inferred, Indicated, and Measured, and Reserves as Probable and Proven. However, each code has jurisdiction-specific requirements. NI 43-101 uses the title Qualified Person (QP) rather than Competent Person (CP), and requires a Technical Report filed on SEDAR for material disclosures. SAMREC uses CP and has specific guidance for African commodities including West African gold. An estimate prepared under JORC will generally be acceptable under NI 43-101 if a Canadian QP takes responsibility, but a separate NI 43-101 Technical Report must still be filed. The codes are not automatically interchangeable in a compliance sense.",
+    "key_concept": "JORC, NI 43-101, and SAMREC share the CRIRSCO framework but have jurisdiction-specific disclosure requirements and practitioner titles.",
+    "source": "CRIRSCO International Reporting Template (2019); JORC Code 2012; NI 43-101 (2011); SAMREC Code 2016",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-06-045",
+    "chapterId": "gold-06",
+    "domain": "gold",
+    "question": "A gold mine is currently using a static cut-off grade of 0.5 g/t based on the feasibility study gold price of USD 1 500/oz. The spot gold price has risen to USD 2 200/oz and the mine manager argues for a lower cut-off. What is the key distinction between a dynamic and a static cut-off grade approach?",
+    "options": {
+      "A": "Dynamic cut-off grades are only applicable to underground mines; static grades are used for open pits",
+      "B": "A static cut-off is fixed at the feasibility study price and does not change; a dynamic cut-off is recalculated periodically using current costs and metal prices, allowing the mine to optimise ore selection and maximise NPV in response to changing conditions",
+      "C": "Dynamic cut-off grades always result in lower cut-offs than static grades",
+      "D": "A dynamic cut-off requires a new feasibility study to be completed each time the gold price changes"
+    },
+    "correct": "B",
+    "explanation": "A static cut-off grade is set at feasibility and remains unchanged regardless of actual operating conditions. While this simplifies planning, it means the mine fails to capture value when the gold price rises (potentially sending ore to waste) or over-processes marginal material when prices fall. Dynamic cut-off grade optimisation, based on Lane's methodology or similar frameworks, recalculates the cut-off continuously using current gold prices, costs, throughput constraints, and mine life. At USD 2 200/oz versus USD 1 500/oz, the break-even cut-off falls from approximately 0.5 g/t to around 0.34 g/t, meaning material previously classified as waste now has positive economic value. Adopting a dynamic approach can significantly increase the NPV of a project but requires robust cost tracking and integration with mine planning systems. It does not require a full new feasibility study; it requires updated economic parameters applied to the existing resource model.",
+    "key_concept": "Dynamic cut-off grades are recalculated using current prices and costs to optimise ore-waste selection and maximise NPV.",
+    "source": "Lane (1988), The Economic Definition of Ore; resource estimation practice",
+    "difficulty": 3
   }
 ]

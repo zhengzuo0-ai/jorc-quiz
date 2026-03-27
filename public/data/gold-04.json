@@ -457,5 +457,311 @@
     "key_concept": "Stage-gating: projects must pass criteria at each stage before advancing; prevents wasteful spending",
     "source": "Exploration portfolio management best practice",
     "difficulty": 3
+  },
+  {
+    "id": "gold-04-028",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "A desktop study for a new West African licence block is underway. Which of the following data sources would be MOST valuable for understanding the regional geological context before any fieldwork?",
+    "options": {
+      "A": "Social media posts from local communities near the licence area",
+      "B": "BRGM geological survey archives, national geological survey maps, and historical mining ministry reports",
+      "C": "Real estate cadastral records and property ownership maps",
+      "D": "Weather satellite data from the past 12 months"
+    },
+    "correct": "B",
+    "explanation": "BRGM (Bureau de Recherches Géologiques et Minières) is France's national geological survey and holds extensive archived geological and geochemical data for former French-speaking West African territories including Burkina Faso, Mali, Côte d'Ivoire, Guinea, and Senegal. These archives include 1:200,000 scale geological maps, regional geochemical surveys, historic drilling records, and academic theses — invaluable intelligence that can take years and millions of dollars to replicate. National geological surveys (e.g., BUMIGEB in Burkina Faso, DNM in Mali) hold additional country-specific data. These sources allow a geologist to understand the Birimian belt architecture, known gold occurrences, and previously explored zones without a single field visit, making them the highest-priority data sources in any West African desktop study.",
+    "key_concept": "BRGM archives + national geological surveys = primary West Africa desktop data sources; free or low-cost pre-competitive data",
+    "source": "BRGM, West African geological survey institutions",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-029",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "An exploration geologist is evaluating satellite imagery types for a desktop study of a West African licence block heavily covered by laterite. Which satellite product is BEST suited for mapping iron-rich laterite alteration caps that may overlie buried gold mineralisation?",
+    "options": {
+      "A": "Radar (SAR) imagery, which penetrates cloud cover and provides surface roughness data",
+      "B": "SWIR (shortwave infrared) multispectral data such as Landsat 8/9 OLI or Sentinel-2, which discriminates iron-oxide and clay mineral assemblages",
+      "C": "True-colour RGB photography, which shows vegetation patterns clearly",
+      "D": "Thermal infrared imagery, which maps soil temperature differences"
+    },
+    "correct": "B",
+    "explanation": "Shortwave infrared (SWIR) multispectral data from Landsat 8/9 or Sentinel-2 is the industry standard for laterite and alteration mineral mapping. Band ratios using SWIR wavelengths (bands 6 and 7 of Landsat, bands 11 and 12 of Sentinel-2) discriminate iron oxides (goethite, hematite in laterite caps), clay minerals (kaolinite, smectite in saprolite), and carbonate alteration — all of which can indicate proximity to gold mineralisation. ASTER satellite data (14 SWIR bands) provides even finer mineralogical discrimination and was extensively used in West African gold exploration before its SWIR detector failed in 2008. SAR imagery is valuable for vegetation and structural mapping but does not discriminate alteration mineralogy. True-colour imagery identifies artisanal workings, vegetation anomalies, and geomorphological features but lacks mineralogical specificity.",
+    "key_concept": "SWIR multispectral (Landsat/Sentinel-2/ASTER) for alteration mapping; SAR for structural lineaments",
+    "source": "Remote sensing in mineral exploration; Landsat/Sentinel-2 applications",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-030",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is 'stream sediment sampling' and why is it used as a reconnaissance exploration technique in West Africa?",
+    "options": {
+      "A": "Sampling river water for dissolved gold content to detect upstream mines",
+      "B": "Collecting fine-grained sediment from active stream beds to detect catchment-averaged geochemical anomalies, with anomalies pointing upstream to potential source areas",
+      "C": "Measuring stream velocity to assess hydroelectric power potential for future mine use",
+      "D": "Collecting gravel from alluvial terraces to estimate placer gold volume"
+    },
+    "correct": "B",
+    "explanation": "Stream sediment sampling collects the finest-grained fraction (<180 micron) from active stream channels where sediment accumulates from the entire upstream catchment. Chemical analysis of this material provides a 'catchment-averaged' geochemical signature — anomalous gold or pathfinder element concentrations point to source areas upstream that may host primary gold mineralisation. In West Africa, regional stream sediment surveys at 1 sample per 1-4 km² are often the first field-based technique deployed after desktop studies, rapidly screening large areas (thousands of km²) for anomalous catchments that justify more expensive follow-up. Anomalous catchments are then subdivided by resampling smaller tributary drainages to progressively focus on the source area, a process called 'drainage basin subdivision.' This technique is particularly effective in the savanna and sub-humid zones where drainage networks are well-developed.",
+    "key_concept": "Stream sediment sampling: catchment-averaged geochemistry; anomalies guide upstream follow-up; 1 sample/1-4 km² regional reconnaissance",
+    "source": "Exploration geochemistry, drainage sampling methodology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-031",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What does BLEG stand for, and what is its primary advantage over conventional fire assay soil sampling in West African gold exploration reconnaissance?",
+    "options": {
+      "A": "Bulk Leach Extractable Gold; it can detect very low gold concentrations (0.1-5 ppb) over large sample volumes, making it highly sensitive for regional reconnaissance",
+      "B": "Borehole Logging and Evaluation of Geology; it provides continuous downhole geochemical data",
+      "C": "Birimian Laterite Extraction of Gold; it is specific to the Birimian terrain of West Africa",
+      "D": "Base Level Exploration Grid; it defines the minimum sampling density for JORC compliance"
+    },
+    "correct": "A",
+    "explanation": "BLEG (Bulk Leach Extractable Gold) is a stream sediment sampling technique where large samples (2-10 kg) are leached with dilute cyanide solution and the gold in solution is measured by atomic absorption spectrometry, achieving detection limits of 0.1-0.5 ppb Au. Conventional fire assay on small soil samples (50-100 g) is prone to the 'nugget effect' — very coarse gold particles are unevenly distributed, causing high variability between adjacent samples and false negatives. BLEG's large sample mass averages out nugget variability and its ultra-low detection limit captures dispersion haloes around gold deposits that may not be detectable by conventional assay. It is particularly suited to reconnaissance over vast areas where high sample density would be prohibitively expensive. The technique was pioneered in West Africa and Australia in the 1980s-1990s and remains a standard tool in regional gold exploration.",
+    "key_concept": "BLEG: cyanide leach of large stream sediment samples; 0.1-0.5 ppb detection; overcomes nugget effect in reconnaissance",
+    "source": "BLEG methodology; exploration geochemistry",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-032",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "In planning a soil geochemistry program, a geologist conducts an 'orientation survey' before the main grid. What is the primary purpose of this orientation survey?",
+    "options": {
+      "A": "To determine which direction the drill rig should face for best efficiency",
+      "B": "To calibrate sampling technique, establish optimal sample horizon and spacing, and confirm that the method detects known mineralisation on the licence",
+      "C": "To orient compass bearings for navigation across the licence",
+      "D": "To determine the orientation of satellite imagery for GIS processing"
+    },
+    "correct": "B",
+    "explanation": "An orientation survey is a small-scale, low-cost pilot study conducted before committing to a full geochemistry grid. It tests whether the proposed sampling method (sample depth, horizon, density, analytical technique) actually produces detectable anomalies over known mineralisation on the property. In West Africa, this typically involves sampling a grid over a known gold zone — an artisanal working, a historic drill intersection, or a mapped quartz vein — at several depths (A, B, C soil horizons) and at various line and station spacings. Results tell the geologist: which horizon gives the strongest, most reproducible anomalies; what threshold concentration distinguishes anomalous from background; and whether the proposed line spacing would detect an anomaly of the expected size. Skipping orientation surveys risks designing a grid that fails to detect mineralisation, wasting the entire program budget.",
+    "key_concept": "Orientation survey: pilot test of sampling method over known mineralisation; calibrates horizon, spacing, and detection threshold before main grid",
+    "source": "Exploration geochemistry best practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-033",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What drill spacings are generally required to support each of the three JORC Mineral Resource categories — Inferred, Indicated, and Measured — for a structurally simple lode gold deposit?",
+    "options": {
+      "A": "All three categories require 5 m drill spacing",
+      "B": "Inferred: 200 m; Indicated: 100 m; Measured: 50 m — the same spacing applies universally regardless of deposit type",
+      "C": "Inferred: ~100-200 m; Indicated: ~25-50 m; Measured: ~10-25 m — spacing must be demonstrated to reflect geological continuity for the specific deposit",
+      "D": "JORC does not specify any drill spacing — all drilling automatically qualifies as Measured Resources"
+    },
+    "correct": "C",
+    "explanation": "JORC 2012 does not prescribe fixed drill spacings; instead, it requires that the Competent Person demonstrate that the chosen spacing reflects the geological continuity of the deposit. However, for typical structurally simple lode gold deposits in West Africa, industry practice and empirical data have established approximate spacings: Inferred Resources (~100-200 m) where geological continuity is inferred but not demonstrated; Indicated Resources (~25-50 m) where continuity is demonstrated with sufficient confidence for mine planning; Measured Resources (~10-25 m) where continuity is established at the highest level of confidence for detailed mine planning and grade control. Narrower spacings are required for higher-grade, geometrically complex, or high-nugget-effect deposits. The Competent Person must explicitly justify the spacing chosen based on variogram analysis and geological continuity assessment. These spacings drive the cost of resource definition drilling — moving from Inferred to Indicated on a large deposit requires 4-8 times as many drill holes.",
+    "key_concept": "JORC resource categories by drill spacing: Inferred ~100-200m, Indicated ~25-50m, Measured ~10-25m; Competent Person must justify continuity",
+    "source": "JORC Code 2012; resource estimation practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-034",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "A West African exploration project has completed geochemistry and airborne geophysics, identifying three priority anomalies. At the go/no-go decision point before committing to initial drilling ($3M budget), which criteria should be assessed?",
+    "options": {
+      "A": "Only whether the company has available cash in its bank account",
+      "B": "Anomaly size, grade, and geological setting; availability and security of drilling permits; infrastructure access; land tenure status; and whether the potential deposit size could support an economic mine",
+      "C": "The personal preference of the lead geologist regarding drilling targets",
+      "D": "The current weather forecast for the field season"
+    },
+    "correct": "B",
+    "explanation": "A rigorous go/no-go decision before initial drilling must evaluate multiple criteria simultaneously. Technical criteria: (1) Anomaly strength and extent — does the soil geochemistry anomaly exceed background by at least 10x, and does it extend over a large enough footprint (>500 m along strike) to potentially host a significant deposit? (2) Geological setting — is there a compelling geological model (favorable structure, lithology, alteration) to explain the anomaly as a potential gold deposit? (3) Deposit size potential — modelling the minimum economic deposit size (often >500,000 oz for a standalone West African project), does the target have realistic potential to host that volume? Business criteria: (4) Tenure — is the exploration permit in good standing, unencumbered, and with sufficient term to complete the program? (5) Access — can drill rigs reach the targets within budget, and are there security, community, or environmental constraints? (6) Capital — is sufficient budget secured to reach the next decision point regardless of result? Only if all criteria are satisfactorily answered should the $3M drilling commitment proceed.",
+    "key_concept": "Go/no-go before drilling: anomaly merit + geological model + deposit size potential + tenure + access + capital availability",
+    "source": "Exploration decision-making frameworks; West African project assessment",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-035",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "What is the 'J-curve' in the context of gold exploration and mine development economics?",
+    "options": {
+      "A": "The J-shaped price chart of gold over the past 20 years",
+      "B": "The cash flow profile of a mining project showing sustained negative cash flows during exploration and construction, followed by strongly positive cash flows during production",
+      "C": "A geological cross-section shape indicating a fold hinge zone with high gold grades",
+      "D": "A drilling trajectory using directional technology to reach targets beneath surface infrastructure"
+    },
+    "correct": "B",
+    "explanation": "The J-curve describes the characteristic cash flow profile of a mining project when plotted against time. Starting from initial exploration, cumulative cash flow trends steadily downward (the long stem of the J) as money is spent on: desktop studies ($50K-500K), geochemistry and geophysics ($1-5M), initial drilling ($2-10M), resource drilling ($10-50M), feasibility studies ($5-30M), permitting ($5-20M), and construction ($100-400M+). The total trough can be $150-500M of cumulative negative cash flow. Once production commences, the cash flow rapidly turns positive and the cumulative curve sweeps upward (the foot of the J), eventually recovering all invested capital and generating the project's net profit. The J-curve illustrates why mining is a long-duration, high-capital business: investors must fund many years of negative returns before seeing any recovery. Gold companies mitigate the J-curve through streaming deals, royalty financing, and offtake agreements that provide upfront capital, reducing the depth and duration of the negative cash flow trough.",
+    "key_concept": "J-curve: long negative cash flow through exploration and construction (~$150-500M), then positive production cash flow; illustrates capital intensity and time value of money challenge",
+    "source": "Mining project economics; cash flow analysis",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-036",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "In West Africa, what are the typical durations for obtaining a reconnaissance permit, an exploration permit, and a mining permit from application to grant?",
+    "options": {
+      "A": "All three take 1 week to obtain in any West African country",
+      "B": "Reconnaissance: 1-3 months; Exploration: 3-12 months; Mining: 2-7 years including ESIA and community consultation",
+      "C": "Reconnaissance: 5 years; Exploration: 10 years; Mining: 1 month",
+      "D": "No permits are required in West Africa — exploration is unregulated"
+    },
+    "correct": "B",
+    "explanation": "Permit timelines in West Africa vary by country, government efficiency, political context, and project complexity, but typical durations are: Reconnaissance permit (1-3 months) — relatively fast as it grants limited rights for non-invasive exploration (mapping, sampling) over a large area; Exploration permit (3-12 months) — requires more due diligence, financial guarantees, and government review; may involve inter-ministerial consultation. Mining permit/convention (2-7 years) — the most complex and time-consuming, requiring: a JORC-compliant resource and DFS, ESIA approved by environment ministry, social impact assessment, community consultation and compensation agreements, parliamentary ratification in some countries (e.g., Guinea), negotiation of fiscal terms with government, and national investment committee approval. Countries like Burkina Faso (before political instability) and Côte d'Ivoire have historically had shorter permitting timelines (2-4 years for mining permits), while Guinea and Sierra Leone can take 5-7+ years. CEOs must budget for permitting costs and timeline risk when modelling project development schedules.",
+    "key_concept": "West Africa permitting: Reconnaissance 1-3mo, Exploration 3-12mo, Mining 2-7 years; ESIA and community consultation dominate mining permit timeline",
+    "source": "West African mining law; ECOWAS mining regulation frameworks",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-037",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "In West African gold exploration, when is trenching preferred over drilling as a primary exploration technique?",
+    "options": {
+      "A": "Trenching is always preferred because it is cheaper than any drilling method",
+      "B": "Trenching is preferred in weathered (saprolite/oxide) zones where continuous exposure of fresh, uncontaminated material is needed to confirm geochemical anomalies and map structural controls at low cost",
+      "C": "Trenching is used only for underground mine development",
+      "D": "Trenching is preferred when drilling permits have not yet been obtained, as no permits are required for trenching"
+    },
+    "correct": "B",
+    "explanation": "Trenching is a valuable and cost-effective exploration technique in West Africa, particularly in the weathered zone (laterite and saprolite), which commonly extends 30-80 m below surface in tropical settings. Bulldozed or excavated trenches (typically 0.5-1 m wide, 1-3 m deep, 50-300 m long) provide continuous, fresh rock exposure that cannot be achieved by widely spaced drill holes. Key advantages: (1) Cheap — backhoe trenching costs $5-20 per linear metre versus $30-60/m for RC drilling; (2) Continuous sampling — chip channel samples at 1-2 m intervals give true section grade profiles; (3) Visual geology — direct observation of structure, alteration, veining, and mineralization style; (4) Structural measurements — strike and dip of veins and shear zones can be measured directly. Limitations: trenches penetrate only 2-5 m depth in soft laterite/saprolite, cannot reach fresh rock targets deeper than the weathered profile, and are subject to collapse in friable material. In West Africa, trenches are routinely used after soil anomaly definition and before committing to RC drilling, serving as a low-cost 'de-risking' step.",
+    "key_concept": "Trenching: $5-20/m, continuous exposure in weathered zone, structural mapping; intermediate step between soil sampling and RC drilling",
+    "source": "West African exploration practice; trenching methodology",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-038",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "An exploration team is investigating a laterite-covered gold anomaly in Côte d'Ivoire. Why would they use auger drilling rather than conventional soil pitting or RAB drilling for the initial geochemical sampling?",
+    "options": {
+      "A": "Auger drilling penetrates deeper than RC drilling and is faster than diamond drilling",
+      "B": "Auger drilling cheaply and rapidly samples through the laterite duricrust to the saprolite or base of oxidation where gold geochemical dispersion is stronger and more reliable than in surface laterite",
+      "C": "Auger drilling produces oriented core for structural analysis",
+      "D": "Auger drilling is required by JORC for all West African resource estimates"
+    },
+    "correct": "B",
+    "explanation": "In laterite-dominated West African terrain, surface soils and the hardcap laterite duricrust can give unreliable geochemical signals due to: (1) mechanical redistribution of gold by erosion; (2) Fe-Mn oxide scavenging masking true gold concentrations; (3) anthropogenic contamination from artisanal mining. The saprolite horizon immediately below the laterite (typically 3-20 m below surface) retains more reliable in-situ geochemical dispersion haloes, where gold and pathfinder elements (As, Sb, Bi, Te) are more faithfully representative of bedrock mineralisation below. Hand auger drilling (manual or motorized) penetrates 10-30 m depth for $5-20/m, reaching the saprolite where sample quality is superior. Vacuum (RAB-type) auger drills can reach 40-60 m. This technique was instrumental in discoveries such as Tongon (Côte d'Ivoire) and Tasiast (Mauritania), where surface laterite concealed major gold systems. Auger is preferred over soil pits (limited to 2 m, expensive to dig through hardcap) and over RAB/RC (more expensive, not needed until targets are defined).",
+    "key_concept": "Auger drilling: 10-60m depth, $5-20/m; samples reliable saprolite beneath misleading laterite duricrust; critical in covered terrain",
+    "source": "Laterite exploration techniques; West African auger drilling practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-039",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "An exploration team must choose between airborne electromagnetic (AEM) surveying and ground-based EM surveying for a West African gold project. What is the key trade-off in making this decision?",
+    "options": {
+      "A": "Airborne EM is always superior — ground EM has been made obsolete",
+      "B": "AEM covers large areas rapidly at low cost per km² but with shallower penetration and lower resolution; ground EM is slower and more expensive per km² but achieves greater depth penetration and higher resolution for specific targets",
+      "C": "Ground EM detects gold directly; AEM can only detect iron formations",
+      "D": "AEM requires a mining permit; ground EM requires only an exploration permit"
+    },
+    "correct": "B",
+    "explanation": "The choice between AEM and ground EM depends on exploration stage and target characteristics. Airborne EM (frequency-domain FDEM or time-domain TDEM systems such as VTEM, SkyTEM) is ideal for reconnaissance over large areas (100s to 1000s of km²) at $5-20/line-km, mapping regional conductors related to graphitic shear zones, sulfide-bearing formations, and wetland-covered structures. However, AEM depth penetration is typically limited to 200-400 m and resolution is insufficient to precisely locate a narrow conductor for drill targeting. Ground EM (moving loop TEM, fixed loop UTEM, CSAMT) achieves greater depth penetration (500-1000 m+), higher spatial resolution, and can be precisely located to within metres for drill targeting — but at $500-$2,000/station, it is 10-50 times more expensive per unit area. In West African gold exploration, AEM is used in the regional/reconnaissance stage (Stage 2-3) to identify prospective structural corridors, while ground EM is applied in the pre-drill stage (Stage 5) to refine specific targets for drill collaring.",
+    "key_concept": "AEM: large area, fast, cheap (~$5-20/line-km), 200-400m depth; Ground EM: high resolution, deep penetration, expensive (~$500-2000/station); use in sequence",
+    "source": "Exploration geophysics methodology; AEM vs ground EM",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-040",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "Why is Induced Polarization (IP) geophysics particularly useful for gold exploration in West Africa, even though gold itself is not a good IP target?",
+    "options": {
+      "A": "IP directly measures the concentration of gold in the subsurface",
+      "B": "IP detects disseminated sulfide minerals (pyrite, arsenopyrite) that are commonly spatially associated with gold mineralisation in orogenic and intrusion-related gold systems, even beneath deep laterite cover",
+      "C": "IP measures soil pH, which is lower over gold deposits due to sulfuric acid weathering",
+      "D": "IP is used to detect the clay alteration halos around granites, which always contain gold"
+    },
+    "correct": "B",
+    "explanation": "Induced Polarization (IP) measures the chargeability of subsurface rocks — essentially their ability to store and release electrical charge. Disseminated sulfide minerals (particularly pyrite, arsenopyrite, pyrrhotite) are excellent IP targets because they create a strong polarization response. In West African Birimian gold deposits, gold is typically associated with arsenopyrite-pyrite assemblages in shear zones and in stockwork veins. Even where gold grades are too low to detect geochemically through thick laterite, the associated sulfide halo may be large enough to produce a detectable IP chargeability anomaly. IP surveys (dipole-dipole, pole-dipole) typically achieve depth penetration of 200-400 m, adequate to detect mineralised zones beneath the laterite profile. Successful IP-guided gold discoveries in West Africa include Essakane (Burkina Faso), where IP chargeability anomalies led to drill targets that defined a +6 Moz deposit beneath 30-60 m of laterite. IP surveys cost $200-500 per station or approximately $5,000-$20,000/km of profile, making them cost-effective for target definition before expensive drilling.",
+    "key_concept": "IP measures sulfide chargeability (pyrite/arsenopyrite); gold often co-locates with sulfides; IP detects mineralised zones through laterite cover",
+    "source": "IP geophysics in gold exploration; West African case studies including Essakane",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-041",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "When diamond drilling a structurally complex gold deposit, why is drill core orientation critical, and how is it achieved?",
+    "options": {
+      "A": "Core orientation is used to determine the colour of the rock for lithological classification, achieved by photographing core in sunlight",
+      "B": "Core orientation allows measurement of the true dip and strike of mineralised veins and shear zones, essential for accurate structural modelling and resource estimation; achieved using downhole core orientation tools (e.g., Reflex ACT, EZY-MARK) or by reference orientation marks",
+      "C": "Core orientation is only required for geotechnical studies, not for gold resource estimation",
+      "D": "Drill core is always oriented by default — no special tools are needed"
+    },
+    "correct": "B",
+    "explanation": "Diamond drill core, when extracted from the drill string, is a cylinder of rock with no inherent spatial reference — the geologist knows the dip of the hole (from downhole survey) but not the rotational orientation of the core. Oriented core allows the geologist to take structural measurements (dip and dip direction of veins, foliation, fault planes, shear zones) in the core reference frame, then convert them to geographic coordinates using the hole orientation. This is critical for: (1) Building an accurate 3D geological model — e.g., determining whether a mineralised vein dips steeply to the east or west dramatically changes the estimated true width and volume; (2) Optimising future drill hole orientation — holes should be drilled as close to perpendicular to the true dip of mineralisation as possible to maximise true width intersections; (3) Resource estimation — true width (not apparent width) is required for accurate grade-tonnage calculations. Orientation is achieved using downhole tools (Reflex ACT II, Ezy-Mark, or Ballmark systems) that mark a reference line on the core at defined depth intervals, or by continuous core orientation devices in the core barrel. Unoriented core on a structurally complex deposit is a significant data gap that increases resource estimation uncertainty.",
+    "key_concept": "Core orientation: converts apparent measurements to geographic coordinates; essential for structural model, true width calculation, and resource estimation accuracy",
+    "source": "Diamond drilling methodology; structural geology in resource estimation",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-042",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "An exploration manager sets up a QA/QC program for a gold drilling campaign. What is the purpose of inserting certified reference materials (CRMs/standards), blanks, and field duplicates into the sample stream?",
+    "options": {
+      "A": "CRMs increase the gold grade of samples; blanks dilute low-grade samples; duplicates double the number of assays",
+      "B": "CRMs check laboratory accuracy (systematic bias); blanks detect contamination; field duplicates assess sampling precision and natural variability — together they validate data reliability for JORC-compliant resource estimation",
+      "C": "QA/QC samples are only required for diamond core, not for RC chips",
+      "D": "QA/QC is optional and only recommended for deposits over 1 Moz"
+    },
+    "correct": "B",
+    "explanation": "A robust QA/QC program is mandatory for any JORC-compliant exploration campaign and involves three types of control samples inserted blind into the sample stream at ~1 in every 20-30 samples: (1) Certified Reference Materials (CRMs/standards) — samples of known gold content certified by a NATA/ILAC-accredited laboratory. Inserted to detect systematic bias (accuracy) at the assay laboratory. If the laboratory consistently returns values above or below the certified value by >2 standard deviations, the assay batch is rejected and rerun. (2) Blanks — certified low-gold or zero-gold material (e.g., crushed granite or silica). Detect cross-contamination between samples in the crushing and pulverising circuit. A blank returning above the detection limit indicates a contamination event. (3) Field duplicates — split sample from the same interval collected independently (quarter-core duplicate or second RC riffle split). Assess the precision of the sampling process and natural grade variability. High coefficient of variation (>30%) indicates high nugget effect requiring denser sampling. A Competent Person assessing a dataset for JORC resource estimation must verify that QA/QC data demonstrates acceptable accuracy, freedom from contamination, and adequate precision before the data can be relied upon.",
+    "key_concept": "QA/QC: CRMs check accuracy (bias), blanks check contamination, field duplicates check precision; all mandatory for JORC resource estimation",
+    "source": "JORC Code 2012 Table 1; exploration QA/QC best practice",
+    "difficulty": 3
+  },
+  {
+    "id": "gold-04-043",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "A West African exploration company is about to start a 50,000-metre RC drilling program. What are the key principles of data management and database integrity that should be established before the first drill hole is completed?",
+    "options": {
+      "A": "Data can be recorded in any format — Excel spreadsheets on individual geologists' laptops are acceptable as the primary database",
+      "B": "A validated industry-standard database (e.g., acQuire, Datashed) should be set up with defined data entry protocols, validation rules, access controls, and regular backups before drilling commences",
+      "C": "Data management is the responsibility of the assay laboratory, not the exploration company",
+      "D": "Database integrity only matters at the resource estimation stage — raw field data needs no formal management"
+    },
+    "correct": "B",
+    "explanation": "Exploration databases are the foundation upon which JORC Mineral Resource estimates are built — corrupted, incomplete, or poorly structured data cannot be corrected retrospectively and can invalidate years of expensive fieldwork. Industry-standard database management software (acQuire GIM Suite, Datashed, or equivalent) provides: (1) Structured relational tables for collar, survey (downhole deviation), assay, geology, and geotechnical data linked by unique hole identifiers; (2) Automated validation rules preventing impossible values (e.g., depths exceeding drilled length, assay grades >physical detection limit); (3) Access controls ensuring only authorised personnel can enter or modify data; (4) Audit trails recording who changed what and when; (5) Regular encrypted backups both locally and off-site. Data entry protocols must specify: sample naming conventions, depth recording methodology, field duplicate labelling, and the workflow from paper field logs to digital database entry and verification. A Competent Person preparing a JORC resource estimate must certify that the database has been validated and is reliable — companies using ad hoc systems often face expensive remediation programs to reconstruct historical data.",
+    "key_concept": "Exploration database: industry-standard software (acQuire/Datashed), validation rules, access controls, backups; mandatory foundation for JORC resource estimation",
+    "source": "Exploration data management; JORC Code 2012 Table 1 (sampling and data)",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-044",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "A junior gold explorer has identified a high-priority target in rural West Africa but is encountering resistance from a local farming community whose land overlaps the proposed drill locations. What is the correct approach, and why is 'social licence to explore' critical at this stage?",
+    "options": {
+      "A": "Proceed with drilling immediately, as the exploration permit from government overrides any community objections",
+      "B": "Engage the community through transparent consultation, explain the exploration program, address concerns about land access and compensation, involve local leadership, and obtain Free, Prior and Informed Consent (FPIC) before commencing any ground disturbance",
+      "C": "Offer cash payments to community leaders without broader consultation to secure quick access",
+      "D": "Abandon the target immediately — any community objection makes exploration impossible"
+    },
+    "correct": "B",
+    "explanation": "Social licence to explore — the ongoing acceptance of exploration activities by affected communities — is increasingly recognised as as important as the legal permit from government. In West Africa, communities have disrupted and permanently halted projects that held valid government permits (examples include projects in Guinea, Sierra Leone, and Mali where community opposition suspended operations). The correct approach follows FPIC (Free, Prior and Informed Consent) principles: (1) Free — consultation without coercion or inducements that constitute bribery; (2) Prior — engagement before any ground disturbance activity begins, not after; (3) Informed — providing clear, culturally appropriate information about what exploration involves (soil sampling, drilling, temporary land access), expected duration, environmental impacts, and community benefits; (4) Ongoing — consent is a continuous process, not a one-time event. Practical steps in West Africa: meet with village chiefs, women's groups, youth associations, and farmers; map community land use to identify sacred sites, farm boundaries, and seasonal access constraints; establish a community liaison officer role; and document agreements in writing. Companies that invest in genuine community engagement in early exploration spend a fraction of what companies spend managing community crises during development. The Voluntary Principles on Security and Human Rights and IFC Performance Standards provide the international framework.",
+    "key_concept": "Social licence: FPIC principles (Free, Prior, Informed Consent); community engagement before ground disturbance; prevents costly project disruption",
+    "source": "IFC Performance Standards; ICMM Community Development; West African exploration practice",
+    "difficulty": 2
+  },
+  {
+    "id": "gold-04-045",
+    "chapterId": "gold-04",
+    "domain": "gold",
+    "question": "An exploration team is using GIS (Geographic Information System) and multi-criteria analysis to rank drill targets across a 5,000 km² West African licence block. Which combination of data layers would be MOST appropriate for a gold targeting model in Birimian terrain?",
+    "options": {
+      "A": "Population density, road network quality, and average annual rainfall",
+      "B": "Proximity to Birimian greenstone belt contacts, structural lineament density (fault/shear intersections), soil geochemical anomaly footprint (Au + As), IP chargeability anomalies, and historical artisanal workings",
+      "C": "Uranium radiometric anomalies, gravity Bouguer anomalies, and seismic reflection data",
+      "D": "Vegetation cover index, soil moisture content, and terrain slope"
+    },
+    "correct": "B",
+    "explanation": "Multi-criteria GIS targeting for orogenic gold in Birimian greenstone belts integrates multiple spatial data layers, each representing a geological control on gold mineralisation, to produce a composite 'prospectivity map.' The most effective layers are: (1) Proximity to lithostructural contacts — Birimian gold deposits cluster at contacts between volcanic and sedimentary sequences, or at margins of granitoid intrusions; (2) Structural lineament intersections — high density of fault and shear zone intersections ('bull's-eyes' in structural maps) marks areas of structural dilation favouring gold deposition; these are mapped from airborne magnetics and satellite data; (3) Soil geochemical anomalies — elevated Au, As, Sb, Bi, Te footprint from soil or stream sediment surveys defines the surface expression of the mineralised system; (4) IP chargeability anomalies — deeper sulfide halos detected beneath laterite cover by ground IP surveys; (5) Artisanal mining workings — ASM (artisanal and small-scale mining) activity is one of the best natural prospectors; concentration of historic workings indicates known gold occurrence. Each layer is scored (e.g., 1-5) and weighted by empirical importance, then combined in GIS to rank target sectors. This approach, pioneered by companies like Shandong Gold, Endeavour Mining, and Barrick in West Africa, allows systematic, defensible, and repeatable target prioritisation across large land packages rather than relying on individual geologist intuition.",
+    "key_concept": "GIS multi-criteria targeting: lithostructural contacts + structural intersections + geochemistry + IP + ASM workings; systematic Birimian gold prospectivity mapping",
+    "source": "Mineral prospectivity mapping; GIS in exploration; West African Birimian gold targeting",
+    "difficulty": 3
   }
 ]
