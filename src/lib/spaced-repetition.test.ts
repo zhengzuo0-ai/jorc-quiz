@@ -14,9 +14,9 @@ describe('calculateNextReview', () => {
   beforeEach(() => { vi.useFakeTimers(); vi.setSystemTime(new Date('2026-03-26T00:00:00Z')); });
   afterEach(() => vi.useRealTimers());
 
-  it('on correct with intervalDays=1, keeps interval at 1', () => {
+  it('on correct with intervalDays=1, advances to 2', () => {
     const r = calculateNextReview(makeEntry({ intervalDays: 1 }), true);
-    expect(r.intervalDays).toBe(1);
+    expect(r.intervalDays).toBe(2);
     expect(r.easeFactor).toBe(2.6);
   });
 

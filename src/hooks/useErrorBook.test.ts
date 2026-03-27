@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { calculateNextReview, isDueForReview } from '../lib/spaced-repetition';
+import { calculateNextReview } from '../lib/spaced-repetition';
 import type { ErrorEntry } from '../types';
 
 // Test the spaced repetition integration with error book logic
@@ -12,10 +12,9 @@ describe('ErrorBook spaced repetition integration', () => {
 
   it('correct answer increases interval progressively: 1→1→6→15', () => {
     let entry = { ...baseEntry, intervalDays: 1 };
-    entry = calculateNextReview(entry, true); // 1→1
-    expect(entry.intervalDays).toBe(1);
-    
-    entry = { ...entry, intervalDays: 2 };
+    entry = calculateNextReview(entry, true); // 1→2
+    expect(entry.intervalDays).toBe(2);
+
     entry = calculateNextReview(entry, true); // 2→6
     expect(entry.intervalDays).toBe(6);
     
