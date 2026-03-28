@@ -38,3 +38,25 @@ describe('chapters data', () => {
     }
   });
 });
+
+import * as fs from 'fs';
+import * as path from 'path';
+
+describe('concept files', () => {
+  const conceptDir = path.join(__dirname, '../../public/concepts');
+
+  it('glossary.md exists', () => {
+    expect(fs.existsSync(path.join(conceptDir, 'glossary.md'))).toBe(true);
+  });
+
+  it('learning-path.md exists', () => {
+    expect(fs.existsSync(path.join(conceptDir, 'learning-path.md'))).toBe(true);
+  });
+
+  it('all main chapters have concept files', () => {
+    for (const ch of chapters) {
+      const file = path.join(conceptDir, `${ch.id}.md`);
+      expect(fs.existsSync(file), `Missing concept file: ${ch.id}.md`).toBe(true);
+    }
+  });
+});
