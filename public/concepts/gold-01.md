@@ -85,13 +85,20 @@
 
 ### 8. 黄金供需平衡 (Gold Supply-Demand Balance)
 
+*最新数据来源: [World Gold Council 2026](https://www.gold.org/goldhub/gold-focus/2026/03/central-bank-gold-statistics-momentum-eases-january-while-demand-base), [J.P. Morgan](https://www.jpmorgan.com/insights/global-research/commodities/gold-prices), [Fortune 2026年3月](https://fortune.com/article/current-price-of-gold-03-26-2026/)*
+
+**当前金价 (2026年3月):** ~$4,376-4,510/oz
+**历史最高:** $5,300+/oz (2026年3月，美以打击伊朗后短暂飙升)
+**2025年表现:** +60%以上，创50+次新高
+**2026年预测:** J.P. Morgan $5,000/oz (Q4), Goldman Sachs $5,400/oz (年底)
+
 黄金需求构成（按用途）：
 
 | 需求类别 | 占比 | 说明 |
 |---------|------|------|
 | 珠宝 (Jewellery) | ~50% | 中国和印度为最大消费市场 |
 | 投资 (Investment) | ~25% | 金条、金币、ETF |
-| 央行 (Central Banks) | ~15% | 储备多元化，近年比例上升 |
+| 央行 (Central Banks) | ~15% | 连续3年购金超1,000吨/年 (2022-2024), 2026年预计800吨 |
 | 科技 (Technology) | ~10% | 电子、医疗、航空航天 |
 
 供给端约 75% 来自矿产金 (Mine Production)，25% 来自回收金 (Recycled Gold)。供给端增长缓慢（新矿山开发周期长），而需求端波动较大，这使得金价对需求变化高度敏感。
